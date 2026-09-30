@@ -187,3 +187,6 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 .site-footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; align-items: center; }
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-left: auto; }
 .site-footer a { color: var(--muted); }
+
+/* Video de demostración (vertical) */
+.reel { display: block; margin-inline: auto; width: min(100%, 360px); aspect-ratio: 9 / 16; border-radius: 28px; background: #0c0f0e; box-shadow: 0 30px 60px -30px rgba(10, 30, 20, 0.45), 0 0 0 1px var(--line); }
