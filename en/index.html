@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vencito · Expiry dates under control</title>
+<meta name="description" content="Vencito is an iPhone and iPad app that reads the expiration date from a photo of the package and reminds you before it expires. Everything on-device, no accounts.">
+<meta name="theme-color" content="#1f7a57">
+<link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="alternate" hreflang="es" href="https://diegokelya.github.io/vencito/">
+<link rel="alternate" hreflang="en" href="https://diegokelya.github.io/vencito/en/">
+<meta property="og:title" content="Vencito · Expiry dates under control">
+<meta property="og:description" content="Snap the package: Vencito reads the date and reminds you before it expires.">
+<meta property="og:image" content="https://diegokelya.github.io/vencito/assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="../assets/img/icon.svg" alt="" width="34" height="34">Vencito</a>
+    <nav class="nav" aria-label="Main">
+      <a class="hide-sm" href="#funciones">Features</a>
+      <a class="hide-sm" href="#privacidad">Privacy</a>
+      <a href="../support.html#en">Support</a>
+      <a class="lang" href="../" hreflang="es" lang="es">Español</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">For iPhone and iPad</p>
+        <h1>Nothing in your pantry goes to waste.</h1>
+        <p class="lead">Snap a photo of the package and Vencito reads the expiration date. It reminds you before it expires and shows you what to use first.</p>
+        <div class="stamp-line" aria-label="Example: EXP 14/02/27 is read as February 14, 2027">
+          <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">February 14, 2027</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="#probar">Try the date reader</a>
+          <a class="btn btn-ghost" href="#funciones">See features</a>
+        </div>
+        <p class="note">Coming soon to the App Store · Free · iOS and iPadOS 17 or later</p>
+      </div>
+      <div class="device"><img src="../assets/img/iphone-en-list.webp" alt="Product list in Vencito: summary with total, expired and expiring soon, and products grouped by status with thumbnails" width="660" height="1434" fetchpriority="high"></div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="como">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2 id="como">From the store shelf to your fridge, in three steps</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Snap a photo</h3><p>Of the package, with the date in view. If the barcode shows up in the photo, it reads that too.</p></li>
+        <li><h3>Vencito fills in the rest</h3><p>It reads the date, suggests a name and category, and looks the barcode up on Open Food Facts. You review and save.</p></li>
+        <li><h3>Get reminded in time</h3><p>One notification a day, at the hour you choose, with what is about to expire: by default 30, 15, 7, 3 and 1 day before.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="probar" aria-labelledby="probar-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Try it here</p>
+        <h2 id="probar-t">Type what the package says</h2>
+        <p class="lead">This is a simplified version of the app’s date reader. It understands the formats printed on packages and prefers the expiration date over the manufacturing date.</p>
+      </div>
+      <div class="demo">
+        <div class="label-card">
+          <label for="label-text">Text printed on the package</label>
+          <input id="label-text" type="text" value="MFG 03/01/26 EXP 14/02/27" autocomplete="off" spellcheck="false">
+          <div class="chips" aria-label="Examples">
+            <button class="chip-btn" type="button" data-sample="USE BY 25 AUG 2026">25 AUG 2026</button>
+            <button class="chip-btn" type="button" data-sample="Best before 3/4/27">3/4/27</button>
+            <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
+            <button class="chip-btn" type="button" data-sample="Best before 2027-06-12">2027-06-12</button>
+          </div>
+        </div>
+        <div class="result" aria-live="polite">
+          <p class="eyebrow">Expiration date</p>
+          <p class="date" id="result-date">—</p>
+          <span class="pill none" id="result-pill">—</span>
+          <p class="note" id="result-how"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="funciones" class="band" aria-labelledby="funciones-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Features</p>
+        <h2 id="funciones-t">Made for the pantry, the fridge and the medicine cabinet</h2>
+      </div>
+      <div class="features">
+        <div class="feature"><h3>AI recognition</h3><p>On iPhones with Apple Intelligence, Apple’s model looks at the photo and fills in name, category and expiration date. It runs on the iPhone, offline.</p></div>
+        <div class="feature"><h3>Date reader</h3><p>EXP 14/02/27, 25-08-2026, 25 AUG 2026, 08/2027… It tells expiration from manufacturing dates and reads packages in six languages.</p></div>
+        <div class="feature"><h3>Barcodes</h3><p>Live scanning or from the photo. Open Food Facts fills in name, brand and category.</p></div>
+        <div class="feature"><h3>Widgets</h3><p>On the Home Screen and Lock Screen, with what expires next. Tap a product to open it in the app.</p></div>
+        <div class="feature"><h3>Status at a glance</h3><p>Expired, expiring soon and upcoming, with a summary on top and a thumbnail for every product.</p></div>
+        <div class="feature"><h3>Swipe to consume</h3><p>One swipe takes off a unit or removes the product. Made a mistake? Shake to undo.</p></div>
+        <div class="feature"><h3>iPad</h3><p>List and detail side by side, in any orientation and with multitasking. With a keyboard, ⌘N adds a product.</p></div>
+        <div class="feature"><h3>Six languages</h3><p>Spanish, English, Portuguese (Brazil), French, Italian and German. Switch instantly in Settings.</p></div>
+        <div class="feature"><h3>Accessible</h3><p>Works with VoiceOver and large text sizes. Each product is read in full: name, status and date.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="capturas-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Screenshots</p>
+        <h2 id="capturas-t">A closer look</h2>
+      </div>
+      <div class="gallery">
+        <figure><div class="device"><img src="../assets/img/iphone-en-detail.webp" alt="Product detail with photo, expiration date, category and location" width="660" height="1434" loading="lazy"></div><figcaption>Product detail</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-en-add.webp" alt="Form to add a product with photo, name, category and date" width="660" height="1434" loading="lazy"></div><figcaption>Add with a photo or by hand</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-en-settings.webp" alt="Settings with reminder days, notification time and language" width="660" height="1434" loading="lazy"></div><figcaption>Reminders your way</figcaption></figure>
+      </div>
+      <div class="ipad-row">
+        <div class="device ipad"><img src="../assets/img/ipad-en-detail.webp" alt="Vencito on iPad: product list on the left and the selected product on the right" width="1376" height="1032" loading="lazy"></div>
+        <p class="note" style="text-align:center">On iPad, list and detail sit side by side.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacidad" class="band" aria-labelledby="privacidad-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Privacy</p>
+        <h2 id="privacidad-t">Your data stays on your iPhone</h2>
+        <p class="lead">Vencito has no accounts, no servers of its own, no analytics and no ads.</p>
+      </div>
+      <div class="privacy-grid">
+        <div><h3>All on-device</h3><p>Products, photos and settings are stored only on your iPhone or iPad.</p></div>
+        <div><h3>AI without the cloud</h3><p>Text, barcodes and Apple Intelligence recognition are processed on the device.</p></div>
+        <div><h3>One optional piece of data leaves</h3><p>To look up a product, only the barcode number is sent to Open Food Facts. You can turn it off.</p></div>
+        <div><h3>Local reminders</h3><p>Notifications are scheduled by the iPhone itself. They never go through a server.</p></div>
+      </div>
+      <p style="margin-top:28px"><a href="../privacy.html#en">Read the full privacy policy</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="faq-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-t">Common questions</h2>
+      </div>
+      <div class="faq">
+        <details><summary>How much does it cost?</summary><p>It’s free, with nothing locked. If you find it useful, you can buy me a coffee with an optional tip in Settings.</p></details>
+        <details><summary>Do I need an iPhone with Apple Intelligence?</summary><p>No. Without it, the app reads the date and name with Apple’s text recognition. AI adds the category and reads tricky packages better.</p></details>
+        <details><summary>Does it work offline?</summary><p>Yes. Only the barcode product lookup needs the internet.</p></details>
+        <details><summary>Can I move my data to another phone?</summary><p>Yes. In Settings you can export a file with all your products (with or without photos) and import it on another device.</p></details>
+        <details><summary>What if the date shows only month and year?</summary><p>The app uses the last day of that month, which is how packages are meant to be read.</p></details>
+      </div>
+      <p style="margin-top:24px">Another question or a problem? <a href="../support.html#en">Contact support</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Diego Kelyacoubian · Vencito</span>
+    <nav aria-label="Footer">
+      <a href="../privacy.html#en">Privacy</a>
+      <a href="../support.html#en">Support</a>
+      <a href="../" hreflang="es" lang="es">Español</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

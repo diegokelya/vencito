@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vencito · Vencimientos bajo control</title>
+<meta name="description" content="Vencito es una app para iPhone y iPad que lee la fecha de vencimiento de una foto del envase y te avisa antes de que se venza. Todo en el dispositivo, sin cuentas.">
+<meta name="theme-color" content="#1f7a57">
+<link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="alternate" hreflang="es" href="https://diegokelya.github.io/vencito/">
+<link rel="alternate" hreflang="en" href="https://diegokelya.github.io/vencito/en/">
+<meta property="og:title" content="Vencito · Vencimientos bajo control">
+<meta property="og:description" content="Sacale una foto al envase: Vencito lee la fecha y te avisa antes de que se venza.">
+<meta property="og:image" content="https://diegokelya.github.io/vencito/assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/icon.svg" alt="" width="34" height="34">Vencito</a>
+    <nav class="nav" aria-label="Principal">
+      <a class="hide-sm" href="#funciones">Funciones</a>
+      <a class="hide-sm" href="#privacidad">Privacidad</a>
+      <a href="support.html">Soporte</a>
+      <a class="lang" href="en/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">App para iPhone y iPad</p>
+        <h1>Que nada se venza en la alacena.</h1>
+        <p class="lead">Sacale una foto al envase y Vencito lee la fecha de vencimiento. Te avisa antes de que caduque y te muestra qué conviene usar primero.</p>
+        <div class="stamp-line" aria-label="Ejemplo: VTO 14/02/27 se lee como 14 de febrero de 2027">
+          <span class="stamp">VTO 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">14 de febrero de 2027</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="#probar">Probá el lector de fechas</a>
+          <a class="btn btn-ghost" href="#funciones">Ver funciones</a>
+        </div>
+        <p class="note">Muy pronto en el App Store · Gratis · iOS y iPadOS 17 o posterior</p>
+      </div>
+      <div class="device"><img src="assets/img/iphone-es-list.webp" alt="Lista de productos en Vencito: resumen con total, vencidos y por vencer, y productos agrupados por estado con su miniatura" width="660" height="1434" fetchpriority="high"></div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="como">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Cómo funciona</p>
+        <h2 id="como">De la góndola a la heladera, en tres pasos</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Sacale una foto</h3><p>Al envase, donde se vea la fecha. Si en la foto aparece el código de barras, también lo lee.</p></li>
+        <li><h3>Vencito completa el resto</h3><p>Lee la fecha, sugiere el nombre y la categoría, y si hay código de barras busca el producto en Open Food Facts. Vos revisás y guardás.</p></li>
+        <li><h3>Te avisa a tiempo</h3><p>Una notificación por día, a la hora que elijas, con lo que está por vencer: por defecto 30, 15, 7, 3 y 1 día antes.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="probar" aria-labelledby="probar-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Probalo acá</p>
+        <h2 id="probar-t">Escribí lo que dice el envase</h2>
+        <p class="lead">Esta es una versión simplificada del lector de fechas de la app. Entiende los formatos que se ven en los envases y prioriza la fecha de vencimiento por sobre la de elaboración.</p>
+      </div>
+      <div class="demo">
+        <div class="label-card">
+          <label for="label-text">Texto impreso en el envase</label>
+          <input id="label-text" type="text" value="ELAB 03/01/26 VTO 14/02/27" autocomplete="off" spellcheck="false">
+          <div class="chips" aria-label="Ejemplos">
+            <button class="chip-btn" type="button" data-sample="VENC: 25 AGO 2026">25 AGO 2026</button>
+            <button class="chip-btn" type="button" data-sample="Consumir antes del 3/4/27">3/4/27</button>
+            <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
+            <button class="chip-btn" type="button" data-sample="Best before 2027-06-12">2027-06-12</button>
+          </div>
+        </div>
+        <div class="result" aria-live="polite">
+          <p class="eyebrow">Fecha de vencimiento</p>
+          <p class="date" id="result-date">—</p>
+          <span class="pill none" id="result-pill">—</span>
+          <p class="note" id="result-how"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="funciones" class="band" aria-labelledby="funciones-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Funciones</p>
+        <h2 id="funciones-t">Pensada para la alacena, la heladera y el botiquín</h2>
+      </div>
+      <div class="features">
+        <div class="feature"><h3>Reconocimiento con IA</h3><p>En iPhone con Apple Intelligence, el modelo de Apple mira la foto y completa nombre, categoría y vencimiento. Corre en el iPhone, sin internet.</p></div>
+        <div class="feature"><h3>Lector de fechas</h3><p>VTO 14/02/27, 25-08-2026, 25 AGO 2026, 08/2027… Distingue vencimiento de elaboración y entiende envases en seis idiomas.</p></div>
+        <div class="feature"><h3>Código de barras</h3><p>Escaneo en vivo o desde la foto. Con Open Food Facts completa el nombre, la marca y la categoría.</p></div>
+        <div class="feature"><h3>Widgets</h3><p>En la pantalla de inicio y la bloqueada, con lo próximo a vencer. Tocás un producto y se abre en la app.</p></div>
+        <div class="feature"><h3>Estados de un vistazo</h3><p>Vencidos, por vencer y próximos, con un resumen arriba y una miniatura de cada producto.</p></div>
+        <div class="feature"><h3>“Consumido” con un gesto</h3><p>Deslizás y descuenta una unidad o saca el producto. Si te equivocás, agitás el iPhone para deshacer.</p></div>
+        <div class="feature"><h3>iPad</h3><p>Lista y detalle lado a lado, en cualquier orientación y con multitarea. Con teclado, ⌘N agrega un producto.</p></div>
+        <div class="feature"><h3>Seis idiomas</h3><p>Español, inglés, portugués (Brasil), francés, italiano y alemán. Se cambia desde Ajustes, al instante.</p></div>
+        <div class="feature"><h3>Accesible</h3><p>Compatible con VoiceOver y con tamaños de letra grandes. Cada producto se lee completo: nombre, estado y fecha.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="capturas-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Capturas</p>
+        <h2 id="capturas-t">Así se ve</h2>
+      </div>
+      <div class="gallery">
+        <figure><div class="device"><img src="assets/img/iphone-es-detail.webp" alt="Detalle de un producto con su foto, fecha de vencimiento, categoría y ubicación" width="660" height="1434" loading="lazy"></div><figcaption>Detalle del producto</figcaption></figure>
+        <figure><div class="device"><img src="assets/img/iphone-es-add.webp" alt="Formulario para agregar un producto con foto, nombre, categoría y fecha" width="660" height="1434" loading="lazy"></div><figcaption>Alta con foto o a mano</figcaption></figure>
+        <figure><div class="device"><img src="assets/img/iphone-es-settings.webp" alt="Ajustes con días de aviso, hora de la notificación e idioma" width="660" height="1434" loading="lazy"></div><figcaption>Avisos a tu medida</figcaption></figure>
+      </div>
+      <div class="ipad-row">
+        <div class="device ipad"><img src="assets/img/ipad-es-detail.webp" alt="Vencito en iPad: la lista de productos a la izquierda y el detalle del producto elegido a la derecha" width="1376" height="1032" loading="lazy"></div>
+        <p class="note" style="text-align:center">En iPad, la lista y el detalle quedan lado a lado.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacidad" class="band" aria-labelledby="privacidad-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Privacidad</p>
+        <h2 id="privacidad-t">Tus datos se quedan en tu iPhone</h2>
+        <p class="lead">Vencito no tiene cuentas, servidores propios, analíticas ni publicidad.</p>
+      </div>
+      <div class="privacy-grid">
+        <div><h3>Todo en el dispositivo</h3><p>Los productos, las fotos y los ajustes se guardan solo en el iPhone o el iPad.</p></div>
+        <div><h3>IA sin nube</h3><p>El texto, los códigos de barras y el reconocimiento con Apple Intelligence se procesan en el dispositivo.</p></div>
+        <div><h3>Un solo dato sale, y es opcional</h3><p>Para buscar un producto se envía únicamente el número del código de barras a Open Food Facts. Se puede desactivar.</p></div>
+        <div><h3>Avisos locales</h3><p>Las notificaciones las programa el propio iPhone. No pasan por ningún servidor.</p></div>
+      </div>
+      <p style="margin-top:28px"><a href="privacy.html">Leer la política de privacidad completa</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="faq-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2 id="faq-t">Lo que suelen preguntar</h2>
+      </div>
+      <div class="faq">
+        <details><summary>¿Cuánto cuesta?</summary><p>Es gratis y no tiene funciones bloqueadas. Si te sirve, podés invitarme un café desde Ajustes con una propina opcional.</p></details>
+        <details><summary>¿Necesito un iPhone con Apple Intelligence?</summary><p>No. Sin Apple Intelligence, la app lee la fecha y el nombre con el reconocimiento de texto de Apple. La IA suma la categoría y mejora la lectura en envases difíciles.</p></details>
+        <details><summary>¿Funciona sin conexión?</summary><p>Sí. Solo la búsqueda del producto por código de barras necesita internet.</p></details>
+        <details><summary>¿Puedo pasar mis datos a otro teléfono?</summary><p>Sí. En Ajustes podés exportar un archivo con todos tus productos (con o sin fotos) e importarlo en otro dispositivo.</p></details>
+        <details><summary>¿Qué pasa si la fecha dice solo mes y año?</summary><p>La app toma el último día de ese mes, que es como se interpreta en los envases.</p></details>
+      </div>
+      <p style="margin-top:24px">¿Otra duda o un problema? <a href="support.html">Escribinos en soporte</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Diego Kelyacoubian · Vencito</span>
+    <nav aria-label="Pie">
+      <a href="privacy.html">Privacidad</a>
+      <a href="support.html">Soporte</a>
+      <a href="en/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
