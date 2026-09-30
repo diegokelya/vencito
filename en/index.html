@@ -60,7 +60,7 @@
         <h2 id="como">From the store shelf to your fridge, in three steps</h2>
       </div>
       <ol class="steps">
-        <li><h3>Snap a photo</h3><p>Of the package, with the date in view. If the barcode shows up in the photo, it reads that too.</p></li>
+        <li><h3>Snap a photo</h3><p>Of the package, with the date in view. Or point the camera live: it reads the barcode and the date at once. You can add more photos: product, barcode and expiry date.</p></li>
         <li><h3>Vencito fills in the rest</h3><p>It reads the date, suggests a name and category, and looks the barcode up on Open Food Facts. You review and save.</p></li>
         <li><h3>Get reminded in time</h3><p>One notification a day, at the hour you choose, with what is about to expire: by default 30, 15, 7, 3 and 1 day before.</p></li>
       </ol>
@@ -82,6 +82,7 @@
             <button class="chip-btn" type="button" data-sample="USE BY 25 AUG 2026">25 AUG 2026</button>
             <button class="chip-btn" type="button" data-sample="Best before 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
+            <button class="chip-btn" type="button" data-sample="EXP:04/27">EXP:04/27</button>
             <button class="chip-btn" type="button" data-sample="Best before 2027-06-12">2027-06-12</button>
           </div>
         </div>
@@ -103,8 +104,10 @@
       </div>
       <div class="features">
         <div class="feature"><h3>AI recognition</h3><p>On iPhones with Apple Intelligence, Apple’s model looks at the photo and fills in name, category and expiration date. It runs on the iPhone, offline.</p></div>
-        <div class="feature"><h3>Date reader</h3><p>EXP 14/02/27, 25-08-2026, 25 AUG 2026, 08/2027… It tells expiration from manufacturing dates and reads packages in six languages.</p></div>
-        <div class="feature"><h3>Barcodes</h3><p>Live scanning or from the photo. Open Food Facts fills in name, brand and category.</p></div>
+        <div class="feature"><h3>Date reader</h3><p>EXP 14/02/27, 25-08-2026, 25 AUG 2026, 08/2027, EXP 04/27… It tells expiration from manufacturing dates and reads packages in six languages.</p></div>
+        <div class="feature"><h3>Barcodes</h3><p>Live scanning or from the photo, with EAN, UPC and QR codes. Open Food Facts fills in name, brand and category.</p></div>
+        <div class="feature"><h3>Live scan</h3><p>In a single frame it reads the barcode, the expiration date and the product name. Each value is only confirmed once it repeats, to avoid blurry misreads.</p></div>
+        <div class="feature"><h3>Multiple photos per product</h3><p>Keep a photo of the product, one of the barcode, one of the expiry date and as many as you like. They show up in a swipeable gallery.</p></div>
         <div class="feature"><h3>Widgets</h3><p>On the Home Screen and Lock Screen, with what expires next. Tap a product to open it in the app.</p></div>
         <div class="feature"><h3>Status at a glance</h3><p>Expired, expiring soon and upcoming, with a summary on top and a thumbnail for every product.</p></div>
         <div class="feature"><h3>Swipe to consume</h3><p>One swipe takes off a unit or removes the product. Made a mistake? Shake to undo.</p></div>
@@ -161,7 +164,8 @@
         <details><summary>Do I need an iPhone with Apple Intelligence?</summary><p>No. Without it, the app reads the date and name with Apple’s text recognition. AI adds the category and reads tricky packages better.</p></details>
         <details><summary>Does it work offline?</summary><p>Yes. Only the barcode product lookup needs the internet.</p></details>
         <details><summary>Can I move my data to another phone?</summary><p>Yes. In Settings you can export a file with all your products (with or without photos) and import it on another device.</p></details>
-        <details><summary>What if the date shows only month and year?</summary><p>The app uses the last day of that month, which is how packages are meant to be read.</p></details>
+        <details><summary>What if the date shows only month and year?</summary><p>The app uses the last day of that month, which is how packages are meant to be read. It understands both 08/2027 and EXP 04/27.</p></details>
+        <details><summary>Can I keep more than one photo per product?</summary><p>Yes. Besides the main photo you can add one of the barcode, one of the expiry date and up to 8 more. Swipe through them on the detail screen; they are included when you export.</p></details>
       </div>
       <p style="margin-top:24px">Another question or a problem? <a href="../support.html#en">Contact support</a>.</p>
     </div>

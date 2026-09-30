@@ -60,7 +60,7 @@
         <h2 id="como">De la góndola a la heladera, en tres pasos</h2>
       </div>
       <ol class="steps">
-        <li><h3>Sacale una foto</h3><p>Al envase, donde se vea la fecha. Si en la foto aparece el código de barras, también lo lee.</p></li>
+        <li><h3>Sacale una foto</h3><p>Al envase, donde se vea la fecha. O apuntá la cámara en vivo: lee el código de barras y la fecha a la vez. Podés sumar más fotos: producto, código y vencimiento.</p></li>
         <li><h3>Vencito completa el resto</h3><p>Lee la fecha, sugiere el nombre y la categoría, y si hay código de barras busca el producto en Open Food Facts. Vos revisás y guardás.</p></li>
         <li><h3>Te avisa a tiempo</h3><p>Una notificación por día, a la hora que elijas, con lo que está por vencer: por defecto 30, 15, 7, 3 y 1 día antes.</p></li>
       </ol>
@@ -82,6 +82,7 @@
             <button class="chip-btn" type="button" data-sample="VENC: 25 AGO 2026">25 AGO 2026</button>
             <button class="chip-btn" type="button" data-sample="Consumir antes del 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
+            <button class="chip-btn" type="button" data-sample="VTO:04/27">VTO:04/27</button>
             <button class="chip-btn" type="button" data-sample="Best before 2027-06-12">2027-06-12</button>
           </div>
         </div>
@@ -103,8 +104,10 @@
       </div>
       <div class="features">
         <div class="feature"><h3>Reconocimiento con IA</h3><p>En iPhone con Apple Intelligence, el modelo de Apple mira la foto y completa nombre, categoría y vencimiento. Corre en el iPhone, sin internet.</p></div>
-        <div class="feature"><h3>Lector de fechas</h3><p>VTO 14/02/27, 25-08-2026, 25 AGO 2026, 08/2027… Distingue vencimiento de elaboración y entiende envases en seis idiomas.</p></div>
-        <div class="feature"><h3>Código de barras</h3><p>Escaneo en vivo o desde la foto. Con Open Food Facts completa el nombre, la marca y la categoría.</p></div>
+        <div class="feature"><h3>Lector de fechas</h3><p>VTO 14/02/27, 25-08-2026, 25 AGO 2026, 08/2027, VTO 04/27… Distingue vencimiento de elaboración y entiende envases en seis idiomas.</p></div>
+        <div class="feature"><h3>Código de barras</h3><p>Escaneo en vivo o desde la foto, con códigos EAN, UPC y QR. Con Open Food Facts completa el nombre, la marca y la categoría.</p></div>
+        <div class="feature"><h3>Escaneo en vivo</h3><p>Con un solo encuadre lee el código de barras, la fecha de vencimiento y el nombre del envase. Confirma cada dato recién cuando se repite, para evitar lecturas borrosas.</p></div>
+        <div class="feature"><h3>Varias fotos por producto</h3><p>Guardá una foto del producto, otra del código de barras, otra del vencimiento y las que quieras. Se ven en una galería deslizable.</p></div>
         <div class="feature"><h3>Widgets</h3><p>En la pantalla de inicio y la bloqueada, con lo próximo a vencer. Tocás un producto y se abre en la app.</p></div>
         <div class="feature"><h3>Estados de un vistazo</h3><p>Vencidos, por vencer y próximos, con un resumen arriba y una miniatura de cada producto.</p></div>
         <div class="feature"><h3>“Consumido” con un gesto</h3><p>Deslizás y descuenta una unidad o saca el producto. Si te equivocás, agitás el iPhone para deshacer.</p></div>
@@ -161,7 +164,8 @@
         <details><summary>¿Necesito un iPhone con Apple Intelligence?</summary><p>No. Sin Apple Intelligence, la app lee la fecha y el nombre con el reconocimiento de texto de Apple. La IA suma la categoría y mejora la lectura en envases difíciles.</p></details>
         <details><summary>¿Funciona sin conexión?</summary><p>Sí. Solo la búsqueda del producto por código de barras necesita internet.</p></details>
         <details><summary>¿Puedo pasar mis datos a otro teléfono?</summary><p>Sí. En Ajustes podés exportar un archivo con todos tus productos (con o sin fotos) e importarlo en otro dispositivo.</p></details>
-        <details><summary>¿Qué pasa si la fecha dice solo mes y año?</summary><p>La app toma el último día de ese mes, que es como se interpreta en los envases.</p></details>
+        <details><summary>¿Qué pasa si la fecha dice solo mes y año?</summary><p>La app toma el último día de ese mes, que es como se interpreta en los envases. Entiende tanto 08/2027 como VTO 04/27.</p></details>
+        <details><summary>¿Puedo guardar más de una foto por producto?</summary><p>Sí. Además de la foto principal, podés agregar una del código de barras, una del vencimiento y hasta 8 más. Se ven deslizando en el detalle y se incluyen al exportar.</p></details>
       </div>
       <p style="margin-top:24px">¿Otra duda o un problema? <a href="support.html">Escribinos en soporte</a>.</p>
     </div>

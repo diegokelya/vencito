@@ -60,6 +60,12 @@
       return mo ? { date: valid(+m[3], mo, +m[1]) } : null;
     });
     push(/(?<!\d[-/.])\b(\d{1,2})[-/.](\d{4})\b/g, (m) => ({ date: valid(+m[2], +m[1], null), monthOnly: true }));
+    // "VTO 04/27": mes/año de 2 dígitos, solo si lo precede una palabra de vencimiento (como en la app).
+    push(/(?<!\d[-/.])\b(\d{1,2})[-/.](\d{2})\b(?![-/.]\d)/g, (m) => {
+      const before = text.slice(Math.max(0, m.index - 28), m.index);
+      return new RegExp(EXPIRY.source + "[^A-Z0-9]*$").test(before)
+        ? { date: valid(+m[2], +m[1], null), monthOnly: true } : null;
+    });
     push(/\b([A-Z]{3,10})\.?\s+(\d{4})\b/g, (m) => {
       const mo = MONTHS[m[1]] || MONTHS[m[1].slice(0, 3)];
       return mo ? { date: valid(+m[2], mo, null), monthOnly: true } : null;
