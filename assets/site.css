@@ -190,3 +190,5 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 
 /* Video de demostración (vertical) */
 .reel { display: block; margin-inline: auto; width: min(100%, 360px); aspect-ratio: 9 / 16; border-radius: 28px; background: #0c0f0e; box-shadow: 0 30px 60px -30px rgba(10, 30, 20, 0.45), 0 0 0 1px var(--line); }
+
+.device video { display: block; width: 100%; height: auto; border-radius: 34px; background: #000; }
