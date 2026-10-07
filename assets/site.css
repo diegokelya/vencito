@@ -187,3 +187,5 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 .site-footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; align-items: center; }
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-left: auto; }
 .site-footer a { color: var(--muted); }
+
+.device video { display: block; width: 100%; height: auto; border-radius: 34px; background: #000; }
