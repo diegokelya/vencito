@@ -117,3 +117,21 @@
     b.addEventListener("click", () => { input.value = b.dataset.sample; render(); input.focus(); }));
   render();
 })();
+
+// El video de la portada empieza solo (sin sonido) cuando se ve en pantalla, salvo que se prefiera menos movimiento.
+(function () {
+  const video = document.querySelector("video[data-autoplay]");
+  if (!video || !("IntersectionObserver" in window)) return;
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  video.muted = true;
+  let started = false;
+  new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting || started) return;
+      started = true;
+      observer.disconnect();
+      const playing = video.play();
+      if (playing && playing.catch) playing.catch(() => {});
+    });
+  }, { threshold: 0.6 }).observe(video);
+})();
