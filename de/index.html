@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vencito · Haltbarkeitsdaten im Griff</title>
+<meta name="description" content="Vencito ist eine App für iPhone und iPad, die das Haltbarkeitsdatum von einem Foto der Verpackung liest und dich erinnert, bevor es abläuft. Alles auf dem Gerät, ohne Konto.">
+<meta name="theme-color" content="#1f7a57">
+<link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="alternate" hreflang="es" href="https://vencito.app/">
+<link rel="alternate" hreflang="en" href="https://vencito.app/en/">
+<link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
+<link rel="alternate" hreflang="fr" href="https://vencito.app/fr/">
+<link rel="alternate" hreflang="it" href="https://vencito.app/it/">
+<link rel="alternate" hreflang="de" href="https://vencito.app/de/">
+<link rel="alternate" hreflang="x-default" href="https://vencito.app/">
+<meta property="og:title" content="Vencito · Haltbarkeitsdaten im Griff">
+<meta property="og:description" content="Fotografiere die Verpackung: Vencito liest das Datum und erinnert dich, bevor es abläuft.">
+<meta property="og:image" content="https://vencito.app/assets/img/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/site.css?v=20261019">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="../assets/img/icon.svg" alt="" width="34" height="34">Vencito</a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <a class="hide-sm" href="#funciones">Funktionen</a>
+      <a class="hide-sm" href="#privacidad">Datenschutz</a>
+      <a href="../support.html#de">Support</a>
+      <a class="lang" href="#idiomas">Sprachen</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">App für iPhone und iPad</p>
+        <h1>In deinem Vorratsschrank geht nichts verloren.</h1>
+        <p class="lead">Mach ein Foto der Verpackung und Vencito liest das Haltbarkeitsdatum. Es erinnert dich, bevor es abläuft, und zeigt dir, was du zuerst verbrauchen solltest.</p>
+        <div class="stamp-line" aria-label="Beispiel: EXP 14/02/27 wird als 14. Februar 2027 gelesen">
+          <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">14. Februar 2027</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="#probar">Datumsleser ausprobieren</a>
+          <a class="btn btn-ghost" href="#funciones">Funktionen ansehen</a>
+        </div>
+        <p class="note">Bald im App Store · Kostenlos · iOS und iPadOS 17 oder neuer</p>
+      </div>
+      <div class="device"><img src="../assets/img/iphone-de-list.webp" alt="Produktliste in Vencito: Übersicht mit Gesamtzahl, abgelaufenen und bald ablaufenden Produkten, nach Status gruppiert mit Vorschaubildern" width="660" height="1434" fetchpriority="high"></div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="como">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">So funktioniert es</p>
+        <h2 id="como">Vom Supermarktregal in deinen Kühlschrank, in drei Schritten</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Foto machen</h3><p>Von der Verpackung, mit sichtbarem Datum. Oder richte die Kamera live aus: Sie liest Barcode und Datum gleichzeitig. Du kannst weitere Fotos hinzufügen: Produkt, Barcode und Haltbarkeitsdatum.</p></li><li><h3>Vencito ergänzt den Rest</h3><p>Es liest das Datum, schlägt Name und Kategorie vor und sucht den Barcode bei Open Food Facts und dessen Datenbanken für Kosmetik und andere Produkte. Du prüfst und speicherst.</p></li><li><h3>Rechtzeitig erinnert werden</h3><p>Eine Benachrichtigung pro Tag, zur Uhrzeit deiner Wahl, mit dem, was bald abläuft: standardmäßig 30, 15, 7, 3 und 1 Tag vorher.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="probar" aria-labelledby="probar-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hier ausprobieren</p>
+        <h2 id="probar-t">Gib ein, was auf der Verpackung steht</h2>
+        <p class="lead">Das ist eine vereinfachte Version des Datumslesers der App. Er versteht die auf Verpackungen gedruckten Formate und bevorzugt das Haltbarkeitsdatum gegenüber dem Herstellungsdatum.</p>
+      </div>
+      <div class="demo">
+        <div class="label-card">
+          <label for="label-text">Auf der Verpackung aufgedruckter Text</label>
+          <input id="label-text" type="text" value="HERGESTELLT 03.01.26 MHD 14.02.27" autocomplete="off" spellcheck="false">
+          <div class="chips" aria-label="Beispiele">
+            <button class="chip-btn" type="button" data-sample="MHD 25 AUG 2026">25 AUG 2026</button>
+            <button class="chip-btn" type="button" data-sample="Mindestens haltbar bis 3/4/27">3/4/27</button>
+            <button class="chip-btn" type="button" data-sample="MHD 10/2027">10/2027</button>
+            <button class="chip-btn" type="button" data-sample="MHD:04/27">MHD:04/27</button>
+            <button class="chip-btn" type="button" data-sample="Verbrauchen bis 2027-06-12">2027-06-12</button>
+          </div>
+        </div>
+        <div class="result" aria-live="polite">
+          <p class="eyebrow">Haltbarkeitsdatum</p>
+          <p class="date" id="result-date">—</p>
+          <span class="pill none" id="result-pill">—</span>
+          <p class="note" id="result-how"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="funciones" class="band" aria-labelledby="funciones-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Funktionen</p>
+        <h2 id="funciones-t">Gemacht für Vorratsschrank, Kühlschrank und Medikamentenschrank</h2>
+      </div>
+      <div class="features">
+        <div class="feature"><h3>KI-Erkennung</h3><p>Auf iPhones mit Apple Intelligence sieht sich das Modell von Apple das Foto an und füllt Name, Kategorie und Haltbarkeitsdatum aus. Es läuft auf dem iPhone, offline. KI-Rezeptideen sind optional (Beta) und standardmäßig aus: In den Einstellungen aktivieren.</p></div>
+        <div class="feature"><h3>Datumsleser</h3><p>EXP 14/02/27, 25-08-2026, 25 AUG 2026, 08/2027, MHD 04/27… Er unterscheidet Haltbarkeits- von Herstellungsdatum und liest Verpackungen in sechs Sprachen.</p></div>
+        <div class="feature"><h3>Barcodes</h3><p>Live-Scan oder aus dem Foto, mit EAN, UPC und QR. Open Food Facts (und dessen Datenbanken für Kosmetik und andere Produkte, etwa rezeptfreie Medikamente) füllt Name, Marke und Kategorie aus.</p></div>
+        <div class="feature"><h3>Was koche ich heute?</h3><p>Rezepte mit dem, was du hast, beginnend mit dem, was bald abläuft. Ein eigener Katalog mit über 1.000 gängigen, einfachen Gerichten aus mehreren Ländern, mit Fotos und in deiner Sprache, für Frühstück, Snack, Mittag- und Abendessen, mit Kochmodus und gespeicherten Rezepten. Funktioniert offline.</p></div>
+        <div class="feature"><h3>Mehrere Haushalte</h3><p>Verwalte die Produkte mehrerer Haushalte und wähle, welchen du sehen willst, oder sieh alle zusammen. Erinnerungen und Widget fassen die Daten aller Haushalte zusammen.</p></div>
+        <div class="feature"><h3>Einkaufsliste</h3><p>Schreib auf, was du kaufen musst, füge mit einem Tipp hinzu, was einem Rezept fehlt, oder lass die App ergänzen, was dir ausgeht. Hake Gekauftes ab und teile die Liste als Text.</p></div>
+        <div class="feature"><h3>Viele hintereinander</h3><p>Kontinuierlicher Scan: Barcode, Datum, fertig. Wird ein Datum nicht sicher gelesen, bittet dich die App, es vor dem Speichern zu bestätigen.</p></div>
+        <div class="feature"><h3>Ohne Haltbarkeitsdatum</h3><p>Für Dinge, die nicht ablaufen oder kein Datum haben: separat gespeichert, ohne Erinnerungen.</p></div>
+        <div class="feature"><h3>Live-Scan</h3><p>In einem einzigen Bild liest er Barcode, Haltbarkeitsdatum und Produktnamen. Jeder Wert wird erst bestätigt, wenn er sich wiederholt, um unscharfe Fehllesungen zu vermeiden.</p></div>
+        <div class="feature"><h3>Mehrere Fotos pro Produkt</h3><p>Bewahre ein Foto des Produkts, eines des Barcodes, eines des Haltbarkeitsdatums und beliebig viele weitere auf. Sie erscheinen in einer wischbaren Galerie.</p></div>
+        <div class="feature"><h3>Widgets</h3><p>Auf dem Home-Bildschirm und dem Sperrbildschirm, mit dem, was als Nächstes abläuft. Tippe auf ein Produkt, um es in der App zu öffnen.</p></div>
+        <div class="feature"><h3>Status auf einen Blick</h3><p>Abgelaufen, bald ablaufend und demnächst, mit einer Übersicht oben und einem Vorschaubild für jedes Produkt.</p></div>
+        <div class="feature"><h3>Wischen zum Verbrauchen</h3><p>Ein Wisch zieht eine Einheit ab oder entfernt das Produkt. Vertan? Zum Rückgängigmachen schütteln.</p></div>
+        <div class="feature"><h3>iPad</h3><p>Liste und Detail nebeneinander, in jeder Ausrichtung und mit Multitasking. Mit Tastatur fügt ⌘N ein Produkt hinzu.</p></div>
+        <div class="feature"><h3>Sechs Sprachen</h3><p>Spanisch, Englisch, Portugiesisch (Brasilien), Französisch, Italienisch und Deutsch. Sofort in den Einstellungen wechseln.</p></div>
+        <div class="feature"><h3>Barrierefrei</h3><p>Funktioniert mit VoiceOver und großen Schriftgrößen. Jedes Produkt wird vollständig vorgelesen: Name, Status und Datum.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video" aria-labelledby="video-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Video</p>
+        <h2 id="video-t">Vencito in 30 Sekunden</h2>
+        <p class="lead">Alles auf einen Blick, Live-Scan von Barcode und Datum und Rezepte mit dem, was du hast.</p>
+      </div>
+      <video class="reel" controls muted loop playsinline preload="metadata" data-autoplay poster="../assets/video/vencito-reel-en-poster.jpg" aria-label="Vencito-Demovideo">
+        <source src="../assets/video/vencito-reel-en.mp4" type="video/mp4">
+        Dein Browser kann das Video nicht abspielen. <a href="../assets/video/vencito-reel-en.mp4">Video herunterladen</a>.
+      </video>
+      <p class="note" style="text-align:center">Das Video ist auf Englisch. Der gezeigte Scan ist eine anschauliche Simulation.</p>
+    </div>
+  </section>
+
+  <section id="recetas" class="band" aria-labelledby="recetas-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Rezepte</p>
+        <h2 id="recetas-t">Ein Blick in den Katalog</h2>
+        <p class="lead">Über 1.000 gängige, einfache Gerichte aus vielen Ländern, jedes mit eigenem Foto. Hier ein paar davon.</p>
+      </div>
+      <ul class="recipes">
+        <li class="recipe"><img src="../assets/img/recetas/milanesa-a-la-napolitana.webp" alt="Schnitzel nach neapolitanischer Art" width="600" height="600" loading="lazy"><div><h3>Schnitzel nach neapolitanischer Art</h3><p>🇦🇷 · 40 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/empanadas-de-carne-al-horno.webp" alt="Empanadas mit Fleisch aus dem Ofen" width="600" height="600" loading="lazy"><div><h3>Empanadas mit Fleisch aus dem Ofen</h3><p>🇦🇷 · 55 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/uy-chivito.webp" alt="Chivito" width="600" height="600" loading="lazy"><div><h3>Chivito</h3><p>🇺🇾 · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/mx-chilaquiles-rojos.webp" alt="Rote Chilaquiles" width="600" height="600" loading="lazy"><div><h3>Rote Chilaquiles</h3><p>🇲🇽 · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/pe-lomo-saltado.webp" alt="Lomo saltado" width="600" height="600" loading="lazy"><div><h3>Lomo saltado</h3><p>🇵🇪 · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/ve-pabellon-criollo.webp" alt="Pabellón criollo" width="600" height="600" loading="lazy"><div><h3>Pabellón criollo</h3><p>🇻🇪 · 50 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/co-arepas-con-queso.webp" alt="Arepas mit Käse" width="600" height="600" loading="lazy"><div><h3>Arepas mit Käse</h3><p>🇨🇴 · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/cl-pastel-de-choclo.webp" alt="Pastel de Choclo" width="600" height="600" loading="lazy"><div><h3>Pastel de Choclo</h3><p>🇨🇱 · 60 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/es-tortilla-de-patatas.webp" alt="Tortilla de patatas" width="600" height="600" loading="lazy"><div><h3>Tortilla de patatas</h3><p>🇪🇸 · 35 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/jp-oyakodon.webp" alt="Oyakodon" width="600" height="600" loading="lazy"><div><h3>Oyakodon</h3><p>🇯🇵 · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/gr-souvlaki-de-pollo.webp" alt="Hähnchen-Souvlaki" width="600" height="600" loading="lazy"><div><h3>Hähnchen-Souvlaki</h3><p>🇬🇷 · 30 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/in-chana-masala.webp" alt="Chana Masala" width="600" height="600" loading="lazy"><div><h3>Chana Masala</h3><p>🇮🇳 · 30 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/cu-ropa-vieja.webp" alt="Ropa vieja" width="600" height="600" loading="lazy"><div><h3>Ropa vieja</h3><p>🇨🇺 · 60 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/py-sopa-paraguaya.webp" alt="Sopa paraguaya" width="600" height="600" loading="lazy"><div><h3>Sopa paraguaya</h3><p>🇵🇾 · 50 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/us-mac-and-cheese.webp" alt="Mac and Cheese aus dem Topf" width="600" height="600" loading="lazy"><div><h3>Mac and Cheese aus dem Topf</h3><p>🇺🇸 · 30 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/us-pancakes.webp" alt="Fluffige Pancakes" width="600" height="600" loading="lazy"><div><h3>Fluffige Pancakes</h3><p>🇺🇸 · 20 min</p></div></li>
+      </ul>
+      <p class="note" style="text-align:center">Rezepte werden nach dem vorgeschlagen, was du hast und was zuerst abläuft.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="capturas-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Screenshots</p>
+        <h2 id="capturas-t">Ein genauerer Blick</h2>
+      </div>
+      <div class="gallery">
+        <figure><div class="device"><img src="../assets/img/iphone-de-detail.webp" alt="Produktdetail mit Foto, Haltbarkeitsdatum, Kategorie und Ort" width="660" height="1434" loading="lazy"></div><figcaption>Produktdetail</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-de-add.webp" alt="Formular zum Hinzufügen eines Produkts mit Foto, Name, Kategorie und Datum" width="660" height="1434" loading="lazy"></div><figcaption>Mit Foto oder von Hand hinzufügen</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-de-settings.webp" alt="Einstellungen mit Erinnerungstagen, Uhrzeit der Benachrichtigungen und Sprache" width="660" height="1434" loading="lazy"></div><figcaption>Erinnerungen nach deinem Geschmack</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-de-recipes.webp" alt="Rezeptidee aus deinen Produkten: vorhandene Zutaten, was fehlt und die Schritte" width="660" height="1435" loading="lazy"></div><figcaption>Was koche ich heute?</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-de-shopping.webp" alt="Einkaufsliste mit offenen Einträgen und einem bereits gekauften" width="660" height="1435" loading="lazy"></div><figcaption>Einkaufsliste</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-de-homelist.webp" alt="Produktliste eines Haushalts: das Haushaltsmenü oben und nur dessen Produkte" width="660" height="1435" loading="lazy"></div><figcaption>Wähle, welchen Haushalt du siehst</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-de-homes.webp" alt="Haushaltsbildschirm mit der Produktanzahl jedes Haushalts" width="660" height="1435" loading="lazy"></div><figcaption>Mehrere Haushalte</figcaption></figure>
+      </div>
+      <div class="ipad-row">
+        <div class="device ipad"><img src="../assets/img/ipad-de-detail.webp" alt="Vencito auf dem iPad: Produktliste links und ausgewähltes Produkt rechts" width="1376" height="1032" loading="lazy"></div>
+        <p class="note" style="text-align:center">Auf dem iPad stehen Liste und Detail nebeneinander.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacidad" class="band" aria-labelledby="privacidad-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Datenschutz</p>
+        <h2 id="privacidad-t">Deine Daten bleiben auf deinem iPhone</h2>
+        <p class="lead">Vencito hat keine Konten, keine eigenen Server, keine Analysen und keine Werbung.</p>
+      </div>
+      <div class="privacy-grid">
+        <div><h3>Alles auf dem Gerät</h3><p>Produkte, Fotos und Einstellungen werden auf deinem iPhone oder iPad gespeichert. Wenn du die iCloud-Synchronisierung einschaltest, auch in deiner privaten iCloud (der Entwickler hat keinen Zugriff).</p></div>
+        <div><h3>KI ohne Cloud</h3><p>Text, Barcodes und die Erkennung mit Apple Intelligence werden auf dem Gerät verarbeitet.</p></div>
+        <div><h3>Ein einziges optionales Datum verlässt das Gerät</h3><p>Für die Produktsuche wird nur die Barcode-Nummer an Open Food Facts und dessen Schwesterdatenbanken gesendet. Du kannst das ausschalten.</p></div>
+        <div><h3>Lokale Erinnerungen</h3><p>Benachrichtigungen plant das iPhone selbst. Sie laufen nie über einen Server.</p></div>
+      </div>
+      <p style="margin-top:28px"><a href="../privacy.html#de">Die vollständige Datenschutzerklärung lesen</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="faq-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-t">Häufige Fragen</h2>
+      </div>
+      <div class="faq">
+        <details><summary>Was kostet es?</summary><p>Es ist kostenlos, ohne gesperrte Funktionen.</p></details>
+        <details><summary>Brauche ich ein iPhone mit Apple Intelligence?</summary><p>Nein. Ohne liest die App Datum und Namen mit der Texterkennung von Apple. Die KI ergänzt die Kategorie und liest schwierige Verpackungen besser.</p></details>
+        <details><summary>Funktioniert es offline?</summary><p>Ja. Nur die Produktsuche per Barcode braucht Internet.</p></details>
+        <details><summary>Kann ich meine Daten auf ein anderes Handy übertragen?</summary><p>Ja. In den Einstellungen exportierst du eine Datei mit allen Produkten (mit oder ohne Fotos) und importierst sie auf einem anderen Gerät.</p></details>
+        <details><summary>Was, wenn das Datum nur Monat und Jahr zeigt?</summary><p>Die App verwendet den letzten Tag dieses Monats, so werden Verpackungen gelesen. Sie versteht sowohl 08/2027 als auch MHD 04/27.</p></details>
+        <details><summary>Kann ich mehr als ein Foto pro Produkt aufbewahren?</summary><p>Ja. Neben dem Hauptfoto kannst du eines vom Barcode, eines vom Haltbarkeitsdatum und bis zu 8 weitere hinzufügen. Wische auf dem Detailbildschirm durch sie; sie sind im Export enthalten.</p></details>
+      </div>
+      <p style="margin-top:24px">Noch eine Frage oder ein Problem? <a href="../support.html#de">Support kontaktieren</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Diego Kelyacoubian · Vencito</span>
+    <nav aria-label="Fußbereich">
+      <a href="../privacy.html#de">Datenschutz</a>
+      <a href="../support.html#de">Support</a>
+    </nav>
+  </div>
+  <div class="wrap" id="idiomas" style="margin-top:10px">
+    <nav aria-label="Sprachen">
+      <a href="../" hreflang="es" lang="es">Español</a>
+      <a href="../en/" hreflang="en" lang="en">English</a>
+      <a href="../pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
+      <a href="../fr/" hreflang="fr" lang="fr">Français</a>
+      <a href="../it/" hreflang="it" lang="it">Italiano</a>
+      <a href="../de/" hreflang="de" lang="de" aria-current="page">Deutsch</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/site.js?v=20261019" defer></script>
+</body>
+</html>
