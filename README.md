@@ -6,9 +6,9 @@
 
 *Vencito is an iPhone and iPad app that reads the expiration date from a photo of the package and reminds you before it expires. Everything runs on-device: no accounts, no servers of its own, no ads.*
 
-- 🌐 Sitio · Website: **https://diegokelya.github.io/vencito/**
-- 🔒 [Política de privacidad · Privacy policy](https://diegokelya.github.io/vencito/privacy.html)
-- 🛟 [Soporte · Support](https://diegokelya.github.io/vencito/support.html) · [Issues](https://github.com/diegokelya/vencito/issues)
+- 🌐 Sitio · Website: **https://vencito.app/**
+- 🔒 [Política de privacidad · Privacy policy](https://vencito.app/privacy.html)
+- 🛟 [Soporte · Support](https://vencito.app/support.html) · [Issues](https://github.com/diegokelya/vencito/issues)
 
 ## Qué hay en este repo · What's in this repo
 
@@ -28,9 +28,9 @@ assets/           Estilos, script del demo, ícono y capturas
 
 | Campo | URL |
 |---|---|
-| Support URL | `https://diegokelya.github.io/vencito/support.html` |
-| Marketing URL | `https://diegokelya.github.io/vencito/` |
-| Privacy Policy URL | `https://diegokelya.github.io/vencito/privacy.html` |
+| Support URL | `https://vencito.app/support.html` |
+| Marketing URL | `https://vencito.app/` |
+| Privacy Policy URL | `https://vencito.app/privacy.html` |
 
 ## Publicar cambios · Publishing
 
