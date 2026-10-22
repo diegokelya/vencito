@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF8EE"/><stop offset="1" stop-color="#FFDDB5"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A211B"/><stop offset="1" stop-color="#140F0C"/></linearGradient>
 <linearGradient id="jar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#36B581"/><stop offset="1" stop-color="#146B49"/></linearGradient>
 <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EC5B43"/><stop offset="1" stop-color="#C8412C"/></linearGradient>
-<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#5a2e05" flood-opacity="0.28"/></filter>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.6"/></filter>
 <clipPath id="jarclip"><path d="M322 330 Q322 308 344 308 L680 308 Q702 308 702 330 L702 356 Q754 392 754 466 L754 760 Q754 836 678 836 L346 836 Q270 836 270 760 L270 466 Q270 392 322 356 Z"/></clipPath>
 </defs>
-<rect width="1024" height="1024" fill="url(#bg)"/>
+<rect width="1024" height="1024" fill="#000000"/>
 <g filter="url(#sh)">
   <rect x="336" y="190" width="352" height="110" rx="34" fill="url(#lid)"/>
   <g fill="#C8412C" opacity="0.55">
@@ -25,7 +25,7 @@
   <rect x="366" y="636" width="146" height="24" rx="12" fill="#17744F" opacity="0.35"/>
 </g>
 <g filter="url(#sh)">
-  <circle cx="676" cy="706" r="160" fill="#FFFFFF"/>
+  <circle cx="676" cy="706" r="160" fill="#000000"/>
   <circle cx="676" cy="706" r="132" fill="#EC5B43"/>
   <g stroke="#FFFFFF" stroke-linecap="round" opacity="0.55">
     <line x1="676" y1="592" x2="676" y2="608" stroke-width="10"/><line x1="790" y1="706" x2="774" y2="706" stroke-width="10"/>
