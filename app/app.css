@@ -137,3 +137,25 @@ button.stat { color: inherit; font: inherit; }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
 .sr:focus-visible + *, label:focus-within .sr { outline: none; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
+
+/* íconos (Lucide) */
+.ic { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; flex: none; }
+.ic.fill { fill: currentColor; }
+.tabs button b { display: grid; place-items: center; height: 26px; }
+.tabs button b .ic { width: 24px; height: 24px; }
+.quick .btn b { display: grid; place-items: center; }
+.quick .btn b .ic { width: 24px; height: 24px; }
+.item .ico { color: var(--c, var(--muted)); background: color-mix(in srgb, var(--c, #8e8e93) 18%, transparent); }
+.item .ico .ic { width: 24px; height: 24px; }
+.bucket .ic { width: 22px; height: 22px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand img { border-radius: 9px; }
+.wic .ic { width: 88px; height: 88px; stroke-width: 1.6; color: var(--primary); }
+.stat span .ic { width: 22px; height: 22px; }
+.stat span.g { color: var(--green); } .stat span.o { color: var(--orange); }
+.item > span.o, .recipe .o { color: var(--orange); }
+.check .ic, .ckc .ic { width: 16px; height: 16px; stroke-width: 3; }
+.qimg .ic { width: 30px; height: 30px; color: var(--muted); }
+.thumb.ph .ic { width: 36px; height: 36px; color: var(--muted); }
+.btn .ic, .link .ic { width: 1.15em; height: 1.15em; }
+.chip .ic { width: 1.1em; height: 1.1em; }

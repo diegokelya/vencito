@@ -19,11 +19,11 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, autoShop: false, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
-  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, shKey: '', opener: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
+  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', loc: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, shKey: '', opener: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
 
   /* ---------- casas: cada una con sus productos ---------- */
   const homesSorted = () => S.homes.slice().sort((a, b) => (a.createdAt + a.id).localeCompare(b.createdAt + b.id));
@@ -53,7 +53,7 @@
   const fmtDate = (s, long) => new Intl.DateTimeFormat(LOCALES[lang()], long ? { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' } : { day: 'numeric', month: 'short', year: 'numeric' }).format(parseDay(s));
 
   /* ---------- categorías y lugares ---------- */
-  const KINDS = [['almacen', 'Almacén', '🛒'], ['bebidas', 'Bebidas', '🥤'], ['carnes', 'Carnes', '🥩'], ['condimentos', 'Condimentos', '🧂'], ['congelados', 'Congelados', '🧊'], ['frutas', 'Frutas', '🍎'], ['lacteos', 'Lácteos', '🥛'], ['limpieza', 'Limpieza', '🧴'], ['medicamentos', 'Medicamentos', '💊'], ['panificados', 'Panificados', '🍞'], ['perfumeria', 'Perfumería', '🧼'], ['verduras', 'Verduras', '🥬'], ['otros', 'Otros', '📦']];
+  const KINDS = [['almacen', 'Almacén', 'shopping-basket'], ['bebidas', 'Bebidas', 'cup-soda'], ['carnes', 'Carnes', 'drumstick'], ['condimentos', 'Condimentos', 'droplet'], ['congelados', 'Congelados', 'snowflake'], ['frutas', 'Frutas', 'apple'], ['lacteos', 'Lácteos', 'milk'], ['limpieza', 'Limpieza', 'spray-can'], ['medicamentos', 'Medicamentos', 'pill'], ['panificados', 'Panificados', 'croissant'], ['perfumeria', 'Perfumería', 'sparkles'], ['verduras', 'Verduras', 'carrot'], ['otros', 'Otros', 'package']];
   const PLACES = ['Heladera', 'Alacena', 'Freezer', 'Despensa'];
   let catMap = null;
   const catKey = s => {
@@ -65,7 +65,9 @@
     return catMap[fold(s)] || '';
   };
   const catLabel = k => { const r = KINDS.find(x => x[0] === k); return r ? t(r[1]) : ''; };
-  const catIcon = k => { const r = KINDS.find(x => x[0] === k); return r ? r[2] : '📦'; };
+  const CAT_COLOR = { almacen: '#c98a3d', bebidas: '#3d9bd9', carnes: '#d4574e', condimentos: '#c9a227', congelados: '#4fb3d4', frutas: '#e8685a', lacteos: '#6c8ed6', limpieza: '#3fb6a8', medicamentos: '#e0577a', panificados: '#c8884a', perfumeria: '#a46fd6', verduras: '#4dae5a', otros: '#8e8e93' };
+  const catIcon = k => { const r = KINDS.find(x => x[0] === k); return ico(r ? r[2] : 'package'); };
+  const catBadge = k => `<span class="ico" style="--c:${CAT_COLOR[k] || '#8e8e93'}" aria-hidden="true">${catIcon(k)}</span>`;
   const placeLabel = p => (PLACES.includes(p) ? t(p) : p || '');
 
   /* ---------- reglas de vencimiento ---------- */
@@ -106,9 +108,11 @@
     const p = S.products.find(x => x.id === id); if (!p) return;
     const before = JSON.parse(JSON.stringify(p)), rec = { id: uid(), name: p.name, category: p.category || '', barcode: p.barcode || '', consumedAt: new Date().toISOString(), expiry: expOf(p) || null };
     S.consumed.push(rec);
-    if (p.quantity > 1) p.quantity -= 1; else S.products = S.products.filter(x => x.id !== id);
+    const wasLast = !(p.quantity > 1), listed = wasLast && S.autoShop && !S.shopping.some(i => !i.done && fold(i.name) === fold(p.name));
+    if (!wasLast) p.quantity -= 1; else S.products = S.products.filter(x => x.id !== id);
+    if (listed) addToShopping(p.name);
     save(); closeSheet(false);
-    setUndo(() => { S.consumed = S.consumed.filter(c => c.id !== rec.id); const cur = S.products.find(x => x.id === id); if (cur) cur.quantity = before.quantity; else S.products.push(before); save(); });
+    setUndo(() => { if (listed) { const k = S.shopping.findIndex(i => !i.done && fold(i.name) === fold(p.name)); if (k >= 0) S.shopping.splice(k, 1); } S.consumed = S.consumed.filter(c => c.id !== rec.id); const cur = S.products.find(x => x.id === id); if (cur) cur.quantity = before.quantity; else S.products.push(before); save(); });
     toast(t('Consumido: %@', p.name), true);
   }
   function discard(id) {
@@ -135,23 +139,27 @@
     if (expOf(p) && b !== 'none') meta.push(fmtDate(expOf(p))); else meta.push(t('Sin fecha'));
     const c = catLabel(catKey(p.category)) || p.category; if (c) meta.push(c);
     if (p.location) meta.push(placeLabel(p.location));
-    return `<button class="item" data-act="open" data-id="${esc(p.id)}"><span class="ico" aria-hidden="true">${catIcon(catKey(p.category))}</span>
+    return `<button class="item" data-act="open" data-id="${esc(p.id)}">${catBadge(catKey(p.category))}
       <span class="grow"><span class="t">${esc(p.name)}${p.quantity > 1 ? ' ×' + p.quantity : ''}</span><br><span class="s">${esc(meta.join(' · '))}</span></span>
       ${b !== 'none' ? `<span class="pill ${tone(b)}">${esc(shortLabel(d))}</span>` : ''}</button>`;
   }
   function listHtml() {
-    const q = fold(ui.q), items = visible().filter(p => (!ui.cat || catKey(p.category) === ui.cat) && (!q || [p.name, p.category, catLabel(catKey(p.category)), p.location, placeLabel(p.location), p.notes].some(v => fold(v).includes(q))));
+    const q = fold(ui.q), items = visible().filter(p => (!ui.cat || catKey(p.category) === ui.cat) && (!ui.loc || p.location === ui.loc) && (!q || [p.name, p.category, catLabel(catKey(p.category)), p.location, placeLabel(p.location), p.notes].some(v => fold(v).includes(q))));
     if (!visible().length) return `<div class="empty"><b>${esc(t('Sin productos'))}</b>${esc(t('Agregá tu primer producto con el botón +.'))}</div>`;
     if (!items.length) return `<div class="empty">${esc(t('Sin resultados'))}</div>`;
-    const order = [['expired', 'Vencidos', 'red', '⚠️'], ['soon', 'Por vencer', 'orange', '⏰'], ['upcoming', 'Próximos', 'green', '✅'], ['none', 'Sin fecha', 'gray', '♾️']];
+    const order = [['expired', 'Vencidos', 'red', 'triangle-alert'], ['soon', 'Por vencer', 'orange', 'timer'], ['upcoming', 'Próximos', 'green', 'circle-check'], ['none', 'Sin fecha', 'gray', 'infinity']];
     return order.map(([k, title, col, ic]) => {
       const g = items.filter(p => bucketOf(p) === k).sort((a, b) => (expOf(a) || '9').localeCompare(expOf(b) || '9') || a.name.localeCompare(b.name));
-      return g.length ? `<div class="bucket ${col}"><span>${ic}</span> ${esc(t(title))} (${g.length})</div><div class="group">${g.map(productRow).join('')}</div>` : '';
+      return g.length ? `<div class="bucket ${col}">${ico(ic)} ${esc(t(title))} (${g.length})</div><div class="group">${g.map(productRow).join('')}</div>` : '';
     }).join('');
   }
   function homeChips() {
     if (S.homes.length < 2) return '';
-    return `<div class="chips scroll"><button class="chip ${homeOn() ? '' : 'on'}" data-act="homef" data-id="">🏠 ${esc(t('Todas las casas'))}</button>${homesSorted().map(h => `<button class="chip ${homeOn() && S.home === h.id ? 'on' : ''}" data-act="homef" data-id="${esc(h.id)}">${esc(h.name)}</button>`).join('')}</div>`;
+    return `<div class="chips scroll"><button class="chip ${homeOn() ? '' : 'on'}" data-act="homef" data-id="">${ico('house')} ${esc(t('Todas las casas'))}</button>${homesSorted().map(h => `<button class="chip ${homeOn() && S.home === h.id ? 'on' : ''}" data-act="homef" data-id="${esc(h.id)}">${esc(h.name)}</button>`).join('')}</div>`;
+  }
+  function locChips() {
+    const ls = PLACES.filter(l => visible().some(p => p.location === l)); if (ls.length < 2) return '';
+    return `<div class="chips scroll"><button class="chip ${ui.loc ? '' : 'on'}" aria-pressed="${!ui.loc}" data-act="locf" data-id="">${esc(t('Ubicación'))}</button>${ls.map(l => `<button class="chip ${ui.loc === l ? 'on' : ''}" aria-pressed="${ui.loc === l}" data-act="locf" data-id="${esc(l)}">${esc(placeLabel(l))}</button>`).join('')}</div>`;
   }
   function catChips() {
     const ks = KINDS.map(k => k[0]).filter(k => visible().some(p => catKey(p.category) === k));
@@ -160,12 +168,12 @@
   }
   function productsView() {
     const vis = visible(), total = vis.length, exp = vis.filter(p => bucketOf(p) === 'expired').length, soon = vis.filter(p => bucketOf(p) === 'soon').length;
-    return `<div class="row"><h1 class="grow">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">📊</button></div>
+    return `<div class="row"><h1 class="grow brand"><img src="icons/icon-192.png" alt="" width="36" height="36">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">${ico('chart-column')}</button></div>
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
-      <div class="quick four"><button class="btn" data-act="scan-add"><b>📷</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>✓</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>🗂️</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>⚡</b>${esc(t('Carga rápida'))}</button></div>
+      <div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button></div>
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
-      ${homeChips()}${catChips()}
+      ${homeChips()}${catChips()}${locChips()}
       <div id="list">${listHtml()}</div>
       <button class="fab" data-act="add" aria-label="${esc(t('Agregar producto'))}">+</button>`;
   }
@@ -177,7 +185,7 @@
   }
   function shoppingView() {
     const open = S.shopping.filter(i => !i.done), done = S.shopping.filter(i => i.done);
-    const row = i => `<div class="item ${i.done ? 'done' : ''}"><button class="check ${i.done ? 'on' : ''}" data-act="tick" data-id="${esc(i.id)}" aria-label="${esc(i.name)}">${i.done ? '✓' : ''}</button><span class="grow t">${esc(i.name)}</span><button class="btn" data-act="untick" data-id="${esc(i.id)}" aria-label="${esc(t('Eliminar'))}">✕</button></div>`;
+    const row = i => `<div class="item ${i.done ? 'done' : ''}"><button class="check ${i.done ? 'on' : ''}" data-act="tick" data-id="${esc(i.id)}" aria-label="${esc(i.name)}">${i.done ? ico('check') : ''}</button><span class="grow"><span class="t">${esc(i.name)}</span>${i.note ? `<br><span class="s">${esc(i.note)}</span>` : ''}</span><button class="btn" data-act="untick" data-id="${esc(i.id)}" aria-label="${esc(t('Eliminar'))}">${ico('x')}</button></div>`;
     return `<div class="row"><h1 class="grow">${esc(t('Lista de compras'))}</h1><button class="btn" data-act="share-list">${esc(t('Compartir'))}</button></div>
       <form class="row" data-form="shop-add"><input class="search grow" id="shopname" placeholder="${esc(t('Agregar a la lista'))}" autocomplete="off"><button class="btn primary" type="submit">+</button></form>
       ${open.length ? `<div class="group">${open.map(row).join('')}</div>` : `<div class="empty">${esc(t('Nada pendiente'))}</div>`}
@@ -185,12 +193,13 @@
   }
   function settingsView() {
     const cur = S.lang;
-    const langRow = (k, name) => `<button class="item" data-act="lang" data-id="${k}"><span class="grow t">${esc(name)}</span>${cur === k ? '<span class="good">✓</span>' : ''}</button>`;
+    const langRow = (k, name) => `<button class="item" data-act="lang" data-id="${k}"><span class="grow t">${esc(name)}</span>${cur === k ? '<span class="good">' + ico('check') + '</span>' : ''}</button>`;
     return `<h1>${esc(t('Ajustes'))}</h1>
       <h2>${esc(t('Idioma / Language'))}</h2><div class="group">${langRow('', t('Idioma del sistema'))}${Object.entries(LANGS).map(([k, n]) => langRow(k, n)).join('')}</div>
       <h2>${esc(t('Por vencer'))}</h2><div class="group"><label class="f"><span>${esc(t('Se marca «Por vencer» cuando faltan hasta'))}</span><select data-act="soon">${[1, 3, 7, 15].map(n => `<option value="${n}" ${S.soon === n ? 'selected' : ''}>${esc(t('%lld días', n))}</option>`).join('')}</select></label></div>
+      <h2>${esc(t('Lista de compras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sumar a la lista al terminar un producto'))}</span><input type="checkbox" data-act="autoshop" style="width:auto" ${S.autoShop ? 'checked' : ''}></label></div>
       <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
-      <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">🏠 ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
+      <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">${ico('house')} ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
       <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label></div>
       <p class="small muted">${esc(t('Al escanear un código se envía solo ese número a Open Food Facts para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
       <h2>${esc(t('Datos'))}</h2><div class="group">
@@ -198,6 +207,7 @@
         <button class="link" data-act="dups">${esc(t('Buscar duplicados'))}${dupGroups().length ? ' (' + dupSurplus() + ')' : ''}</button>
         <button class="link" data-act="export">${esc(t('Exportar JSON'))}</button>
         <label class="link" style="display:block;cursor:pointer">${esc(t('Importar JSON'))}<input type="file" id="imp" accept="application/json,.json" class="sr"></label>
+        <button class="link danger" data-act="clear-hist">${esc(t('Borrar historial'))}</button>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
       <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
@@ -240,7 +250,7 @@
   }
   function ensureComposer() {
     if (ui.composer) return;
-    ui.composer = 'loading';
+    ui.composer = 'loading'; ensureQuickData();
     fetch('data/composer.json').then(r => r.json()).then(j => { VRecipes.setComposer(j); ui.composer = j; ui.compSig = ''; if (ui.tab === 'recipes') refreshRecipes(); }).catch(() => { ui.composer = null; });
   }
   function compSync() {
@@ -253,10 +263,20 @@
     const more = ui.comp.length < 12;
     return `<h2>${esc(t('Armadas con tus productos'))}</h2>${ui.comp.map(r => recipeCard(Object.assign(matchRecipe(r), { r }))).join('')}${more ? `<button class="btn block" data-act="comp-more">${esc(t('Otras ideas'))}</button>` : ''}<h2>${esc(t('Recetas'))}</h2>`;
   }
+  // Las armadas no tienen foto propia: se usa la del primer producto que llevan (de la carga rápida).
+  function composedThumb(r) {
+    const q = ui.quick || [], l = lang();
+    for (const n of r.pantryIngredients || []) {
+      const hit = q.find(x => VRecipes.matches([fold(x[4][l] || x[4].es), fold(x[4].es)], n));
+      if (hit) return `<img class="thumb" src="quick-photos/${encodeURIComponent(hit[0])}.webp" alt="" loading="lazy" decoding="async" onerror="this.outerHTML='<span class=\\'thumb ph\\'></span>'">`;
+    }
+    return '<span class="thumb ph">' + ico('chef-hat') + '</span>';
+  }
+  function ensureQuickData() { if (!ui.quickP) ui.quickP = fetch('data/quick.json').then(r => r.json()).then(j => { ui.quick = j; if (ui.tab === 'recipes') refreshRecipes(); }).catch(() => { ui.quick = []; }); return ui.quickP; }
   const refreshRecipes = () => { const e = document.getElementById('rlist'); if (e && ui.tab === 'recipes' && !ui.sheet) e.innerHTML = ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards(); };
   const photo = (id, cls) => `<img class="${cls}" src="photos/${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
   const flagOf = o => (o && /^[A-Z]{2}$/.test(o) ? String.fromCodePoint(...[...o].map(c => 127397 + c.charCodeAt(0))) + ' ' : '');
-  function recipeCard(m) { const r = m.r; return `<button class="card recipe" style="display:block;width:100%;text-align:left;border:0;margin:8px 0" data-act="recipe" data-id="${esc(r.id)}"><div class="rcard">${r.composed ? '<span class="thumb ph">🍳</span>' : photo(r.id, 'thumb')}<div class="grow"><div class="t">${flagOf(r.origin)}${esc(r.title)}${m.expiring ? ' 🔥' : ''}</div>
+  function recipeCard(m) { const r = m.r; return `<button class="card recipe" style="display:block;width:100%;text-align:left;border:0;margin:8px 0" data-act="recipe" data-id="${esc(r.id)}"><div class="rcard">${r.composed ? composedThumb(r) : photo(r.id, 'thumb')}<div class="grow"><div class="t">${flagOf(r.origin)}${esc(r.title)}${m.expiring ? ' ' + ico('flame', 'o') : ''}</div>
         <div class="s muted small clamp">${esc(r.summary || '')}</div><div class="small" style="margin-top:6px">${m.all ? '' : `<span class="good">${esc(t('Tenés %lld de %lld ingredientes', m.have, m.total))}</span> · `}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</div></div></div></button>`; }
   function recipeCards() {
     const list = recipeList(), comp = ui.rmode === 'mine' && !ui.rdiet ? compHtml() : '';
@@ -288,17 +308,18 @@
       ${catKey(p.category) ? `<div class="item"><span class="grow muted">${esc(t('Categoría'))}</span><span>${esc(catLabel(catKey(p.category)))}</span></div>` : ''}
       ${p.location ? `<div class="item"><span class="grow muted">${esc(t('Ubicación'))}</span><span>${esc(placeLabel(p.location))}</span></div>` : ''}
       ${p.notes ? `<div class="item"><span class="grow muted">${esc(t('Notas'))}</span><span>${esc(p.notes)}</span></div>` : ''}</div>
-      <div class="group"><button class="link" data-act="consume" data-id="${esc(id)}">✓ ${esc(p.quantity > 1 ? t('Usé una unidad') : t('Marcar como consumido'))}</button>
-      <button class="link" data-act="discard" data-id="${esc(id)}">🗑 ${esc(t('Tirar'))}</button>
-      ${p.openedAt ? '' : `<button class="link" data-act="open-it" data-id="${esc(id)}">📭 ${esc(t('Marcar como abierto'))}</button>`}
-      <button class="link" data-act="to-list" data-id="${esc(id)}">🛒 ${esc(t('Agregar a la lista de compras'))}</button>
-      <button class="link" data-act="edit" data-id="${esc(id)}">✎ ${esc(t('Editar'))}</button>
+      <div class="group"><button class="link" data-act="consume" data-id="${esc(id)}">${ico('circle-check')} ${esc(p.quantity > 1 ? t('Usé una unidad') : t('Marcar como consumido'))}</button>
+      <button class="link" data-act="discard" data-id="${esc(id)}">${ico('trash-2')} ${esc(t('Tirar'))}</button>
+      ${p.openedAt ? `<button class="link" data-act="unopen" data-id="${esc(id)}">${ico('rotate-ccw')} ${esc(t('Quitar la fecha de apertura'))}</button>` : ''}
+      ${p.openedAt ? '' : `<button class="link" data-act="open-it" data-id="${esc(id)}">${ico('mail-open')} ${esc(t('Marcar como abierto'))}</button>`}
+      <button class="link" data-act="to-list" data-id="${esc(id)}">${ico('shopping-cart')} ${esc(t('Agregar a la lista de compras'))}</button>
+      <button class="link" data-act="edit" data-id="${esc(id)}">${ico('pencil')} ${esc(t('Editar'))}</button>
       <button class="link danger" data-act="ask-remove" data-id="${esc(id)}">${esc(t('Eliminar'))}</button></div>`);
   }
   function formSheet(id) {
     const p = (id ? S.products.find(x => x.id === id) : null) || (ui.sheet && ui.sheet.pre) || null, q = p ? p.quantity || 1 : 1, noexp = p ? !p.expiry && !p.pre : false;
     const def = new Date(); def.setDate(def.getDate() + 7);
-    return sheet(id ? t('Editar') : t('Agregar producto'), `<form data-form="product" data-id="${esc(id || '')}"><div class="quick two"><button type="button" class="btn" data-act="form-scan"><b>📷</b>${esc(t('Escanear código'))}</button><button type="button" class="btn" data-act="read-date"><b>📅</b>${esc(t('Leer fecha de la foto'))}</button></div>
+    return sheet(id ? t('Editar') : t('Agregar producto'), `<form data-form="product" data-id="${esc(id || '')}"><div class="quick two"><button type="button" class="btn" data-act="form-scan"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button type="button" class="btn" data-act="read-date"><b>${ico('calendar')}</b>${esc(t('Leer fecha de la foto'))}</button></div>
       <p class="small muted" id="fstatus" aria-live="polite">${p && p.barcode ? esc(t('Código de barras')) + ': ' + esc(p.barcode) : ''}</p><div class="group">
       <label class="f"><span>${esc(t('Nombre'))}</span><input name="name" required maxlength="200" value="${esc(p ? p.name : '')}" autocomplete="off" autofocus></label>
       <label class="f"><span>${esc(t('Categoría'))}</span><select name="category"><option value=""></option>${KINDS.map(([k, es]) => `<option value="${k}" ${p && catKey(p.category) === k ? 'selected' : ''}>${esc(t(es))}</option>`).join('')}</select></label>
@@ -327,12 +348,12 @@
     const max = Math.max(1, ...bars.map(b => Math.max(b.c, b.d)));
     const list = (arr, fmt) => arr.length ? arr.map(([k, n]) => `<div class="item" style="padding:8px 14px"><span class="grow">${fmt(k)}</span><span class="muted">${n}</span></div>`).join('') : '';
     return sheet(t('Estadísticas'), `<div class="seg">${[['month', 'Este mes'], ['quarter', '3 meses'], ['all', 'Todo']].map(([k, n]) => `<button class="${ui.period === k ? 'on' : ''}" aria-pressed="${ui.period === k}" data-act="period" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
-      <div class="stats"><button class="stat" data-act="hist" data-id="consumed" style="border:0;text-align:left"><span>✅</span><b>${cur.consumed}</b>${esc(t('Consumidos'))}${delta(cur.consumed, prev && prev.consumed, false)}</button>
-      <div class="stat"><span>⏱️</span><b>${rate}</b>${esc(t('Usados a tiempo'))}</div>
-      <button class="stat" data-act="hist" data-id="discarded" style="border:0;text-align:left"><span>🗑️</span><b>${cur.discarded}</b>${esc(t('Tirados'))}${delta(cur.discarded, prev && prev.discarded, true)}</button>
-      <div class="stat"><span>🛟</span><b>${cur.rescued}</b>${esc(t('Rescatados'))}</div></div>
+      <div class="stats"><button class="stat" data-act="hist" data-id="consumed" style="border:0;text-align:left"><span class="g">${ico('circle-check')}</span><b>${cur.consumed}</b>${esc(t('Consumidos'))}${delta(cur.consumed, prev && prev.consumed, false)}</button>
+      <div class="stat"><span>${ico('timer')}</span><b>${rate}</b>${esc(t('Usados a tiempo'))}</div>
+      <button class="stat" data-act="hist" data-id="discarded" style="border:0;text-align:left"><span class="o">${ico('trash-2')}</span><b>${cur.discarded}</b>${esc(t('Tirados'))}${delta(cur.discarded, prev && prev.discarded, true)}</button>
+      <div class="stat"><span class="g">${ico('life-buoy')}</span><b>${cur.rescued}</b>${esc(t('Rescatados'))}</div></div>
       <p class="small muted">${esc(t('«Rescatados»: usados en los últimos %lld días antes de vencer. «Tirados»: lo que sacás con «Tirar» o confirmás que tiraste.', 3))}</p>
-      ${streak != null ? `<div class="group"><div class="item"><span>🔥</span><span class="grow">${esc(t('Días sin tirar nada'))}</span><b>${streak}</b></div></div>` : ''}
+      ${streak != null ? `<div class="group"><div class="item"><span class="o">${ico('flame')}</span><span class="grow">${esc(t('Días sin tirar nada'))}</span><b>${streak}</b></div></div>` : ''}
       <h2>${esc(t('Últimos 6 meses'))}</h2><div class="card" style="padding:12px"><div class="chart">${bars.map(b => `<div class="m"><div class="bars"><i style="height:${Math.round(100 * b.c / max)}%;background:var(--green)"></i><i style="height:${Math.round(100 * b.d / max)}%;background:var(--orange)"></i></div><span class="l">${esc(new Intl.DateTimeFormat(LOCALES[lang()], { month: 'narrow' }).format(b.m))}</span></div>`).join('')}</div>
       <div class="legend"><span><i style="background:var(--green)"></i>${esc(t('Consumidos'))}</span><span><i style="background:var(--orange)"></i>${esc(t('Tirados'))}</span></div></div>
       ${top(cur.cats).length ? `<h2>${esc(t('Más consumidos'))}</h2><div class="group">${list(top(cur.cats), catLabelOf)}</div>` : ''}
@@ -362,19 +383,19 @@
       ${gs.map(g => `<div class="group"><div class="item"><span class="grow"><span class="t">${esc(g[0].name)}</span><br><span class="s">${esc(g.length + ' × ' + (expOf(g[0]) ? fmtDate(expOf(g[0])) : t('Sin fecha')))}</span></span><button class="btn primary" data-act="dup-merge" data-id="${esc(g.map(x => x.id).join(','))}">${esc(t('Fusionar'))}</button></div></div>`).join('')}
       <button class="btn block" data-act="dup-all">${esc(t('Fusionar todos'))} (${dupSurplus()})</button>` : `<div class="empty"><b>${esc(t('Sin duplicados'))}</b>${esc(t('No hay productos repetidos.'))}</div>`);
   }
-  const WELCOME = [['📷', 'Escaneá el envase', 'Tocá «Escanear código» y apuntá al código de barras; después sacale una foto a la fecha de vencimiento. También podés cargarlo a mano o con Carga rápida.'],
-    ['✅', 'Revisá y guardá', 'Vencito completa el nombre y la categoría. Vos revisás la fecha antes de guardar.'],
-    ['🔒', 'Tus datos son tuyos', 'Todo se guarda solo en este navegador, sin cuentas ni servidores. Instalá Vencito en tu pantalla de inicio y exportá una copia de vez en cuando.']];
+  const WELCOME = [['scan-barcode', 'Escaneá el envase', 'Tocá «Escanear código» y apuntá al código de barras; después sacale una foto a la fecha de vencimiento. También podés cargarlo a mano o con Carga rápida.'],
+    ['circle-check', 'Revisá y guardá', 'Vencito completa el nombre y la categoría. Vos revisás la fecha antes de guardar.'],
+    ['lock', 'Tus datos son tuyos', 'Todo se guarda solo en este navegador, sin cuentas ni servidores. Instalá Vencito en tu pantalla de inicio y exportá una copia de vez en cuando.']];
   function welcomeHtml() {
     const i = ui.welcome, [ic, title, text] = WELCOME[i], last = i === WELCOME.length - 1;
     return `<div class="welcome" role="dialog" aria-modal="true"><div class="row" style="justify-content:flex-end;height:44px">${last ? '' : `<button class="link" style="width:auto" data-act="wl-skip">${esc(t('Saltar'))}</button>`}</div>
-      <div class="wbody"><div class="wic" aria-hidden="true">${ic}</div><h1 style="font-size:28px">${esc(t(title))}</h1><p class="muted">${esc(t(text))}</p></div>
+      <div class="wbody"><div class="wic" aria-hidden="true">${ico(ic)}</div><h1 style="font-size:28px">${esc(t(title))}</h1><p class="muted">${esc(t(text))}</p></div>
       <div class="dots" aria-hidden="true">${WELCOME.map((_, k) => `<i class="${k === i ? 'on' : ''}"></i>`).join('')}</div>
       <button class="btn primary block" data-act="wl-next">${esc(last ? t('Empezar') : t('Siguiente'))}</button></div>`;
   }
   function homesSheet() {
     const hs = homesSorted(), counts = {}; S.products.forEach(p => { const h = homeIdOf(p); if (h) counts[h] = (counts[h] || 0) + 1; });
-    const row = h => `<div class="item"><span class="grow"><input class="plain" data-act="home-name" data-id="${esc(h.id)}" value="${esc(h.name)}" maxlength="60" aria-label="${esc(t('Nombre'))}"><span class="s">${esc(t('%lld productos', counts[h.id] || 0))}</span></span>${hs.length > 1 ? `<button class="btn" data-act="home-del" data-id="${esc(h.id)}" aria-label="${esc(t('Eliminar'))}">🗑</button>` : ''}</div>`;
+    const row = h => `<div class="item"><span class="grow"><input class="plain" data-act="home-name" data-id="${esc(h.id)}" value="${esc(h.name)}" maxlength="60" aria-label="${esc(t('Nombre'))}"><span class="s">${esc(t('%lld productos', counts[h.id] || 0))}</span></span>${hs.length > 1 ? `<button class="btn" data-act="home-del" data-id="${esc(h.id)}" aria-label="${esc(t('Eliminar'))}">${ico('trash-2')}</button>` : ''}</div>`;
     return sheet(t('Casas'), `<div class="group">${hs.length ? hs.map(row).join('') : `<div class="item"><span class="grow"><span class="t">${esc(t('Mi casa'))}</span><br><span class="s">${esc(t('%lld productos', S.products.length))}</span></span></div>`}</div>
       <p class="small muted">${esc(t('Cada casa tiene sus productos. En la lista elegís qué casa ver.'))}</p>
       <div class="row"><input class="search grow" id="newhome" placeholder="${esc(t('Nombre (ej. Casa de la playa)'))}" maxlength="60" autocomplete="off"><button class="btn primary" data-act="home-add">${esc(t('Agregar casa'))}</button></div>${hs.length ? '' : `<p class="small muted">${esc(t('Tus productos actuales quedan en «%@».', t('Mi casa')))}</p>`}`);
@@ -383,7 +404,7 @@
     const kind = ui.hist, from = startOf(ui.period, new Date()), key = kind === 'consumed' ? 'consumedAt' : 'discardedAt';
     const rows = (kind === 'consumed' ? S.consumed : S.discarded).filter(r => !from || dayOf(r[key]) >= from).sort((a, b) => String(b[key]).localeCompare(String(a[key])));
     return sheet(kind === 'consumed' ? t('Consumidos') : t('Tirados'), `<div class="seg">${[['month', 'Este mes'], ['quarter', '3 meses'], ['all', 'Todo']].map(([k, n]) => `<button class="${ui.period === k ? 'on' : ''}" data-act="hperiod" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
-      ${rows.length ? `<div class="group">${rows.map(r => `<button class="item" data-act="readd" data-id="${esc(r.id)}"><span class="ico">${catIcon(catKey(r.category))}</span><span class="grow"><span class="t">${esc(r.name)}${r.quantity > 1 ? ' ×' + r.quantity : ''}</span><br><span class="s">${esc(fmtDate(iso(new Date(r[key]))))}</span></span><span class="muted">＋</span></button>`).join('')}</div>
+      ${rows.length ? `<div class="group">${rows.map(r => `<button class="item" data-act="readd" data-id="${esc(r.id)}">${catBadge(catKey(r.category))}<span class="grow"><span class="t">${esc(r.name)}${r.quantity > 1 ? ' ×' + r.quantity : ''}</span><br><span class="s">${esc(fmtDate(iso(new Date(r[key]))))}</span></span><span class="muted">＋</span></button>`).join('')}</div>
       <p class="small muted">${esc(t('Tocá un producto para volver a agregarlo.'))}</p>` : `<div class="empty">${esc(t('Sin resultados'))}</div>`}`);
   }
   /* carga rápida: los que más cargás y los comunes, de un toque */
@@ -407,7 +428,7 @@
   const quickSheet = () => sheet(t('Carga rápida'), `<input class="search" id="qq" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.quickQ)}" autocomplete="off"><div id="qgrid">${quickGrid()}</div><p class="small muted">${esc(t('Tocá un producto para agregarlo, con lo que suele durar. Podés cambiarlo después.'))}</p>`);
   function openQuick() {
     ui.quickQ = ''; ui.quickAdded = {}; ui.sheet = { type: 'quick' }; render();
-    if (ui.quick === null) fetch('data/quick.json').then(r => r.json()).then(j => { ui.quick = j; refreshQuick(); }).catch(() => { ui.quick = []; refreshQuick(); });
+    if (ui.quick === null) ensureQuickData().then(refreshQuick); else refreshQuick();
   }
   const refreshQuick = () => { const g = document.getElementById('qgrid'); if (g && ui.sheet && ui.sheet.type === 'quick') g.innerHTML = quickGrid(); };
   function quickPick(id) {
@@ -432,7 +453,7 @@
   const isSaved = r => (r.composed ? S.savedC.some(x => x.id === r.id) : S.saved.includes(r.id));
   function cookIngHtml(r) {
     const c = ui.cook, m = matchRecipe(r), f = cookFactor(r, c);
-    return m.ing.map((x, i) => `<button type="button" class="ck ${c.have[i] ? 'on' : ''}" data-act="ck-ing" data-id="${i}"><span class="ckc">${c.have[i] ? '✓' : ''}</span><span class="grow"><span class="t">${esc(x.name)}</span>${x.have && !x.staple ? `<span class="good small"> ✓ ${esc(t('Lo tenés'))}</span>` : ''}</span><span class="muted">${esc(x.amount ? amt(x.amount, f) : '')}</span></button>`).join('');
+    return m.ing.map((x, i) => `<button type="button" class="ck ${c.have[i] ? 'on' : ''}" data-act="ck-ing" data-id="${i}"><span class="ckc">${c.have[i] ? ico('check') : ''}</span><span class="grow"><span class="t">${esc(x.name)}</span>${x.have && !x.staple ? `<span class="good small"> ${ico('check')} ${esc(t('Lo tenés'))}</span>` : ''}</span><span class="muted">${esc(x.amount ? amt(x.amount, f) : '')}</span></button>`).join('');
   }
   const cookStepsHtml = r => (r.steps || []).map((x, i) => `<button type="button" class="stp ${ui.cook.done[i] ? 'on' : ''}" data-act="ck-step" data-id="${i}"><span class="num">${i + 1}</span><span class="grow">${esc(x)}</span></button>`).join('');
   function recipeText(r, c) {
@@ -452,23 +473,23 @@
       return sheet(r.title, `<p class="muted">${esc(t('Paso %lld de %lld', i + 1, n))}</p><div class="pbar"><i style="width:${Math.round(100 * (i + 1) / n)}%"></i></div>
         <button type="button" class="focus" data-act="ck-speak">${esc(r.steps[i])}</button>
         <div class="row" style="margin:12px 0"><button class="btn grow" data-act="ck-prev" ${i === 0 ? 'disabled' : ''}>‹ ${esc(t('Anterior'))}</button><button class="btn primary grow" data-act="ck-next">${i === n - 1 ? esc(t('Terminé')) : esc(t('Siguiente')) + ' ›'}</button></div>
-        ${canSpeak() ? `<label class="f row"><span class="grow" style="font-size:16px;color:inherit">🔊 ${esc(t('Leer cada paso en voz alta'))}</span><input type="checkbox" data-act="ck-voice" style="width:auto" ${c.voice ? 'checked' : ''}></label>` : ''}
+        ${canSpeak() ? `<label class="f row"><span class="grow" style="font-size:16px;color:inherit">${ico('volume-2')} ${esc(t('Leer cada paso en voz alta'))}</span><input type="checkbox" data-act="ck-voice" style="width:auto" ${c.voice ? 'checked' : ''}></label>` : ''}
         <button class="link" data-act="ck-mode" data-id="list">${esc(t('Volver a la receta'))}</button>`);
     }
     const m = matchRecipe(r), saved = isSaved(r);
     return sheet(r.title, `${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>
-      ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">👥 <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
-      ${r.side ? `<p class="small">🌿 ${esc(r.side)}</p>` : ''}
-      <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>▶️</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${saved ? '♥' : '♡'}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button><button class="btn" data-act="ck-share"><b>📤</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>🎙️</b>${esc(t('Cocinar con ChatGPT'))}</button></div>
+      ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">${ico('users')} <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
+      ${r.side ? `<p class="small">${ico('leaf')} ${esc(r.side)}</p>` : ''}
+      <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>${ico('play')}</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${ico('heart', saved ? 'fill' : '')}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button><button class="btn" data-act="ck-share"><b>${ico('share-2')}</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>${ico('audio-lines')}</b>${esc(t('Cocinar con ChatGPT'))}</button></div>
       <h2>${esc(t('Ingredientes'))}</h2><div class="group" id="cking">${cookIngHtml(r)}</div>
-      ${m.ing.some(x => !x.have && !x.staple) ? `<button class="btn block" style="margin-top:8px" data-act="ck-missing">🛒 ${esc(t('Agregar lo que falta a la lista'))}</button>` : ''}
-      <h2>${esc(t('Preparación'))}</h2><div class="group" id="ckstp">${cookStepsHtml(r)}</div>${r.tip ? `<p class="muted small">💡 ${esc(r.tip)}</p>` : ''}
+      ${m.ing.some(x => !x.have && !x.staple) ? `<button class="btn block" style="margin-top:8px" data-act="ck-missing">${ico('shopping-cart')} ${esc(t('Agregar lo que falta a la lista'))}</button>` : ''}
+      <h2>${esc(t('Preparación'))}</h2><div class="group" id="ckstp">${cookStepsHtml(r)}</div>${r.tip ? `<p class="muted small">${ico('lightbulb')} ${esc(r.tip)}</p>` : ''}
       <p class="small muted">${esc(t('La pantalla queda encendida mientras cocinás.'))} ${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p>`);
   }
   function cookAct(act, id, el) {
     const r = ui.cook && recipeById(ui.cook.id); if (!r) return; const c = ui.cook;
     switch (act) {
-      case 'ck-ing': c.have[id] = !c.have[id]; el.classList.toggle('on', !!c.have[id]); el.querySelector('.ckc').textContent = c.have[id] ? '✓' : ''; break;
+      case 'ck-ing': c.have[id] = !c.have[id]; el.classList.toggle('on', !!c.have[id]); el.querySelector('.ckc').innerHTML = c.have[id] ? ico('check') : ''; break;
       case 'ck-step': c.done[id] = !c.done[id]; el.classList.toggle('on', !!c.done[id]); break;
       case 'ck-serv': { c.servings = Math.min(24, Math.max(1, c.servings + parseInt(id, 10))); document.getElementById('ckserv').textContent = t('%lld porciones', c.servings); document.getElementById('cking').innerHTML = cookIngHtml(r); break; }
       case 'ck-mode': c.mode = id; c.step = 0; render(); if (id === 'steps' && c.voice) speak(r.steps[0]); break;
@@ -490,17 +511,17 @@
         break;
       }
       case 'ck-missing': { const f = cookFactor(r, c); matchRecipe(r).ing.forEach((x, i) => { if (!x.have && !x.staple && !c.have[i]) addToShopping(x.name, x.amount ? amt(x.amount, f) : ''); }); save(); toast(t('Agregado a la lista de compras'), false, true); el.disabled = true; break; }
-      case 'save-recipe': { if (r.composed) { const k = S.savedC.findIndex(x => x.id === r.id); if (k >= 0) S.savedC.splice(k, 1); else S.savedC.push(r); } else { const k = S.saved.indexOf(r.id); if (k >= 0) S.saved.splice(k, 1); else S.saved.push(r.id); } save(); const sv = isSaved(r); el.innerHTML = `<b>${sv ? '♥' : '♡'}</b>${esc(sv ? t('Quitar de guardadas') : t('Guardar receta'))}`; break; }
+      case 'save-recipe': { if (r.composed) { const k = S.savedC.findIndex(x => x.id === r.id); if (k >= 0) S.savedC.splice(k, 1); else S.savedC.push(r); } else { const k = S.saved.indexOf(r.id); if (k >= 0) S.saved.splice(k, 1); else S.saved.push(r.id); } save(); const sv = isSaved(r); el.innerHTML = `<b>${ico('heart', sv ? 'fill' : '')}</b>${esc(sv ? t('Quitar de guardadas') : t('Guardar receta'))}`; break; }
     }
   }
   /* ---------- render ---------- */
   function render() {
     document.documentElement.lang = lang();
     const prevActive = document.activeElement;
-    const tabs = [['products', '📦', 'Productos'], ['recipes', '🍳', '¿Qué cocino hoy?'], ['shopping', '🛒', 'Compras'], ['settings', '⚙️', 'Ajustes']];
+    const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
-    const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ic}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     document.getElementById('app').innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
     if (!sh || sh.type !== 'recipe') cookStop();
     const key = sh ? sh.type + ':' + (sh.id || '') : '';
@@ -554,7 +575,9 @@
       case 'wl-next': if (ui.welcome >= WELCOME.length - 1) { ui.welcome = null; S.welcomed = true; save(); } else ui.welcome++; render(); break;
       case 'wl-skip': ui.welcome = null; S.welcomed = true; save(); render(); break;
       case 'wl-show': ui.welcome = 0; render(); break;
+      case 'locf': ui.loc = id; render(); break;
       case 'catf': ui.cat = id; render(); break;
+      case 'unopen': { const p = S.products.find(x => x.id === id); if (p) { delete p.openedAt; delete p.openDays; save(); render(); } break; }
       case 'open-it': { const p = S.products.find(x => x.id === id); if (p) { p.openedAt = iso(new Date()); p.openDays = OPEN_DAYS[catKey(p.category)] || 7; save(); render(); } break; }
       case 'quick': openQuick(); break;
       case 'quick-pick': quickPick(id); break;
@@ -586,6 +609,8 @@
       case 'lang': S.lang = id; save(); render(); if (ui.tab === 'recipes') ensureRecipes(); break;
       case 'export': exportJson(); break;
       case 'wipe': ui.sheet = { type: 'wipe' }; render(); break;
+      case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
+      case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;
       case 'wipe-yes': S.products = []; save(); closeSheet(false); toast(t('Listo')); break;
       case 'recipe': ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); cookWake(); break;
       case 'ck-ing': case 'ck-step': case 'ck-serv': case 'ck-mode': case 'ck-prev': case 'ck-next': case 'ck-speak': case 'ck-share': case 'ck-chatgpt': case 'ck-missing': case 'save-recipe': cookAct(act, id, el); break;
@@ -607,6 +632,7 @@
   document.addEventListener('change', e => {
     if (e.target.name === 'category') e.target.dataset.auto = '';
     if (e.target.dataset && e.target.dataset.act === 'home-name') { const h = S.homes.find(x => x.id === e.target.dataset.id), v = e.target.value.trim().slice(0, 60); if (h && v) { h.name = v; save(); } }
+    if (e.target.dataset && e.target.dataset.act === 'autoshop') { S.autoShop = e.target.checked; save(); }
     if (e.target.dataset && e.target.dataset.act === 'units') { S.units = e.target.value; save(); }
     if (e.target.dataset && e.target.dataset.act === 'opendays') { const p = S.products.find(x => x.id === e.target.dataset.id); if (p) { p.openDays = parseInt(e.target.value, 10) || 1; save(); render(); } }
     if (e.target.dataset && e.target.dataset.act === 'ck-voice' && ui.cook) { const r = recipeById(ui.cook.id); ui.cook.voice = e.target.checked; if (r) { if (ui.cook.voice) speak(r.steps[ui.cook.step]); else if (canSpeak()) speechSynthesis.cancel(); } }
@@ -706,7 +732,7 @@
       <div class="vwrap"><video id="scanvideo" playsinline muted></video><div class="aim"></div></div>
       <p id="scanstatus" class="muted" aria-live="polite">${esc(mode === 'consume' ? t('Apuntá al código de barras o QR del producto que usaste') : t('Apuntá al código de barras'))}</p>
       <form class="row" data-form="scan-manual"><input class="search grow" id="scancode" inputmode="numeric" pattern="[0-9]*" placeholder="${esc(t('Código de barras'))}" autocomplete="off"><button class="btn primary" type="submit">OK</button></form>
-      <button class="link" data-act="scan-pic">🖼 ${esc(t('Elegir una foto'))}</button>
+      <button class="link" data-act="scan-pic">${ico('image')} ${esc(t('Elegir una foto'))}</button>
       <div id="scanlist"></div></div></div>`;
     document.body.appendChild(el); scanList();
     VScan.startScan(el.querySelector('video'), onCode).then(stop => { if (document.getElementById('scanlayer') === el) scan.stop = stop; else stop(); })
@@ -754,8 +780,8 @@
   function scanList() {
     const box = document.getElementById('scanlist'); if (!box) return;
     if (scan.mode !== 'bulk' || !scan.items.length) { box.innerHTML = ''; return; }
-    box.innerHTML = `<div class="group">${scan.items.map((it, i) => `<div class="item scanrow"><span class="grow"><input class="plain" data-scan="name" data-i="${i}" value="${esc(it.name)}" placeholder="${esc(it.loading ? t('Buscando…') : t('Nombre'))}" maxlength="200"><span class="row" style="margin-top:4px"><input class="plain" type="date" data-scan="expiry" data-i="${i}" value="${esc(it.expiry)}" aria-label="${esc(t('Vencimiento'))}"><button class="btn" data-act="scan-date" data-id="${i}" aria-label="${esc(t('Leer fecha de la foto'))}">📅</button></span></span>
-      <span class="stepper"><button type="button" data-act="scan-qty" data-id="${i}" data-d="-1">−</button><b>${it.qty}</b><button type="button" data-act="scan-qty" data-id="${i}" data-d="1">+</button></span><button class="btn" data-act="scan-del" data-id="${i}" aria-label="${esc(t('Eliminar'))}">✕</button></div>`).join('')}</div>
+    box.innerHTML = `<div class="group">${scan.items.map((it, i) => `<div class="item scanrow"><span class="grow"><input class="plain" data-scan="name" data-i="${i}" value="${esc(it.name)}" placeholder="${esc(it.loading ? t('Buscando…') : t('Nombre'))}" maxlength="200"><span class="row" style="margin-top:4px"><input class="plain" type="date" data-scan="expiry" data-i="${i}" value="${esc(it.expiry)}" aria-label="${esc(t('Vencimiento'))}"><button class="btn" data-act="scan-date" data-id="${i}" aria-label="${esc(t('Leer fecha de la foto'))}">${ico('calendar')}</button></span></span>
+      <span class="stepper"><button type="button" data-act="scan-qty" data-id="${i}" data-d="-1">−</button><b>${it.qty}</b><button type="button" data-act="scan-qty" data-id="${i}" data-d="1">+</button></span><button class="btn" data-act="scan-del" data-id="${i}" aria-label="${esc(t('Eliminar'))}">${ico('x')}</button></div>`).join('')}</div>
       <button class="btn primary block" data-act="scan-save">${esc(t('Guardar'))} (${scan.items.length})</button>`;
   }
   function scanSave() {
@@ -787,6 +813,7 @@
   { const lp = new URLSearchParams(location.search).get('lang'); if (lp && LANGS[lp] && !S.lang) { S.lang = lp; save(); } }
   if (!S.welcomed && !S.products.length && !/[?&]demo=1/.test(location.search)) ui.welcome = 0; else if (!S.welcomed) { S.welcomed = true; save(); }
   render();
+  { const a = new URLSearchParams(location.search).get('action'); if (a === 'scan' && ui.welcome == null) openScanner('add'); else if (a === 'quick' && ui.welcome == null) openQuick(); else if (a === 'recipes') { ui.tab = 'recipes'; ensureRecipes(); ensureComposer(); render(); } }
   // Si el navegador lo permite, pide que los datos no se borren solos.
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

@@ -25,7 +25,7 @@ test('i18n: cada texto de la app tiene traducción a los 5 idiomas', () => {
   assert.deepEqual(missing, []);
 });
 test('el service worker precachea los archivos de la app', () => {
-  const sw = read('sw.js'); ['index.html', 'app.css', 'app.js', 'i18n.js', 'dateparser.js', 'scan.js', 'recipes.js', 'manifest.webmanifest'].forEach(f => assert.ok(sw.includes("'" + f + "'"), f));
-  const html = read('index.html'); ['i18n.js', 'dateparser.js', 'scan.js', 'recipes.js', 'app.js'].forEach(f => assert.ok(html.includes('src="' + f + '"'), f));
+  const sw = read('sw.js'); ['index.html', 'app.css', 'app.js', 'i18n.js', 'icons.js', 'dateparser.js', 'scan.js', 'recipes.js', 'manifest.webmanifest'].forEach(f => assert.ok(sw.includes("'" + f + "'"), f));
+  const html = read('index.html'); ['i18n.js', 'icons.js', 'dateparser.js', 'scan.js', 'recipes.js', 'app.js'].forEach(f => assert.ok(html.includes('src="' + f + '"'), f));
 });
 test('la versión es la de las apps', () => { assert.match(read('app.js'), /const APP_VERSION = '\d+\.\d+\.\d+'/); });
