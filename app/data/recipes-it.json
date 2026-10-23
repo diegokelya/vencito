@@ -1,0 +1,2448 @@
+[
+  {
+    "id": "it-spaghetti-aglio-olio",
+    "origin": "IT",
+    "title": "Spaghetti aglio, olio e peperoncino",
+    "summary": "Pochi ingredienti, tanto sapore.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "3 spicchi"
+      },
+      {
+        "name": "Peperoncino",
+        "keywords": [
+          "peperoncino"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Prezzemolo",
+        "keywords": [
+          "prezzemolo"
+        ],
+        "amount": "1 mazzetto",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cuocete gli spaghetti in acqua salata.",
+      "Fate dorare l'aglio a fettine nell'olio con il peperoncino, a fuoco basso.",
+      "Scolate la pasta al dente e fatela saltare nella padella.",
+      "Aggiungete un mestolo di acqua di cottura e il prezzemolo."
+    ],
+    "tip": "Non fate bruciare l'aglio, altrimenti diventa amaro."
+  },
+  {
+    "id": "it-pasta-al-pomodoro",
+    "origin": "IT",
+    "title": "Pasta al pomodoro e basilico",
+    "summary": "Il classico dei classici.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggete la cipolla tritata nell'olio per 3 minuti.",
+      "Aggiungete il pomodoro e il sale e cuocete 15 minuti.",
+      "Cuocete la pasta in acqua salata e scolatela.",
+      "Saltatela nel sugo e servite con basilico e parmigiano."
+    ],
+    "tip": "Aggiungete il basilico a fuoco spento per mantenere il profumo."
+  },
+  {
+    "id": "it-carbonara",
+    "origin": "IT",
+    "title": "Spaghetti alla carbonara",
+    "summary": "Uova, guanciale e formaggio, senza panna.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Guanciale o pancetta",
+        "keywords": [
+          "guanciale",
+          "pancetta",
+          "bacon"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Pecorino o parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "50 g"
+      },
+      {
+        "name": "Pepe",
+        "keywords": [
+          "pepe"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rosolate il guanciale a cubetti in padella senza olio.",
+      "Sbattete le uova con il formaggio e molto pepe.",
+      "Cuocete la pasta in acqua salata e scolatela al dente.",
+      "Unitela al guanciale a fuoco spento e mescolate con la crema di uova, aggiungendo un po' di acqua di cottura."
+    ],
+    "tip": "Mai la panna: la cremosità viene da uova e acqua di cottura."
+  },
+  {
+    "id": "it-cacio-e-pepe",
+    "origin": "IT",
+    "title": "Pasta cacio e pepe",
+    "summary": "Due ingredienti e un po' di tecnica.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Pecorino",
+        "keywords": [
+          "pecorino",
+          "formaggio",
+          "parmigiano",
+          "grana"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Pepe",
+        "keywords": [
+          "pepe"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cuocete la pasta in poca acqua salata.",
+      "Tostate il pepe in padella e aggiungete un mestolo di acqua di cottura.",
+      "Scolate la pasta e finitela di cuocere nella padella.",
+      "Fuori dal fuoco, mantecate con il formaggio grattugiato."
+    ],
+    "tip": "Usate poca acqua di cottura: serve concentrata per legare la crema."
+  },
+  {
+    "id": "it-pasta-e-fagioli",
+    "origin": "IT",
+    "title": "Pasta e fagioli",
+    "summary": "Un piatto unico, caldo e sostanzioso.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Fagioli",
+        "keywords": [
+          "fagioli",
+          "fagiolo"
+        ],
+        "amount": "1 barattolo"
+      },
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "ditalini",
+          "maccheroni",
+          "pasta mista"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Carota",
+        "keywords": [
+          "carota",
+          "carote"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "4 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggete cipolla e carota tritate nell'olio.",
+      "Aggiungete il pomodoro, i fagioli scolati e l'acqua.",
+      "Cuocete 20 minuti e schiacciate alcuni fagioli per addensare.",
+      "Versate la pasta e cuocete finché è al dente."
+    ],
+    "tip": "Un filo d'olio a crudo alla fine dà un tocco in più."
+  },
+  {
+    "id": "it-risotto-al-parmigiano",
+    "origin": "IT",
+    "title": "Risotto al parmigiano",
+    "summary": "Cremoso e semplice.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Riso",
+        "keywords": [
+          "riso"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "50 g"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Brodo",
+        "keywords": [
+          "brodo",
+          "dado",
+          "acqua"
+        ],
+        "amount": "4 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggete la cipolla tritata nel burro.",
+      "Tostate il riso 1 minuto e aggiungete brodo caldo, un mestolo alla volta.",
+      "Mescolate e cuocete circa 16 minuti.",
+      "Mantecate fuori dal fuoco con parmigiano e burro."
+    ],
+    "tip": "Lasciate riposare 2 minuti coperto prima di servire."
+  },
+  {
+    "id": "it-frittata-di-zucchine",
+    "origin": "IT",
+    "title": "Frittata di zucchine",
+    "summary": "Veloce e leggera.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Insalata",
+    "ingredients": [
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Zucchine",
+        "keywords": [
+          "zucchina",
+          "zucchine"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tagliate le zucchine a rondelle e saltatele in olio 6 minuti.",
+      "Sbattete le uova con il parmigiano e il sale.",
+      "Versate le uova sulle zucchine e cuocete a fuoco basso 5 minuti.",
+      "Girate la frittata con un piatto e cuocete 3 minuti dall'altro lato."
+    ],
+    "tip": "Coprite con un coperchio per cuocere bene anche la superficie."
+  },
+  {
+    "id": "it-minestrone",
+    "origin": "IT",
+    "title": "Minestrone di verdure",
+    "summary": "Con tutto quello che c'è in frigo.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Patate",
+        "keywords": [
+          "patata",
+          "patate"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Carote",
+        "keywords": [
+          "carota",
+          "carote"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Zucchine",
+        "keywords": [
+          "zucchina",
+          "zucchine"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pasta o riso",
+        "keywords": [
+          "pasta",
+          "riso"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "1 litro",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tagliate tutte le verdure a dadini.",
+      "Soffriggete la cipolla nell'olio e aggiungete le altre verdure.",
+      "Coprite con l'acqua, salate e cuocete 30 minuti.",
+      "Unite la pasta e cuocete ancora 10 minuti."
+    ],
+    "tip": "Aggiungete la crosta del parmigiano durante la cottura per più sapore."
+  },
+  {
+    "id": "it-parmigiana-di-melanzane",
+    "origin": "IT",
+    "title": "Parmigiana di melanzane",
+    "summary": "Strati di melanzane, sugo e formaggio.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Melanzane",
+        "keywords": [
+          "melanzana",
+          "melanzane"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Mozzarella",
+        "keywords": [
+          "mozzarella",
+          "formaggio"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tagliate le melanzane a fette e grigliatele o cuocetele in forno con olio.",
+      "Preparate un sugo semplice con il pomodoro e il sale.",
+      "In una teglia alternate sugo, melanzane, mozzarella e parmigiano.",
+      "Infornate 25 minuti a 200 °C."
+    ],
+    "tip": "Cuocere le fette in forno invece di friggerle rende il piatto più leggero."
+  },
+  {
+    "id": "it-bruschette-al-pomodoro",
+    "origin": "IT",
+    "title": "Bruschette al pomodoro",
+    "summary": "Fresche e immediate.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pane",
+        "keywords": [
+          "pane",
+          "baguette",
+          "ciabatta"
+        ],
+        "amount": "4 fette"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "1 spicchio",
+        "kind": "optional"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tostate le fette di pane.",
+      "Strofinate l'aglio sul pane caldo.",
+      "Tagliate il pomodoro a cubetti e conditelo con olio, sale e basilico.",
+      "Servite subito sul pane."
+    ],
+    "tip": "Usate pomodori maturi: il sapore cambia tutto."
+  },
+  {
+    "id": "it-polpette-al-sugo",
+    "origin": "IT",
+    "title": "Polpette al sugo",
+    "summary": "Morbide e saporite.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Pane o patate",
+    "ingredients": [
+      {
+        "name": "Carne macinata",
+        "keywords": [
+          "carne macinata",
+          "macinato",
+          "carne trita"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pane",
+        "keywords": [
+          "pane",
+          "pangrattato"
+        ],
+        "amount": "3 cucchiai"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Impastate la carne con l'uovo, il pane, il parmigiano e il sale; formate le polpette.",
+      "Soffriggete la cipolla e unite il pomodoro.",
+      "Mettete le polpette nel sugo.",
+      "Cuocete coperto per 25 minuti."
+    ],
+    "tip": "Bagnate le mani per formare le polpette senza che si attacchino."
+  },
+  {
+    "id": "it-pollo-alla-cacciatora",
+    "origin": "IT",
+    "title": "Pollo alla cacciatora",
+    "summary": "Pollo in umido con pomodoro.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "Polenta o patate",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "cosce",
+          "sovracosce"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Olive",
+        "keywords": [
+          "olive"
+        ],
+        "amount": "10",
+        "kind": "optional"
+      },
+      {
+        "name": "Vino bianco",
+        "keywords": [
+          "vino bianco"
+        ],
+        "amount": "1/2 bicchiere",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rosolate il pollo salato in padella con olio.",
+      "Aggiungete la cipolla tagliata e il vino e fate evaporare.",
+      "Unite il pomodoro e le olive.",
+      "Cuocete coperto a fuoco basso per 30 minuti."
+    ],
+    "tip": "Aggiungete un rametto di rosmarino per profumare il sugo."
+  },
+  {
+    "id": "it-cotoletta-alla-milanese",
+    "origin": "IT",
+    "title": "Cotoletta alla milanese",
+    "summary": "Panata e dorata in padella.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Insalata o patate",
+    "ingredients": [
+      {
+        "name": "Carne",
+        "keywords": [
+          "vitello",
+          "pollo",
+          "maiale",
+          "lonza",
+          "fettine",
+          "cotoletta",
+          "carne"
+        ],
+        "amount": "2 fettine"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Pangrattato",
+        "keywords": [
+          "pangrattato",
+          "pane grattugiato"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Limone",
+        "keywords": [
+          "limone"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Battete leggermente le fettine e salatele.",
+      "Passatele nell'uovo sbattuto e poi nel pangrattato.",
+      "Friggetele nel burro caldo 3 minuti per lato.",
+      "Servitele con spicchi di limone."
+    ],
+    "tip": "Il burro deve essere caldo ma non bruciato."
+  },
+  {
+    "id": "it-gnocchi-al-pomodoro",
+    "origin": "IT",
+    "title": "Gnocchi al pomodoro",
+    "summary": "Pronti in 15 minuti.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Gnocchi",
+        "keywords": [
+          "gnocchi",
+          "gnocco"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Mozzarella",
+        "keywords": [
+          "mozzarella",
+          "formaggio",
+          "parmigiano"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Scaldate il pomodoro con un filo d'olio e sale per 8 minuti.",
+      "Cuocete gli gnocchi in acqua salata fino a quando salgono a galla.",
+      "Scolateli e uniteli al sugo.",
+      "Servite con mozzarella a pezzetti e basilico."
+    ],
+    "tip": "Non lasciate gli gnocchi in acqua più del necessario: si sfaldano."
+  },
+  {
+    "id": "it-pasta-alla-norma",
+    "origin": "IT",
+    "title": "Pasta alla Norma",
+    "summary": "Melanzane, pomodoro e formaggio.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Melanzane",
+        "keywords": [
+          "melanzana",
+          "melanzane"
+        ],
+        "amount": "1 grande"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Ricotta salata o parmigiano",
+        "keywords": [
+          "ricotta",
+          "parmigiano",
+          "pecorino",
+          "formaggio"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tagliate la melanzana a cubetti e saltatela in olio finché è dorata.",
+      "Aggiungete il pomodoro e il sale e cuocete 10 minuti.",
+      "Cuocete la pasta e scolatela.",
+      "Mescolate con il sugo e finite con formaggio e basilico."
+    ],
+    "tip": "Salate le melanzane e lasciatele riposare 10 minuti per ridurne l'amaro."
+  },
+  {
+    "id": "it-pasta-e-ceci",
+    "origin": "IT",
+    "title": "Pasta e ceci",
+    "summary": "Cremosa e saziante.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Ceci",
+        "keywords": [
+          "ceci",
+          "cece"
+        ],
+        "amount": "1 barattolo"
+      },
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "ditalini",
+          "maccheroni",
+          "pasta mista"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "1 spicchio",
+        "kind": "optional"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "3 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggete l'aglio nell'olio e aggiungete il pomodoro.",
+      "Unite i ceci scolati e l'acqua e cuocete 15 minuti.",
+      "Frullate un mestolo di ceci per addensare e rimettetelo nella pentola.",
+      "Cuocete la pasta direttamente nella zuppa."
+    ],
+    "tip": "Servitela con un filo d'olio a crudo e pepe nero."
+  },
+  {
+    "id": "it-insalata-caprese",
+    "origin": "IT",
+    "title": "Insalata caprese",
+    "summary": "Pomodoro, mozzarella e basilico.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Mozzarella",
+        "keywords": [
+          "mozzarella"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Affettate pomodori e mozzarella.",
+      "Alternateli su un piatto.",
+      "Condite con olio, sale e basilico."
+    ],
+    "tip": "Servitela a temperatura ambiente per più sapore."
+  },
+  {
+    "id": "it-pasta-al-tonno",
+    "origin": "IT",
+    "title": "Pasta al tonno",
+    "summary": "Dispensa e tempo ridotto.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Tonno",
+        "keywords": [
+          "tonno"
+        ],
+        "amount": "1 scatoletta"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "200 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "1 spicchio",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cuocete la pasta in acqua salata.",
+      "Fate insaporire l'aglio nell'olio e aggiungete il pomodoro per 8 minuti.",
+      "Unite il tonno sgocciolato e scaldate 2 minuti.",
+      "Mescolate con la pasta scolata."
+    ],
+    "tip": "Aggiungete prezzemolo fresco alla fine."
+  },
+  {
+    "id": "it-spaghetti-alla-puttanesca",
+    "origin": "IT",
+    "title": "Spaghetti alla puttanesca",
+    "summary": "Olive, capperi e pomodoro.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Olive",
+        "keywords": [
+          "olive"
+        ],
+        "amount": "10"
+      },
+      {
+        "name": "Capperi",
+        "keywords": [
+          "capperi"
+        ],
+        "amount": "1 cucchiaio",
+        "kind": "optional"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "1 spicchio",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Fate insaporire l'aglio nell'olio.",
+      "Aggiungete il pomodoro, le olive e i capperi e cuocete 12 minuti.",
+      "Cuocete gli spaghetti e scolateli al dente.",
+      "Mescolate con il sugo."
+    ],
+    "tip": "Sciacquate i capperi sotto sale per toglierne l'eccesso."
+  },
+  {
+    "id": "it-lenticchie-e-salsiccia",
+    "origin": "IT",
+    "title": "Lenticchie con salsiccia",
+    "summary": "Un secondo robusto.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Lenticchie",
+        "keywords": [
+          "lenticchie",
+          "lenticchia"
+        ],
+        "amount": "1 barattolo"
+      },
+      {
+        "name": "Salsiccia",
+        "keywords": [
+          "salsiccia",
+          "salsicce"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Carota",
+        "keywords": [
+          "carota",
+          "carote"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rosolate la salsiccia a pezzi in padella con olio.",
+      "Aggiungete cipolla e carota tritate e cuocete 5 minuti.",
+      "Unite il pomodoro e le lenticchie scolate con un mestolo d'acqua.",
+      "Cuocete 15 minuti a fuoco basso."
+    ],
+    "tip": "Se usate lenticchie secche, cuocetele prima per circa 20 minuti."
+  },
+  {
+    "id": "it-pasta-al-forno",
+    "origin": "IT",
+    "title": "Pasta al forno",
+    "summary": "Il piatto della domenica.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Mozzarella",
+        "keywords": [
+          "mozzarella",
+          "formaggio"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Prosciutto",
+        "keywords": [
+          "prosciutto cotto"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Scaldate il forno a 200 °C e cuocete la pasta molto al dente.",
+      "Scaldate il pomodoro con un filo d'olio e sale 8 minuti.",
+      "Mescolate la pasta con il sugo, la mozzarella e il prosciutto a pezzetti.",
+      "Versate in una teglia, spolverate di parmigiano e cuocete 20 minuti."
+    ],
+    "tip": "Cuocete la pasta un paio di minuti meno: finirà in forno."
+  },
+  {
+    "id": "it-risotto-ai-funghi",
+    "origin": "IT",
+    "title": "Risotto ai funghi",
+    "summary": "Cremoso e profumato.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Riso",
+        "keywords": [
+          "riso"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Funghi",
+        "keywords": [
+          "funghi",
+          "fungo",
+          "champignon"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro",
+          "olio"
+        ],
+        "amount": "1 noce",
+        "kind": "staple"
+      },
+      {
+        "name": "Brodo",
+        "keywords": [
+          "brodo",
+          "dado",
+          "acqua"
+        ],
+        "amount": "4 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rosolate la cipolla tritata nel burro e aggiungete i funghi a fette; cuocete 6 minuti.",
+      "Tostate il riso 1 minuto.",
+      "Aggiungete il brodo caldo un mestolo alla volta, mescolando, per circa 16 minuti.",
+      "Mantecate con il parmigiano fuori dal fuoco."
+    ],
+    "tip": "Non lavate i funghi: puliteli con un panno umido."
+  },
+  {
+    "id": "it-pizza-veloce",
+    "origin": "IT",
+    "title": "Pizza margherita veloce",
+    "summary": "Con base già pronta.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Base per pizza",
+        "keywords": [
+          "base per pizza",
+          "base pizza",
+          "pasta per pizza",
+          "pizza",
+          "impasto"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Mozzarella",
+        "keywords": [
+          "mozzarella"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "qualche foglia",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Scaldate il forno a 230 °C.",
+      "Stendete la base su una teglia e copritela di pomodoro con un pizzico di sale.",
+      "Aggiungete la mozzarella a pezzetti e un filo d'olio.",
+      "Cuocete 10 minuti e finite con il basilico."
+    ],
+    "tip": "Scolate bene la mozzarella per non bagnare la pizza."
+  },
+  {
+    "id": "it-frittata-di-patate",
+    "origin": "IT",
+    "title": "Frittata di patate e cipolle",
+    "summary": "Semplice e saziante.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Insalata",
+    "ingredients": [
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "5"
+      },
+      {
+        "name": "Patate",
+        "keywords": [
+          "patata",
+          "patate"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tagliate patate e cipolla a fettine e cuocetele in olio 12 minuti, finché sono tenere.",
+      "Sbattete le uova con sale.",
+      "Unite le verdure scolate alle uova.",
+      "Versate in padella e cuocete 5 minuti per lato."
+    ],
+    "tip": "Scolate le patate dall'olio prima di unirle alle uova."
+  },
+  {
+    "id": "it-spezzatino-con-patate",
+    "origin": "IT",
+    "title": "Spezzatino con patate",
+    "summary": "Carne tenera in umido.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Carne",
+        "keywords": [
+          "manzo",
+          "vitello",
+          "carne",
+          "spezzatino"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Patate",
+        "keywords": [
+          "patata",
+          "patate"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Carota",
+        "keywords": [
+          "carota",
+          "carote"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "200 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "2 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rosolate la carne a cubetti con l'olio e salatela.",
+      "Aggiungete la cipolla e la carota tritate e cuocete 5 minuti.",
+      "Unite il pomodoro e l'acqua e cuocete coperto 30 minuti.",
+      "Aggiungete le patate a pezzi e cuocete altri 20 minuti."
+    ],
+    "tip": "Più cuoce piano, più la carne diventa tenera."
+  },
+  {
+    "id": "it-petto-di-pollo-al-limone",
+    "origin": "IT",
+    "title": "Petto di pollo al limone",
+    "summary": "Fresco e veloce.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Insalata o riso",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "petto di pollo"
+        ],
+        "amount": "2 fette"
+      },
+      {
+        "name": "Limone",
+        "keywords": [
+          "limone"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Farina",
+        "keywords": [
+          "farina"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro",
+          "olio"
+        ],
+        "amount": "1 noce",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Infarinate leggermente il pollo e salatelo.",
+      "Rosolatelo nel burro 4 minuti per lato.",
+      "Aggiungete il succo di limone e un po' d'acqua.",
+      "Fate restringere 3 minuti e servite con la salsina."
+    ],
+    "tip": "Non cuocete troppo il pollo: diventa asciutto."
+  },
+  {
+    "id": "it-insalata-di-riso",
+    "origin": "IT",
+    "title": "Insalata di riso",
+    "summary": "Il classico piatto freddo.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Riso",
+        "keywords": [
+          "riso"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Tonno",
+        "keywords": [
+          "tonno"
+        ],
+        "amount": "1 scatoletta"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Mais",
+        "keywords": [
+          "mais"
+        ],
+        "amount": "1/2 scatola",
+        "kind": "optional"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cuocete il riso in acqua salata, scolatelo e lavatelo con acqua fredda.",
+      "Sodate le uova per 10 minuti e tagliatele a spicchi.",
+      "Mescolate il riso con il tonno, il pomodoro a cubetti, il mais e le uova.",
+      "Condite con olio e sale."
+    ],
+    "tip": "Lavate il riso con acqua fredda per non farlo attaccare."
+  },
+  {
+    "id": "it-penne-all-arrabbiata",
+    "origin": "IT",
+    "title": "Penne all'arrabbiata",
+    "summary": "Piccanti e pronte in 20 minuti.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Penne",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "penne",
+          "rigatoni",
+          "fusilli",
+          "maccheroni",
+          "linguine",
+          "bucatini"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "2 spicchi"
+      },
+      {
+        "name": "Peperoncino",
+        "keywords": [
+          "peperoncino"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cuocete la pasta in acqua salata.",
+      "Fate insaporire l'aglio e il peperoncino nell'olio a fuoco basso.",
+      "Aggiungete il pomodoro e il sale e cuocete 12 minuti.",
+      "Mescolate con la pasta scolata."
+    ],
+    "tip": "Per un gusto meno forte, usate meno peperoncino."
+  },
+  {
+    "id": "it-frittata-di-spinaci",
+    "origin": "IT",
+    "title": "Frittata di spinaci",
+    "summary": "Leggera e ricca di ferro.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Spinaci",
+        "keywords": [
+          "spinaci"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio",
+          "pecorino"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cuocete gli spinaci in padella con un po' d'olio finché si ammorbidiscono, 4 minuti.",
+      "Sbattete le uova con il parmigiano e il sale.",
+      "Unite gli spinaci e versate in padella.",
+      "Cuocete 4 minuti per lato."
+    ],
+    "tip": "Strizzate bene gli spinaci cotti per eliminare l'acqua."
+  },
+  {
+    "id": "it-crema-di-zucca",
+    "origin": "IT",
+    "title": "Crema di zucca",
+    "summary": "Dolce e vellutata.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Crostini",
+    "ingredients": [
+      {
+        "name": "Zucca",
+        "keywords": [
+          "zucca"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Patate",
+        "keywords": [
+          "patata",
+          "patate"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "3 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pulite la zucca e tagliatela a cubetti con la patata.",
+      "Soffriggete la cipolla nell'olio.",
+      "Aggiungete la zucca, la patata e l'acqua e salate; cuocete 20 minuti.",
+      "Frullate fino a ottenere una crema."
+    ],
+    "tip": "Un pizzico di noce moscata la rende più aromatica."
+  },
+  {
+    "id": "it-pasta-e-patate",
+    "origin": "IT",
+    "title": "Pasta e patate",
+    "summary": "Un piatto napoletano povero e buonissimo.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "pasta mista",
+          "ditalini",
+          "maccheroni"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Patate",
+        "keywords": [
+          "patata",
+          "patate"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Formaggio",
+        "keywords": [
+          "formaggio",
+          "parmigiano",
+          "provola",
+          "scamorza"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "4 tazze",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggete la cipolla tritata nell'olio.",
+      "Aggiungete le patate a dadini e rosolate 3 minuti.",
+      "Coprite con l'acqua, salate e cuocete 15 minuti.",
+      "Unite la pasta, cuocete finché è tenera e aggiungete il formaggio."
+    ],
+    "tip": "Schiacciate qualche patata per rendere il piatto più cremoso."
+  },
+  {
+    "id": "it-uova-in-purgatorio",
+    "origin": "IT",
+    "title": "Uova in purgatorio",
+    "summary": "Uova cotte nel sugo piccante.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Pane",
+    "ingredients": [
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori",
+          "passata",
+          "pelati",
+          "polpa di pomodoro",
+          "sugo",
+          "salsa di pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla",
+          "cipolle"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Peperoncino",
+        "keywords": [
+          "peperoncino"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      },
+      {
+        "name": "Olio d'oliva",
+        "keywords": [
+          "olio",
+          "olio d'oliva",
+          "olio extravergine"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggete la cipolla nell'olio e aggiungete il pomodoro e il sale.",
+      "Cuocete 10 minuti.",
+      "Fate quattro buchi nel sugo e rompetevi le uova.",
+      "Cuocete coperto 5 minuti, finché l'albume è rappreso."
+    ],
+    "tip": "Servite con pane per fare la scarpetta."
+  }
+]

@@ -1,0 +1,2777 @@
+[
+  {
+    "id": "de-spaghetti-bolognese",
+    "origin": "DE",
+    "title": "Spaghetti mit Hackfleischsoße",
+    "summary": "Der Klassiker für alle.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Salat",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "keywords": [
+          "nudeln",
+          "spaghetti",
+          "penne",
+          "makkaroni",
+          "fusilli",
+          "spirelli",
+          "pasta"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Hackfleisch",
+        "keywords": [
+          "hackfleisch",
+          "gehacktes",
+          "hack",
+          "rinderhack",
+          "gemischtes hack",
+          "mett"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Tomaten",
+        "keywords": [
+          "tomate",
+          "tomaten",
+          "passierte tomaten",
+          "tomatensauce",
+          "dosentomaten"
+        ],
+        "amount": "1 Dose"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Parmesan",
+        "keywords": [
+          "parmesan",
+          "kase",
+          "reibekase"
+        ],
+        "amount": "3 EL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel hacken und mit dem Hackfleisch in Öl krümelig anbraten.",
+      "Tomaten dazugeben, salzen und 15 Minuten köcheln lassen.",
+      "Spaghetti in Salzwasser bissfest kochen und abgießen.",
+      "Mit der Soße und Parmesan servieren."
+    ],
+    "tip": "Etwas Nudelwasser macht die Soße geschmeidiger."
+  },
+  {
+    "id": "de-kartoffelsuppe",
+    "origin": "DE",
+    "title": "Kartoffelsuppe",
+    "summary": "Wärmend und günstig.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Möhren",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "wiener",
+          "bockwurst"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "margarine"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1 l",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel, Kartoffeln und Möhren würfeln.",
+      "Die Zwiebel in Butter andünsten, dann das Gemüse dazugeben.",
+      "Mit Wasser aufgießen, salzen und 20 Minuten kochen.",
+      "Teilweise pürieren und Würstchenscheiben hineingeben."
+    ],
+    "tip": "Etwas Majoran verfeinert die Suppe."
+  },
+  {
+    "id": "de-bratkartoffeln-spiegelei",
+    "origin": "DE",
+    "title": "Bratkartoffeln mit Spiegelei",
+    "summary": "Knusprig und schnell.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Gurkensalat",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Speck",
+        "keywords": [
+          "speck",
+          "schinkenspeck",
+          "bacon"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln kochen, abkühlen lassen und in Scheiben schneiden.",
+      "In einer Pfanne mit Öl 10 Minuten knusprig braten.",
+      "Zwiebel und Speck dazugeben und mitbraten.",
+      "Spiegeleier braten und auf die Kartoffeln legen."
+    ],
+    "tip": "Am besten mit Kartoffeln vom Vortag: sie werden knuspriger."
+  },
+  {
+    "id": "de-linsensuppe",
+    "origin": "DE",
+    "title": "Linsensuppe",
+    "summary": "Ein deftiger Eintopf.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Linsen",
+        "keywords": [
+          "linse",
+          "linsen"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Möhren",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "wiener",
+          "bockwurst",
+          "speck"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1 l",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel, Möhren und Kartoffeln würfeln und in Öl anbraten.",
+      "Linsen und Brühe dazugeben.",
+      "Etwa 30 Minuten weich kochen und salzen.",
+      "Würstchenscheiben kurz miterhitzen."
+    ],
+    "tip": "Ein Schuss Essig am Ende hebt den Geschmack."
+  },
+  {
+    "id": "de-kasespatzle",
+    "origin": "DE",
+    "title": "Käsespätzle",
+    "summary": "Spätzle mit Käse und Röstzwiebeln.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Salat",
+    "ingredients": [
+      {
+        "name": "Spätzle",
+        "keywords": [
+          "spatzle"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Käse",
+        "keywords": [
+          "kase",
+          "gouda",
+          "emmentaler",
+          "bergkase",
+          "reibekase",
+          "edamer",
+          "cheddar"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "margarine"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebeln in Ringe schneiden und in Butter goldbraun braten.",
+      "Spätzle nach Packungsanleitung in Salzwasser kochen.",
+      "Abgießen und schichtweise mit dem Käse in eine Form geben.",
+      "Im Ofen bei 200 °C 8 Minuten überbacken und mit Zwiebeln servieren."
+    ],
+    "tip": "Den Käse zwischen die Schichten geben, damit er überall schmilzt."
+  },
+  {
+    "id": "de-kartoffelpuffer",
+    "origin": "DE",
+    "title": "Kartoffelpuffer",
+    "summary": "Knusprig aus der Pfanne.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Apfelmus",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "2 EL"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln und Zwiebel reiben und gut ausdrücken.",
+      "Mit Ei, Mehl und Salz verrühren.",
+      "Kleine Portionen in heißem Öl flach drücken.",
+      "Von beiden Seiten knusprig braten, etwa 4 Minuten pro Seite."
+    ],
+    "tip": "Das ausgedrückte Wasser kurz stehen lassen, die Stärke wieder untermischen."
+  },
+  {
+    "id": "de-frikadellen",
+    "origin": "DE",
+    "title": "Frikadellen",
+    "summary": "Saftig und einfach.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Kartoffelsalat",
+    "ingredients": [
+      {
+        "name": "Hackfleisch",
+        "keywords": [
+          "hackfleisch",
+          "gehacktes",
+          "hack",
+          "rinderhack",
+          "gemischtes hack",
+          "mett"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Semmelbrösel",
+        "keywords": [
+          "semmelbrosel",
+          "paniermehl",
+          "brotchen",
+          "brot"
+        ],
+        "amount": "3 EL"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Pfeffer",
+        "keywords": [
+          "pfeffer"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel fein hacken und mit Hackfleisch, Ei, Semmelbröseln, Salz und Pfeffer verkneten.",
+      "Zu flachen Frikadellen formen.",
+      "In heißem Öl 5 Minuten pro Seite braten.",
+      "Mit Beilage servieren."
+    ],
+    "tip": "Mit angefeuchteten Händen lassen sich die Frikadellen besser formen."
+  },
+  {
+    "id": "de-nudelauflauf",
+    "origin": "DE",
+    "title": "Nudelauflauf mit Schinken",
+    "summary": "Aus dem Ofen, mit viel Käse.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Nudeln",
+        "keywords": [
+          "nudeln",
+          "spaghetti",
+          "penne",
+          "makkaroni",
+          "fusilli",
+          "spirelli",
+          "pasta"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Schinken",
+        "keywords": [
+          "kochschinken"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Käse",
+        "keywords": [
+          "kase",
+          "gouda",
+          "emmentaler",
+          "bergkase",
+          "reibekase",
+          "edamer",
+          "cheddar"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Sahne",
+        "keywords": [
+          "sahne",
+          "kochsahne",
+          "milch"
+        ],
+        "amount": "200 ml"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Backofen auf 200 °C vorheizen und die Nudeln bissfest kochen.",
+      "Schinken würfeln und mit den Nudeln in eine Form geben.",
+      "Sahne mit Ei und Salz verrühren und darübergießen.",
+      "Mit Käse bestreuen und 20 Minuten backen."
+    ],
+    "tip": "Die Nudeln nicht ganz weich kochen, sie garen im Ofen weiter."
+  },
+  {
+    "id": "de-haehnchenschnitzel",
+    "origin": "DE",
+    "title": "Hähnchenschnitzel",
+    "summary": "Paniert und goldbraun.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Kartoffelsalat",
+    "ingredients": [
+      {
+        "name": "Hähnchen",
+        "keywords": [
+          "hahnchen",
+          "huhn",
+          "huhnchen",
+          "hahnchenbrust",
+          "schnitzel"
+        ],
+        "amount": "2 Stücke"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Semmelbrösel",
+        "keywords": [
+          "semmelbrosel",
+          "paniermehl"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "3 EL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Das Fleisch flach klopfen und salzen.",
+      "Nacheinander in Mehl, verquirltem Ei und Semmelbröseln wenden.",
+      "In reichlich heißem Öl 3 Minuten pro Seite goldbraun braten.",
+      "Auf Küchenpapier abtropfen lassen."
+    ],
+    "tip": "Mit Zitrone servieren."
+  },
+  {
+    "id": "de-pellkartoffeln-quark",
+    "origin": "DE",
+    "title": "Pellkartoffeln mit Kräuterquark",
+    "summary": "Einfach und gesund.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Quark",
+        "keywords": [
+          "quark"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Kräuter",
+        "keywords": [
+          "kraut",
+          "krauter",
+          "schnittlauch",
+          "petersilie"
+        ],
+        "amount": "1 Handvoll",
+        "kind": "optional"
+      },
+      {
+        "name": "Leinöl",
+        "keywords": [
+          "leinol",
+          "ol",
+          "olivenol"
+        ],
+        "amount": "1 EL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln mit Schale in Salzwasser 20 bis 25 Minuten kochen.",
+      "Quark mit Kräutern und Salz verrühren.",
+      "Kartoffeln abgießen und kurz ausdampfen lassen.",
+      "Mit dem Quark und etwas Öl servieren."
+    ],
+    "tip": "Mit einem Spritzer Milch wird der Quark cremiger."
+  },
+  {
+    "id": "de-gemuese-eintopf",
+    "origin": "DE",
+    "title": "Gemüseeintopf mit Würstchen",
+    "summary": "Alles in einem Topf.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Möhren",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Lauch",
+        "keywords": [
+          "lauch",
+          "porree"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "bockwurst",
+          "wiener",
+          "bratwurst"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Pfeffer",
+        "keywords": [
+          "pfeffer"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1 l",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Gemüse waschen und in Stücke schneiden.",
+      "Mit der Brühe 20 Minuten kochen.",
+      "Würstchen in Scheiben schneiden und dazugeben.",
+      "Weitere 5 Minuten ziehen lassen und würzen."
+    ],
+    "tip": "Am nächsten Tag schmeckt er noch besser."
+  },
+  {
+    "id": "de-reispfanne-haehnchen",
+    "origin": "DE",
+    "title": "Reispfanne mit Hähnchen",
+    "summary": "Ein Gericht, eine Pfanne.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Reis",
+        "keywords": [
+          "reis"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Hähnchen",
+        "keywords": [
+          "hahnchen",
+          "huhn",
+          "huhnchen",
+          "hahnchenbrust"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Paprika",
+        "keywords": [
+          "paprika"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser",
+        "keywords": [
+          "wasser"
+        ],
+        "amount": "2 Tassen",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Hähnchen würfeln, salzen und in Öl anbraten.",
+      "Zwiebel und Paprika dazugeben und 3 Minuten braten.",
+      "Reis einrühren und mit dem Wasser aufgießen.",
+      "Zugedeckt 15 Minuten bei kleiner Hitze garen."
+    ],
+    "tip": "Nicht umrühren, damit der Reis nicht klebt."
+  },
+  {
+    "id": "de-flammkuchen",
+    "origin": "DE",
+    "title": "Flammkuchen",
+    "summary": "Dünn, knusprig und schnell.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Flammkuchenteig",
+        "keywords": [
+          "flammkuchenteig",
+          "flammkuchen",
+          "pizzateig",
+          "blatterteig",
+          "teig"
+        ],
+        "amount": "1 Rolle"
+      },
+      {
+        "name": "Speck",
+        "keywords": [
+          "speck",
+          "schinken",
+          "bacon"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Crème fraîche",
+        "keywords": [
+          "creme fraiche",
+          "schmand",
+          "sauerrahm",
+          "saure sahne"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Backofen auf 220 °C vorheizen.",
+      "Teig ausrollen und mit Crème fraîche und Salz bestreichen.",
+      "Zwiebel in Ringen und Speck darauf verteilen.",
+      "10 bis 12 Minuten backen, bis der Rand knusprig ist."
+    ],
+    "tip": "Je dünner der Teig, desto knuspriger der Flammkuchen."
+  },
+  {
+    "id": "de-bratwurst-sauerkraut",
+    "origin": "DE",
+    "title": "Bratwurst mit Sauerkraut und Püree",
+    "summary": "Deftig und klassisch.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bratwurst",
+        "keywords": [
+          "bratwurst",
+          "wurst",
+          "wurstchen"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Sauerkraut",
+        "keywords": [
+          "sauerkraut"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "1/4 Tasse",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "margarine"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln schälen, kochen und mit Milch, Butter und Salz zu Püree stampfen.",
+      "Sauerkraut in einem Topf 15 Minuten erwärmen.",
+      "Bratwurst in der Pfanne rundherum braun braten.",
+      "Alles zusammen anrichten."
+    ],
+    "tip": "Ein Apfelstück im Sauerkraut mildert die Säure."
+  },
+  {
+    "id": "de-gebratene-nudeln-ei",
+    "origin": "DE",
+    "title": "Gebratene Nudeln mit Ei",
+    "summary": "Perfekt für Nudeln vom Vortag.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Nudeln",
+        "keywords": [
+          "nudeln",
+          "spaghetti",
+          "penne",
+          "makkaroni",
+          "fusilli",
+          "spirelli",
+          "pasta"
+        ],
+        "amount": "250 g gekocht"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Möhre",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sojasoße",
+        "keywords": [
+          "sojasosse",
+          "sojasauce",
+          "soja"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel und Möhre klein schneiden und in Öl 4 Minuten anbraten.",
+      "Die Nudeln dazugeben und scharf anbraten.",
+      "Eier an den Rand schieben und rühren, bis sie stocken.",
+      "Alles vermengen und mit Sojasoße würzen."
+    ],
+    "tip": "Bei starker Hitze braten, dann kleben die Nudeln nicht."
+  },
+  {
+    "id": "de-tomatensuppe",
+    "origin": "DE",
+    "title": "Tomatensuppe",
+    "summary": "Cremig und schnell gemacht.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Brot oder Käsetoast",
+    "ingredients": [
+      {
+        "name": "Tomaten",
+        "keywords": [
+          "tomate",
+          "tomaten",
+          "dosentomaten",
+          "passierte tomaten"
+        ],
+        "amount": "1 Dose oder 6 Stück"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sahne",
+        "keywords": [
+          "sahne",
+          "kochsahne",
+          "milch"
+        ],
+        "amount": "50 ml",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1/2 l",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel hacken und in Öl glasig dünsten.",
+      "Tomaten und Brühe dazugeben und 15 Minuten köcheln.",
+      "Fein pürieren und salzen.",
+      "Mit einem Schuss Sahne servieren."
+    ],
+    "tip": "Eine Prise Zucker nimmt den sauren Geschmack."
+  },
+  {
+    "id": "de-herzhafte-eierkuchen",
+    "origin": "DE",
+    "title": "Herzhafte Eierkuchen",
+    "summary": "Pfannkuchen mit Schinken und Käse.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Schinken",
+        "keywords": [
+          "kochschinken"
+        ],
+        "amount": "4 Scheiben",
+        "kind": "optional"
+      },
+      {
+        "name": "Käse",
+        "keywords": [
+          "kase",
+          "gouda",
+          "emmentaler",
+          "bergkase",
+          "reibekase",
+          "edamer",
+          "cheddar"
+        ],
+        "amount": "80 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "ol"
+        ],
+        "amount": "1 TL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Eier, Mehl, Milch und Salz zu einem glatten Teig verrühren.",
+      "Etwas Butter in einer Pfanne erhitzen und eine Kelle Teig verteilen.",
+      "Nach 2 Minuten wenden und mit Schinken und Käse belegen.",
+      "Zusammenklappen, bis der Käse schmilzt."
+    ],
+    "tip": "Den Teig 10 Minuten ruhen lassen, dann klappt es besser."
+  },
+  {
+    "id": "de-hackbraten",
+    "origin": "DE",
+    "title": "Hackbraten",
+    "summary": "Der Sonntagsbraten im Kleinen.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Kartoffelpüree",
+    "ingredients": [
+      {
+        "name": "Hackfleisch",
+        "keywords": [
+          "hackfleisch",
+          "gehacktes",
+          "hack",
+          "rinderhack",
+          "gemischtes hack",
+          "mett"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Semmelbrösel",
+        "keywords": [
+          "semmelbrosel",
+          "paniermehl",
+          "brotchen",
+          "brot"
+        ],
+        "amount": "4 EL"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Senf",
+        "keywords": [
+          "senf"
+        ],
+        "amount": "1 TL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Pfeffer",
+        "keywords": [
+          "pfeffer"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Backofen auf 180 °C vorheizen.",
+      "Hackfleisch mit Ei, Semmelbröseln, gehackter Zwiebel, Senf, Salz und Pfeffer vermengen.",
+      "Zu einem Laib formen und in eine Form legen.",
+      "45 Minuten backen und vor dem Aufschneiden 5 Minuten ruhen lassen."
+    ],
+    "tip": "Mit Speck umwickelt bleibt er saftiger."
+  },
+  {
+    "id": "de-ruehrei-mit-schinken",
+    "origin": "DE",
+    "title": "Rührei mit Schinken und Brot",
+    "summary": "Zum Abendbrot.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Schinken",
+        "keywords": [
+          "kochschinken"
+        ],
+        "amount": "3 Scheiben",
+        "kind": "optional"
+      },
+      {
+        "name": "Brot",
+        "keywords": [
+          "brot",
+          "brotchen"
+        ],
+        "amount": "4 Scheiben"
+      },
+      {
+        "name": "Schnittlauch",
+        "keywords": [
+          "schnittlauch",
+          "kraut",
+          "krauter"
+        ],
+        "amount": "1 EL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "margarine"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Eier mit Salz verquirlen.",
+      "Butter in der Pfanne zerlassen und die Eier bei kleiner Hitze stocken lassen.",
+      "Schinkenstreifen kurz mitgaren.",
+      "Mit Schnittlauch auf Brot servieren."
+    ],
+    "tip": "Die Eier vom Herd nehmen, solange sie noch cremig sind.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "de-gulasch",
+    "origin": "DE",
+    "title": "Rindergulasch",
+    "summary": "Zartes Fleisch in würziger Soße.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Nudeln oder Brot",
+    "ingredients": [
+      {
+        "name": "Rindfleisch",
+        "keywords": [
+          "rind",
+          "rindfleisch",
+          "gulasch",
+          "fleisch"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Paprika",
+        "keywords": [
+          "paprika"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3",
+        "kind": "optional"
+      },
+      {
+        "name": "Paprikapulver",
+        "keywords": [
+          "paprikapulver"
+        ],
+        "amount": "2 TL",
+        "kind": "staple"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "2 Tassen",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Fleisch würfeln, salzen und in Öl scharf anbraten.",
+      "Zwiebeln und Paprika dazugeben und mit Paprikapulver anschwitzen.",
+      "Mit der Brühe aufgießen und zugedeckt 35 Minuten schmoren.",
+      "Kartoffelwürfel dazugeben und weitere 15 Minuten garen."
+    ],
+    "tip": "Das Paprikapulver nie lange in der heißen Pfanne lassen: es wird sonst bitter."
+  },
+  {
+    "id": "de-kartoffelsalat",
+    "origin": "DE",
+    "title": "Kartoffelsalat",
+    "summary": "Mit Essig und Brühe, wie bei Oma.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Würstchen",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Gurke",
+        "keywords": [
+          "gurke",
+          "essiggurke",
+          "gewurzgurke"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Essig",
+        "keywords": [
+          "essig"
+        ],
+        "amount": "3 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Brühe",
+        "keywords": [
+          "bruhe",
+          "wasser"
+        ],
+        "amount": "1/2 Tasse",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln mit Schale gar kochen, pellen und in Scheiben schneiden.",
+      "Zwiebel fein hacken und mit heißer Brühe, Essig, Öl und Salz verrühren.",
+      "Die Soße über die noch warmen Kartoffeln geben.",
+      "Die Gurken in Scheiben untermischen und 15 Minuten ziehen lassen."
+    ],
+    "tip": "Lauwarm schmeckt er am besten."
+  },
+  {
+    "id": "de-spiegelei-spinat-kartoffeln",
+    "origin": "DE",
+    "title": "Spiegelei mit Spinat und Kartoffeln",
+    "summary": "Ein Klassiker aus Kindertagen.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Spinat",
+        "keywords": [
+          "spinat"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "ol"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln schälen und in Salzwasser 20 Minuten kochen.",
+      "Spinat in einem Topf mit etwas Butter zusammenfallen lassen und salzen.",
+      "Spiegeleier in einer Pfanne braten.",
+      "Alles zusammen anrichten."
+    ],
+    "tip": "Eine Prise Muskat passt gut zum Spinat."
+  },
+  {
+    "id": "de-nudelsalat",
+    "origin": "DE",
+    "title": "Nudelsalat",
+    "summary": "Ideal zum Vorbereiten.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Nudeln",
+        "keywords": [
+          "nudeln",
+          "spaghetti",
+          "penne",
+          "makkaroni",
+          "fusilli",
+          "spirelli",
+          "pasta"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Gurke",
+        "keywords": [
+          "gurke",
+          "essiggurke"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Mais",
+        "keywords": [
+          "mais"
+        ],
+        "amount": "1/2 Dose",
+        "kind": "optional"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo",
+          "joghurt"
+        ],
+        "amount": "4 EL"
+      },
+      {
+        "name": "Tomaten",
+        "keywords": [
+          "tomate",
+          "tomaten"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Nudeln in Salzwasser kochen, abgießen und kalt abspülen.",
+      "Gurke und Tomaten würfeln.",
+      "Alles mit dem Mais und der Mayonnaise vermengen.",
+      "Mit Salz abschmecken und 15 Minuten ziehen lassen."
+    ],
+    "tip": "Die Nudeln kalt abspülen, damit der Salat nicht klebt."
+  },
+  {
+    "id": "de-fischstaebchen-puree",
+    "origin": "DE",
+    "title": "Fischstäbchen mit Kartoffelpüree",
+    "summary": "Schnell und beliebt.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Erbsen",
+    "ingredients": [
+      {
+        "name": "Fischstäbchen",
+        "keywords": [
+          "fischstabchen"
+        ],
+        "amount": "8"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "1/4 Tasse",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 EL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln schälen und in Salzwasser 20 Minuten kochen.",
+      "Mit Milch, Butter und Salz zu Püree stampfen.",
+      "Fischstäbchen nach Packung im Ofen oder in der Pfanne knusprig backen.",
+      "Zusammen servieren."
+    ],
+    "tip": "Auf einem heißen Blech werden die Fischstäbchen unten richtig knusprig."
+  },
+  {
+    "id": "de-currywurst",
+    "origin": "DE",
+    "title": "Currywurst mit Pommes",
+    "summary": "Der Imbiss-Klassiker zu Hause.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bratwurst",
+        "keywords": [
+          "bratwurst",
+          "wurst",
+          "wurstchen"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Ketchup",
+        "keywords": [
+          "ketchup",
+          "tomatensosse",
+          "tomate",
+          "tomaten"
+        ],
+        "amount": "4 EL"
+      },
+      {
+        "name": "Currypulver",
+        "keywords": [
+          "currypulver",
+          "curry"
+        ],
+        "amount": "2 TL",
+        "kind": "staple"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Kartoffeln in Stifte schneiden und im Ofen bei 220 °C 25 Minuten knusprig backen.",
+      "Wurst in einer Pfanne rundum braun braten.",
+      "Ketchup mit Currypulver und einem Schuss Wasser aufkochen.",
+      "Wurst in Scheiben schneiden und mit der Soße und den Pommes servieren."
+    ],
+    "tip": "Currypulver in der Soße kurz miterhitzen, dann entfaltet er sein Aroma."
+  },
+  {
+    "id": "de-pilzpfanne-mit-ei",
+    "origin": "DE",
+    "title": "Pilzpfanne mit Ei",
+    "summary": "Schnell und herzhaft.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Champignons",
+        "keywords": [
+          "champignon",
+          "champignons",
+          "pilze",
+          "pilz"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "ol"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Petersilie",
+        "keywords": [
+          "petersilie",
+          "schnittlauch"
+        ],
+        "amount": "1 EL",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Champignons in Scheiben schneiden und in Butter scharf anbraten.",
+      "Zwiebel dazugeben und weitere 3 Minuten braten; salzen.",
+      "Eier verquirlen und darübergießen.",
+      "Bei kleiner Hitze stocken lassen und mit Petersilie servieren."
+    ],
+    "tip": "Pilze nicht waschen, nur mit einem Tuch abreiben."
+  },
+  {
+    "id": "de-hackfleischpfanne",
+    "origin": "DE",
+    "title": "Hackfleischpfanne mit Paprika und Reis",
+    "summary": "Alles in einer Pfanne.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Hackfleisch",
+        "keywords": [
+          "hackfleisch",
+          "gehacktes",
+          "hack",
+          "rinderhack",
+          "gemischtes hack",
+          "mett"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Paprika",
+        "keywords": [
+          "paprika"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Reis",
+        "keywords": [
+          "reis"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser",
+        "keywords": [
+          "wasser"
+        ],
+        "amount": "2 Tassen",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel hacken und mit dem Hackfleisch in Öl krümelig braten.",
+      "Paprika würfeln und 3 Minuten mitbraten.",
+      "Reis einrühren und mit dem Wasser und Salz aufgießen.",
+      "Zugedeckt 15 Minuten bei kleiner Hitze garen."
+    ],
+    "tip": "Nicht umrühren, damit der Reis nicht klebt."
+  },
+  {
+    "id": "de-blumenkohl-ueberbacken",
+    "origin": "DE",
+    "title": "Überbackener Blumenkohl",
+    "summary": "Mit Käse und Sahne.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Schinken",
+    "ingredients": [
+      {
+        "name": "Blumenkohl",
+        "keywords": [
+          "blumenkohl"
+        ],
+        "amount": "1 mittlerer"
+      },
+      {
+        "name": "Käse",
+        "keywords": [
+          "kase",
+          "gouda",
+          "emmentaler",
+          "bergkase",
+          "reibekase",
+          "edamer",
+          "cheddar"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Sahne",
+        "keywords": [
+          "sahne",
+          "milch"
+        ],
+        "amount": "150 ml"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Muskat",
+        "keywords": [
+          "muskat"
+        ],
+        "amount": "1 Prise",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Backofen auf 200 °C vorheizen und den Blumenkohl in Röschen teilen.",
+      "In Salzwasser 8 Minuten kochen und gut abtropfen lassen.",
+      "In eine Form geben, mit Sahne, Muskat und Käse bedecken.",
+      "20 Minuten überbacken."
+    ],
+    "tip": "Gut abtropfen lassen, sonst wird die Soße wässrig."
+  },
+  {
+    "id": "de-moehrensuppe",
+    "origin": "DE",
+    "title": "Möhrensuppe",
+    "summary": "Cremig und leicht süß.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Möhren",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "ol"
+        ],
+        "amount": "1 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1 l",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Möhren, Kartoffel und Zwiebel schälen und würfeln.",
+      "Zwiebel in Butter andünsten und das Gemüse dazugeben.",
+      "Mit der Brühe aufgießen und 20 Minuten kochen.",
+      "Fein pürieren und abschmecken."
+    ],
+    "tip": "Ein Löffel Sahne oder Crème fraîche macht sie noch cremiger."
+  },
+  {
+    "id": "de-nudeln-mit-tomatensosse",
+    "origin": "DE",
+    "title": "Nudeln mit Tomatensoße",
+    "summary": "Das Lieblingsgericht der Kinder.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Nudeln",
+        "keywords": [
+          "nudeln",
+          "spaghetti",
+          "penne",
+          "makkaroni",
+          "fusilli",
+          "spirelli",
+          "pasta"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Tomaten",
+        "keywords": [
+          "tomate",
+          "tomaten",
+          "passierte tomaten",
+          "tomatensauce",
+          "dosentomaten"
+        ],
+        "amount": "1 Dose"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Käse",
+        "keywords": [
+          "kase",
+          "gouda",
+          "emmentaler",
+          "bergkase",
+          "reibekase",
+          "edamer",
+          "cheddar"
+        ],
+        "amount": "3 EL",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Nudeln in Salzwasser bissfest kochen.",
+      "Zwiebel in Öl andünsten.",
+      "Tomaten dazugeben, salzen und 10 Minuten köcheln lassen.",
+      "Mit den Nudeln und geriebenem Käse servieren."
+    ],
+    "tip": "Eine Prise Zucker mildert die Säure der Tomaten."
+  },
+  {
+    "id": "de-bohneneintopf",
+    "origin": "DE",
+    "title": "Bohneneintopf mit Würstchen",
+    "summary": "Deftig und sättigend.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Bohnen",
+        "keywords": [
+          "bohne",
+          "bohnen",
+          "weisse bohnen",
+          "grune bohnen"
+        ],
+        "amount": "1 Dose"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "bockwurst",
+          "wiener"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Möhre",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 EL",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1/2 l",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel, Möhre und Kartoffeln würfeln und in Öl anbraten.",
+      "Mit der Brühe aufgießen und 15 Minuten kochen.",
+      "Die abgetropften Bohnen dazugeben.",
+      "Würstchenscheiben miterhitzen und abschmecken."
+    ],
+    "tip": "Ein Schuss Essig am Ende macht ihn runder."
+  },
+  {
+    "id": "de-bauernfruehstueck",
+    "origin": "DE",
+    "title": "Bauernfrühstück",
+    "summary": "Bratkartoffeln mit Ei und Speck, direkt aus der Pfanne.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Gurkensalat",
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "4 mittelgroße"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Speck",
+        "keywords": [
+          "speck",
+          "schinken",
+          "bacon"
+        ],
+        "amount": "80 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die gekochten oder rohen Kartoffeln in Scheiben schneiden, die Zwiebel würfeln.",
+      "Den Speck in Öl knusprig braten, die Kartoffeln und die Zwiebel zugeben und 12 Minuten goldbraun braten.",
+      "Die Eier verquirlen, salzen und über die Kartoffeln gießen.",
+      "Bei niedriger Hitze stocken lassen und direkt aus der Pfanne servieren."
+    ],
+    "tip": "Mit gekochten Kartoffeln vom Vortag wird es besonders knusprig.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "de-erbsensuppe",
+    "origin": "DE",
+    "title": "Erbsensuppe mit Würstchen",
+    "summary": "Dicke, wärmende Suppe aus getrockneten Erbsen.",
+    "minutes": 55,
+    "servings": 4,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Getrocknete Erbsen",
+        "keywords": [
+          "erbse",
+          "erbsen",
+          "gelbe erbsen",
+          "spalterbsen"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "2 mittelgroße"
+      },
+      {
+        "name": "Möhren",
+        "keywords": [
+          "mohre",
+          "mohren",
+          "karotte",
+          "karotten"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "bockwurst",
+          "wiener"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Wasser oder Brühe",
+        "keywords": [
+          "wasser",
+          "bruhe"
+        ],
+        "amount": "1,5 Liter",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Erbsen abspülen und, falls nötig, über Nacht einweichen.",
+      "Die Zwiebel, die Möhren und die Kartoffeln würfeln.",
+      "Alles mit dem Wasser oder der Brühe aufkochen und 40 Minuten köcheln lassen, bis die Erbsen zerfallen.",
+      "Die Suppe leicht zerdrücken, salzen und die in Scheiben geschnittenen Würstchen darin erwärmen."
+    ],
+    "tip": "Mit Majoran und einem Schuss Essig am Ende schmeckt sie noch besser."
+  },
+  {
+    "id": "de-kaiserschmarrn",
+    "origin": "DE",
+    "title": "Kaiserschmarrn",
+    "summary": "Zerrissener Pfannkuchen, süß und fluffig.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Apfelmus",
+    "ingredients": [
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "250 ml"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "2 Esslöffel"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "ol"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Rosinen",
+        "keywords": [
+          "rosine",
+          "rosinen"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "1 Prise",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mehl, Milch, Eigelb, Zucker und Salz zu einem glatten Teig verrühren.",
+      "Das Eiweiß steif schlagen und unterheben.",
+      "Den Teig in heißer Butter in der Pfanne goldbraun backen, wenden und mit zwei Gabeln in Stücke reißen.",
+      "Mit Rosinen und Zucker karamellisieren und warm servieren."
+    ],
+    "tip": "Mit Puderzucker bestäuben und mit Apfelmus oder Kompott servieren.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "de-griessbrei",
+    "origin": "DE",
+    "title": "Grießbrei",
+    "summary": "Cremiger Milchbrei mit Zimt und Zucker.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Obst",
+    "ingredients": [
+      {
+        "name": "Grieß",
+        "keywords": [
+          "griess",
+          "weichweizengriess",
+          "hartweizengriess"
+        ],
+        "amount": "4 Esslöffel"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "500 ml"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "2 Esslöffel"
+      },
+      {
+        "name": "Zimt",
+        "keywords": [
+          "zimt"
+        ],
+        "amount": "1 Prise",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 Teelöffel",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Die Milch mit dem Zucker aufkochen.",
+      "Den Grieß unter Rühren einrieseln lassen.",
+      "Bei niedriger Hitze 5 Minuten quellen lassen.",
+      "Mit Zimt und einem Stück Butter servieren."
+    ],
+    "tip": "Mit Kirschen, Apfelmus oder Beeren servieren.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "de-semmelknoedel",
+    "origin": "DE",
+    "title": "Semmelknödel",
+    "summary": "Knödel aus altem Brot, ein Klassiker der Resteküche.",
+    "minutes": 45,
+    "servings": 3,
+    "side": "Pilzsoße",
+    "ingredients": [
+      {
+        "name": "Brötchen",
+        "keywords": [
+          "brotchen",
+          "semmel",
+          "semmeln",
+          "brot",
+          "toastbrot"
+        ],
+        "amount": "4 altbackene"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "200 ml"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Petersilie",
+        "keywords": [
+          "petersilie",
+          "schnittlauch"
+        ],
+        "amount": "1 Handvoll",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "ol"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Brötchen in kleine Würfel schneiden und mit der warmen Milch übergießen.",
+      "Die gehackte Zwiebel in Butter andünsten und mit Eiern, Petersilie und Salz zum Brot geben.",
+      "Alles gut vermischen, 10 Minuten ruhen lassen und mit nassen Händen Knödel formen.",
+      "In siedendem Salzwasser 15 Minuten ziehen lassen, nicht kochen."
+    ],
+    "tip": "Das Wasser darf nur sieden, sonst zerfallen die Knödel."
+  },
+  {
+    "id": "de-gurkensalat",
+    "origin": "DE",
+    "title": "Gurkensalat mit Joghurt",
+    "summary": "Frisch, kühl und in zehn Minuten fertig.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Pellkartoffeln",
+    "ingredients": [
+      {
+        "name": "Gurke",
+        "keywords": [
+          "gurke",
+          "salatgurke"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Joghurt",
+        "keywords": [
+          "joghurt",
+          "sahne",
+          "saure sahne",
+          "creme fraiche",
+          "schmand"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Essig",
+        "keywords": [
+          "essig"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Dill",
+        "keywords": [
+          "dill",
+          "kraut",
+          "krauter",
+          "petersilie",
+          "schnittlauch"
+        ],
+        "amount": "1 Handvoll",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "olivenol",
+          "rapsol",
+          "pflanzenol"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Gurke in dünne Scheiben hobeln und leicht salzen.",
+      "Joghurt, Essig und Öl verrühren.",
+      "Die Gurke ausdrücken und mit dem Dressing und dem Dill mischen.",
+      "10 Minuten durchziehen lassen und servieren."
+    ],
+    "tip": "Die Gurke vorher salzen und ausdrücken, dann wird der Salat nicht wässrig."
+  }
+]
