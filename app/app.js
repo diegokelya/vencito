@@ -19,7 +19,7 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
@@ -189,11 +189,13 @@
     return `<h1>${esc(t('Ajustes'))}</h1>
       <h2>${esc(t('Idioma / Language'))}</h2><div class="group">${langRow('', t('Idioma del sistema'))}${Object.entries(LANGS).map(([k, n]) => langRow(k, n)).join('')}</div>
       <h2>${esc(t('Por vencer'))}</h2><div class="group"><label class="f"><span>${esc(t('Se marca «Por vencer» cuando faltan hasta'))}</span><select data-act="soon">${[1, 3, 7, 15].map(n => `<option value="${n}" ${S.soon === n ? 'selected' : ''}>${esc(t('%lld días', n))}</option>`).join('')}</select></label></div>
+      <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
       <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">🏠 ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
       <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label></div>
       <p class="small muted">${esc(t('Al escanear un código se envía solo ese número a Open Food Facts para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
       <h2>${esc(t('Datos'))}</h2><div class="group">
         <button class="link" data-act="stats">${esc(t('Estadísticas'))}</button>
+        <button class="link" data-act="dups">${esc(t('Buscar duplicados'))}${dupGroups().length ? ' (' + dupSurplus() + ')' : ''}</button>
         <button class="link" data-act="export">${esc(t('Exportar JSON'))}</button>
         <label class="link" style="display:block;cursor:pointer">${esc(t('Importar JSON'))}<input type="file" id="imp" accept="application/json,.json" class="sr"></label>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
@@ -338,6 +340,28 @@
       ${names.length ? `<h2>${esc(t('Los que tirás seguido'))}</h2><div class="group">${names.map(n => `<div class="item" style="padding:8px 14px"><span class="grow">${esc(n.name)}</span><span class="muted">×${n.units}</span></div>`).join('')}</div><p class="small muted">${esc(t('Quizás convenga comprar menos de a poco.'))}</p>` : ''}`);
   }
   const catLabelOf = k => esc(catLabel(k));
+  /* duplicados: mismo código de barras (o, sin código, mismo nombre) y mismo vencimiento; otro vencimiento es otro lote */
+  function dupGroups() {
+    const b = {};
+    S.products.forEach(p => {
+      const bc = String(p.barcode || '').replace(/\D/g, ''), id = bc.length >= 8 ? 'b:' + bc : 'n:' + fold(p.name); if (id === 'n:') return;
+      (b[id + '|' + (expOf(p) || '')] = b[id + '|' + (expOf(p) || '')] || []).push(p);
+    });
+    return Object.values(b).filter(g => g.length > 1).map(g => g.sort((x, y) => String(x.addedAt).localeCompare(String(y.addedAt)) || x.id.localeCompare(y.id)));
+  }
+  const dupSurplus = () => dupGroups().reduce((n, g) => n + g.length - 1, 0);
+  function mergeGroup(ids) {
+    const ms = ids.map(i => S.products.find(x => x.id === i)).filter(Boolean); if (ms.length < 2) return 0;
+    const keep = ms[0];
+    ms.slice(1).forEach(o => { keep.quantity = Math.min(999, (keep.quantity || 1) + (o.quantity || 1)); ['category', 'location', 'notes', 'barcode', 'openedAt', 'openDays', 'homeId'].forEach(k => { if (!keep[k] && o[k]) keep[k] = o[k]; }); });
+    S.products = S.products.filter(x => !ms.slice(1).includes(x)); return ms.length - 1;
+  }
+  function dupsSheet() {
+    const gs = dupGroups();
+    return sheet(t('Buscar duplicados'), gs.length ? `<p class="muted small">${esc(t('Mismo producto y mismo vencimiento cargado más de una vez. Al fusionar se suman las cantidades.'))}</p>
+      ${gs.map(g => `<div class="group"><div class="item"><span class="grow"><span class="t">${esc(g[0].name)}</span><br><span class="s">${esc(g.length + ' × ' + (expOf(g[0]) ? fmtDate(expOf(g[0])) : t('Sin fecha')))}</span></span><button class="btn primary" data-act="dup-merge" data-id="${esc(g.map(x => x.id).join(','))}">${esc(t('Fusionar'))}</button></div></div>`).join('')}
+      <button class="btn block" data-act="dup-all">${esc(t('Fusionar todos'))} (${dupSurplus()})</button>` : `<div class="empty"><b>${esc(t('Sin duplicados'))}</b>${esc(t('No hay productos repetidos.'))}</div>`);
+  }
   function homesSheet() {
     const hs = homesSorted(), counts = {}; S.products.forEach(p => { const h = homeIdOf(p); if (h) counts[h] = (counts[h] || 0) + 1; });
     const row = h => `<div class="item"><span class="grow"><input class="plain" data-act="home-name" data-id="${esc(h.id)}" value="${esc(h.name)}" maxlength="60" aria-label="${esc(t('Nombre'))}"><span class="s">${esc(t('%lld productos', counts[h.id] || 0))}</span></span>${hs.length > 1 ? `<button class="btn" data-act="home-del" data-id="${esc(h.id)}" aria-label="${esc(t('Eliminar'))}">🗑</button>` : ''}</div>`;
@@ -384,6 +408,8 @@
     save(); refreshQuick();
   }
   /* ---------- modo cocina ---------- */
+  const unitSys = () => (S.units === 'metric' || S.units === 'imperial' ? S.units : (/^en-US$/i.test(navigator.language || '') ? 'imperial' : 'metric'));
+  const amt = (a, f) => VRecipes.display(VRecipes.scale(a, f, lang()), unitSys(), lang() === 'en' ? '.' : ',');
   const recipeById = id => ui.composedMap[id] || S.savedC.find(x => x.id === id) || (ui.catalog || []).find(x => x.id === id);
   const newCook = r => ({ id: r.id, servings: r.servings || 0, have: {}, done: {}, mode: 'list', step: 0, voice: false });
   const cookFactor = (r, c) => (r.servings > 0 && c.servings > 0 ? c.servings / r.servings : 1);
@@ -396,14 +422,14 @@
   const isSaved = r => (r.composed ? S.savedC.some(x => x.id === r.id) : S.saved.includes(r.id));
   function cookIngHtml(r) {
     const c = ui.cook, m = matchRecipe(r), f = cookFactor(r, c);
-    return m.ing.map((x, i) => `<button type="button" class="ck ${c.have[i] ? 'on' : ''}" data-act="ck-ing" data-id="${i}"><span class="ckc">${c.have[i] ? '✓' : ''}</span><span class="grow"><span class="t">${esc(x.name)}</span>${x.have && !x.staple ? `<span class="good small"> ✓ ${esc(t('Lo tenés'))}</span>` : ''}</span><span class="muted">${esc(x.amount ? VRecipes.scale(x.amount, f, lang()) : '')}</span></button>`).join('');
+    return m.ing.map((x, i) => `<button type="button" class="ck ${c.have[i] ? 'on' : ''}" data-act="ck-ing" data-id="${i}"><span class="ckc">${c.have[i] ? '✓' : ''}</span><span class="grow"><span class="t">${esc(x.name)}</span>${x.have && !x.staple ? `<span class="good small"> ✓ ${esc(t('Lo tenés'))}</span>` : ''}</span><span class="muted">${esc(x.amount ? amt(x.amount, f) : '')}</span></button>`).join('');
   }
   const cookStepsHtml = r => (r.steps || []).map((x, i) => `<button type="button" class="stp ${ui.cook.done[i] ? 'on' : ''}" data-act="ck-step" data-id="${i}"><span class="num">${i + 1}</span><span class="grow">${esc(x)}</span></button>`).join('');
   function recipeText(r, c) {
     const f = cookFactor(r, c), m = matchRecipe(r), lines = ['*' + flagOf(r.origin) + r.title + '*'], meta = [];
     if (c.servings) meta.push(t('%lld porciones', c.servings)); if (r.minutes) meta.push(t('%lld min', r.minutes)); if (meta.length) lines.push(meta.join(' · '));
     if (r.summary) lines.push(r.summary);
-    lines.push('', '*' + t('Ingredientes') + '*'); m.ing.forEach(x => lines.push('• ' + x.name + (x.amount ? ' (' + VRecipes.scale(x.amount, f, lang()) + ')' : '')));
+    lines.push('', '*' + t('Ingredientes') + '*'); m.ing.forEach(x => lines.push('• ' + x.name + (x.amount ? ' (' + amt(x.amount, f) + ')' : '')));
     lines.push('', '*' + t('Preparación') + '*'); (r.steps || []).forEach((x, i) => lines.push((i + 1) + '. ' + x));
     if (r.tip) lines.push('', '💡 ' + r.tip);
     lines.push('', t('Receta de Vencito') + ' · vencito.app'); return lines.join('\n');
@@ -441,7 +467,7 @@
       case 'ck-speak': speak(r.steps[c.step]); break;
       case 'ck-share': { const text = recipeText(r, c); if (navigator.share) navigator.share({ title: r.title, text }).catch(() => {}); else if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => toast(t('Copiada al portapapeles'), false, true)); break; }
       case 'ck-chatgpt': { const text = t('Quiero preparar la receta que aparece debajo. Guiame en una conversación de voz, un paso por vez. Esperá a que diga «listo» antes de continuar. Respetá las porciones y cantidades indicadas. Antes de empezar, preguntame si tengo los ingredientes y los utensilios necesarios. Si todavía estamos en texto, indicame que active el modo voz en esta misma conversación.') + '\n\n' + recipeText(r, c); const go = () => { window.open('https://chatgpt.com/', '_blank', 'noopener'); toast(t('Elegí ChatGPT, enviá la receta y activá el modo voz'), false, true); }; if (navigator.clipboard) navigator.clipboard.writeText(text).then(go, go); else go(); break; }
-      case 'ck-missing': { const f = cookFactor(r, c); matchRecipe(r).ing.forEach((x, i) => { if (!x.have && !x.staple && !c.have[i]) addToShopping(x.name, x.amount ? VRecipes.scale(x.amount, f, lang()) : ''); }); save(); toast(t('Agregado a la lista de compras'), false, true); el.disabled = true; break; }
+      case 'ck-missing': { const f = cookFactor(r, c); matchRecipe(r).ing.forEach((x, i) => { if (!x.have && !x.staple && !c.have[i]) addToShopping(x.name, x.amount ? amt(x.amount, f) : ''); }); save(); toast(t('Agregado a la lista de compras'), false, true); el.disabled = true; break; }
       case 'save-recipe': { if (r.composed) { const k = S.savedC.findIndex(x => x.id === r.id); if (k >= 0) S.savedC.splice(k, 1); else S.savedC.push(r); } else { const k = S.saved.indexOf(r.id); if (k >= 0) S.saved.splice(k, 1); else S.saved.push(r.id); } save(); const sv = isSaved(r); el.innerHTML = `<b>${sv ? '♥' : '♡'}</b>${esc(sv ? t('Quitar de guardadas') : t('Guardar receta'))}`; break; }
     }
   }
@@ -450,7 +476,7 @@
     document.documentElement.lang = lang();
     const tabs = [['products', '📦', 'Productos'], ['recipes', '🍳', '¿Qué cocino hoy?'], ['shopping', '🛒', 'Compras'], ['settings', '⚙️', 'Ajustes']];
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}"><b>${ic}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     document.getElementById('app').innerHTML = main + shHtml + tb;
     if (!sh || sh.type !== 'recipe') cookStop();
@@ -484,6 +510,9 @@
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
       case 'close': closeSheet(); break;
       case 'hperiod': ui.period = id; render(); break;
+      case 'dups': ui.sheet = { type: 'dups' }; render(); break;
+      case 'dup-merge': { const n = mergeGroup(id.split(',')); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
+      case 'dup-all': { let n = 0; dupGroups().forEach(g => { n += mergeGroup(g.map(x => x.id)); }); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
       case 'homef': S.home = id; save(); render(); break;
       case 'homes': ui.sheet = { type: 'homes' }; render(); break;
       case 'home-add': { const i = document.getElementById('newhome'); if (i && i.value.trim()) { addHome(i.value); render(); } break; }
@@ -543,6 +572,7 @@
   document.addEventListener('change', e => {
     if (e.target.name === 'category') e.target.dataset.auto = '';
     if (e.target.dataset && e.target.dataset.act === 'home-name') { const h = S.homes.find(x => x.id === e.target.dataset.id), v = e.target.value.trim().slice(0, 60); if (h && v) { h.name = v; save(); } }
+    if (e.target.dataset && e.target.dataset.act === 'units') { S.units = e.target.value; save(); }
     if (e.target.dataset && e.target.dataset.act === 'opendays') { const p = S.products.find(x => x.id === e.target.dataset.id); if (p) { p.openDays = parseInt(e.target.value, 10) || 1; save(); render(); } }
     if (e.target.dataset && e.target.dataset.act === 'ck-voice' && ui.cook) { const r = recipeById(ui.cook.id); ui.cook.voice = e.target.checked; if (r) { if (ui.cook.voice) speak(r.steps[ui.cook.step]); else if (canSpeak()) speechSynthesis.cancel(); } }
     if (e.target.dataset && e.target.dataset.act === 'lookup') { S.lookup = e.target.checked; save(); }
