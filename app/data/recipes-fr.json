@@ -1,0 +1,2301 @@
+[
+  {
+    "id": "fr-croque-monsieur",
+    "origin": "FR",
+    "title": "Croque-monsieur",
+    "summary": "Le sandwich chaud et gratiné.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Pain de mie",
+        "keywords": [
+          "pain de mie",
+          "pain",
+          "pain de mie complet"
+        ],
+        "amount": "4 tranches"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon cuit",
+          "jambon blanc"
+        ],
+        "amount": "2 tranches"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental",
+          "comte",
+          "fromage rape"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C.",
+      "Garnissez deux tranches de pain de jambon et de fromage, puis refermez avec les autres.",
+      "Beurrez légèrement le dessus et ajoutez du fromage râpé.",
+      "Enfournez 10 minutes, jusqu'à ce que le fromage soit doré."
+    ],
+    "tip": "Ajoutez un œuf au plat dessus pour en faire un croque-madame.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "fr-gratin-dauphinois",
+    "origin": "FR",
+    "title": "Gratin dauphinois",
+    "summary": "Pommes de terre fondantes à la crème.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Jambon et salade",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "700 g"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "creme liquide"
+        ],
+        "amount": "20 cl"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "20 cl"
+      },
+      {
+        "name": "Ail",
+        "keywords": [
+          "ail"
+        ],
+        "amount": "1 gousse",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Muscade",
+        "keywords": [
+          "muscade"
+        ],
+        "amount": "1 pincée",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 180 °C et frottez un plat avec l'ail.",
+      "Épluchez et coupez les pommes de terre en fines rondelles.",
+      "Disposez-les dans le plat et versez la crème et le lait salés avec la muscade.",
+      "Faites cuire 45 minutes, jusqu'à ce que le dessus soit bien doré."
+    ],
+    "tip": "Ne rincez pas les pommes de terre : l'amidon épaissit la sauce."
+  },
+  {
+    "id": "fr-quiche-lorraine",
+    "origin": "FR",
+    "title": "Quiche lorraine",
+    "summary": "La classique, avec lardons et œufs.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Pâte brisée",
+        "keywords": [
+          "pate brisee",
+          "pate",
+          "pate feuilletee"
+        ],
+        "amount": "1 rouleau"
+      },
+      {
+        "name": "Lardons",
+        "keywords": [
+          "lardons",
+          "lardon",
+          "bacon",
+          "poitrine"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "creme liquide"
+        ],
+        "amount": "20 cl"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Muscade",
+        "keywords": [
+          "muscade"
+        ],
+        "amount": "1 pincée",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 180 °C et étalez la pâte dans un moule.",
+      "Faites revenir les lardons à la poêle sans matière grasse.",
+      "Battez les œufs avec la crème, le sel et la muscade.",
+      "Répartissez les lardons sur la pâte, versez l'appareil, ajoutez le fromage et faites cuire 30 minutes."
+    ],
+    "tip": "Piquez la pâte avec une fourchette pour qu'elle ne gonfle pas."
+  },
+  {
+    "id": "fr-soupe-a-l-oignon",
+    "origin": "FR",
+    "title": "Soupe à l'oignon gratinée",
+    "summary": "Réconfortante et peu coûteuse.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Oignons",
+        "keywords": [
+          "oignon",
+          "oignons"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Pain",
+        "keywords": [
+          "pain",
+          "baguette"
+        ],
+        "amount": "4 tranches"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental",
+          "comte",
+          "fromage rape"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Poivre",
+        "keywords": [
+          "poivre"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Eau ou bouillon",
+        "keywords": [
+          "eau",
+          "bouillon"
+        ],
+        "amount": "1 litre",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Émincez les oignons et faites-les fondre dans le beurre 20 minutes, jusqu'à ce qu'ils soient dorés.",
+      "Ajoutez l'eau ou le bouillon, salez, poivrez et laissez mijoter 15 minutes.",
+      "Versez la soupe dans des bols, posez le pain et le fromage dessus.",
+      "Faites gratiner 5 minutes sous le gril."
+    ],
+    "tip": "Plus les oignons cuisent lentement, plus la soupe est douce."
+  },
+  {
+    "id": "fr-hachis-parmentier",
+    "origin": "FR",
+    "title": "Hachis parmentier",
+    "summary": "Viande hachée et purée gratinée.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Bœuf haché",
+        "keywords": [
+          "boeuf hache",
+          "viande hachee",
+          "steak hache",
+          "boeuf",
+          "hache",
+          "bœuf hache",
+          "bœuf"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "10 cl",
+        "kind": "optional"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "30 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire les pommes de terre 20 minutes et écrasez-les avec le lait, le beurre et du sel.",
+      "Faites revenir l'oignon haché et la viande 8 minutes, salez.",
+      "Étalez la viande dans un plat et couvrez de purée.",
+      "Ajoutez le fromage et faites gratiner 15 minutes à 200 °C."
+    ],
+    "tip": "Marquez la purée avec une fourchette pour un dessus croustillant."
+  },
+  {
+    "id": "fr-poulet-roti-pommes-de-terre",
+    "origin": "FR",
+    "title": "Poulet rôti aux pommes de terre",
+    "summary": "Un plat unique au four.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Haricots verts",
+    "ingredients": [
+      {
+        "name": "Poulet",
+        "keywords": [
+          "poulet",
+          "cuisse de poulet",
+          "cuisses de poulet",
+          "pilon"
+        ],
+        "amount": "4 morceaux"
+      },
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Thym",
+        "keywords": [
+          "thym"
+        ],
+        "amount": "1 branche",
+        "kind": "staple"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Poivre",
+        "keywords": [
+          "poivre"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C.",
+      "Disposez le poulet dans un plat avec les pommes de terre en quartiers et l'oignon.",
+      "Salez, poivrez, ajoutez le thym et un filet d'huile.",
+      "Faites cuire 45 minutes en retournant à mi-cuisson."
+    ],
+    "tip": "Arrosez de temps en temps avec le jus de cuisson."
+  },
+  {
+    "id": "fr-omelette-au-fromage",
+    "origin": "FR",
+    "title": "Omelette au fromage",
+    "summary": "Prête en 10 minutes.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental",
+          "comte"
+        ],
+        "amount": "60 g"
+      },
+      {
+        "name": "Fines herbes",
+        "keywords": [
+          "ciboulette",
+          "persil",
+          "fines herbes"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 noix",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Battez les œufs avec une pincée de sel.",
+      "Faites fondre le beurre dans une poêle et versez les œufs.",
+      "Quand l'omelette commence à prendre, ajoutez le fromage et les herbes.",
+      "Pliez en deux et servez aussitôt."
+    ],
+    "tip": "Une omelette baveuse se retire du feu avant d'être tout à fait cuite."
+  },
+  {
+    "id": "fr-salade-nicoise",
+    "origin": "FR",
+    "title": "Salade niçoise",
+    "summary": "Fraîche, complète et sans cuisson longue.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Pain",
+    "ingredients": [
+      {
+        "name": "Thon",
+        "keywords": [
+          "thon"
+        ],
+        "amount": "1 boîte"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Haricots verts",
+        "keywords": [
+          "haricots verts",
+          "haricot vert",
+          "haricots"
+        ],
+        "amount": "150 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Olives",
+        "keywords": [
+          "olive",
+          "olives"
+        ],
+        "amount": "10",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire les haricots verts et les pommes de terre, et les œufs durs 10 minutes.",
+      "Coupez les tomates, les œufs et les pommes de terre.",
+      "Disposez tout dans un saladier avec le thon émietté et les olives.",
+      "Assaisonnez avec l'huile et le sel."
+    ],
+    "tip": "Assaisonnez au dernier moment pour que les légumes restent croquants."
+  },
+  {
+    "id": "fr-ratatouille",
+    "origin": "FR",
+    "title": "Ratatouille",
+    "summary": "Légumes du soleil mijotés.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Riz ou œuf poché",
+    "ingredients": [
+      {
+        "name": "Aubergine",
+        "keywords": [
+          "aubergine"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Courgette",
+        "keywords": [
+          "courgette"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Poivron",
+        "keywords": [
+          "poivron"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile d'olive",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "4 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Coupez tous les légumes en dés.",
+      "Faites revenir l'oignon dans l'huile, puis ajoutez l'aubergine et le poivron.",
+      "Ajoutez la courgette et les tomates et salez.",
+      "Laissez mijoter à couvert 35 minutes à feu doux."
+    ],
+    "tip": "Elle est encore meilleure réchauffée le lendemain."
+  },
+  {
+    "id": "fr-pates-jambon-creme",
+    "origin": "FR",
+    "title": "Pâtes au jambon et à la crème",
+    "summary": "Un grand classique rapide.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pâtes",
+        "keywords": [
+          "pates",
+          "penne",
+          "coquillettes",
+          "tagliatelles",
+          "spaghetti"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon cuit",
+          "jambon blanc"
+        ],
+        "amount": "2 tranches"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "creme liquide"
+        ],
+        "amount": "15 cl"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "30 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire les pâtes dans l'eau salée.",
+      "Coupez le jambon en lanières et chauffez-le 2 minutes à la poêle.",
+      "Ajoutez la crème et laissez réduire 3 minutes.",
+      "Mélangez avec les pâtes égouttées et le fromage."
+    ],
+    "tip": "Gardez un peu d'eau de cuisson pour détendre la sauce."
+  },
+  {
+    "id": "fr-gratin-de-courgettes",
+    "origin": "FR",
+    "title": "Gratin de courgettes",
+    "summary": "Léger et gourmand.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Jambon",
+    "ingredients": [
+      {
+        "name": "Courgettes",
+        "keywords": [
+          "courgette",
+          "courgettes"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "lait"
+        ],
+        "amount": "10 cl"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "60 g"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 190 °C.",
+      "Coupez les courgettes en rondelles et faites-les sauter 5 minutes dans l'huile.",
+      "Mélangez-les avec les œufs battus, la crème et du sel dans un plat.",
+      "Parsemez de fromage et faites cuire 25 minutes."
+    ],
+    "tip": "Faites dégorger les courgettes salées 10 minutes pour éviter l'eau dans le plat."
+  },
+  {
+    "id": "fr-soupe-de-legumes",
+    "origin": "FR",
+    "title": "Soupe de légumes",
+    "summary": "Pour utiliser ce qu'il reste au frigo.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Pain",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Carottes",
+        "keywords": [
+          "carotte",
+          "carottes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Poireau",
+        "keywords": [
+          "poireau",
+          "poireaux"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 noix",
+        "kind": "optional"
+      },
+      {
+        "name": "Eau",
+        "keywords": [
+          "eau"
+        ],
+        "amount": "1 litre",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Épluchez et coupez tous les légumes en morceaux.",
+      "Faites revenir l'oignon dans le beurre 3 minutes.",
+      "Ajoutez les légumes, l'eau et le sel.",
+      "Laissez cuire 25 minutes et mixez."
+    ],
+    "tip": "Ajoutez une cuillère de crème au moment de servir."
+  },
+  {
+    "id": "fr-lentilles-saucisses",
+    "origin": "FR",
+    "title": "Lentilles aux saucisses",
+    "summary": "Plat complet et économique.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Lentilles",
+        "keywords": [
+          "lentille",
+          "lentilles"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Saucisses",
+        "keywords": [
+          "saucisse",
+          "saucisses",
+          "saucisse de toulouse"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Carotte",
+        "keywords": [
+          "carotte"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Eau",
+        "keywords": [
+          "eau"
+        ],
+        "amount": "600 ml",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites dorer les saucisses dans une cocotte avec un peu d'huile.",
+      "Ajoutez l'oignon et la carotte en dés et faites revenir 3 minutes.",
+      "Versez les lentilles rincées et l'eau.",
+      "Laissez cuire 30 minutes à feu doux, salez en fin de cuisson."
+    ],
+    "tip": "Salez à la fin : le sel durcit les lentilles."
+  },
+  {
+    "id": "fr-quiche-aux-legumes",
+    "origin": "FR",
+    "title": "Quiche aux légumes",
+    "summary": "Végétarienne et facile.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pâte brisée",
+        "keywords": [
+          "pate brisee",
+          "pate",
+          "pate feuilletee"
+        ],
+        "amount": "1 rouleau"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Courgette",
+        "keywords": [
+          "courgette"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Poireau",
+        "keywords": [
+          "poireau",
+          "oignon"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "lait"
+        ],
+        "amount": "20 cl"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental"
+        ],
+        "amount": "60 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 180 °C et étalez la pâte dans un moule.",
+      "Faites revenir les légumes émincés 8 minutes.",
+      "Mélangez les œufs, la crème et le sel, ajoutez les légumes.",
+      "Versez sur la pâte et faites cuire 30 minutes."
+    ],
+    "tip": "Précuisez la pâte 10 minutes pour qu'elle reste croustillante."
+  },
+  {
+    "id": "fr-galette-complete",
+    "origin": "FR",
+    "title": "Galette complète",
+    "summary": "Jambon, œuf et fromage sur galette de blé noir.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Galettes de sarrasin",
+        "keywords": [
+          "galette",
+          "galettes",
+          "crepe",
+          "crepes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon cuit",
+          "jambon blanc"
+        ],
+        "amount": "2 tranches"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "60 g"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 noix",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites chauffer une poêle avec un peu de beurre et posez une galette.",
+      "Ajoutez le fromage, le jambon et cassez un œuf au centre.",
+      "Repliez les bords en carré.",
+      "Laissez cuire 4 minutes, jusqu'à ce que le blanc soit pris."
+    ],
+    "tip": "Si les galettes sont déjà cuites, chauffez-les quelques secondes avant de garnir."
+  },
+  {
+    "id": "fr-oeufs-mimosa",
+    "origin": "FR",
+    "title": "Œufs mimosa",
+    "summary": "Une entrée devenue plat léger.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise"
+        ],
+        "amount": "3 cuillères à soupe"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "1 cuillère à café",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Ciboulette",
+        "keywords": [
+          "ciboulette",
+          "persil"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites cuire les œufs 10 minutes dans l'eau bouillante et écalez-les sous l'eau froide.",
+      "Coupez-les en deux et retirez les jaunes.",
+      "Écrasez les jaunes avec la mayonnaise, la moutarde et le sel.",
+      "Garnissez les blancs avec la préparation."
+    ],
+    "tip": "Plongez les œufs dans l'eau froide dès la fin de la cuisson pour les écaler facilement.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "fr-poireaux-vinaigrette",
+    "origin": "FR",
+    "title": "Poireaux vinaigrette",
+    "summary": "Simples et savoureux.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Pain",
+    "ingredients": [
+      {
+        "name": "Poireaux",
+        "keywords": [
+          "poireau",
+          "poireaux"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "1 cuillère à café"
+      },
+      {
+        "name": "Vinaigre",
+        "keywords": [
+          "vinaigre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Œuf dur",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Lavez les poireaux et coupez-les en tronçons.",
+      "Faites-les cuire 15 minutes à l'eau bouillante salée et égouttez.",
+      "Préparez une vinaigrette avec la moutarde, le vinaigre, le sel et l'huile.",
+      "Servez tièdes avec la vinaigrette et l'œuf dur haché."
+    ],
+    "tip": "Pressez-les doucement pour enlever l'eau avant d'assaisonner."
+  },
+  {
+    "id": "fr-steak-hache-puree",
+    "origin": "FR",
+    "title": "Steak haché et purée",
+    "summary": "Le plat préféré des enfants.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bœuf haché",
+        "keywords": [
+          "boeuf hache",
+          "steak hache",
+          "viande hachee",
+          "hache",
+          "boeuf",
+          "bœuf hache",
+          "bœuf"
+        ],
+        "amount": "2 steaks"
+      },
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "10 cl",
+        "kind": "optional"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 noix",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Poivre",
+        "keywords": [
+          "poivre"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire les pommes de terre épluchées 20 minutes.",
+      "Écrasez-les avec le lait chaud, le beurre et du sel.",
+      "Faites cuire les steaks à la poêle 3 à 4 minutes par face.",
+      "Servez avec la purée."
+    ],
+    "tip": "Chauffez le lait avant de l'ajouter : la purée sera plus lisse."
+  },
+  {
+    "id": "fr-gratin-de-pates",
+    "origin": "FR",
+    "title": "Gratin de pâtes",
+    "summary": "Pour finir les restes de pâtes.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pâtes",
+        "keywords": [
+          "pates",
+          "penne",
+          "coquillettes",
+          "macaronis"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon cuit",
+          "jambon blanc"
+        ],
+        "amount": "2 tranches",
+        "kind": "optional"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "lait"
+        ],
+        "amount": "15 cl"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "80 g"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C et faites cuire les pâtes al dente.",
+      "Mélangez-les avec le jambon coupé, la crème et le sel dans un plat.",
+      "Couvrez de fromage râpé.",
+      "Faites gratiner 15 minutes."
+    ],
+    "tip": "Ne cuisez pas trop les pâtes : elles finiront de cuire au four."
+  },
+  {
+    "id": "fr-riz-cantonais",
+    "origin": "FR",
+    "title": "Riz cantonais",
+    "summary": "Pour accommoder le riz de la veille.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Riz",
+        "keywords": [
+          "riz"
+        ],
+        "amount": "3 tasses cuit"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon cuit",
+          "jambon blanc"
+        ],
+        "amount": "2 tranches"
+      },
+      {
+        "name": "Petits pois",
+        "keywords": [
+          "petits pois",
+          "petit pois",
+          "pois"
+        ],
+        "amount": "1/2 tasse",
+        "kind": "optional"
+      },
+      {
+        "name": "Sauce soja",
+        "keywords": [
+          "sauce soja",
+          "soja"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites chauffer l'huile et sautez le jambon en dés avec les petits pois.",
+      "Ajoutez le riz froid et faites sauter à feu vif 3 minutes.",
+      "Poussez le riz sur le côté et brouillez les œufs.",
+      "Mélangez et assaisonnez de sauce soja."
+    ],
+    "tip": "Le riz de la veille donne des grains bien séparés."
+  },
+  {
+    "id": "fr-poulet-a-la-creme",
+    "origin": "FR",
+    "title": "Poulet à la crème et aux champignons",
+    "summary": "Doux et crémeux.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Riz ou pâtes",
+    "ingredients": [
+      {
+        "name": "Poulet",
+        "keywords": [
+          "poulet",
+          "cuisse de poulet",
+          "cuisses de poulet",
+          "pilon",
+          "escalope"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "creme liquide"
+        ],
+        "amount": "20 cl"
+      },
+      {
+        "name": "Champignons",
+        "keywords": [
+          "champignon",
+          "champignons"
+        ],
+        "amount": "200 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salez le poulet et faites-le dorer dans l'huile.",
+      "Ajoutez l'oignon émincé et les champignons et faites revenir 5 minutes.",
+      "Versez la crème, couvrez et laissez mijoter 20 minutes.",
+      "Servez avec la sauce."
+    ],
+    "tip": "Ne laissez pas bouillir la crème fort : elle risque de trancher."
+  },
+  {
+    "id": "fr-gratin-de-chou-fleur",
+    "origin": "FR",
+    "title": "Gratin de chou-fleur",
+    "summary": "Léger et fondant.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Jambon",
+    "ingredients": [
+      {
+        "name": "Chou-fleur",
+        "keywords": [
+          "chou-fleur",
+          "choufleur",
+          "chou fleur"
+        ],
+        "amount": "1 moyen"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental",
+          "comte"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "lait"
+        ],
+        "amount": "15 cl",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 noix",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C.",
+      "Faites cuire les bouquets de chou-fleur 8 minutes à l'eau bouillante salée.",
+      "Disposez-les dans un plat beurré, nappez de crème et couvrez de fromage râpé.",
+      "Faites gratiner 20 minutes."
+    ],
+    "tip": "Égouttez très bien le chou-fleur pour que le gratin ne soit pas aqueux."
+  },
+  {
+    "id": "fr-tarte-tomate-moutarde",
+    "origin": "FR",
+    "title": "Tarte à la tomate et à la moutarde",
+    "summary": "Le grand classique provençal.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Pâte brisée",
+        "keywords": [
+          "pate brisee",
+          "pate",
+          "pate feuilletee"
+        ],
+        "amount": "1 rouleau"
+      },
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "2 cuillères à soupe"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental",
+          "comte"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Herbes",
+        "keywords": [
+          "thym",
+          "origan",
+          "herbes de provence",
+          "basilic"
+        ],
+        "amount": "1 cuillère à café",
+        "kind": "staple"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C et étalez la pâte dans un moule.",
+      "Tartinez le fond de moutarde.",
+      "Disposez les tomates en rondelles, salez et ajoutez les herbes et le fromage.",
+      "Faites cuire 30 minutes."
+    ],
+    "tip": "Faites dégorger les tomates 10 minutes sur du papier absorbant."
+  },
+  {
+    "id": "fr-oeufs-cocotte",
+    "origin": "FR",
+    "title": "Œufs cocotte",
+    "summary": "Œufs cuits à la crème, prêts en 20 minutes.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Mouillettes de pain",
+    "ingredients": [
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "creme liquide"
+        ],
+        "amount": "4 cuillères à soupe"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon cuit",
+          "jambon blanc"
+        ],
+        "amount": "2 tranches",
+        "kind": "optional"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 180 °C.",
+      "Répartissez la crème et le jambon en morceaux dans deux ramequins.",
+      "Cassez deux œufs dans chacun, salez et ajoutez le fromage.",
+      "Faites cuire 10 à 12 minutes au bain-marie."
+    ],
+    "tip": "Sortez-les quand le blanc est pris : le jaune doit rester coulant.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "fr-salade-de-pommes-de-terre",
+    "origin": "FR",
+    "title": "Salade de pommes de terre",
+    "summary": "Tiède, avec une bonne vinaigrette.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Jambon ou œufs durs",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "1 cuillère à café"
+      },
+      {
+        "name": "Vinaigre",
+        "keywords": [
+          "vinaigre"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Persil",
+        "keywords": [
+          "persil",
+          "ciboulette"
+        ],
+        "amount": "1 poignée",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites cuire les pommes de terre à l'eau salée 15 à 20 minutes et pelez-les.",
+      "Coupez-les en rondelles.",
+      "Mélangez la moutarde, le vinaigre, l'huile et le sel.",
+      "Arrosez les pommes de terre encore tièdes et ajoutez l'oignon haché."
+    ],
+    "tip": "Assaisonnez-les tièdes : elles absorbent mieux la vinaigrette."
+  },
+  {
+    "id": "fr-tartiflette",
+    "origin": "FR",
+    "title": "Tartiflette simplifiée",
+    "summary": "Pommes de terre, lardons et fromage fondu.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "patates"
+        ],
+        "amount": "700 g"
+      },
+      {
+        "name": "Lardons",
+        "keywords": [
+          "lardons",
+          "lardon",
+          "bacon",
+          "poitrine"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Fromage",
+        "keywords": [
+          "reblochon",
+          "fromage",
+          "raclette"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche"
+        ],
+        "amount": "10 cl",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C et faites cuire les pommes de terre en rondelles 15 minutes.",
+      "Faites revenir les lardons et l'oignon émincé.",
+      "Mélangez avec les pommes de terre et la crème dans un plat.",
+      "Couvrez de fromage et faites gratiner 20 minutes."
+    ],
+    "tip": "Pas besoin de saler : les lardons et le fromage le sont déjà."
+  },
+  {
+    "id": "fr-soupe-de-potiron",
+    "origin": "FR",
+    "title": "Soupe de potiron",
+    "summary": "Veloutée et réconfortante.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Croûtons",
+    "ingredients": [
+      {
+        "name": "Potiron",
+        "keywords": [
+          "potiron",
+          "courge",
+          "citrouille",
+          "butternut"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "lait"
+        ],
+        "amount": "10 cl",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre",
+          "huile"
+        ],
+        "amount": "1 noix",
+        "kind": "staple"
+      },
+      {
+        "name": "Eau",
+        "keywords": [
+          "eau"
+        ],
+        "amount": "1/2 litre",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Épluchez et coupez le potiron en cubes.",
+      "Faites suer l'oignon dans le beurre puis ajoutez le potiron.",
+      "Couvrez d'eau, salez et laissez cuire 25 minutes.",
+      "Mixez en ajoutant la crème."
+    ],
+    "tip": "Une pincée de muscade relève le goût."
+  },
+  {
+    "id": "fr-poisson-en-papillote",
+    "origin": "FR",
+    "title": "Poisson en papillote",
+    "summary": "Léger et sans matière grasse.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Riz",
+    "ingredients": [
+      {
+        "name": "Poisson",
+        "keywords": [
+          "poisson",
+          "cabillaud",
+          "colin",
+          "saumon",
+          "filet de poisson"
+        ],
+        "amount": "2 filets"
+      },
+      {
+        "name": "Courgette",
+        "keywords": [
+          "courgette"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Citron",
+        "keywords": [
+          "citron"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à café",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 200 °C.",
+      "Coupez la courgette en fines rondelles.",
+      "Posez chaque filet sur un carré de papier sulfurisé avec les courgettes, le sel, l'huile et le citron, et fermez.",
+      "Faites cuire 15 minutes."
+    ],
+    "tip": "Fermez bien la papillote pour que la vapeur cuise le poisson."
+  },
+  {
+    "id": "fr-salade-de-riz-au-thon",
+    "origin": "FR",
+    "title": "Salade de riz au thon",
+    "summary": "Une salade complète.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Riz",
+        "keywords": [
+          "riz"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Thon",
+        "keywords": [
+          "thon"
+        ],
+        "amount": "1 boîte"
+      },
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Maïs",
+        "keywords": [
+          "mais"
+        ],
+        "amount": "1/2 boîte",
+        "kind": "optional"
+      },
+      {
+        "name": "Œuf dur",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Vinaigre",
+        "keywords": [
+          "vinaigre",
+          "citron"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire le riz à l'eau salée, égouttez et rincez à l'eau froide.",
+      "Coupez les tomates et les œufs durs.",
+      "Mélangez avec le thon émietté et le maïs.",
+      "Assaisonnez d'huile, de vinaigre et de sel."
+    ],
+    "tip": "Rincez le riz à l'eau froide pour qu'il ne colle pas."
+  },
+  {
+    "id": "fr-omelette-aux-champignons",
+    "origin": "FR",
+    "title": "Omelette aux champignons",
+    "summary": "Rapide et savoureuse.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Champignons",
+        "keywords": [
+          "champignon",
+          "champignons"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre",
+          "huile"
+        ],
+        "amount": "1 noix",
+        "kind": "staple"
+      },
+      {
+        "name": "Persil",
+        "keywords": [
+          "persil"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Émincez les champignons et faites-les dorer 5 minutes dans le beurre.",
+      "Battez les œufs avec une pincée de sel.",
+      "Versez-les sur les champignons et laissez prendre à feu doux.",
+      "Pliez l'omelette et parsemez de persil."
+    ],
+    "tip": "Faites saisir les champignons à feu vif sans les remuer pour qu'ils dorent."
+  },
+  {
+    "id": "fr-saute-de-boeuf-aux-oignons",
+    "origin": "FR",
+    "title": "Sauté de bœuf aux oignons",
+    "summary": "Rapide à la poêle.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Riz ou pommes de terre",
+    "ingredients": [
+      {
+        "name": "Bœuf",
+        "keywords": [
+          "boeuf",
+          "bœuf",
+          "steak",
+          "rumsteck",
+          "bavette",
+          "viande"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "1 cuillère à café",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Coupez le bœuf en lanières et salez.",
+      "Saisissez-le à feu vif 3 minutes et réservez.",
+      "Faites fondre les oignons émincés 10 minutes.",
+      "Remettez le bœuf avec la moutarde et mélangez."
+    ],
+    "tip": "Saisissez la viande en deux fois pour qu'elle colore bien."
+  },
+  {
+    "id": "fr-pates-champignons-creme",
+    "origin": "FR",
+    "title": "Pâtes aux champignons et à la crème",
+    "summary": "Un plat crémeux en 20 minutes.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pâtes",
+        "keywords": [
+          "pates",
+          "penne",
+          "coquillettes",
+          "tagliatelles",
+          "spaghetti"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Champignons",
+        "keywords": [
+          "champignon",
+          "champignons"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme",
+          "creme fraiche",
+          "creme liquide"
+        ],
+        "amount": "15 cl"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage rape",
+          "gruyere",
+          "emmental",
+          "parmesan"
+        ],
+        "amount": "30 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire les pâtes à l'eau salée.",
+      "Faites revenir l'oignon et les champignons émincés 6 minutes.",
+      "Ajoutez la crème et laissez réduire 3 minutes.",
+      "Mélangez avec les pâtes et le fromage."
+    ],
+    "tip": "Gardez un peu d'eau de cuisson pour détendre la sauce."
+  }
+]

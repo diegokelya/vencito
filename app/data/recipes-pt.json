@@ -1,0 +1,3690 @@
+[
+  {
+    "id": "br-arroz-feijao-ovo",
+    "origin": "BR",
+    "title": "Arroz, feijão e ovo frito",
+    "summary": "O prato de todo dia.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Salada de tomate",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Feijão",
+        "keywords": [
+          "feijao"
+        ],
+        "amount": "1 lata ou 2 xícaras cozido"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "2 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue o alho no óleo, junte o arroz e mexa 1 minuto.",
+      "Cubra com a água quente e sal e cozinhe tampado em fogo baixo por 15 minutos.",
+      "Aqueça o feijão com a cebola refogada por 10 minutos.",
+      "Frite os ovos e sirva tudo junto."
+    ],
+    "tip": "Deixe o arroz descansar 5 minutos tampado antes de soltar com o garfo."
+  },
+  {
+    "id": "br-frango-com-batata-assado",
+    "origin": "BR",
+    "title": "Frango assado com batata",
+    "summary": "Tudo na mesma assadeira.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Salada verde",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "coxa",
+          "sobrecoxa",
+          "peito de frango"
+        ],
+        "amount": "4 pedaços"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limao"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Aqueça o forno a 200 °C.",
+      "Tempere o frango com sal, limão e um fio de óleo.",
+      "Coloque as batatas em gomos e a cebola em fatias ao redor.",
+      "Asse por 45 minutos, virando uma vez, até dourar."
+    ],
+    "tip": "Cubra com papel-alumínio nos primeiros 20 minutos para o frango ficar macio."
+  },
+  {
+    "id": "br-strogonoff-de-frango",
+    "origin": "BR",
+    "title": "Strogonoff de frango",
+    "summary": "Cremoso e rápido.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Arroz branco e batata palha",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "peito de frango"
+        ],
+        "amount": "2 peitos"
+      },
+      {
+        "name": "Creme de leite",
+        "keywords": [
+          "creme de leite"
+        ],
+        "amount": "1 caixinha"
+      },
+      {
+        "name": "Ketchup",
+        "keywords": [
+          "ketchup"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Cogumelo",
+        "keywords": [
+          "cogumelo",
+          "champignon"
+        ],
+        "amount": "1 lata",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Corte o frango em cubos e tempere com sal.",
+      "Doure em óleo com a cebola picada por 8 minutos.",
+      "Junte o ketchup e o cogumelo e cozinhe 3 minutos.",
+      "Desligue o fogo e misture o creme de leite; sirva com arroz."
+    ],
+    "tip": "Só junte o creme de leite com o fogo desligado para não talhar."
+  },
+  {
+    "id": "br-carne-moida-com-batata",
+    "origin": "BR",
+    "title": "Carne moída com batata",
+    "summary": "Rende, é barato e agrada.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Arroz",
+    "ingredients": [
+      {
+        "name": "Carne moída",
+        "keywords": [
+          "carne moida",
+          "moida",
+          "patinho moido"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "1 xícara",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola e o alho no óleo e junte a carne moída.",
+      "Mexa até dourar, uns 8 minutos, e tempere com sal.",
+      "Adicione o tomate picado, as batatas em cubos e a água.",
+      "Cozinhe tampado por 15 minutos, até as batatas ficarem macias."
+    ],
+    "tip": "Corte as batatas pequenas para cozinharem mais rápido."
+  },
+  {
+    "id": "br-omelete-de-queijo",
+    "origin": "BR",
+    "title": "Omelete de queijo",
+    "summary": "Pronta em 10 minutos.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Salada de tomate",
+    "ingredients": [
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "60 g"
+      },
+      {
+        "name": "Presunto",
+        "keywords": [
+          "presunto cozido"
+        ],
+        "amount": "2 fatias",
+        "kind": "optional"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite",
+          "manteiga"
+        ],
+        "amount": "1 colher de chá",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Bata os ovos com uma pitada de sal.",
+      "Despeje numa frigideira untada em fogo médio.",
+      "Quando começar a firmar, coloque o queijo e o presunto.",
+      "Dobre ao meio e deixe mais 1 minuto."
+    ],
+    "tip": "Fogo médio-baixo deixa a omelete macia."
+  },
+  {
+    "id": "br-macarrao-alho-e-oleo",
+    "origin": "BR",
+    "title": "Macarrão alho e óleo",
+    "summary": "Com poucos ingredientes.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Macarrão",
+        "keywords": [
+          "macarrao",
+          "espaguete",
+          "massa"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "5 dentes"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "oleo"
+        ],
+        "amount": "4 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Pimenta",
+        "keywords": [
+          "pimenta"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Queijo ralado",
+        "keywords": [
+          "queijo ralado",
+          "parmesao"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cozinhe o macarrão em água com sal até ficar al dente.",
+      "Doure o alho fatiado no azeite em fogo baixo.",
+      "Misture o macarrão escorrido ao alho.",
+      "Sirva com queijo ralado."
+    ],
+    "tip": "Não deixe o alho queimar: ele fica amargo."
+  },
+  {
+    "id": "br-baiao-de-dois",
+    "origin": "BR",
+    "title": "Baião de dois",
+    "summary": "Arroz, feijão e queijo coalho.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Couve refogada",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Feijão",
+        "keywords": [
+          "feijao"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Queijo coalho",
+        "keywords": [
+          "queijo coalho",
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Linguiça",
+        "keywords": [
+          "linguica",
+          "calabresa"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "2 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Frite a linguiça em rodelas com a cebola picada.",
+      "Junte o arroz e refogue 1 minuto.",
+      "Adicione o feijão e a água, sal, e cozinhe 15 minutos.",
+      "Misture o queijo em cubos no final e sirva."
+    ],
+    "tip": "Se quiser, finalize com coentro picado."
+  },
+  {
+    "id": "br-panqueca-de-carne",
+    "origin": "BR",
+    "title": "Panqueca de carne",
+    "summary": "Massa fininha com recheio de carne moída.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Farinha de trigo",
+        "keywords": [
+          "farinha"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Carne moída",
+        "keywords": [
+          "carne moida",
+          "moida"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Molho de tomate",
+        "keywords": [
+          "molho de tomate",
+          "tomate",
+          "extrato de tomate"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Bata os ovos, o leite, a farinha e sal até a massa ficar lisa.",
+      "Refogue a cebola e a carne com sal e junte metade do molho.",
+      "Faça as panquecas numa frigideira untada e recheie.",
+      "Disponha em um refratário com o resto do molho e leve ao forno 10 minutos."
+    ],
+    "tip": "A primeira panqueca costuma ser teste: não se preocupe se falhar."
+  },
+  {
+    "id": "br-arroz-de-forno",
+    "origin": "BR",
+    "title": "Arroz de forno",
+    "summary": "Arroz com presunto e queijo gratinado.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "2 xícaras cozido"
+      },
+      {
+        "name": "Presunto",
+        "keywords": [
+          "presunto cozido"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Ervilha",
+        "keywords": [
+          "ervilha"
+        ],
+        "amount": "1/2 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Creme de leite",
+        "keywords": [
+          "creme de leite"
+        ],
+        "amount": "1/2 caixinha",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Misture o arroz cozido com o presunto picado, a ervilha e o creme de leite.",
+      "Junte os ovos batidos e sal.",
+      "Coloque num refratário e cubra com o queijo.",
+      "Asse 25 minutos a 200 °C, até gratinar."
+    ],
+    "tip": "Ótimo para aproveitar o arroz que sobrou."
+  },
+  {
+    "id": "br-moqueca-de-peixe",
+    "origin": "BR",
+    "title": "Moqueca de peixe",
+    "summary": "Peixe com tomate e pimentão.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Arroz e pirão",
+    "ingredients": [
+      {
+        "name": "Peixe",
+        "keywords": [
+          "peixe",
+          "file de peixe",
+          "tilapia",
+          "merluza"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pimentão",
+        "keywords": [
+          "pimentao"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Leite de coco",
+        "keywords": [
+          "leite de coco",
+          "coco"
+        ],
+        "amount": "1 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limao"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "oleo"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tempere o peixe com sal e limão.",
+      "Monte camadas de cebola, tomate e pimentão numa panela.",
+      "Coloque o peixe, regue com azeite e o leite de coco.",
+      "Cozinhe tampado em fogo baixo por 15 a 20 minutos."
+    ],
+    "tip": "Não mexa a panela: balance-a para o peixe não desmanchar."
+  },
+  {
+    "id": "br-escondidinho-de-carne",
+    "origin": "BR",
+    "title": "Escondidinho de carne moída",
+    "summary": "Purê por cima, recheio embaixo.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "4 médias"
+      },
+      {
+        "name": "Carne moída",
+        "keywords": [
+          "carne moida",
+          "moida"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1/2 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas 20 minutos e amasse com leite, manteiga e sal.",
+      "Refogue a cebola e a carne com sal por 10 minutos.",
+      "Coloque a carne no refratário e cubra com o purê.",
+      "Polvilhe o queijo e gratine por 15 minutos."
+    ],
+    "tip": "Deixe o purê firme para não afundar no recheio."
+  },
+  {
+    "id": "br-cuscuz-com-ovo",
+    "origin": "BR",
+    "title": "Cuscuz com ovo",
+    "summary": "Café da manhã que vira jantar.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Flocão de milho",
+        "keywords": [
+          "flocao",
+          "cuscuz",
+          "flocos de milho"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "1 xícara",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Hidrate o flocão com a água e sal por 5 minutos.",
+      "Cozinhe no vapor por 8 minutos.",
+      "Frite os ovos na manteiga.",
+      "Sirva o cuscuz com os ovos e o queijo."
+    ],
+    "tip": "Solte o cuscuz com um garfo antes de servir.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "br-tapioca-com-queijo",
+    "origin": "BR",
+    "title": "Tapioca com queijo",
+    "summary": "Sem forno e sem glúten.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Goma de tapioca",
+        "keywords": [
+          "tapioca",
+          "goma"
+        ],
+        "amount": "4 colheres de sopa"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela",
+          "coalho"
+        ],
+        "amount": "2 fatias"
+      },
+      {
+        "name": "Presunto",
+        "keywords": [
+          "presunto cozido"
+        ],
+        "amount": "2 fatias",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Aqueça uma frigideira antiaderente sem óleo.",
+      "Espalhe a goma peneirada formando um disco.",
+      "Quando firmar, vire e coloque o queijo e o presunto.",
+      "Dobre ao meio e deixe derreter."
+    ],
+    "tip": "Peneire a goma para a tapioca ficar lisa.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "br-sopa-de-legumes",
+    "origin": "BR",
+    "title": "Sopa de legumes",
+    "summary": "Aproveita o que tiver na geladeira.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Pão",
+    "ingredients": [
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "2 médias"
+      },
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Abóbora",
+        "keywords": [
+          "abobora"
+        ],
+        "amount": "200 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Macarrão",
+        "keywords": [
+          "macarrao",
+          "massa"
+        ],
+        "amount": "1 punhado",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "5 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Corte todos os legumes em cubos.",
+      "Refogue a cebola no óleo e junte os legumes.",
+      "Adicione a água e sal e cozinhe 25 minutos.",
+      "Junte o macarrão nos últimos 8 minutos."
+    ],
+    "tip": "Bata parte da sopa no liquidificador para ficar mais cremosa."
+  },
+  {
+    "id": "br-macarronada",
+    "origin": "BR",
+    "title": "Macarronada com carne moída",
+    "summary": "Clássico de domingo.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Macarrão",
+        "keywords": [
+          "macarrao",
+          "espaguete",
+          "massa"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Carne moída",
+        "keywords": [
+          "carne moida",
+          "moida"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Molho de tomate",
+        "keywords": [
+          "molho de tomate",
+          "tomate",
+          "extrato de tomate"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Queijo ralado",
+        "keywords": [
+          "queijo ralado",
+          "parmesao"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe o macarrão em água com sal.",
+      "Refogue a cebola e doure a carne moída por 8 minutos.",
+      "Junte o molho de tomate e cozinhe 10 minutos.",
+      "Misture ao macarrão e sirva com queijo ralado."
+    ],
+    "tip": "Reserve um pouco da água do cozimento para soltar o molho."
+  },
+  {
+    "id": "br-batata-recheada",
+    "origin": "BR",
+    "title": "Batata recheada",
+    "summary": "Com queijo e presunto.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "Salada",
+    "ingredients": [
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "2 grandes"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Presunto",
+        "keywords": [
+          "presunto cozido"
+        ],
+        "amount": "2 fatias",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas com casca 25 minutos e corte ao meio.",
+      "Retire um pouco da massa e misture com a manteiga, o queijo e o presunto picado.",
+      "Recheie as batatas.",
+      "Gratine no forno 15 minutos."
+    ],
+    "tip": "Fure bem as batatas com um garfo antes de cozinhar."
+  },
+  {
+    "id": "br-frango-com-quiabo",
+    "origin": "BR",
+    "title": "Frango com quiabo",
+    "summary": "Um clássico caseiro.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Arroz e angu",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "coxa",
+          "sobrecoxa"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Quiabo",
+        "keywords": [
+          "quiabo"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "3 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Doure o frango temperado com sal e alho em óleo.",
+      "Junte a cebola e o tomate e refogue 5 minutos.",
+      "Adicione um pouco de água e cozinhe tampado 20 minutos.",
+      "Acrescente o quiabo inteiro e cozinhe mais 10 minutos sem mexer."
+    ],
+    "tip": "Não mexa o quiabo depois de colocá-lo para não soltar baba."
+  },
+  {
+    "id": "br-salada-de-atum-com-batata",
+    "origin": "BR",
+    "title": "Salada de atum com batata",
+    "summary": "Fresca e sem forno.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Atum",
+        "keywords": [
+          "atum"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limao"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas em cubos até ficarem macias e escorra.",
+      "Cozinhe os ovos 10 minutos e corte em quartos.",
+      "Misture tudo com o atum, o tomate e a cebola.",
+      "Tempere com sal, limão e azeite."
+    ],
+    "tip": "Tempere as batatas ainda mornas para absorverem melhor o sabor."
+  },
+  {
+    "id": "br-torta-de-frango",
+    "origin": "BR",
+    "title": "Torta de frango de liquidificador",
+    "summary": "Massa fácil e recheio caseiro.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "peito de frango"
+        ],
+        "amount": "2 peitos"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1 1/2 xícara"
+      },
+      {
+        "name": "Farinha de trigo",
+        "keywords": [
+          "farinha"
+        ],
+        "amount": "1 1/2 xícara"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe e desfie o frango; refogue com a cebola e sal.",
+      "Bata no liquidificador os ovos, o leite, a farinha, o óleo e sal.",
+      "Coloque metade da massa numa forma, o recheio e o queijo, e cubra com o resto da massa.",
+      "Asse 35 minutos a 200 °C."
+    ],
+    "tip": "Use fermento em pó na massa se quiser uma torta mais alta."
+  },
+  {
+    "id": "br-ovos-mexidos-com-tomate",
+    "origin": "BR",
+    "title": "Ovos mexidos com tomate",
+    "summary": "Rápido e leve.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Pão ou arroz",
+    "ingredients": [
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola e o tomate picados em óleo por 3 minutos.",
+      "Adicione os ovos batidos com sal.",
+      "Mexa em fogo baixo até firmar.",
+      "Sirva com pão ou arroz."
+    ],
+    "tip": "Retire do fogo ainda cremoso, pois continua cozinhando no prato.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "br-frango-a-parmegiana",
+    "origin": "BR",
+    "title": "Frango à parmegiana",
+    "summary": "Empanado, com molho e queijo derretido.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Arroz e batata frita",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "file de frango",
+          "peito de frango"
+        ],
+        "amount": "2 filés"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Farinha de rosca",
+        "keywords": [
+          "farinha de rosca",
+          "pao ralado",
+          "farinha"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Molho de tomate",
+        "keywords": [
+          "molho de tomate",
+          "tomate",
+          "extrato de tomate"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Achate os filés, tempere com sal e passe no ovo batido e na farinha de rosca.",
+      "Frite ou asse até dourar, uns 4 minutos de cada lado.",
+      "Coloque num refratário, cubra com molho de tomate e queijo.",
+      "Leve ao forno 10 minutos, até o queijo derreter."
+    ],
+    "tip": "Asse em vez de fritar para ficar mais leve."
+  },
+  {
+    "id": "br-bife-acebolado",
+    "origin": "BR",
+    "title": "Bife acebolado",
+    "summary": "Simples e muito brasileiro.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Arroz, feijão e ovo",
+    "ingredients": [
+      {
+        "name": "Bife",
+        "keywords": [
+          "carne",
+          "bife",
+          "patinho",
+          "acem",
+          "coxao",
+          "alcatra",
+          "maminha",
+          "file"
+        ],
+        "amount": "2 bifes"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "2 grandes"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tempere os bifes com sal e alho.",
+      "Frite em frigideira bem quente 2 a 3 minutos de cada lado e reserve.",
+      "Na mesma frigideira, doure as cebolas em rodelas por 8 minutos.",
+      "Sirva os bifes cobertos com a cebola."
+    ],
+    "tip": "Não amontoe os bifes na frigideira: eles soltam água e não douram."
+  },
+  {
+    "id": "br-arroz-carreteiro",
+    "origin": "BR",
+    "title": "Arroz carreteiro",
+    "summary": "Um prato de panela única.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Couve",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Carne",
+        "keywords": [
+          "carne",
+          "bife",
+          "patinho",
+          "acem",
+          "coxao",
+          "alcatra",
+          "maminha",
+          "file",
+          "charque",
+          "carne seca"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "2 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Corte a carne em cubos pequenos e doure em óleo.",
+      "Junte a cebola, o alho e o tomate picados e refogue 5 minutos.",
+      "Adicione o arroz, mexa e cubra com a água quente com sal.",
+      "Cozinhe tampado 20 minutos em fogo baixo."
+    ],
+    "tip": "Se a carne for seca, dessalgue antes e ajuste o sal."
+  },
+  {
+    "id": "br-carne-de-panela",
+    "origin": "BR",
+    "title": "Carne de panela com batatas",
+    "summary": "Macia e com bastante molho.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Arroz",
+    "ingredients": [
+      {
+        "name": "Carne",
+        "keywords": [
+          "carne",
+          "bife",
+          "patinho",
+          "acem",
+          "coxao",
+          "alcatra",
+          "maminha",
+          "file"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "2 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Doure a carne em cubos grandes em óleo na panela de pressão ou numa panela comum.",
+      "Junte a cebola picada e refogue.",
+      "Adicione a água e sal e cozinhe 25 minutos na pressão (ou 50 numa panela comum).",
+      "Junte as batatas e as cenouras e cozinhe mais 15 minutos."
+    ],
+    "tip": "Deixe o molho apurar sem tampa no final para ficar mais grosso."
+  },
+  {
+    "id": "br-salpicao",
+    "origin": "BR",
+    "title": "Salpicão de frango",
+    "summary": "Frio, cremoso e perfeito para qualquer dia.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Arroz ou pão",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "peito de frango"
+        ],
+        "amount": "2 peitos"
+      },
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Maionese",
+        "keywords": [
+          "maionese"
+        ],
+        "amount": "4 colheres de sopa"
+      },
+      {
+        "name": "Batata palha",
+        "keywords": [
+          "batata palha",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "1 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Milho",
+        "keywords": [
+          "milho"
+        ],
+        "amount": "1/2 lata",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe o frango em água com sal por 20 minutos e desfie.",
+      "Rale a cenoura crua e escorra o milho.",
+      "Misture tudo com a maionese e sal.",
+      "Sirva gelado, com a batata palha por cima na hora."
+    ],
+    "tip": "Coloque a batata palha só na hora de servir para ficar crocante."
+  },
+  {
+    "id": "br-sopa-de-feijao",
+    "origin": "BR",
+    "title": "Sopa de feijão",
+    "summary": "Quentinha e reforçada.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Pão",
+    "ingredients": [
+      {
+        "name": "Feijão",
+        "keywords": [
+          "feijao"
+        ],
+        "amount": "1 lata ou 2 xícaras cozido"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Linguiça",
+        "keywords": [
+          "linguica",
+          "calabresa"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "4 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola e a linguiça em rodelas no óleo.",
+      "Junte o feijão, a batata e a cenoura em cubos e a água.",
+      "Cozinhe 25 minutos, até os legumes ficarem macios.",
+      "Amasse um pouco do feijão para engrossar e ajuste o sal."
+    ],
+    "tip": "Bata uma concha da sopa no liquidificador para dar mais corpo."
+  },
+  {
+    "id": "br-salada-de-macarrao",
+    "origin": "BR",
+    "title": "Salada de macarrão",
+    "summary": "Fria e rápida.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Macarrão",
+        "keywords": [
+          "macarrao",
+          "massa",
+          "parafuso",
+          "penne"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Milho",
+        "keywords": [
+          "milho"
+        ],
+        "amount": "1/2 lata",
+        "kind": "optional"
+      },
+      {
+        "name": "Maionese",
+        "keywords": [
+          "maionese"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe o macarrão em água com sal, escorra e lave em água fria.",
+      "Pique o tomate e a cebola.",
+      "Misture tudo com o milho, a maionese e o azeite.",
+      "Ajuste o sal e leve à geladeira 15 minutos."
+    ],
+    "tip": "Lave o macarrão para a salada não ficar pegajosa."
+  },
+  {
+    "id": "br-peixe-assado-com-batata",
+    "origin": "BR",
+    "title": "Peixe assado com batata",
+    "summary": "Tudo na mesma assadeira.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Peixe",
+        "keywords": [
+          "peixe",
+          "file de peixe",
+          "tilapia",
+          "merluza",
+          "pescada"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "papa",
+          "patata",
+          "potato",
+          "pomme de terre",
+          "pommes de terre",
+          "patate",
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limao"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Aqueça o forno a 200 °C.",
+      "Coloque as batatas em rodelas, a cebola e o tomate numa assadeira com sal e óleo; asse 20 minutos.",
+      "Tempere o peixe com sal e limão e deite sobre os legumes.",
+      "Asse mais 15 a 20 minutos, até o peixe se desfazer em lascas."
+    ],
+    "tip": "Cubra com papel-alumínio para o peixe ficar suculento."
+  },
+  {
+    "id": "br-farofa-de-ovo",
+    "origin": "BR",
+    "title": "Farofa de ovo",
+    "summary": "O acompanhamento que vira prato.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Arroz e feijão",
+    "ingredients": [
+      {
+        "name": "Farinha de mandioca",
+        "keywords": [
+          "farinha de mandioca",
+          "farinha",
+          "farofa"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga",
+          "oleo"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola (e o bacon) na manteiga.",
+      "Junte os ovos e mexa até cozinhar.",
+      "Adicione a farinha aos poucos, mexendo.",
+      "Tempere com sal e sirva."
+    ],
+    "tip": "Torre a farinha por 2 minutos na frigideira seca para ficar mais crocante."
+  },
+  {
+    "id": "br-strogonoff-de-carne",
+    "origin": "BR",
+    "title": "Strogonoff de carne",
+    "summary": "Clássico de festa, simples de fazer.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Arroz branco e batata palha",
+    "ingredients": [
+      {
+        "name": "Carne",
+        "keywords": [
+          "carne",
+          "bife",
+          "patinho",
+          "acem",
+          "coxao",
+          "alcatra",
+          "maminha",
+          "file"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Creme de leite",
+        "keywords": [
+          "creme de leite"
+        ],
+        "amount": "1 caixinha"
+      },
+      {
+        "name": "Ketchup",
+        "keywords": [
+          "ketchup"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cogumelo",
+        "keywords": [
+          "cogumelo",
+          "champignon"
+        ],
+        "amount": "1 lata",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Corte a carne em tiras e tempere com sal.",
+      "Doure em óleo com a cebola picada por 8 minutos.",
+      "Junte o ketchup e o cogumelo e cozinhe 3 minutos.",
+      "Desligue o fogo e misture o creme de leite."
+    ],
+    "tip": "Só junte o creme de leite com o fogo desligado para não talhar."
+  },
+  {
+    "id": "br-omelete-de-legumes",
+    "origin": "BR",
+    "title": "Omelete de legumes",
+    "summary": "Leve e rápida.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Salada",
+    "ingredients": [
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela",
+          "muçarela"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Pimentão",
+        "keywords": [
+          "pimentao"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pique os legumes e refogue 3 minutos no óleo.",
+      "Bata os ovos com sal.",
+      "Despeje sobre os legumes e cozinhe em fogo baixo.",
+      "Junte o queijo, dobre e sirva."
+    ],
+    "tip": "Tampe a frigideira para cozinhar o topo sem virar."
+  },
+  {
+    "id": "br-macarrao-com-frango",
+    "origin": "BR",
+    "title": "Macarrão com frango e creme",
+    "summary": "Cremoso e completo.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Macarrão",
+        "keywords": [
+          "macarrao",
+          "massa",
+          "espaguete",
+          "penne"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "peito de frango"
+        ],
+        "amount": "1 peito"
+      },
+      {
+        "name": "Creme de leite",
+        "keywords": [
+          "creme de leite"
+        ],
+        "amount": "1/2 caixinha"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Queijo ralado",
+        "keywords": [
+          "queijo ralado",
+          "parmesao"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe o macarrão em água com sal.",
+      "Doure o frango em cubos com a cebola picada por 8 minutos.",
+      "Junte o creme de leite e cozinhe 3 minutos.",
+      "Misture com o macarrão e o queijo ralado."
+    ],
+    "tip": "Guarde um pouco da água do cozimento para soltar o molho."
+  },
+  {
+    "id": "pt-bacalhau-a-bras",
+    "origin": "PT",
+    "title": "Bacalhau à Brás",
+    "summary": "Bacalhau desfiado com batata palha e ovos.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Azeitonas e salsinha",
+    "ingredients": [
+      {
+        "name": "Bacalhau",
+        "keywords": [
+          "bacalhau"
+        ],
+        "amount": "300 g dessalgado"
+      },
+      {
+        "name": "Batata palha",
+        "keywords": [
+          "batata palha",
+          "batata"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo",
+          "ovos"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "óleo",
+          "oleo"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Dessalgue o bacalhau, cozinhe e desfie em lascas.",
+      "Refogue a cebola e o alho em azeite até ficarem macios.",
+      "Junte o bacalhau e a batata palha e misture 2 minutos.",
+      "Despeje os ovos batidos e mexa até ficarem cremosos."
+    ],
+    "tip": "Não deixe os ovos secarem: tire do fogo ainda cremosos."
+  },
+  {
+    "id": "pt-caldo-verde",
+    "origin": "PT",
+    "title": "Caldo verde",
+    "summary": "Sopa de batata com couve e linguiça.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Pão",
+    "ingredients": [
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Couve",
+        "keywords": [
+          "couve"
+        ],
+        "amount": "4 folhas"
+      },
+      {
+        "name": "Linguiça",
+        "keywords": [
+          "linguica",
+          "chourico",
+          "linguiça"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2 unidade"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "óleo",
+          "oleo"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "água",
+          "agua"
+        ],
+        "amount": "1 litro",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas e a cebola na água com sal até amolecerem.",
+      "Bata no liquidificador até ficar um creme.",
+      "Junte a couve cortada bem fininha e cozinhe 5 minutos.",
+      "Sirva com rodelas de linguiça e um fio de azeite."
+    ],
+    "tip": "Corte a couve em tiras finíssimas para ficar delicada."
+  },
+  {
+    "id": "pt-frango-piri-piri",
+    "origin": "PT",
+    "title": "Frango no forno com piri-piri",
+    "summary": "Frango marinado com pimenta e limão.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Batata frita e salada",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "coxa",
+          "sobrecoxa",
+          "peito"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limão",
+          "limao"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "3 dentes"
+      },
+      {
+        "name": "Pimenta",
+        "keywords": [
+          "pimenta",
+          "piri-piri",
+          "piri piri"
+        ],
+        "amount": "1 colher de chá"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "óleo",
+          "oleo"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Misture o suco de limão, o alho picado, a pimenta, o azeite e sal.",
+      "Cubra o frango com a marinada e deixe 20 minutos.",
+      "Aqueça o forno a 200 °C.",
+      "Asse 40 minutos, virando na metade."
+    ],
+    "tip": "Quanto mais tempo marinar, mais sabor."
+  },
+  {
+    "id": "pt-bifanas",
+    "origin": "PT",
+    "title": "Bifanas",
+    "summary": "Sanduíche de porco marinado no pão.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Mostarda",
+    "ingredients": [
+      {
+        "name": "Lombo de porco",
+        "keywords": [
+          "porco",
+          "lombo",
+          "bisteca",
+          "carne de porco"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Pão",
+        "keywords": [
+          "pão",
+          "pao"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes"
+      },
+      {
+        "name": "Vinho branco",
+        "keywords": [
+          "vinho"
+        ],
+        "amount": "1/4 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Pimenta",
+        "keywords": [
+          "pimenta"
+        ],
+        "amount": "1 colher de chá",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "óleo",
+          "oleo"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Corte o porco em bifes finos e tempere com alho, vinho, pimenta e sal.",
+      "Deixe marinar 15 minutos.",
+      "Doure os bifes no azeite 3 minutos de cada lado.",
+      "Sirva dentro do pão com um pouco do molho."
+    ],
+    "tip": "Corte os bifes bem finos para que cozinhem rápido."
+  },
+  {
+    "id": "pt-arroz-de-tomate",
+    "origin": "PT",
+    "title": "Arroz de tomate",
+    "summary": "Arroz malandrinho com tomate.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Peixe ou ovo",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2 unidade"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "1 dente",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "óleo",
+          "oleo"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "água",
+          "agua"
+        ],
+        "amount": "2 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola e o alho em azeite.",
+      "Junte o tomate picado e cozinhe 5 minutos.",
+      "Acrescente o arroz, a água e sal.",
+      "Tampe e cozinhe 15 minutos em fogo baixo."
+    ],
+    "tip": "Fica ainda melhor com um ovo frito por cima."
+  },
+  {
+    "id": "pt-sardinhas-assadas",
+    "origin": "PT",
+    "title": "Sardinhas assadas com batatas",
+    "summary": "Simples e saborosas.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Salada",
+    "ingredients": [
+      {
+        "name": "Sardinha",
+        "keywords": [
+          "sardinha",
+          "sardinhas"
+        ],
+        "amount": "6 unidades"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "3 médias"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limão",
+          "limao"
+        ],
+        "amount": "1 unidade",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite",
+          "óleo",
+          "oleo"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas com casca até ficarem macias.",
+      "Tempere as sardinhas com sal e grelhe 3 minutos de cada lado.",
+      "Regue com azeite e limão.",
+      "Sirva com as batatas e uma salada."
+    ],
+    "tip": "Peça ao peixeiro para limpar as sardinhas."
+  },
+  {
+    "id": "br-galinhada",
+    "origin": "BR",
+    "title": "Galinhada",
+    "summary": "Arroz com frango e açafrão.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "sobrecoxa",
+          "coxa",
+          "peito"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes",
+        "kind": "optional"
+      },
+      {
+        "name": "Cúrcuma",
+        "keywords": [
+          "curcuma",
+          "acafrao"
+        ],
+        "amount": "1 colher de chá",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite",
+          "oleo vegetal"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "2 xícaras",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tempere o frango com sal e doure no óleo.",
+      "Junte a cebola e o alho e refogue 5 minutos.",
+      "Acrescente o arroz, a cúrcuma e a água.",
+      "Tampe e cozinhe 25 minutos em fogo baixo."
+    ],
+    "tip": "Finalize com cheiro-verde picado."
+  },
+  {
+    "id": "br-virado-a-paulista",
+    "origin": "BR",
+    "title": "Virado à paulista",
+    "summary": "Feijão, linguiça, ovo e couve.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Arroz",
+    "ingredients": [
+      {
+        "name": "Feijão",
+        "keywords": [
+          "feijao"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Linguiça",
+        "keywords": [
+          "linguica",
+          "linguica"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Couve",
+        "keywords": [
+          "couve"
+        ],
+        "amount": "4 folhas"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "1 dente",
+        "kind": "optional"
+      },
+      {
+        "name": "Farinha de mandioca",
+        "keywords": [
+          "farinha de mandioca",
+          "farinha"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite",
+          "oleo vegetal"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Aqueça o feijão com um pouco de óleo e engrosse com a farinha.",
+      "Frite a linguiça em rodelas.",
+      "Refogue a couve cortada fina com alho.",
+      "Frite os ovos e sirva tudo junto."
+    ],
+    "tip": "A couve deve ficar verde e crocante."
+  },
+  {
+    "id": "br-misto-quente",
+    "origin": "BR",
+    "title": "Misto quente",
+    "summary": "Pão com presunto e queijo, na chapa.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pão de forma",
+        "keywords": [
+          "pao de forma",
+          "pao"
+        ],
+        "amount": "4 fatias"
+      },
+      {
+        "name": "Presunto",
+        "keywords": [
+          "presunto",
+          "apresuntado"
+        ],
+        "amount": "4 fatias"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela"
+        ],
+        "amount": "4 fatias"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Monte os sanduíches com presunto e queijo.",
+      "Passe manteiga por fora.",
+      "Doure na frigideira 2 minutos de cada lado, apertando.",
+      "Corte ao meio e sirva quente."
+    ],
+    "tip": "Pressione com uma espátula para o queijo derreter.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "br-brigadeiro",
+    "origin": "BR",
+    "title": "Brigadeiro de panela",
+    "summary": "O doce de festa mais fácil.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Leite condensado",
+        "keywords": [
+          "leite condensado"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Chocolate em pó",
+        "keywords": [
+          "chocolate em po",
+          "achocolatado",
+          "cacau"
+        ],
+        "amount": "3 colheres de sopa"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga"
+        ],
+        "amount": "1 colher de sopa"
+      },
+      {
+        "name": "Granulado",
+        "keywords": [
+          "granulado"
+        ],
+        "amount": "a gosto",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Misture o leite condensado, o chocolate e a manteiga numa panela.",
+      "Cozinhe em fogo baixo mexendo até desgrudar do fundo.",
+      "Deixe esfriar e modele bolinhas.",
+      "Passe pelo granulado."
+    ],
+    "tip": "Unte as mãos com manteiga para enrolar.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "br-bolo-de-cenoura",
+    "origin": "BR",
+    "title": "Bolo de cenoura",
+    "summary": "Com cobertura de chocolate.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Farinha de trigo",
+        "keywords": [
+          "farinha de trigo",
+          "farinha"
+        ],
+        "amount": "2 xícaras"
+      },
+      {
+        "name": "Açúcar",
+        "keywords": [
+          "acucar"
+        ],
+        "amount": "1 1/2 xícara"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "1/2 xícara",
+        "kind": "staple"
+      },
+      {
+        "name": "Fermento",
+        "keywords": [
+          "fermento"
+        ],
+        "amount": "1 colher de sopa"
+      },
+      {
+        "name": "Chocolate em pó",
+        "keywords": [
+          "chocolate em po",
+          "achocolatado",
+          "cacau"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Bata no liquidificador a cenoura, os ovos e o óleo.",
+      "Misture com a farinha, o açúcar e o fermento.",
+      "Asse 35 minutos a 180 °C em forma untada.",
+      "Cubra com a calda de chocolate."
+    ],
+    "tip": "Deixe esfriar antes de desenformar.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "br-feijao-tropeiro",
+    "origin": "BR",
+    "title": "Feijão tropeiro",
+    "summary": "Feijão com farinha, bacon e ovo.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Arroz",
+    "ingredients": [
+      {
+        "name": "Feijão",
+        "keywords": [
+          "feijao"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Farinha de mandioca",
+        "keywords": [
+          "farinha de mandioca",
+          "farinha"
+        ],
+        "amount": "1/2 xícara"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon",
+          "toucinho"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Couve",
+        "keywords": [
+          "couve"
+        ],
+        "amount": "2 folhas",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Frite o bacon em cubos e refogue a cebola.",
+      "Junte o feijão escorrido e aqueça.",
+      "Acrescente a farinha aos poucos, mexendo.",
+      "Misture os ovos mexidos e a couve e sirva."
+    ],
+    "tip": "Cuidado com o sal: o bacon já é salgado."
+  },
+  {
+    "id": "br-sopa-de-mandioquinha",
+    "origin": "BR",
+    "title": "Sopa de mandioquinha",
+    "summary": "Cremosa e suave.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Mandioquinha",
+        "keywords": [
+          "mandioquinha",
+          "batata baroa",
+          "batata-baroa",
+          "aipim",
+          "mandioca"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "1 dente",
+        "kind": "optional"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "agua"
+        ],
+        "amount": "3 xícaras"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola e o alho no azeite.",
+      "Junte a mandioquinha em pedaços e o caldo.",
+      "Cozinhe 25 minutos até amolecer.",
+      "Bata no liquidificador e acerte o sal."
+    ],
+    "tip": "Fica ótima com pedacinhos de bacon por cima."
+  },
+  {
+    "id": "br-risoto-de-frango",
+    "origin": "BR",
+    "title": "Risoto de frango",
+    "summary": "Cremoso, com frango desfiado.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "peito"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Caldo de galinha",
+        "keywords": [
+          "caldo de galinha",
+          "caldo"
+        ],
+        "amount": "3 xícaras"
+      },
+      {
+        "name": "Queijo ralado",
+        "keywords": [
+          "queijo ralado",
+          "parmesao"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Manteiga",
+        "keywords": [
+          "manteiga"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe o frango no caldo e desfie.",
+      "Refogue a cebola na manteiga e junte o arroz.",
+      "Adicione o caldo quente aos poucos, mexendo, por uns 20 minutos.",
+      "Misture o frango e o queijo."
+    ],
+    "tip": "Não pare de mexer para ficar cremoso."
+  },
+  {
+    "id": "br-torta-de-liquidificador",
+    "origin": "BR",
+    "title": "Torta de liquidificador",
+    "summary": "Massa batida com recheio de frango.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Farinha de trigo",
+        "keywords": [
+          "farinha de trigo",
+          "farinha"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo",
+          "azeite"
+        ],
+        "amount": "1/2 xícara",
+        "kind": "staple"
+      },
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "peito"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo",
+          "mussarela"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Fermento",
+        "keywords": [
+          "fermento"
+        ],
+        "amount": "1 colher de sopa"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Bata a farinha, o leite, os ovos, o óleo, o fermento e sal.",
+      "Despeje metade da massa numa forma untada.",
+      "Cubra com o frango desfiado e o queijo e finalize com o resto da massa.",
+      "Asse 35 minutos a 180 °C."
+    ],
+    "tip": "Funciona com atum ou legumes no lugar do frango."
+  },
+  {
+    "id": "pt-francesinha-simples",
+    "origin": "PT",
+    "title": "Francesinha simples",
+    "summary": "O sanduíche do Porto, versão fácil.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Batata frita",
+    "ingredients": [
+      {
+        "name": "Pão de forma",
+        "keywords": [
+          "pao de forma",
+          "pao"
+        ],
+        "amount": "4 fatias"
+      },
+      {
+        "name": "Linguiça",
+        "keywords": [
+          "linguica",
+          "linguiça",
+          "salsicha"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Bife",
+        "keywords": [
+          "bife",
+          "carne"
+        ],
+        "amount": "2 bifes finos"
+      },
+      {
+        "name": "Queijo",
+        "keywords": [
+          "queijo"
+        ],
+        "amount": "4 fatias"
+      },
+      {
+        "name": "Molho de tomate",
+        "keywords": [
+          "molho de tomate",
+          "tomate"
+        ],
+        "amount": "1/2 xícara"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Grelhe a linguiça e o bife.",
+      "Monte o sanduíche com carne, linguiça e queijo entre as fatias.",
+      "Cubra com queijo e leve ao forno 5 minutos.",
+      "Sirva com o molho de tomate quente por cima."
+    ],
+    "tip": "Com um ovo frito por cima fica completa."
+  },
+  {
+    "id": "pt-canja-de-galinha",
+    "origin": "PT",
+    "title": "Canja de galinha",
+    "summary": "A sopa que cura tudo.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Frango",
+        "keywords": [
+          "frango",
+          "galinha"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1/2 xícara"
+      },
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      },
+      {
+        "name": "Água",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "1 litro",
+        "kind": "staple"
+      },
+      {
+        "name": "Hortelã",
+        "keywords": [
+          "hortela"
+        ],
+        "amount": "1 ramo",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cozinhe o frango com a cebola e sal na água 25 minutos.",
+      "Retire, desfie e reserve.",
+      "Junte o arroz e a cenoura em cubos ao caldo e cozinhe 15 minutos.",
+      "Devolva o frango e sirva com hortelã."
+    ],
+    "tip": "Ideal para dias frios."
+  }
+]
