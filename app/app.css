@@ -4,7 +4,7 @@
   --radius: 18px; --safe-b: env(safe-area-inset-bottom, 0px); --safe-t: env(safe-area-inset-top, 0px);
 }
 @media (prefers-color-scheme: light) {
-  :root { --bg: #f2f2f7; --card: #fff; --card2: #ececf0; --text: #1c1c1e; --muted: #6e6e73; --line: #0000001a; --primary: #2e8f6b; --onprimary: #fff; --red: #e5392f; --orange: #e67e00; --green: #2e8f6b; }
+  :root { --bg: #f2f2f7; --card: #fff; --card2: #ececf0; --text: #1c1c1e; --muted: #56565c; --line: #0000001a; --primary: #1d7552; --onprimary: #fff; --red: #c4251c; --orange: #9a5200; --green: #1d7552; --blue: #0a6fd6; }
 }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.4 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; }
@@ -134,3 +134,6 @@ button.stat { color: inherit; font: inherit; }
 .dots { display: flex; justify-content: center; gap: 8px; margin: 16px 0; }
 .dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--card2); }
 .dots i.on { background: var(--primary); }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.sr:focus-visible + *, label:focus-within .sr { outline: none; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
