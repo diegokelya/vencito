@@ -79,6 +79,34 @@
     return text + pluralized(rest, scaled, lang || 'es');
   }
 
+
+  /* ---------- sistema de unidades: métrico o imperial (masa y volumen; tazas y unidades quedan igual) ---------- */
+  const dispPattern = /^\s*(\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:[.,]\d+)?)\s*(kg|g|ml|l|lbs?|oz|fl\.?\s?oz)\b([\s\S]*)$/i;
+  const nearest = (v, step) => Math.round(v / step) * step;
+  function display(amount, system, sep) {
+    if (system !== 'imperial' && system !== 'metric') return amount;
+    const m = dispPattern.exec(amount); if (!m) return amount;
+    const value = numberOf(m[1]); if (value == null) return amount;
+    const unit = m[2].toLowerCase().replace(/[ .]/g, ''), rest = m[3], sp = sep || '.';
+    const f = v => { const r = Math.round(v * 100) / 100; return String(r).replace('.', sp); };
+    const out = (v, u) => f(v) + ' ' + u + rest;
+    const metricMass = g => { const x = g >= 50 ? nearest(g, 5) : Math.round(g); return x >= 1000 ? f(Math.round(x / 100) / 10) + ' kg' + rest : f(x) + ' g' + rest; };
+    if (system === 'metric') {
+      if (['g', 'kg', 'ml', 'l'].includes(unit)) return amount;
+      if (unit === 'oz') return metricMass(value * 28.3495);
+      if (unit === 'lb' || unit === 'lbs') return metricMass(value * 453.592);
+      if (unit === 'floz') { const ml = nearest(value * 29.5735, 5); return ml >= 1000 ? out(ml / 1000, 'l') : out(ml, 'ml'); }
+      return amount;
+    }
+    if (['oz', 'lb', 'lbs', 'floz'].includes(unit)) return amount;
+    const impVol = ml => { if (ml < 15) return amount; if (ml >= 950) return out(Math.round(ml / 946.353 * 10) / 10, 'qt'); const oz = ml / 29.5735; return out(nearest(oz, oz < 10 ? 0.5 : 1), 'fl oz'); };
+    if (unit === 'g') { if (value < 15) return amount; if (value >= 454) return out(Math.round(value / 453.592 * 10) / 10, 'lb'); const oz = value / 28.3495; return out(nearest(oz, oz < 4 ? 0.25 : oz < 10 ? 0.5 : 1), 'oz'); }
+    if (unit === 'kg') return out(nearest(value * 2.20462, 0.1), 'lb');
+    if (unit === 'ml') return impVol(value);
+    if (unit === 'l') return value >= 1 ? out(nearest(value * 1.05669, 0.1), 'qt') : impVol(value * 1000);
+    return amount;
+  }
+
   /* ---------- ideas armadas con los productos ---------- */
   let lib = null; const setComposer = j => { lib = j; };
   const ROLES = ['egg', 'rice', 'pasta', 'potato', 'protein', 'veg', 'cheese'];
@@ -137,6 +165,6 @@
     return out;
   }
 
-  const api = { scale, suggest, setComposer, matches, isPrepared, rolesOf };
+  const api = { display, scale, suggest, setComposer, matches, isPrepared, rolesOf };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.VRecipes = api;
 })(typeof window !== 'undefined' ? window : globalThis);
