@@ -23,7 +23,7 @@
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
-  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
+  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, shKey: '', opener: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
 
   /* ---------- casas: cada una con sus productos ---------- */
   const homesSorted = () => S.homes.slice().sort((a, b) => (a.createdAt + a.id).localeCompare(b.createdAt + b.id));
@@ -135,7 +135,7 @@
     if (expOf(p) && b !== 'none') meta.push(fmtDate(expOf(p))); else meta.push(t('Sin fecha'));
     const c = catLabel(catKey(p.category)) || p.category; if (c) meta.push(c);
     if (p.location) meta.push(placeLabel(p.location));
-    return `<button class="item" data-act="open" data-id="${esc(p.id)}"><span class="ico">${catIcon(catKey(p.category))}</span>
+    return `<button class="item" data-act="open" data-id="${esc(p.id)}"><span class="ico" aria-hidden="true">${catIcon(catKey(p.category))}</span>
       <span class="grow"><span class="t">${esc(p.name)}${p.quantity > 1 ? ' ×' + p.quantity : ''}</span><br><span class="s">${esc(meta.join(' · '))}</span></span>
       ${b !== 'none' ? `<span class="pill ${tone(b)}">${esc(shortLabel(d))}</span>` : ''}</button>`;
   }
@@ -156,7 +156,7 @@
   function catChips() {
     const ks = KINDS.map(k => k[0]).filter(k => visible().some(p => catKey(p.category) === k));
     if (ks.length < 2) return '';
-    return `<div class="chips scroll"><button class="chip ${ui.cat ? '' : 'on'}" data-act="catf" data-id="">${esc(t('Todas'))}</button>${ks.map(k => `<button class="chip ${ui.cat === k ? 'on' : ''}" data-act="catf" data-id="${k}">${catIcon(k)} ${esc(catLabel(k))}</button>`).join('')}</div>`;
+    return `<div class="chips scroll"><button class="chip ${ui.cat ? '' : 'on'}" data-act="catf" data-id="">${esc(t('Todas'))}</button>${ks.map(k => `<button class="chip ${ui.cat === k ? 'on' : ''}" aria-pressed="${ui.cat === k}" data-act="catf" data-id="${k}">${catIcon(k)} ${esc(catLabel(k))}</button>`).join('')}</div>`;
   }
   function productsView() {
     const vis = visible(), total = vis.length, exp = vis.filter(p => bucketOf(p) === 'expired').length, soon = vis.filter(p => bucketOf(p) === 'soon').length;
@@ -268,9 +268,9 @@
   }
   function recipesView() {
     const head = `<h1>${esc(t('¿Qué cocino hoy?'))}</h1>
-      <div class="seg">${[['mine', 'Con lo que tenés'], ['all', 'Todas'], ['saved', 'Guardadas']].map(([k, n]) => `<button class="${ui.rmode === k ? 'on' : ''}" data-act="rmode" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
+      <div class="seg">${[['mine', 'Con lo que tenés'], ['all', 'Todas'], ['saved', 'Guardadas']].map(([k, n]) => `<button class="${ui.rmode === k ? 'on' : ''}" aria-pressed="${ui.rmode === k}" data-act="rmode" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
       ${ui.rmode === 'all' ? `<input class="search" id="rq" type="search" placeholder="${esc(t('Buscar receta…'))}" value="${esc(ui.rq)}" autocomplete="off">` : ''}
-      <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`;
+      <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" aria-pressed="${ui.rdiet === k}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`;
     return head + `<div id="rlist">${ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards()}</div>`;
   }
 
@@ -326,7 +326,7 @@
     const bars = []; for (let i = 5; i >= 0; i--) { const m0 = new Date(now.getFullYear(), now.getMonth() - i, 1), m1 = new Date(now.getFullYear(), now.getMonth() - i + 1, 1), s = computeStats(m0, m1); bars.push({ m: m0, c: s.consumed, d: s.discarded }); }
     const max = Math.max(1, ...bars.map(b => Math.max(b.c, b.d)));
     const list = (arr, fmt) => arr.length ? arr.map(([k, n]) => `<div class="item" style="padding:8px 14px"><span class="grow">${fmt(k)}</span><span class="muted">${n}</span></div>`).join('') : '';
-    return sheet(t('Estadísticas'), `<div class="seg">${[['month', 'Este mes'], ['quarter', '3 meses'], ['all', 'Todo']].map(([k, n]) => `<button class="${ui.period === k ? 'on' : ''}" data-act="period" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
+    return sheet(t('Estadísticas'), `<div class="seg">${[['month', 'Este mes'], ['quarter', '3 meses'], ['all', 'Todo']].map(([k, n]) => `<button class="${ui.period === k ? 'on' : ''}" aria-pressed="${ui.period === k}" data-act="period" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
       <div class="stats"><button class="stat" data-act="hist" data-id="consumed" style="border:0;text-align:left"><span>✅</span><b>${cur.consumed}</b>${esc(t('Consumidos'))}${delta(cur.consumed, prev && prev.consumed, false)}</button>
       <div class="stat"><span>⏱️</span><b>${rate}</b>${esc(t('Usados a tiempo'))}</div>
       <button class="stat" data-act="hist" data-id="discarded" style="border:0;text-align:left"><span>🗑️</span><b>${cur.discarded}</b>${esc(t('Tirados'))}${delta(cur.discarded, prev && prev.discarded, true)}</button>
@@ -476,7 +476,19 @@
       case 'ck-next': if (c.step >= r.steps.length - 1) { c.mode = 'list'; c.step = 0; c.done = {}; r.steps.forEach((_, i) => { c.done[i] = true; }); if (canSpeak()) speechSynthesis.cancel(); render(); } else { c.step++; render(); if (c.voice) speak(r.steps[c.step]); } break;
       case 'ck-speak': speak(r.steps[c.step]); break;
       case 'ck-share': { const text = recipeText(r, c); if (navigator.share) navigator.share({ title: r.title, text }).catch(() => {}); else if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => toast(t('Copiada al portapapeles'), false, true)); break; }
-      case 'ck-chatgpt': { const text = t('Quiero preparar la receta que aparece debajo. Guiame en una conversación de voz, un paso por vez. Esperá a que diga «listo» antes de continuar. Respetá las porciones y cantidades indicadas. Antes de empezar, preguntame si tengo los ingredientes y los utensilios necesarios. Si todavía estamos en texto, indicame que active el modo voz en esta misma conversación.') + '\n\n' + recipeText(r, c); const go = () => { window.open('https://chatgpt.com/', '_blank', 'noopener'); toast(t('Elegí ChatGPT, enviá la receta y activá el modo voz'), false, true); }; if (navigator.clipboard) navigator.clipboard.writeText(text).then(go, go); else go(); break; }
+      case 'ck-chatgpt': {
+        // Sin esperar nada antes de abrir: los navegadores bloquean las ventanas que se abren después de una promesa.
+        const text = t('Quiero preparar la receta que aparece debajo. Guiame en una conversación de voz, un paso por vez. Esperá a que diga «listo» antes de continuar. Respetá las porciones y cantidades indicadas. Antes de empezar, preguntame si tengo los ingredientes y los utensilios necesarios. Si todavía estamos en texto, indicame que active el modo voz en esta misma conversación.') + '\n\n' + recipeText(r, c), copy = () => { try { if (navigator.clipboard) navigator.clipboard.writeText(text).catch(() => {}); } catch (e) { /* sin portapapeles */ } };
+        const phone = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Mac/i.test(navigator.platform));
+        const web = () => {
+          copy();
+          const w = window.open('https://chatgpt.com/?q=' + encodeURIComponent(text), '_blank', 'noopener');
+          toast(w ? t('Elegí ChatGPT, enviá la receta y activá el modo voz') : t('Receta copiada: pegala en ChatGPT'), false, true);
+        };
+        // En el celular se comparte como en la app: se elige ChatGPT (o su app) en el menú de compartir.
+        if (phone && navigator.share) navigator.share({ text }).catch(err => { if (!err || err.name !== 'AbortError') web(); }); else web();
+        break;
+      }
       case 'ck-missing': { const f = cookFactor(r, c); matchRecipe(r).ing.forEach((x, i) => { if (!x.have && !x.staple && !c.have[i]) addToShopping(x.name, x.amount ? amt(x.amount, f) : ''); }); save(); toast(t('Agregado a la lista de compras'), false, true); el.disabled = true; break; }
       case 'save-recipe': { if (r.composed) { const k = S.savedC.findIndex(x => x.id === r.id); if (k >= 0) S.savedC.splice(k, 1); else S.savedC.push(r); } else { const k = S.saved.indexOf(r.id); if (k >= 0) S.saved.splice(k, 1); else S.saved.push(r.id); } save(); const sv = isSaved(r); el.innerHTML = `<b>${sv ? '♥' : '♡'}</b>${esc(sv ? t('Quitar de guardadas') : t('Guardar receta'))}`; break; }
     }
@@ -484,12 +496,22 @@
   /* ---------- render ---------- */
   function render() {
     document.documentElement.lang = lang();
+    const prevActive = document.activeElement;
     const tabs = [['products', '📦', 'Productos'], ['recipes', '🍳', '¿Qué cocino hoy?'], ['shopping', '🛒', 'Compras'], ['settings', '⚙️', 'Ajustes']];
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
     const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
-    const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}"><b>${ic}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
+    const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ic}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     document.getElementById('app').innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
     if (!sh || sh.type !== 'recipe') cookStop();
+    const key = sh ? sh.type + ':' + (sh.id || '') : '';
+    if (key !== ui.shKey) {
+      if (sh && !ui.shKey) ui.opener = prevActive && prevActive.dataset ? { act: prevActive.dataset.act, id: prevActive.dataset.id } : null;
+      const sheetEl = document.querySelector('.sheet');
+      if (sheetEl) { sheetEl.setAttribute('tabindex', '-1'); sheetEl.focus({ preventScroll: true }); }
+      else if (!sh && ui.opener && ui.opener.act) { const sel = '[data-act="' + ui.opener.act + '"]' + (ui.opener.id ? '[data-id="' + ui.opener.id + '"]' : ''), back = document.querySelector(sel); if (back) back.focus({ preventScroll: true }); }
+      ui.shKey = key;
+    }
+    else if (sh) { const se = document.querySelector('.sheet'); if (se && (document.activeElement === document.body || !document.activeElement)) { se.setAttribute('tabindex', '-1'); se.focus({ preventScroll: true }); } }
     if (ui.tab === 'products' && ui.q) { const q = document.getElementById('q'); if (q && document.activeElement !== q && !sh) { /* conserva el texto */ } }
   }
   function removeSheet(id) {
@@ -607,6 +629,13 @@
     }
   });
   window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); ui.install = e; if (ui.tab === 'products' && !ui.sheet) render(); });
+  // El foco no sale de la hoja (o de la introducción) mientras está abierta.
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Tab') return; const box = document.querySelector('#scanlayer .sheet') || document.querySelector('.welcome') || document.querySelector('.sheet'); if (!box) return;
+    const f = [...box.querySelectorAll('button, a[href], input:not([type=hidden]), select, textarea, [tabindex]:not([tabindex="-1"])')].filter(x => !x.disabled && x.offsetParent !== null); if (!f.length) return;
+    const first = f[0], last = f[f.length - 1], a = document.activeElement;
+    if (!box.contains(a)) { e.preventDefault(); first.focus(); } else if (e.shiftKey && (a === first || a === box)) { e.preventDefault(); last.focus(); } else if (!e.shiftKey && a === last) { e.preventDefault(); first.focus(); }
+  });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') { if (scan.mode) closeScanner(); else if (ui.sheet) closeSheet(); } });
 
   /* ---------- datos: exportar, importar, compartir, recetas ---------- */
