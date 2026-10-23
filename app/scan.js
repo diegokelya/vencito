@@ -40,8 +40,36 @@
       const text = await new Response(res.body.pipeThrough(new DecompressionStream('gzip'))).text(), map = new Map();
       for (const line of text.split('\n')) { const i = line.indexOf('\t'); if (i > 0) map.set(line.slice(0, i), line.slice(i + 1).trim()); }
       return map;
-    })().catch(() => null);
+    })().then(v => { if (!v) catalogP = null; return v; }, () => { catalogP = null; return null; });
     return catalogP;
+  }
+
+  /* Catálogo de EE. UU. (USDA FoodData Central, dominio público): 260.000 productos, ordenado por código. Pesa 4 MB comprimido, así que
+     solo se baja cuando el código parece de EE. UU./Canadá (prefijos GS1 000–199) o es un GTIN-14 y no está en el argentino. Se busca por bisección
+     sobre el texto, sin armar un diccionario enorme. */
+  let usaP = null;
+  function usaCatalog() {
+    if (usaP) return usaP;
+    usaP = (async () => {
+      if (typeof DecompressionStream === 'undefined') return null;
+      const res = await fetch('data/usa-catalog.tsv.gz'); if (!res.ok) return null;
+      const text = await new Response(res.body.pipeThrough(new DecompressionStream('gzip'))).text(), starts = [];
+      for (let i = 0; i < text.length;) { starts.push(i); const j = text.indexOf('\n', i); if (j < 0) break; i = j + 1; }
+      return { text, starts };
+    })().then(v => { if (!v) usaP = null; return v; }, () => { usaP = null; return null; });
+    return usaP;
+  }
+  // Orden numérico sin ceros: primero el más corto y después dígito a dígito.
+  const cmpCode = (a, b) => (a.length !== b.length ? (a.length < b.length ? -1 : 1) : a < b ? -1 : a > b ? 1 : 0);
+  function findSorted(cat, key) {
+    let lo = 0, hi = cat.starts.length - 1;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1, st = cat.starts[mid], tab = cat.text.indexOf('\t', st); if (tab < 0) return null;
+      const o = cmpCode(cat.text.slice(st, tab), key);
+      if (o === 0) { const end = cat.text.indexOf('\n', tab); return cat.text.slice(tab + 1, end < 0 ? undefined : end).trim(); }
+      if (o < 0) lo = mid + 1; else hi = mid - 1;
+    }
+    return null;
   }
 
   /* "VINAGRE DE VINO FAVINCO 500ML" → "Vinagre de Vino Favinco 500 ml" */
@@ -73,6 +101,7 @@
     if (!/^\d{8,14}$/.test(code)) return null;
     const local = (await catalog()), key = stripZeros(code), name = local && local.get(key);
     if (name) return { name: name.slice(0, 200), category: suggest(name) };
+    const pc = String(code).padStart(13, '0'); if (/^[01]/.test(pc) || pc.length === 14) { const us = await usaCatalog(), n = us && findSorted(us, key); if (n) return { name: n.slice(0, 200), category: suggest(n) }; }
     if (!online) return null;
     const hit = cache.get(code); if (hit && (hit.r || Date.now() - hit.at < 6e5)) return hit.r;
     let r = null, failed = false;
