@@ -88,3 +88,14 @@ label.f input, label.f select, label.f textarea { width: 100%; border: 0; backgr
 ol.steps { padding-left: 22px; } ol.steps li { margin: 8px 0; }
 .install { background: var(--card); border-radius: 14px; padding: 12px 14px; margin: 8px 0; font-size: 14px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.quick { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 4px 0 10px; }
+.quick.two { grid-template-columns: 1fr 1fr; }
+.quick .btn { display: grid; gap: 2px; justify-items: center; padding: 10px 6px; font-size: 13px; line-height: 1.2; text-align: center; }
+.quick .btn b { font-size: 22px; font-weight: 400; }
+.scanbg { z-index: 30; }
+.vwrap { position: relative; background: #000; border-radius: 16px; overflow: hidden; aspect-ratio: 4 / 3; margin-bottom: 8px; }
+.vwrap video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.vwrap .aim { position: absolute; inset: 28% 12%; border: 2px solid #fff9; border-radius: 12px; box-shadow: 0 0 0 999px #0004; pointer-events: none; }
+.vwrap[hidden] { display: none; }
+input.plain { width: 100%; border: 0; background: transparent; padding: 4px 0; outline: none; }
+.scanrow input[type=date] { width: auto; }

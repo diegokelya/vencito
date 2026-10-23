@@ -17,7 +17,7 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
@@ -81,7 +81,7 @@
   function setUndo(fn) { ui.undo = fn; }
   function consumeOne(id) {
     const p = S.products.find(x => x.id === id); if (!p) return;
-    const before = JSON.parse(JSON.stringify(p)), rec = { id: uid(), name: p.name, category: p.category || '', consumedAt: new Date().toISOString(), expiry: p.expiry || null };
+    const before = JSON.parse(JSON.stringify(p)), rec = { id: uid(), name: p.name, category: p.category || '', barcode: p.barcode || '', consumedAt: new Date().toISOString(), expiry: p.expiry || null };
     S.consumed.push(rec);
     if (p.quantity > 1) p.quantity -= 1; else S.products = S.products.filter(x => x.id !== id);
     save(); closeSheet(false);
@@ -131,6 +131,7 @@
     return `<div class="row"><h1 class="grow">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">📊</button></div>
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
+      <div class="quick"><button class="btn" data-act="scan-add"><b>📷</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>✓</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>➕</b>${esc(t('Agregar varios'))}</button></div>
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
       <div id="list">${listHtml()}</div>
       <button class="fab" data-act="add" aria-label="${esc(t('Agregar producto'))}">+</button>`;
@@ -155,6 +156,8 @@
     return `<h1>${esc(t('Ajustes'))}</h1>
       <h2>${esc(t('Idioma / Language'))}</h2><div class="group">${langRow('', t('Idioma del sistema'))}${Object.entries(LANGS).map(([k, n]) => langRow(k, n)).join('')}</div>
       <h2>${esc(t('Por vencer'))}</h2><div class="group"><label class="f"><span>${esc(t('Se marca «Por vencer» cuando faltan hasta'))}</span><select data-act="soon">${[1, 3, 7, 15].map(n => `<option value="${n}" ${S.soon === n ? 'selected' : ''}>${esc(t('%lld días', n))}</option>`).join('')}</select></label></div>
+      <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label></div>
+      <p class="small muted">${esc(t('Al escanear un código se envía solo ese número a Open Food Facts para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
       <h2>${esc(t('Datos'))}</h2><div class="group">
         <button class="link" data-act="stats">${esc(t('Estadísticas'))}</button>
         <button class="link" data-act="export">${esc(t('Exportar JSON'))}</button>
@@ -224,9 +227,10 @@
       <button class="link danger" data-act="ask-remove" data-id="${esc(id)}">${esc(t('Eliminar'))}</button></div>`);
   }
   function formSheet(id) {
-    const p = id ? S.products.find(x => x.id === id) : null, q = p ? p.quantity || 1 : 1, noexp = p ? !p.expiry : false;
+    const p = (id ? S.products.find(x => x.id === id) : null) || (ui.sheet && ui.sheet.pre) || null, q = p ? p.quantity || 1 : 1, noexp = p ? !p.expiry && !p.pre : false;
     const def = new Date(); def.setDate(def.getDate() + 7);
-    return sheet(p ? t('Editar') : t('Agregar producto'), `<form data-form="product" data-id="${esc(id || '')}"><div class="group">
+    return sheet(id ? t('Editar') : t('Agregar producto'), `<form data-form="product" data-id="${esc(id || '')}"><div class="quick two"><button type="button" class="btn" data-act="form-scan"><b>📷</b>${esc(t('Escanear código'))}</button><button type="button" class="btn" data-act="read-date"><b>📅</b>${esc(t('Leer fecha de la foto'))}</button></div>
+      <p class="small muted" id="fstatus" aria-live="polite">${p && p.barcode ? esc(t('Código de barras')) + ': ' + esc(p.barcode) : ''}</p><div class="group">
       <label class="f"><span>${esc(t('Nombre'))}</span><input name="name" required maxlength="200" value="${esc(p ? p.name : '')}" autocomplete="off" autofocus></label>
       <label class="f"><span>${esc(t('Categoría'))}</span><select name="category"><option value=""></option>${KINDS.map(([k, es]) => `<option value="${k}" ${p && catKey(p.category) === k ? 'selected' : ''}>${esc(t(es))}</option>`).join('')}</select></label>
       <label class="f"><span>${esc(t('Ubicación'))}</span><select name="location"><option value=""></option>${PLACES.map(pl => `<option value="${pl}" ${p && p.location === pl ? 'selected' : ''}>${esc(t(pl))}</option>`).join('')}${p && p.location && !PLACES.includes(p.location) ? `<option selected>${esc(p.location)}</option>` : ''}</select></label>
@@ -234,7 +238,7 @@
       <label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sin fecha de vencimiento'))}</span><input type="checkbox" name="noexp" style="width:auto" ${noexp ? 'checked' : ''}></label>
       <label class="f"><span>${esc(t('Vencimiento'))}</span><input type="date" name="expiry" value="${esc(p && p.expiry ? p.expiry : iso(def))}"></label>
       <label class="f"><span>${esc(t('Notas'))}</span><textarea name="notes" rows="2">${esc(p ? p.notes || '' : '')}</textarea></label></div>
-      <input type="hidden" name="quantity" value="${q}">
+      <input type="hidden" name="quantity" value="${q}"><input type="hidden" name="barcode" value="${esc(p && p.barcode || '')}">
       <button class="btn primary block" type="submit">${esc(t('Guardar'))}</button></form>`);
   }
   function confirmSheet(title, body, actions) {
@@ -282,8 +286,7 @@
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
     const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}"><b>${ic}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
-    const toastHtml = ui.toast ? `<div class="toast"><span>${esc(ui.toast.text)}</span>${ui.toast.undo ? `<button data-act="undo">${esc(t('Deshacer'))}</button>` : ''}</div>` : '';
-    document.getElementById('app').innerHTML = main + shHtml + tb + toastHtml;
+    document.getElementById('app').innerHTML = main + shHtml + tb;
     if (ui.tab === 'products' && ui.q) { const q = document.getElementById('q'); if (q && document.activeElement !== q && !sh) { /* conserva el texto */ } }
   }
   function removeSheet(id) {
@@ -293,7 +296,13 @@
       : confirmSheet(t('¿Eliminar %@?', p.name), '', [{ act: 'remove', id, text: t('Eliminar'), danger: true }]);
   }
   let toastTimer;
-  function toast(text, undo) { ui.toast = { text, undo: !!undo }; clearTimeout(toastTimer); toastTimer = setTimeout(() => { ui.toast = null; render(); }, 6000); render(); }
+  // El aviso vive fuera de #app: así no se vuelve a dibujar (y no borra lo que se está escribiendo en un formulario).
+  function toast(text, undo) {
+    ui.toast = { text, undo: !!undo }; clearTimeout(toastTimer);
+    let el = document.getElementById('toast'); if (!el) { el = document.createElement('div'); el.id = 'toast'; el.className = 'toast'; el.setAttribute('role', 'status'); document.body.appendChild(el); }
+    el.innerHTML = `<span>${esc(text)}</span>${undo ? `<button data-act="undo">${esc(t('Deshacer'))}</button>` : ''}`;
+    toastTimer = setTimeout(() => { ui.toast = null; const e = document.getElementById('toast'); if (e) e.remove(); }, 6000); render();
+  }
   function closeSheet(draw = true) { ui.sheet = null; if (draw) render(); }
 
   /* ---------- eventos ---------- */
@@ -307,6 +316,17 @@
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
       case 'close': closeSheet(); break;
+      case 'scan-add': openScanner('add'); break;
+      case 'scan-consume': openScanner('consume'); break;
+      case 'scan-bulk': openScanner('bulk'); break;
+      case 'form-scan': openScanner('fill'); break;
+      case 'read-date': pickDate({ kind: 'form' }); break;
+      case 'scan-close': closeScanner(); break;
+      case 'scan-pic': document.getElementById('scanpic').click(); break;
+      case 'scan-date': pickDate({ kind: 'bulk', i: +id }); break;
+      case 'scan-del': scan.items.splice(+id, 1); scanList(); break;
+      case 'scan-save': scanSave(); break;
+      case 'scan-qty': { const it = scan.items[+id]; if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); scanList(); } break; }
       case 'consume': consumeOne(id); break;
       case 'discard': discard(id); break;
       case 'remove': remove(id); break;
@@ -328,37 +348,42 @@
       case 'rdiet': ui.rdiet = id; ui.rshown = 40; render(); break;
       case 'more': ui.rshown += 40; document.getElementById('rlist').innerHTML = recipeCards(); break;
       case 'miss-to-list': { const r = (ui.catalog || []).find(x => x.id === id); if (r) { matchRecipe(r).ing.filter(x => !x.have && !x.staple).forEach(x => addToShopping(x.name)); closeSheet(false); toast(t('Agregado a la lista de compras')); } break; }
-      case 'undo': if (ui.undo) { ui.undo(); ui.undo = null; ui.toast = null; render(); } break;
+      case 'undo': if (ui.undo) { ui.undo(); ui.undo = null; ui.toast = null; const e = document.getElementById('toast'); if (e) e.remove(); render(); } break;
       case 'install': if (ui.install) { ui.install.prompt(); ui.install = null; render(); } break;
     }
   });
   document.addEventListener('input', e => {
     if (e.target.id === 'q') { ui.q = e.target.value; document.getElementById('list').innerHTML = listHtml(); }
+    if (e.target.dataset && e.target.dataset.scan) { const it = scan.items[+e.target.dataset.i]; if (it) it[e.target.dataset.scan] = e.target.value; }
     if (e.target.id === 'rq') { ui.rq = e.target.value; ui.rshown = 40; document.getElementById('rlist').innerHTML = recipeCards(); }
   });
   document.addEventListener('change', e => {
+    if (e.target.dataset && e.target.dataset.act === 'lookup') { S.lookup = e.target.checked; save(); }
+    if (e.target.id === 'datepic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; dateFromPhoto(f); }
+    if (e.target.id === 'scanpic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; codeFromPhoto(f); }
     if (e.target.dataset && e.target.dataset.act === 'soon') { S.soon = parseInt(e.target.value, 10) || 7; save(); render(); }
     if (e.target.id === 'imp' && e.target.files[0]) importJson(e.target.files[0]);
     if (e.target.name === 'noexp') { const d = document.querySelector('input[name=expiry]'); if (d) d.disabled = e.target.checked; }
   });
   document.addEventListener('submit', e => {
     const f = e.target.closest('form'); if (!f) return; e.preventDefault();
+    if (f.dataset.form === 'scan-manual') { const i = document.getElementById('scancode'), c = i.value.replace(/\s/g, ''); if (/^\d{8,14}$/.test(c)) { i.value = ''; scan.last = c; scan.lastAt = Date.now(); handleCode(c); } else setScanStatus(t('Ingresá 8 a 14 dígitos.')); return; }
     if (f.dataset.form === 'shop-add') { const i = document.getElementById('shopname'); addToShopping(i.value.trim()); i.value = ''; render(); document.getElementById('shopname').focus(); }
     if (f.dataset.form === 'product') {
       const fd = new FormData(f), name = String(fd.get('name') || '').trim(); if (!name) return;
-      const noexp = !!fd.get('noexp'), id = f.dataset.id, data = { name: name.slice(0, 200), category: fd.get('category') || '', location: fd.get('location') || '', quantity: Math.min(999, Math.max(1, parseInt(fd.get('quantity'), 10) || 1)), notes: String(fd.get('notes') || '').trim(), expiry: noexp ? null : (fd.get('expiry') || null) };
+      const noexp = !!fd.get('noexp'), id = f.dataset.id, data = { name: name.slice(0, 200), category: fd.get('category') || '', location: fd.get('location') || '', quantity: Math.min(999, Math.max(1, parseInt(fd.get('quantity'), 10) || 1)), notes: String(fd.get('notes') || '').trim(), barcode: String(fd.get('barcode') || ''), expiry: noexp ? null : (fd.get('expiry') || null) };
       if (id) Object.assign(S.products.find(x => x.id === id) || {}, data); else S.products.push(Object.assign({ id: uid(), addedAt: new Date().toISOString() }, data));
       save(); closeSheet(false); ui.tab = 'products'; render();
     }
   });
   window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); ui.install = e; if (ui.tab === 'products' && !ui.sheet) render(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && ui.sheet) closeSheet(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { if (scan.mode) closeScanner(); else if (ui.sheet) closeSheet(); } });
 
   /* ---------- datos: exportar, importar, compartir, recetas ---------- */
   function exportJson() {
     const env = { app: 'Vencito', version: 1, exportedAt: new Date().toISOString(),
-      products: S.products.map(p => ({ id: p.id, name: p.name, expiry: p.expiry || '2099-12-31', quantity: p.quantity || 1, category: p.category || undefined, location: p.location || undefined, notes: p.notes || undefined, addedAt: p.addedAt })),
-      consumed: S.consumed.map(c => ({ id: c.id, name: c.name, category: c.category || undefined, consumedAt: c.consumedAt, expiry: c.expiry || undefined })),
+      products: S.products.map(p => ({ id: p.id, name: p.name, expiry: p.expiry || '2099-12-31', quantity: p.quantity || 1, barcode: p.barcode || undefined, category: p.category || undefined, location: p.location || undefined, notes: p.notes || undefined, addedAt: p.addedAt })),
+      consumed: S.consumed.map(c => ({ id: c.id, name: c.name, category: c.category || undefined, consumedAt: c.consumedAt, barcode: c.barcode || undefined, expiry: c.expiry || undefined })),
       shopping: S.shopping.map(i => ({ id: i.id, name: i.name, note: i.note || undefined, isDone: i.done || undefined })),
       discarded: S.discarded };
     const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(env, null, 2)], { type: 'application/json' }));
@@ -371,7 +396,7 @@
         const env = JSON.parse(rd.result), have = new Set(S.products.map(p => p.id)); let n = 0;
         (env.products || []).forEach(p => {
           if (!p || !p.name || have.has(p.id)) return; const exp = p.expiry && daysBetween(today0(), parseDay(p.expiry)) < NO_EXPIRY_DAYS ? String(p.expiry).slice(0, 10) : null;
-          S.products.push({ id: p.id || uid(), name: String(p.name).slice(0, 200), expiry: exp, quantity: p.quantity || 1, category: catKey(p.category) || p.category || '', location: p.location || '', notes: p.notes || '', addedAt: p.addedAt || new Date().toISOString() }); n++;
+          S.products.push({ id: p.id || uid(), name: String(p.name).slice(0, 200), barcode: p.barcode || '', expiry: exp, quantity: p.quantity || 1, category: catKey(p.category) || p.category || '', location: p.location || '', notes: p.notes || '', addedAt: p.addedAt || new Date().toISOString() }); n++;
         });
         const haveC = new Set(S.consumed.map(c => c.id)); (env.consumed || []).forEach(c => { if (c && c.name && !haveC.has(c.id)) S.consumed.push({ id: c.id || uid(), name: c.name, category: c.category || '', consumedAt: c.consumedAt || new Date().toISOString(), expiry: c.expiry && daysBetween(today0(), parseDay(c.expiry)) < NO_EXPIRY_DAYS ? String(c.expiry).slice(0, 10) : null }); });
         const haveS = new Set(S.shopping.map(i => i.id)); (env.shopping || []).forEach(i => { if (i && i.name && !haveS.has(i.id)) S.shopping.push({ id: i.id || uid(), name: i.name, note: i.note || '', done: !!i.isDone, addedAt: new Date().toISOString() }); });
@@ -404,6 +429,99 @@
       ui.diets = diets; ui.catalog = all; if (ui.tab === 'recipes') render();
     }).catch(() => { ui.catalog = []; if (ui.tab === 'recipes') render(); });
   }
+
+  /* ---------- escáner: código de barras, búsqueda del producto y fecha desde una foto ---------- */
+  const scan = { mode: null, stop: null, items: [], last: '', lastAt: 0, dateTarget: null };
+  const setScanStatus = x => { const e = document.getElementById('scanstatus'); if (e) e.textContent = x; };
+  function beep() {
+    try { const A = window.AudioContext || window.webkitAudioContext, a = new A(), o = a.createOscillator(), g = a.createGain(); o.frequency.value = 1100; g.gain.value = 0.15; o.connect(g); g.connect(a.destination); o.start(); setTimeout(() => { o.stop(); a.close(); }, 120); } catch (e) { /* sin sonido */ }
+    try { if (navigator.vibrate) navigator.vibrate(40); } catch (e) { /* sin vibración */ }
+  }
+  const info = code => (S.lookup ? VScan.lookup(code, lang()).catch(() => null) : Promise.resolve(null));
+  function openScanner(mode) {
+    closeScanner(); scan.mode = mode; scan.items = []; scan.last = '';
+    const title = mode === 'consume' ? t('Consumir con escáner') : mode === 'bulk' ? t('Agregar varios') : t('Escanear código');
+    const el = document.createElement('div'); el.id = 'scanlayer';
+    el.innerHTML = `<div class="sheet-bg scanbg"><div class="sheet" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3><button class="btn" data-act="scan-close">${esc(mode === 'bulk' ? t('Listo') : t('Cerrar'))}</button></div>
+      <div class="vwrap"><video id="scanvideo" playsinline muted></video><div class="aim"></div></div>
+      <p id="scanstatus" class="muted" aria-live="polite">${esc(mode === 'consume' ? t('Apuntá al código de barras o QR del producto que usaste') : t('Apuntá al código de barras'))}</p>
+      <form class="row" data-form="scan-manual"><input class="search grow" id="scancode" inputmode="numeric" pattern="[0-9]*" placeholder="${esc(t('Código de barras'))}" autocomplete="off"><button class="btn primary" type="submit">OK</button></form>
+      <button class="link" data-act="scan-pic">🖼 ${esc(t('Elegir una foto'))}</button>
+      <div id="scanlist"></div></div></div>`;
+    document.body.appendChild(el); scanList();
+    VScan.startScan(el.querySelector('video'), onCode).then(stop => { if (document.getElementById('scanlayer') === el) scan.stop = stop; else stop(); })
+      .catch(() => { setScanStatus(t('El escáner no está disponible en este dispositivo (requiere cámara y permiso de acceso).')); const w = el.querySelector('.vwrap'); if (w) w.hidden = true; });
+  }
+  function closeScanner() {
+    if (scan.stop) { try { scan.stop(); } catch (e) { /* ya cerrada */ } scan.stop = null; }
+    const el = document.getElementById('scanlayer'); if (el) el.remove(); scan.mode = null;
+  }
+  function onCode(code) {
+    const now = Date.now(); if (code === scan.last && now - scan.lastAt < 3000) { scan.lastAt = now; return; }
+    scan.last = code; scan.lastAt = now; if (!scan.mode) return; beep(); handleCode(code);
+  }
+  async function handleCode(code) {
+    const mode = scan.mode; if (!mode) return;
+    if (mode === 'consume') {
+      let p = S.products.filter(x => x.barcode === code).sort((a, b) => (a.expiry || '9').localeCompare(b.expiry || '9'))[0];
+      if (!p && S.lookup) { setScanStatus(t('Buscando el producto…')); const r = await info(code); if (r) p = S.products.filter(x => fold(x.name) === fold(r.name)).sort((a, b) => (a.expiry || '9').localeCompare(b.expiry || '9'))[0]; }
+      if (!scan.mode) return;
+      if (!p) { setScanStatus(t('No tenés un producto con el código %@', code)); return; }
+      const name = p.name; consumeOne(p.id); setScanStatus('✓ ' + t('Consumido: %@', name)); return;
+    }
+    if (mode === 'bulk') {
+      let it = scan.items.find(x => x.code === code);
+      if (it) it.qty = Math.min(99, it.qty + 1);
+      else { it = { code, name: '', category: '', qty: 1, expiry: '', loading: S.lookup }; scan.items.unshift(it); info(code).then(r => { it.loading = false; if (r) { it.name = r.name; it.category = r.category; } if (scan.mode === 'bulk') scanList(); }); }
+      scanList(); setScanStatus(t('Apuntá al código de barras del próximo producto')); return;
+    }
+    setScanStatus(S.lookup ? t('Buscando el producto…') : t('Leí el código %@.', code));
+    const r = await info(code); if (!scan.mode) return;
+    const msg = r ? t('Producto encontrado por código %@: %@.', code, r.name) : t('Leí el código %@.', code) + (S.lookup ? ' ' + t('No encontré ese código en las bases abiertas.') : '');
+    if (mode === 'fill') {
+      const f = document.querySelector('form[data-form=product]');
+      if (f) {
+        f.elements.barcode.value = code;
+        if (r && !f.elements.name.value.trim()) f.elements.name.value = r.name;
+        if (r && r.category && !f.elements.category.value) f.elements.category.value = r.category;
+        const st = document.getElementById('fstatus'); if (st) st.textContent = msg;
+      }
+      closeScanner(); return;
+    }
+    closeScanner(); ui.tab = 'products'; ui.sheet = { type: 'form', id: null, pre: { pre: true, name: r ? r.name : '', category: r ? r.category : '', barcode: code } }; render();
+    const st = document.getElementById('fstatus'); if (st) st.textContent = msg;
+  }
+  function scanList() {
+    const box = document.getElementById('scanlist'); if (!box) return;
+    if (scan.mode !== 'bulk' || !scan.items.length) { box.innerHTML = ''; return; }
+    box.innerHTML = `<div class="group">${scan.items.map((it, i) => `<div class="item scanrow"><span class="grow"><input class="plain" data-scan="name" data-i="${i}" value="${esc(it.name)}" placeholder="${esc(it.loading ? t('Buscando…') : t('Nombre'))}" maxlength="200"><span class="row" style="margin-top:4px"><input class="plain" type="date" data-scan="expiry" data-i="${i}" value="${esc(it.expiry)}" aria-label="${esc(t('Vencimiento'))}"><button class="btn" data-act="scan-date" data-id="${i}" aria-label="${esc(t('Leer fecha de la foto'))}">📅</button></span></span>
+      <span class="stepper"><button type="button" data-act="scan-qty" data-id="${i}" data-d="-1">−</button><b>${it.qty}</b><button type="button" data-act="scan-qty" data-id="${i}" data-d="1">+</button></span><button class="btn" data-act="scan-del" data-id="${i}" aria-label="${esc(t('Eliminar'))}">✕</button></div>`).join('')}</div>
+      <button class="btn primary block" data-act="scan-save">${esc(t('Guardar'))} (${scan.items.length})</button>`;
+  }
+  function scanSave() {
+    const ready = scan.items.filter(x => x.name.trim()); if (!ready.length) { setScanStatus(t('Nombre')); return; }
+    ready.forEach(x => S.products.push({ id: uid(), name: x.name.trim().slice(0, 200), category: x.category || VScan.suggest(x.name), location: '', quantity: x.qty, notes: '', barcode: x.code, expiry: x.expiry || null, addedAt: new Date().toISOString() }));
+    save(); closeScanner(); ui.tab = 'products'; ui.sheet = null; toast(t('%lld productos agregados', ready.length));
+  }
+  function pickDate(target) { scan.dateTarget = target; document.getElementById('datepic').click(); }
+  async function dateFromPhoto(file) {
+    const tg = scan.dateTarget || { kind: 'form' };
+    const say = x => { if (tg.kind === 'form') { const e = document.getElementById('fstatus'); if (e) e.textContent = x; } else setScanStatus(x); };
+    say(t('Leyendo texto…'));
+    try {
+      const r = await VScan.readDate(file, m => { if (m.status === 'loading tesseract core' || m.status === 'loading language traineddata') say(t('Leyendo texto…') + ' ' + Math.round(100 * (m.progress || 0)) + '%'); });
+      if (!r) { say(t('No encontré una fecha de vencimiento. Cargala a mano.')); return; }
+      if (tg.kind === 'form') { const f = document.querySelector('form[data-form=product]'); if (!f) return; f.elements.expiry.value = r.date; f.elements.noexp.checked = false; f.elements.expiry.disabled = false; }
+      else { const it = scan.items[tg.i]; if (!it) return; it.expiry = r.date; scanList(); }
+      say(t('Fecha detectada: %@ (confianza %@). Revisala antes de guardar.', fmtDate(r.date), t({ alta: 'Alta', media: 'Media', baja: 'Baja' }[r.confidence])));
+    } catch (err) { say(t('No pude leer la foto: %@', String(err.message || err))); }
+  }
+  async function codeFromPhoto(file) {
+    setScanStatus(t('Leyendo…'));
+    try { const c = await VScan.decodeImage(file); if (!c) { setScanStatus(t('No encontré un código de barras en la foto.')); return; } scan.last = c; scan.lastAt = Date.now(); handleCode(c); }
+    catch (err) { setScanStatus(t('No pude leer la foto: %@', String(err.message || err))); }
+  }
+  document.body.insertAdjacentHTML('beforeend', '<input type="file" id="datepic" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="scanpic" accept="image/*" class="sr" tabindex="-1" aria-hidden="true">');
 
   /* ---------- arranque ---------- */
   { const lp = new URLSearchParams(location.search).get('lang'); if (lp && LANGS[lp] && !S.lang) { S.lang = lp; save(); } }
