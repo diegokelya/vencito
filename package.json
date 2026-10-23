@@ -1,0 +1,6 @@
+{
+  "name": "vencito-web",
+  "private": true,
+  "description": "Sitio y PWA de Vencito (estático). Las pruebas no tienen dependencias: node --test tests/",
+  "scripts": { "test": "node --test tests/" }
+}

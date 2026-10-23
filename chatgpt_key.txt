@@ -1,1 +1,0 @@
-Quiero preparar la receta que aparece debajo. Guiame en una conversación de voz, un paso por vez. Esperá a que diga «listo» antes de continuar. Respetá las porciones y cantidades indicadas. Antes de empezar, preguntame si tengo los ingredientes y los utensilios necesarios. Si todavía estamos en texto, indicame que active el modo voz en esta misma conversación.
