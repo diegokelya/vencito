@@ -109,3 +109,22 @@ button.stat { color: inherit; font: inherit; }
 .rcard .thumb { width: 96px; height: 96px; border-radius: 12px; object-fit: cover; flex: none; background: var(--card2); }
 .clamp { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .hero { width: 100%; max-height: 440px; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 16px; margin-bottom: 8px; background: var(--card2); }
+.ck, .stp { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; background: transparent; border: 0; padding: 12px 14px; font-size: 17px; }
+.ckc { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--muted); flex: none; display: grid; place-items: center; font-size: 15px; color: var(--onprimary); }
+.ck.on .ckc { background: var(--primary); border-color: var(--primary); }
+.ck.on .t { text-decoration: line-through; color: var(--muted); }
+.stp { align-items: flex-start; }
+.stp .num { width: 32px; height: 32px; border-radius: 50%; background: var(--card2); display: grid; place-items: center; font-weight: 700; flex: none; }
+.stp.on .num { background: var(--primary); color: var(--onprimary); }
+.stp.on .grow { text-decoration: line-through; color: var(--muted); }
+.pbar { height: 6px; border-radius: 3px; background: var(--card2); overflow: hidden; margin-bottom: 12px; }
+.pbar i { display: block; height: 100%; background: var(--primary); }
+.focus { display: block; width: 100%; text-align: left; background: var(--card); border: 0; border-radius: 18px; padding: 22px 18px; font-size: 24px; line-height: 1.35; min-height: 180px; }
+.thumb.ph { display: grid; place-items: center; font-size: 36px; }
+.qtiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 8px; margin: 6px 0; }
+.qtile { background: var(--card); border: 2px solid transparent; border-radius: 14px; padding: 8px 6px; display: grid; gap: 6px; justify-items: center; text-align: center; }
+.qtile.on { border-color: var(--primary); }
+.qimg { position: relative; width: 64px; height: 64px; border-radius: 12px; background: var(--card2); display: grid; place-items: center; font-size: 30px; overflow: hidden; }
+.qimg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.qn { position: absolute; right: 2px; bottom: 2px; background: var(--primary); color: var(--onprimary); border-radius: 999px; font-size: 12px; padding: 1px 6px; }
+.qt { font-size: 13px; line-height: 1.2; }
