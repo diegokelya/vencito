@@ -29,3 +29,12 @@ test('el service worker precachea los archivos de la app', () => {
   const html = read('index.html'); ['i18n.js', 'icons.js', 'dateparser.js', 'scan.js', 'recipes.js', 'app.js'].forEach(f => assert.ok(html.includes('src="' + f + '"'), f));
 });
 test('la versión es la de las apps', () => { assert.match(read('app.js'), /const APP_VERSION = '\d+\.\d+\.\d+'/); });
+
+test('todos los íconos que usa la app existen', () => {
+  const ctx = { window: {} }; vm.runInNewContext(read('icons.js'), ctx); const have = new Set(Object.keys(ctx.window.VICONS)), app = read('app.js');
+  const used = new Set(); for (const m of (app + read('scan.js')).matchAll(/\bico\('([\w-]+)'/g)) used.add(m[1]);
+  const line = start => app.split('\n').find(l => l.trim().startsWith(start)) || '';
+  const col = (l, n) => [...l.matchAll(/\[((?:'[^']*',? ?)+)\]/g)].map(m => m[1].split(/',\s*'/).map(x => x.replace(/^'|'$/g, ''))[n]).filter(Boolean);
+  [['const KINDS =', 2], ['const tabs =', 1], ['const order =', 3], ['const DIET_BADGES =', 2], ['const WELCOME =', 0]].forEach(([start, n]) => { const l = line(start); assert.ok(l, start); col(l, n).forEach(x => used.add(x)); });
+  const missing = [...used].filter(n => !have.has(n)); assert.deepEqual(missing, []);
+});

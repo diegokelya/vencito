@@ -28,13 +28,64 @@
 
   /* ---------- búsqueda del producto (Open Food Facts) ---------- */
   const cache = new Map();
-  async function lookup(code, lang) {
+
+  /* Catálogo argentino incluido en la app (Precios Claros – Base SEPA, CC BY 4.0): se consulta en el dispositivo, sin enviar el código. */
+  let catalogP = null;
+  const stripZeros = c => String(c).replace(/\D/g, '').replace(/^0+/, '');
+  function catalog() {
+    if (catalogP) return catalogP;
+    catalogP = (async () => {
+      if (typeof DecompressionStream === 'undefined') return null;
+      const res = await fetch('data/argentina-catalog.tsv.gz'); if (!res.ok) return null;
+      const text = await new Response(res.body.pipeThrough(new DecompressionStream('gzip'))).text(), map = new Map();
+      for (const line of text.split('\n')) { const i = line.indexOf('\t'); if (i > 0) map.set(line.slice(0, i), line.slice(i + 1).trim()); }
+      return map;
+    })().catch(() => null);
+    return catalogP;
+  }
+
+  /* "VINAGRE DE VINO FAVINCO 500ML" → "Vinagre de Vino Favinco 500 ml" */
+  const LOWER = new Set(['de', 'del', 'y', 'con', 'sin', 'en', 'para', 'al', 'por', 'x']), UNITS = new Set(['ml', 'cc', 'lt', 'l', 'kg', 'gr', 'g', 'mg', 'u', 'un', 'unid']);
+  function cleanSepaName(raw) {
+    const words = String(raw).trim().split(/\s+/).filter(Boolean); if (!words.length) return null;
+    const out = words.map((w, i) => {
+      const lower = w.toLowerCase(), m = /^([\d.,]+)(.*)$/.exec(lower);
+      if (m && m[1] && UNITS.has(m[2])) return m[1] + ' ' + m[2];
+      return i > 0 && LOWER.has(lower) ? lower : lower.charAt(0).toUpperCase() + lower.slice(1);
+    }).join(' ');
+    return out.length >= 2 ? out.slice(0, 200) : null;
+  }
+  async function gtinSearch(code) {
+    const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 6000);
+    try {
+      const res = await fetch('https://www.gtinsearch.org/api/items/' + code, { signal: ctl.signal }); if (!res.ok) return null;
+      const j = await res.json(), item = Array.isArray(j) ? j[0] : j; if (!item || typeof item !== 'object') return null;
+      const text = (...ks) => { for (const k of ks) { const v = typeof item[k] === 'string' ? item[k].trim() : ''; if (v && v !== 'null') return v; } return ''; };
+      let name = text('name', 'title'); if (!name) return null;
+      if (name === name.toUpperCase()) name = cleanSepaName(name) || name;
+      const size = text('size'); if (size && !name.toLowerCase().includes(size.toLowerCase())) name += ' ' + size;
+      name = name.slice(0, 200); return { name, category: suggest(name) };
+    } catch (e) { return null; } finally { clearTimeout(timer); }
+  }
+
+  /* Primero el catálogo del dispositivo; con la búsqueda en línea activada, Open Food Facts y después GTINSearch. */
+  async function lookup(code, lang, online) {
     if (!/^\d{8,14}$/.test(code)) return null;
+    const local = (await catalog()), key = stripZeros(code), name = local && local.get(key);
+    if (name) return { name: name.slice(0, 200), category: suggest(name) };
+    if (!online) return null;
     const hit = cache.get(code); if (hit && (hit.r || Date.now() - hit.at < 6e5)) return hit.r;
+    let r = null, failed = false;
+    try { r = await lookupOff(code, lang); } catch (e) { failed = true; }
+    if (!r) r = await gtinSearch(code);
+    if (r || !failed) cache.set(code, { r, at: Date.now() });
+    return r;
+  }
+  async function lookupOff(code, lang) {
     const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 8000);
     try {
       const res = await fetch('https://world.openfoodfacts.org/api/v3/product/' + code + '?product_type=all&fields=product_name_' + lang + ',product_name_es,product_name,product_type,brands,categories_tags', { signal: ctl.signal });
-      if (res.status === 404) { cache.set(code, { r: null, at: Date.now() }); return null; }
+      if (res.status === 404) return null;
       if (!res.ok) throw new Error('http ' + res.status);
       const j = await res.json(), p = j && j.status === 'success' ? j.product : null;
       let r = null;
@@ -47,7 +98,7 @@
           r = { name: full.slice(0, 200), category: fromTags(p.categories_tags) || suggest(full) };
         }
       }
-      cache.set(code, { r, at: Date.now() }); return r;
+      return r;
     } finally { clearTimeout(timer); }
   }
 
@@ -136,5 +187,25 @@
     return best ? Object.assign({ texts }, best) : null;
   }
 
-  root.VScan = { suggest, fromTags, lookup, startScan, decodeImage, readDate };
-})(window);
+  /* Lee la fecha en vivo: cada ~0,3 s saca un cuadro del video, lo lee y avisa el texto. Devuelve stop(). */
+  async function startDateLoop(video, onText, onProgress) {
+    const w = await worker(onProgress); let alive = true;
+    const loop = async () => {
+      if (!alive) return;
+      if (video.readyState >= 2 && video.videoWidth) {
+        try {
+          const k = Math.min(1, 1100 / Math.max(video.videoWidth, video.videoHeight)), c = document.createElement('canvas');
+          c.width = Math.round(video.videoWidth * k); c.height = Math.round(video.videoHeight * k);
+          const x = c.getContext('2d', { willReadFrequently: true }); x.filter = 'grayscale(1) contrast(1.4)'; x.drawImage(video, 0, 0, c.width, c.height);
+          const { data } = await w.recognize(c); if (alive) onText(data.text || '');
+        } catch (e) { /* sigue con el próximo cuadro */ }
+      }
+      if (alive) setTimeout(loop, 300);
+    };
+    loop();
+    return () => { alive = false; };
+  }
+
+  const api = { cleanSepaName, startDateLoop, suggest, fromTags, lookup, startScan, decodeImage, readDate };
+  root.VScan = api; if (typeof module !== 'undefined' && module.exports) module.exports = api;
+})(typeof window !== 'undefined' ? window : globalThis);
