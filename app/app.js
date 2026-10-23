@@ -19,11 +19,11 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
-  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
+  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
 
   /* ---------- casas: cada una con sus productos ---------- */
   const homesSorted = () => S.homes.slice().sort((a, b) => (a.createdAt + a.id).localeCompare(b.createdAt + b.id));
@@ -200,7 +200,7 @@
         <label class="link" style="display:block;cursor:pointer">${esc(t('Importar JSON'))}<input type="file" id="imp" accept="application/json,.json" class="sr"></label>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
-      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
+      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
   }
   const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten']];
   function matchRecipe(r) {
@@ -362,6 +362,16 @@
       ${gs.map(g => `<div class="group"><div class="item"><span class="grow"><span class="t">${esc(g[0].name)}</span><br><span class="s">${esc(g.length + ' × ' + (expOf(g[0]) ? fmtDate(expOf(g[0])) : t('Sin fecha')))}</span></span><button class="btn primary" data-act="dup-merge" data-id="${esc(g.map(x => x.id).join(','))}">${esc(t('Fusionar'))}</button></div></div>`).join('')}
       <button class="btn block" data-act="dup-all">${esc(t('Fusionar todos'))} (${dupSurplus()})</button>` : `<div class="empty"><b>${esc(t('Sin duplicados'))}</b>${esc(t('No hay productos repetidos.'))}</div>`);
   }
+  const WELCOME = [['📷', 'Escaneá el envase', 'Tocá «Escanear código» y apuntá al código de barras; después sacale una foto a la fecha de vencimiento. También podés cargarlo a mano o con Carga rápida.'],
+    ['✅', 'Revisá y guardá', 'Vencito completa el nombre y la categoría. Vos revisás la fecha antes de guardar.'],
+    ['🔒', 'Tus datos son tuyos', 'Todo se guarda solo en este navegador, sin cuentas ni servidores. Instalá Vencito en tu pantalla de inicio y exportá una copia de vez en cuando.']];
+  function welcomeHtml() {
+    const i = ui.welcome, [ic, title, text] = WELCOME[i], last = i === WELCOME.length - 1;
+    return `<div class="welcome" role="dialog" aria-modal="true"><div class="row" style="justify-content:flex-end;height:44px">${last ? '' : `<button class="link" style="width:auto" data-act="wl-skip">${esc(t('Saltar'))}</button>`}</div>
+      <div class="wbody"><div class="wic" aria-hidden="true">${ic}</div><h1 style="font-size:28px">${esc(t(title))}</h1><p class="muted">${esc(t(text))}</p></div>
+      <div class="dots" aria-hidden="true">${WELCOME.map((_, k) => `<i class="${k === i ? 'on' : ''}"></i>`).join('')}</div>
+      <button class="btn primary block" data-act="wl-next">${esc(last ? t('Empezar') : t('Siguiente'))}</button></div>`;
+  }
   function homesSheet() {
     const hs = homesSorted(), counts = {}; S.products.forEach(p => { const h = homeIdOf(p); if (h) counts[h] = (counts[h] || 0) + 1; });
     const row = h => `<div class="item"><span class="grow"><input class="plain" data-act="home-name" data-id="${esc(h.id)}" value="${esc(h.name)}" maxlength="60" aria-label="${esc(t('Nombre'))}"><span class="s">${esc(t('%lld productos', counts[h.id] || 0))}</span></span>${hs.length > 1 ? `<button class="btn" data-act="home-del" data-id="${esc(h.id)}" aria-label="${esc(t('Eliminar'))}">🗑</button>` : ''}</div>`;
@@ -478,7 +488,7 @@
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
     const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}"><b>${ic}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
-    document.getElementById('app').innerHTML = main + shHtml + tb;
+    document.getElementById('app').innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
     if (!sh || sh.type !== 'recipe') cookStop();
     if (ui.tab === 'products' && ui.q) { const q = document.getElementById('q'); if (q && document.activeElement !== q && !sh) { /* conserva el texto */ } }
   }
@@ -519,6 +529,9 @@
       case 'home-del': ui.sheet = { type: 'homedel', id }; render(); break;
       case 'home-del-yes': deleteHome(id); ui.sheet = { type: 'homes' }; render(); break;
       case 'comp-more': { const add = VRecipes.suggest(lang(), compPantry(), 3, ui.comp.map(r => r.title)).map(registerComposed); ui.comp.push(...add); refreshRecipes(); break; }
+      case 'wl-next': if (ui.welcome >= WELCOME.length - 1) { ui.welcome = null; S.welcomed = true; save(); } else ui.welcome++; render(); break;
+      case 'wl-skip': ui.welcome = null; S.welcomed = true; save(); render(); break;
+      case 'wl-show': ui.welcome = 0; render(); break;
       case 'catf': ui.cat = id; render(); break;
       case 'open-it': { const p = S.products.find(x => x.id === id); if (p) { p.openedAt = iso(new Date()); p.openDays = OPEN_DAYS[catKey(p.category)] || 7; save(); render(); } break; }
       case 'quick': openQuick(); break;
@@ -743,6 +756,7 @@
 
   /* ---------- arranque ---------- */
   { const lp = new URLSearchParams(location.search).get('lang'); if (lp && LANGS[lp] && !S.lang) { S.lang = lp; save(); } }
+  if (!S.welcomed && !S.products.length && !/[?&]demo=1/.test(location.search)) ui.welcome = 0; else if (!S.welcomed) { S.welcomed = true; save(); }
   render();
   // Si el navegador lo permite, pide que los datos no se borren solos.
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});

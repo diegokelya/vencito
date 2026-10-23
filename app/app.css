@@ -128,3 +128,9 @@ button.stat { color: inherit; font: inherit; }
 .qimg img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .qn { position: absolute; right: 2px; bottom: 2px; background: var(--primary); color: var(--onprimary); border-radius: 999px; font-size: 12px; padding: 1px 6px; }
 .qt { font-size: 13px; line-height: 1.2; }
+.welcome { position: fixed; inset: 0; z-index: 40; background: var(--bg); display: flex; flex-direction: column; padding: calc(var(--safe-t) + 8px) 24px calc(24px + var(--safe-b)); max-width: 720px; margin: 0 auto; }
+.wbody { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 8px; }
+.wic { font-size: 88px; line-height: 1; margin-bottom: 12px; }
+.dots { display: flex; justify-content: center; gap: 8px; margin: 16px 0; }
+.dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--card2); }
+.dots i.on { background: var(--primary); }
