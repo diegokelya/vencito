@@ -1,0 +1,2084 @@
+{
+  "roles": {
+    "es": {
+      "egg": [
+        "huevo"
+      ],
+      "rice": [
+        "arroz"
+      ],
+      "pasta": [
+        "fideo",
+        "tallarin",
+        "spaghetti",
+        "espagueti",
+        "mostachol",
+        "tirabuzon",
+        "penne",
+        "pasta",
+        "macarron",
+        "rigatoni",
+        "fusilli"
+      ],
+      "potato": [
+        "papa",
+        "patata"
+      ],
+      "protein": [
+        "pollo",
+        "carne",
+        "bife",
+        "nalga",
+        "cuadril",
+        "jamon",
+        "atun",
+        "chorizo",
+        "salchicha",
+        "pescado",
+        "merluza",
+        "cerdo",
+        "bondiola",
+        "panceta",
+        "lomo",
+        "salmon",
+        "picada",
+        "pavo",
+        "peceto"
+      ],
+      "veg": [
+        "zapallito",
+        "zucchini",
+        "calabacin",
+        "zanahoria",
+        "tomate",
+        "cebolla",
+        "morron",
+        "pimiento",
+        "berenjena",
+        "acelga",
+        "espinaca",
+        "brocoli",
+        "coliflor",
+        "zapallo",
+        "calabaza",
+        "choclo",
+        "lechuga",
+        "apio",
+        "puerro",
+        "champinon",
+        "hongo",
+        "repollo",
+        "pepino",
+        "judia",
+        "arveja",
+        "rucula",
+        "remolacha",
+        "batata"
+      ],
+      "cheese": [
+        "queso",
+        "mozzarella",
+        "muzzarella",
+        "cremoso",
+        "parmesano",
+        "rallado",
+        "provolone",
+        "ricota"
+      ]
+    },
+    "en": {
+      "egg": [
+        "egg"
+      ],
+      "rice": [
+        "rice"
+      ],
+      "pasta": [
+        "pasta",
+        "spaghetti",
+        "penne",
+        "macaroni",
+        "noodle",
+        "fusilli",
+        "linguine",
+        "rigatoni"
+      ],
+      "potato": [
+        "potato"
+      ],
+      "protein": [
+        "chicken",
+        "beef",
+        "pork",
+        "ham",
+        "sausage",
+        "bacon",
+        "tuna",
+        "fish",
+        "salmon",
+        "turkey",
+        "mince",
+        "lamb",
+        "shrimp",
+        "steak",
+        "meat",
+        "chicken breast",
+        "chicken breasts",
+        "chicken thigh",
+        "chicken thighs"
+      ],
+      "veg": [
+        "zucchini",
+        "courgette",
+        "carrot",
+        "tomato",
+        "onion",
+        "pepper",
+        "eggplant",
+        "aubergine",
+        "spinach",
+        "broccoli",
+        "cauliflower",
+        "pumpkin",
+        "squash",
+        "corn",
+        "lettuce",
+        "celery",
+        "leek",
+        "mushroom",
+        "cabbage",
+        "cucumber",
+        "pea",
+        "bean",
+        "kale",
+        "beet",
+        "sweet potato"
+      ],
+      "cheese": [
+        "cheese",
+        "cheddar",
+        "mozzarella",
+        "parmesan",
+        "ricotta",
+        "feta"
+      ]
+    },
+    "pt": {
+      "egg": [
+        "ovo"
+      ],
+      "rice": [
+        "arroz"
+      ],
+      "pasta": [
+        "macarrao",
+        "espaguete",
+        "massa",
+        "penne",
+        "parafuso",
+        "talharim"
+      ],
+      "potato": [
+        "batata"
+      ],
+      "protein": [
+        "frango",
+        "carne",
+        "bife",
+        "presunto",
+        "atum",
+        "linguica",
+        "calabresa",
+        "peixe",
+        "salsicha",
+        "bacon",
+        "porco",
+        "file",
+        "peito",
+        "coxa",
+        "sobrecoxa",
+        "patinho"
+      ],
+      "veg": [
+        "abobrinha",
+        "cenoura",
+        "tomate",
+        "cebola",
+        "pimentao",
+        "berinjela",
+        "espinafre",
+        "brocolis",
+        "couve",
+        "abobora",
+        "milho",
+        "alface",
+        "aipo",
+        "cogumelo",
+        "repolho",
+        "pepino",
+        "vagem",
+        "ervilha",
+        "quiabo",
+        "beterraba",
+        "mandioca"
+      ],
+      "cheese": [
+        "queijo",
+        "mussarela",
+        "muçarela",
+        "parmesao",
+        "ricota",
+        "coalho"
+      ]
+    },
+    "fr": {
+      "egg": [
+        "oeuf",
+        "œuf"
+      ],
+      "rice": [
+        "riz"
+      ],
+      "pasta": [
+        "pates",
+        "spaghetti",
+        "penne",
+        "coquillettes",
+        "macaronis",
+        "tagliatelles",
+        "fusilli"
+      ],
+      "potato": [
+        "pomme de terre",
+        "pommes de terre",
+        "patate"
+      ],
+      "protein": [
+        "poulet",
+        "boeuf",
+        "bœuf",
+        "porc",
+        "jambon",
+        "saucisse",
+        "lardons",
+        "thon",
+        "poisson",
+        "saumon",
+        "viande",
+        "steak",
+        "dinde",
+        "hache",
+        "veau"
+      ],
+      "veg": [
+        "courgette",
+        "carotte",
+        "tomate",
+        "oignon",
+        "poivron",
+        "aubergine",
+        "epinard",
+        "brocoli",
+        "chou",
+        "courge",
+        "potiron",
+        "mais",
+        "salade",
+        "celeri",
+        "poireau",
+        "champignon",
+        "concombre",
+        "haricot",
+        "petit pois",
+        "betterave"
+      ],
+      "cheese": [
+        "fromage",
+        "gruyere",
+        "emmental",
+        "comte",
+        "mozzarella",
+        "parmesan",
+        "chevre",
+        "ricotta"
+      ]
+    },
+    "it": {
+      "egg": [
+        "uovo",
+        "uova"
+      ],
+      "rice": [
+        "riso"
+      ],
+      "pasta": [
+        "pasta",
+        "spaghetti",
+        "penne",
+        "rigatoni",
+        "fusilli",
+        "maccheroni",
+        "linguine",
+        "tagliatelle"
+      ],
+      "potato": [
+        "patata",
+        "patate"
+      ],
+      "protein": [
+        "pollo",
+        "manzo",
+        "maiale",
+        "prosciutto",
+        "salsiccia",
+        "pancetta",
+        "tonno",
+        "pesce",
+        "salmone",
+        "carne",
+        "macinato",
+        "vitello",
+        "tacchino",
+        "speck",
+        "bresaola"
+      ],
+      "veg": [
+        "zucchina",
+        "zucchine",
+        "carota",
+        "carote",
+        "pomodoro",
+        "pomodori",
+        "cipolla",
+        "cipolle",
+        "peperone",
+        "peperoni",
+        "melanzana",
+        "melanzane",
+        "spinaci",
+        "broccoli",
+        "cavolfiore",
+        "zucca",
+        "mais",
+        "insalata",
+        "sedano",
+        "porro",
+        "funghi",
+        "cavolo",
+        "cetriolo",
+        "fagiolini",
+        "piselli",
+        "bietola"
+      ],
+      "cheese": [
+        "formaggio",
+        "mozzarella",
+        "parmigiano",
+        "pecorino",
+        "grana",
+        "ricotta",
+        "provola",
+        "scamorza"
+      ]
+    },
+    "de": {
+      "egg": [
+        "ei",
+        "eier"
+      ],
+      "rice": [
+        "reis"
+      ],
+      "pasta": [
+        "nudeln",
+        "spaghetti",
+        "penne",
+        "makkaroni",
+        "fusilli",
+        "spirelli"
+      ],
+      "potato": [
+        "kartoffel",
+        "kartoffeln"
+      ],
+      "protein": [
+        "hahnchen",
+        "huhn",
+        "rind",
+        "schwein",
+        "schinken",
+        "wurst",
+        "wurstchen",
+        "speck",
+        "thunfisch",
+        "fisch",
+        "lachs",
+        "hackfleisch",
+        "fleisch",
+        "pute",
+        "hack",
+        "gehacktes",
+        "bratwurst"
+      ],
+      "veg": [
+        "zucchini",
+        "mohre",
+        "mohren",
+        "karotte",
+        "tomate",
+        "zwiebel",
+        "paprika",
+        "aubergine",
+        "spinat",
+        "brokkoli",
+        "blumenkohl",
+        "kurbis",
+        "mais",
+        "salat",
+        "sellerie",
+        "lauch",
+        "pilze",
+        "champignon",
+        "kohl",
+        "gurke",
+        "bohne",
+        "erbse",
+        "rote bete",
+        "wirsing"
+      ],
+      "cheese": [
+        "kase",
+        "gouda",
+        "emmentaler",
+        "mozzarella",
+        "parmesan",
+        "feta",
+        "frischkase",
+        "bergkase",
+        "reibekase"
+      ]
+    }
+  },
+  "templates": [
+    {
+      "id": "saute",
+      "minutes": 25,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "protein"
+        ],
+        "b": [
+          "veg"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "Salteado de {a} con {b}",
+          "summary": "Rápido, en una sola sartén.",
+          "side": "Arroz o pasta",
+          "steps": [
+            "Cortá {a} y {b} en trozos chicos y salalos.",
+            "Calentá aceite en una sartén grande y cociná {a} hasta que esté bien hecho.",
+            "Sumá {b} y salteá 5 minutos más a fuego fuerte.",
+            "Probá, ajustá la sal y serví, solo o con arroz o pasta."
+          ],
+          "tip": "No llenes de más la sartén: si no, se hierve en vez de dorarse.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{a} and {b} stir-fry",
+          "summary": "Quick, in a single pan.",
+          "side": "Rice or pasta",
+          "steps": [
+            "Cut {a} and {b} into small pieces and salt them.",
+            "Heat oil in a large pan and cook {a} until done.",
+            "Add {b} and stir-fry 5 more minutes over high heat.",
+            "Taste, adjust the salt and serve on its own or with rice or pasta."
+          ],
+          "tip": "Don't overcrowd the pan: food steams instead of browning.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "Refogado de {a} com {b}",
+          "summary": "Rápido, numa só frigideira.",
+          "side": "Arroz ou massa",
+          "steps": [
+            "Corte {a} e {b} em pedaços pequenos e tempere com sal.",
+            "Aqueça óleo numa frigideira grande e cozinhe {a} até ficar bem passado.",
+            "Junte {b} e refogue mais 5 minutos em fogo alto.",
+            "Prove, ajuste o sal e sirva sozinho ou com arroz ou massa."
+          ],
+          "tip": "Não lote demais a frigideira: senão cozinha no vapor em vez de dourar.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "Poêlée de {a} et {b}",
+          "summary": "Rapide, dans une seule poêle.",
+          "side": "Riz ou pâtes",
+          "steps": [
+            "Coupez {a} et {b} en petits morceaux et salez.",
+            "Faites chauffer l'huile dans une grande poêle et cuisez {a} jusqu'à ce qu'il soit bien cuit.",
+            "Ajoutez {b} et faites sauter 5 minutes de plus à feu vif.",
+            "Goûtez, rectifiez l'assaisonnement et servez seul ou avec du riz ou des pâtes."
+          ],
+          "tip": "Ne surchargez pas la poêle : les aliments cuisent à l'étuvée au lieu de dorer.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "Saltato di {a} con {b}",
+          "summary": "Veloce, in una sola padella.",
+          "side": "Riso o pasta",
+          "steps": [
+            "Tagliate {a} e {b} a pezzetti e salate.",
+            "Scaldate l'olio in una padella grande e cuocete {a} fino a cottura.",
+            "Aggiungete {b} e saltate altri 5 minuti a fuoco vivace.",
+            "Assaggiate, regolate di sale e servite da solo o con riso o pasta."
+          ],
+          "tip": "Non affollate la padella: il cibo bolle invece di dorarsi.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "Pfanne mit {a} und {b}",
+          "summary": "Schnell, in nur einer Pfanne.",
+          "side": "Reis oder Nudeln",
+          "steps": [
+            "{a} und {b} in kleine Stücke schneiden und salzen.",
+            "Öl in einer großen Pfanne erhitzen und {a} gar braten.",
+            "{b} dazugeben und weitere 5 Minuten bei hoher Hitze braten.",
+            "Abschmecken und pur oder mit Reis oder Nudeln servieren."
+          ],
+          "tip": "Die Pfanne nicht überfüllen: sonst dünstet das Essen statt zu bräunen.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "tortilla",
+      "minutes": 30,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "egg"
+        ],
+        "b": [
+          "veg",
+          "potato"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "Tortilla de {b}",
+          "summary": "Con huevo y lo que tengas.",
+          "side": "Ensalada",
+          "steps": [
+            "Cortá {b} en trozos chicos y cocinalo en una sartén con aceite hasta que esté tierno.",
+            "Batí {a} con una pizca de sal.",
+            "Mezclalo con {b} y volcá todo en la sartén.",
+            "Cociná a fuego medio-bajo 4 minutos de cada lado, hasta que cuaje."
+          ],
+          "tip": "Dala vuelta con ayuda de un plato grande.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{b} omelet",
+          "summary": "With eggs and what you have.",
+          "side": "Salad",
+          "steps": [
+            "Cut {b} into small pieces and cook in a pan with oil until tender.",
+            "Beat {a} with a pinch of salt.",
+            "Mix with {b} and pour everything into the pan.",
+            "Cook over medium-low heat 4 minutes per side, until set."
+          ],
+          "tip": "Flip it with the help of a large plate.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "Omelete de {b}",
+          "summary": "Com ovo e o que você tiver.",
+          "side": "Salada",
+          "steps": [
+            "Corte {b} em pedaços pequenos e cozinhe numa frigideira com óleo até ficar macio.",
+            "Bata {a} com uma pitada de sal.",
+            "Misture com {b} e despeje tudo na frigideira.",
+            "Cozinhe em fogo médio-baixo 4 minutos de cada lado, até firmar."
+          ],
+          "tip": "Vire com a ajuda de um prato grande.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "Omelette de {b}",
+          "summary": "Avec des œufs et ce que vous avez.",
+          "side": "Salade",
+          "steps": [
+            "Coupez {b} en petits morceaux et faites cuire à la poêle avec de l'huile jusqu'à ce qu'ils soient tendres.",
+            "Battez {a} avec une pincée de sel.",
+            "Mélangez avec {b} et versez le tout dans la poêle.",
+            "Faites cuire à feu moyen-doux 4 minutes de chaque côté, jusqu'à ce que ce soit pris."
+          ],
+          "tip": "Retournez-la à l'aide d'une grande assiette.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "Frittata di {b}",
+          "summary": "Con uova e quello che avete.",
+          "side": "Insalata",
+          "steps": [
+            "Tagliate {b} a pezzetti e cuocetelo in padella con olio fino a quando è tenero.",
+            "Sbattete {a} con un pizzico di sale.",
+            "Unite {b} e versate tutto in padella.",
+            "Cuocete a fuoco medio-basso 4 minuti per lato, fino a quando si rapprende."
+          ],
+          "tip": "Giratela aiutandovi con un piatto grande.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "Omelett mit {b}",
+          "summary": "Mit Eiern und dem, was da ist.",
+          "side": "Salat",
+          "steps": [
+            "{b} in kleine Stücke schneiden und in einer Pfanne mit Öl weich braten.",
+            "{a} mit einer Prise Salz verquirlen.",
+            "Mit {b} mischen und alles in die Pfanne geben.",
+            "Bei mittlerer bis niedriger Hitze 4 Minuten pro Seite stocken lassen."
+          ],
+          "tip": "Mit Hilfe eines großen Tellers wenden.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sopa",
+      "minutes": 35,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "veg"
+        ],
+        "b": [
+          "veg",
+          "potato"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "Sopa de {a} y {b}",
+          "summary": "Caliente y fácil de hacer.",
+          "side": "Pan",
+          "steps": [
+            "Pelá y cortá {a} y {b} en cubos.",
+            "Rehogá en una olla con un poco de aceite y sumá {a} y {b}.",
+            "Cubrí con agua, salá y cociná tapado 25 minutos, hasta que estén tiernos.",
+            "Pisá un poco o procesá la sopa y serví caliente."
+          ],
+          "tip": "Sumá un chorrito de aceite crudo al servir.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{a} and {b} soup",
+          "summary": "Warm and easy to make.",
+          "side": "Bread",
+          "steps": [
+            "Peel and cube {a} and {b}.",
+            "Sauté lightly in a pot with a little oil, then add {a} and {b}.",
+            "Cover with water, add salt and simmer covered 25 minutes, until tender.",
+            "Mash lightly or blend the soup and serve hot."
+          ],
+          "tip": "A drizzle of raw oil on top when serving makes it better.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "Sopa de {a} e {b}",
+          "summary": "Quente e fácil de fazer.",
+          "side": "Pão",
+          "steps": [
+            "Descasque e corte {a} e {b} em cubos.",
+            "Refogue numa panela com um pouco de óleo e junte {a} e {b}.",
+            "Cubra com água, tempere com sal e cozinhe tampado 25 minutos, até ficar macio.",
+            "Amasse um pouco ou bata a sopa e sirva quente."
+          ],
+          "tip": "Um fio de azeite cru ao servir deixa mais gostosa.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "Soupe de {a} et {b}",
+          "summary": "Chaude et facile à faire.",
+          "side": "Pain",
+          "steps": [
+            "Épluchez et coupez {a} et {b} en cubes.",
+            "Faites revenir un peu dans une casserole avec de l'huile, puis ajoutez {a} et {b}.",
+            "Couvrez d'eau, salez et laissez cuire à couvert 25 minutes, jusqu'à ce qu'ils soient tendres.",
+            "Écrasez un peu ou mixez la soupe et servez chaud."
+          ],
+          "tip": "Un filet d'huile crue au moment de servir la rend meilleure.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "Zuppa di {a} e {b}",
+          "summary": "Calda e facile da fare.",
+          "side": "Pane",
+          "steps": [
+            "Sbucciate e tagliate a cubetti {a} e {b}.",
+            "Fate rosolare in una pentola con un po' d'olio e aggiungete {a} e {b}.",
+            "Coprite con acqua, salate e cuocete coperto 25 minuti, fino a quando sono teneri.",
+            "Schiacciate leggermente o frullate la zuppa e servite calda."
+          ],
+          "tip": "Un filo d'olio a crudo al momento di servire la migliora.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "Suppe mit {a} und {b}",
+          "summary": "Warm und einfach gemacht.",
+          "side": "Brot",
+          "steps": [
+            "{a} und {b} schälen und würfeln.",
+            "In einem Topf mit etwas Öl andünsten, dann {a} und {b} dazugeben.",
+            "Mit Wasser bedecken, salzen und zugedeckt 25 Minuten weich kochen.",
+            "Leicht stampfen oder pürieren und heiß servieren."
+          ],
+          "tip": "Ein Schuss rohes Öl beim Servieren macht sie besser.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "pasta-arroz",
+      "minutes": 25,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "pasta",
+          "rice"
+        ],
+        "b": [
+          "veg",
+          "protein"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "{a} con {b}",
+          "summary": "Con lo que haya en la alacena.",
+          "side": "Queso rallado",
+          "steps": [
+            "Cociná {a} según las indicaciones del paquete y escurrilo.",
+            "Cortá {b} en trozos chicos y salteálo en una sartén con aceite hasta que esté cocido.",
+            "Mezclá todo en la sartén, salá y sumá un poco del agua de cocción si queda seco.",
+            "Serví caliente, con queso rallado si tenés."
+          ],
+          "tip": "Guardá un poco del agua de cocción para ligar todo.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{a} with {b}",
+          "summary": "With what's in the pantry.",
+          "side": "Grated cheese",
+          "steps": [
+            "Cook {a} according to the package directions and drain.",
+            "Cut {b} into small pieces and sauté in a pan with oil until cooked.",
+            "Toss everything in the pan, add salt, and a little cooking water if it looks dry.",
+            "Serve hot, with grated cheese if you have it."
+          ],
+          "tip": "Save a little cooking water to bring everything together.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "{a} com {b}",
+          "summary": "Com o que tiver na despensa.",
+          "side": "Queijo ralado",
+          "steps": [
+            "Cozinhe {a} conforme as instruções da embalagem e escorra.",
+            "Corte {b} em pedaços pequenos e refogue numa frigideira com óleo até cozinhar.",
+            "Misture tudo na frigideira, tempere com sal e junte um pouco da água do cozimento se ficar seco.",
+            "Sirva quente, com queijo ralado se tiver."
+          ],
+          "tip": "Guarde um pouco da água do cozimento para ligar tudo.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "{a} avec {b}",
+          "summary": "Avec ce qu'il y a dans le placard.",
+          "side": "Fromage râpé",
+          "steps": [
+            "Faites cuire {a} selon les indications du paquet et égouttez.",
+            "Coupez {b} en petits morceaux et faites-le sauter à la poêle avec de l'huile jusqu'à cuisson.",
+            "Mélangez le tout dans la poêle, salez et ajoutez un peu d'eau de cuisson si c'est sec.",
+            "Servez chaud, avec du fromage râpé si vous en avez."
+          ],
+          "tip": "Gardez un peu d'eau de cuisson pour lier le tout.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "{a} con {b}",
+          "summary": "Con quello che c'è in dispensa.",
+          "side": "Formaggio grattugiato",
+          "steps": [
+            "Cuocete {a} secondo le indicazioni della confezione e scolate.",
+            "Tagliate {b} a pezzetti e saltatelo in padella con olio fino a cottura.",
+            "Mescolate tutto in padella, salate e aggiungete un po' di acqua di cottura se è asciutto.",
+            "Servite caldo, con formaggio grattugiato se lo avete."
+          ],
+          "tip": "Conservate un po' di acqua di cottura per legare il tutto.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "{a} mit {b}",
+          "summary": "Mit dem, was im Vorratsschrank ist.",
+          "side": "Geriebener Käse",
+          "steps": [
+            "{a} nach Packungsanleitung kochen und abgießen.",
+            "{b} in kleine Stücke schneiden und in einer Pfanne mit Öl garen.",
+            "Alles in der Pfanne vermengen, salzen und bei Bedarf etwas Kochwasser dazugeben.",
+            "Heiß servieren, wenn vorhanden mit geriebenem Käse."
+          ],
+          "tip": "Etwas Kochwasser aufbewahren, um alles zu binden.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "gratinado",
+      "minutes": 40,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "potato",
+          "veg"
+        ],
+        "b": [
+          "cheese"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "Gratinado de {a} con {b}",
+          "summary": "Al horno, con queso dorado.",
+          "side": "Ensalada",
+          "steps": [
+            "Precalentá el horno a 200 °C.",
+            "Cociná {a} cortado en rodajas o trozos hasta que esté casi tierno (hervido o salteado).",
+            "Ponelo en una fuente, cubrilo con {b} en trozos o rallado y salá.",
+            "Gratiná en el horno 15 minutos, hasta que el queso esté dorado."
+          ],
+          "tip": "Un poco de crema o leche por encima lo deja más jugoso.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{a} gratin with {b}",
+          "summary": "Baked, with golden cheese.",
+          "side": "Salad",
+          "steps": [
+            "Heat the oven to 200 °C (400 °F).",
+            "Cook {a}, sliced or in pieces, until almost tender (boiled or sautéed).",
+            "Place in a dish, cover with {b}, cut or grated, and add salt.",
+            "Bake 15 minutes, until the cheese is golden."
+          ],
+          "tip": "A little cream or milk on top keeps it juicier.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "Gratinado de {a} com {b}",
+          "summary": "No forno, com queijo dourado.",
+          "side": "Salada",
+          "steps": [
+            "Preaqueça o forno a 200 °C.",
+            "Cozinhe {a} em rodelas ou pedaços até ficar quase macio (cozido ou refogado).",
+            "Coloque num refratário, cubra com {b} em pedaços ou ralado e tempere com sal.",
+            "Gratine no forno 15 minutos, até o queijo dourar."
+          ],
+          "tip": "Um pouco de creme de leite ou leite por cima deixa mais suculento.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "Gratin de {a} au {b}",
+          "summary": "Au four, avec du fromage doré.",
+          "side": "Salade",
+          "steps": [
+            "Préchauffez le four à 200 °C.",
+            "Faites cuire {a} en rondelles ou en morceaux jusqu'à ce qu'il soit presque tendre (bouilli ou sauté).",
+            "Mettez-le dans un plat, couvrez avec {b} en morceaux ou râpé et salez.",
+            "Faites gratiner 15 minutes, jusqu'à ce que le fromage soit doré."
+          ],
+          "tip": "Un peu de crème ou de lait par-dessus le rend plus moelleux.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "Gratin di {a} con {b}",
+          "summary": "Al forno, con formaggio dorato.",
+          "side": "Insalata",
+          "steps": [
+            "Scaldate il forno a 200 °C.",
+            "Cuocete {a} a fette o a pezzi fino a quando è quasi tenero (lessato o saltato).",
+            "Mettetelo in una teglia, copritelo con {b} a pezzetti o grattugiato e salate.",
+            "Gratinate 15 minuti, fino a quando il formaggio è dorato."
+          ],
+          "tip": "Un po' di panna o latte sopra lo rende più succoso.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "Gratin aus {a} mit {b}",
+          "summary": "Im Ofen, mit goldenem Käse.",
+          "side": "Salat",
+          "steps": [
+            "Backofen auf 200 °C vorheizen.",
+            "{a} in Scheiben oder Stücken fast weich garen (gekocht oder gebraten).",
+            "In eine Form geben, mit {b} in Stücken oder gerieben bedecken und salzen.",
+            "15 Minuten überbacken, bis der Käse goldbraun ist."
+          ],
+          "tip": "Etwas Sahne oder Milch darüber hält es saftiger.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ensalada",
+      "minutes": 15,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "veg"
+        ],
+        "b": [
+          "egg",
+          "protein",
+          "cheese",
+          "potato"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "Ensalada de {a} con {b}",
+          "summary": "Fresca y sin horno.",
+          "side": "Pan",
+          "steps": [
+            "Lavá y cortá {a} y ponelo en un bowl.",
+            "Si hace falta, cociná {b}: el huevo duro 10 minutos, la papa hervida hasta que esté tierna.",
+            "Sumá {b} cortado en trozos y mezclá todo.",
+            "Condimentá con sal, aceite y limón o vinagre y serví enseguida."
+          ],
+          "tip": "Condimentá justo antes de servir para que no se ablande.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{a} salad with {b}",
+          "summary": "Fresh, no oven needed.",
+          "side": "Bread",
+          "steps": [
+            "Wash and cut {a} and put it in a bowl.",
+            "If needed, cook {b}: hard-boil an egg for 10 minutes, boil a potato until tender.",
+            "Add {b} in pieces and toss everything together.",
+            "Dress with salt, oil and lemon or vinegar and serve right away."
+          ],
+          "tip": "Dress it just before serving so it stays crisp.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "Salada de {a} com {b}",
+          "summary": "Fresca e sem forno.",
+          "side": "Pão",
+          "steps": [
+            "Lave e corte {a} e coloque numa tigela.",
+            "Se precisar, cozinhe {b}: ovo cozido por 10 minutos, batata até ficar macia.",
+            "Junte {b} em pedaços e misture tudo.",
+            "Tempere com sal, azeite e limão ou vinagre e sirva logo."
+          ],
+          "tip": "Tempere na hora de servir para não murchar.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "Salade de {a} au {b}",
+          "summary": "Fraîche, sans four.",
+          "side": "Pain",
+          "steps": [
+            "Lavez et coupez {a} et mettez-le dans un saladier.",
+            "Si besoin, faites cuire {b} : œuf dur 10 minutes, pomme de terre bouillie jusqu'à ce qu'elle soit tendre.",
+            "Ajoutez {b} en morceaux et mélangez le tout.",
+            "Assaisonnez avec sel, huile et citron ou vinaigre et servez aussitôt."
+          ],
+          "tip": "Assaisonnez au dernier moment pour que ça reste croquant.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "Insalata di {a} con {b}",
+          "summary": "Fresca e senza forno.",
+          "side": "Pane",
+          "steps": [
+            "Lavate e tagliate {a} e mettetelo in una ciotola.",
+            "Se serve, cuocete {b}: uovo sodo 10 minuti, patata lessata fino a quando è tenera.",
+            "Aggiungete {b} a pezzetti e mescolate tutto.",
+            "Condite con sale, olio e limone o aceto e servite subito."
+          ],
+          "tip": "Condite poco prima di servire perché resti croccante.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "Salat aus {a} mit {b}",
+          "summary": "Frisch und ohne Backofen.",
+          "side": "Brot",
+          "steps": [
+            "{a} waschen, schneiden und in eine Schüssel geben.",
+            "Falls nötig {b} garen: Ei 10 Minuten hart kochen, Kartoffel weich kochen.",
+            "{b} in Stücken dazugeben und alles vermengen.",
+            "Mit Salz, Öl und Zitrone oder Essig anmachen und sofort servieren."
+          ],
+          "tip": "Erst kurz vor dem Servieren anmachen, damit er knackig bleibt.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "revuelto",
+      "minutes": 15,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "egg"
+        ],
+        "b": [
+          "cheese",
+          "protein"
+        ]
+      },
+      "text": {
+        "es": {
+          "title": "Revuelto de {a} con {b}",
+          "summary": "Listo en 10 minutos.",
+          "side": "Pan",
+          "steps": [
+            "Batí {a} con una pizca de sal.",
+            "Calentá una sartén con un poco de aceite.",
+            "Volcá el huevo y revolvé a fuego bajo.",
+            "Cuando esté casi cuajado, sumá {b} en trozos y apagá el fuego."
+          ],
+          "tip": "Sacalo del fuego antes de que se seque: sigue cocinándose en el plato.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "Scrambled {a} with {b}",
+          "summary": "Ready in 10 minutes.",
+          "side": "Bread",
+          "steps": [
+            "Beat {a} with a pinch of salt.",
+            "Heat a pan with a little oil.",
+            "Pour in the egg and stir over low heat.",
+            "When almost set, add {b} in pieces and turn off the heat."
+          ],
+          "tip": "Take it off the heat before it dries: it keeps cooking on the plate.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "Ovos mexidos com {b}",
+          "summary": "Pronto em 10 minutos.",
+          "side": "Pão",
+          "steps": [
+            "Bata {a} com uma pitada de sal.",
+            "Aqueça uma frigideira com um pouco de óleo.",
+            "Despeje o ovo e mexa em fogo baixo.",
+            "Quando estiver quase firme, junte {b} em pedaços e desligue o fogo."
+          ],
+          "tip": "Tire do fogo antes de secar: continua cozinhando no prato.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "Œufs brouillés au {b}",
+          "summary": "Prêts en 10 minutes.",
+          "side": "Pain",
+          "steps": [
+            "Battez {a} avec une pincée de sel.",
+            "Chauffez une poêle avec un peu d'huile.",
+            "Versez l'œuf et remuez à feu doux.",
+            "Quand c'est presque pris, ajoutez {b} en morceaux et éteignez le feu."
+          ],
+          "tip": "Retirez du feu avant que ça sèche : ça continue de cuire dans l'assiette.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "Uova strapazzate con {b}",
+          "summary": "Pronte in 10 minuti.",
+          "side": "Pane",
+          "steps": [
+            "Sbattete {a} con un pizzico di sale.",
+            "Scaldate una padella con un po' d'olio.",
+            "Versate l'uovo e mescolate a fuoco basso.",
+            "Quando è quasi rappreso, aggiungete {b} a pezzetti e spegnete il fuoco."
+          ],
+          "tip": "Toglietele dal fuoco prima che si asciughino: continuano a cuocere nel piatto.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "Rührei mit {b}",
+          "summary": "In 10 Minuten fertig.",
+          "side": "Brot",
+          "steps": [
+            "{a} mit einer Prise Salz verquirlen.",
+            "Eine Pfanne mit etwas Öl erhitzen.",
+            "Das Ei hineingeben und bei niedriger Hitze rühren.",
+            "Wenn es fast gestockt ist, {b} in Stücken dazugeben und die Hitze ausschalten."
+          ],
+          "tip": "Vom Herd nehmen, bevor es trocken wird: es gart auf dem Teller nach.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "solo-plancha",
+      "minutes": 20,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "protein"
+        ],
+        "b": []
+      },
+      "text": {
+        "es": {
+          "title": "{a} a la plancha",
+          "summary": "Con un solo producto y sin vueltas.",
+          "side": "Ensalada o arroz",
+          "steps": [
+            "Sacá {a} de la heladera 10 minutos antes y salalo.",
+            "Calentá una sartén o plancha con un poco de aceite.",
+            "Cociná {a} a fuego medio-fuerte hasta que esté bien hecho, dándolo vuelta una sola vez.",
+            "Dejalo reposar 2 minutos y serví."
+          ],
+          "tip": "No lo muevas hasta que se despegue solo: así se dora.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "Pan-seared {a}",
+          "summary": "One product, nothing complicated.",
+          "side": "Salad or rice",
+          "steps": [
+            "Take the {a} out of the fridge 10 minutes ahead and salt it.",
+            "Heat a pan with a little oil.",
+            "Cook the {a} over medium-high heat until done, turning only once.",
+            "Rest it 2 minutes and serve."
+          ],
+          "tip": "Leave it alone until it releases from the pan: that's how it browns.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "{a} grelhado",
+          "summary": "Com um só produto e sem complicação.",
+          "side": "Salada ou arroz",
+          "steps": [
+            "Tire o {a} da geladeira 10 minutos antes e tempere com sal.",
+            "Aqueça uma frigideira com um pouco de óleo.",
+            "Cozinhe o {a} em fogo médio-alto até ficar bem passado, virando uma só vez.",
+            "Deixe descansar 2 minutos e sirva."
+          ],
+          "tip": "Não mexa até desgrudar sozinho: assim ele dora.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "{a} poêlé",
+          "summary": "Avec un seul produit, sans complication.",
+          "side": "Salade ou riz",
+          "steps": [
+            "Sortez {a} du réfrigérateur 10 minutes avant et salez-le.",
+            "Faites chauffer une poêle avec un peu d'huile.",
+            "Faites cuire {a} à feu moyen-vif jusqu'à cuisson, en le retournant une seule fois.",
+            "Laissez reposer 2 minutes et servez."
+          ],
+          "tip": "Ne le bougez pas avant qu'il se décolle tout seul : c'est ce qui le dore.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "{a} in padella",
+          "summary": "Con un solo prodotto, senza complicazioni.",
+          "side": "Insalata o riso",
+          "steps": [
+            "Togliete {a} dal frigo 10 minuti prima e salatelo.",
+            "Scaldate una padella con un po' d'olio.",
+            "Cuocete {a} a fuoco medio-alto fino a cottura, girandolo una sola volta.",
+            "Lasciatelo riposare 2 minuti e servite."
+          ],
+          "tip": "Non toccatelo finché non si stacca da solo: così si dora.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "{a} aus der Pfanne",
+          "summary": "Mit nur einem Produkt, ganz einfach.",
+          "side": "Salat oder Reis",
+          "steps": [
+            "{a} 10 Minuten vorher aus dem Kühlschrank nehmen und salzen.",
+            "Eine Pfanne mit etwas Öl erhitzen.",
+            "{a} bei mittlerer bis hoher Hitze gar braten und nur einmal wenden.",
+            "2 Minuten ruhen lassen und servieren."
+          ],
+          "tip": "Nicht bewegen, bis es sich von selbst löst: so bräunt es.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "solo-horno",
+      "minutes": 35,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "veg",
+          "potato"
+        ],
+        "b": []
+      },
+      "text": {
+        "es": {
+          "title": "{a} al horno",
+          "summary": "Un solo ingrediente, dorado y fácil.",
+          "side": "Un huevo o carne",
+          "steps": [
+            "Precalentá el horno a 200 °C.",
+            "Lavá y cortá {a} en trozos parejos.",
+            "Ponelo en una placa con aceite y sal y mezclá bien.",
+            "Hornealo 25 a 30 minutos, dándolo vuelta a la mitad, hasta que esté tierno y dorado."
+          ],
+          "tip": "Cortalo en trozos del mismo tamaño para que se cocine parejo.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "Roasted {a}",
+          "summary": "One ingredient, golden and easy.",
+          "side": "An egg or some meat",
+          "steps": [
+            "Heat the oven to 200 °C (400 °F).",
+            "Wash and cut the {a} into even pieces.",
+            "Toss on a tray with oil and salt.",
+            "Roast 25 to 30 minutes, turning halfway, until tender and golden."
+          ],
+          "tip": "Cut the pieces the same size so they cook evenly.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "{a} assado",
+          "summary": "Um só ingrediente, dourado e fácil.",
+          "side": "Um ovo ou carne",
+          "steps": [
+            "Aqueça o forno a 200 °C.",
+            "Lave e corte o {a} em pedaços iguais.",
+            "Coloque numa assadeira com óleo e sal e misture.",
+            "Asse 25 a 30 minutos, virando na metade, até ficar macio e dourado."
+          ],
+          "tip": "Corte em pedaços do mesmo tamanho para assar por igual.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "{a} rôti au four",
+          "summary": "Un seul ingrédient, doré et facile.",
+          "side": "Un œuf ou de la viande",
+          "steps": [
+            "Préchauffez le four à 200 °C.",
+            "Lavez et coupez {a} en morceaux réguliers.",
+            "Déposez-le sur une plaque avec l'huile et le sel et mélangez.",
+            "Faites rôtir 25 à 30 minutes en retournant à mi-cuisson, jusqu'à ce qu'il soit tendre et doré."
+          ],
+          "tip": "Coupez des morceaux de même taille pour une cuisson uniforme.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "{a} al forno",
+          "summary": "Un solo ingrediente, dorato e facile.",
+          "side": "Un uovo o della carne",
+          "steps": [
+            "Scaldate il forno a 200 °C.",
+            "Lavate e tagliate {a} a pezzi uguali.",
+            "Mettetelo in una teglia con olio e sale e mescolate.",
+            "Cuocete 25-30 minuti, girando a metà, finché è tenero e dorato."
+          ],
+          "tip": "Tagliate pezzi della stessa dimensione per una cottura uniforme.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "{a} aus dem Ofen",
+          "summary": "Eine Zutat, goldbraun und einfach.",
+          "side": "Ein Ei oder Fleisch",
+          "steps": [
+            "Backofen auf 200 °C vorheizen.",
+            "{a} waschen und in gleichmäßige Stücke schneiden.",
+            "Auf einem Blech mit Öl und Salz vermengen.",
+            "25 bis 30 Minuten backen, zwischendurch wenden, bis es weich und goldbraun ist."
+          ],
+          "tip": "Gleich große Stücke garen gleichmäßig.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "solo-huevo",
+      "minutes": 10,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "egg"
+        ],
+        "b": []
+      },
+      "text": {
+        "es": {
+          "title": "{a} revueltos",
+          "summary": "Listos en 10 minutos con un solo producto.",
+          "side": "Pan o ensalada",
+          "steps": [
+            "Batí {a} con una pizca de sal.",
+            "Calentá una sartén con un poco de aceite a fuego medio-bajo.",
+            "Volcá el huevo y revolvé despacio.",
+            "Sacalo del fuego cuando esté casi cuajado: sigue cocinándose en el plato."
+          ],
+          "tip": "Fuego bajo y paciencia: quedan cremosos.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "Scrambled {a}",
+          "summary": "Ready in 10 minutes with a single product.",
+          "side": "Bread or salad",
+          "steps": [
+            "Beat the {a} with a pinch of salt.",
+            "Heat a pan with a little oil over medium-low heat.",
+            "Pour in the eggs and stir slowly.",
+            "Take off the heat when almost set: they keep cooking on the plate."
+          ],
+          "tip": "Low heat and patience make them creamy.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "{a} mexidos",
+          "summary": "Prontos em 10 minutos com um só produto.",
+          "side": "Pão ou salada",
+          "steps": [
+            "Bata os {a} com uma pitada de sal.",
+            "Aqueça uma frigideira com um pouco de óleo em fogo médio-baixo.",
+            "Despeje os ovos e mexa devagar.",
+            "Tire do fogo quando estiverem quase firmes: continuam cozinhando no prato."
+          ],
+          "tip": "Fogo baixo e paciência: ficam cremosos.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "{a} brouillés",
+          "summary": "Prêts en 10 minutes avec un seul produit.",
+          "side": "Pain ou salade",
+          "steps": [
+            "Battez {a} avec une pincée de sel.",
+            "Faites chauffer une poêle avec un peu d'huile à feu moyen-doux.",
+            "Versez les œufs et remuez doucement.",
+            "Retirez du feu quand c'est presque pris : ça continue de cuire dans l'assiette."
+          ],
+          "tip": "Feu doux et patience : ils restent crémeux.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "{a} strapazzate",
+          "summary": "Pronte in 10 minuti con un solo prodotto.",
+          "side": "Pane o insalata",
+          "steps": [
+            "Sbattete {a} con un pizzico di sale.",
+            "Scaldate una padella con un po' d'olio a fuoco medio-basso.",
+            "Versate le uova e mescolate piano.",
+            "Togliete dal fuoco quando sono quasi rapprese: continuano a cuocere nel piatto."
+          ],
+          "tip": "Fuoco basso e pazienza: restano cremose.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "{a} als Rührei",
+          "summary": "In 10 Minuten fertig, mit nur einem Produkt.",
+          "side": "Brot oder Salat",
+          "steps": [
+            "{a} mit einer Prise Salz verquirlen.",
+            "Eine Pfanne mit etwas Öl bei mittlerer bis niedriger Hitze erhitzen.",
+            "Die Eier hineingeben und langsam rühren.",
+            "Vom Herd nehmen, wenn sie fast gestockt sind: sie garen auf dem Teller nach."
+          ],
+          "tip": "Niedrige Hitze und Geduld machen es cremig.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "solo-base",
+      "minutes": 20,
+      "servings": 2,
+      "slots": {
+        "a": [
+          "pasta",
+          "rice"
+        ],
+        "b": []
+      },
+      "text": {
+        "es": {
+          "title": "{a} con aceite y ajo",
+          "summary": "Un clásico de alacena con un solo producto.",
+          "side": "Queso rallado",
+          "steps": [
+            "Cociná {a} en agua con sal según el paquete y escurrilo.",
+            "Calentá aceite en una sartén y dorá un diente de ajo laminado, sin que se queme.",
+            "Mezclá {a} con el aceite aromático.",
+            "Serví caliente, con queso rallado si tenés."
+          ],
+          "tip": "Guardá un poco del agua de cocción para ligarlo.",
+          "extras": [
+            [
+              "Sal",
+              "al gusto"
+            ],
+            [
+              "Aceite",
+              "2 cucharadas"
+            ]
+          ]
+        },
+        "en": {
+          "title": "{a} with garlic and oil",
+          "summary": "A pantry classic with a single product.",
+          "side": "Grated cheese",
+          "steps": [
+            "Cook the {a} in salted water following the package and drain.",
+            "Heat oil in a pan and brown a sliced garlic clove without burning it.",
+            "Toss the {a} in the garlic oil.",
+            "Serve hot, with grated cheese if you have it."
+          ],
+          "tip": "Save a little cooking water to bring it together.",
+          "extras": [
+            [
+              "Salt",
+              "to taste"
+            ],
+            [
+              "Oil",
+              "2 tablespoons"
+            ]
+          ]
+        },
+        "pt": {
+          "title": "{a} com alho e óleo",
+          "summary": "Um clássico de despensa com um só produto.",
+          "side": "Queijo ralado",
+          "steps": [
+            "Cozinhe o {a} em água com sal conforme a embalagem e escorra.",
+            "Aqueça óleo numa frigideira e doure um dente de alho fatiado, sem queimar.",
+            "Misture o {a} ao óleo aromático.",
+            "Sirva quente, com queijo ralado se tiver."
+          ],
+          "tip": "Guarde um pouco da água do cozimento para ligar.",
+          "extras": [
+            [
+              "Sal",
+              "a gosto"
+            ],
+            [
+              "Óleo",
+              "2 colheres de sopa"
+            ]
+          ]
+        },
+        "fr": {
+          "title": "{a} à l'ail et à l'huile",
+          "summary": "Un classique du placard avec un seul produit.",
+          "side": "Fromage râpé",
+          "steps": [
+            "Faites cuire {a} dans l'eau salée selon le paquet et égouttez.",
+            "Faites chauffer l'huile dans une poêle et dorez une gousse d'ail émincée sans la brûler.",
+            "Mélangez {a} avec l'huile parfumée.",
+            "Servez chaud, avec du fromage râpé si vous en avez."
+          ],
+          "tip": "Gardez un peu d'eau de cuisson pour lier.",
+          "extras": [
+            [
+              "Sel",
+              "selon le goût"
+            ],
+            [
+              "Huile",
+              "2 cuillères à soupe"
+            ]
+          ]
+        },
+        "it": {
+          "title": "{a} aglio e olio",
+          "summary": "Un classico da dispensa con un solo prodotto.",
+          "side": "Formaggio grattugiato",
+          "steps": [
+            "Cuocete {a} in acqua salata secondo la confezione e scolate.",
+            "Scaldate l'olio in una padella e dorate uno spicchio d'aglio a fettine senza bruciarlo.",
+            "Mescolate {a} con l'olio aromatico.",
+            "Servite caldo, con formaggio grattugiato se lo avete."
+          ],
+          "tip": "Conservate un po' d'acqua di cottura per legare.",
+          "extras": [
+            [
+              "Sale",
+              "q.b."
+            ],
+            [
+              "Olio",
+              "2 cucchiai"
+            ]
+          ]
+        },
+        "de": {
+          "title": "{a} mit Knoblauch und Öl",
+          "summary": "Ein Klassiker aus dem Vorrat, mit nur einem Produkt.",
+          "side": "Geriebener Käse",
+          "steps": [
+            "{a} nach Packungsanleitung in Salzwasser kochen und abgießen.",
+            "Öl in einer Pfanne erhitzen und eine geschnittene Knoblauchzehe goldbraun braten, ohne sie zu verbrennen.",
+            "{a} im Knoblauchöl schwenken.",
+            "Heiß servieren, wenn vorhanden mit geriebenem Käse."
+          ],
+          "tip": "Etwas Kochwasser aufheben, damit alles bindet.",
+          "extras": [
+            [
+              "Salz",
+              "nach Geschmack"
+            ],
+            [
+              "Öl",
+              "2 EL"
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
