@@ -112,6 +112,8 @@ p { margin: 0; }
 .device img { border-radius: 34px; width: 100%; aspect-ratio: 1320 / 2868; object-fit: cover; background: var(--surface); }
 .device.ipad { width: 100%; max-width: 980px; border-radius: 30px; padding: 14px; }
 .device.ipad img { border-radius: 18px; aspect-ratio: 2752 / 2064; }
+.device.android img { aspect-ratio: 1080 / 2400; }
+.device.ipad.tablet img { aspect-ratio: 2560 / 1600; }
 
 /* Secciones */
 section { padding-block: clamp(48px, 7vw, 96px); }
