@@ -1,5 +1,5 @@
 // Service worker de Vencito: la app y sus datos se guardan en el dispositivo para funcionar sin conexión.
-const VERSION = 'vencito-pwa-4';
+const VERSION = 'vencito-pwa-5';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'i18n.js', 'dateparser.js', 'scan.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', '../assets/img/icon.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
