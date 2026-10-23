@@ -19,7 +19,7 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, shake: false, autoShop: false, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, sound: true, shake: false, autoShop: false, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
@@ -202,7 +202,8 @@
       <h2>${esc(t('Lista de compras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sumar a la lista al terminar un producto'))}</span><input type="checkbox" data-act="autoshop" style="width:auto" ${S.autoShop ? 'checked' : ''}></label></div>
       <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
       <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">${ico('house')} ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
-      <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label></div>
+      <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label>
+        <label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sonido al escanear'))}</span><input type="checkbox" data-act="sound" style="width:auto" ${S.sound !== false ? 'checked' : ''}></label></div>
       <p class="small muted">${esc(t('Primero se busca en catálogos de Argentina y EE. UU. que ya están en la app (sin enviar nada). Si no está y la búsqueda está activada, solo el número del código se envía a Open Food Facts y a GTINSearch para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
       <h2>${esc(t('Datos'))}</h2><div class="group">
         <button class="link" data-act="stats">${esc(t('Estadísticas'))}</button>
@@ -647,6 +648,7 @@
     if (e.target.dataset && e.target.dataset.act === 'units') { S.units = e.target.value; save(); }
     if (e.target.dataset && e.target.dataset.act === 'opendays') { const p = S.products.find(x => x.id === e.target.dataset.id); if (p) { p.openDays = parseInt(e.target.value, 10) || 1; save(); render(); } }
     if (e.target.dataset && e.target.dataset.act === 'ck-voice' && ui.cook) { const r = recipeById(ui.cook.id); ui.cook.voice = e.target.checked; if (r) { if (ui.cook.voice) speak(r.steps[ui.cook.step]); else if (canSpeak()) speechSynthesis.cancel(); } }
+    if (e.target.dataset && e.target.dataset.act === 'sound') { S.sound = e.target.checked; save(); if (S.sound) beep(); }
     if (e.target.dataset && e.target.dataset.act === 'lookup') { S.lookup = e.target.checked; save(); }
     if (e.target.id === 'datepic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; dateFromPhoto(f); }
     if (e.target.id === 'scanpic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; if (scan.step === 'date') { scan.dateTarget = { kind: 'live' }; dateFromPhoto(f); } else codeFromPhoto(f); }
@@ -730,9 +732,33 @@
   /* ---------- escáner: código de barras, búsqueda del producto y fecha desde una foto ---------- */
   const scan = { mode: null, step: 'code', pre: null, votes: {}, dateStop: null, msg: '', stop: null, items: [], last: '', lastAt: 0, dateTarget: null };
   const setScanStatus = x => { const e = document.getElementById('scanstatus'); if (e) e.textContent = x; };
+  /* Sonido de lectura: el mismo beep de las apps (seno de 2600 Hz, 0,11 s). Va como <audio> y no como Web Audio porque en el iPhone
+     el audio «de medios» suena también con el interruptor de silencio (como en la app), y se «desbloquea» con el primer toque. */
+  let beepEl = null, beepCtx = null;
+  function beepWav() {
+    const rate = 44100, n = Math.round(rate * 0.11), fade = Math.round(rate * 0.006), buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf), w = (o, t) => { for (let k = 0; k < t.length; k++) v.setUint8(o + k, t.charCodeAt(k)); };
+    w(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); w(8, 'WAVEfmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true); v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); w(36, 'data'); v.setUint32(40, n * 2, true);
+    for (let k = 0; k < n; k++) { let a = 0.9; if (k < fade) a *= k / fade; if (k >= n - fade) a *= (n - k) / fade; v.setInt16(44 + k * 2, Math.round(Math.sin(2 * Math.PI * 2600 * k / rate) * a * 32767), true); }
+    return new Blob([buf], { type: 'audio/wav' });
+  }
+  function unlockSound() {
+    try {
+      if (!beepEl) { beepEl = new Audio(URL.createObjectURL(beepWav())); beepEl.preload = 'auto'; beepEl.setAttribute('playsinline', ''); }
+      beepEl.muted = true; const pr = beepEl.play(); if (pr && pr.then) pr.then(() => { beepEl.pause(); beepEl.muted = false; beepEl.currentTime = 0; }).catch(() => { beepEl.muted = false; });
+      const A = window.AudioContext || window.webkitAudioContext; if (A && !beepCtx) beepCtx = new A(); if (beepCtx && beepCtx.state === 'suspended') beepCtx.resume();
+    } catch (e) { /* sin audio */ }
+  }
+  ['pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, function once() { unlockSound(); document.removeEventListener(ev, once, true); }, true));
   function beep() {
-    try { const A = window.AudioContext || window.webkitAudioContext, a = new A(), o = a.createOscillator(), g = a.createGain(); o.frequency.value = 1100; g.gain.value = 0.15; o.connect(g); g.connect(a.destination); o.start(); setTimeout(() => { o.stop(); a.close(); }, 120); } catch (e) { /* sin sonido */ }
+    if (S.sound !== false) {
+      let ok = false;
+      try { if (beepEl) { beepEl.muted = false; beepEl.currentTime = 0; const pr = beepEl.play(); ok = true; if (pr && pr.catch) pr.catch(() => webBeep()); } } catch (e) { ok = false; }
+      if (!ok) webBeep();
+    }
     try { if (navigator.vibrate) navigator.vibrate(40); } catch (e) { /* sin vibración */ }
+  }
+  function webBeep() {
+    try { const a = beepCtx || new (window.AudioContext || window.webkitAudioContext)(); if (a.state === 'suspended') a.resume(); const o = a.createOscillator(), g = a.createGain(); o.frequency.value = 2600; g.gain.setValueAtTime(0.0001, a.currentTime); g.gain.exponentialRampToValueAtTime(0.9, a.currentTime + 0.006); g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + 0.11); o.connect(g); g.connect(a.destination); o.start(); o.stop(a.currentTime + 0.12); } catch (e) { /* sin sonido */ }
   }
   const info = code => VScan.lookup(code, lang(), S.lookup).catch(() => null);
   function openScanner(mode) {
@@ -852,7 +878,7 @@
   /* ---------- gestos: deslizar un producto (← «usé 1», → tirar) y agitar para deshacer ---------- */
   { let sw = null, blockClick = 0;
     document.addEventListener('pointerdown', e => {
-      if (e.pointerType === 'mouse' || e.button > 0) return; const row = e.target.closest('.swrow'); if (!row || ui.sheet) return;
+      if (e.pointerType === 'mouse' || e.button > 0) return; const row = e.target.closest && e.target.closest('.swrow'); if (!row || ui.sheet) return;
       sw = { row, btn: row.querySelector('.item'), x: e.clientX, y: e.clientY, dx: 0, on: false, id: e.pointerId };
     });
     document.addEventListener('pointermove', e => {
