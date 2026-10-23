@@ -19,7 +19,7 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, autoShop: false, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, shake: false, autoShop: false, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
@@ -139,9 +139,9 @@
     if (expOf(p) && b !== 'none') meta.push(fmtDate(expOf(p))); else meta.push(t('Sin fecha'));
     const c = catLabel(catKey(p.category)) || p.category; if (c) meta.push(c);
     if (p.location) meta.push(placeLabel(p.location));
-    return `<button class="item" data-act="open" data-id="${esc(p.id)}">${catBadge(catKey(p.category))}
+    return `<div class="swrow"><div class="swbg l" aria-hidden="true">${ico('circle-check')} ${esc(t('Usé 1'))}</div><div class="swbg r" aria-hidden="true">${esc(t('Tirar'))} ${ico('trash-2')}</div><button class="item" data-act="open" data-id="${esc(p.id)}">${catBadge(catKey(p.category))}
       <span class="grow"><span class="t">${esc(p.name)}${p.quantity > 1 ? ' ×' + p.quantity : ''}</span><br><span class="s">${esc(meta.join(' · '))}</span></span>
-      ${b !== 'none' ? `<span class="pill ${tone(b)}">${esc(shortLabel(d))}</span>` : ''}</button>`;
+      ${b !== 'none' ? `<span class="pill ${tone(b)}">${esc(shortLabel(d))}</span>` : ''}</button></div>`;
   }
   function listHtml() {
     const q = fold(ui.q), items = visible().filter(p => (!ui.cat || catKey(p.category) === ui.cat) && (!ui.loc || p.location === ui.loc) && (!q || [p.name, p.category, catLabel(catKey(p.category)), p.location, placeLabel(p.location), p.notes].some(v => fold(v).includes(q))));
@@ -197,11 +197,13 @@
     return `<h1>${esc(t('Ajustes'))}</h1>
       <h2>${esc(t('Idioma / Language'))}</h2><div class="group">${langRow('', t('Idioma del sistema'))}${Object.entries(LANGS).map(([k, n]) => langRow(k, n)).join('')}</div>
       <h2>${esc(t('Por vencer'))}</h2><div class="group"><label class="f"><span>${esc(t('Se marca «Por vencer» cuando faltan hasta'))}</span><select data-act="soon">${[1, 3, 7, 15].map(n => `<option value="${n}" ${S.soon === n ? 'selected' : ''}>${esc(t('%lld días', n))}</option>`).join('')}</select></label></div>
+      <h2>${esc(t('Gestos'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Agitar para deshacer'))}</span><input type="checkbox" data-act="shake" style="width:auto" ${S.shake ? 'checked' : ''}></label></div>
+      <p class="small muted">${esc(t('Deslizá un producto hacia la izquierda para marcar «usé 1» o hacia la derecha para tirarlo; agitá el teléfono para deshacer lo último.'))}</p>
       <h2>${esc(t('Lista de compras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sumar a la lista al terminar un producto'))}</span><input type="checkbox" data-act="autoshop" style="width:auto" ${S.autoShop ? 'checked' : ''}></label></div>
       <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
       <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">${ico('house')} ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
       <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label></div>
-      <p class="small muted">${esc(t('Al escanear un código se envía solo ese número a Open Food Facts para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
+      <p class="small muted">${esc(t('Primero se busca en un catálogo argentino que ya está en la app (sin enviar nada). Si no está y la búsqueda está activada, solo el número del código se envía a Open Food Facts y a GTINSearch para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
       <h2>${esc(t('Datos'))}</h2><div class="group">
         <button class="link" data-act="stats">${esc(t('Estadísticas'))}</button>
         <button class="link" data-act="dups">${esc(t('Buscar duplicados'))}${dupGroups().length ? ' (' + dupSurplus() + ')' : ''}</button>
@@ -210,7 +212,7 @@
         <button class="link danger" data-act="clear-hist">${esc(t('Borrar historial'))}</button>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
-      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
+      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><p class="small muted" style="padding:10px 14px;margin:0">Precios Claros – Base SEPA, Secretaría de Comercio, Ministerio de Economía (CC BY 4.0). Open Food Facts (ODbL). Íconos: Lucide (ISC).</p><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
   }
   const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten']];
   function matchRecipe(r) {
@@ -274,10 +276,17 @@
   }
   function ensureQuickData() { if (!ui.quickP) ui.quickP = fetch('data/quick.json').then(r => r.json()).then(j => { ui.quick = j; if (ui.tab === 'recipes') refreshRecipes(); }).catch(() => { ui.quick = []; }); return ui.quickP; }
   const refreshRecipes = () => { const e = document.getElementById('rlist'); if (e && ui.tab === 'recipes' && !ui.sheet) e.innerHTML = ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards(); };
+  /* etiquetas de dieta de la receta (orientativas, como en la app): la vegana ya implica vegetariana */
+  const DIET_BADGES = [['vegetarian', 'Vegetariana', 'carrot'], ['vegan', 'Vegana', 'leaf'], ['dairyFree', 'Sin lácteos', 'milk'], ['glutenFree', 'Sin gluten', 'wheat']];
+  function dietBadges(r, small) {
+    if (!r || r.composed) return ''; const tags = new Set((ui.diets || {})[r.id] || []); if (tags.has('vegan')) tags.delete('vegetarian');
+    const b = DIET_BADGES.filter(x => tags.has(x[0])); if (!b.length) return '';
+    return `<div class="badges${small ? ' sm' : ''}">${b.map(x => `<span class="badge">${ico(x[2])} ${esc(t(x[1]))}</span>`).join('')}</div>`;
+  }
   const photo = (id, cls) => `<img class="${cls}" src="photos/${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
   const flagOf = o => (o && /^[A-Z]{2}$/.test(o) ? String.fromCodePoint(...[...o].map(c => 127397 + c.charCodeAt(0))) + ' ' : '');
   function recipeCard(m) { const r = m.r; return `<button class="card recipe" style="display:block;width:100%;text-align:left;border:0;margin:8px 0" data-act="recipe" data-id="${esc(r.id)}"><div class="rcard">${r.composed ? composedThumb(r) : photo(r.id, 'thumb')}<div class="grow"><div class="t">${flagOf(r.origin)}${esc(r.title)}${m.expiring ? ' ' + ico('flame', 'o') : ''}</div>
-        <div class="s muted small clamp">${esc(r.summary || '')}</div><div class="small" style="margin-top:6px">${m.all ? '' : `<span class="good">${esc(t('Tenés %lld de %lld ingredientes', m.have, m.total))}</span> · `}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</div></div></div></button>`; }
+        <div class="s muted small clamp">${esc(r.summary || '')}</div>${dietBadges(r, true)}<div class="small" style="margin-top:6px">${m.all ? '' : `<span class="good">${esc(t('Tenés %lld de %lld ingredientes', m.have, m.total))}</span> · `}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</div></div></div></button>`; }
   function recipeCards() {
     const list = recipeList(), comp = ui.rmode === 'mine' && !ui.rdiet ? compHtml() : '';
     if (ui.rmode === 'saved' && !list.length) return `<div class="empty"><b>${esc(t('Recetas guardadas'))}</b>${esc(t('Todavía no guardaste ninguna receta.'))}</div>`;
@@ -477,7 +486,7 @@
         <button class="link" data-act="ck-mode" data-id="list">${esc(t('Volver a la receta'))}</button>`);
     }
     const m = matchRecipe(r), saved = isSaved(r);
-    return sheet(r.title, `${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>
+    return sheet(r.title, `${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>${dietBadges(r)}
       ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">${ico('users')} <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
       ${r.side ? `<p class="small">${ico('leaf')} ${esc(r.side)}</p>` : ''}
       <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>${ico('play')}</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${ico('heart', saved ? 'fill' : '')}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button><button class="btn" data-act="ck-share"><b>${ico('share-2')}</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>${ico('audio-lines')}</b>${esc(t('Cocinar con ChatGPT'))}</button></div>
@@ -587,8 +596,9 @@
       case 'scan-consume': openScanner('consume'); break;
       case 'scan-bulk': openScanner('bulk'); break;
       case 'form-scan': openScanner('fill'); break;
-      case 'read-date': pickDate({ kind: 'form' }); break;
+      case 'read-date': openScanner('date'); break;
       case 'scan-close': closeScanner(); break;
+      case 'scan-skip': finishDate(null); break;
       case 'scan-pic': document.getElementById('scanpic').click(); break;
       case 'scan-date': pickDate({ kind: 'bulk', i: +id }); break;
       case 'scan-del': scan.items.splice(+id, 1); scanList(); break;
@@ -632,13 +642,14 @@
   document.addEventListener('change', e => {
     if (e.target.name === 'category') e.target.dataset.auto = '';
     if (e.target.dataset && e.target.dataset.act === 'home-name') { const h = S.homes.find(x => x.id === e.target.dataset.id), v = e.target.value.trim().slice(0, 60); if (h && v) { h.name = v; save(); } }
+    if (e.target.dataset && e.target.dataset.act === 'shake') { const on = e.target.checked; if (on) { shakeEnable().then(ok => { S.shake = ok; save(); if (!ok) { e.target.checked = false; toast(t('No se pudo activar el sensor de movimiento.'), false, true); } }); } else { S.shake = false; save(); } }
     if (e.target.dataset && e.target.dataset.act === 'autoshop') { S.autoShop = e.target.checked; save(); }
     if (e.target.dataset && e.target.dataset.act === 'units') { S.units = e.target.value; save(); }
     if (e.target.dataset && e.target.dataset.act === 'opendays') { const p = S.products.find(x => x.id === e.target.dataset.id); if (p) { p.openDays = parseInt(e.target.value, 10) || 1; save(); render(); } }
     if (e.target.dataset && e.target.dataset.act === 'ck-voice' && ui.cook) { const r = recipeById(ui.cook.id); ui.cook.voice = e.target.checked; if (r) { if (ui.cook.voice) speak(r.steps[ui.cook.step]); else if (canSpeak()) speechSynthesis.cancel(); } }
     if (e.target.dataset && e.target.dataset.act === 'lookup') { S.lookup = e.target.checked; save(); }
     if (e.target.id === 'datepic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; dateFromPhoto(f); }
-    if (e.target.id === 'scanpic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; codeFromPhoto(f); }
+    if (e.target.id === 'scanpic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; if (scan.step === 'date') { scan.dateTarget = { kind: 'live' }; dateFromPhoto(f); } else codeFromPhoto(f); }
     if (e.target.dataset && e.target.dataset.act === 'soon') { S.soon = parseInt(e.target.value, 10) || 7; save(); render(); }
     if (e.target.id === 'imp' && e.target.files[0]) importJson(e.target.files[0]);
     if (e.target.name === 'noexp') { const d = document.querySelector('input[name=expiry]'); if (d) d.disabled = e.target.checked; }
@@ -717,34 +728,36 @@
   }
 
   /* ---------- escáner: código de barras, búsqueda del producto y fecha desde una foto ---------- */
-  const scan = { mode: null, stop: null, items: [], last: '', lastAt: 0, dateTarget: null };
+  const scan = { mode: null, step: 'code', pre: null, votes: {}, dateStop: null, msg: '', stop: null, items: [], last: '', lastAt: 0, dateTarget: null };
   const setScanStatus = x => { const e = document.getElementById('scanstatus'); if (e) e.textContent = x; };
   function beep() {
     try { const A = window.AudioContext || window.webkitAudioContext, a = new A(), o = a.createOscillator(), g = a.createGain(); o.frequency.value = 1100; g.gain.value = 0.15; o.connect(g); g.connect(a.destination); o.start(); setTimeout(() => { o.stop(); a.close(); }, 120); } catch (e) { /* sin sonido */ }
     try { if (navigator.vibrate) navigator.vibrate(40); } catch (e) { /* sin vibración */ }
   }
-  const info = code => (S.lookup ? VScan.lookup(code, lang()).catch(() => null) : Promise.resolve(null));
+  const info = code => VScan.lookup(code, lang(), S.lookup).catch(() => null);
   function openScanner(mode) {
-    closeScanner(); scan.mode = mode; scan.items = []; scan.last = '';
-    const title = mode === 'consume' ? t('Consumir con escáner') : mode === 'bulk' ? t('Agregar varios') : t('Escanear código');
+    closeScanner(); scan.mode = mode; scan.step = 'code'; scan.pre = null; scan.items = []; scan.last = '';
+    const title = mode === 'date' ? t('Vencimiento') : mode === 'consume' ? t('Consumir con escáner') : mode === 'bulk' ? t('Agregar varios') : t('Escanear código');
     const el = document.createElement('div'); el.id = 'scanlayer';
     el.innerHTML = `<div class="sheet-bg scanbg"><div class="sheet" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3><button class="btn" data-act="scan-close">${esc(mode === 'bulk' ? t('Listo') : t('Cerrar'))}</button></div>
       <div class="vwrap"><video id="scanvideo" playsinline muted></video><div class="aim"></div></div>
       <p id="scanstatus" class="muted" aria-live="polite">${esc(mode === 'consume' ? t('Apuntá al código de barras o QR del producto que usaste') : t('Apuntá al código de barras'))}</p>
       <form class="row" data-form="scan-manual"><input class="search grow" id="scancode" inputmode="numeric" pattern="[0-9]*" placeholder="${esc(t('Código de barras'))}" autocomplete="off"><button class="btn primary" type="submit">OK</button></form>
       <button class="link" data-act="scan-pic">${ico('image')} ${esc(t('Elegir una foto'))}</button>
+      <button class="link" data-act="scan-skip" hidden>${esc(t('Elegir la fecha a mano'))}</button>
       <div id="scanlist"></div></div></div>`;
     document.body.appendChild(el); scanList();
-    VScan.startScan(el.querySelector('video'), onCode).then(stop => { if (document.getElementById('scanlayer') === el) scan.stop = stop; else stop(); })
-      .catch(() => { setScanStatus(t('El escáner no está disponible en este dispositivo (requiere cámara y permiso de acceso).')); const w = el.querySelector('.vwrap'); if (w) w.hidden = true; });
+    VScan.startScan(el.querySelector('video'), onCode).then(stop => { if (document.getElementById('scanlayer') === el) { scan.stop = stop; if (mode === 'date') startDateStep(); } else stop(); })
+      .catch(() => { setScanStatus(t('El escáner no está disponible en este dispositivo (requiere cámara y permiso de acceso).')); const w = el.querySelector('.vwrap'); if (w) w.hidden = true; if (mode === 'date') startDateStep(); });
   }
   function closeScanner() {
     if (scan.stop) { try { scan.stop(); } catch (e) { /* ya cerrada */ } scan.stop = null; }
+    if (scan.dateStop) { try { scan.dateStop(); } catch (e) { /* ya parada */ } scan.dateStop = null; }
     const el = document.getElementById('scanlayer'); if (el) el.remove(); scan.mode = null;
   }
   function onCode(code) {
     const now = Date.now(); if (code === scan.last && now - scan.lastAt < 3000) { scan.lastAt = now; return; }
-    scan.last = code; scan.lastAt = now; if (!scan.mode) return; beep(); handleCode(code);
+    scan.last = code; scan.lastAt = now; if (!scan.mode || scan.step === 'date') return; beep(); handleCode(code);
   }
   async function handleCode(code) {
     const mode = scan.mode; if (!mode) return;
@@ -774,8 +787,34 @@
       }
       closeScanner(); return;
     }
-    closeScanner(); ui.tab = 'products'; ui.sheet = { type: 'form', id: null, pre: { pre: true, name: r ? r.name : '', category: r ? r.category : '', barcode: code } }; render();
-    const st = document.getElementById('fstatus'); if (st) st.textContent = msg;
+    scan.pre = { pre: true, name: r ? r.name : '', category: r ? r.category : '', barcode: code }; scan.msg = msg; startDateStep();
+  }
+  /* paso 2 (como la app): la fecha se lee en vivo y solo se acepta cuando se repite en varios cuadros */
+  function startDateStep() {
+    if (!scan.mode) return; scan.step = 'date'; scan.votes = {};
+    const el = document.getElementById('scanlayer'); if (el) { el.classList.add('datestep'); const sk = el.querySelector('[data-act=scan-skip]'); if (sk) sk.hidden = false; }
+    setScanStatus(t('Ahora apuntá a la fecha de vencimiento'));
+    const v = el && el.querySelector('video'); if (!v || !v.srcObject) return;
+    VScan.startDateLoop(v, text => {
+      if (scan.step !== 'date') return; const p = DateParser.parse(text); if (!p) return;
+      const e = scan.votes[p.date] || (scan.votes[p.date] = { n: 0, p }); e.n++; e.p = p;
+      if (e.n >= 3 || (e.n >= 2 && p.confidence === 'alta')) finishDate(p);
+      else setScanStatus(t('Fecha detectada: %@ (confianza %@). Revisala antes de guardar.', fmtDate(p.date), t({ alta: 'Alta', media: 'Media', baja: 'Baja' }[p.confidence])));
+    }, m => { if (m.status && /loading/.test(m.status)) setScanStatus(t('Leyendo texto…') + ' ' + Math.round(100 * (m.progress || 0)) + '%'); })
+      .then(stop => { if (scan.step === 'date' && scan.mode) scan.dateStop = stop; else stop(); }).catch(() => {});
+  }
+  function finishDate(p) {
+    const mode = scan.mode; if (!mode) return;
+    if (scan.dateStop) { try { scan.dateStop(); } catch (e) { /* ya parada */ } scan.dateStop = null; }
+    const pre = scan.pre, msg = scan.msg; if (p) beep();
+    closeScanner();
+    if (mode === 'date') {
+      const f = document.querySelector('form[data-form=product]'); if (!f || !p) return;
+      f.elements.expiry.value = p.date; f.elements.noexp.checked = false; f.elements.expiry.disabled = false;
+      const st = document.getElementById('fstatus'); if (st) st.textContent = t('Fecha detectada: %@ (confianza %@). Revisala antes de guardar.', fmtDate(p.date), t({ alta: 'Alta', media: 'Media', baja: 'Baja' }[p.confidence])); return;
+    }
+    ui.tab = 'products'; ui.sheet = { type: 'form', id: null, pre: Object.assign({}, pre, p ? { expiry: p.date } : {}) }; render();
+    const st = document.getElementById('fstatus'); if (st) st.textContent = msg + (p ? ' ' + t('Fecha detectada: %@ (confianza %@). Revisala antes de guardar.', fmtDate(p.date), t({ alta: 'Alta', media: 'Media', baja: 'Baja' }[p.confidence])) : '');
   }
   function scanList() {
     const box = document.getElementById('scanlist'); if (!box) return;
@@ -797,6 +836,7 @@
     try {
       const r = await VScan.readDate(file, m => { if (m.status === 'loading tesseract core' || m.status === 'loading language traineddata') say(t('Leyendo texto…') + ' ' + Math.round(100 * (m.progress || 0)) + '%'); });
       if (!r) { say(t('No encontré una fecha de vencimiento. Cargala a mano.')); return; }
+      if (tg.kind === 'live') { finishDate(r); return; }
       if (tg.kind === 'form') { const f = document.querySelector('form[data-form=product]'); if (!f) return; f.elements.expiry.value = r.date; f.elements.noexp.checked = false; f.elements.expiry.disabled = false; }
       else { const it = scan.items[tg.i]; if (!it) return; it.expiry = r.date; scanList(); }
       say(t('Fecha detectada: %@ (confianza %@). Revisala antes de guardar.', fmtDate(r.date), t({ alta: 'Alta', media: 'Media', baja: 'Baja' }[r.confidence])));
@@ -808,6 +848,38 @@
     catch (err) { setScanStatus(t('No pude leer la foto: %@', String(err.message || err))); }
   }
   document.body.insertAdjacentHTML('beforeend', '<input type="file" id="datepic" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="scanpic" accept="image/*" class="sr" tabindex="-1" aria-hidden="true">');
+
+  /* ---------- gestos: deslizar un producto (← «usé 1», → tirar) y agitar para deshacer ---------- */
+  { let sw = null, blockClick = 0;
+    document.addEventListener('pointerdown', e => {
+      if (e.pointerType === 'mouse' || e.button > 0) return; const row = e.target.closest('.swrow'); if (!row || ui.sheet) return;
+      sw = { row, btn: row.querySelector('.item'), x: e.clientX, y: e.clientY, dx: 0, on: false, id: e.pointerId };
+    });
+    document.addEventListener('pointermove', e => {
+      if (!sw || e.pointerId !== sw.id) return; const dx = e.clientX - sw.x, dy = e.clientY - sw.y;
+      if (!sw.on) { if (Math.abs(dx) > 12 && Math.abs(dx) > Math.abs(dy) * 1.6) { sw.on = true; sw.row.classList.add('drag'); try { sw.btn.setPointerCapture(e.pointerId); } catch (err) { /* sin captura */ } } else if (Math.abs(dy) > 12) { sw = null; return; } }
+      if (sw.on) { sw.dx = Math.max(-160, Math.min(160, dx)); sw.btn.style.transform = 'translateX(' + sw.dx + 'px)'; sw.row.classList.toggle('go-l', sw.dx < -90); sw.row.classList.toggle('go-r', sw.dx > 90); sw.row.dataset.side = sw.dx < 0 ? 'l' : 'r'; }
+    });
+    const end = () => {
+      if (!sw) return; const { row, btn, dx, on } = sw; sw = null; if (!on) return;
+      blockClick = Date.now() + 400; btn.style.transform = ''; row.classList.remove('drag', 'go-l', 'go-r');
+      const id = btn.dataset.id; if (dx < -90) consumeOne(id); else if (dx > 90) discard(id);
+    };
+    document.addEventListener('pointerup', end); document.addEventListener('pointercancel', end);
+    document.addEventListener('click', e => { if (Date.now() < blockClick && e.target.closest('.swrow')) { e.stopPropagation(); e.preventDefault(); } }, true);
+  }
+  let lastShake = 0, shakeOn = false;
+  function onMotion(e) {
+    if (!S.shake || !ui.undo) return; const a = e.accelerationIncludingGravity || e.acceleration; if (!a) return;
+    const g = Math.sqrt((a.x || 0) ** 2 + (a.y || 0) ** 2 + (a.z || 0) ** 2), now = Date.now();
+    if (g > 24 && now - lastShake > 900) { lastShake = now; if (ui.undo) { ui.undo(); ui.undo = null; ui.toast = null; const el = document.getElementById('toast'); if (el) el.remove(); render(); } }
+  }
+  function shakeStart() { if (!shakeOn) { window.addEventListener('devicemotion', onMotion); shakeOn = true; } }
+  async function shakeEnable() {
+    try { if (typeof DeviceMotionEvent !== 'undefined' && typeof DeviceMotionEvent.requestPermission === 'function') { const r = await DeviceMotionEvent.requestPermission(); if (r !== 'granted') throw new Error('no'); } shakeStart(); return true; }
+    catch (err) { return false; }
+  }
+  if (S.shake && !(typeof DeviceMotionEvent !== 'undefined' && typeof DeviceMotionEvent.requestPermission === 'function')) shakeStart();
 
   /* ---------- arranque ---------- */
   { const lp = new URLSearchParams(location.search).get('lang'); if (lp && LANGS[lp] && !S.lang) { S.lang = lp; save(); } }

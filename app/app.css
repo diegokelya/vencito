@@ -159,3 +159,21 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .thumb.ph .ic { width: 36px; height: 36px; color: var(--muted); }
 .btn .ic, .link .ic { width: 1.15em; height: 1.15em; }
 .chip .ic { width: 1.1em; height: 1.1em; }
+
+.datestep form[data-form=scan-manual] { display: none; }
+[hidden] { display: none !important; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.badge { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: color-mix(in srgb, var(--primary) 16%, transparent); color: var(--primary); }
+.badge .ic { width: 14px; height: 14px; }
+.badges.sm { margin: 4px 0 0; } .badges.sm .badge { font-size: 11px; padding: 2px 7px; }
+
+/* gestos */
+.swrow { position: relative; overflow: hidden; touch-action: pan-y; }
+.swrow .item { position: relative; background: var(--card); transition: transform .18s ease; }
+.swrow.drag .item { transition: none; }
+.swbg { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; gap: 6px; padding: 0 18px; font-weight: 600; color: #fff; width: 50%; }
+.swbg.l { right: 0; justify-content: flex-end; background: var(--primary); }
+.swbg.r { left: 0; justify-content: flex-start; background: #b86200; }
+.swrow:not(.drag) .swbg { visibility: hidden; }
+.swrow[data-side=l] .swbg.r, .swrow[data-side=r] .swbg.l { visibility: hidden; }
+.swrow.go-l .swbg.l, .swrow.go-r .swbg.r { filter: brightness(1.15); }
