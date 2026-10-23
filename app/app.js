@@ -203,7 +203,7 @@
       <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
       <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">${ico('house')} ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
       <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label></div>
-      <p class="small muted">${esc(t('Primero se busca en un catálogo argentino que ya está en la app (sin enviar nada). Si no está y la búsqueda está activada, solo el número del código se envía a Open Food Facts y a GTINSearch para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
+      <p class="small muted">${esc(t('Primero se busca en catálogos de Argentina y EE. UU. que ya están en la app (sin enviar nada). Si no está y la búsqueda está activada, solo el número del código se envía a Open Food Facts y a GTINSearch para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
       <h2>${esc(t('Datos'))}</h2><div class="group">
         <button class="link" data-act="stats">${esc(t('Estadísticas'))}</button>
         <button class="link" data-act="dups">${esc(t('Buscar duplicados'))}${dupGroups().length ? ' (' + dupSurplus() + ')' : ''}</button>
@@ -212,7 +212,7 @@
         <button class="link danger" data-act="clear-hist">${esc(t('Borrar historial'))}</button>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
-      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><p class="small muted" style="padding:10px 14px;margin:0">Precios Claros – Base SEPA, Secretaría de Comercio, Ministerio de Economía (CC BY 4.0). Open Food Facts (ODbL). Íconos: Lucide (ISC).</p><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
+      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><p class="small muted" style="padding:10px 14px;margin:0">Precios Claros – Base SEPA, Secretaría de Comercio, Ministerio de Economía (CC BY 4.0). USDA FoodData Central (dominio público). Open Food Facts (ODbL). Íconos: Lucide (ISC).</p><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
   }
   const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten']];
   function matchRecipe(r) {

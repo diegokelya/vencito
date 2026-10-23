@@ -28,7 +28,7 @@ test('el catálogo local responde sin red y sin importar los ceros a la izquierd
   assert.ok(r && r.name === name.slice(0, 200), 'catálogo: ' + code); assert.ok(!calls.some(c => c.includes('openfoodfacts') || c.includes('gtinsearch')), 'no sale ningún pedido');
 });
 test('sin la búsqueda en línea, un código que no está queda sin nombre y sin pedidos', async () => {
-  calls.length = 0; assert.equal(await V.lookup('1234567890123', 'es', false), null); assert.ok(!calls.some(c => !c.includes('argentina-catalog')));
+  calls.length = 0; assert.equal(await V.lookup('7791234567890', 'es', false), null); assert.ok(!calls.some(c => !c.includes('argentina-catalog')));
 });
 test('con la búsqueda en línea: Open Food Facts primero, GTINSearch si no está', async () => {
   off = () => new Response(JSON.stringify({ status: 'success', product: { product_name_es: 'Galletitas Surtidas', brands: 'Bagley', categories_tags: ['en:biscuits'] } }), { status: 200 });
@@ -44,3 +44,11 @@ test('un fallo de red no se recuerda como «no existe»', async () => {
   assert.equal((await V.lookup('7790001119999', 'es', true)).name, 'Fideos Tallarín');
 });
 test.after(() => { global.fetch = realFetch; });
+
+test('catálogo de EE. UU.: se encuentra por bisección, con o sin ceros, y solo para códigos de EE. UU.', async () => {
+  const gz = fs.readFileSync(path.join(__dirname, '..', 'app', 'data', 'usa-catalog.tsv.gz')); global.fetch = async url => (String(url).includes('usa-catalog') ? new Response(gz, { status: 200 }) : String(url).includes('argentina') ? new Response(catalogGz, { status: 200 }) : new Response('{}', { status: 404 }));
+  const lines = require('node:zlib').gunzipSync(gz).toString().split('\n').filter(Boolean), [code, name] = lines[1234].split('\t');
+  for (const c of [code.padStart(12, '0'), code.padStart(13, '0')]) { const r = await V.lookup(c, 'en', false); assert.equal(r && r.name, name.slice(0, 200).trim(), c + ' => ' + JSON.stringify(r)); }
+  const last = lines[lines.length - 1].split('\t'); assert.equal((await V.lookup(last[0].padStart(12, '0'), 'en', false)).name, last[1].slice(0, 200).trim(), 'último');
+  assert.equal(await V.lookup('7791234000001', 'en', false), null, 'un 779 no baja el catálogo de EE. UU.');
+});
