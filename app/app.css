@@ -99,3 +99,9 @@ ol.steps { padding-left: 22px; } ol.steps li { margin: 8px 0; }
 .vwrap[hidden] { display: none; }
 input.plain { width: 100%; border: 0; background: transparent; padding: 4px 0; outline: none; }
 .scanrow input[type=date] { width: auto; }
+.quick.four { grid-template-columns: 1fr 1fr; }
+.quick.four .btn { display: flex; align-items: center; justify-content: flex-start; gap: 10px; text-align: left; padding: 12px; font-size: 14px; }
+.chips.scroll { flex-wrap: nowrap; overflow-x: auto; margin: 4px -16px 6px; padding: 2px 16px; scrollbar-width: none; }
+.chips.scroll::-webkit-scrollbar { display: none; }
+.chips.scroll .chip { white-space: nowrap; flex: none; }
+button.stat { color: inherit; font: inherit; }
