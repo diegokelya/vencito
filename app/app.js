@@ -3,6 +3,8 @@
   'use strict';
 
   /* ---------- utilidades ---------- */
+  // Misma versión que las apps de iOS y Android (MARKETING_VERSION / versionName): se actualiza junto con ellas.
+  const APP_VERSION = '1.13.0';
   const LS = 'vencito.pwa.v1';
   const LANGS = { es: 'Español', en: 'English', pt: 'Português', fr: 'Français', it: 'Italiano', de: 'Deutsch' };
   const LOCALES = { es: 'es-AR', en: 'en-US', pt: 'pt-BR', fr: 'fr-FR', it: 'it-IT', de: 'de-DE' };
@@ -174,7 +176,7 @@
         <label class="link" style="display:block;cursor:pointer">${esc(t('Importar JSON'))}<input type="file" id="imp" accept="application/json,.json" class="sr"></label>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
-      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">PWA 1.0</span></div><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
+      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
   }
   const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten']];
   function matchRecipe(r) {
