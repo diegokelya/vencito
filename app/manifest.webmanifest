@@ -6,6 +6,14 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
+  "id": "./",
+  "lang": "es",
+  "categories": ["food", "lifestyle", "productivity"],
+  "shortcuts": [
+    { "name": "Escanear código", "short_name": "Escanear", "url": "./?action=scan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Carga rápida", "short_name": "Rápida", "url": "./?action=quick", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "¿Qué cocino hoy?", "short_name": "Recetas", "url": "./?action=recipes", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ],
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
