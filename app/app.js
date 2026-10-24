@@ -845,8 +845,12 @@
   function scanList() {
     const box = document.getElementById('scanlist'); if (!box) return;
     if (scan.mode !== 'bulk' || !scan.items.length) { box.innerHTML = ''; return; }
-    box.innerHTML = `<div class="group">${scan.items.map((it, i) => `<div class="item scanrow"><span class="grow"><input class="plain" data-scan="name" data-i="${i}" value="${esc(it.name)}" placeholder="${esc(it.loading ? t('Buscando…') : t('Nombre'))}" maxlength="200"><span class="row" style="margin-top:4px"><input class="plain" type="date" data-scan="expiry" data-i="${i}" value="${esc(it.expiry)}" aria-label="${esc(t('Vencimiento'))}"><button class="btn" data-act="scan-date" data-id="${i}" aria-label="${esc(t('Leer fecha de la foto'))}">${ico('calendar')}</button></span></span>
-      <span class="stepper"><button type="button" data-act="scan-qty" data-id="${i}" data-d="-1">−</button><b>${it.qty}</b><button type="button" data-act="scan-qty" data-id="${i}" data-d="1">+</button></span><button class="btn" data-act="scan-del" data-id="${i}" aria-label="${esc(t('Eliminar'))}">${ico('x')}</button></div>`).join('')}</div>
+    // Cada producto en dos renglones (el nombre entero arriba, con el botón de quitar; la fecha y la cantidad abajo) para que entre en una pantalla angosta.
+    box.innerHTML = `<div class="group">${scan.items.map((it, i) => `<div class="scanrow">
+      <input class="plain scanname" data-scan="name" data-i="${i}" value="${esc(it.name)}" placeholder="${esc(it.loading ? t('Buscando…') : t('Nombre'))}" maxlength="200">
+      <button class="btn" data-act="scan-del" data-id="${i}" aria-label="${esc(t('Eliminar'))}">${ico('x')}</button>
+      <span class="row scanmeta"><input class="plain" type="date" data-scan="expiry" data-i="${i}" value="${esc(it.expiry)}" aria-label="${esc(t('Vencimiento'))}"><button class="btn" data-act="scan-date" data-id="${i}" aria-label="${esc(t('Leer fecha de la foto'))}">${ico('calendar')}</button></span>
+      <span class="stepper"><button type="button" data-act="scan-qty" data-id="${i}" data-d="-1">−</button><b>${it.qty}</b><button type="button" data-act="scan-qty" data-id="${i}" data-d="1">+</button></span></div>`).join('')}</div>
       <button class="btn primary block" data-act="scan-save">${esc(t('Guardar'))} (${scan.items.length})</button>`;
   }
   function scanSave() {
