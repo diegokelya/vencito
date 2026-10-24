@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#1f7a57">
 <link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="canonical" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="es" href="https://vencito.app/">
 <link rel="alternate" hreflang="en" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
@@ -19,6 +20,12 @@
 <meta property="og:description" content="Snap the package: Vencito reads the date and reminds you before it expires.">
 <meta property="og:image" content="https://vencito.app/assets/img/og.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vencito.app/en/">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Vencito">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vencito icon next to the text “Sacale una foto al envase. Te avisa antes de que se venza.” (in Spanish) and the stamp VTO 14/02/27">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/site.css?v=20261019">
@@ -45,7 +52,7 @@
         <p class="eyebrow">For iPhone, iPad and Android</p>
         <h1>Nothing in your pantry goes to waste.</h1>
         <p class="lead">Snap a photo of the package and Vencito reads the expiration date. It reminds you before it expires and shows you what to use first.</p>
-        <div class="stamp-line" aria-label="Example: EXP 14/02/27 is read as February 14, 2027">
+        <div class="stamp-line" role="img" aria-label="Example: EXP 14/02/27 is read as February 14, 2027">
           <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">February 14, 2027</span>
         </div>
         <div class="actions">
@@ -83,7 +90,7 @@
         <div class="label-card">
           <label for="label-text">Text printed on the package</label>
           <input id="label-text" type="text" value="MFG 03/01/26 EXP 14/02/27" autocomplete="off" spellcheck="false">
-          <div class="chips" aria-label="Examples">
+          <div class="chips" role="group" aria-label="Examples">
             <button class="chip-btn" type="button" data-sample="USE BY 25 AUG 2026">25 AUG 2026</button>
             <button class="chip-btn" type="button" data-sample="Best before 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
@@ -226,7 +233,7 @@
       <div class="privacy-grid">
         <div><h3>All on-device</h3><p>Products, photos and settings are stored on your iPhone, iPad or Android phone. On Apple devices, if you turn on iCloud sync, they are also in your private iCloud (the developer has no access).</p></div>
         <div><h3>Read on the device</h3><p>Text in photos and barcodes are read on the device: with Apple's recognition on iPhone and iPad, and with Google's ML Kit on Android.</p></div>
-        <div><h3>One optional piece of data leaves</h3><p>To look up a product, only the barcode number is sent to Open Food Facts and its sister databases. You can turn it off.</p></div>
+        <div><h3>One optional piece of data leaves</h3><p>To look up a product, only the barcode number is sent to Open Food Facts, its sister databases and, as a last resort, GTINSearch. You can turn it off.</p></div>
         <div><h3>Local reminders</h3><p>Notifications are scheduled by the phone itself. They don't go through any server.</p></div>
       </div>
       <p style="margin-top:28px"><a href="../privacy.html#en">Read the full privacy policy</a></p>
@@ -271,6 +278,6 @@
     </nav>
   </div>
 </footer>
-<script src="../assets/site.js?v=20261019" defer></script>
+<script src="../assets/site.js?v=20261024" defer></script>
 </body>
 </html>

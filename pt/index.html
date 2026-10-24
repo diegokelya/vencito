@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#1f7a57">
 <link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="canonical" href="https://vencito.app/pt/">
 <link rel="alternate" hreflang="es" href="https://vencito.app/">
 <link rel="alternate" hreflang="en" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
@@ -19,6 +20,12 @@
 <meta property="og:description" content="Tire uma foto da embalagem: o Vencito lê a data e avisa você antes de vencer.">
 <meta property="og:image" content="https://vencito.app/assets/img/og.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vencito.app/pt/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Vencito">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ícone do Vencito ao lado do texto “Sacale una foto al envase. Te avisa antes de que se venza.” (em espanhol) e o carimbo VTO 14/02/27">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/site.css?v=20261019">
@@ -45,7 +52,7 @@
         <p class="eyebrow">App para iPhone, iPad e Android</p>
         <h1>Nada na sua despensa se perde.</h1>
         <p class="lead">Tire uma foto da embalagem e o Vencito lê a data de validade. Avisa antes de vencer e mostra o que usar primeiro.</p>
-        <div class="stamp-line" aria-label="Exemplo: EXP 14/02/27 é lido como 14 de fevereiro de 2027">
+        <div class="stamp-line" role="img" aria-label="Exemplo: EXP 14/02/27 é lido como 14 de fevereiro de 2027">
           <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">14 de fevereiro de 2027</span>
         </div>
         <div class="actions">
@@ -81,7 +88,7 @@
         <div class="label-card">
           <label for="label-text">Texto impresso na embalagem</label>
           <input id="label-text" type="text" value="FAB 03/01/26 VAL 14/02/27" autocomplete="off" spellcheck="false">
-          <div class="chips" aria-label="Exemplos">
+          <div class="chips" role="group" aria-label="Exemplos">
             <button class="chip-btn" type="button" data-sample="VAL 25 AGO 2026">25 AGO 2026</button>
             <button class="chip-btn" type="button" data-sample="Consumir antes de 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="VAL 10/2027">10/2027</button>
@@ -224,7 +231,7 @@
       <div class="privacy-grid">
         <div><h3>Tudo no aparelho</h3><p>Os produtos, as fotos e os ajustes ficam no seu iPhone, iPad ou celular Android. Nos aparelhos Apple, se você ativar a sincronização com o iCloud, também no seu iCloud privado (o desenvolvedor não tem acesso).</p></div>
         <div><h3>Lido no aparelho</h3><p>O texto das fotos e os códigos de barras são lidos no aparelho: com o reconhecimento da Apple no iPhone e no iPad, e com o ML Kit do Google no Android.</p></div>
-        <div><h3>Sai um único dado opcional</h3><p>Para buscar um produto, apenas o número do código de barras é enviado ao Open Food Facts e às suas bases irmãs. Você pode desativar.</p></div>
+        <div><h3>Sai um único dado opcional</h3><p>Para buscar um produto, apenas o número do código de barras é enviado ao Open Food Facts, às suas bases irmãs e, como último recurso, ao GTINSearch. Você pode desativar.</p></div>
         <div><h3>Avisos locais</h3><p>As notificações são programadas pelo próprio telefone. Não passam por nenhum servidor.</p></div>
       </div>
       <p style="margin-top:28px"><a href="../privacy.html#pt">Leia a política de privacidade completa</a></p>
@@ -269,6 +276,6 @@
     </nav>
   </div>
 </footer>
-<script src="../assets/site.js?v=20261019" defer></script>
+<script src="../assets/site.js?v=20261024" defer></script>
 </body>
 </html>

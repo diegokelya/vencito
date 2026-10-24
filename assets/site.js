@@ -68,8 +68,9 @@
     JANUARY: 1, FEBRUARY: 2, MARCH: 3, APRIL: 4, JUNE: 6, JULY: 7, AUGUST: 8, SEPTEMBER: 9,
     OCTOBER: 10, NOVEMBER: 11, DECEMBER: 12,
   };
-  const EXPIRY = /(VTO|VENC(?:IMIENTO)?|VENCE|EXP(?:IRY|IRES)?|CAD(?:UCIDAD)?|BB|BEST\s+BEFORE|USE\s+BY|CONSUMIR\s+ANTES(?:\s+DEL?)?|VAL(?:IDADE)?|DLC|MHD|SCAD(?:ENZA)?)/;
-  const MADE = /(ELAB(?:ORADO)?|FAB(?:RICADO)?|PROD|ENV(?:ASADO)?|MFG|LOTE)/;
+  // Frases de fr/it/de primero: en la alternancia gana la que empieza antes, así que la frase completa queda como marcador.
+  const EXPIRY = /(A\s+CONSOMMER(?:\s+DE\s+PREFERENCE)?\s+(?:AVANT|JUSQU'?AU)(?:\s+LE)?|DDM|DA\s+CONSUMARSI(?:\s+PREFERIBILMENTE)?\s+ENTRO(?:\s+IL)?|MINDESTENS\s+HALTBAR\s+BIS|ZU\s+VERBRAUCHEN\s+BIS|VERBRAUCHEN\s+BIS|VTO|VENC(?:IMIENTO)?|VENCE|EXP(?:IRY|IRES)?|CAD(?:UCIDAD)?|BB|BEST\s+BEFORE|USE\s+BY|CONSUMIR\s+ANTES(?:\s+DEL?)?|VAL(?:IDADE)?|DLC|MHD|SCAD(?:ENZA)?)/;
+  const MADE = /(ELAB(?:ORADO)?|FAB(?:RICADO)?|PROD|ENV(?:ASADO)?|MFG|LOTE|HERGESTELLT(?:\s+AM)?|HERGEST)/;
 
   const fold = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
   const valid = (y, m, d) => {
@@ -94,7 +95,7 @@
     push(/(?<!\d[-/.])\b(\d{1,2})[-/.](\d{4})\b/g, (m) => ({ date: valid(+m[2], +m[1], null), monthOnly: true }));
     // "VTO 04/27": mes/año de 2 dígitos, solo si lo precede una palabra de vencimiento (como en la app).
     push(/(?<!\d[-/.])\b(\d{1,2})[-/.](\d{2})\b(?![-/.]\d)/g, (m) => {
-      const before = text.slice(Math.max(0, m.index - 28), m.index);
+      const before = text.slice(Math.max(0, m.index - 44), m.index);
       return new RegExp(EXPIRY.source + "[^A-Z0-9]*$").test(before)
         ? { date: valid(+m[2], +m[1], null), monthOnly: true } : null;
     });
@@ -114,7 +115,7 @@
     const dates = findDates(text);
     if (!dates.length) return null;
     for (const d of dates) {
-      const before = text.slice(Math.max(0, d.index - 28), d.index);
+      const before = text.slice(Math.max(0, d.index - 44), d.index);
       const marker = before.match(new RegExp(EXPIRY.source + "[^A-Z0-9]*$"));
       if (marker) return { ...d, marker: marker[1].replace(/\s+/g, " ") };
     }

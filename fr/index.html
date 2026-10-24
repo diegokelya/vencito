@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#1f7a57">
 <link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="canonical" href="https://vencito.app/fr/">
 <link rel="alternate" hreflang="es" href="https://vencito.app/">
 <link rel="alternate" hreflang="en" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
@@ -19,6 +20,12 @@
 <meta property="og:description" content="Prenez l&#x27;emballage en photo : Vencito lit la date et vous prévient avant qu&#x27;elle n&#x27;arrive.">
 <meta property="og:image" content="https://vencito.app/assets/img/og.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vencito.app/fr/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Vencito">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Icône de Vencito à côté du texte « Sacale una foto al envase. Te avisa antes de que se venza. » (en espagnol) et du tampon VTO 14/02/27">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/site.css?v=20261019">
@@ -45,7 +52,7 @@
         <p class="eyebrow">App pour iPhone, iPad et Android</p>
         <h1>Rien ne se perd dans votre garde-manger.</h1>
         <p class="lead">Prenez l'emballage en photo et Vencito lit la date de péremption. Il vous prévient avant qu'elle n'arrive et vous montre quoi utiliser en premier.</p>
-        <div class="stamp-line" aria-label="Exemple : EXP 14/02/27 est lu comme le 14 février 2027">
+        <div class="stamp-line" role="img" aria-label="Exemple : EXP 14/02/27 est lu comme le 14 février 2027">
           <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">14 février 2027</span>
         </div>
         <div class="actions">
@@ -81,7 +88,7 @@
         <div class="label-card">
           <label for="label-text">Texte imprimé sur l'emballage</label>
           <input id="label-text" type="text" value="FAB 03/01/26 DLC 14/02/27" autocomplete="off" spellcheck="false">
-          <div class="chips" aria-label="Exemples">
+          <div class="chips" role="group" aria-label="Exemples">
             <button class="chip-btn" type="button" data-sample="DLC 25 AOUT 2026">25 AOUT 2026</button>
             <button class="chip-btn" type="button" data-sample="À consommer avant le 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="DLC 10/2027">10/2027</button>
@@ -224,7 +231,7 @@
       <div class="privacy-grid">
         <div><h3>Tout sur l'appareil</h3><p>Les produits, les photos et les réglages sont enregistrés sur votre iPhone, iPad ou téléphone Android. Sur les appareils Apple, si vous activez la synchronisation iCloud, aussi dans votre iCloud privé (le développeur n'y a pas accès).</p></div>
         <div><h3>Lu sur l'appareil</h3><p>Le texte des photos et les codes-barres sont lus sur l'appareil : avec la reconnaissance d'Apple sur iPhone et iPad, et avec ML Kit de Google sur Android.</p></div>
-        <div><h3>Une seule donnée facultative sort</h3><p>Pour chercher un produit, seul le numéro du code-barres est envoyé à Open Food Facts et à ses bases sœurs. Vous pouvez le désactiver.</p></div>
+        <div><h3>Une seule donnée facultative sort</h3><p>Pour chercher un produit, seul le numéro du code-barres est envoyé à Open Food Facts, à ses bases sœurs et, en dernier recours, à GTINSearch. Vous pouvez le désactiver.</p></div>
         <div><h3>Rappels locaux</h3><p>Les notifications sont programmées par le téléphone lui-même. Elles ne passent par aucun serveur.</p></div>
       </div>
       <p style="margin-top:28px"><a href="../privacy.html#fr">Lire la politique de confidentialité complète</a></p>
@@ -269,6 +276,6 @@
     </nav>
   </div>
 </footer>
-<script src="../assets/site.js?v=20261019" defer></script>
+<script src="../assets/site.js?v=20261024" defer></script>
 </body>
 </html>

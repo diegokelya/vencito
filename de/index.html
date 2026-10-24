@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#1f7a57">
 <link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="canonical" href="https://vencito.app/de/">
 <link rel="alternate" hreflang="es" href="https://vencito.app/">
 <link rel="alternate" hreflang="en" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
@@ -19,6 +20,12 @@
 <meta property="og:description" content="Fotografiere die Verpackung: Vencito liest das Datum und erinnert dich, bevor es abläuft.">
 <meta property="og:image" content="https://vencito.app/assets/img/og.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vencito.app/de/">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Vencito">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vencito-Symbol neben dem Text „Sacale una foto al envase. Te avisa antes de que se venza.“ (auf Spanisch) und dem Stempel VTO 14/02/27">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/site.css?v=20261019">
@@ -45,7 +52,7 @@
         <p class="eyebrow">App für iPhone, iPad und Android</p>
         <h1>In deinem Vorratsschrank geht nichts verloren.</h1>
         <p class="lead">Mach ein Foto der Verpackung und Vencito liest das Haltbarkeitsdatum. Es erinnert dich, bevor es abläuft, und zeigt dir, was du zuerst verbrauchen solltest.</p>
-        <div class="stamp-line" aria-label="Beispiel: EXP 14/02/27 wird als 14. Februar 2027 gelesen">
+        <div class="stamp-line" role="img" aria-label="Beispiel: EXP 14/02/27 wird als 14. Februar 2027 gelesen">
           <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">14. Februar 2027</span>
         </div>
         <div class="actions">
@@ -81,7 +88,7 @@
         <div class="label-card">
           <label for="label-text">Auf der Verpackung aufgedruckter Text</label>
           <input id="label-text" type="text" value="HERGESTELLT 03.01.26 MHD 14.02.27" autocomplete="off" spellcheck="false">
-          <div class="chips" aria-label="Beispiele">
+          <div class="chips" role="group" aria-label="Beispiele">
             <button class="chip-btn" type="button" data-sample="MHD 25 AUG 2026">25 AUG 2026</button>
             <button class="chip-btn" type="button" data-sample="Mindestens haltbar bis 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="MHD 10/2027">10/2027</button>
@@ -112,10 +119,10 @@
         <div class="feature"><h3>Mehrere Haushalte</h3><p>Verwalte die Produkte mehrerer Haushalte und wähle, welchen du sehen willst, oder sieh alle zusammen. Erinnerungen und Widget fassen die Daten aller Haushalte zusammen.</p></div>
         <div class="feature"><h3>Einkaufsliste</h3><p>Schreib auf, was du kaufen musst, füge mit einem Tipp hinzu, was einem Rezept fehlt, oder lass die App ergänzen, was dir ausgeht. Hake Gekauftes ab und teile die Liste als Text.</p></div>
         <div class="feature"><h3>Viele hintereinander</h3><p>Kontinuierlicher Scan: Barcode, Datum, fertig. Wird ein Datum nicht sicher gelesen, bittet dich die App, es vor dem Speichern zu bestätigen.</p></div>
-        <div class="feature"><h3>Schnell hinzufügen</h3><p>Über hundert gängige Produkte mit Foto, um Eingekauftes mit einem Tipp hinzuzufügen: Milch, Eier, Brot, Obst … Es schlägt zuerst die vor, die du am häufigsten nutzt, und schätzt für jedes Produkt das Ablaufdatum.</p></div>
+        <div class="feature"><h3>Schnell hinzufügen</h3><p>Über hundert gängige Produkte mit Foto, um Eingekauftes mit einem Tipp hinzuzufügen: Milch, Eier, Brot, Obst … Es schlägt zuerst die vor, die du am häufigsten nutzt, und schätzt für jedes Produkt das Haltbarkeitsdatum.</p></div>
         <div class="feature"><h3>Statistiken</h3><p>Wie viel du verbraucht hast, welcher Anteil rechtzeitig, was du weggeworfen und was du in letzter Minute gerettet hast, mit deiner Serie ohne Verschwendung, einem Sechs-Monats-Diagramm und dem Vergleich mit dem Vorzeitraum. „Wegwerfen“ hält fest, was schlecht geworden ist; „Löschen“ korrigiert eine Fehleingabe.</p></div>
         <div class="feature"><h3>Per Scan verbrauchen</h3><p>Richte die Kamera auf Barcode oder QR-Code des verbrauchten Produkts und eine Einheit des Produkts mit dem frühesten Ablauf wird abgezogen. Weiter zum nächsten, ohne den Bildschirm zu berühren.</p></div>
-        <div class="feature"><h3>Kassenbon laden</h3><p>Aus einem Foto (Kamera oder Galerie) oder einer PDF: liest die Zeilen, ignoriert Steuern und Zahlungen, schätzt das Ablaufdatum jedes Produkts und sucht, wenn der Bon den Barcode zeigt, den echten Namen.</p></div>
+        <div class="feature"><h3>Kassenbon laden</h3><p>Aus einem Foto (Kamera oder Galerie) oder einer PDF: liest die Zeilen, ignoriert Steuern und Zahlungen, schätzt das Haltbarkeitsdatum jedes Produkts und sucht, wenn der Bon den Barcode zeigt, den echten Namen.</p></div>
         <div class="feature"><h3>Mit ChatGPT kochen</h3><p>Teile bei einem Rezept Foto und Anweisungen mit einem Tippen: ChatGPT wählen, senden, Sprachmodus aktivieren, und es führt dich Schritt für Schritt durch, mit den gewählten Portionen.</p></div>
         <div class="feature"><h3>Ohne Haltbarkeitsdatum</h3><p>Für Dinge, die nicht ablaufen oder kein Datum haben: separat gespeichert, ohne Erinnerungen.</p></div>
         <div class="feature"><h3>Live-Scan</h3><p>In einem einzigen Bild liest er Barcode, Haltbarkeitsdatum und Produktnamen. Jeder Wert wird erst bestätigt, wenn er sich wiederholt, um unscharfe Fehllesungen zu vermeiden.</p></div>
@@ -204,7 +211,7 @@
       </div>
       <div class="gallery">
         <figure><div class="device android"><img src="../assets/img/android-de-list.webp" alt="Startbildschirm auf Android mit den Karten Produkt hinzufügen, Schnell hinzufügen und Viele hintereinander sowie dem nächsten ablaufenden Produkt" width="660" height="1467" loading="lazy"></div><figcaption>Start mit Schnellzugriff und Scanner</figcaption></figure>
-        <figure><div class="device android"><img src="../assets/img/android-de-detail.webp" alt="Produktdetail auf Android: Ablaufdatum, Kategorie und Ort" width="660" height="1467" loading="lazy"></div><figcaption>Produktdetail</figcaption></figure>
+        <figure><div class="device android"><img src="../assets/img/android-de-detail.webp" alt="Produktdetail auf Android: Haltbarkeitsdatum, Kategorie und Ort" width="660" height="1467" loading="lazy"></div><figcaption>Produktdetail</figcaption></figure>
         <figure><div class="device android"><img src="../assets/img/android-de-stats.webp" alt="Verbrauchsstatistik auf Android: verbraucht, rechtzeitig, weggeworfen und gerettet" width="660" height="1467" loading="lazy"></div><figcaption>Statistiken</figcaption></figure>
       </div>
       <div class="ipad-row">
@@ -224,7 +231,7 @@
       <div class="privacy-grid">
         <div><h3>Alles auf dem Gerät</h3><p>Produkte, Fotos und Einstellungen werden auf deinem iPhone, iPad oder Android-Telefon gespeichert. Auf Apple-Geräten, wenn du die iCloud-Synchronisierung aktivierst, auch in deiner privaten iCloud (der Entwickler hat keinen Zugriff).</p></div>
         <div><h3>Auf dem Gerät gelesen</h3><p>Text auf Fotos und Barcodes werden auf dem Gerät gelesen: mit der Erkennung von Apple auf iPhone und iPad und mit ML Kit von Google auf Android.</p></div>
-        <div><h3>Ein einziges optionales Datum verlässt das Gerät</h3><p>Für die Produktsuche wird nur die Barcode-Nummer an Open Food Facts und dessen Schwesterdatenbanken gesendet. Du kannst das ausschalten.</p></div>
+        <div><h3>Nur ein optionaler Wert verlässt das Gerät</h3><p>Für die Produktsuche wird nur die Barcode-Nummer an Open Food Facts, dessen Schwesterdatenbanken und als letzte Möglichkeit an GTINSearch gesendet. Du kannst das ausschalten.</p></div>
         <div><h3>Lokale Erinnerungen</h3><p>Benachrichtigungen plant das Telefon selbst. Sie laufen über keinen Server.</p></div>
       </div>
       <p style="margin-top:28px"><a href="../privacy.html#de">Die vollständige Datenschutzerklärung lesen</a></p>
@@ -269,6 +276,6 @@
     </nav>
   </div>
 </footer>
-<script src="../assets/site.js?v=20261019" defer></script>
+<script src="../assets/site.js?v=20261024" defer></script>
 </body>
 </html>
