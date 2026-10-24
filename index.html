@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#1f7a57">
 <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="canonical" href="https://vencito.app/">
 <link rel="alternate" hreflang="es" href="https://vencito.app/">
 <link rel="alternate" hreflang="en" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
@@ -19,6 +20,12 @@
 <meta property="og:description" content="Sacale una foto al envase: Vencito lee la fecha y te avisa antes de que se venza.">
 <meta property="og:image" content="https://vencito.app/assets/img/og.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vencito.app/">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Vencito">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ícono de Vencito junto al texto «Sacale una foto al envase. Te avisa antes de que se venza.» y el sello VTO 14/02/27">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css?v=20261019">
@@ -45,14 +52,14 @@
         <p class="eyebrow">App para iPhone, iPad y Android</p>
         <h1>Que nada se venza en la alacena.</h1>
         <p class="lead">Sacale una foto al envase y Vencito lee la fecha de vencimiento. Te avisa antes de que caduque y te muestra qué conviene usar primero.</p>
-        <div class="stamp-line" aria-label="Ejemplo: VTO 14/02/27 se lee como 14 de febrero de 2027">
+        <div class="stamp-line" role="img" aria-label="Ejemplo: VTO 14/02/27 se lee como 14 de febrero de 2027">
           <span class="stamp">VTO 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">14 de febrero de 2027</span>
         </div>
         <div class="actions">
           <a class="btn btn-primary" href="#probar">Probá el lector de fechas</a>
           <a class="btn btn-ghost" href="#funciones">Ver funciones</a>
         </div>
-        <p class="note">Muy pronto en el App Store y en Google Play · Gratis · iOS y iPadOS 17 o posterior · Android 8 o posterior<br><a href="app/">O probala ya en tu navegador →</a></p>
+        <p class="note">Muy pronto en el App Store y en Google Play · Gratis · iOS y iPadOS 17 o posterior · Android 8 o posterior<br><a href="app/?lang=es">O probala ya en tu navegador →</a></p>
       </div>
       <div class="device"><img src="assets/img/iphone-es-list.webp" alt="Lista de productos en Vencito: resumen con total, vencidos y por vencer, y productos agrupados por estado con su miniatura" width="660" height="1434" fetchpriority="high"></div>
     </div>
@@ -83,7 +90,7 @@
         <div class="label-card">
           <label for="label-text">Texto impreso en el envase</label>
           <input id="label-text" type="text" value="ELAB 03/01/26 VTO 14/02/27" autocomplete="off" spellcheck="false">
-          <div class="chips" aria-label="Ejemplos">
+          <div class="chips" role="group" aria-label="Ejemplos">
             <button class="chip-btn" type="button" data-sample="VENC: 25 AGO 2026">25 AGO 2026</button>
             <button class="chip-btn" type="button" data-sample="Consumir antes del 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
@@ -226,7 +233,7 @@
       <div class="privacy-grid">
         <div><h3>Todo en el dispositivo</h3><p>Los productos, las fotos y los ajustes se guardan en tu iPhone, iPad o teléfono Android. En los dispositivos Apple, si activás la sincronización con iCloud, también en tu iCloud privado (el desarrollador no tiene acceso).</p></div>
         <div><h3>Se lee en el dispositivo</h3><p>El texto de las fotos y los códigos de barras se leen en el dispositivo: con el reconocimiento de Apple en iPhone y iPad, y con ML Kit de Google en Android.</p></div>
-        <div><h3>Un solo dato sale, y es opcional</h3><p>Para buscar un producto se envía únicamente el número del código de barras a Open Food Facts y a sus bases hermanas. Se puede desactivar.</p></div>
+        <div><h3>Un solo dato sale, y es opcional</h3><p>Para buscar un producto se envía únicamente el número del código de barras a Open Food Facts, a sus bases hermanas y, como último recurso, a GTINSearch. Se puede desactivar.</p></div>
         <div><h3>Avisos locales</h3><p>Las notificaciones las programa el propio teléfono. No pasan por ningún servidor.</p></div>
       </div>
       <p style="margin-top:28px"><a href="privacy.html">Leer la política de privacidad completa</a></p>
@@ -247,7 +254,7 @@
         <details><summary>¿Qué pasa si la fecha dice solo mes y año?</summary><p>La app toma el último día de ese mes, que es como se interpreta en los envases. Entiende tanto 08/2027 como VTO 04/27.</p></details>
         <details><summary>¿Puedo guardar más de una foto por producto?</summary><p>Sí. Además de la foto principal, podés agregar una del código de barras, una del vencimiento y hasta 8 más. Se ven deslizando en el detalle y se incluyen al exportar.</p></details>
       </div>
-      <p style="margin-top:24px">¿Otra duda o un problema? <a href="support.html">Escribinos en soporte</a>.</p>
+      <p style="margin-top:24px">¿Otra duda o un problema? <a href="support.html">Escribime en soporte</a>.</p>
     </div>
   </section>
 </main>
@@ -271,6 +278,6 @@
     </nav>
   </div>
 </footer>
-<script src="assets/site.js?v=20261019" defer></script>
+<script src="assets/site.js?v=20261024" defer></script>
 </body>
 </html>
