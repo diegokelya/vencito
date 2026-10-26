@@ -192,3 +192,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .swrow:not(.drag) .swbg { visibility: hidden; }
 .swrow[data-side=l] .swbg.r, .swrow[data-side=r] .swbg.l { visibility: hidden; }
 .swrow.go-l .swbg.l, .swrow.go-r .swbg.r { filter: brightness(1.15); }
+
+/* Ticket de compra */
+.quick.four .btn:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.rcrow { padding: 10px 14px; }
+.rcrow input[type=checkbox] { width: 24px; height: 24px; accent-color: var(--primary); justify-self: end; }
+.rcdays { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; }
+.rcdays input { width: 64px; text-align: right; background: var(--card2); border-radius: 8px; padding: 6px 8px; font-size: 16px; color: var(--text); }
+.sheet .rcsave { position: sticky; bottom: 0; margin-top: 10px; box-shadow: 0 -10px 12px var(--bg); }

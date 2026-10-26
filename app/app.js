@@ -171,7 +171,7 @@
     return `<div class="row"><h1 class="grow brand"><img src="icons/icon-192.png" alt="" width="36" height="36">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">${ico('chart-column')}</button></div>
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
-      <div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button></div>
+      <div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button><button class="btn" data-act="ticket"><b>${ico('receipt-text')}</b>${esc(t('Cargar ticket'))}</button></div>
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
       ${homeChips()}${catChips()}${locChips()}
       <div id="list">${listHtml()}</div>
@@ -530,7 +530,7 @@
     const prevActive = document.activeElement;
     const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     document.getElementById('app').innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
     if (!sh || sh.type !== 'recipe') cookStop();
@@ -571,7 +571,10 @@
       case 'open': ui.sheet = { type: 'product', id }; render(); break;
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
-      case 'close': closeSheet(); break;
+      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; closeSheet(); break;
+      case 'ticket': document.getElementById('ticketpic').click(); break;
+      case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
+      case 'rc-save': receiptSave(); break;
       case 'hperiod': ui.period = id; render(); break;
       case 'dups': ui.sheet = { type: 'dups' }; render(); break;
       case 'dup-merge': { const n = mergeGroup(id.split(',')); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
@@ -642,6 +645,9 @@
     if (e.target.id === 'q') { ui.q = e.target.value; document.getElementById('list').innerHTML = listHtml(); }
     if (e.target.name === 'name' && e.target.form && e.target.form.dataset.form === 'product') { const c = e.target.form.elements.category; if (c && (!c.value || c.dataset.auto)) { const k = VScan.suggest(e.target.value); c.value = k; c.dataset.auto = k ? '1' : ''; } }
     if (e.target.dataset && e.target.dataset.scan) { const it = scan.items[+e.target.dataset.i]; if (it) it[e.target.dataset.scan] = e.target.value; }
+    if (ui.receipt && e.target.id === 'rcdate') ui.receipt.date = e.target.value;
+    if (ui.receipt && e.target.id === 'rcstore') ui.receipt.store = e.target.value;
+    if (ui.receipt && e.target.dataset && (e.target.dataset.rc === 'name' || e.target.dataset.rc === 'days')) { const it = ui.receipt.items.find(x => String(x.id) === e.target.dataset.id); if (it) it[e.target.dataset.rc] = e.target.dataset.rc === 'days' ? Math.max(0, Math.min(3650, parseInt(e.target.value, 10) || 0)) : e.target.value; }
     if (e.target.id === 'qq') { ui.quickQ = e.target.value; refreshQuick(); }
     if (e.target.id === 'rq') { ui.rq = e.target.value; ui.rshown = 40; document.getElementById('rlist').innerHTML = recipeCards(); }
   });
@@ -655,6 +661,8 @@
     if (e.target.dataset && e.target.dataset.act === 'ck-voice' && ui.cook) { const r = recipeById(ui.cook.id); ui.cook.voice = e.target.checked; if (r) { if (ui.cook.voice) speak(r.steps[ui.cook.step]); else if (canSpeak()) speechSynthesis.cancel(); } }
     if (e.target.dataset && e.target.dataset.act === 'sound') { S.sound = e.target.checked; save(); if (S.sound) beep(); }
     if (e.target.dataset && e.target.dataset.act === 'lookup') { S.lookup = e.target.checked; save(); }
+    if (e.target.id === 'ticketpic' && e.target.files.length) { const fs = [...e.target.files]; e.target.value = ''; readReceipt(fs); }
+    if (e.target.dataset && e.target.dataset.rc === 'on' && ui.receipt) { const it = ui.receipt.items.find(x => String(x.id) === e.target.dataset.id); if (it) { it.on = e.target.checked; rcCount(); } }
     if (e.target.id === 'datepic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; dateFromPhoto(f); }
     if (e.target.id === 'scanpic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; if (scan.step === 'date') { scan.dateTarget = { kind: 'live' }; dateFromPhoto(f); } else codeFromPhoto(f); }
     if (e.target.dataset && e.target.dataset.act === 'soon') { S.soon = parseInt(e.target.value, 10) || 7; save(); render(); }
@@ -863,6 +871,61 @@
     ready.forEach(x => S.products.push({ id: uid(), name: x.name.trim().slice(0, 200), category: x.category || VScan.suggest(x.name), location: '', quantity: x.qty, notes: '', barcode: x.code, expiry: x.expiry || null, addedAt: new Date().toISOString(), homeId: homeForNew() || undefined }));
     save(); closeScanner(); ui.tab = 'products'; ui.sheet = null; toast(t('%lld productos agregados', ready.length));
   }
+  /* ---------- ticket de compra: foto → renglones (OCR) → productos con vencimiento estimado → revisión ---------- */
+  let rcSeq = 0;
+  async function readReceipt(files) {
+    const token = ui.receipt = { stage: 'reading', msg: t('Leyendo el ticket…') };
+    ui.sheet = { type: 'receipt' }; render();
+    const paint = msg => { if (ui.receipt === token) { token.msg = msg; const el = document.getElementById('rcmsg'); if (el) el.textContent = msg; } };
+    try {
+      const lines = [];
+      for (const f of files) lines.push(...await VScan.readLines(f, m => { if (m.status === 'recognizing text') paint(t('Leyendo el ticket…') + ' ' + Math.round(100 * (m.progress || 0)) + '%'); else if (/loading/.test(m.status || '')) paint(t('Leyendo el ticket…')); }));
+      if (ui.receipt !== token) return;
+      const parsed = VReceipt.parse(lines, n => VScan.suggest(n));
+      if (!parsed.items.length) { ui.receipt = { stage: 'failed' }; render(); return; }
+      paint(t('Buscando los nombres…'));
+      // Con el código de barras en el ticket se busca el nombre real (catálogos que ya están en la app y, si está activado, internet).
+      await Promise.all(parsed.items.map(async it => {
+        if (!it.barcode) return;
+        const r = await Promise.race([info(it.barcode), new Promise(res => setTimeout(() => res(null), 8000))]).catch(() => null);
+        if (r && r.name) { it.name = r.name; it.kind = r.category || VScan.suggest(it.name) || it.kind; it.food = it.food && !NOT_FOOD.includes(it.kind); }
+      }));
+      if (ui.receipt !== token) return;
+      const today = new Date(), todayIso = iso(today);
+      // Un ticket de hace más de una semana (o con una fecha rara): se parte de hoy, así lo perecedero no aparece ya vencido.
+      const age = parsed.date ? (today - new Date(parsed.date + 'T00:00:00')) / 86400000 : 99;
+      ui.receipt = { stage: 'review', date: age >= 0 && age <= 7 ? parsed.date : todayIso, store: parsed.store || '', items: parsed.items.map(it => { const e = VReceipt.estimate(it); return Object.assign(it, { id: ++rcSeq, days: e.days, place: e.place, on: it.food }); }) };
+      render();
+    } catch (err) { if (ui.receipt === token) { ui.receipt = { stage: 'failed' }; render(); } }
+  }
+  function rcCount() { const b = document.querySelector('[data-act="rc-save"]'); if (b && ui.receipt) b.textContent = t('Agregar') + ' (' + ui.receipt.items.filter(x => x.on).length + ')'; }
+  function receiptSheet() {
+    const r = ui.receipt || { stage: 'failed' };
+    if (r.stage === 'reading') return sheet(t('Ticket de compra'), `<p class="muted" id="rcmsg" role="status">${esc(r.msg)}</p>`);
+    if (r.stage === 'failed') return sheet(t('Ticket de compra'), `<p class="muted" role="status">${esc(t('No pude leer el ticket. Probá con otra foto, bien iluminada y de frente.'))}</p><button class="btn primary block" data-act="ticket">${esc(t('Elegir una foto'))}</button>`);
+    const row = it => `<div class="scanrow rcrow">
+      <input class="plain scanname" data-rc="name" data-id="${it.id}" value="${esc(it.name)}" maxlength="200" aria-label="${esc(t('Nombre'))}">
+      <input type="checkbox" data-rc="on" data-id="${it.id}" ${it.on ? 'checked' : ''} aria-label="${esc(t('Agregar'))}">
+      <label class="rcdays"><input class="plain" type="number" inputmode="numeric" min="0" max="3650" data-rc="days" data-id="${it.id}" value="${it.days}"><span>${esc(t('días'))}</span></label>
+      <span class="stepper"><button type="button" data-act="rc-qty" data-id="${it.id}" data-d="-1">−</button><b>${it.qty}</b><button type="button" data-act="rc-qty" data-id="${it.id}" data-d="1">+</button></span></div>`;
+    const foods = r.items.filter(i => i.food), others = r.items.filter(i => !i.food);
+    return sheet(t('Ticket de compra'), `<div class="group"><label class="f"><span>${esc(t('Fecha de compra'))}</span><input type="date" id="rcdate" value="${esc(r.date)}"></label><label class="f"><span>${esc(t('Comercio'))}</span><input id="rcstore" value="${esc(r.store)}" maxlength="80" autocomplete="off"></label></div>
+      <p class="small muted">${esc(t('Los vencimientos son estimados por tipo de producto: revisalos.'))}</p>
+      ${foods.length ? `<h2>${esc(t('Alimentos'))}</h2><div class="group">${foods.map(row).join('')}</div>` : ''}
+      ${others.length ? `<h2>${esc(t('No son comida'))}</h2><div class="group">${others.map(row).join('')}</div>` : ''}
+      <button class="btn primary block rcsave" data-act="rc-save">${esc(t('Agregar'))} (${r.items.filter(x => x.on).length})</button>`);
+  }
+  function receiptSave() {
+    const r = ui.receipt; if (!r || r.stage !== 'review') return;
+    const chosen = r.items.filter(x => x.on && String(x.name).trim()); if (!chosen.length) return;
+    const start = new Date((r.date || iso(new Date())) + 'T00:00:00'), store = String(r.store || '').trim();
+    chosen.forEach(x => {
+      const d = new Date(start); d.setDate(d.getDate() + (x.days || 0));
+      const notes = [x.weight ? String(x.weight).replace('.', lang() === 'en' ? '.' : ',') + ' kg' : '', store ? t('Comprado en %@', store) : ''].filter(Boolean).join(' · ');
+      S.products.push({ id: uid(), name: String(x.name).trim().slice(0, 200), category: x.kind || VScan.suggest(x.name), location: x.food ? x.place : '', quantity: x.qty, notes, barcode: x.barcode || '', expiry: iso(d), addedAt: new Date().toISOString(), homeId: homeForNew() || undefined });
+    });
+    save(); ui.receipt = null; ui.sheet = null; ui.tab = 'products'; render(); toast(t('%lld productos agregados', chosen.length));
+  }
   function pickDate(target) { scan.dateTarget = target; document.getElementById('datepic').click(); }
   async function dateFromPhoto(file) {
     const tg = scan.dateTarget || { kind: 'form' };
@@ -882,7 +945,7 @@
     try { const c = await VScan.decodeImage(file); if (!c) { setScanStatus(t('No encontré un código de barras en la foto.')); return; } scan.last = c; scan.lastAt = Date.now(); handleCode(c); }
     catch (err) { setScanStatus(t('No pude leer la foto: %@', String(err.message || err))); }
   }
-  document.body.insertAdjacentHTML('beforeend', '<input type="file" id="datepic" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="scanpic" accept="image/*" class="sr" tabindex="-1" aria-hidden="true">');
+  document.body.insertAdjacentHTML('beforeend', '<input type="file" id="datepic" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="scanpic" accept="image/*" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="ticketpic" accept="image/*" multiple class="sr" tabindex="-1" aria-hidden="true">');
 
   /* ---------- gestos: deslizar un producto (← «usé 1», → tirar) y agitar para deshacer ---------- */
   { let sw = null, blockClick = 0;
