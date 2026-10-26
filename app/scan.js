@@ -235,6 +235,18 @@
     return () => { alive = false; };
   }
 
-  const api = { cleanSepaName, startDateLoop, suggest, fromTags, lookup, startScan, decodeImage, readDate };
+  /* Renglones de texto de un ticket (en orden de lectura): modo «bloque uniforme» del OCR, que conserva cada renglón completo. */
+  async function readLines(file, onProgress) {
+    const bmp = await createImageBitmap(file), w = await worker(onProgress);
+    try {
+      await w.setParameters({ tessedit_pageseg_mode: '6', preserve_interword_spaces: '1' });
+      const { data } = await w.recognize(canvasOf(bmp, 2200, true));
+      return (data.lines || []).map(l => String(l.text || '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+    } finally {
+      if (bmp.close) bmp.close();
+      await w.setParameters({ tessedit_pageseg_mode: '11', preserve_interword_spaces: '1' });   // el modo de siempre, para leer fechas
+    }
+  }
+  const api = { cleanSepaName, startDateLoop, suggest, fromTags, lookup, startScan, decodeImage, readDate, readLines };
   root.VScan = api; if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

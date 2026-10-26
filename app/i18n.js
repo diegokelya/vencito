@@ -235,7 +235,20 @@ window.I18N = {
   "Últimos 6 meses": "Last 6 months",
   "🧀 Este queso ya está en edad de merecer.": "🧀 This cheese is old enough to vote.",
   "🥛 La leche no avisa: Vencito sí.": "🥛 Milk won't warn you. Vencito will.",
-  "🍞 Lo que vence primero, se come primero.": "🍞 First to expire, first to eat."
+  "🍞 Lo que vence primero, se come primero.": "🍞 First to expire, first to eat.",
+  "Cargar ticket": "Load receipt",
+  "Leyendo el ticket…": "Reading the receipt…",
+  "Buscando los nombres…": "Looking up the names…",
+  "No pude leer el ticket. Probá con otra foto, bien iluminada y de frente.": "I couldn't read the receipt. Try another photo, well lit and straight on.",
+  "Ticket de compra": "Shopping receipt",
+  "Fecha de compra": "Purchase date",
+  "Comercio": "Store",
+  "Los vencimientos son estimados por tipo de producto: revisalos.": "Expiry dates are estimated by type of product: review them.",
+  "Alimentos": "Food",
+  "No son comida": "Not food",
+  "Agregar": "Add",
+  "días": "days",
+  "Comprado en %@": "Bought at %@"
  },
  "pt": {
   "%lld días": "%lld dias",
@@ -472,7 +485,20 @@ window.I18N = {
   "Últimos 6 meses": "Últimos 6 meses",
   "🧀 Este queso ya está en edad de merecer.": "🧀 Esse queijo já está na idade de merecer.",
   "🥛 La leche no avisa: Vencito sí.": "🥛 O leite não avisa. O Vencito avisa.",
-  "🍞 Lo que vence primero, se come primero.": "🍞 O que vence primeiro, come-se primeiro."
+  "🍞 Lo que vence primero, se come primero.": "🍞 O que vence primeiro, come-se primeiro.",
+  "Cargar ticket": "Carregar ticket",
+  "Leyendo el ticket…": "Lendo o ticket…",
+  "Buscando los nombres…": "Buscando os nomes…",
+  "No pude leer el ticket. Probá con otra foto, bien iluminada y de frente.": "Não consegui ler o ticket. Tente outra foto, bem iluminada e de frente.",
+  "Ticket de compra": "Ticket de compra",
+  "Fecha de compra": "Data da compra",
+  "Comercio": "Loja",
+  "Los vencimientos son estimados por tipo de producto: revisalos.": "As validades são estimadas por tipo de produto: revise-as.",
+  "Alimentos": "Alimentos",
+  "No son comida": "Não são comida",
+  "Agregar": "Adicionar",
+  "días": "dias",
+  "Comprado en %@": "Comprado em %@"
  },
  "fr": {
   "%lld días": "%lld jours",
@@ -709,7 +735,20 @@ window.I18N = {
   "Últimos 6 meses": "6 derniers mois",
   "🧀 Este queso ya está en edad de merecer.": "🧀 Ce fromage a l'âge de voter.",
   "🥛 La leche no avisa: Vencito sí.": "🥛 Le lait ne prévient pas. Vencito, si.",
-  "🍞 Lo que vence primero, se come primero.": "🍞 Premier périmé, premier mangé."
+  "🍞 Lo que vence primero, se come primero.": "🍞 Premier périmé, premier mangé.",
+  "Cargar ticket": "Charger un ticket",
+  "Leyendo el ticket…": "Lecture du ticket…",
+  "Buscando los nombres…": "Recherche des noms…",
+  "No pude leer el ticket. Probá con otra foto, bien iluminada y de frente.": "Impossible de lire le ticket. Essayez une autre photo, bien éclairée et de face.",
+  "Ticket de compra": "Ticket de caisse",
+  "Fecha de compra": "Date d'achat",
+  "Comercio": "Magasin",
+  "Los vencimientos son estimados por tipo de producto: revisalos.": "Les péremptions sont estimées selon le type de produit : vérifiez-les.",
+  "Alimentos": "Aliments",
+  "No son comida": "Pas de la nourriture",
+  "Agregar": "Ajouter",
+  "días": "jours",
+  "Comprado en %@": "Acheté chez %@"
  },
  "it": {
   "%lld días": "%lld giorni",
@@ -946,7 +985,20 @@ window.I18N = {
   "Últimos 6 meses": "Ultimi 6 mesi",
   "🧀 Este queso ya está en edad de merecer.": "🧀 Questo formaggio ha l'età per votare.",
   "🥛 La leche no avisa: Vencito sí.": "🥛 Il latte non avvisa. Vencito sì.",
-  "🍞 Lo que vence primero, se come primero.": "🍞 Il primo a scadere è il primo da mangiare."
+  "🍞 Lo que vence primero, se come primero.": "🍞 Il primo a scadere è il primo da mangiare.",
+  "Cargar ticket": "Carica scontrino",
+  "Leyendo el ticket…": "Lettura dello scontrino…",
+  "Buscando los nombres…": "Ricerca dei nomi…",
+  "No pude leer el ticket. Probá con otra foto, bien iluminada y de frente.": "Non sono riuscito a leggere lo scontrino. Prova con un'altra foto, ben illuminata e di fronte.",
+  "Ticket de compra": "Scontrino della spesa",
+  "Fecha de compra": "Data d'acquisto",
+  "Comercio": "Negozio",
+  "Los vencimientos son estimados por tipo de producto: revisalos.": "Le scadenze sono stimate per tipo di prodotto: controllale.",
+  "Alimentos": "Alimenti",
+  "No son comida": "Non sono cibo",
+  "Agregar": "Aggiungi",
+  "días": "giorni",
+  "Comprado en %@": "Acquistato da %@"
  },
  "de": {
   "%lld días": "%lld Tage",
@@ -1183,6 +1235,19 @@ window.I18N = {
   "Últimos 6 meses": "Letzte 6 Monate",
   "🧀 Este queso ya está en edad de merecer.": "🧀 Dieser Käse ist alt genug zum Wählen.",
   "🥛 La leche no avisa: Vencito sí.": "🥛 Milch warnt dich nicht. Vencito schon.",
-  "🍞 Lo que vence primero, se come primero.": "🍞 Was zuerst abläuft, wird zuerst gegessen."
+  "🍞 Lo que vence primero, se come primero.": "🍞 Was zuerst abläuft, wird zuerst gegessen.",
+  "Cargar ticket": "Kassenbon laden",
+  "Leyendo el ticket…": "Kassenbon wird gelesen…",
+  "Buscando los nombres…": "Namen werden gesucht…",
+  "No pude leer el ticket. Probá con otra foto, bien iluminada y de frente.": "Der Kassenbon konnte nicht gelesen werden. Versuche ein anderes Foto, gut beleuchtet und von vorn.",
+  "Ticket de compra": "Einkaufsbeleg",
+  "Fecha de compra": "Kaufdatum",
+  "Comercio": "Geschäft",
+  "Los vencimientos son estimados por tipo de producto: revisalos.": "Die Ablaufdaten sind nach Produktart geschätzt: bitte prüfen.",
+  "Alimentos": "Lebensmittel",
+  "No son comida": "Keine Lebensmittel",
+  "Agregar": "Hinzufügen",
+  "días": "Tage",
+  "Comprado en %@": "Gekauft bei %@"
  }
 };
