@@ -879,7 +879,7 @@
     const paint = msg => { if (ui.receipt === token) { token.msg = msg; const el = document.getElementById('rcmsg'); if (el) el.textContent = msg; } };
     try {
       const lines = [];
-      for (const f of files) lines.push(...await VScan.readLines(f, m => { if (m.status === 'recognizing text') paint(t('Leyendo el ticket…') + ' ' + Math.round(100 * (m.progress || 0)) + '%'); else if (/loading/.test(m.status || '')) paint(t('Leyendo el ticket…')); }));
+      for (const f of files) lines.push(...await (/pdf/i.test(f.type) || /\.pdf$/i.test(f.name) ? VScan.readPdfLines : VScan.readLines)(f, m => { if (m.status === 'recognizing text') paint(t('Leyendo el ticket…') + ' ' + Math.round(100 * (m.progress || 0)) + '%'); else if (/loading/.test(m.status || '')) paint(t('Leyendo el ticket…')); }));
       if (ui.receipt !== token) return;
       const parsed = VReceipt.parse(lines, n => VScan.suggest(n));
       if (!parsed.items.length) { ui.receipt = { stage: 'failed' }; render(); return; }
@@ -945,7 +945,7 @@
     try { const c = await VScan.decodeImage(file); if (!c) { setScanStatus(t('No encontré un código de barras en la foto.')); return; } scan.last = c; scan.lastAt = Date.now(); handleCode(c); }
     catch (err) { setScanStatus(t('No pude leer la foto: %@', String(err.message || err))); }
   }
-  document.body.insertAdjacentHTML('beforeend', '<input type="file" id="datepic" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="scanpic" accept="image/*" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="ticketpic" accept="image/*" multiple class="sr" tabindex="-1" aria-hidden="true">');
+  document.body.insertAdjacentHTML('beforeend', '<input type="file" id="datepic" accept="image/*" capture="environment" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="scanpic" accept="image/*" class="sr" tabindex="-1" aria-hidden="true"><input type="file" id="ticketpic" accept="image/*,application/pdf" multiple class="sr" tabindex="-1" aria-hidden="true">');
 
   /* ---------- gestos: deslizar un producto (← «usé 1», → tirar) y agitar para deshacer ---------- */
   { let sw = null, blockClick = 0;

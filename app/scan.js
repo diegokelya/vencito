@@ -235,18 +235,44 @@
     return () => { alive = false; };
   }
 
+  /* Agrupa los fragmentos de texto de una página de PDF (cada uno con su posición) en renglones, de arriba hacia abajo. */
+  function rowsOfItems(items) {
+    const frags = items.filter(i => String(i.str).trim()).map(i => ({ s: String(i.str), x: i.transform[4], y: i.transform[5] })).sort((a, b) => b.y - a.y || a.x - b.x);
+    const rows = [];
+    for (const f of frags) { const last = rows[rows.length - 1]; if (last && Math.abs(last.y - f.y) < 3) last.f.push(f); else rows.push({ y: f.y, f: [f] }); }
+    return rows.map(r => r.f.sort((a, b) => a.x - b.x).map(f => f.s.trim()).join(' ').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  }
+  /* Renglones de un ticket en PDF: si el PDF trae texto se lee directo (sin OCR); si es una imagen escaneada, se dibuja cada página y se lee con el OCR. */
+  async function readPdfLines(file, onProgress) {
+    await load('vendor/pdf.min.js');
+    root.pdfjsLib.GlobalWorkerOptions.workerSrc = abs('vendor/pdf.worker.min.js');
+    const pdf = await root.pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise, pages = Math.min(pdf.numPages, 6), out = [];
+    for (let n = 1; n <= pages; n++) {
+      const page = await pdf.getPage(n), text = await page.getTextContent(), rows = rowsOfItems(text.items);
+      if (rows.join('').length >= 40) { out.push(...rows); continue; }
+      const vp = page.getViewport({ scale: 2200 / Math.max(page.getViewport({ scale: 1 }).width, 1) }), c = document.createElement('canvas');
+      c.width = Math.round(vp.width); c.height = Math.round(vp.height);
+      const g = c.getContext('2d', { willReadFrequently: true }); g.fillStyle = '#fff'; g.fillRect(0, 0, c.width, c.height);
+      await page.render({ canvasContext: g, viewport: vp }).promise;
+      out.push(...await linesOfCanvas(c, onProgress));
+    }
+    return out;
+  }
   /* Renglones de texto de un ticket (en orden de lectura): modo «bloque uniforme» del OCR, que conserva cada renglón completo. */
-  async function readLines(file, onProgress) {
-    const bmp = await createImageBitmap(file), w = await worker(onProgress);
+  async function linesOfCanvas(canvas, onProgress) {
+    const w = await worker(onProgress);
     try {
       await w.setParameters({ tessedit_pageseg_mode: '6', preserve_interword_spaces: '1' });
-      const { data } = await w.recognize(canvasOf(bmp, 2200, true));
+      const { data } = await w.recognize(canvas);
       return (data.lines || []).map(l => String(l.text || '').replace(/\s+/g, ' ').trim()).filter(Boolean);
     } finally {
-      if (bmp.close) bmp.close();
       await w.setParameters({ tessedit_pageseg_mode: '11', preserve_interword_spaces: '1' });   // el modo de siempre, para leer fechas
     }
   }
-  const api = { cleanSepaName, startDateLoop, suggest, fromTags, lookup, startScan, decodeImage, readDate, readLines };
+  async function readLines(file, onProgress) {
+    const bmp = await createImageBitmap(file);
+    try { return await linesOfCanvas(canvasOf(bmp, 2200, true), onProgress); } finally { if (bmp.close) bmp.close(); }
+  }
+  const api = { cleanSepaName, startDateLoop, suggest, fromTags, lookup, startScan, decodeImage, readDate, readLines, readPdfLines };
   root.VScan = api; if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
