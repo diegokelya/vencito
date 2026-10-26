@@ -200,3 +200,25 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rcdays { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; }
 .rcdays input { width: 64px; text-align: right; background: var(--card2); border-radius: 8px; padding: 6px 8px; font-size: 16px; color: var(--text); }
 .sheet .rcsave { position: sticky; bottom: 0; margin-top: 10px; box-shadow: 0 -10px 12px var(--bg); }
+
+/* Banderas de los países (imagen: Windows no dibuja las banderas emoji) */
+.flag { display: inline-block; width: 20px; height: 15px; object-fit: cover; vertical-align: -2px; border-radius: 2px; box-shadow: 0 0 0 1px #00000026; }
+
+/* Pantalla ancha (escritorio, tablet horizontal): se usa todo el ancho en vez de una columna angosta en el medio. */
+@media (min-width: 1000px) {
+  #app { max-width: 1760px; padding-left: 32px; padding-right: 32px; }
+  .tabs > div { max-width: 1760px; }
+  .fab { right: max(24px, calc(50% - 856px)); }
+  .tiles, #app > .search { max-width: 900px; }
+  .quick.four { grid-template-columns: repeat(5, 1fr); }
+  .quick.four .btn:last-child:nth-child(odd) { grid-column: auto; }
+  #list { display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 0 28px; align-items: start; }
+  #list > .empty { grid-column: 1 / -1; }
+  #rlist { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); gap: 0 20px; align-items: start; }
+  #rlist > :not(.card) { grid-column: 1 / -1; }
+  #app.tab-settings { column-width: 480px; column-gap: 40px; }
+  #app.tab-settings > h1 { column-span: all; }
+  #app.tab-settings > h2 { break-after: avoid; }
+  #app.tab-settings > .group, #app.tab-settings > p { break-inside: avoid; }
+  #app.tab-shopping { max-width: 900px; }
+}

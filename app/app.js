@@ -150,7 +150,7 @@
     const order = [['expired', 'Vencidos', 'red', 'triangle-alert'], ['soon', 'Por vencer', 'orange', 'timer'], ['upcoming', 'Próximos', 'green', 'circle-check'], ['none', 'Sin fecha', 'gray', 'infinity']];
     return order.map(([k, title, col, ic]) => {
       const g = items.filter(p => bucketOf(p) === k).sort((a, b) => (expOf(a) || '9').localeCompare(expOf(b) || '9') || a.name.localeCompare(b.name));
-      return g.length ? `<div class="bucket ${col}">${ico(ic)} ${esc(t(title))} (${g.length})</div><div class="group">${g.map(productRow).join('')}</div>` : '';
+      return g.length ? `<section class="bsec"><div class="bucket ${col}">${ico(ic)} ${esc(t(title))} (${g.length})</div><div class="group">${g.map(productRow).join('')}</div></section>` : '';
     }).join('');
   }
   function homeChips() {
@@ -285,7 +285,9 @@
     return `<div class="badges${small ? ' sm' : ''}">${b.map(x => `<span class="badge">${ico(x[2])} ${esc(t(x[1]))}</span>`).join('')}</div>`;
   }
   const photo = (id, cls) => `<img class="${cls}" src="photos/${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
-  const flagOf = o => (o && /^[A-Z]{2}$/.test(o) ? String.fromCodePoint(...[...o].map(c => 127397 + c.charCodeAt(0))) + ' ' : '');
+  /* Windows no dibuja las banderas como emoji (se ven como dos letras): en pantalla van como imagen y el emoji queda solo para el texto que se comparte. */
+  const flagEmoji = o => (o && /^[A-Z]{2}$/.test(o) ? String.fromCodePoint(...[...o].map(c => 127397 + c.charCodeAt(0))) + ' ' : '');
+  const flagOf = o => (o && /^[A-Z]{2}$/.test(o) ? `<img class="flag" src="../assets/flags/${o.toLowerCase()}.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> ` : '');
   function recipeCard(m) { const r = m.r; return `<button class="card recipe" style="display:block;width:100%;text-align:left;border:0;margin:8px 0" data-act="recipe" data-id="${esc(r.id)}"><div class="rcard">${r.composed ? composedThumb(r) : photo(r.id, 'thumb')}<div class="grow"><div class="t">${flagOf(r.origin)}${esc(r.title)}${m.expiring ? ' ' + ico('flame', 'o') : ''}</div>
         <div class="s muted small clamp">${esc(r.summary || '')}</div>${dietBadges(r, true)}<div class="small" style="margin-top:6px">${m.all ? '' : `<span class="good">${esc(t('Tenés %lld de %lld ingredientes', m.have, m.total))}</span> · `}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</div></div></div></button>`; }
   function recipeCards() {
@@ -467,7 +469,7 @@
   }
   const cookStepsHtml = r => (r.steps || []).map((x, i) => `<button type="button" class="stp ${ui.cook.done[i] ? 'on' : ''}" data-act="ck-step" data-id="${i}"><span class="num">${i + 1}</span><span class="grow">${esc(x)}</span></button>`).join('');
   function recipeText(r, c) {
-    const f = cookFactor(r, c), m = matchRecipe(r), lines = ['*' + flagOf(r.origin) + r.title + '*'], meta = [];
+    const f = cookFactor(r, c), m = matchRecipe(r), lines = ['*' + flagEmoji(r.origin) + r.title + '*'], meta = [];
     if (c.servings) meta.push(t('%lld porciones', c.servings)); if (r.minutes) meta.push(t('%lld min', r.minutes)); if (meta.length) lines.push(meta.join(' · '));
     if (r.summary) lines.push(r.summary);
     lines.push('', '*' + t('Ingredientes') + '*'); m.ing.forEach(x => lines.push('• ' + x.name + (x.amount ? ' (' + amt(x.amount, f) + ')' : '')));
@@ -532,7 +534,8 @@
     const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
     const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
-    document.getElementById('app').innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
+    const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
+    appEl.innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
     if (!sh || sh.type !== 'recipe') cookStop();
     const key = sh ? sh.type + ':' + (sh.id || '') : '';
     if (key !== ui.shKey) {

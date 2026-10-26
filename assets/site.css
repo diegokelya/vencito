@@ -203,3 +203,6 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 .recipe p { margin: 2px 0 0; color: var(--muted); font-size: var(--step--1); }
 @media (max-width: 900px) { .recipes { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .recipes { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Banderas como imagen: Windows no dibuja las banderas emoji */
+.flag, .recipe img.flag { display: inline-block; width: 20px; height: 15px; aspect-ratio: auto; object-fit: cover; vertical-align: -2px; border: 0; border-radius: 2px; box-shadow: 0 0 0 1px #00000026; }
