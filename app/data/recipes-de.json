@@ -2773,5 +2773,90 @@
       "10 Minuten durchziehen lassen und servieren."
     ],
     "tip": "Die Gurke vorher salzen und ausdrücken, dann wird der Salat nicht wässrig."
+  },
+  {
+    "id": "de-koenigsberger-klopse",
+    "title": "Königsberger Klopse",
+    "summary": "Fleischklößchen in heller Soße mit Kapern, dazu Kartoffeln.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Rote Bete",
+    "ingredients": [
+      {
+        "name": "Hackfleisch",
+        "keywords": [
+          "hackfleisch",
+          "gehacktes",
+          "rinderhack",
+          "hack"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Brötchen vom Vortag",
+        "keywords": [
+          "brötchen",
+          "brot",
+          "semmel",
+          "toastbrot"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Kartoffel",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "4 Stück"
+      },
+      {
+        "name": "Sahne",
+        "keywords": [
+          "sahne",
+          "schlagsahne"
+        ],
+        "amount": "100 ml"
+      },
+      {
+        "name": "Kapern",
+        "keywords": [
+          "kapern"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Das Brötchen einweichen, ausdrücken und mit Hackfleisch, Ei, gehackter Zwiebel und Salz verkneten.",
+      "Daraus Klopse formen und in leicht kochender Salzbrühe 15 Minuten gar ziehen lassen.",
+      "Eine Soße aus etwas Kochbrühe, Sahne und Kapern kurz einkochen lassen.",
+      "Die Klopse in der Soße erwärmen und mit gekochten Kartoffeln servieren."
+    ],
+    "tip": "Die Klopse nur sanft garen, damit sie nicht zerfallen.",
+    "origin": "DE"
   }
 ]

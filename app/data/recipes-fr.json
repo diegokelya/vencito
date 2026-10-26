@@ -2297,5 +2297,88 @@
       "Mélangez avec les pâtes et le fromage."
     ],
     "tip": "Gardez un peu d'eau de cuisson pour détendre la sauce."
+  },
+  {
+    "id": "fr-croque-madame",
+    "title": "Croque-madame",
+    "summary": "Croque-monsieur gratiné couronné d'un œuf au plat.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Pain de mie",
+        "keywords": [
+          "pain",
+          "pain de mie",
+          "pain en tranches"
+        ],
+        "amount": "4 tranches"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon"
+        ],
+        "amount": "2 tranches"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage",
+          "gruyère",
+          "emmental",
+          "comté"
+        ],
+        "amount": "80 g"
+      },
+      {
+        "name": "Œuf",
+        "keywords": [
+          "oeuf",
+          "œuf",
+          "œufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Crème fraîche",
+        "keywords": [
+          "crème",
+          "crème fraîche",
+          "béchamel"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "à votre goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tartinez deux tranches de pain de crème fraîche et garnissez-les de jambon et de fromage.",
+      "Refermez avec les autres tranches et mettez du fromage râpé dessus.",
+      "Faites gratiner au four à 200 °C pendant 10 minutes.",
+      "Faites cuire les œufs au plat dans le beurre et posez-en un sur chaque croque."
+    ],
+    "tip": "Faites cuire l'œuf à part pour que le jaune reste coulant.",
+    "origin": "FR",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
   }
 ]

@@ -3686,5 +3686,237 @@
       "Devolva o frango e sirva com hortelã."
     ],
     "tip": "Ideal para dias frios."
+  },
+  {
+    "id": "pt-bacalhau-com-natas",
+    "title": "Bacalhau com natas",
+    "summary": "Bacalhau desfiado com batata e natas, gratinado no forno.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Salada de alface",
+    "ingredients": [
+      {
+        "name": "Bacalhau dessalgado",
+        "keywords": [
+          "bacalhau"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Natas",
+        "keywords": [
+          "natas",
+          "nata",
+          "creme de leite",
+          "creme"
+        ],
+        "amount": "200 ml"
+      },
+      {
+        "name": "Queijo ralado",
+        "keywords": [
+          "queijo",
+          "queijo ralado"
+        ],
+        "amount": "50 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo",
+          "azeite"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe o bacalhau, escorra e desfie, tirando as espinhas.",
+      "Corte as batatas em palitos e frite ou asse até dourar.",
+      "Refogue a cebola fatiada com azeite, junte o bacalhau e as natas.",
+      "Misture com as batatas em uma travessa, polvilhe queijo e gratine por 15 minutos."
+    ],
+    "tip": "Dessalgue o bacalhau na véspera, trocando a água várias vezes.",
+    "origin": "PT"
+  },
+  {
+    "id": "br-bolo-de-fuba",
+    "title": "Bolo de fubá",
+    "summary": "Bolo simples e úmido de fubá, típico das tardes com café.",
+    "minutes": 60,
+    "servings": 8,
+    "side": "Café",
+    "ingredients": [
+      {
+        "name": "Fubá",
+        "keywords": [
+          "fubá",
+          "fuba",
+          "farinha de milho",
+          "milho"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Farinha de trigo",
+        "keywords": [
+          "farinha",
+          "farinha de trigo"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Açúcar",
+        "keywords": [
+          "açúcar",
+          "acucar"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Fermento em pó",
+        "keywords": [
+          "fermento"
+        ],
+        "amount": "1 colher de sopa"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo",
+          "azeite"
+        ],
+        "amount": "4 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Bata os ovos com o açúcar até ficarem claros e cremosos.",
+      "Junte o leite e o óleo e misture.",
+      "Acrescente o fubá, a farinha e o fermento e mexa até ficar homogêneo.",
+      "Despeje em uma forma untada e asse a 180 °C por 40 minutos."
+    ],
+    "tip": "Bata bem os ovos com o açúcar até clarear: é isso que deixa o bolo fofo.",
+    "origin": "BR",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "br-strogonoff-de-cogumelos",
+    "title": "Strogonoff de cogumelos",
+    "summary": "Cogumelos cremosos ao molho de creme de leite, ketchup e mostarda.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Arroz e batata palha",
+    "ingredients": [
+      {
+        "name": "Cogumelos",
+        "keywords": [
+          "cogumelo",
+          "cogumelos",
+          "champignon",
+          "champignons"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Creme de leite",
+        "keywords": [
+          "creme de leite",
+          "creme"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Ketchup",
+        "keywords": [
+          "ketchup",
+          "catchup"
+        ],
+        "amount": "2 colheres de sopa"
+      },
+      {
+        "name": "Mostarda",
+        "keywords": [
+          "mostarda"
+        ],
+        "amount": "1 colher de chá",
+        "kind": "optional"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola picada com óleo.",
+      "Junte os cogumelos fatiados e doure em fogo alto.",
+      "Acrescente o ketchup, a mostarda e o sal.",
+      "Baixe o fogo, junte o creme de leite e aqueça sem ferver."
+    ],
+    "tip": "Doure os cogumelos sem mexer muito para soltarem menos água.",
+    "origin": "BR"
   }
 ]

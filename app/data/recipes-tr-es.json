@@ -8428,5 +8428,501 @@
    "Escurre el pepino y combínalo con el aderezo y el eneldo.",
    "Deja reposar 10 minutos y sirve."
   ]
+ },
+ "us-buffalo-chicken-wraps": {
+  "title": "Wraps de pollo buffalo",
+  "summary": "Tortillas rellenas de pollo picante, lechuga y un aderezo fresco.",
+  "side": "Bastones de zanahoria",
+  "tip": "Mezclá el pollo con la salsa picante mientras está tibio para que la absorba.",
+  "ingredients": [
+   {
+    "name": "Pollo cocido",
+    "amount": "300 g"
+   },
+   {
+    "name": "Salsa picante",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Tortillas de trigo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Lechuga",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Aderezo ranch",
+    "amount": "4 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Desmenuzá el pollo cocido.",
+   "Calentá la salsa picante con la manteca y mezclala con el pollo.",
+   "Untá las tortillas con el aderezo y agregá la lechuga.",
+   "Sumá el pollo, enrollá bien apretado y cortá al medio."
+  ]
+ },
+ "us-black-bean-rice-bowl": {
+  "title": "Bowl de arroz y porotos negros",
+  "summary": "Arroz con porotos negros, choclo, tomate y queso.",
+  "side": "Gajos de lima",
+  "tip": "Enjuagá bien los porotos de lata para sacarles el exceso de sal.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Porotos negros",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Choclo",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Queso",
+    "amount": "50 g"
+   },
+   {
+    "name": "Palta",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Cociná el arroz con sal.",
+   "Calentá en una sartén los porotos negros enjuagados y el choclo.",
+   "Cortá el tomate en cubos.",
+   "Armá los bowls con arroz, porotos, choclo, tomate, queso y palta."
+  ]
+ },
+ "gb-cullen-skink": {
+  "title": "Cullen skink",
+  "summary": "Sopa escocesa cremosa de eglefino ahumado, papa y cebolla.",
+  "side": "Pan crujiente",
+  "tip": "No hiervas fuerte la leche una vez que está el pescado porque puede cortarse.",
+  "ingredients": [
+   {
+    "name": "Eglefino ahumado",
+    "amount": "300 g"
+   },
+   {
+    "name": "Papa",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Cociná la cebolla picada en la manteca hasta que se ablande.",
+   "Agregá las papas en cubos y agua para cubrir; hervilas a fuego bajo 15 minutos.",
+   "Sumá el pescado y la leche y cociná suave 8 minutos.",
+   "Desmenuzá el pescado, aplastá un poco de papa para espesar y salpimentá."
+  ]
+ },
+ "gb-pea-and-ham-soup": {
+  "title": "Sopa de arvejas y jamón",
+  "summary": "Sopa verde espesa de arvejas y jamón, hecha con caldo en cubo.",
+  "side": "Tostadas con manteca",
+  "tip": "Procesá solo una parte de la sopa para que conserve algo de textura.",
+  "ingredients": [
+   {
+    "name": "Arvejas congeladas",
+    "amount": "400 g"
+   },
+   {
+    "name": "Jamón",
+    "amount": "150 g"
+   },
+   {
+    "name": "Papa",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Cociná la cebolla picada y la papa en cubos con un poco de caldo 10 minutos.",
+   "Agregá el resto del caldo y las arvejas y hervilas 10 minutos.",
+   "Procesá más o menos dos tercios de la sopa.",
+   "Sumá el jamón en cubos, calentá y salpimentá."
+  ]
+ },
+ "ca-salmon-chowder": {
+  "title": "Chowder de salmón",
+  "summary": "Sopa cremosa de salmón, papa y choclo.",
+  "side": "Galletitas de agua",
+  "tip": "Agregá el salmón al final para que quede tierno y no se seque.",
+  "ingredients": [
+   {
+    "name": "Salmón",
+    "amount": "300 g"
+   },
+   {
+    "name": "Papa",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Choclo",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Cociná la cebolla picada en la manteca hasta que se ablande.",
+   "Agregá las papas en cubos, el choclo y agua para cubrir; hervilas a fuego bajo 15 minutos.",
+   "Volcá la leche y sumá el salmón en trozos.",
+   "Cociná suave 8 minutos y salpimentá."
+  ]
+ },
+ "ca-maple-bacon-pancakes": {
+  "title": "Panqueques con panceta y maple",
+  "summary": "Panqueques esponjosos con panceta crocante y jarabe de maple.",
+  "side": "Fruta fresca",
+  "tip": "No mezcles de más la masa: unos grumos hacen los panqueques más esponjosos.",
+  "ingredients": [
+   {
+    "name": "Harina",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Huevo",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Polvo para hornear",
+    "amount": "2 cucharaditas"
+   },
+   {
+    "name": "Panceta",
+    "amount": "4 fetas"
+   },
+   {
+    "name": "Jarabe de maple",
+    "amount": "4 cucharadas"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Cociná la panceta en una sartén hasta que esté crocante y ponela sobre papel absorbente.",
+   "Mezclá la harina, el polvo para hornear, una pizca de sal, el huevo y la leche hasta formar una masa.",
+   "Cociná cucharones de masa en la grasa de la panceta hasta que se doren de ambos lados.",
+   "Serví los panqueques con la panceta desmenuzada y el jarabe de maple."
+  ]
+ },
+ "pt-bacalhau-com-natas": {
+  "title": "Bacalao con crema",
+  "summary": "Bacalao desmenuzado con papas y crema, gratinado al horno.",
+  "side": "Ensalada de lechuga",
+  "tip": "Desalá el bacalao el día anterior cambiando el agua varias veces.",
+  "ingredients": [
+   {
+    "name": "Bacalao desalado",
+    "amount": "400 g"
+   },
+   {
+    "name": "Papa",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "50 g"
+   },
+   {
+    "name": "Aceite",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Cociná el bacalao, escurrilo y desmenuzalo sacando las espinas.",
+   "Cortá las papas en bastones y freílas u hornealas hasta que se doren.",
+   "Salteá la cebolla en rodajas con aceite, sumá el bacalao y la crema.",
+   "Mezclá con las papas en una fuente, espolvoreá con queso y gratiná 15 minutos."
+  ]
+ },
+ "fr-croque-madame": {
+  "title": "Croque-madame",
+  "summary": "Croque-monsieur gratinado coronado con un huevo frito.",
+  "side": "Ensalada verde",
+  "tip": "Cociná el huevo aparte para que la yema quede líquida.",
+  "ingredients": [
+   {
+    "name": "Pan de molde",
+    "amount": "4 rebanadas"
+   },
+   {
+    "name": "Jamón",
+    "amount": "2 fetas"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "80 g"
+   },
+   {
+    "name": "Huevo",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Untá dos rebanadas de pan con crema y cubrilas con jamón y queso.",
+   "Tapalas con las otras rebanadas y poné queso rallado encima.",
+   "Gratiná en horno a 200 °C durante 10 minutos.",
+   "Freí los huevos en la manteca y poné uno sobre cada croque."
+  ]
+ },
+ "it-risotto-alla-milanese": {
+  "title": "Risotto a la milanesa",
+  "summary": "Risotto cremoso al azafrán, con manteca y parmesano.",
+  "side": "Escamas de parmesano",
+  "tip": "Agregá el caldo caliente de a poco y revolvé seguido para lograr la cremosidad.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "300 g"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1/2 unidad"
+   },
+   {
+    "name": "Manteca",
+    "amount": "40 g"
+   },
+   {
+    "name": "Parmesano",
+    "amount": "50 g"
+   },
+   {
+    "name": "Azafrán",
+    "amount": "1 sobre"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Salteá la cebolla picada en la manteca hasta que se ablande.",
+   "Agregá el arroz y tostalo 2 minutos; luego sumá el caldo caliente de a poco.",
+   "A mitad de cocción agregá el azafrán disuelto en un cucharón de caldo.",
+   "Cociná unos 18 minutos, terminá con manteca y parmesano y serví enseguida."
+  ]
+ },
+ "de-koenigsberger-klopse": {
+  "title": "Albóndigas de Königsberg",
+  "summary": "Albóndigas en una salsa clara con alcaparras, con papas.",
+  "side": "Remolacha",
+  "tip": "Cocinalas solo a fuego suave para que no se deshagan.",
+  "ingredients": [
+   {
+    "name": "Carne picada",
+    "amount": "400 g"
+   },
+   {
+    "name": "Pan del día anterior",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Huevo",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Papa",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "100 ml"
+   },
+   {
+    "name": "Alcaparras",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Remojá el pan, exprimilo y amasalo con la carne, el huevo, la cebolla picada y sal.",
+   "Formá albóndigas y cocinalas en caldo con sal apenas hirviendo 15 minutos.",
+   "Reducí un poco de ese caldo con la crema y las alcaparras.",
+   "Calentá las albóndigas en la salsa y serví con papas hervidas."
+  ]
+ },
+ "br-bolo-de-fuba": {
+  "title": "Bizcochuelo de maíz brasileño",
+  "summary": "Bizcochuelo simple y húmedo de harina de maíz, típico de la merienda con café.",
+  "side": "Café",
+  "tip": "Batí bien los huevos con el azúcar hasta que blanqueen: eso lo deja esponjoso.",
+  "ingredients": [
+   {
+    "name": "Harina de maíz fina",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Harina",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Huevo",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Polvo para hornear",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Aceite",
+    "amount": "4 cucharadas"
+   }
+  ],
+  "steps": [
+   "Batí los huevos con el azúcar hasta que estén claros y cremosos.",
+   "Agregá la leche y el aceite y mezclá.",
+   "Sumá la harina de maíz, la harina y el polvo para hornear y mezclá hasta integrar.",
+   "Volcá en un molde enmantecado y horneá a 180 °C 40 minutos."
+  ]
+ },
+ "br-strogonoff-de-cogumelos": {
+  "title": "Strogonoff de champiñones",
+  "summary": "Champiñones cremosos en una salsa de crema, ketchup y mostaza.",
+  "side": "Arroz y papas pay",
+  "tip": "Dorá los champiñones sin revolver demasiado para que suelten menos agua.",
+  "ingredients": [
+   {
+    "name": "Champiñones",
+    "amount": "400 g"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1 unidad"
+   },
+   {
+    "name": "Ketchup",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Mostaza",
+    "amount": "1 cucharadita"
+   },
+   {
+    "name": "Aceite",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gusto"
+   }
+  ],
+  "steps": [
+   "Salteá la cebolla picada con aceite.",
+   "Agregá los champiñones laminados y dorálos a fuego fuerte.",
+   "Sumá el ketchup, la mostaza y la sal.",
+   "Bajá el fuego, agregá la crema y calentá sin hervir."
+  ]
  }
 }

@@ -36976,5 +36976,1919 @@
    "Junte o ovo batido.",
    "Finalize com queijo e coentro."
   ]
+ },
+ "ar-pollo-al-champinon-con-arroz": {
+  "title": "Frango com cogumelos e arroz",
+  "summary": "Frango cremoso com cogumelos, para acompanhar com arroz.",
+  "side": "Arroz branco",
+  "tip": "Junte o creme de leite no final para não talhar.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "600 g"
+   },
+   {
+    "name": "Cogumelos",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Creme de leite",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Corte o frango em pedaços e doure em uma frigideira com óleo.",
+   "Junte a cebola picada e os cogumelos fatiados.",
+   "Cozinhe por 10 minutos e acrescente o creme de leite com sal.",
+   "Cozinhe o arroz e sirva o frango por cima."
+  ]
+ },
+ "ar-tarta-de-zapallo-y-cebolla": {
+  "title": "Torta de abóbora e cebola",
+  "summary": "Torta rápida com recheio macio de abóbora e cebola.",
+  "side": "Salada de rúcula",
+  "tip": "Cozinhe a abóbora antes para o recheio não ficar aguado.",
+  "ingredients": [
+   {
+    "name": "Massa de torta",
+    "amount": "1 disco"
+   },
+   {
+    "name": "Abóbora",
+    "amount": "400 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Ovo",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Queijo",
+    "amount": "100 g"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe a abóbora em cubos até ficar macia e amasse levemente.",
+   "Refogue a cebola em rodelas finas até dourar.",
+   "Misture a abóbora, a cebola, os ovos, o queijo e sal.",
+   "Despeje o recheio sobre a massa e asse por 30 minutos em forno médio."
+  ]
+ },
+ "ar-fideos-con-salsa-de-berenjenas": {
+  "title": "Macarrão com molho de berinjela",
+  "summary": "Massa com berinjela, tomate e um toque de alho.",
+  "side": "Queijo ralado",
+  "tip": "Salgue a berinjela e deixe 10 minutos para tirar o amargor.",
+  "ingredients": [
+   {
+    "name": "Macarrão",
+    "amount": "300 g"
+   },
+   {
+    "name": "Berinjela",
+    "amount": "1 grande"
+   },
+   {
+    "name": "Tomate pelado",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Alho",
+    "amount": "2 dentes"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Corte a berinjela em cubos e refogue com óleo até amolecer.",
+   "Junte o alho picado e o tomate pelado.",
+   "Cozinhe o molho por 15 minutos com sal.",
+   "Cozinhe o macarrão, escorra e misture com o molho."
+  ]
+ },
+ "ar-pastelitos-de-membrillo": {
+  "title": "Pastelzinhos de marmelada",
+  "summary": "Pastelzinhos fritos recheados com marmelada.",
+  "side": "Açúcar de confeiteiro",
+  "tip": "Fure com um garfo para não estufarem ao fritar.",
+  "ingredients": [
+   {
+    "name": "Discos de massa de pastel",
+    "amount": "12 unidades"
+   },
+   {
+    "name": "Marmelada",
+    "amount": "250 g"
+   },
+   {
+    "name": "Óleo para fritar",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Açúcar",
+    "amount": "2 colheres de sopa"
+   }
+  ],
+  "steps": [
+   "Corte a marmelada em quadradinhos.",
+   "Coloque um quadradinho em cada disco e feche bem as bordas com um garfo.",
+   "Frite os pastelzinhos em óleo quente até dourar.",
+   "Escorra em papel-toalha e polvilhe com açúcar."
+  ]
+ },
+ "ar-sopa-de-calabaza-y-choclo": {
+  "title": "Sopa de abóbora e milho",
+  "summary": "Sopa grossa e doce com abóbora e grãos de milho.",
+  "side": "Pão torrado",
+  "tip": "Bata só metade para ficar com pedacinhos.",
+  "ingredients": [
+   {
+    "name": "Abóbora",
+    "amount": "500 g"
+   },
+   {
+    "name": "Milho",
+    "amount": "2 espigas"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "800 ml"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola picada com óleo até ficar transparente.",
+   "Junte a abóbora em cubos, o milho debulhado e o caldo.",
+   "Cozinhe por 25 minutos até a abóbora ficar macia.",
+   "Bata uma parte, misture e tempere."
+  ]
+ },
+ "mx-tostadas-de-tinga": {
+  "title": "Tostadas de tinga",
+  "summary": "Tostadas com frango desfiado em molho de tomate e chipotle.",
+  "side": "Creme azedo e alface",
+  "tip": "Coloque a tinga na hora de comer para a tostada não amolecer.",
+  "ingredients": [
+   {
+    "name": "Frango cozido",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tostadas",
+    "amount": "8 unidades"
+   },
+   {
+    "name": "Tomate",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Chipotle",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Creme azedo",
+    "amount": "4 colheres de sopa"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Desfie o frango cozido.",
+   "Bata os tomates com o chipotle e cozinhe por 10 minutos.",
+   "Refogue a cebola em fatias, junte o frango e o molho e cozinhe por 10 minutos.",
+   "Monte as tostadas com a tinga e o creme."
+  ]
+ },
+ "mx-flautas-de-pollo": {
+  "title": "Flautas de frango",
+  "summary": "Tortilhas enroladas com frango, fritas até ficarem crocantes.",
+  "side": "Creme azedo e molho",
+  "tip": "Prenda com um palito ou frite com a emenda para baixo.",
+  "ingredients": [
+   {
+    "name": "Tortilhas de milho",
+    "amount": "12 unidades"
+   },
+   {
+    "name": "Frango cozido",
+    "amount": "300 g"
+   },
+   {
+    "name": "Queijo",
+    "amount": "100 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Óleo para fritar",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Misture o frango desfiado com a cebola picada, o queijo e sal.",
+   "Aqueça as tortilhas para não quebrarem ao enrolar.",
+   "Recheie com o frango e enrole bem apertado.",
+   "Frite em óleo quente até dourar e ficar crocante."
+  ]
+ },
+ "mx-arroz-verde": {
+  "title": "Arroz verde",
+  "summary": "Arroz com salsinha, coentro e pimentão, de cor verde intensa.",
+  "side": "Frango assado",
+  "tip": "Não destampe a panela durante o cozimento para o arroz ficar soltinho.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Coentro",
+    "amount": "1 maço"
+   },
+   {
+    "name": "Salsinha",
+    "amount": "1/2 maço"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Alho",
+    "amount": "1 dente"
+   },
+   {
+    "name": "Caldo",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue o arroz com óleo até ficar transparente.",
+   "Bata o coentro, a salsinha, a cebola e o alho com um pouco de caldo.",
+   "Junte a mistura e o resto do caldo ao arroz.",
+   "Cozinhe tampado em fogo baixo por 18 minutos com sal."
+  ]
+ },
+ "ar-postre-de-vainillas-con-dulce-de-leche": {
+  "title": "Pavê de biscoito champanhe com doce de leite",
+  "summary": "Camadas de biscoito champanhe, doce de leite e creme, sem forno.",
+  "side": "Cacau em pó",
+  "tip": "Deixe 4 horas na geladeira para o biscoito amolecer bem.",
+  "ingredients": [
+   {
+    "name": "Biscoito champanhe",
+    "amount": "200 g"
+   },
+   {
+    "name": "Doce de leite",
+    "amount": "300 g"
+   },
+   {
+    "name": "Creme de leite",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Leite",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Cacau em pó",
+    "amount": "2 colheres de sopa"
+   }
+  ],
+  "steps": [
+   "Misture o doce de leite com o creme de leite batido.",
+   "Molhe de leve os biscoitos no leite e faça uma camada em um refratário.",
+   "Cubra com o creme de doce de leite e repita as camadas.",
+   "Leve à geladeira por 4 horas e polvilhe cacau antes de servir."
+  ]
+ },
+ "mx-caldo-tlalpeno": {
+  "title": "Caldo tlalpeño",
+  "summary": "Caldo de frango com grão-de-bico, legumes, chipotle e abacate.",
+  "side": "Tortilhas quentes",
+  "tip": "Junte o chipotle aos poucos: o caldo fica mais picante enquanto ferve.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "400 g"
+   },
+   {
+    "name": "Grão-de-bico cozido",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Cenoura",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Chipotle",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Abacate",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe o frango no caldo com a cebola por 20 minutos.",
+   "Retire o frango, desfie e volte à panela.",
+   "Junte as cenouras em cubos, o grão-de-bico e o chipotle.",
+   "Cozinhe mais 10 minutos com sal e sirva com abacate."
+  ]
+ },
+ "cl-pantrucas": {
+  "title": "Pantrucas",
+  "summary": "Sopa chilena com pedaços de massa, carne e legumes.",
+  "side": "Pão chileno",
+  "tip": "Abra a massa fina e rasgue em pedaços irregulares: cozinham mais rápido.",
+  "ingredients": [
+   {
+    "name": "Carne bovina",
+    "amount": "300 g"
+   },
+   {
+    "name": "Farinha de trigo",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Ovo",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Batata",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cenoura",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola com óleo, junte a carne em cubos e cubra com água; cozinhe por 25 minutos.",
+   "Acrescente a batata e a cenoura em cubos e cozinhe mais 10 minutos.",
+   "Misture a farinha, o ovo, sal e um pouco de água até formar uma massa e abra fina.",
+   "Corte ou rasgue a massa em pedaços, coloque na sopa e cozinhe por 5 minutos."
+  ]
+ },
+ "cl-pollo-al-jugo-con-arroz-graneado": {
+  "title": "Frango ao molho próprio com arroz soltinho",
+  "summary": "Frango suculento no próprio molho, com arroz soltinho.",
+  "side": "Salada chilena",
+  "tip": "Sele bem o frango antes de cobrir para o molho ter sabor.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "800 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Alho",
+    "amount": "2 dentes"
+   },
+   {
+    "name": "Cenoura",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Doure os pedaços de frango em uma panela com óleo e sal.",
+   "Junte a cebola em tiras, o alho e a cenoura ralada.",
+   "Cubra com um pouco de água e cozinhe tampado por 30 minutos.",
+   "Prepare o arroz com alho e óleo até ficar soltinho e sirva com o frango."
+  ]
+ },
+ "co-carne-desmechada-con-arroz": {
+  "title": "Carne desfiada com arroz",
+  "summary": "Carne cozida e desfiada em molho crioulo de tomate e cebola.",
+  "side": "Banana-da-terra frita",
+  "tip": "Desfie enquanto estiver morna: desfia muito melhor.",
+  "ingredients": [
+   {
+    "name": "Carne bovina",
+    "amount": "600 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Tomate",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Pimentão",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Cominho",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe a carne em água com meia cebola e sal até ficar bem macia.",
+   "Desfie com dois garfos.",
+   "Faça um refogado com a cebola, o tomate e o pimentão picados e o cominho.",
+   "Misture a carne com o refogado, cozinhe por 10 minutos e sirva com arroz."
+  ]
+ },
+ "co-platanos-maduros-con-queso": {
+  "title": "Bananas-da-terra maduras com queijo",
+  "summary": "Banana-da-terra madura dourada e recheada com queijo derretido.",
+  "side": "Arepa",
+  "tip": "Use bananas bem maduras, quase pretas, para caramelizar.",
+  "ingredients": [
+   {
+    "name": "Banana-da-terra madura",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Queijo",
+    "amount": "150 g"
+   },
+   {
+    "name": "Manteiga",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Descasque as bananas e abra ao meio no sentido do comprimento, sem separar.",
+   "Doure em uma frigideira com manteiga até caramelizar.",
+   "Recheie com tiras de queijo.",
+   "Tampe por 3 minutos para o queijo derreter e sirva quente."
+  ]
+ },
+ "co-arepa-de-huevo": {
+  "title": "Arepa de ovo",
+  "summary": "Arepa frita com um ovo cozido no interior.",
+  "side": "Pimenta",
+  "tip": "Abra o buraco com cuidado: o ovo precisa ficar fechado.",
+  "ingredients": [
+   {
+    "name": "Farinha de milho pré-cozida",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Ovo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Água",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Óleo para fritar",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Misture a farinha com a água morna e sal até formar uma massa macia.",
+   "Modele 4 arepas redondas e grossas e frite até estufarem.",
+   "Abra um buraco em cada uma, coloque um ovo e feche com um pouco de massa.",
+   "Frite de novo até o ovo cozinhar e a arepa ficar dourada."
+  ]
+ },
+ "pe-sopa-de-quinua-con-verduras": {
+  "title": "Sopa de quinoa com legumes",
+  "summary": "Sopa leve com quinoa, batata e cenoura.",
+  "side": "Queijo fresco",
+  "tip": "Lave bem a quinoa para tirar o amargor.",
+  "ingredients": [
+   {
+    "name": "Quinoa",
+    "amount": "1/2 xícara"
+   },
+   {
+    "name": "Batata",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cenoura",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Ovo",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Óleo",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola picada com óleo até amolecer.",
+   "Junte o caldo e a quinoa bem lavada e cozinhe por 10 minutos.",
+   "Acrescente a batata e a cenoura em cubos e cozinhe mais 15 minutos.",
+   "Tempere e, se quiser, junte um ovo batido no final."
+  ]
+ },
+ "pe-pollo-saltado-con-arroz": {
+  "title": "Frango saltado com arroz",
+  "summary": "Frango salteado em fogo alto com cebola, tomate e shoyu.",
+  "side": "Batata frita",
+  "tip": "Use a frigideira bem quente e não a encha demais para os legumes ficarem crocantes.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "500 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Shoyu",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Vinagre",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   }
+  ],
+  "steps": [
+   "Corte o frango em tiras e a cebola e o tomate em gomos.",
+   "Salteie o frango em óleo bem quente até dourar.",
+   "Junte a cebola, o tomate, o shoyu e o vinagre e salteie por 3 minutos.",
+   "Sirva sobre o arroz recém-feito."
+  ]
+ },
+ "ve-quesillo": {
+  "title": "Quesillo",
+  "summary": "Pudim venezuelano cremoso, com caramelo e leite condensado.",
+  "side": "Mais calda",
+  "tip": "Cozinhe em banho-maria e tampado para não ter bolhas.",
+  "ingredients": [
+   {
+    "name": "Leite condensado",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Ovo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Leite",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Açúcar para a calda",
+    "amount": "1/2 xícara"
+   },
+   {
+    "name": "Essência de baunilha",
+    "amount": "1 colher de chá"
+   }
+  ],
+  "steps": [
+   "Faça um caramelo com o açúcar e cubra o fundo de uma forma.",
+   "Bata no liquidificador o leite condensado, o leite, os ovos e a baunilha.",
+   "Despeje na forma, tampe com papel-alumínio e cozinhe em banho-maria por 50 minutos.",
+   "Deixe esfriar, leve à geladeira e desenforme gelado."
+  ]
+ },
+ "ve-patacon-con-queso-y-jamon": {
+  "title": "Patacón com queijo e presunto",
+  "summary": "Sanduíche de banana-da-terra verde frita com queijo e presunto.",
+  "side": "Molho de alho",
+  "tip": "Amasse firme as bananas e frite duas vezes para ficarem crocantes.",
+  "ingredients": [
+   {
+    "name": "Banana-da-terra verde",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Queijo",
+    "amount": "100 g"
+   },
+   {
+    "name": "Presunto",
+    "amount": "100 g"
+   },
+   {
+    "name": "Óleo para fritar",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Descasque as bananas e corte em rodelas grossas.",
+   "Frite por 3 minutos, amasse e frite de novo até dourar.",
+   "Salgue de leve e monte um sanduíche com dois patacones por porção.",
+   "Recheie com queijo e presunto e sirva quente."
+  ]
+ },
+ "uy-pollo-al-horno-con-boniato": {
+  "title": "Frango assado com batata-doce",
+  "summary": "Frango dourado no forno com batata-doce macia e cebola.",
+  "side": "Salada de folhas verdes",
+  "tip": "Regue o frango com o próprio caldo na metade do tempo para ficar suculento.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Batata-doce",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Alho",
+    "amount": "2 dentes"
+   },
+   {
+    "name": "Alecrim",
+    "amount": "1 ramo"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Descasque as batatas-doces e corte em rodelas grossas; corte a cebola em gomos.",
+   "Coloque tudo em uma assadeira com o frango, o alho, o óleo, sal e alecrim.",
+   "Asse por 60 minutos a 200 °C.",
+   "Regue com o caldo na metade do tempo e sirva."
+  ]
+ },
+ "ec-sopa-de-bolas-de-verde": {
+  "title": "Sopa de bolinhas de banana-da-terra verde",
+  "summary": "Caldo com bolinhas de banana-da-terra verde recheadas com queijo.",
+  "side": "Abacate",
+  "tip": "Unte as mãos com óleo para modelar as bolinhas sem grudar.",
+  "ingredients": [
+   {
+    "name": "Banana-da-terra verde",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Queijo",
+    "amount": "150 g"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Coentro",
+    "amount": "1 ramo"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe as bananas descascadas até ficarem macias e amasse com sal.",
+   "Faça bolinhas, abra, coloque um cubo de queijo e feche.",
+   "Aqueça o caldo com a cebola picada e óleo.",
+   "Junte as bolinhas e cozinhe por 10 minutos; sirva com coentro."
+  ]
+ },
+ "cu-fricase-de-pollo": {
+  "title": "Fricassê de frango cubano",
+  "summary": "Frango guisado com batatas em um molho de tomate suave.",
+  "side": "Arroz branco",
+  "tip": "Deixe ferver em fogo baixo até o molho engrossar.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "700 g"
+   },
+   {
+    "name": "Batata",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Pimentão",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Molho de tomate",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Azeitonas",
+    "amount": "10 unidades"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Doure os pedaços de frango com óleo e sal.",
+   "Junte a cebola e o pimentão picados e refogue por 5 minutos.",
+   "Acrescente o molho de tomate, as batatas em cubos e um pouco de água.",
+   "Cozinhe tampado por 35 minutos e junte as azeitonas no final."
+  ]
+ },
+ "bo-picante-de-pollo": {
+  "title": "Frango picante boliviano",
+  "summary": "Frango guisado em molho de pimenta suave, com batatas e arroz.",
+  "side": "Batatas",
+  "tip": "Prove a pimenta antes de colocar tudo: pode ser mais picante do que parece.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "700 g"
+   },
+   {
+    "name": "Batata",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Páprica",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Ervilhas",
+    "amount": "1/2 xícara"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Doure o frango com óleo e sal e reserve.",
+   "Na mesma panela, refogue a cebola picada com a páprica.",
+   "Volte com o frango, junte água, as batatas e as ervilhas e cozinhe por 35 minutos.",
+   "Sirva com o arroz recém-feito."
+  ]
+ },
+ "py-reviro": {
+  "title": "Reviro",
+  "summary": "Farinha mexida paraguaia, quente e fofa, com ovo.",
+  "side": "Café com leite",
+  "tip": "Mexa sem parar para desmanchar em migalhas pequenas.",
+  "ingredients": [
+   {
+    "name": "Farinha de trigo",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Ovo",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Leite",
+    "amount": "1/2 xícara"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Água",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Misture a farinha com água, sal e o leite até formar uma massa líquida e meio empelotada.",
+   "Aqueça o óleo e refogue a cebola picada.",
+   "Despeje a massa e mexa até cozinhar e esfarelar.",
+   "Junte os ovos e mexa até firmarem."
+  ]
+ },
+ "do-tostones-con-huevo": {
+  "title": "Tostones com ovos",
+  "summary": "Banana-da-terra verde frita e amassada, com ovos mexidos e cebola.",
+  "side": "Café",
+  "tip": "Frite duas vezes: a primeira para cozinhar e a segunda para dourar.",
+  "ingredients": [
+   {
+    "name": "Banana-da-terra verde",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Ovo",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Óleo para fritar",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Descasque as bananas e corte em rodelas grossas.",
+   "Frite por 3 minutos, amasse e frite de novo até dourar.",
+   "Refogue a cebola e mexa os ovos com sal.",
+   "Sirva os tostones com os ovos."
+  ]
+ },
+ "jp-nikujaga": {
+  "title": "Nikujaga",
+  "summary": "Ensopado japonês de carne, batatas e cebola em molho doce de shoyu.",
+  "side": "Arroz branco",
+  "tip": "Deixe descansar tampado um tempo: as batatas absorvem melhor o sabor.",
+  "ingredients": [
+   {
+    "name": "Carne bovina",
+    "amount": "250 g"
+   },
+   {
+    "name": "Batata",
+    "amount": "3 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Cenoura",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Shoyu",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Açúcar",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Óleo",
+    "amount": "1 colher de sopa"
+   }
+  ],
+  "steps": [
+   "Corte a carne em tiras finas, as batatas e a cenoura em pedaços e a cebola em gomos.",
+   "Salteie a carne com um pouco de óleo e junte a cebola.",
+   "Acrescente a batata, a cenoura, água até quase cobrir, o shoyu e o açúcar.",
+   "Cozinhe tampado em fogo baixo por 20 minutos até as batatas ficarem macias."
+  ]
+ },
+ "jp-sunomono-de-pepino": {
+  "title": "Sunomono de pepino",
+  "summary": "Salada japonesa de pepino em vinagre doce.",
+  "side": "Arroz e peixe",
+  "tip": "Salgue o pepino e esprema bem para ficar crocante.",
+  "ingredients": [
+   {
+    "name": "Pepino",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Vinagre",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Açúcar",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Shoyu",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Gergelim",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Corte o pepino em fatias bem finas.",
+   "Misture com um pouco de sal e deixe por 10 minutos.",
+   "Esprema para tirar a água.",
+   "Tempere com o vinagre, o açúcar e o shoyu e polvilhe gergelim."
+  ]
+ },
+ "in-rajma-masala": {
+  "title": "Rajma masala",
+  "summary": "Ensopado indiano de feijão vermelho em molho de tomate e especiarias.",
+  "side": "Arroz basmati",
+  "tip": "Amasse alguns feijões na panela para engrossar o molho.",
+  "ingredients": [
+   {
+    "name": "Feijão vermelho cozido",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Alho",
+    "amount": "2 dentes"
+   },
+   {
+    "name": "Garam masala",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola picada com óleo até dourar.",
+   "Junte o alho, os tomates picados e o garam masala e cozinhe por 10 minutos.",
+   "Acrescente o feijão com um pouco de água e sal.",
+   "Cozinhe por 15 minutos e amasse alguns para engrossar."
+  ]
+ },
+ "in-curry-de-huevo": {
+  "title": "Curry de ovo",
+  "summary": "Ovos cozidos em molho de tomate e cebola com curry.",
+  "side": "Arroz ou pão",
+  "tip": "Fure os ovos cozidos com um garfo para absorverem melhor o molho.",
+  "ingredients": [
+   {
+    "name": "Ovo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Curry em pó",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Alho",
+    "amount": "1 dente"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe os ovos por 10 minutos, esfrie e descasque.",
+   "Refogue a cebola picada com óleo e o alho.",
+   "Junte os tomates picados e o curry e cozinhe por 10 minutos com um pouco de água e sal.",
+   "Acrescente os ovos inteiros e cozinhe mais 5 minutos."
+  ]
+ },
+ "gr-gigantes-al-horno": {
+  "title": "Feijões gigantes ao forno",
+  "summary": "Feijões brancos grandes assados em molho de tomate.",
+  "side": "Pão e queijo feta",
+  "tip": "Cubra a travessa com papel-alumínio na primeira metade para não secar.",
+  "ingredients": [
+   {
+    "name": "Feijão branco grande cozido",
+    "amount": "400 g"
+   },
+   {
+    "name": "Tomate pelado",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Alho",
+    "amount": "2 dentes"
+   },
+   {
+    "name": "Salsinha",
+    "amount": "1 ramo"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola e o alho picados com óleo.",
+   "Junte o tomate pelado e cozinhe por 10 minutos com sal.",
+   "Misture com o feijão em uma travessa e acrescente um pouco de água.",
+   "Asse por 40 minutos a 180 °C e polvilhe com salsinha."
+  ]
+ },
+ "es-fabada-sencilla": {
+  "title": "Fabada simples",
+  "summary": "Ensopado asturiano de feijão-branco com chouriço, morcela e panceta.",
+  "side": "Pão",
+  "tip": "Cozinhe em fogo bem baixo sem mexer para o feijão não desmanchar.",
+  "ingredients": [
+   {
+    "name": "Feijão-branco cozido",
+    "amount": "500 g"
+   },
+   {
+    "name": "Chouriço",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Morcela",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Panceta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Colorau",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Coloque o chouriço, a morcela e a panceta em uma panela com água e ferva por 15 minutos.",
+   "Junte o feijão cozido, a cebola picada e o colorau.",
+   "Cozinhe em fogo bem baixo por 30 minutos sem mexer.",
+   "Corte os embutidos, acerte o sal e sirva quente."
+  ]
+ },
+ "es-arroz-caldoso-de-pollo": {
+  "title": "Arroz caldoso de frango",
+  "summary": "Arroz cremoso com frango, pimentão e tomate, quase uma sopa.",
+  "side": "Limão",
+  "tip": "Junte o caldo quente aos poucos e mexa pouco para o arroz ficar cremoso.",
+  "ingredients": [
+   {
+    "name": "Frango",
+    "amount": "500 g"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Pimentão",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Alho",
+    "amount": "2 dentes"
+   },
+   {
+    "name": "Óleo",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Doure o frango em pedaços com óleo e reserve.",
+   "Na mesma panela, refogue o alho, o pimentão e o tomate picados.",
+   "Junte o arroz, o frango e o caldo quente com sal.",
+   "Cozinhe por 18 minutos em fogo médio; deve ficar caldoso."
+  ]
+ },
+ "gen-shakshuka": {
+  "title": "Shakshuka",
+  "summary": "Ovos cozidos em molho de tomate com pimentão e especiarias.",
+  "side": "Pão para molhar",
+  "tip": "Faça covinhas no molho com uma colher para cada ovo ficar no seu lugar.",
+  "ingredients": [
+   {
+    "name": "Ovo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Tomate pelado",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Pimentão",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Cominho",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola e o pimentão picados com óleo.",
+   "Junte o tomate pelado, o cominho e sal e cozinhe por 10 minutos.",
+   "Faça quatro covinhas no molho e quebre um ovo em cada uma.",
+   "Tampe e cozinhe por 6 minutos até as claras firmarem."
+  ]
+ },
+ "gen-sopa-de-lentejas-rojas-y-zanahoria": {
+  "title": "Sopa de lentilha vermelha e cenoura",
+  "summary": "Sopa cremosa e rápida: a lentilha vermelha desmancha sem remolho.",
+  "side": "Limão e pão",
+  "tip": "Não precisa de molho: a lentilha vermelha cozinha em 15 minutos.",
+  "ingredients": [
+   {
+    "name": "Lentilha vermelha",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Cenoura",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Cominho",
+    "amount": "1 colher de chá"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola e a cenoura picadas com óleo.",
+   "Junte as lentilhas lavadas, o caldo e o cominho.",
+   "Cozinhe por 20 minutos até tudo ficar bem macio.",
+   "Bata a sopa, tempere e sirva com um fio de limão."
+  ]
+ },
+ "gen-ensalada-de-atun-y-porotos": {
+  "title": "Salada de atum e feijão-branco",
+  "summary": "Salada fresca e completa com atum, feijão-branco e cebola roxa.",
+  "side": "Pão torrado",
+  "tip": "Escorra bem o feijão e o atum para a salada não ficar aguada.",
+  "ingredients": [
+   {
+    "name": "Atum",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Feijão-branco cozido",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Cebola roxa",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Limão",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Escorra o atum e o feijão.",
+   "Corte o tomate em cubos e a cebola em fatias finas.",
+   "Misture tudo em uma tigela.",
+   "Tempere com azeite, limão e sal."
+  ]
+ },
+ "gen-tostadas-de-ricota-y-tomate": {
+  "title": "Torradas de ricota e tomate",
+  "summary": "Torradas cremosas com ricota, tomate e um fio de azeite.",
+  "side": "Fruta",
+  "tip": "Coloque o tomate na hora de comer para o pão não umedecer.",
+  "ingredients": [
+   {
+    "name": "Pão",
+    "amount": "4 fatias"
+   },
+   {
+    "name": "Ricota",
+    "amount": "150 g"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Orégano",
+    "amount": "1 pitada"
+   },
+   {
+    "name": "Óleo",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Toste as fatias de pão.",
+   "Passe a ricota por cima.",
+   "Cubra com rodelas de tomate.",
+   "Tempere com azeite, sal e orégano."
+  ]
+ },
+ "es-huevos-a-la-flamenca": {
+  "title": "Ovos à flamenca",
+  "summary": "Ovos no forno sobre molho de tomate com chouriço e ervilhas.",
+  "side": "Pão",
+  "tip": "Cozinhe os ovos só até a clara firmar e a gema ficar mole.",
+  "ingredients": [
+   {
+    "name": "Ovo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Tomate pelado",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Chouriço",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Ervilhas",
+    "amount": "1/2 xícara"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola picada e o chouriço em rodelas com óleo.",
+   "Junte o tomate pelado e as ervilhas e cozinhe por 10 minutos com sal.",
+   "Divida o molho em dois refratários pequenos e quebre dois ovos em cada um.",
+   "Asse por 8 minutos a 200 °C até a clara firmar."
+  ]
+ },
+ "gen-sopa-de-calabaza-y-coco": {
+  "title": "Sopa de abóbora e coco",
+  "summary": "Sopa cremosa e suave de abóbora com leite de coco e gengibre.",
+  "side": "Pão torrado",
+  "tip": "Junte o leite de coco no final e não ferva forte para não talhar.",
+  "ingredients": [
+   {
+    "name": "Abóbora",
+    "amount": "500 g"
+   },
+   {
+    "name": "Leite de coco",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Gengibre",
+    "amount": "1 pedaço"
+   },
+   {
+    "name": "Óleo",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola picada com óleo e o gengibre ralado.",
+   "Junte a abóbora em cubos e o caldo e cozinhe por 20 minutos.",
+   "Bata tudo até ficar cremoso.",
+   "Acrescente o leite de coco, aqueça sem ferver e tempere."
+  ]
+ },
+ "us-buffalo-chicken-wraps": {
+  "title": "Wraps de frango buffalo",
+  "summary": "Tortilhas recheadas com frango picante, alface e um molho fresco.",
+  "side": "Palitos de cenoura",
+  "tip": "Misture o frango com o molho picante ainda morno para ele absorver bem.",
+  "ingredients": [
+   {
+    "name": "Frango cozido",
+    "amount": "300 g"
+   },
+   {
+    "name": "Molho picante",
+    "amount": "3 colheres de sopa"
+   },
+   {
+    "name": "Tortilhas de trigo",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Alface",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Molho ranch",
+    "amount": "4 colheres de sopa"
+   },
+   {
+    "name": "Manteiga",
+    "amount": "1 colher de sopa"
+   }
+  ],
+  "steps": [
+   "Desfie o frango cozido.",
+   "Aqueça o molho picante com a manteiga e misture com o frango.",
+   "Passe o molho ranch nas tortilhas e junte a alface.",
+   "Acrescente o frango, enrole bem apertado e corte ao meio."
+  ]
+ },
+ "us-black-bean-rice-bowl": {
+  "title": "Bowl de arroz e feijão-preto",
+  "summary": "Arroz com feijão-preto, milho, tomate e queijo.",
+  "side": "Gomos de limão",
+  "tip": "Lave bem o feijão de lata para tirar o excesso de sal.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Feijão-preto",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Milho",
+    "amount": "1/2 xícara"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Queijo",
+    "amount": "50 g"
+   },
+   {
+    "name": "Abacate",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe o arroz com sal.",
+   "Aqueça em uma panela o feijão-preto lavado e o milho.",
+   "Corte o tomate em cubos.",
+   "Monte os bowls com arroz, feijão, milho, tomate, queijo e abacate."
+  ]
+ },
+ "gb-cullen-skink": {
+  "title": "Cullen skink",
+  "summary": "Sopa escocesa cremosa de hadoque defumado, batata e cebola.",
+  "side": "Pão crocante",
+  "tip": "Não ferva forte o leite depois de colocar o peixe, pois pode talhar.",
+  "ingredients": [
+   {
+    "name": "Hadoque defumado",
+    "amount": "300 g"
+   },
+   {
+    "name": "Batata",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Leite",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Manteiga",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe a cebola picada na manteiga até amolecer.",
+   "Junte as batatas em cubos e água para cobrir; cozinhe em fogo baixo por 15 minutos.",
+   "Acrescente o peixe e o leite e cozinhe devagar por 8 minutos.",
+   "Desfie o peixe, amasse um pouco de batata para engrossar e tempere."
+  ]
+ },
+ "gb-pea-and-ham-soup": {
+  "title": "Sopa de ervilha e presunto",
+  "summary": "Sopa verde grossa de ervilhas e presunto, feita com caldo em cubo.",
+  "side": "Torradas com manteiga",
+  "tip": "Bata só uma parte da sopa para manter um pouco de textura.",
+  "ingredients": [
+   {
+    "name": "Ervilhas congeladas",
+    "amount": "400 g"
+   },
+   {
+    "name": "Presunto",
+    "amount": "150 g"
+   },
+   {
+    "name": "Batata",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe a cebola picada e a batata em cubos com um pouco de caldo por 10 minutos.",
+   "Junte o resto do caldo e as ervilhas e ferva por 10 minutos.",
+   "Bata cerca de dois terços da sopa.",
+   "Acrescente o presunto em cubos, aqueça e tempere."
+  ]
+ },
+ "ca-salmon-chowder": {
+  "title": "Chowder de salmão",
+  "summary": "Sopa cremosa de salmão, batata e milho.",
+  "side": "Bolachas salgadas",
+  "tip": "Junte o salmão no final para ficar macio e não ressecar.",
+  "ingredients": [
+   {
+    "name": "Salmão",
+    "amount": "300 g"
+   },
+   {
+    "name": "Batata",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Milho",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Leite",
+    "amount": "2 xícaras"
+   },
+   {
+    "name": "Manteiga",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Cozinhe a cebola picada na manteiga até amolecer.",
+   "Junte as batatas em cubos, o milho e água para cobrir; cozinhe em fogo baixo por 15 minutos.",
+   "Despeje o leite e acrescente o salmão em pedaços.",
+   "Cozinhe devagar por 8 minutos e tempere."
+  ]
+ },
+ "ca-maple-bacon-pancakes": {
+  "title": "Panquecas com bacon e maple",
+  "summary": "Panquecas fofas com bacon crocante e xarope de bordo.",
+  "side": "Fruta fresca",
+  "tip": "Não misture demais a massa: uns grumos deixam as panquecas mais fofas.",
+  "ingredients": [
+   {
+    "name": "Farinha de trigo",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Ovo",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Leite",
+    "amount": "1 xícara"
+   },
+   {
+    "name": "Fermento em pó",
+    "amount": "2 colheres de chá"
+   },
+   {
+    "name": "Bacon",
+    "amount": "4 fatias"
+   },
+   {
+    "name": "Xarope de bordo",
+    "amount": "4 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Frite o bacon em uma frigideira até ficar crocante e coloque sobre papel-toalha.",
+   "Misture a farinha, o fermento, uma pitada de sal, o ovo e o leite até formar uma massa.",
+   "Cozinhe conchas de massa na gordura do bacon até dourar dos dois lados.",
+   "Sirva as panquecas com o bacon esfarelado e o xarope de bordo."
+  ]
+ },
+ "fr-croque-madame": {
+  "title": "Croque madame",
+  "summary": "Croque monsieur gratinado coroado com um ovo frito.",
+  "side": "Salada verde",
+  "tip": "Frite o ovo à parte para a gema ficar mole.",
+  "ingredients": [
+   {
+    "name": "Pão de forma",
+    "amount": "4 fatias"
+   },
+   {
+    "name": "Presunto",
+    "amount": "2 fatias"
+   },
+   {
+    "name": "Queijo ralado",
+    "amount": "80 g"
+   },
+   {
+    "name": "Ovo",
+    "amount": "2 unidades"
+   },
+   {
+    "name": "Creme de leite",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Manteiga",
+    "amount": "1 colher de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Passe creme em duas fatias de pão e cubra com presunto e queijo.",
+   "Feche com as outras fatias e polvilhe queijo ralado por cima.",
+   "Gratine no forno a 200 °C por 10 minutos.",
+   "Frite os ovos na manteiga e coloque um sobre cada croque."
+  ]
+ },
+ "it-risotto-alla-milanese": {
+  "title": "Risoto à milanesa",
+  "summary": "Risoto cremoso de açafrão, com manteiga e parmesão.",
+  "side": "Lascas de parmesão",
+  "tip": "Junte o caldo quente aos poucos e mexa sempre para ficar cremoso.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "300 g"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1/2 unidade"
+   },
+   {
+    "name": "Manteiga",
+    "amount": "40 g"
+   },
+   {
+    "name": "Parmesão",
+    "amount": "50 g"
+   },
+   {
+    "name": "Açafrão",
+    "amount": "1 sachê"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Refogue a cebola picada na manteiga até amolecer.",
+   "Junte o arroz e toste por 2 minutos; depois acrescente o caldo quente aos poucos.",
+   "No meio do cozimento, junte o açafrão dissolvido em uma concha de caldo.",
+   "Cozinhe cerca de 18 minutos, finalize com manteiga e parmesão e sirva em seguida."
+  ]
+ },
+ "de-koenigsberger-klopse": {
+  "title": "Almôndegas de Königsberg",
+  "summary": "Almôndegas em molho claro com alcaparras, acompanhadas de batatas.",
+  "side": "Beterraba",
+  "tip": "Cozinhe-as só em fogo suave para não desmancharem.",
+  "ingredients": [
+   {
+    "name": "Carne moída",
+    "amount": "400 g"
+   },
+   {
+    "name": "Pão do dia anterior",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Ovo",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Cebola",
+    "amount": "1 unidade"
+   },
+   {
+    "name": "Batata",
+    "amount": "4 unidades"
+   },
+   {
+    "name": "Creme de leite",
+    "amount": "100 ml"
+   },
+   {
+    "name": "Alcaparras",
+    "amount": "2 colheres de sopa"
+   },
+   {
+    "name": "Sal",
+    "amount": "a gosto"
+   }
+  ],
+  "steps": [
+   "Deixe o pão de molho, esprema e misture com a carne, o ovo, a cebola picada e sal.",
+   "Modele as almôndegas e cozinhe em caldo salgado quase fervendo por 15 minutos.",
+   "Reduza um pouco desse caldo com o creme de leite e as alcaparras.",
+   "Aqueça as almôndegas no molho e sirva com batatas cozidas."
+  ]
  }
 }

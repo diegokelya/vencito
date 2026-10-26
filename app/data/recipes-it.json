@@ -2444,5 +2444,79 @@
       "Cuocete coperto 5 minuti, finché l'albume è rappreso."
     ],
     "tip": "Servite con pane per fare la scarpetta."
+  },
+  {
+    "id": "it-risotto-alla-milanese",
+    "title": "Risotto alla milanese",
+    "summary": "Risotto cremoso allo zafferano, con burro e parmigiano.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Scaglie di parmigiano",
+    "ingredients": [
+      {
+        "name": "Riso",
+        "keywords": [
+          "riso",
+          "arborio",
+          "carnaroli"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Brodo",
+        "keywords": [
+          "brodo",
+          "dado"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro"
+        ],
+        "amount": "40 g"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "grana",
+          "formaggio"
+        ],
+        "amount": "50 g"
+      },
+      {
+        "name": "Zafferano",
+        "keywords": [
+          "zafferano"
+        ],
+        "amount": "1 bustina",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggi la cipolla tritata nel burro fino a ammorbidirla.",
+      "Aggiungi il riso e tostalo 2 minuti, poi unisci il brodo caldo poco alla volta.",
+      "A metà cottura aggiungi lo zafferano sciolto in un mestolo di brodo.",
+      "Cuoci circa 18 minuti, manteca con burro e parmigiano e servi subito."
+    ],
+    "tip": "Aggiungi il brodo caldo poco alla volta e mescola spesso per ottenere la cremosità.",
+    "origin": "IT"
   }
 ]
