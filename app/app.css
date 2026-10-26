@@ -209,7 +209,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   #app { max-width: 1760px; padding-left: 32px; padding-right: 32px; }
   .tabs > div { max-width: 1760px; }
   .fab { right: max(24px, calc(50% - 856px)); }
-  .tiles, #app > .search { max-width: 900px; }
   .quick.four { grid-template-columns: repeat(5, 1fr); }
   .quick.four .btn:last-child:nth-child(odd) { grid-column: auto; }
   #list { display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 0 28px; align-items: start; }
@@ -220,7 +219,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   #app.tab-settings > h1 { column-span: all; }
   #app.tab-settings > h2 { break-after: avoid; }
   #app.tab-settings > .group, #app.tab-settings > p { break-inside: avoid; }
-  #app.tab-shopping { max-width: 900px; }
+  /* Lista de compras: pendientes a la izquierda, comprados a la derecha */
+  .shopgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; align-items: start; }
+  .shopcol > .row:first-child h2 { margin-top: 0; }
+  .shopcol:nth-child(2) > .row:first-child { min-height: 52px; }
 }
 
 /* Cocinar y recetas en pantalla ancha */
