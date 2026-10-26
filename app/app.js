@@ -213,7 +213,7 @@
         <button class="link danger" data-act="clear-hist">${esc(t('Borrar historial'))}</button>
         <button class="link danger" data-act="wipe">${esc(t('Borrar todos los productos'))}</button></div>
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
-      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><p class="small muted" style="padding:10px 14px;margin:0">Precios Claros – Base SEPA, Secretaría de Comercio, Ministerio de Economía (CC BY 4.0). USDA FoodData Central (dominio público). Open Food Facts (ODbL). Íconos: Lucide (ISC).</p><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
+      <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item" data-act="egg"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><p class="small muted" style="padding:10px 14px;margin:0">Precios Claros – Base SEPA, Secretaría de Comercio, Ministerio de Economía (CC BY 4.0). USDA FoodData Central (dominio público). Open Food Facts (ODbL). Íconos: Lucide (ISC).</p><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
   }
   const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten']];
   function matchRecipe(r) {
@@ -309,7 +309,7 @@
   function productSheet(id) {
     const p = S.products.find(x => x.id === id); if (!p) return '';
     const d = daysOf(p), b = bucketOf(p);
-    return sheet(p.name, `<div class="group"><div class="item"><span class="grow t ${tone(b) ? '' : ''}">${b !== 'none' ? `<span class="${tone(b) === 'red' ? 'bad' : ''}">${esc(label(d))}</span>` : esc(t('Sin vencimiento'))}</span></div>
+    return sheet(p.name, `<div class="group"><div class="item"><span class="grow t ${tone(b) ? '' : ''}">${b !== 'none' ? `<span class="${tone(b) ? 'tone-' + tone(b) : ''}">${esc(label(d))}</span>` : esc(t('Sin vencimiento'))}</span></div>
       ${expOf(p) && b !== 'none' ? `<div class="item"><span class="grow muted">${esc(t('Vence el'))}</span><span>${esc(fmtDate(expOf(p), true))}</span></div>` : ''}
       ${p.openedAt ? `<div class="item"><span class="grow muted">${esc(t('Abierto el'))}</span><span>${esc(fmtDate(p.openedAt))}</span></div>
         <label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Una vez abierto'))}</span><select data-act="opendays" data-id="${esc(id)}" style="width:auto">${[...new Set([2, 3, 5, 7, 14, 30, 60, 90, 180, 365, p.openDays])].filter(Boolean).sort((a, c) => a - c).map(n => `<option value="${n}" ${p.openDays === n ? 'selected' : ''}>${esc(t('%lld días', n))}</option>`).join('')}</select></label>
@@ -619,6 +619,11 @@
       case 'share-list': shareList(); break;
       case 'lang': S.lang = id; save(); render(); if (ui.tab === 'recipes') ensureRecipes(); break;
       case 'export': exportJson(); break;
+      case 'egg': {   // huevo de pascua, como en las apps: siete toques en la versión
+        ui.eggTaps = (ui.eggTaps || 0) + 1;
+        if (ui.eggTaps >= 7) { ui.eggTaps = 0; try { navigator.vibrate && navigator.vibrate(40); } catch (e) { /* sin vibración */ } toast(t(['🧀 Este queso ya está en edad de merecer.', '🥛 La leche no avisa: Vencito sí.', '🍞 Lo que vence primero, se come primero.'][Math.floor(Math.random() * 3)]), false, true); }
+        break;
+      }
       case 'wipe': ui.sheet = { type: 'wipe' }; render(); break;
       case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
       case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;

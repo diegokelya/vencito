@@ -232,7 +232,10 @@ window.I18N = {
   "¿Eliminar esta casa?": "Delete this home?",
   "¿Lo tiraste o lo cargaste por error?": "Did you throw it out, or was it added by mistake?",
   "¿Qué cocino hoy?": "What should I cook today?",
-  "Últimos 6 meses": "Last 6 months"
+  "Últimos 6 meses": "Last 6 months",
+  "🧀 Este queso ya está en edad de merecer.": "🧀 This cheese is old enough to vote.",
+  "🥛 La leche no avisa: Vencito sí.": "🥛 Milk won't warn you. Vencito will.",
+  "🍞 Lo que vence primero, se come primero.": "🍞 First to expire, first to eat."
  },
  "pt": {
   "%lld días": "%lld dias",
@@ -466,7 +469,10 @@ window.I18N = {
   "¿Eliminar esta casa?": "Excluir esta casa?",
   "¿Lo tiraste o lo cargaste por error?": "Você descartou ou cadastrou por engano?",
   "¿Qué cocino hoy?": "O que cozinho hoje?",
-  "Últimos 6 meses": "Últimos 6 meses"
+  "Últimos 6 meses": "Últimos 6 meses",
+  "🧀 Este queso ya está en edad de merecer.": "🧀 Esse queijo já está na idade de merecer.",
+  "🥛 La leche no avisa: Vencito sí.": "🥛 O leite não avisa. O Vencito avisa.",
+  "🍞 Lo que vence primero, se come primero.": "🍞 O que vence primeiro, come-se primeiro."
  },
  "fr": {
   "%lld días": "%lld jours",
@@ -700,7 +706,10 @@ window.I18N = {
   "¿Eliminar esta casa?": "Supprimer cette maison ?",
   "¿Lo tiraste o lo cargaste por error?": "Vous l'avez jeté ou ajouté par erreur ?",
   "¿Qué cocino hoy?": "Que cuisiner aujourd'hui ?",
-  "Últimos 6 meses": "6 derniers mois"
+  "Últimos 6 meses": "6 derniers mois",
+  "🧀 Este queso ya está en edad de merecer.": "🧀 Ce fromage a l'âge de voter.",
+  "🥛 La leche no avisa: Vencito sí.": "🥛 Le lait ne prévient pas. Vencito, si.",
+  "🍞 Lo que vence primero, se come primero.": "🍞 Premier périmé, premier mangé."
  },
  "it": {
   "%lld días": "%lld giorni",
@@ -934,7 +943,10 @@ window.I18N = {
   "¿Eliminar esta casa?": "Eliminare questa casa?",
   "¿Lo tiraste o lo cargaste por error?": "L'hai buttato o l'hai aggiunto per errore?",
   "¿Qué cocino hoy?": "Cosa cucino oggi?",
-  "Últimos 6 meses": "Ultimi 6 mesi"
+  "Últimos 6 meses": "Ultimi 6 mesi",
+  "🧀 Este queso ya está en edad de merecer.": "🧀 Questo formaggio ha l'età per votare.",
+  "🥛 La leche no avisa: Vencito sí.": "🥛 Il latte non avvisa. Vencito sì.",
+  "🍞 Lo que vence primero, se come primero.": "🍞 Il primo a scadere è il primo da mangiare."
  },
  "de": {
   "%lld días": "%lld Tage",
@@ -1168,6 +1180,9 @@ window.I18N = {
   "¿Eliminar esta casa?": "Diesen Wohnort löschen?",
   "¿Lo tiraste o lo cargaste por error?": "Hast du es weggeworfen oder irrtümlich hinzugefügt?",
   "¿Qué cocino hoy?": "Was koche ich heute?",
-  "Últimos 6 meses": "Letzte 6 Monate"
+  "Últimos 6 meses": "Letzte 6 Monate",
+  "🧀 Este queso ya está en edad de merecer.": "🧀 Dieser Käse ist alt genug zum Wählen.",
+  "🥛 La leche no avisa: Vencito sí.": "🥛 Milch warnt dich nicht. Vencito schon.",
+  "🍞 Lo que vence primero, se come primero.": "🍞 Was zuerst abläuft, wird zuerst gegessen."
  }
 };

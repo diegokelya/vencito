@@ -53,6 +53,10 @@ h2 { font-size: 20px; margin: 24px 0 8px; }
 .sheet h3 { margin: 0; font-size: 20px; }
 .bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; gap: 8px; }
 label.f { display: block; padding: 10px 14px; }
+/* Opciones con casillero («Agitar para deshacer»…): el texto a la izquierda y el casillero a la derecha, en el mismo renglón. */
+label.f.row { display: flex; align-items: center; gap: 12px; }
+label.f.row input[type=checkbox] { width: 22px; height: 22px; flex: none; accent-color: var(--primary); }
+.tone-red { color: var(--red); } .tone-orange { color: var(--orange); } .tone-green { color: var(--green); }
 label.f > span { display: block; font-size: 13px; color: var(--muted); }
 label.f input, label.f select, label.f textarea { width: 100%; border: 0; background: transparent; padding: 4px 0; outline: none; }
 .stepper { display: flex; align-items: center; gap: 14px; }
