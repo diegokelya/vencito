@@ -477,6 +477,7 @@
     return m.ing.map((x, i) => `<button type="button" class="ck ${c.have[i] ? 'on' : ''}" data-act="ck-ing" data-id="${i}"><span class="ckc">${c.have[i] ? ico('check') : ''}</span><span class="grow"><span class="t">${esc(x.name)}</span>${x.have && !x.staple ? `<span class="good small"> ${ico('check')} ${esc(t('Lo tenés'))}</span>` : ''}</span><span class="muted">${esc(x.amount ? amt(x.amount, f) : '')}</span></button>`).join('');
   }
   const cookStepsHtml = r => (r.steps || []).map((x, i) => `<button type="button" class="stp ${ui.cook.done[i] ? 'on' : ''}" data-act="ck-step" data-id="${i}"><span class="num">${i + 1}</span><span class="grow">${esc(x)}</span></button>`).join('');
+  const recipeLink = r => ui.nums && ui.nums[r.id] ? 'https://vencito.app/r/' + ui.nums[r.id] : '';
   function recipeText(r, c) {
     const f = cookFactor(r, c), m = matchRecipe(r), lines = ['*' + flagEmoji(r.origin) + r.title + '*'], meta = [];
     if (c.servings) meta.push(t('%lld porciones', c.servings)); if (r.minutes) meta.push(t('%lld min', r.minutes)); if (meta.length) lines.push(meta.join(' · '));
@@ -484,7 +485,7 @@
     lines.push('', '*' + t('Ingredientes') + '*'); m.ing.forEach(x => lines.push('• ' + x.name + (x.amount ? ' (' + amt(x.amount, f) + ')' : '')));
     lines.push('', '*' + t('Preparación') + '*'); (r.steps || []).forEach((x, i) => lines.push((i + 1) + '. ' + x));
     if (r.tip) lines.push('', '💡 ' + r.tip);
-    lines.push('', t('Receta de Vencito') + ' · vencito.app'); return lines.join('\n');
+    lines.push('', t('Receta de Vencito') + ' · ' + (recipeLink(r) || 'vencito.app')); return lines.join('\n');
   }
   function recipeSheet(id) {
     const r = recipeById(id); if (!r) return '';
@@ -502,6 +503,7 @@
     return page(r.title, `<div class="rdesk"><div class="rcol">${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>${dietBadges(r)}
       ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">${ico('users')} <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
       ${r.side ? `<p class="small">${ico('leaf')} ${esc(r.side)}</p>` : ''}
+      ${recipeLink(r) ? `<p class="small">${ico('link')} <a href="${esc(recipeLink(r))}" target="_blank" rel="noopener">${esc(recipeLink(r).replace('https://', ''))}</a></p>` : ''}
       <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>${ico('play')}</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${ico('heart', saved ? 'fill' : '')}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button><button class="btn" data-act="ck-share"><b>${ico('share-2')}</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>${ico('audio-lines')}</b>${esc(t('Cocinar con ChatGPT'))}</button></div></div>
       <div class="rcol"><h2>${esc(t('Ingredientes'))}</h2><div class="group" id="cking">${cookIngHtml(r)}</div>
       ${m.ing.some(x => !x.have && !x.staple) ? `<button class="btn block" style="margin-top:8px" data-act="ck-missing">${ico('shopping-cart')} ${esc(t('Agregar lo que falta a la lista'))}</button>` : ''}</div>
@@ -750,6 +752,7 @@
     fetch('data/recipe-numbers.json').then(r => r.json()).then(m => { const id = Object.keys(m).find(k => String(m[k]) === q); if (id) open(id); }).catch(() => {});
   }
   function ensureRecipes() {
+    if (!ui.nums) { ui.nums = {}; fetch('data/recipe-numbers.json').then(r => r.json()).then(m => { ui.nums = m; if (ui.sheet && ui.sheet.type === 'recipe') render(); }).catch(() => {}); }
     const l = lang(); if (ui.catLang === l && ui.catalog) return; ui.catalog = null; ui.catLang = l;
     const get = f => fetch('data/' + f + '.json').then(r => { if (!r.ok) throw new Error(f); return r.json(); });
     Promise.all([Promise.all(SRC.map(x => get('recipes-' + x).catch(() => []))), get('recipes-tr-' + l).catch(() => ({})), get('recipe-diets').catch(() => ({}))]).then(([files, tr, diets]) => {
