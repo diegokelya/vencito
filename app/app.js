@@ -310,6 +310,8 @@
   }
 
   /* ---------- hojas (modales) ---------- */
+  /* La receta y «Cocinar» ocupan la pantalla (con un botón para volver) en vez de abrirse en una ventana flotante. */
+  const page = (title, body, cls = '') => `<div class="rpage ${cls}"><div class="bar"><button class="btn" data-act="close">‹ ${esc(t('Volver'))}</button><h2 class="grow">${esc(title)}</h2></div>${body}</div>`;
   const sheet = (title, body, close = true, cls = '') => `<div class="sheet-bg" data-act="bg"><div class="sheet ${cls}" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3>${close ? `<button class="btn" data-act="close">${esc(t('Cerrar'))}</button>` : ''}</div>${body}</div></div>`;
   function productSheet(id) {
     const p = S.products.find(x => x.id === id); if (!p) return '';
@@ -485,22 +487,22 @@
     const c = ui.cook && ui.cook.id === id ? ui.cook : (ui.cook = newCook(r));
     if (c.mode === 'steps' && (r.steps || []).length) {
       const n = r.steps.length, i = Math.min(c.step, n - 1);
-      return sheet(r.title, `<div class="cookgrid"><aside class="cookside"><h2>${esc(t('Ingredientes'))}</h2><div class="group">${cookIngHtml(r)}</div></aside><div class="cookmain">
+      return page(r.title, `<div class="cookgrid"><aside class="cookside"><h2>${esc(t('Ingredientes'))}</h2><div class="group">${cookIngHtml(r)}</div></aside><div class="cookmain">
         <p class="muted">${esc(t('Paso %lld de %lld', i + 1, n))}</p><div class="pbar"><i style="width:${Math.round(100 * (i + 1) / n)}%"></i></div>
         <button type="button" class="focus" data-act="ck-speak">${esc(r.steps[i])}</button>
         <div class="row" style="margin:12px 0"><button class="btn grow" data-act="ck-prev" ${i === 0 ? 'disabled' : ''}>‹ ${esc(t('Anterior'))}</button><button class="btn primary grow" data-act="ck-next">${i === n - 1 ? esc(t('Terminé')) : esc(t('Siguiente')) + ' ›'}</button></div>
         ${canSpeak() ? `<label class="f row"><span class="grow" style="font-size:16px;color:inherit">${ico('volume-2')} ${esc(t('Leer cada paso en voz alta'))}</span><input type="checkbox" data-act="ck-voice" style="width:auto" ${c.voice ? 'checked' : ''}></label>` : ''}
-        <button class="link" data-act="ck-mode" data-id="list">${esc(t('Volver a la receta'))}</button></div></div>`, true, 'wide cookfs');
+        <button class="link" data-act="ck-mode" data-id="list">${esc(t('Volver a la receta'))}</button></div></div>`, 'cookfs');
     }
     const m = matchRecipe(r), saved = isSaved(r);
-    return sheet(r.title, `<div class="rdesk"><div class="rcol">${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>${dietBadges(r)}
+    return page(r.title, `<div class="rdesk"><div class="rcol">${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>${dietBadges(r)}
       ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">${ico('users')} <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
       ${r.side ? `<p class="small">${ico('leaf')} ${esc(r.side)}</p>` : ''}
       <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>${ico('play')}</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${ico('heart', saved ? 'fill' : '')}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button><button class="btn" data-act="ck-share"><b>${ico('share-2')}</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>${ico('audio-lines')}</b>${esc(t('Cocinar con ChatGPT'))}</button></div></div>
       <div class="rcol"><h2>${esc(t('Ingredientes'))}</h2><div class="group" id="cking">${cookIngHtml(r)}</div>
       ${m.ing.some(x => !x.have && !x.staple) ? `<button class="btn block" style="margin-top:8px" data-act="ck-missing">${ico('shopping-cart')} ${esc(t('Agregar lo que falta a la lista'))}</button>` : ''}</div>
       <div class="rcol"><h2>${esc(t('Preparación'))}</h2><div class="group" id="ckstp">${cookStepsHtml(r)}</div>${r.tip ? `<p class="muted small">${ico('lightbulb')} ${esc(r.tip)}</p>` : ''}
-      <p class="small muted">${esc(t('La pantalla queda encendida mientras cocinás.'))} ${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p></div></div>`, true, 'wide');
+      <p class="small muted">${esc(t('La pantalla queda encendida mientras cocinás.'))} ${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p></div></div>`);
   }
   function cookAct(act, id, el) {
     const r = ui.cook && recipeById(ui.cook.id); if (!r) return; const c = ui.cook;
@@ -535,8 +537,8 @@
     document.documentElement.lang = lang();
     const prevActive = document.activeElement;
     const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
-    const main = ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const main = ui.sheet && ui.sheet.type === 'recipe' ? recipeSheet(String(ui.sheet.id)) : ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? '' : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
     appEl.innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
@@ -544,12 +546,12 @@
     const key = sh ? sh.type + ':' + (sh.id || '') : '';
     if (key !== ui.shKey) {
       if (sh && !ui.shKey) ui.opener = prevActive && prevActive.dataset ? { act: prevActive.dataset.act, id: prevActive.dataset.id } : null;
-      const sheetEl = document.querySelector('.sheet');
+      const sheetEl = document.querySelector('.sheet') || document.querySelector('.rpage');
       if (sheetEl) { sheetEl.setAttribute('tabindex', '-1'); sheetEl.focus({ preventScroll: true }); }
       else if (!sh && ui.opener && ui.opener.act) { const sel = '[data-act="' + ui.opener.act + '"]' + (ui.opener.id ? '[data-id="' + ui.opener.id + '"]' : ''), back = document.querySelector(sel); if (back) back.focus({ preventScroll: true }); }
       ui.shKey = key;
     }
-    else if (sh) { const se = document.querySelector('.sheet'); if (se && (document.activeElement === document.body || !document.activeElement)) { se.setAttribute('tabindex', '-1'); se.focus({ preventScroll: true }); } }
+    else if (sh) { const se = document.querySelector('.sheet') || document.querySelector('.rpage'); if (se && (document.activeElement === document.body || !document.activeElement)) { se.setAttribute('tabindex', '-1'); se.focus({ preventScroll: true }); } }
     if (ui.tab === 'products' && ui.q) { const q = document.getElementById('q'); if (q && document.activeElement !== q && !sh) { /* conserva el texto */ } }
   }
   function removeSheet(id) {
@@ -578,7 +580,7 @@
       case 'open': ui.sheet = { type: 'product', id }; render(); break;
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
-      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; closeSheet(); break;
+      case 'close': { const wasRecipe = ui.sheet && ui.sheet.type === 'recipe'; if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; closeSheet(); if (wasRecipe) window.scrollTo(0, ui.recipeBack || 0); break; }
       case 'ticket': document.getElementById('ticketpic').click(); break;
       case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
       case 'rc-save': receiptSave(); break;
@@ -638,7 +640,7 @@
       case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
       case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;
       case 'wipe-yes': S.products = []; save(); closeSheet(false); toast(t('Listo')); break;
-      case 'recipe': ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); cookWake(); break;
+      case 'recipe': ui.recipeBack = window.scrollY; ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); window.scrollTo(0, 0); cookWake(); break;
       case 'ck-ing': case 'ck-step': case 'ck-serv': case 'ck-mode': case 'ck-prev': case 'ck-next': case 'ck-speak': case 'ck-share': case 'ck-chatgpt': case 'ck-missing': case 'save-recipe': cookAct(act, id, el); break;
       case 'rmode': ui.rmode = id; ui.rshown = 40; render(); break;
       case 'rdiet': ui.rdiet = id; ui.rshown = 40; render(); break;

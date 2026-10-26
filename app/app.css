@@ -225,22 +225,22 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .shopcol:nth-child(2) > .row:first-child { min-height: 52px; }
 }
 
-/* Cocinar y recetas en pantalla ancha */
+/* La receta y «Cocinar» ocupan la pantalla */
+.rpage .bar { position: sticky; top: 0; z-index: 6; margin: 0 -16px 10px; padding: calc(var(--safe-t) + 10px) 16px 10px; background: var(--bg); gap: 12px; justify-content: flex-start; }
+.rpage .bar h2 { margin: 0; font-size: 22px; }
 .cookside { display: none; }
 @media (min-width: 1000px) {
-  .sheet { max-width: 880px; }
-  .sheet.wide { max-width: min(96vw, 1560px); max-height: 96dvh; padding: 24px 32px calc(28px + var(--safe-b)); }
-  .sheet.wide .bar h3 { font-size: 26px; }
+  .rpage .bar { margin: 0 -32px 14px; padding: 14px 32px; }
+  .rpage .bar h2 { font-size: 28px; }
   /* Receta: la foto y las acciones, los ingredientes y la preparación, uno al lado del otro */
   .rdesk { display: grid; grid-template-columns: minmax(300px, 1fr) minmax(320px, 1fr) minmax(360px, 1.25fr); gap: 0 32px; align-items: start; }
   .rdesk .rcol > h2:first-child { margin-top: 0; }
   .rdesk .rcol:first-child .hero, .rdesk .rcol:first-child img { border-radius: 18px; }
   /* Paso a paso: los ingredientes quedan a la vista y el paso se lee de lejos */
-  .sheet.cookfs { min-height: 92dvh; display: flex; flex-direction: column; }
-  .cookgrid { display: grid; grid-template-columns: minmax(300px, 380px) 1fr; gap: 0 40px; flex: 1; min-height: 0; }
-  .cookside { display: block; overflow-y: auto; max-height: calc(92dvh - 130px); }
+  .cookgrid { display: grid; grid-template-columns: minmax(300px, 380px) 1fr; gap: 0 40px; align-items: start; }
+  .cookside { display: block; position: sticky; top: 84px; overflow-y: auto; max-height: calc(100dvh - 190px); }
   .cookside h2 { margin-top: 0; }
   .cookmain { display: flex; flex-direction: column; min-width: 0; }
-  .cookmain .focus { flex: 1; display: grid; align-content: center; font-size: clamp(30px, 3.4vw, 56px); line-height: 1.3; padding: 40px 48px; min-height: 320px; }
+  .cookmain .focus { display: grid; align-content: center; font-size: clamp(30px, 3.4vw, 56px); line-height: 1.3; padding: 40px 48px; min-height: calc(100dvh - 380px); }
   .cookmain .row .btn { padding: 18px 20px; font-size: 20px; }
 }

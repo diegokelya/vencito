@@ -248,7 +248,8 @@ window.I18N = {
   "No son comida": "Not food",
   "Agregar": "Add",
   "días": "days",
-  "Comprado en %@": "Bought at %@"
+  "Comprado en %@": "Bought at %@",
+  "Volver": "Back"
  },
  "pt": {
   "%lld días": "%lld dias",
@@ -498,7 +499,8 @@ window.I18N = {
   "No son comida": "Não são comida",
   "Agregar": "Adicionar",
   "días": "dias",
-  "Comprado en %@": "Comprado em %@"
+  "Comprado en %@": "Comprado em %@",
+  "Volver": "Voltar"
  },
  "fr": {
   "%lld días": "%lld jours",
@@ -748,7 +750,8 @@ window.I18N = {
   "No son comida": "Pas de la nourriture",
   "Agregar": "Ajouter",
   "días": "jours",
-  "Comprado en %@": "Acheté chez %@"
+  "Comprado en %@": "Acheté chez %@",
+  "Volver": "Retour"
  },
  "it": {
   "%lld días": "%lld giorni",
@@ -998,7 +1001,8 @@ window.I18N = {
   "No son comida": "Non sono cibo",
   "Agregar": "Aggiungi",
   "días": "giorni",
-  "Comprado en %@": "Acquistato da %@"
+  "Comprado en %@": "Acquistato da %@",
+  "Volver": "Indietro"
  },
  "de": {
   "%lld días": "%lld Tage",
@@ -1248,6 +1252,7 @@ window.I18N = {
   "No son comida": "Keine Lebensmittel",
   "Agregar": "Hinzufügen",
   "días": "Tage",
-  "Comprado en %@": "Gekauft bei %@"
+  "Comprado en %@": "Gekauft bei %@",
+  "Volver": "Zurück"
  }
 };
