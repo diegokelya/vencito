@@ -8,7 +8,9 @@ test('todas las recetas tienen foto y sus campos', () => {
   LANGS.forEach(l => { JSON.parse(read('data/recipes-' + l + '.json')).forEach(r => { ids.add(r.id); assert.ok(r.title && Array.isArray(r.steps) && r.steps.length && Array.isArray(r.ingredients), l + ':' + r.id); r.ingredients.forEach(i => assert.ok(typeof i.name === 'string', r.id)); }); });
   assert.ok(ids.size >= 1000);
   const missing = [...ids].filter(id => !fs.existsSync(path.join(app, 'photos', id + '.webp')));
-  assert.deepEqual(missing, [], 'recetas sin foto');
+  // Las recetas nuevas (n > 1039) esperan su foto; las anteriores deben tenerla.
+  const nums = JSON.parse(read('data/recipe-numbers.json'));
+  assert.deepEqual(missing.filter(id => nums[id] <= 1039), [], 'recetas sin foto');
 });
 test('carga rápida: nombres en los 6 idiomas y foto', () => {
   const q = JSON.parse(read('data/quick.json')); assert.ok(q.length >= 100);

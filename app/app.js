@@ -742,6 +742,13 @@
     else if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => toast(t('Copiada al portapapeles')));
   }
   const SRC = ['es', 'en', 'pt', 'fr', 'it', 'de'];
+  // Link corto vencito.app/r/<n> (o ?r=<id>): abre esa receta apenas carga el catálogo.
+  function openLinkedRecipe() {
+    const q = ui.linkR; if (!q || !ui.catalog) return; ui.linkR = null;
+    const open = id => { if (ui.catalog.some(r => r.id === id)) { ui.tab = 'recipes'; ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); } };
+    if (!/^\d+$/.test(q)) return open(q);
+    fetch('data/recipe-numbers.json').then(r => r.json()).then(m => { const id = Object.keys(m).find(k => String(m[k]) === q); if (id) open(id); }).catch(() => {});
+  }
   function ensureRecipes() {
     const l = lang(); if (ui.catLang === l && ui.catalog) return; ui.catalog = null; ui.catLang = l;
     const get = f => fetch('data/' + f + '.json').then(r => { if (!r.ok) throw new Error(f); return r.json(); });
@@ -756,7 +763,7 @@
         }
         all.push(r);
       }));
-      ui.diets = diets; ui.catalog = all; if (ui.tab === 'recipes') render();
+      ui.diets = diets; ui.catalog = all; if (ui.tab === 'recipes') render(); setTimeout(openLinkedRecipe, 0);
     }).catch(() => { ui.catalog = []; if (ui.tab === 'recipes') render(); });
   }
 
@@ -1001,7 +1008,7 @@
   { const lp = new URLSearchParams(location.search).get('lang'); if (lp && LANGS[lp] && !S.lang) { S.lang = lp; save(); } }
   if (!S.welcomed && !S.products.length && !/[?&]demo=1/.test(location.search)) ui.welcome = 0; else if (!S.welcomed) { S.welcomed = true; save(); }
   render();
-  { const a = new URLSearchParams(location.search).get('action'); if (a === 'scan' && ui.welcome == null) openScanner('add'); else if (a === 'quick' && ui.welcome == null) openQuick(); else if (a === 'recipes') { ui.tab = 'recipes'; ensureRecipes(); ensureComposer(); render(); } }
+  { const a = new URLSearchParams(location.search).get('action'); if (a === 'scan' && ui.welcome == null) openScanner('add'); else if (a === 'quick' && ui.welcome == null) openQuick(); else if (a === 'recipes' || new URLSearchParams(location.search).get('r')) { ui.linkR = new URLSearchParams(location.search).get('r'); ui.tab = 'recipes'; ensureRecipes(); ensureComposer(); render(); } }
   // Si el navegador lo permite, pide que los datos no se borren solos.
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

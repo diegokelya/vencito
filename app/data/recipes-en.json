@@ -4478,5 +4478,434 @@
       "Pile chicken on the bread, add peas and pour the gravy on top."
     ],
     "tip": "Leftover roast chicken works great."
+  },
+  {
+    "id": "us-buffalo-chicken-wraps",
+    "title": "Buffalo chicken wraps",
+    "summary": "Tortillas filled with spicy chicken, lettuce and a cool dressing.",
+    "minutes": 20,
+    "servings": 3,
+    "side": "Carrot sticks",
+    "ingredients": [
+      {
+        "name": "Cooked chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "rotisserie chicken"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Hot sauce",
+        "keywords": [
+          "hot sauce",
+          "buffalo sauce"
+        ],
+        "amount": "3 tablespoons"
+      },
+      {
+        "name": "Flour tortillas",
+        "keywords": [
+          "tortilla",
+          "tortillas",
+          "wrap",
+          "wraps"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce",
+          "romaine"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Ranch dressing",
+        "keywords": [
+          "ranch",
+          "dressing",
+          "sour cream"
+        ],
+        "amount": "4 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Shred the cooked chicken.",
+      "Warm the hot sauce with the butter and toss the chicken in it.",
+      "Spread the tortillas with the ranch dressing and add the lettuce.",
+      "Add the chicken, roll tightly and cut in half."
+    ],
+    "tip": "Toss the chicken in the hot sauce while it is still warm so it soaks it up.",
+    "origin": "US"
+  },
+  {
+    "id": "us-black-bean-rice-bowl",
+    "title": "Black bean and rice bowl",
+    "summary": "Rice topped with black beans, corn, tomato and cheese.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Lime wedges",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Black beans",
+        "keywords": [
+          "black beans",
+          "beans"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Corn",
+        "keywords": [
+          "corn",
+          "sweet corn"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "2 oz",
+        "kind": "optional"
+      },
+      {
+        "name": "Avocado",
+        "keywords": [
+          "avocado"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the rice with salt.",
+      "Warm the rinsed black beans and the corn in a pan.",
+      "Dice the tomato.",
+      "Build the bowls with rice, beans, corn, tomato, cheese and avocado."
+    ],
+    "tip": "Rinse the canned beans well to remove the extra salt.",
+    "origin": "US"
+  },
+  {
+    "id": "gb-cullen-skink",
+    "title": "Cullen skink",
+    "summary": "Scottish creamy soup of smoked haddock, potato and onion.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Smoked haddock",
+        "keywords": [
+          "haddock",
+          "smoked haddock",
+          "smoked fish",
+          "cod"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion in the butter until soft.",
+      "Add the diced potatoes and enough water to cover; simmer for 15 minutes.",
+      "Add the haddock and the milk and cook gently for 8 minutes.",
+      "Flake the fish, mash some of the potato to thicken and season."
+    ],
+    "tip": "Do not boil the milk hard once the fish is in or it can split.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-pea-and-ham-soup",
+    "title": "Pea and ham soup",
+    "summary": "Thick green soup of peas and ham, made with a stock cube.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Buttered toast",
+    "ingredients": [
+      {
+        "name": "Frozen peas",
+        "keywords": [
+          "peas",
+          "frozen peas",
+          "green peas"
+        ],
+        "amount": "14 oz"
+      },
+      {
+        "name": "Ham",
+        "keywords": [
+          "ham",
+          "gammon",
+          "bacon"
+        ],
+        "amount": "5 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Stock",
+        "keywords": [
+          "stock",
+          "broth",
+          "stock cube"
+        ],
+        "amount": "4 cups"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion and the diced potato in a little stock for 10 minutes.",
+      "Add the rest of the stock and the peas and simmer for 10 minutes.",
+      "Blend about two thirds of the soup.",
+      "Stir in the diced ham, heat through and season."
+    ],
+    "tip": "Blend only part of the soup to keep a little texture.",
+    "origin": "GB"
+  },
+  {
+    "id": "ca-salmon-chowder",
+    "title": "Salmon chowder",
+    "summary": "Creamy soup of salmon, potato and corn.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Crackers",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "keywords": [
+          "salmon",
+          "fish"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Corn",
+        "keywords": [
+          "corn",
+          "sweet corn"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion in the butter until soft.",
+      "Add the diced potatoes, the corn and enough water to cover and simmer for 15 minutes.",
+      "Pour in the milk and add the salmon in chunks.",
+      "Cook gently for 8 minutes and season."
+    ],
+    "tip": "Add the salmon at the end so it stays tender and does not dry out.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-maple-bacon-pancakes",
+    "title": "Maple bacon pancakes",
+    "summary": "Fluffy pancakes with crisp bacon and maple syrup.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Fresh fruit",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Baking powder",
+        "keywords": [
+          "baking powder"
+        ],
+        "amount": "2 teaspoons"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "syrup"
+        ],
+        "amount": "4 tablespoons"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the bacon in a pan until crisp and set it on paper towels.",
+      "Mix the flour, baking powder, a pinch of salt, the egg and the milk into a batter.",
+      "Cook ladlefuls of batter in the bacon fat until golden on both sides.",
+      "Serve the pancakes with the crumbled bacon and the maple syrup."
+    ],
+    "tip": "Do not overmix the batter: a few lumps make the pancakes fluffier.",
+    "origin": "CA",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
   }
 ]

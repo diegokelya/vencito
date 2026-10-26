@@ -55502,5 +55502,2799 @@
       "breakfast",
       "main"
     ]
+  },
+  {
+    "id": "ar-pollo-al-champinon-con-arroz",
+    "title": "Pollo al champiñón con arroz",
+    "summary": "Pollo cremoso con champiñones, para acompañar con arroz.",
+    "minutes": 40,
+    "servings": 3,
+    "side": "Arroz blanco",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "pechuga",
+          "muslo",
+          "pata muslo"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Champiñones",
+        "keywords": [
+          "champiñón",
+          "champiñones",
+          "hongos"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Crema de leche",
+        "keywords": [
+          "crema",
+          "crema de leche"
+        ],
+        "amount": "200 ml"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá el pollo en trozos y dorálo en una sartén con aceite.",
+      "Agregá la cebolla picada y los champiñones laminados.",
+      "Cociná 10 minutos y sumá la crema con sal.",
+      "Herví el arroz y serví el pollo encima."
+    ],
+    "tip": "Sumá la crema al final para que no se corte.",
+    "origin": "AR"
+  },
+  {
+    "id": "ar-tarta-de-zapallo-y-cebolla",
+    "title": "Tarta de zapallo y cebolla",
+    "summary": "Tarta rápida con relleno suave de zapallo y cebolla.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Ensalada de rúcula",
+    "ingredients": [
+      {
+        "name": "Masa de tarta",
+        "keywords": [
+          "masa de tarta",
+          "tapa de tarta",
+          "tapas para tarta",
+          "masa"
+        ],
+        "amount": "1 tapa"
+      },
+      {
+        "name": "Zapallo",
+        "keywords": [
+          "zapallo",
+          "calabaza",
+          "anco"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Queso",
+        "keywords": [
+          "queso",
+          "cremoso",
+          "muzzarella",
+          "mozzarella",
+          "rallado"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cociná el zapallo en cubos hasta que esté tierno y pisalo apenas.",
+      "Salteá la cebolla en rodajas finas hasta que se dore.",
+      "Mezclá el zapallo, la cebolla, los huevos, el queso y sal.",
+      "Volcá el relleno sobre la masa y horneá 30 minutos a horno medio."
+    ],
+    "tip": "Cociná el zapallo antes para que el relleno no quede aguado.",
+    "origin": "AR"
+  },
+  {
+    "id": "ar-fideos-con-salsa-de-berenjenas",
+    "title": "Fideos con salsa de berenjenas",
+    "summary": "Pasta con berenjena, tomate y un toque de ajo.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Queso rallado",
+    "ingredients": [
+      {
+        "name": "Fideos",
+        "keywords": [
+          "fideos",
+          "tirabuzón",
+          "tallarines",
+          "spaghetti",
+          "espaguetis",
+          "mostachol"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Berenjena",
+        "keywords": [
+          "berenjena"
+        ],
+        "amount": "1 grande"
+      },
+      {
+        "name": "Tomate triturado",
+        "keywords": [
+          "tomate triturado",
+          "tomate",
+          "puré de tomate",
+          "salsa de tomate"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá la berenjena en cubos y salteala con aceite hasta que se ablande.",
+      "Agregá el ajo picado y el tomate triturado.",
+      "Cociná la salsa 15 minutos con sal.",
+      "Herví los fideos, escurrilos y mezclalos con la salsa."
+    ],
+    "tip": "Salá la berenjena y dejala 10 minutos para quitarle el amargor.",
+    "origin": "AR"
+  },
+  {
+    "id": "ar-pastelitos-de-membrillo",
+    "title": "Pastelitos de membrillo",
+    "summary": "Pastelitos fritos rellenos de dulce de membrillo.",
+    "minutes": 45,
+    "servings": 8,
+    "side": "Azúcar impalpable",
+    "ingredients": [
+      {
+        "name": "Tapas de empanada",
+        "keywords": [
+          "tapas de empanada",
+          "tapa de empanada",
+          "tapas para empanadas",
+          "masa"
+        ],
+        "amount": "12 unidades"
+      },
+      {
+        "name": "Dulce de membrillo",
+        "keywords": [
+          "membrillo",
+          "dulce de membrillo"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Aceite para freír",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "500 ml"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cortá el dulce de membrillo en cuadraditos.",
+      "Poné un cuadradito en cada tapa y cerrá bien los bordes con un tenedor.",
+      "Freí los pastelitos en aceite caliente hasta que se doren.",
+      "Escurrilos sobre papel absorbente y espolvoreá con azúcar."
+    ],
+    "tip": "Pinchalos con un tenedor para que no se inflen al freírlos.",
+    "origin": "AR"
+  },
+  {
+    "id": "ar-sopa-de-calabaza-y-choclo",
+    "title": "Sopa de calabaza y choclo",
+    "summary": "Sopa espesa y dulce con calabaza y granos de choclo.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Pan tostado",
+    "ingredients": [
+      {
+        "name": "Calabaza",
+        "keywords": [
+          "calabaza",
+          "zapallo",
+          "anco"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Choclo",
+        "keywords": [
+          "choclo",
+          "maíz",
+          "elote",
+          "granos de choclo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "800 ml"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla picada con aceite hasta que se transparente.",
+      "Agregá la calabaza en cubos, el choclo desgranado y el caldo.",
+      "Cociná 25 minutos hasta que la calabaza esté tierna.",
+      "Procesá una parte, mezclá y salpimentá."
+    ],
+    "tip": "Procesá solo la mitad para que quede con trocitos.",
+    "origin": "AR"
+  },
+  {
+    "id": "mx-tostadas-de-tinga",
+    "title": "Tostadas de tinga",
+    "summary": "Tostadas con pollo desmenuzado en salsa de tomate y chipotle.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Crema y lechuga",
+    "ingredients": [
+      {
+        "name": "Pollo cocido",
+        "keywords": [
+          "pollo",
+          "pechuga",
+          "pollo cocido"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Tostadas",
+        "keywords": [
+          "tostada",
+          "tostadas",
+          "tortillas"
+        ],
+        "amount": "8 unidades"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Chipotle",
+        "keywords": [
+          "chipotle",
+          "chile",
+          "ají picante",
+          "aji picante"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "optional"
+      },
+      {
+        "name": "Crema",
+        "keywords": [
+          "crema",
+          "crema de leche"
+        ],
+        "amount": "4 cucharadas",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Desmenuzá el pollo cocido.",
+      "Licuá los tomates con el chipotle y cocinalos 10 minutos.",
+      "Salteá la cebolla en rodajas, sumá el pollo y la salsa y cociná 10 minutos.",
+      "Armá las tostadas con la tinga y la crema."
+    ],
+    "tip": "Poné la tinga justo antes de comer para que la tostada no se ablande.",
+    "origin": "MX"
+  },
+  {
+    "id": "mx-flautas-de-pollo",
+    "title": "Flautas de pollo",
+    "summary": "Tortillas enrolladas con pollo, fritas hasta quedar crocantes.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Crema y salsa",
+    "ingredients": [
+      {
+        "name": "Tortillas de maíz",
+        "keywords": [
+          "tortilla",
+          "tortillas",
+          "tortillas de maíz"
+        ],
+        "amount": "12 unidades"
+      },
+      {
+        "name": "Pollo cocido",
+        "keywords": [
+          "pollo",
+          "pechuga",
+          "pollo cocido"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Queso",
+        "keywords": [
+          "queso",
+          "queso fresco",
+          "cremoso",
+          "rallado"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Aceite para freír",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "300 ml"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mezclá el pollo desmenuzado con la cebolla picada, el queso y sal.",
+      "Calentá las tortillas para que no se rompan al enrollarlas.",
+      "Rellenalas con el pollo y enrollalas bien apretadas.",
+      "Freílas en aceite caliente hasta que estén doradas y crocantes."
+    ],
+    "tip": "Cerralas con un palillo o apoyalas con el cierre hacia abajo al freír.",
+    "origin": "MX"
+  },
+  {
+    "id": "mx-arroz-verde",
+    "title": "Arroz verde",
+    "summary": "Arroz con perejil, cilantro y poblano, de color verde intenso.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Pollo asado",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Cilantro",
+        "keywords": [
+          "cilantro",
+          "culantro"
+        ],
+        "amount": "1 atado"
+      },
+      {
+        "name": "Perejil",
+        "keywords": [
+          "perejil"
+        ],
+        "amount": "1/2 atado"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "1 diente"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá el arroz con aceite hasta que se ponga transparente.",
+      "Licuá el cilantro, el perejil, la cebolla y el ajo con un poco de caldo.",
+      "Agregá la mezcla y el resto del caldo al arroz.",
+      "Cociná tapado a fuego bajo 18 minutos con sal."
+    ],
+    "tip": "No destapes la olla mientras se cocina para que quede suelto.",
+    "origin": "MX"
+  },
+  {
+    "id": "ar-postre-de-vainillas-con-dulce-de-leche",
+    "title": "Postre de vainillas con dulce de leche",
+    "summary": "Capas de vainillas, dulce de leche y crema, sin horno.",
+    "minutes": 30,
+    "servings": 6,
+    "side": "Cacao en polvo",
+    "ingredients": [
+      {
+        "name": "Vainillas",
+        "keywords": [
+          "vainillas",
+          "vainilla",
+          "bizcochos",
+          "savoiardi"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Dulce de leche",
+        "keywords": [
+          "dulce de leche"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Crema de leche",
+        "keywords": [
+          "crema",
+          "crema de leche"
+        ],
+        "amount": "300 ml"
+      },
+      {
+        "name": "Leche",
+        "keywords": [
+          "leche"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Cacao amargo",
+        "keywords": [
+          "cacao",
+          "cacao amargo"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Mezclá el dulce de leche con la crema batida.",
+      "Mojá apenas las vainillas en leche y armá una capa en una fuente.",
+      "Cubrí con la crema de dulce de leche y repetí las capas.",
+      "Llevá a la heladera 4 horas y espolvoreá con cacao antes de servir."
+    ],
+    "tip": "Dejalo 4 horas en la heladera para que las vainillas se ablanden bien.",
+    "origin": "AR"
+  },
+  {
+    "id": "mx-caldo-tlalpeno",
+    "title": "Caldo tlalpeño",
+    "summary": "Caldo de pollo con garbanzos, verduras, chipotle y palta.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Tortillas calientes",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "pechuga",
+          "muslo",
+          "pata muslo"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Garbanzos cocidos",
+        "keywords": [
+          "garbanzo",
+          "garbanzos"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Chipotle",
+        "keywords": [
+          "chipotle",
+          "chile",
+          "ají picante",
+          "aji picante"
+        ],
+        "amount": "1 cucharada",
+        "kind": "optional"
+      },
+      {
+        "name": "Palta",
+        "keywords": [
+          "palta",
+          "aguacate"
+        ],
+        "amount": "1 unidad",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví el pollo en el caldo con la cebolla 20 minutos.",
+      "Sacá el pollo, desmenuzalo y devolvelo a la olla.",
+      "Agregá las zanahorias en cubos, los garbanzos y el chipotle.",
+      "Cociná 10 minutos más con sal y serví con palta."
+    ],
+    "tip": "Agregá el chipotle de a poco: el caldo pica más a medida que hierve.",
+    "origin": "MX"
+  },
+  {
+    "id": "cl-pantrucas",
+    "title": "Pantrucas",
+    "summary": "Sopa chilena con trozos de masa, carne y verduras.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Pan amasado",
+    "ingredients": [
+      {
+        "name": "Carne de vacuno",
+        "keywords": [
+          "carne",
+          "vacuno",
+          "carne de vaca",
+          "res",
+          "osobuco"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Harina",
+        "keywords": [
+          "harina"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Papa",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla con aceite, sumá la carne en cubos y cubrí con agua; cociná 25 minutos.",
+      "Agregá la papa y la zanahoria en cubos y cociná 10 minutos más.",
+      "Mezclá la harina, el huevo, sal y un poco de agua hasta armar una masa y estirala fina.",
+      "Cortá o rompé la masa en trozos, echalos a la sopa y cociná 5 minutos."
+    ],
+    "tip": "Estirá la masa fina y rompela en trozos irregulares: se cocinan más rápido.",
+    "origin": "CL"
+  },
+  {
+    "id": "cl-pollo-al-jugo-con-arroz-graneado",
+    "title": "Pollo al jugo con arroz graneado",
+    "summary": "Pollo jugoso en su propia salsa, con arroz suelto.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Ensalada chilena",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "presas",
+          "muslo",
+          "pata muslo",
+          "pechuga"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Dorá las presas de pollo en una olla con aceite y sal.",
+      "Agregá la cebolla en pluma, el ajo y la zanahoria rallada.",
+      "Cubrí con un poco de agua y cociná tapado 30 minutos.",
+      "Prepará el arroz con ajo y aceite hasta que quede graneado y serví con el pollo."
+    ],
+    "tip": "Sellá bien el pollo antes de cubrirlo para que la salsa tenga sabor.",
+    "origin": "CL"
+  },
+  {
+    "id": "co-carne-desmechada-con-arroz",
+    "title": "Carne desmechada con arroz",
+    "summary": "Carne cocida y desmechada en salsa criolla de tomate y cebolla.",
+    "minutes": 90,
+    "servings": 4,
+    "side": "Plátano maduro frito",
+    "ingredients": [
+      {
+        "name": "Carne de res",
+        "keywords": [
+          "carne",
+          "res",
+          "falda",
+          "posta",
+          "carne de vaca"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Pimiento",
+        "keywords": [
+          "pimiento",
+          "morrón",
+          "ají dulce"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví la carne en agua con media cebolla y sal hasta que esté muy tierna.",
+      "Desmechala con dos tenedores.",
+      "Hacé un sofrito con cebolla, tomate y pimiento picados y el comino.",
+      "Mezclá la carne con el sofrito, cociná 10 minutos y serví con arroz."
+    ],
+    "tip": "Desmechala mientras está tibia: se deshilacha mucho mejor.",
+    "origin": "CO"
+  },
+  {
+    "id": "co-platanos-maduros-con-queso",
+    "title": "Plátanos maduros con queso",
+    "summary": "Plátano maduro dorado y relleno de queso derretido.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Arepa",
+    "ingredients": [
+      {
+        "name": "Plátano maduro",
+        "keywords": [
+          "plátano",
+          "platano",
+          "plátano maduro",
+          "banana macho"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Queso",
+        "keywords": [
+          "queso",
+          "cremoso",
+          "mozzarella",
+          "muzzarella",
+          "paipa"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Manteca",
+        "keywords": [
+          "manteca",
+          "mantequilla"
+        ],
+        "amount": "1 cucharada",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pelá los plátanos y cortalos al medio a lo largo, sin separar del todo.",
+      "Doralos en una sartén con manteca hasta que estén caramelizados.",
+      "Rellenalos con queso en tiras.",
+      "Tapalos 3 minutos para que el queso se derrita y serví calientes."
+    ],
+    "tip": "Usá plátanos bien maduros, casi negros, para que queden caramelizados.",
+    "origin": "CO"
+  },
+  {
+    "id": "co-arepa-de-huevo",
+    "title": "Arepa de huevo",
+    "summary": "Arepa frita con un huevo cocinado en su interior.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Ají picante",
+    "ingredients": [
+      {
+        "name": "Harina de maíz precocida",
+        "keywords": [
+          "harina de maíz",
+          "harina de maiz",
+          "harina pan",
+          "masarepa",
+          "harina"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Agua",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "2 tazas",
+        "kind": "staple"
+      },
+      {
+        "name": "Aceite para freír",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "300 ml"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mezclá la harina con el agua tibia y sal y armá una masa suave.",
+      "Formá 4 arepas redondas y gruesas y freílas hasta que se inflen.",
+      "Abrí un agujero en cada una, poné un huevo y cerrá con un poco de masa.",
+      "Freí de nuevo hasta que el huevo se cocine y la arepa esté dorada."
+    ],
+    "tip": "Hacé el agujero con cuidado: el huevo tiene que quedar encerrado.",
+    "origin": "CO",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "pe-sopa-de-quinua-con-verduras",
+    "title": "Sopa de quinua con verduras",
+    "summary": "Sopa liviana con quinua, papa y zanahoria.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Queso fresco",
+    "ingredients": [
+      {
+        "name": "Quinua",
+        "keywords": [
+          "quinua",
+          "quinoa"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Papa",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "1 unidad",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla picada con aceite hasta que se ablande.",
+      "Agregá el caldo y la quinua bien lavada y cociná 10 minutos.",
+      "Sumá la papa y la zanahoria en cubos y cociná 15 minutos más.",
+      "Salpimentá y, si querés, agregá un huevo batido al final."
+    ],
+    "tip": "Lavá bien la quinua para sacarle el amargor.",
+    "origin": "PE"
+  },
+  {
+    "id": "pe-pollo-saltado-con-arroz",
+    "title": "Pollo saltado con arroz",
+    "summary": "Pollo salteado a fuego fuerte con cebolla, tomate y salsa de soja.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Papas fritas",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "pechuga",
+          "muslo"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja",
+          "salsa de soja",
+          "sillao"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Vinagre",
+        "keywords": [
+          "vinagre"
+        ],
+        "amount": "1 cucharada",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá el pollo en tiras y la cebolla y el tomate en gajos.",
+      "Salteá el pollo en aceite bien caliente hasta que se dore.",
+      "Agregá la cebolla, el tomate, la salsa de soja y el vinagre y salteá 3 minutos.",
+      "Servilo sobre el arroz recién hecho."
+    ],
+    "tip": "Usá la sartén bien caliente y no la llenes, así las verduras quedan crocantes.",
+    "origin": "PE"
+  },
+  {
+    "id": "ve-quesillo",
+    "title": "Quesillo",
+    "summary": "Flan venezolano cremoso, con caramelo y leche condensada.",
+    "minutes": 80,
+    "servings": 8,
+    "side": "Caramelo extra",
+    "ingredients": [
+      {
+        "name": "Leche condensada",
+        "keywords": [
+          "leche condensada"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Leche",
+        "keywords": [
+          "leche"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Azúcar para el caramelo",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Esencia de vainilla",
+        "keywords": [
+          "vainilla",
+          "esencia"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Hacé un caramelo con el azúcar y cubrí el fondo de un molde.",
+      "Licuá la leche condensada, la leche, los huevos y la vainilla.",
+      "Volcá la mezcla en el molde, tapalo con papel aluminio y cociná a baño María 50 minutos.",
+      "Dejalo enfriar, llevalo a la heladera y desmoldalo frío."
+    ],
+    "tip": "Cocinalo a baño María y tapado para que no tenga burbujas.",
+    "origin": "VE"
+  },
+  {
+    "id": "ve-patacon-con-queso-y-jamon",
+    "title": "Patacón con queso y jamón",
+    "summary": "Sándwich con tostones de plátano verde, queso y jamón.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Salsa de ajo",
+    "ingredients": [
+      {
+        "name": "Plátano verde",
+        "keywords": [
+          "plátano",
+          "platano",
+          "plátano verde",
+          "banana macho"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Queso",
+        "keywords": [
+          "queso",
+          "cremoso",
+          "mozzarella",
+          "muzzarella"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Jamón",
+        "keywords": [
+          "jamón",
+          "jamon"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Aceite para freír",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "300 ml"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pelá los plátanos y cortalos en rodajas gruesas.",
+      "Freílas 3 minutos, aplastalas y freílas de nuevo hasta que estén doradas.",
+      "Salalas apenas y armá un sándwich con dos patacones por porción.",
+      "Rellenalos con queso y jamón y serví calientes."
+    ],
+    "tip": "Aplastá los plátanos con firmeza y freílos dos veces para que queden crocantes.",
+    "origin": "VE"
+  },
+  {
+    "id": "uy-pollo-al-horno-con-boniato",
+    "title": "Pollo al horno con boniato",
+    "summary": "Pollo dorado al horno con boniatos tiernos y cebolla.",
+    "minutes": 70,
+    "servings": 4,
+    "side": "Ensalada de hojas verdes",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "presas",
+          "muslo",
+          "pata muslo",
+          "pechuga"
+        ],
+        "amount": "1 kg"
+      },
+      {
+        "name": "Boniato",
+        "keywords": [
+          "boniato",
+          "batata",
+          "camote"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Romero",
+        "keywords": [
+          "romero"
+        ],
+        "amount": "1 rama",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pelá los boniatos y cortalos en rodajas gruesas; cortá la cebolla en gajos.",
+      "Poné todo en una fuente con el pollo, el ajo, el aceite, sal y romero.",
+      "Horneá 60 minutos a 200 °C.",
+      "Mojalo con su jugo a mitad de cocción y serví."
+    ],
+    "tip": "Mojá el pollo con su jugo a mitad de cocción para que quede jugoso.",
+    "origin": "UY"
+  },
+  {
+    "id": "ec-sopa-de-bolas-de-verde",
+    "title": "Sopa de bolas de verde",
+    "summary": "Caldo con bolas de plátano verde rellenas de queso.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Aguacate",
+    "ingredients": [
+      {
+        "name": "Plátano verde",
+        "keywords": [
+          "plátano",
+          "platano",
+          "plátano verde",
+          "banana macho"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Queso",
+        "keywords": [
+          "queso",
+          "cremoso",
+          "mozzarella",
+          "muzzarella",
+          "fresco"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Cilantro",
+        "keywords": [
+          "cilantro",
+          "culantro"
+        ],
+        "amount": "1 rama",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví los plátanos pelados hasta que estén tiernos y hacelos puré con sal.",
+      "Formá bolitas, abrilas, poné un cubito de queso y cerralas.",
+      "Calentá el caldo con la cebolla picada y aceite.",
+      "Agregá las bolas y cociná 10 minutos; serví con cilantro."
+    ],
+    "tip": "Mojate las manos con aceite para formar las bolas sin que se peguen.",
+    "origin": "EC"
+  },
+  {
+    "id": "cu-fricase-de-pollo",
+    "title": "Fricasé de pollo cubano",
+    "summary": "Pollo guisado con papas en una salsa de tomate suave.",
+    "minutes": 55,
+    "servings": 4,
+    "side": "Arroz blanco",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "presas",
+          "muslo",
+          "pata muslo"
+        ],
+        "amount": "700 g"
+      },
+      {
+        "name": "Papa",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Pimiento",
+        "keywords": [
+          "pimiento",
+          "morrón"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Salsa de tomate",
+        "keywords": [
+          "salsa de tomate",
+          "tomate triturado",
+          "puré de tomate"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Aceitunas",
+        "keywords": [
+          "aceituna",
+          "aceitunas"
+        ],
+        "amount": "10 unidades",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Dorá las presas de pollo con aceite y sal.",
+      "Agregá la cebolla y el pimiento picados y salteá 5 minutos.",
+      "Sumá la salsa de tomate, las papas en cubos y un poco de agua.",
+      "Cociná tapado 35 minutos y agregá las aceitunas al final."
+    ],
+    "tip": "Dejalo hervir a fuego bajo hasta que la salsa espese.",
+    "origin": "CU"
+  },
+  {
+    "id": "bo-picante-de-pollo",
+    "title": "Picante de pollo",
+    "summary": "Pollo guisado en una salsa de ají suave, con papas y arroz.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Chuño o papas",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "presas",
+          "muslo",
+          "pata muslo"
+        ],
+        "amount": "700 g"
+      },
+      {
+        "name": "Papa",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Pimentón",
+        "keywords": [
+          "pimentón",
+          "pimenton",
+          "ají",
+          "aji",
+          "ají panca"
+        ],
+        "amount": "1 cucharada"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Arvejas",
+        "keywords": [
+          "arveja",
+          "arvejas",
+          "guisantes"
+        ],
+        "amount": "1/2 taza",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Dorá el pollo con aceite y sal y reservalo.",
+      "En la misma olla, salteá la cebolla picada con el pimentón.",
+      "Volvé a poner el pollo, agregá agua, las papas y las arvejas y cociná 35 minutos.",
+      "Serví con el arroz recién hecho."
+    ],
+    "tip": "Probá el ají antes de agregarlo todo: puede ser más picante de lo que parece.",
+    "origin": "BO"
+  },
+  {
+    "id": "py-reviro",
+    "title": "Reviro",
+    "summary": "Revuelto paraguayo de harina, caliente y esponjoso, con huevo.",
+    "minutes": 20,
+    "servings": 4,
+    "side": "Café con leche",
+    "ingredients": [
+      {
+        "name": "Harina",
+        "keywords": [
+          "harina"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Leche",
+        "keywords": [
+          "leche"
+        ],
+        "amount": "1/2 taza",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad",
+        "kind": "optional"
+      },
+      {
+        "name": "Agua",
+        "keywords": [
+          "agua"
+        ],
+        "amount": "1 taza",
+        "kind": "staple"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mezclá la harina con agua, sal y la leche hasta formar una masa líquida y grumosa.",
+      "Calentá el aceite y salteá la cebolla picada.",
+      "Volcá la masa y revolvé hasta que se cocine y se desgrane.",
+      "Agregá los huevos y revolvé hasta que se cuajen."
+    ],
+    "tip": "Revolvé sin parar para que se desgrane en bolitas pequeñas.",
+    "origin": "PY",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "do-tostones-con-huevo",
+    "title": "Tostones con huevo",
+    "summary": "Plátano verde frito y aplastado, con huevos revueltos y cebolla.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Café",
+    "ingredients": [
+      {
+        "name": "Plátano verde",
+        "keywords": [
+          "plátano",
+          "platano",
+          "plátano verde",
+          "banana macho"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite para freír",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "300 ml"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pelá los plátanos y cortalos en rodajas gruesas.",
+      "Freílas 3 minutos, aplastalas y freílas de nuevo hasta que estén doradas.",
+      "Salteá la cebolla y revolvé los huevos con sal.",
+      "Serví los tostones con los huevos."
+    ],
+    "tip": "Fríelos dos veces: la primera para cocinarlos y la segunda para dorarlos.",
+    "origin": "DO",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "jp-nikujaga",
+    "title": "Nikujaga",
+    "summary": "Guiso japonés de carne, papas y cebolla en salsa dulce de soja.",
+    "minutes": 40,
+    "servings": 3,
+    "side": "Arroz blanco",
+    "ingredients": [
+      {
+        "name": "Carne de res",
+        "keywords": [
+          "carne",
+          "res",
+          "bife",
+          "carne de vaca"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Papa",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja",
+          "salsa de soja"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "1 cucharada"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá la carne en tiras finas, las papas y la zanahoria en trozos y la cebolla en gajos.",
+      "Salteá la carne con un poco de aceite y sumá la cebolla.",
+      "Agregá la papa, la zanahoria, agua hasta casi cubrir, la soja y el azúcar.",
+      "Cociná tapado a fuego bajo 20 minutos hasta que las papas estén tiernas."
+    ],
+    "tip": "Dejalo reposar tapado un rato: las papas absorben mejor el sabor.",
+    "origin": "JP"
+  },
+  {
+    "id": "jp-sunomono-de-pepino",
+    "title": "Sunomono de pepino",
+    "summary": "Ensalada japonesa de pepino en vinagre dulce.",
+    "minutes": 15,
+    "servings": 3,
+    "side": "Arroz y pescado",
+    "ingredients": [
+      {
+        "name": "Pepino",
+        "keywords": [
+          "pepino"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Vinagre",
+        "keywords": [
+          "vinagre",
+          "vinagre de arroz"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "1 cucharada"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja",
+          "salsa de soja"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Sésamo",
+        "keywords": [
+          "sésamo",
+          "sesamo",
+          "ajonjolí"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá el pepino en rodajas muy finas.",
+      "Mezclalo con un poco de sal y dejalo 10 minutos.",
+      "Exprimilo para sacarle el agua.",
+      "Condimentá con el vinagre, el azúcar y la soja y espolvoreá con sésamo."
+    ],
+    "tip": "Salá el pepino y exprimilo bien para que quede crocante.",
+    "origin": "JP"
+  },
+  {
+    "id": "in-rajma-masala",
+    "title": "Rajma masala",
+    "summary": "Guiso indio de porotos rojos en salsa de tomate y especias.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Arroz basmati",
+    "ingredients": [
+      {
+        "name": "Porotos rojos cocidos",
+        "keywords": [
+          "poroto",
+          "porotos",
+          "frijoles",
+          "alubias",
+          "frijol"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Garam masala",
+        "keywords": [
+          "garam masala",
+          "curry",
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla picada con aceite hasta que se dore.",
+      "Agregá el ajo, los tomates picados y el garam masala y cociná 10 minutos.",
+      "Sumá los porotos con un poco de agua y sal.",
+      "Cociná 15 minutos y aplastá algunos para espesar."
+    ],
+    "tip": "Aplastá algunos porotos en la olla para espesar la salsa.",
+    "origin": "IN"
+  },
+  {
+    "id": "in-curry-de-huevo",
+    "title": "Curry de huevo",
+    "summary": "Huevos duros en una salsa de tomate y cebolla con curry.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Arroz o pan",
+    "ingredients": [
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Curry en polvo",
+        "keywords": [
+          "curry"
+        ],
+        "amount": "1 cucharada"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "1 diente",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví los huevos 10 minutos, enfrialos y pelalos.",
+      "Salteá la cebolla picada con aceite y el ajo.",
+      "Agregá los tomates picados y el curry y cociná 10 minutos con un poco de agua y sal.",
+      "Sumá los huevos enteros y cociná 5 minutos más."
+    ],
+    "tip": "Pinchá los huevos duros con un tenedor para que absorban mejor la salsa.",
+    "origin": "IN"
+  },
+  {
+    "id": "gr-gigantes-al-horno",
+    "title": "Gigantes al horno",
+    "summary": "Porotos blancos grandes al horno en salsa de tomate.",
+    "minutes": 75,
+    "servings": 4,
+    "side": "Pan y queso feta",
+    "ingredients": [
+      {
+        "name": "Porotos blancos grandes cocidos",
+        "keywords": [
+          "poroto",
+          "porotos",
+          "frijoles",
+          "alubias",
+          "judías"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Tomate triturado",
+        "keywords": [
+          "tomate triturado",
+          "tomate",
+          "puré de tomate",
+          "salsa de tomate"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Perejil",
+        "keywords": [
+          "perejil"
+        ],
+        "amount": "1 ramita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla y el ajo picados con aceite.",
+      "Agregá el tomate triturado y cociná 10 minutos con sal.",
+      "Mezclá con los porotos en una fuente y sumá un poco de agua.",
+      "Horneá 40 minutos a 180 °C y espolvoreá con perejil."
+    ],
+    "tip": "Cubrí la fuente con papel aluminio la primera mitad para que no se sequen.",
+    "origin": "GR"
+  },
+  {
+    "id": "es-fabada-sencilla",
+    "title": "Fabada sencilla",
+    "summary": "Guiso asturiano de fabes con chorizo, morcilla y panceta.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Pan",
+    "ingredients": [
+      {
+        "name": "Fabes cocidas",
+        "keywords": [
+          "fabes",
+          "alubias",
+          "judías blancas",
+          "porotos",
+          "frijoles blancos",
+          "poroto"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Chorizo",
+        "keywords": [
+          "chorizo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Morcilla",
+        "keywords": [
+          "morcilla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Panceta",
+        "keywords": [
+          "panceta",
+          "tocino",
+          "bacon"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad",
+        "kind": "optional"
+      },
+      {
+        "name": "Pimentón",
+        "keywords": [
+          "pimentón",
+          "pimenton"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Poné el chorizo, la morcilla y la panceta en una olla con agua y herví 15 minutos.",
+      "Agregá las fabes cocidas, la cebolla picada y el pimentón.",
+      "Cociná a fuego muy bajo 30 minutos sin revolver.",
+      "Cortá los embutidos, probá de sal y serví caliente."
+    ],
+    "tip": "Cocinala a fuego muy bajo y sin revolver: así las fabes no se rompen.",
+    "origin": "ES"
+  },
+  {
+    "id": "es-arroz-caldoso-de-pollo",
+    "title": "Arroz caldoso de pollo",
+    "summary": "Arroz meloso con pollo, pimiento y tomate, casi una sopa.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Limón",
+    "ingredients": [
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "presas",
+          "muslo",
+          "pata muslo",
+          "pechuga"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Pimiento",
+        "keywords": [
+          "pimiento",
+          "morrón"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Dorá el pollo en trozos con aceite y reservalo.",
+      "En la misma olla, sofreí el ajo, el pimiento y el tomate picados.",
+      "Agregá el arroz, el pollo y el caldo caliente con sal.",
+      "Cociná 18 minutos a fuego medio; tiene que quedar caldoso."
+    ],
+    "tip": "Agregá el caldo caliente de a poco y revolvé poco para que el arroz quede meloso.",
+    "origin": "ES"
+  },
+  {
+    "id": "gen-shakshuka",
+    "title": "Shakshuka",
+    "summary": "Huevos cocidos en una salsa de tomate con pimiento y especias.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Pan para mojar",
+    "ingredients": [
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Tomate triturado",
+        "keywords": [
+          "tomate triturado",
+          "tomate",
+          "puré de tomate",
+          "salsa de tomate"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Pimiento",
+        "keywords": [
+          "pimiento",
+          "morrón"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla y el pimiento picados con aceite.",
+      "Agregá el tomate triturado, el comino y sal y cociná 10 minutos.",
+      "Hacé cuatro huecos en la salsa y rompé un huevo en cada uno.",
+      "Tapá y cociná 6 minutos hasta que las claras cuajen."
+    ],
+    "tip": "Hacé huecos en la salsa con una cuchara para que cada huevo quede en su lugar.",
+    "origin": "",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "gen-sopa-de-lentejas-rojas-y-zanahoria",
+    "title": "Sopa de lentejas rojas y zanahoria",
+    "summary": "Sopa cremosa y rápida: las lentejas rojas se deshacen sin remojo.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Limón y pan",
+    "ingredients": [
+      {
+        "name": "Lentejas rojas",
+        "keywords": [
+          "lenteja",
+          "lentejas",
+          "lentejas rojas"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla y la zanahoria picadas con aceite.",
+      "Agregá las lentejas lavadas, el caldo y el comino.",
+      "Cociná 20 minutos hasta que todo esté muy tierno.",
+      "Procesá la sopa, salpimentá y serví con un chorrito de limón."
+    ],
+    "tip": "No hace falta remojar las lentejas rojas: se cocinan en 15 minutos.",
+    "origin": ""
+  },
+  {
+    "id": "gen-ensalada-de-atun-y-porotos",
+    "title": "Ensalada de atún y porotos",
+    "summary": "Ensalada fresca y completa con atún, porotos blancos y cebolla morada.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Pan tostado",
+    "ingredients": [
+      {
+        "name": "Atún",
+        "keywords": [
+          "atún",
+          "atun"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Porotos blancos cocidos",
+        "keywords": [
+          "poroto",
+          "porotos",
+          "frijoles",
+          "alubias"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Cebolla morada",
+        "keywords": [
+          "cebolla",
+          "cebolla morada"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Limón",
+        "keywords": [
+          "limón",
+          "limon"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Escurrí el atún y los porotos.",
+      "Cortá el tomate en cubos y la cebolla en láminas finas.",
+      "Mezclalo todo en un bol.",
+      "Condimentá con aceite, limón y sal."
+    ],
+    "tip": "Escurrí bien los porotos y el atún para que no quede aguada.",
+    "origin": ""
+  },
+  {
+    "id": "gen-tostadas-de-ricota-y-tomate",
+    "title": "Tostadas de ricota y tomate",
+    "summary": "Tostadas cremosas con ricota, tomate y un toque de aceite de oliva.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Fruta",
+    "ingredients": [
+      {
+        "name": "Pan",
+        "keywords": [
+          "pan",
+          "pan lactal",
+          "tostadas",
+          "pan integral"
+        ],
+        "amount": "4 rebanadas"
+      },
+      {
+        "name": "Ricota",
+        "keywords": [
+          "ricota",
+          "ricotta",
+          "queso crema",
+          "queso untable"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Orégano",
+        "keywords": [
+          "orégano",
+          "oregano"
+        ],
+        "amount": "1 pizca",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tostá las rebanadas de pan.",
+      "Untalas con la ricota.",
+      "Cubrí con rodajas de tomate.",
+      "Condimentá con aceite, sal y orégano."
+    ],
+    "tip": "Poné el tomate recién cortado para que el pan no se humedezca.",
+    "origin": "",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "es-huevos-a-la-flamenca",
+    "title": "Huevos a la flamenca",
+    "summary": "Huevos al horno sobre una salsa de tomate con chorizo y arvejas.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Pan",
+    "ingredients": [
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Tomate triturado",
+        "keywords": [
+          "tomate triturado",
+          "tomate",
+          "puré de tomate",
+          "salsa de tomate"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Chorizo",
+        "keywords": [
+          "chorizo"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Arvejas",
+        "keywords": [
+          "arveja",
+          "arvejas",
+          "guisantes"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla picada y el chorizo en rodajas con aceite.",
+      "Agregá el tomate triturado y las arvejas y cociná 10 minutos con sal.",
+      "Pasá la salsa a dos cazuelitas y rompé dos huevos en cada una.",
+      "Horneá 8 minutos a 200 °C hasta que la clara cuaje."
+    ],
+    "tip": "Cociná los huevos justo hasta que la clara cuaje y la yema quede líquida.",
+    "origin": "ES",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "gen-sopa-de-calabaza-y-coco",
+    "title": "Sopa de calabaza y coco",
+    "summary": "Sopa cremosa y suave de calabaza con leche de coco y jengibre.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Pan tostado",
+    "ingredients": [
+      {
+        "name": "Calabaza",
+        "keywords": [
+          "calabaza",
+          "zapallo",
+          "anco"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Leche de coco",
+        "keywords": [
+          "leche de coco",
+          "coco"
+        ],
+        "amount": "200 ml"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "cubito"
+        ],
+        "amount": "500 ml"
+      },
+      {
+        "name": "Jengibre",
+        "keywords": [
+          "jengibre"
+        ],
+        "amount": "1 trozo",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gusto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla picada con aceite y el jengibre rallado.",
+      "Agregá la calabaza en cubos y el caldo y cociná 20 minutos.",
+      "Procesá todo hasta que quede cremoso.",
+      "Sumá la leche de coco, calentá sin hervir y salpimentá."
+    ],
+    "tip": "Agregá la leche de coco al final y no la hiervas fuerte para que no se corte.",
+    "origin": ""
   }
 ]

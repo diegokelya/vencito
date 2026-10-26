@@ -37540,5 +37540,1999 @@
    "Das verquirlte Ei zugeben.",
    "Mit Käse und Koriander abschließen."
   ]
+ },
+ "ar-pollo-al-champinon-con-arroz": {
+  "title": "Hähnchen mit Champignons und Reis",
+  "summary": "Cremiges Hähnchen mit Champignons, dazu Reis.",
+  "side": "Weißer Reis",
+  "tip": "Die Sahne erst am Schluss zugeben, damit sie nicht gerinnt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "600 g"
+   },
+   {
+    "name": "Champignons",
+    "amount": "200 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Sahne",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen in Stücke schneiden und in der Pfanne mit Öl anbraten.",
+   "Die gehackte Zwiebel und die geschnittenen Champignons dazugeben.",
+   "10 Minuten garen, dann die Sahne mit Salz unterrühren.",
+   "Den Reis kochen und das Hähnchen darauf anrichten."
+  ]
+ },
+ "ar-tarta-de-zapallo-y-cebolla": {
+  "title": "Kürbis-Zwiebel-Tarte",
+  "summary": "Schnelle Tarte mit weicher Kürbis-Zwiebel-Füllung.",
+  "side": "Rucolasalat",
+  "tip": "Den Kürbis vorher garen, damit die Füllung nicht wässrig wird.",
+  "ingredients": [
+   {
+    "name": "Mürbeteig",
+    "amount": "1 Platte"
+   },
+   {
+    "name": "Kürbis",
+    "amount": "400 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "100 g"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Kürbis in Würfeln weich kochen und leicht zerdrücken.",
+   "Die dünn geschnittene Zwiebel goldbraun anbraten.",
+   "Kürbis, Zwiebel, Eier, Käse und Salz mischen.",
+   "Die Füllung auf den Teig geben und 30 Minuten bei mittlerer Hitze backen."
+  ]
+ },
+ "ar-fideos-con-salsa-de-berenjenas": {
+  "title": "Nudeln mit Auberginensoße",
+  "summary": "Nudeln mit Aubergine, Tomate und etwas Knoblauch.",
+  "side": "Geriebener Käse",
+  "tip": "Die Aubergine salzen und 10 Minuten stehen lassen, das nimmt die Bitterkeit.",
+  "ingredients": [
+   {
+    "name": "Nudeln",
+    "amount": "300 g"
+   },
+   {
+    "name": "Aubergine",
+    "amount": "1 große"
+   },
+   {
+    "name": "Gehackte Tomaten",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Aubergine in Würfel schneiden und in Öl weich braten.",
+   "Den gehackten Knoblauch und die gehackten Tomaten dazugeben.",
+   "Die Soße 15 Minuten mit Salz köcheln lassen.",
+   "Die Nudeln kochen, abgießen und mit der Soße mischen."
+  ]
+ },
+ "ar-pastelitos-de-membrillo": {
+  "title": "Quittenpastetchen",
+  "summary": "Frittierte Teigtaschen mit Quittenpaste.",
+  "side": "Puderzucker",
+  "tip": "Mit einer Gabel einstechen, damit sie beim Frittieren nicht aufgehen.",
+  "ingredients": [
+   {
+    "name": "Empanada-Teigscheiben",
+    "amount": "12 Stück"
+   },
+   {
+    "name": "Quittenpaste",
+    "amount": "250 g"
+   },
+   {
+    "name": "Öl zum Frittieren",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Zucker",
+    "amount": "2 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Die Quittenpaste in kleine Quadrate schneiden.",
+   "Ein Quadrat auf jede Teigscheibe legen und die Ränder mit einer Gabel gut verschließen.",
+   "Die Pastetchen in heißem Öl goldbraun frittieren.",
+   "Auf Küchenpapier abtropfen lassen und mit Zucker bestreuen."
+  ]
+ },
+ "ar-sopa-de-calabaza-y-choclo": {
+  "title": "Kürbis-Mais-Suppe",
+  "summary": "Dicke, süße Suppe mit Kürbis und Maiskörnern.",
+  "side": "Geröstetes Brot",
+  "tip": "Nur die Hälfte pürieren, damit noch kleine Stücke bleiben.",
+  "ingredients": [
+   {
+    "name": "Kürbis",
+    "amount": "500 g"
+   },
+   {
+    "name": "Mais",
+    "amount": "2 Kolben"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "800 ml"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in Öl glasig dünsten.",
+   "Den gewürfelten Kürbis, die Maiskörner und die Brühe dazugeben.",
+   "25 Minuten kochen, bis der Kürbis weich ist.",
+   "Einen Teil pürieren, umrühren und würzen."
+  ]
+ },
+ "mx-tostadas-de-tinga": {
+  "title": "Tostadas mit Tinga",
+  "summary": "Knusprige Tostadas mit gezupftem Hähnchen in Tomaten-Chipotle-Soße.",
+  "side": "Saure Sahne und Salat",
+  "tip": "Die Tinga erst kurz vor dem Essen daraufgeben, damit die Tostada nicht weich wird.",
+  "ingredients": [
+   {
+    "name": "Gekochtes Hähnchen",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tostadas",
+    "amount": "8 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Chipotle",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Saure Sahne",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das gekochte Hähnchen zerzupfen.",
+   "Die Tomaten mit dem Chipotle pürieren und 10 Minuten kochen.",
+   "Die Zwiebelringe anbraten, Hähnchen und Soße zugeben und 10 Minuten garen.",
+   "Die Tostadas mit der Tinga und der sauren Sahne belegen."
+  ]
+ },
+ "mx-flautas-de-pollo": {
+  "title": "Hähnchen-Flautas",
+  "summary": "Gerollte Tortillas mit Hähnchen, knusprig frittiert.",
+  "side": "Saure Sahne und Salsa",
+  "tip": "Mit einem Zahnstocher fixieren oder mit der Naht nach unten frittieren.",
+  "ingredients": [
+   {
+    "name": "Maistortillas",
+    "amount": "12 Stück"
+   },
+   {
+    "name": "Gekochtes Hähnchen",
+    "amount": "300 g"
+   },
+   {
+    "name": "Käse",
+    "amount": "100 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Öl zum Frittieren",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das gezupfte Hähnchen mit der gehackten Zwiebel, dem Käse und Salz mischen.",
+   "Die Tortillas erwärmen, damit sie beim Aufrollen nicht brechen.",
+   "Mit dem Hähnchen füllen und fest aufrollen.",
+   "In heißem Öl goldbraun und knusprig frittieren."
+  ]
+ },
+ "mx-arroz-verde": {
+  "title": "Grüner Reis",
+  "summary": "Reis mit Petersilie, Koriander und Paprika, intensiv grün.",
+  "side": "Brathähnchen",
+  "tip": "Den Deckel beim Garen nicht anheben, damit der Reis locker bleibt.",
+  "ingredients": [
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Koriander",
+    "amount": "1 Bund"
+   },
+   {
+    "name": "Petersilie",
+    "amount": "1/2 Bund"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "1 Zehe"
+   },
+   {
+    "name": "Brühe",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Reis in Öl anschwitzen, bis er glasig wird.",
+   "Koriander, Petersilie, Zwiebel und Knoblauch mit etwas Brühe pürieren.",
+   "Die Mischung und die restliche Brühe zum Reis geben.",
+   "Zugedeckt bei schwacher Hitze 18 Minuten mit Salz garen."
+  ]
+ },
+ "ar-postre-de-vainillas-con-dulce-de-leche": {
+  "title": "Löffelbiskuit-Dessert mit Dulce de Leche",
+  "summary": "Schichten aus Löffelbiskuits, Dulce de Leche und Sahne, ohne Backen.",
+  "side": "Kakaopulver",
+  "tip": "4 Stunden im Kühlschrank ziehen lassen, damit die Löffelbiskuits gut weich werden.",
+  "ingredients": [
+   {
+    "name": "Löffelbiskuits",
+    "amount": "200 g"
+   },
+   {
+    "name": "Dulce de Leche",
+    "amount": "300 g"
+   },
+   {
+    "name": "Sahne",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Kakaopulver",
+    "amount": "2 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Das Dulce de Leche mit der geschlagenen Sahne mischen.",
+   "Die Löffelbiskuits kurz in Milch tauchen und eine Schicht in eine Form legen.",
+   "Mit der Dulce-de-Leche-Creme bedecken und die Schichten wiederholen.",
+   "4 Stunden kalt stellen und vor dem Servieren mit Kakao bestäuben."
+  ]
+ },
+ "mx-caldo-tlalpeno": {
+  "title": "Tlalpeño-Hühnersuppe",
+  "summary": "Hühnerbrühe mit Kichererbsen, Gemüse, Chipotle und Avocado.",
+  "side": "Warme Tortillas",
+  "tip": "Den Chipotle nach und nach zugeben: die Brühe wird beim Köcheln schärfer.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "400 g"
+   },
+   {
+    "name": "Gekochte Kichererbsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Chipotle",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Avocado",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen mit der Zwiebel 20 Minuten in der Brühe garen.",
+   "Das Hähnchen herausnehmen, zerzupfen und zurück in den Topf geben.",
+   "Die gewürfelten Karotten, die Kichererbsen und den Chipotle zugeben.",
+   "Weitere 10 Minuten mit Salz garen und mit Avocado servieren."
+  ]
+ },
+ "cl-pantrucas": {
+  "title": "Pantrucas",
+  "summary": "Chilenische Suppe mit Teigstücken, Rindfleisch und Gemüse.",
+  "side": "Chilenisches Brot",
+  "tip": "Den Teig dünn ausrollen und in unregelmäßige Stücke reißen: sie garen schneller.",
+  "ingredients": [
+   {
+    "name": "Rindfleisch",
+    "amount": "300 g"
+   },
+   {
+    "name": "Mehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Zwiebel in Öl anbraten, das gewürfelte Rindfleisch zugeben und mit Wasser bedecken; 25 Minuten kochen.",
+   "Die gewürfelte Kartoffel und Karotte zugeben und weitere 10 Minuten kochen.",
+   "Mehl, Ei, Salz und etwas Wasser zu einem Teig verkneten und dünn ausrollen.",
+   "Den Teig in Stücke schneiden oder reißen, in die Suppe geben und 5 Minuten garen."
+  ]
+ },
+ "cl-pollo-al-jugo-con-arroz-graneado": {
+  "title": "Hähnchen im eigenen Saft mit lockerem Reis",
+  "summary": "Saftiges Hähnchen in der eigenen Soße, dazu lockerer Reis.",
+  "side": "Chilenischer Salat",
+  "tip": "Das Hähnchen gut anbraten, bevor es zugedeckt wird, damit die Soße Geschmack bekommt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "800 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Hähnchenteile in einem Topf mit Öl und Salz anbraten.",
+   "Die in Streifen geschnittene Zwiebel, den Knoblauch und die geriebene Karotte zugeben.",
+   "Mit etwas Wasser bedecken und zugedeckt 30 Minuten garen.",
+   "Den Reis mit Knoblauch und Öl locker garen und zum Hähnchen servieren."
+  ]
+ },
+ "co-carne-desmechada-con-arroz": {
+  "title": "Gezupftes Rindfleisch mit Reis",
+  "summary": "Gekochtes, gezupftes Rindfleisch in kreolischer Tomaten-Zwiebel-Soße.",
+  "side": "Gebratene reife Kochbanane",
+  "tip": "Noch lauwarm zupfen: so lässt es sich viel besser zerfasern.",
+  "ingredients": [
+   {
+    "name": "Rindfleisch",
+    "amount": "600 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Kreuzkümmel",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Rindfleisch mit einer halben Zwiebel und Salz in Wasser sehr weich kochen.",
+   "Mit zwei Gabeln zerzupfen.",
+   "Aus gehackter Zwiebel, Tomate und Paprika sowie dem Kreuzkümmel ein Sofrito zubereiten.",
+   "Das Fleisch mit dem Sofrito mischen, 10 Minuten garen und mit Reis servieren."
+  ]
+ },
+ "co-platanos-maduros-con-queso": {
+  "title": "Reife Kochbananen mit Käse",
+  "summary": "Goldbraun gebratene reife Kochbanane mit geschmolzenem Käse gefüllt.",
+  "side": "Arepa",
+  "tip": "Sehr reife, fast schwarze Kochbananen verwenden, damit sie karamellisieren.",
+  "ingredients": [
+   {
+    "name": "Reife Kochbanane",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "150 g"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kochbananen schälen und der Länge nach einschneiden, ohne sie zu trennen.",
+   "In einer Pfanne mit Butter karamellisieren lassen.",
+   "Mit Käsestreifen füllen.",
+   "3 Minuten zugedeckt garen, bis der Käse schmilzt, und heiß servieren."
+  ]
+ },
+ "co-arepa-de-huevo": {
+  "title": "Arepa mit Ei",
+  "summary": "Frittierte Arepa mit einem im Inneren gegarten Ei.",
+  "side": "Scharfe Soße",
+  "tip": "Die Tasche vorsichtig öffnen: Das Ei muss gut eingeschlossen bleiben.",
+  "ingredients": [
+   {
+    "name": "Vorgekochtes Maismehl",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Wasser",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Öl zum Frittieren",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Maismehl mit warmem Wasser und Salz zu einem weichen Teig verkneten.",
+   "4 dicke runde Arepas formen und frittieren, bis sie aufgehen.",
+   "In jede eine Tasche schneiden, ein Ei hineingeben und mit etwas Teig verschließen.",
+   "Erneut frittieren, bis das Ei gar und die Arepa goldbraun ist."
+  ]
+ },
+ "pe-sopa-de-quinua-con-verduras": {
+  "title": "Quinoasuppe mit Gemüse",
+  "summary": "Leichte Suppe mit Quinoa, Kartoffel und Karotte.",
+  "side": "Frischkäse",
+  "tip": "Die Quinoa gut waschen, um die Bitterkeit zu entfernen.",
+  "ingredients": [
+   {
+    "name": "Quinoa",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in Öl weich dünsten.",
+   "Die Brühe und die gut gewaschene Quinoa zugeben und 10 Minuten kochen.",
+   "Die gewürfelte Kartoffel und Karotte zugeben und weitere 15 Minuten kochen.",
+   "Abschmecken und nach Wunsch am Ende ein verquirltes Ei einrühren."
+  ]
+ },
+ "pe-pollo-saltado-con-arroz": {
+  "title": "Gebratenes Hähnchen mit Reis",
+  "summary": "Bei starker Hitze gebratenes Hähnchen mit Zwiebel, Tomate und Sojasoße.",
+  "side": "Pommes frites",
+  "tip": "Eine sehr heiße Pfanne nehmen und nicht überfüllen, damit das Gemüse knackig bleibt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "500 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Sojasoße",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Essig",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen in Streifen, Zwiebel und Tomate in Spalten schneiden.",
+   "Das Hähnchen in sehr heißem Öl braun anbraten.",
+   "Zwiebel, Tomate, Sojasoße und Essig zugeben und 3 Minuten braten.",
+   "Auf frisch gekochtem Reis servieren."
+  ]
+ },
+ "ve-quesillo": {
+  "title": "Quesillo",
+  "summary": "Cremiger venezolanischer Flan mit Karamell und Kondensmilch.",
+  "side": "Extra Karamell",
+  "tip": "Zugedeckt im Wasserbad garen, damit er keine Blasen bekommt.",
+  "ingredients": [
+   {
+    "name": "Gezuckerte Kondensmilch",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Zucker für den Karamell",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Vanilleextrakt",
+    "amount": "1 Teelöffel"
+   }
+  ],
+  "steps": [
+   "Aus dem Zucker einen Karamell machen und den Boden einer Form damit überziehen.",
+   "Kondensmilch, Milch, Eier und Vanille pürieren.",
+   "In die Form gießen, mit Alufolie abdecken und 50 Minuten im Wasserbad garen.",
+   "Abkühlen lassen, kalt stellen und kalt stürzen."
+  ]
+ },
+ "ve-patacon-con-queso-y-jamon": {
+  "title": "Patacón mit Käse und Schinken",
+  "summary": "Sandwich aus frittierter grüner Kochbanane mit Käse und Schinken.",
+  "side": "Knoblauchsoße",
+  "tip": "Die Kochbananen kräftig flachdrücken und zweimal frittieren, damit sie knusprig werden.",
+  "ingredients": [
+   {
+    "name": "Grüne Kochbanane",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "100 g"
+   },
+   {
+    "name": "Schinken",
+    "amount": "100 g"
+   },
+   {
+    "name": "Öl zum Frittieren",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kochbananen schälen und in dicke Scheiben schneiden.",
+   "3 Minuten frittieren, flachdrücken und erneut goldbraun frittieren.",
+   "Leicht salzen und pro Portion ein Sandwich aus zwei Patacones bauen.",
+   "Mit Käse und Schinken füllen und heiß servieren."
+  ]
+ },
+ "uy-pollo-al-horno-con-boniato": {
+  "title": "Ofenhähnchen mit Süßkartoffeln",
+  "summary": "Goldbraunes Ofenhähnchen mit zarten Süßkartoffeln und Zwiebel.",
+  "side": "Grüner Blattsalat",
+  "tip": "Das Hähnchen nach der halben Garzeit mit dem Bratensaft übergießen, damit es saftig bleibt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Süßkartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Rosmarin",
+    "amount": "1 Zweig"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Süßkartoffeln schälen und in dicke Scheiben schneiden; die Zwiebel in Spalten schneiden.",
+   "Alles mit dem Hähnchen, Knoblauch, Öl, Salz und Rosmarin in eine Form geben.",
+   "60 Minuten bei 200 °C backen.",
+   "Nach der halben Zeit mit dem Bratensaft übergießen und servieren."
+  ]
+ },
+ "ec-sopa-de-bolas-de-verde": {
+  "title": "Suppe mit Kochbananenbällchen",
+  "summary": "Brühe mit Bällchen aus grüner Kochbanane, gefüllt mit Käse.",
+  "side": "Avocado",
+  "tip": "Die Hände einölen, damit die Bällchen beim Formen nicht kleben.",
+  "ingredients": [
+   {
+    "name": "Grüne Kochbanane",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "150 g"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Koriander",
+    "amount": "1 Zweig"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die geschälten Kochbananen weich kochen und mit Salz zerdrücken.",
+   "Bällchen formen, öffnen, einen Käsewürfel hineingeben und verschließen.",
+   "Die Brühe mit der gehackten Zwiebel und Öl erhitzen.",
+   "Die Bällchen zugeben und 10 Minuten garen; mit Koriander servieren."
+  ]
+ },
+ "cu-fricase-de-pollo": {
+  "title": "Kubanisches Hähnchenfrikassee",
+  "summary": "Geschmortes Hähnchen mit Kartoffeln in milder Tomatensoße.",
+  "side": "Weißer Reis",
+  "tip": "Bei schwacher Hitze köcheln lassen, bis die Soße eindickt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "700 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomatensoße",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Oliven",
+    "amount": "10 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Hähnchenteile mit Öl und Salz anbraten.",
+   "Die gehackte Zwiebel und Paprika zugeben und 5 Minuten anbraten.",
+   "Die Tomatensoße, die gewürfelten Kartoffeln und etwas Wasser zugeben.",
+   "Zugedeckt 35 Minuten garen und am Ende die Oliven zugeben."
+  ]
+ },
+ "bo-picante-de-pollo": {
+  "title": "Scharfes Hähnchen aus Bolivien",
+  "summary": "Geschmortes Hähnchen in milder Chilisoße mit Kartoffeln und Reis.",
+  "side": "Kartoffeln",
+  "tip": "Den Chili vor dem Zugeben abschmecken: Er kann schärfer sein, als er aussieht.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "700 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Paprikapulver",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen mit Öl und Salz anbraten und beiseitestellen.",
+   "Im selben Topf die gehackte Zwiebel mit dem Paprikapulver anbraten.",
+   "Das Hähnchen zurückgeben, Wasser, Kartoffeln und Erbsen zugeben und 35 Minuten garen.",
+   "Mit frisch gekochtem Reis servieren."
+  ]
+ },
+ "py-reviro": {
+  "title": "Reviro",
+  "summary": "Paraguayisches Mehlrührei, warm und locker, mit Ei.",
+  "side": "Milchkaffee",
+  "tip": "Ständig rühren, damit es in kleine Krümel zerfällt.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Wasser",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Mehl mit Wasser, Salz und der Milch zu einem flüssigen, klumpigen Teig verrühren.",
+   "Das Öl erhitzen und die gehackte Zwiebel anbraten.",
+   "Den Teig hineingießen und rühren, bis er gar ist und krümelt.",
+   "Die Eier zugeben und rühren, bis sie stocken."
+  ]
+ },
+ "do-tostones-con-huevo": {
+  "title": "Tostones mit Ei",
+  "summary": "Frittierte, flachgedrückte grüne Kochbanane mit Rührei und Zwiebel.",
+  "side": "Kaffee",
+  "tip": "Zweimal frittieren: erst zum Garen, dann zum Bräunen.",
+  "ingredients": [
+   {
+    "name": "Grüne Kochbanane",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Öl zum Frittieren",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kochbananen schälen und in dicke Scheiben schneiden.",
+   "3 Minuten frittieren, flachdrücken und erneut goldbraun frittieren.",
+   "Die Zwiebel anbraten und die Eier mit Salz verrühren.",
+   "Die Tostones mit dem Rührei servieren."
+  ]
+ },
+ "jp-nikujaga": {
+  "title": "Nikujaga",
+  "summary": "Japanischer Eintopf aus Rindfleisch, Kartoffeln und Zwiebel in süßer Sojasoße.",
+  "side": "Weißer Reis",
+  "tip": "Eine Weile zugedeckt ziehen lassen: Die Kartoffeln nehmen den Geschmack besser auf.",
+  "ingredients": [
+   {
+    "name": "Rindfleisch",
+    "amount": "250 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Sojasoße",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Das Rindfleisch in dünne Streifen, Kartoffeln und Karotte in Stücke und die Zwiebel in Spalten schneiden.",
+   "Das Fleisch in etwas Öl anbraten und die Zwiebel zugeben.",
+   "Kartoffel, Karotte, Wasser (fast bedeckt), Sojasoße und Zucker zugeben.",
+   "Zugedeckt bei schwacher Hitze 20 Minuten garen, bis die Kartoffeln weich sind."
+  ]
+ },
+ "jp-sunomono-de-pepino": {
+  "title": "Gurken-Sunomono",
+  "summary": "Japanischer Gurkensalat in süßem Essig.",
+  "side": "Reis und Fisch",
+  "tip": "Die Gurke salzen und gut ausdrücken, damit sie knackig bleibt.",
+  "ingredients": [
+   {
+    "name": "Gurke",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Essig",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Sojasoße",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Sesam",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Gurke sehr dünn schneiden.",
+   "Mit etwas Salz mischen und 10 Minuten stehen lassen.",
+   "Ausdrücken, um das Wasser zu entfernen.",
+   "Mit Essig, Zucker und Sojasoße anmachen und mit Sesam bestreuen."
+  ]
+ },
+ "in-rajma-masala": {
+  "title": "Rajma Masala",
+  "summary": "Indischer Eintopf aus roten Bohnen in Tomaten-Gewürz-Soße.",
+  "side": "Basmatireis",
+  "tip": "Einige Bohnen im Topf zerdrücken, um die Soße anzudicken.",
+  "ingredients": [
+   {
+    "name": "Gekochte rote Bohnen",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Garam Masala",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in Öl goldbraun anbraten.",
+   "Knoblauch, gehackte Tomaten und Garam Masala zugeben und 10 Minuten garen.",
+   "Die Bohnen mit etwas Wasser und Salz zugeben.",
+   "15 Minuten garen und einige Bohnen zerdrücken, um die Soße anzudicken."
+  ]
+ },
+ "in-curry-de-huevo": {
+  "title": "Eier-Curry",
+  "summary": "Hartgekochte Eier in Tomaten-Zwiebel-Soße mit Curry.",
+  "side": "Reis oder Brot",
+  "tip": "Die gekochten Eier mit einer Gabel einstechen, damit sie die Soße besser aufnehmen.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Currypulver",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "1 Zehe"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Eier 10 Minuten kochen, abkühlen lassen und schälen.",
+   "Die gehackte Zwiebel mit dem Knoblauch in Öl anbraten.",
+   "Die gehackten Tomaten und das Curry zugeben und 10 Minuten mit etwas Wasser und Salz garen.",
+   "Die ganzen Eier zugeben und weitere 5 Minuten garen."
+  ]
+ },
+ "gr-gigantes-al-horno": {
+  "title": "Ofenbohnen (Gigantes)",
+  "summary": "Große weiße Bohnen, in Tomatensoße im Ofen gebacken.",
+  "side": "Brot und Feta",
+  "tip": "Die Form in der ersten Hälfte mit Alufolie abdecken, damit nichts austrocknet.",
+  "ingredients": [
+   {
+    "name": "Gekochte große weiße Bohnen",
+    "amount": "400 g"
+   },
+   {
+    "name": "Gehackte Tomaten",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Petersilie",
+    "amount": "1 Zweig"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel und den Knoblauch in Öl anbraten.",
+   "Die gehackten Tomaten zugeben und 10 Minuten mit Salz garen.",
+   "Mit den Bohnen in einer Form mischen und etwas Wasser zugeben.",
+   "40 Minuten bei 180 °C backen und mit Petersilie bestreuen."
+  ]
+ },
+ "es-fabada-sencilla": {
+  "title": "Einfache Fabada",
+  "summary": "Asturischer Eintopf aus weißen Bohnen mit Chorizo, Blutwurst und Bauchspeck.",
+  "side": "Brot",
+  "tip": "Bei sehr schwacher Hitze ohne Rühren garen, damit die Bohnen nicht zerfallen.",
+  "ingredients": [
+   {
+    "name": "Gekochte weiße Bohnen",
+    "amount": "500 g"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Blutwurst",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Bauchspeck",
+    "amount": "100 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Paprikapulver",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Chorizo, Blutwurst und Bauchspeck mit Wasser in einen Topf geben und 15 Minuten kochen.",
+   "Die gekochten Bohnen, die gehackte Zwiebel und das Paprikapulver zugeben.",
+   "Bei sehr schwacher Hitze 30 Minuten ohne Rühren garen.",
+   "Die Würste aufschneiden, abschmecken und heiß servieren."
+  ]
+ },
+ "es-arroz-caldoso-de-pollo": {
+  "title": "Suppiger Reis mit Hähnchen",
+  "summary": "Cremiger Reis mit Hähnchen, Paprika und Tomate, fast eine Suppe.",
+  "side": "Zitrone",
+  "tip": "Die heiße Brühe nach und nach zugeben und wenig rühren, damit der Reis cremig bleibt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "500 g"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Hähnchenstücke in Öl anbraten und beiseitestellen.",
+   "Im selben Topf den gehackten Knoblauch, die Paprika und die Tomate anbraten.",
+   "Reis, Hähnchen und die heiße Brühe mit Salz zugeben.",
+   "18 Minuten bei mittlerer Hitze garen; es soll suppig bleiben."
+  ]
+ },
+ "gen-shakshuka": {
+  "title": "Shakshuka",
+  "summary": "In Tomatensoße mit Paprika und Gewürzen pochierte Eier.",
+  "side": "Brot zum Dippen",
+  "tip": "Mit einem Löffel Mulden in die Soße drücken, damit jedes Ei an seinem Platz bleibt.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Gehackte Tomaten",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Kreuzkümmel",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel und Paprika in Öl anbraten.",
+   "Die gehackten Tomaten, den Kreuzkümmel und Salz zugeben und 10 Minuten garen.",
+   "Vier Mulden in die Soße drücken und in jede ein Ei schlagen.",
+   "Zugedeckt 6 Minuten garen, bis das Eiweiß stockt."
+  ]
+ },
+ "gen-sopa-de-lentejas-rojas-y-zanahoria": {
+  "title": "Rote Linsen-Karotten-Suppe",
+  "summary": "Schnelle, cremige Suppe: Rote Linsen zerfallen ohne Einweichen.",
+  "side": "Zitrone und Brot",
+  "tip": "Rote Linsen müssen nicht eingeweicht werden: Sie sind in 15 Minuten gar.",
+  "ingredients": [
+   {
+    "name": "Rote Linsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Kreuzkümmel",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel und Karotte in Öl anbraten.",
+   "Die gewaschenen Linsen, die Brühe und den Kreuzkümmel zugeben.",
+   "20 Minuten kochen, bis alles sehr weich ist.",
+   "Die Suppe pürieren, abschmecken und mit einem Spritzer Zitrone servieren."
+  ]
+ },
+ "gen-ensalada-de-atun-y-porotos": {
+  "title": "Thunfisch-Bohnen-Salat",
+  "summary": "Frischer, sättigender Salat mit Thunfisch, weißen Bohnen und roter Zwiebel.",
+  "side": "Geröstetes Brot",
+  "tip": "Bohnen und Thunfisch gut abtropfen lassen, damit der Salat nicht wässrig wird.",
+  "ingredients": [
+   {
+    "name": "Thunfisch",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Gekochte weiße Bohnen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Rote Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Thunfisch und Bohnen abtropfen lassen.",
+   "Die Tomate würfeln und die Zwiebel in dünne Scheiben schneiden.",
+   "Alles in einer Schüssel mischen.",
+   "Mit Öl, Zitrone und Salz anmachen."
+  ]
+ },
+ "gen-tostadas-de-ricota-y-tomate": {
+  "title": "Ricotta-Tomaten-Toast",
+  "summary": "Cremiger Toast mit Ricotta, Tomate und einem Schuss Olivenöl.",
+  "side": "Obst",
+  "tip": "Die Tomate erst kurz vor dem Essen auflegen, damit das Brot nicht durchweicht.",
+  "ingredients": [
+   {
+    "name": "Brot",
+    "amount": "4 Scheiben"
+   },
+   {
+    "name": "Ricotta",
+    "amount": "150 g"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Oregano",
+    "amount": "1 Prise"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Brotscheiben toasten.",
+   "Mit dem Ricotta bestreichen.",
+   "Mit Tomatenscheiben belegen.",
+   "Mit Öl, Salz und Oregano würzen."
+  ]
+ },
+ "es-huevos-a-la-flamenca": {
+  "title": "Eier auf Flamenco-Art",
+  "summary": "Im Ofen gebackene Eier auf Tomatensoße mit Chorizo und Erbsen.",
+  "side": "Brot",
+  "tip": "Die Eier nur garen, bis das Eiweiß stockt und das Eigelb flüssig bleibt.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Gehackte Tomaten",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel und die Chorizoscheiben in Öl anbraten.",
+   "Die gehackten Tomaten und die Erbsen zugeben und 10 Minuten mit Salz garen.",
+   "Die Soße auf zwei kleine Förmchen verteilen und in jedes zwei Eier schlagen.",
+   "8 Minuten bei 200 °C backen, bis das Eiweiß stockt."
+  ]
+ },
+ "gen-sopa-de-calabaza-y-coco": {
+  "title": "Kürbis-Kokos-Suppe",
+  "summary": "Cremige, milde Kürbissuppe mit Kokosmilch und Ingwer.",
+  "side": "Geröstetes Brot",
+  "tip": "Die Kokosmilch erst am Schluss zugeben und nicht stark kochen, damit sie nicht gerinnt.",
+  "ingredients": [
+   {
+    "name": "Kürbis",
+    "amount": "500 g"
+   },
+   {
+    "name": "Kokosmilch",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Ingwer",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel mit dem geriebenen Ingwer in Öl anbraten.",
+   "Den gewürfelten Kürbis und die Brühe zugeben und 20 Minuten garen.",
+   "Alles cremig pürieren.",
+   "Die Kokosmilch einrühren, ohne zu kochen erhitzen und würzen."
+  ]
+ },
+ "us-buffalo-chicken-wraps": {
+  "title": "Buffalo-Chicken-Wraps",
+  "summary": "Tortillas mit scharfem Hähnchen, Salat und einem frischen Dressing.",
+  "side": "Karottensticks",
+  "tip": "Das Hähnchen noch warm mit der scharfen Soße mischen, damit es sie aufsaugt.",
+  "ingredients": [
+   {
+    "name": "Gekochtes Hähnchen",
+    "amount": "300 g"
+   },
+   {
+    "name": "Scharfe Soße",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Weizentortillas",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Salat",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Ranch-Dressing",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Das gekochte Hähnchen zerzupfen.",
+   "Die scharfe Soße mit der Butter erwärmen und das Hähnchen darin wenden.",
+   "Die Tortillas mit dem Dressing bestreichen und den Salat darauf legen.",
+   "Das Hähnchen zugeben, fest aufrollen und halbieren."
+  ]
+ },
+ "us-black-bean-rice-bowl": {
+  "title": "Reisbowl mit schwarzen Bohnen",
+  "summary": "Reis mit schwarzen Bohnen, Mais, Tomate und Käse.",
+  "side": "Limettenspalten",
+  "tip": "Die Dosenbohnen gut abspülen, um das überschüssige Salz zu entfernen.",
+  "ingredients": [
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Schwarze Bohnen",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Mais",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "50 g"
+   },
+   {
+    "name": "Avocado",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Reis mit Salz kochen.",
+   "Die abgespülten schwarzen Bohnen und den Mais in einer Pfanne erwärmen.",
+   "Die Tomate würfeln.",
+   "Die Bowls mit Reis, Bohnen, Mais, Tomate, Käse und Avocado anrichten."
+  ]
+ },
+ "gb-cullen-skink": {
+  "title": "Cullen Skink",
+  "summary": "Schottische cremige Suppe mit geräuchertem Schellfisch, Kartoffeln und Zwiebeln.",
+  "side": "Knuspriges Brot",
+  "tip": "Die Milch nicht stark kochen, sobald der Fisch drin ist, sonst kann sie gerinnen.",
+  "ingredients": [
+   {
+    "name": "Geräucherter Schellfisch",
+    "amount": "300 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in der Butter weich dünsten.",
+   "Die gewürfelten Kartoffeln und Wasser zum Bedecken zugeben; 15 Minuten köcheln lassen.",
+   "Fisch und Milch zugeben und 8 Minuten sanft garen.",
+   "Den Fisch zerpflücken, etwas Kartoffel zerdrücken, um anzudicken, und abschmecken."
+  ]
+ },
+ "gb-pea-and-ham-soup": {
+  "title": "Erbsen-Schinken-Suppe",
+  "summary": "Dicke grüne Suppe aus Erbsen und Schinken, mit Brühwürfel zubereitet.",
+  "side": "Buttertoast",
+  "tip": "Nur einen Teil der Suppe pürieren, damit etwas Struktur bleibt.",
+  "ingredients": [
+   {
+    "name": "Tiefgekühlte Erbsen",
+    "amount": "400 g"
+   },
+   {
+    "name": "Schinken",
+    "amount": "150 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel und die gewürfelte Kartoffel 10 Minuten in etwas Brühe garen.",
+   "Die restliche Brühe und die Erbsen zugeben und 10 Minuten köcheln lassen.",
+   "Etwa zwei Drittel der Suppe pürieren.",
+   "Den gewürfelten Schinken zugeben, erwärmen und abschmecken."
+  ]
+ },
+ "ca-salmon-chowder": {
+  "title": "Lachs-Chowder",
+  "summary": "Cremige Suppe mit Lachs, Kartoffeln und Mais.",
+  "side": "Cracker",
+  "tip": "Den Lachs erst am Schluss zugeben, damit er zart bleibt und nicht austrocknet.",
+  "ingredients": [
+   {
+    "name": "Lachs",
+    "amount": "300 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Mais",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in der Butter weich dünsten.",
+   "Die gewürfelten Kartoffeln, den Mais und Wasser zum Bedecken zugeben; 15 Minuten köcheln lassen.",
+   "Die Milch zugießen und den Lachs in Stücken zugeben.",
+   "Sanft 8 Minuten garen und abschmecken."
+  ]
+ },
+ "ca-maple-bacon-pancakes": {
+  "title": "Pancakes mit Speck und Ahornsirup",
+  "summary": "Luftige Pancakes mit knusprigem Speck und Ahornsirup.",
+  "side": "Frisches Obst",
+  "tip": "Den Teig nicht zu stark rühren: Ein paar Klümpchen machen die Pancakes lockerer.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Backpulver",
+    "amount": "2 Teelöffel"
+   },
+   {
+    "name": "Speck",
+    "amount": "4 Scheiben"
+   },
+   {
+    "name": "Ahornsirup",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Speck in der Pfanne knusprig braten und auf Küchenpapier legen.",
+   "Mehl, Backpulver, eine Prise Salz, Ei und Milch zu einem Teig verrühren.",
+   "Kellen Teig im Speckfett auf beiden Seiten goldbraun backen.",
+   "Die Pancakes mit dem zerbröselten Speck und dem Ahornsirup servieren."
+  ]
+ },
+ "pt-bacalhau-com-natas": {
+  "title": "Kabeljau mit Sahne",
+  "summary": "Zerpflückter Stockfisch mit Kartoffeln und Sahne, im Ofen überbacken.",
+  "side": "Kopfsalat",
+  "tip": "Den Stockfisch am Vortag wässern und das Wasser mehrmals wechseln.",
+  "ingredients": [
+   {
+    "name": "Gewässerter Stockfisch",
+    "amount": "400 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Sahne",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "50 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Fisch garen, abtropfen lassen und zerpflücken, dabei die Gräten entfernen.",
+   "Die Kartoffeln in Stifte schneiden und goldbraun frittieren oder rösten.",
+   "Die Zwiebelscheiben in Öl anbraten, den Fisch und die Sahne zugeben.",
+   "Mit den Kartoffeln in einer Form mischen, mit Käse bestreuen und 15 Minuten überbacken."
+  ]
+ },
+ "fr-croque-madame": {
+  "title": "Croque Madame",
+  "summary": "Überbackener Croque Monsieur, gekrönt von einem Spiegelei.",
+  "side": "Grüner Salat",
+  "tip": "Das Ei separat braten, damit das Eigelb flüssig bleibt.",
+  "ingredients": [
+   {
+    "name": "Toastbrot",
+    "amount": "4 Scheiben"
+   },
+   {
+    "name": "Schinken",
+    "amount": "2 Scheiben"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "80 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Sahne",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Zwei Brotscheiben mit Sahne bestreichen und mit Schinken und Käse belegen.",
+   "Mit den anderen Scheiben bedecken und geriebenen Käse darüberstreuen.",
+   "Bei 200 °C 10 Minuten überbacken.",
+   "Die Spiegeleier in Butter braten und je eines auf jeden Croque legen."
+  ]
+ },
+ "it-risotto-alla-milanese": {
+  "title": "Risotto alla milanese",
+  "summary": "Cremiges Safranrisotto mit Butter und Parmesan.",
+  "side": "Parmesanspäne",
+  "tip": "Die heiße Brühe nach und nach zugeben und oft rühren, damit es cremig wird.",
+  "ingredients": [
+   {
+    "name": "Reis",
+    "amount": "300 g"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2"
+   },
+   {
+    "name": "Butter",
+    "amount": "40 g"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "50 g"
+   },
+   {
+    "name": "Safran",
+    "amount": "1 Päckchen"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in der Butter weich dünsten.",
+   "Den Reis zugeben und 2 Minuten anrösten, dann die heiße Brühe nach und nach zugießen.",
+   "Zur Hälfte der Garzeit den in einer Kelle Brühe aufgelösten Safran zugeben.",
+   "Etwa 18 Minuten garen, mit Butter und Parmesan verfeinern und sofort servieren."
+  ]
+ },
+ "br-bolo-de-fuba": {
+  "title": "Brasilianischer Maismehlkuchen",
+  "summary": "Einfacher, saftiger Maismehlkuchen, typisch zum Nachmittagskaffee.",
+  "side": "Kaffee",
+  "tip": "Eier und Zucker gut schaumig schlagen, bis sie hell sind: Das macht den Kuchen locker.",
+  "ingredients": [
+   {
+    "name": "Feines Maismehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Mehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Backpulver",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "4 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Eier und Zucker schaumig schlagen, bis sie hell und cremig sind.",
+   "Milch und Öl zugeben und verrühren.",
+   "Maismehl, Mehl und Backpulver zugeben und verrühren, bis alles vermischt ist.",
+   "In eine gefettete Form gießen und bei 180 °C 40 Minuten backen."
+  ]
+ },
+ "br-strogonoff-de-cogumelos": {
+  "title": "Pilz-Stroganoff",
+  "summary": "Cremige Pilze in einer Soße aus Sahne, Ketchup und Senf.",
+  "side": "Reis und Strohkartoffeln",
+  "tip": "Die Pilze ohne zu viel Rühren anbraten, damit sie weniger Wasser abgeben.",
+  "ingredients": [
+   {
+    "name": "Pilze",
+    "amount": "400 g"
+   },
+   {
+    "name": "Sahne",
+    "amount": "200 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Ketchup",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Senf",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in Öl anbraten.",
+   "Die geschnittenen Pilze zugeben und bei starker Hitze anbraten.",
+   "Ketchup, Senf und Salz zugeben.",
+   "Die Hitze reduzieren, die Sahne zugeben und erwärmen, ohne zu kochen."
+  ]
  }
 }

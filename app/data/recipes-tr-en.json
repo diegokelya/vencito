@@ -36511,5 +36511,1805 @@
    "Add the beaten egg.",
    "Finish with cheese and cilantro."
   ]
+ },
+ "ar-pollo-al-champinon-con-arroz": {
+  "title": "Chicken with mushrooms and rice",
+  "summary": "Creamy chicken with mushrooms, served over rice.",
+  "side": "White rice",
+  "tip": "Add the cream at the end so it does not split.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1.3 lb"
+   },
+   {
+    "name": "Mushrooms",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Heavy cream",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Cut the chicken into pieces and brown it in a skillet with oil.",
+   "Add the chopped onion and the sliced mushrooms.",
+   "Cook for 10 minutes, then stir in the cream with salt.",
+   "Boil the rice and serve the chicken on top."
+  ]
+ },
+ "ar-tarta-de-zapallo-y-cebolla": {
+  "title": "Pumpkin and onion tart",
+  "summary": "Quick tart with a soft pumpkin and onion filling.",
+  "side": "Arugula salad",
+  "tip": "Cook the pumpkin first so the filling is not watery.",
+  "ingredients": [
+   {
+    "name": "Pie crust",
+    "amount": "1 sheet"
+   },
+   {
+    "name": "Pumpkin",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "2"
+   },
+   {
+    "name": "Egg",
+    "amount": "2"
+   },
+   {
+    "name": "Cheese",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Cook the pumpkin in cubes until tender and mash it lightly.",
+   "Sauté the thinly sliced onion until golden.",
+   "Mix the pumpkin, onion, eggs, cheese and salt.",
+   "Pour the filling over the crust and bake for 30 minutes in a medium oven."
+  ]
+ },
+ "ar-fideos-con-salsa-de-berenjenas": {
+  "title": "Pasta with eggplant sauce",
+  "summary": "Pasta with eggplant, tomato and a touch of garlic.",
+  "side": "Grated cheese",
+  "tip": "Salt the eggplant and leave it for 10 minutes to take away the bitterness.",
+  "ingredients": [
+   {
+    "name": "Pasta",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Eggplant",
+    "amount": "1 large"
+   },
+   {
+    "name": "Crushed tomatoes",
+    "amount": "1 can"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Cut the eggplant into cubes and sauté it in oil until soft.",
+   "Add the chopped garlic and the crushed tomatoes.",
+   "Simmer the sauce for 15 minutes with salt.",
+   "Boil the pasta, drain it and toss it with the sauce."
+  ]
+ },
+ "ar-pastelitos-de-membrillo": {
+  "title": "Quince pastries",
+  "summary": "Fried pastries filled with quince paste.",
+  "side": "Powdered sugar",
+  "tip": "Prick them with a fork so they do not puff up when frying.",
+  "ingredients": [
+   {
+    "name": "Empanada dough rounds",
+    "amount": "12"
+   },
+   {
+    "name": "Quince paste",
+    "amount": "9 oz"
+   },
+   {
+    "name": "Oil for frying",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Cut the quince paste into small squares.",
+   "Place a square on each dough round and seal the edges well with a fork.",
+   "Fry the pastries in hot oil until golden.",
+   "Drain them on paper towels and sprinkle with sugar."
+  ]
+ },
+ "ar-sopa-de-calabaza-y-choclo": {
+  "title": "Pumpkin and corn soup",
+  "summary": "Thick, sweet soup with pumpkin and corn kernels.",
+  "side": "Toasted bread",
+  "tip": "Blend only half so it keeps some small pieces.",
+  "ingredients": [
+   {
+    "name": "Pumpkin",
+    "amount": "1.1 lb"
+   },
+   {
+    "name": "Corn",
+    "amount": "2 ears"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "3.5 cups"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion in oil until translucent.",
+   "Add the cubed pumpkin, the corn kernels and the broth.",
+   "Cook for 25 minutes until the pumpkin is tender.",
+   "Blend part of it, stir and season."
+  ]
+ },
+ "mx-tostadas-de-tinga": {
+  "title": "Chicken tinga tostadas",
+  "summary": "Crispy tostadas topped with shredded chicken in tomato and chipotle sauce.",
+  "side": "Sour cream and lettuce",
+  "tip": "Add the tinga right before eating so the tostada does not go soft.",
+  "ingredients": [
+   {
+    "name": "Cooked chicken",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Tostadas",
+    "amount": "8"
+   },
+   {
+    "name": "Tomato",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Chipotle",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Sour cream",
+    "amount": "4 tablespoons"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Shred the cooked chicken.",
+   "Blend the tomatoes with the chipotle and cook for 10 minutes.",
+   "Sauté the sliced onion, add the chicken and the sauce and cook for 10 minutes.",
+   "Top the tostadas with the tinga and the sour cream."
+  ]
+ },
+ "mx-flautas-de-pollo": {
+  "title": "Chicken flautas",
+  "summary": "Rolled tortillas with chicken, fried until crisp.",
+  "side": "Sour cream and salsa",
+  "tip": "Secure them with a toothpick or fry them seam side down.",
+  "ingredients": [
+   {
+    "name": "Corn tortillas",
+    "amount": "12"
+   },
+   {
+    "name": "Cooked chicken",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Cheese",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Oil for frying",
+    "amount": "1 1/4 cups"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Mix the shredded chicken with the chopped onion, the cheese and salt.",
+   "Warm the tortillas so they do not break when rolled.",
+   "Fill them with the chicken and roll them up tightly.",
+   "Fry them in hot oil until golden and crisp."
+  ]
+ },
+ "mx-arroz-verde": {
+  "title": "Green rice",
+  "summary": "Rice with parsley, cilantro and poblano, deep green in color.",
+  "side": "Roast chicken",
+  "tip": "Do not lift the lid while it cooks so the rice stays fluffy.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Cilantro",
+    "amount": "1 bunch"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1/2 bunch"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Garlic",
+    "amount": "1 clove"
+   },
+   {
+    "name": "Broth",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the rice in oil until it turns translucent.",
+   "Blend the cilantro, parsley, onion and garlic with a little broth.",
+   "Add the blend and the rest of the broth to the rice.",
+   "Cook covered over low heat for 18 minutes with salt."
+  ]
+ },
+ "ar-postre-de-vainillas-con-dulce-de-leche": {
+  "title": "Ladyfinger and dulce de leche dessert",
+  "summary": "Layers of ladyfingers, dulce de leche and cream, no baking.",
+  "side": "Cocoa powder",
+  "tip": "Chill it for 4 hours so the ladyfingers soften well.",
+  "ingredients": [
+   {
+    "name": "Ladyfingers",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Dulce de leche",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Heavy cream",
+    "amount": "1 1/4 cups"
+   },
+   {
+    "name": "Milk",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Unsweetened cocoa",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Mix the dulce de leche with the whipped cream.",
+   "Briefly dip the ladyfingers in milk and make a layer in a dish.",
+   "Cover with the dulce de leche cream and repeat the layers.",
+   "Chill for 4 hours and dust with cocoa before serving."
+  ]
+ },
+ "mx-caldo-tlalpeno": {
+  "title": "Tlalpeño chicken soup",
+  "summary": "Chicken broth with chickpeas, vegetables, chipotle and avocado.",
+  "side": "Warm tortillas",
+  "tip": "Add the chipotle little by little: the broth gets spicier as it simmers.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Cooked chickpeas",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Carrot",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Chipotle",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Avocado",
+    "amount": "1"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Simmer the chicken in the broth with the onion for 20 minutes.",
+   "Remove the chicken, shred it and return it to the pot.",
+   "Add the diced carrots, the chickpeas and the chipotle.",
+   "Cook 10 more minutes with salt and serve with avocado."
+  ]
+ },
+ "cl-pantrucas": {
+  "title": "Pantrucas",
+  "summary": "Chilean soup with pieces of dough, beef and vegetables.",
+  "side": "Chilean bread",
+  "tip": "Roll the dough thin and tear it into uneven pieces: they cook faster.",
+  "ingredients": [
+   {
+    "name": "Beef",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Flour",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Egg",
+    "amount": "1"
+   },
+   {
+    "name": "Potato",
+    "amount": "2"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the onion in oil, add the cubed beef and cover with water; cook for 25 minutes.",
+   "Add the diced potato and carrot and cook 10 more minutes.",
+   "Mix the flour, egg, salt and a little water into a dough and roll it thin.",
+   "Cut or tear the dough into pieces, drop them in the soup and cook for 5 minutes."
+  ]
+ },
+ "cl-pollo-al-jugo-con-arroz-graneado": {
+  "title": "Chicken in its juices with fluffy rice",
+  "summary": "Juicy chicken in its own sauce, with fluffy rice.",
+  "side": "Chilean salad",
+  "tip": "Sear the chicken well before covering it so the sauce has flavor.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1.8 lb"
+   },
+   {
+    "name": "Onion",
+    "amount": "2"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Brown the chicken pieces in a pot with oil and salt.",
+   "Add the sliced onion, the garlic and the grated carrot.",
+   "Cover with a little water and cook covered for 30 minutes.",
+   "Cook the rice with garlic and oil until fluffy and serve with the chicken."
+  ]
+ },
+ "co-carne-desmechada-con-arroz": {
+  "title": "Shredded beef with rice",
+  "summary": "Boiled and shredded beef in a creole tomato and onion sauce.",
+  "side": "Fried ripe plantain",
+  "tip": "Shred it while it is warm: it pulls apart much better.",
+  "ingredients": [
+   {
+    "name": "Beef",
+    "amount": "1.3 lb"
+   },
+   {
+    "name": "Onion",
+    "amount": "2"
+   },
+   {
+    "name": "Tomato",
+    "amount": "3"
+   },
+   {
+    "name": "Bell pepper",
+    "amount": "1"
+   },
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Boil the beef in water with half an onion and salt until very tender.",
+   "Shred it with two forks.",
+   "Make a sofrito with the chopped onion, tomato and pepper and the cumin.",
+   "Mix the beef with the sofrito, cook for 10 minutes and serve with rice."
+  ]
+ },
+ "co-platanos-maduros-con-queso": {
+  "title": "Ripe plantains with cheese",
+  "summary": "Golden ripe plantain filled with melted cheese.",
+  "side": "Arepa",
+  "tip": "Use very ripe, almost black plantains so they caramelize.",
+  "ingredients": [
+   {
+    "name": "Ripe plantain",
+    "amount": "3"
+   },
+   {
+    "name": "Cheese",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Peel the plantains and slit them lengthwise without cutting all the way through.",
+   "Brown them in a skillet with butter until caramelized.",
+   "Fill them with strips of cheese.",
+   "Cover for 3 minutes so the cheese melts and serve hot."
+  ]
+ },
+ "co-arepa-de-huevo": {
+  "title": "Egg arepa",
+  "summary": "Fried arepa with an egg cooked inside.",
+  "side": "Hot sauce",
+  "tip": "Open the pocket carefully: the egg has to stay sealed in.",
+  "ingredients": [
+   {
+    "name": "Pre-cooked cornmeal",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Egg",
+    "amount": "4"
+   },
+   {
+    "name": "Water",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Oil for frying",
+    "amount": "1 1/4 cups"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Mix the cornmeal with warm water and salt into a soft dough.",
+   "Shape 4 thick round arepas and fry until they puff.",
+   "Open a pocket in each one, add an egg and seal with a little dough.",
+   "Fry again until the egg is cooked and the arepa is golden."
+  ]
+ },
+ "pe-sopa-de-quinua-con-verduras": {
+  "title": "Quinoa and vegetable soup",
+  "summary": "Light soup with quinoa, potato and carrot.",
+  "side": "Fresh cheese",
+  "tip": "Rinse the quinoa well to remove the bitterness.",
+  "ingredients": [
+   {
+    "name": "Quinoa",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Potato",
+    "amount": "2"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Egg",
+    "amount": "1"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion in oil until soft.",
+   "Add the broth and the well-rinsed quinoa and cook for 10 minutes.",
+   "Add the cubed potato and carrot and cook 15 more minutes.",
+   "Season and, if you like, stir in a beaten egg at the end."
+  ]
+ },
+ "pe-pollo-saltado-con-arroz": {
+  "title": "Chicken saltado with rice",
+  "summary": "Stir-fried chicken with onion, tomato and soy sauce over high heat.",
+  "side": "French fries",
+  "tip": "Use a very hot pan and do not overfill it so the vegetables stay crisp.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1.1 lb"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Tomato",
+    "amount": "2"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Vinegar",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Cut the chicken into strips and the onion and tomato into wedges.",
+   "Stir-fry the chicken in very hot oil until browned.",
+   "Add the onion, tomato, soy sauce and vinegar and stir-fry for 3 minutes.",
+   "Serve over freshly cooked rice."
+  ]
+ },
+ "ve-quesillo": {
+  "title": "Quesillo",
+  "summary": "Creamy Venezuelan flan with caramel and condensed milk.",
+  "side": "Extra caramel",
+  "tip": "Cook it covered in a water bath so it has no bubbles.",
+  "ingredients": [
+   {
+    "name": "Sweetened condensed milk",
+    "amount": "1 can"
+   },
+   {
+    "name": "Egg",
+    "amount": "4"
+   },
+   {
+    "name": "Milk",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Sugar for the caramel",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Vanilla extract",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Make a caramel with the sugar and coat the bottom of a mold.",
+   "Blend the condensed milk, milk, eggs and vanilla.",
+   "Pour the mixture into the mold, cover with foil and cook in a water bath for 50 minutes.",
+   "Let it cool, chill it and unmold it cold."
+  ]
+ },
+ "ve-patacon-con-queso-y-jamon": {
+  "title": "Patacón with cheese and ham",
+  "summary": "Sandwich of fried green plantain with cheese and ham.",
+  "side": "Garlic sauce",
+  "tip": "Flatten the plantains firmly and fry them twice so they get crisp.",
+  "ingredients": [
+   {
+    "name": "Green plantain",
+    "amount": "2"
+   },
+   {
+    "name": "Cheese",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Ham",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Oil for frying",
+    "amount": "1 1/4 cups"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Peel the plantains and cut them into thick slices.",
+   "Fry them for 3 minutes, flatten them and fry again until golden.",
+   "Lightly salt them and build a sandwich with two patacones per serving.",
+   "Fill with cheese and ham and serve hot."
+  ]
+ },
+ "uy-pollo-al-horno-con-boniato": {
+  "title": "Roast chicken with sweet potato",
+  "summary": "Golden roast chicken with tender sweet potatoes and onion.",
+  "side": "Green leaf salad",
+  "tip": "Baste the chicken with its juices halfway through so it stays moist.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "2.2 lb"
+   },
+   {
+    "name": "Sweet potato",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "2"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Rosemary",
+    "amount": "1 sprig"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Peel the sweet potatoes and cut them into thick slices; cut the onion into wedges.",
+   "Put everything in a baking dish with the chicken, garlic, oil, salt and rosemary.",
+   "Bake for 60 minutes at 400 °F.",
+   "Baste with the juices halfway through and serve."
+  ]
+ },
+ "ec-sopa-de-bolas-de-verde": {
+  "title": "Green plantain ball soup",
+  "summary": "Broth with green plantain balls filled with cheese.",
+  "side": "Avocado",
+  "tip": "Oil your hands to shape the balls without them sticking.",
+  "ingredients": [
+   {
+    "name": "Green plantain",
+    "amount": "3"
+   },
+   {
+    "name": "Cheese",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Cilantro",
+    "amount": "1 sprig"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Boil the peeled plantains until tender and mash them with salt.",
+   "Shape balls, open them, add a cube of cheese and close them.",
+   "Heat the broth with the chopped onion and oil.",
+   "Add the balls and cook for 10 minutes; serve with cilantro."
+  ]
+ },
+ "cu-fricase-de-pollo": {
+  "title": "Cuban chicken fricassee",
+  "summary": "Chicken stewed with potatoes in a mild tomato sauce.",
+  "side": "White rice",
+  "tip": "Simmer it on low heat until the sauce thickens.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1.5 lb"
+   },
+   {
+    "name": "Potato",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Bell pepper",
+    "amount": "1"
+   },
+   {
+    "name": "Tomato sauce",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Olives",
+    "amount": "10"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Brown the chicken pieces with oil and salt.",
+   "Add the chopped onion and pepper and sauté for 5 minutes.",
+   "Add the tomato sauce, the cubed potatoes and a little water.",
+   "Cook covered for 35 minutes and add the olives at the end."
+  ]
+ },
+ "bo-picante-de-pollo": {
+  "title": "Spicy chicken stew",
+  "summary": "Chicken stewed in a mild chili sauce with potatoes and rice.",
+  "side": "Potatoes",
+  "tip": "Taste the chili before adding it all: it can be hotter than it looks.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1.5 lb"
+   },
+   {
+    "name": "Potato",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "2"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Peas",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Brown the chicken with oil and salt and set it aside.",
+   "In the same pot, sauté the chopped onion with the paprika.",
+   "Return the chicken, add water, the potatoes and the peas and cook for 35 minutes.",
+   "Serve with freshly cooked rice."
+  ]
+ },
+ "py-reviro": {
+  "title": "Reviro",
+  "summary": "Paraguayan scrambled flour, warm and fluffy, with egg.",
+  "side": "Milk coffee",
+  "tip": "Stir constantly so it breaks into small crumbs.",
+  "ingredients": [
+   {
+    "name": "Flour",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Egg",
+    "amount": "2"
+   },
+   {
+    "name": "Milk",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Water",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Mix the flour with water, salt and milk into a loose, lumpy batter.",
+   "Heat the oil and sauté the chopped onion.",
+   "Pour in the batter and stir until cooked and crumbly.",
+   "Add the eggs and stir until set."
+  ]
+ },
+ "do-tostones-con-huevo": {
+  "title": "Tostones with eggs",
+  "summary": "Fried and flattened green plantain with scrambled eggs and onion.",
+  "side": "Coffee",
+  "tip": "Fry them twice: first to cook them, then to brown them.",
+  "ingredients": [
+   {
+    "name": "Green plantain",
+    "amount": "2"
+   },
+   {
+    "name": "Egg",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Oil for frying",
+    "amount": "1 1/4 cups"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Peel the plantains and cut them into thick slices.",
+   "Fry them for 3 minutes, flatten them and fry again until golden.",
+   "Sauté the onion and scramble the eggs with salt.",
+   "Serve the tostones with the eggs."
+  ]
+ },
+ "jp-nikujaga": {
+  "title": "Nikujaga",
+  "summary": "Japanese stew of beef, potatoes and onion in a sweet soy sauce.",
+  "side": "White rice",
+  "tip": "Let it rest covered for a while: the potatoes absorb the flavor better.",
+  "ingredients": [
+   {
+    "name": "Beef",
+    "amount": "9 oz"
+   },
+   {
+    "name": "Potato",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Cut the beef into thin strips, the potatoes and carrot into chunks and the onion into wedges.",
+   "Sauté the beef in a little oil and add the onion.",
+   "Add the potato, carrot, water to almost cover, the soy sauce and the sugar.",
+   "Cook covered over low heat for 20 minutes until the potatoes are tender."
+  ]
+ },
+ "jp-sunomono-de-pepino": {
+  "title": "Cucumber sunomono",
+  "summary": "Japanese cucumber salad in sweet vinegar.",
+  "side": "Rice and fish",
+  "tip": "Salt the cucumber and squeeze it well so it stays crunchy.",
+  "ingredients": [
+   {
+    "name": "Cucumber",
+    "amount": "2"
+   },
+   {
+    "name": "Vinegar",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Sesame seeds",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Slice the cucumber very thin.",
+   "Toss it with a little salt and leave it for 10 minutes.",
+   "Squeeze it to remove the water.",
+   "Dress with the vinegar, sugar and soy sauce and sprinkle with sesame."
+  ]
+ },
+ "in-rajma-masala": {
+  "title": "Rajma masala",
+  "summary": "Indian stew of red kidney beans in a tomato and spice sauce.",
+  "side": "Basmati rice",
+  "tip": "Mash a few beans in the pot to thicken the sauce.",
+  "ingredients": [
+   {
+    "name": "Cooked red kidney beans",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Tomato",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Garam masala",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion in oil until golden.",
+   "Add the garlic, the chopped tomatoes and the garam masala and cook for 10 minutes.",
+   "Add the beans with a little water and salt.",
+   "Cook for 15 minutes and mash a few to thicken."
+  ]
+ },
+ "in-curry-de-huevo": {
+  "title": "Egg curry",
+  "summary": "Hard-boiled eggs in a tomato and onion sauce with curry.",
+  "side": "Rice or bread",
+  "tip": "Prick the boiled eggs with a fork so they absorb the sauce better.",
+  "ingredients": [
+   {
+    "name": "Egg",
+    "amount": "4"
+   },
+   {
+    "name": "Tomato",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Curry powder",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Garlic",
+    "amount": "1 clove"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Boil the eggs for 10 minutes, cool them and peel them.",
+   "Sauté the chopped onion in oil with the garlic.",
+   "Add the chopped tomatoes and the curry and cook for 10 minutes with a little water and salt.",
+   "Add the whole eggs and cook 5 more minutes."
+  ]
+ },
+ "gr-gigantes-al-horno": {
+  "title": "Baked giant beans",
+  "summary": "Large white beans baked in tomato sauce.",
+  "side": "Bread and feta",
+  "tip": "Cover the dish with foil for the first half so they do not dry out.",
+  "ingredients": [
+   {
+    "name": "Cooked large white beans",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Crushed tomatoes",
+    "amount": "1 can"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 sprig"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion and garlic in oil.",
+   "Add the crushed tomatoes and cook for 10 minutes with salt.",
+   "Mix with the beans in a baking dish and add a little water.",
+   "Bake for 40 minutes at 350 °F and sprinkle with parsley."
+  ]
+ },
+ "es-fabada-sencilla": {
+  "title": "Simple fabada",
+  "summary": "Asturian stew of white beans with chorizo, blood sausage and pork belly.",
+  "side": "Bread",
+  "tip": "Cook it over very low heat without stirring so the beans do not break.",
+  "ingredients": [
+   {
+    "name": "Cooked white beans",
+    "amount": "1.1 lb"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "2"
+   },
+   {
+    "name": "Blood sausage",
+    "amount": "1"
+   },
+   {
+    "name": "Pork belly",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Put the chorizo, blood sausage and pork belly in a pot with water and boil for 15 minutes.",
+   "Add the cooked beans, the chopped onion and the paprika.",
+   "Cook over very low heat for 30 minutes without stirring.",
+   "Slice the sausages, adjust the salt and serve hot."
+  ]
+ },
+ "es-arroz-caldoso-de-pollo": {
+  "title": "Soupy rice with chicken",
+  "summary": "Creamy rice with chicken, pepper and tomato, almost a soup.",
+  "side": "Lemon",
+  "tip": "Add the hot broth gradually and stir little so the rice stays creamy.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1.1 lb"
+   },
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Bell pepper",
+    "amount": "1"
+   },
+   {
+    "name": "Tomato",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Brown the chicken pieces in oil and set aside.",
+   "In the same pot, sauté the chopped garlic, pepper and tomato.",
+   "Add the rice, the chicken and the hot broth with salt.",
+   "Cook for 18 minutes over medium heat; it should stay soupy."
+  ]
+ },
+ "gen-shakshuka": {
+  "title": "Shakshuka",
+  "summary": "Eggs poached in a tomato sauce with pepper and spices.",
+  "side": "Bread for dipping",
+  "tip": "Make wells in the sauce with a spoon so each egg stays in place.",
+  "ingredients": [
+   {
+    "name": "Egg",
+    "amount": "4"
+   },
+   {
+    "name": "Crushed tomatoes",
+    "amount": "1 can"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Bell pepper",
+    "amount": "1"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion and pepper in oil.",
+   "Add the crushed tomatoes, the cumin and salt and cook for 10 minutes.",
+   "Make four wells in the sauce and crack an egg into each.",
+   "Cover and cook for 6 minutes until the whites set."
+  ]
+ },
+ "gen-sopa-de-lentejas-rojas-y-zanahoria": {
+  "title": "Red lentil and carrot soup",
+  "summary": "Quick, creamy soup: red lentils break down without soaking.",
+  "side": "Lemon and bread",
+  "tip": "You do not need to soak red lentils: they cook in 15 minutes.",
+  "ingredients": [
+   {
+    "name": "Red lentils",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Carrot",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion and carrot in oil.",
+   "Add the rinsed lentils, the broth and the cumin.",
+   "Cook for 20 minutes until everything is very tender.",
+   "Blend the soup, season and serve with a squeeze of lemon."
+  ]
+ },
+ "gen-ensalada-de-atun-y-porotos": {
+  "title": "Tuna and white bean salad",
+  "summary": "Fresh, filling salad with tuna, white beans and red onion.",
+  "side": "Toasted bread",
+  "tip": "Drain the beans and tuna well so the salad is not watery.",
+  "ingredients": [
+   {
+    "name": "Tuna",
+    "amount": "1 can"
+   },
+   {
+    "name": "Cooked white beans",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Red onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Tomato",
+    "amount": "1"
+   },
+   {
+    "name": "Lemon",
+    "amount": "1"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Drain the tuna and the beans.",
+   "Dice the tomato and slice the onion thin.",
+   "Mix everything in a bowl.",
+   "Dress with oil, lemon and salt."
+  ]
+ },
+ "gen-tostadas-de-ricota-y-tomate": {
+  "title": "Ricotta and tomato toast",
+  "summary": "Creamy toast with ricotta, tomato and a drizzle of olive oil.",
+  "side": "Fruit",
+  "tip": "Add the tomato right before eating so the bread does not get soggy.",
+  "ingredients": [
+   {
+    "name": "Bread",
+    "amount": "4 slices"
+   },
+   {
+    "name": "Ricotta",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Tomato",
+    "amount": "1"
+   },
+   {
+    "name": "Oregano",
+    "amount": "1 pinch"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Toast the bread slices.",
+   "Spread them with the ricotta.",
+   "Top with tomato slices.",
+   "Season with oil, salt and oregano."
+  ]
+ },
+ "es-huevos-a-la-flamenca": {
+  "title": "Flamenco eggs",
+  "summary": "Baked eggs on a tomato sauce with chorizo and peas.",
+  "side": "Bread",
+  "tip": "Cook the eggs just until the white sets and the yolk stays runny.",
+  "ingredients": [
+   {
+    "name": "Egg",
+    "amount": "4"
+   },
+   {
+    "name": "Crushed tomatoes",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "1"
+   },
+   {
+    "name": "Peas",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion and the sliced chorizo in oil.",
+   "Add the crushed tomatoes and the peas and cook for 10 minutes with salt.",
+   "Divide the sauce between two small dishes and crack two eggs into each.",
+   "Bake for 8 minutes at 400 °F until the white sets."
+  ]
+ },
+ "gen-sopa-de-calabaza-y-coco": {
+  "title": "Pumpkin and coconut soup",
+  "summary": "Creamy, mild pumpkin soup with coconut milk and ginger.",
+  "side": "Toasted bread",
+  "tip": "Add the coconut milk at the end and do not boil it hard so it does not split.",
+  "ingredients": [
+   {
+    "name": "Pumpkin",
+    "amount": "1.1 lb"
+   },
+   {
+    "name": "Coconut milk",
+    "amount": "3/4 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Ginger",
+    "amount": "1 piece"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion in oil with the grated ginger.",
+   "Add the cubed pumpkin and the broth and cook for 20 minutes.",
+   "Blend everything until creamy.",
+   "Stir in the coconut milk, heat without boiling and season."
+  ]
+ },
+ "pt-bacalhau-com-natas": {
+  "title": "Cod with cream",
+  "summary": "Flaked salt cod with potatoes and cream, baked until golden.",
+  "side": "Lettuce salad",
+  "tip": "Soak the salt cod the day before, changing the water several times.",
+  "ingredients": [
+   {
+    "name": "Soaked salt cod",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Potato",
+    "amount": "3"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Heavy cream",
+    "amount": "3/4 cup"
+   },
+   {
+    "name": "Grated cheese",
+    "amount": "2 oz"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Cook the cod, drain it and flake it, removing the bones.",
+   "Cut the potatoes into sticks and fry or roast them until golden.",
+   "Sauté the sliced onion in oil, add the cod and the cream.",
+   "Mix with the potatoes in a baking dish, sprinkle with cheese and bake for 15 minutes."
+  ]
+ },
+ "fr-croque-madame": {
+  "title": "Croque madame",
+  "summary": "Gratinated croque monsieur topped with a fried egg.",
+  "side": "Green salad",
+  "tip": "Cook the egg separately so the yolk stays runny.",
+  "ingredients": [
+   {
+    "name": "Sandwich bread",
+    "amount": "4 slices"
+   },
+   {
+    "name": "Ham",
+    "amount": "2 slices"
+   },
+   {
+    "name": "Grated cheese",
+    "amount": "3 oz"
+   },
+   {
+    "name": "Egg",
+    "amount": "2"
+   },
+   {
+    "name": "Heavy cream",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Spread two slices of bread with cream and top them with ham and cheese.",
+   "Close with the other slices and sprinkle grated cheese on top.",
+   "Bake at 400 °F for 10 minutes until gratinated.",
+   "Fry the eggs in the butter and place one on each croque."
+  ]
+ },
+ "it-risotto-alla-milanese": {
+  "title": "Risotto alla milanese",
+  "summary": "Creamy saffron risotto with butter and Parmesan.",
+  "side": "Parmesan shavings",
+  "tip": "Add the hot stock little by little and stir often to get the creaminess.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Stock",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Butter",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "2 oz"
+   },
+   {
+    "name": "Saffron",
+    "amount": "1 packet"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Cook the chopped onion in the butter until soft.",
+   "Add the rice and toast for 2 minutes, then add the hot stock little by little.",
+   "Halfway through, add the saffron dissolved in a ladle of stock.",
+   "Cook about 18 minutes, finish with butter and Parmesan and serve at once."
+  ]
+ },
+ "de-koenigsberger-klopse": {
+  "title": "Königsberger meatballs",
+  "summary": "Meatballs in a light sauce with capers, served with potatoes.",
+  "side": "Beets",
+  "tip": "Poach the meatballs only gently so they do not fall apart.",
+  "ingredients": [
+   {
+    "name": "Ground meat",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Day-old bread roll",
+    "amount": "1"
+   },
+   {
+    "name": "Egg",
+    "amount": "1"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Potato",
+    "amount": "4"
+   },
+   {
+    "name": "Cream",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Capers",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Soak the roll, squeeze it out and knead it with the meat, egg, chopped onion and salt.",
+   "Shape meatballs and poach them in barely simmering salted broth for 15 minutes.",
+   "Reduce some of the broth with the cream and capers.",
+   "Warm the meatballs in the sauce and serve with boiled potatoes."
+  ]
+ },
+ "br-bolo-de-fuba": {
+  "title": "Brazilian cornmeal cake",
+  "summary": "Simple, moist cornmeal cake, typical of afternoon coffee.",
+  "side": "Coffee",
+  "tip": "Beat the eggs and sugar well until pale: that is what makes the cake fluffy.",
+  "ingredients": [
+   {
+    "name": "Fine cornmeal",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Flour",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Egg",
+    "amount": "3"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Baking powder",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "4 tablespoons"
+   }
+  ],
+  "steps": [
+   "Beat the eggs with the sugar until pale and creamy.",
+   "Add the milk and the oil and mix.",
+   "Add the cornmeal, the flour and the baking powder and stir until combined.",
+   "Pour into a greased pan and bake at 350 °F for 40 minutes."
+  ]
+ },
+ "br-strogonoff-de-cogumelos": {
+  "title": "Mushroom stroganoff",
+  "summary": "Creamy mushrooms in a cream, ketchup and mustard sauce.",
+  "side": "Rice and shoestring potatoes",
+  "tip": "Brown the mushrooms without stirring too much so they release less water.",
+  "ingredients": [
+   {
+    "name": "Mushrooms",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Cream",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Ketchup",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Mustard",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion in oil.",
+   "Add the sliced mushrooms and brown them over high heat.",
+   "Add the ketchup, the mustard and the salt.",
+   "Lower the heat, add the cream and warm it without boiling."
+  ]
  }
 }
