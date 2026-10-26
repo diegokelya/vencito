@@ -149,6 +149,9 @@ button.stat { color: inherit; font: inherit; }
 .dots { display: flex; justify-content: center; gap: 8px; margin: 16px 0; }
 .dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--card2); }
 .dots i.on { background: var(--primary); }
+/* El link de la receta no lleva recuadro de enfoque (aparecía como un rectángulo azul al abrir la receta). */
+a.rlink { color: var(--blue); text-decoration: underline; }
+a.rlink:focus, a.rlink:focus-visible { outline: none; }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
 .sr:focus-visible + *, label:focus-within .sr { outline: none; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
