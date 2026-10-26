@@ -337,13 +337,18 @@
       const w = weekPick(cands, left, off, titles); if (!w) break;
       week.push(Object.assign(w, { off })); titles.add(fold(w.r.title)); left = left.filter(x => !w.used.includes(x));
     }
-    ui.week = week; ui.weekAdded = false;
+    ui.week = week; ui.weekAdded = false; ui.wseen = {}; ui.wnone = new Set();
   }
   function weekSwap(off) {
-    const week = ui.week, gone = weekRest(week, off), pantry = ui.wpantry.filter(x => !gone.has(x));
+    const week = ui.week, cur = week.find(d => d.off === off); if (!cur) return;
+    const seen = (ui.wseen[off] = ui.wseen[off] || new Set()); seen.add(fold(cur.r.title));
     const cands = (ui.catalog || []).filter(dietOk).filter(r => !(r.meals || []).length || r.meals.includes('main'));
-    const w = weekPick(cands, pantry, off, new Set(week.map(d => fold(d.r.title)))); if (!w) return;
-    ui.week = week.map(d => d.off === off ? Object.assign(w, { off }) : d); ui.weekAdded = false;
+    const gone = weekRest(week, off), strict = ui.wpantry.filter(x => !gone.has(x)), planTitles = new Set(week.map(d => fold(d.r.title)));
+    const avoid = new Set([...planTitles, ...seen]);
+    // Primero con lo que no usan los demás días; si no alcanza, también con lo que usa otro día; y si ya se vieron todas, vuelven a ofrecerse.
+    const w = weekPick(cands, strict, off, avoid) || weekPick(cands, ui.wpantry, off, avoid) || weekPick(cands, strict, off, planTitles) || weekPick(cands, ui.wpantry, off, planTitles);
+    if (!w) { ui.wnone.add(off); return; }
+    ui.wnone.delete(off); ui.week = week.map(d => d.off === off ? Object.assign(w, { off }) : d); ui.weekAdded = false;
   }
   function weekMissing() { const seen = new Set(), out = []; (ui.week || []).forEach(d => d.extra.forEach(i => { if (!seen.has(fold(i.name))) { seen.add(fold(i.name)); out.push(i); } })); return out; }
   function weekSheet() {
@@ -352,7 +357,7 @@
       const day = new Date(Date.now() + d.off * 864e5), label = fmt.format(day);
       return `<div class="card" style="margin:8px 0"><div class="small muted">${esc(label.charAt(0).toUpperCase() + label.slice(1))}</div>
         <button class="link" style="display:flex;gap:12px;align-items:center;width:100%;text-align:left" data-act="week-open" data-id="${esc(d.r.id)}">${photo(d.r.id, 'thumb')}<span class="grow"><b>${flagOf(d.r.origin)}${esc(d.r.title)}</b>${d.expiring ? `<br><span class="small" style="color:var(--orange,#ff9500)">${esc(d.used.filter(x => x.d - d.off <= S.soon).map(x => x.name).join(', '))}</span>` : ''}</span></button>
-        <button class="link" data-act="week-swap" data-id="${d.off}">${ico('rotate-ccw')} ${esc(t('Otra receta'))}</button></div>`;
+        <button class="link" data-act="week-swap" data-id="${d.off}">${ico('rotate-ccw')} ${esc(t('Otra receta'))}</button>${ui.wnone && ui.wnone.has(d.off) ? `<p class="small muted">${esc(t('No hay otra receta con tus productos.'))}</p>` : ''}</div>`;
     }).join('') + (miss.length ? `<button class="btn block" data-act="week-add" ${ui.weekAdded ? 'disabled' : ''}>${ico(ui.weekAdded ? 'check' : 'shopping-cart')} ${esc(ui.weekAdded ? t('Agregado a la lista de compras') : t('Agregar a la lista lo que falta de la semana'))}</button>` : '') + `<p class="small muted">${esc(t('Cada día usa primero lo que vence antes. Es una sugerencia: podés cambiar cualquier receta.'))}</p>`;
     return page(t('Plan de la semana'), body, 'narrow');
   }
