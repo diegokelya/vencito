@@ -301,10 +301,63 @@
     const shown = ui.rmode !== 'mine' ? list.slice(0, ui.rshown) : list;
     return comp + shown.map(recipeCard).join('') + (shown.length < list.length ? `<button class="btn block" data-act="more">${esc(t('Ver más'))} (${shown.length}/${list.length})</button>` : '') + `<p class="small muted">${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p>`;
   }
+  /* ---------- plan de la semana ---------- */
+  /* Una receta por día que usa primero lo que vence antes. Cada día cuenta los días que le faltan a cada producto desde ese día y no repite
+     productos ya usados. Es una sugerencia: cada día se puede cambiar por otra receta. */
+  const kwTest = k => new RegExp('(^|[^a-z0-9])' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[^a-z0-9])');
+  function weekIdea(r, pantry, off) {
+    const avail = pantry.filter(x => x.d >= off); let main = 0, expiring = 0; const used = [], extra = [];
+    for (const i of r.ingredients || []) {
+      const staple = i.kind === 'staple', opt = i.kind === 'optional';
+      const kws = (i.keywords && i.keywords.length ? i.keywords : [i.name]).map(fold).filter(Boolean);
+      const hit = staple ? null : avail.find(x => !used.includes(x) && kws.some(k => kwTest(k).test(x.n)));
+      if (hit) { used.push(hit); if (hit.d - off <= S.soon) expiring++; } else if (staple || opt) extra.push(i); else return null;
+      if (!staple && !opt) main++;
+    }
+    return main ? { r, used, extra, expiring, minutes: r.minutes || 0 } : null;
+  }
+  function weekPick(cands, pantry, off, titles) {
+    let best = null;
+    for (const r of cands) {
+      if (titles.has(fold(r.title))) continue;
+      const w = weekIdea(r, pantry, off); if (!w) continue;
+      if (!best || w.expiring > best.expiring || (w.expiring === best.expiring && (w.used.length > best.used.length || (w.used.length === best.used.length && w.minutes < best.minutes)))) best = w;
+    }
+    return best;
+  }
+  const weekRest = (week, except) => { const gone = new Set(); week.forEach(d => { if (d.off !== except) d.used.forEach(x => gone.add(x)); }); return gone; };
+  function weekBuild() {
+    const pantry = visible().map(p => ({ n: fold(p.name), name: p.name, d: daysOf(p) })).filter(x => x.d != null && x.d >= 0);
+    ui.wpantry = pantry;
+    const cands = (ui.catalog || []).filter(dietOk).filter(r => !(r.meals || []).length || r.meals.includes('main')), week = [], titles = new Set(); let left = pantry;
+    for (let off = 0; off < 7; off++) {
+      const w = weekPick(cands, left, off, titles); if (!w) break;
+      week.push(Object.assign(w, { off })); titles.add(fold(w.r.title)); left = left.filter(x => !w.used.includes(x));
+    }
+    ui.week = week; ui.weekAdded = false;
+  }
+  function weekSwap(off) {
+    const week = ui.week, gone = weekRest(week, off), pantry = ui.wpantry.filter(x => !gone.has(x));
+    const cands = (ui.catalog || []).filter(dietOk).filter(r => !(r.meals || []).length || r.meals.includes('main'));
+    const w = weekPick(cands, pantry, off, new Set(week.map(d => fold(d.r.title)))); if (!w) return;
+    ui.week = week.map(d => d.off === off ? Object.assign(w, { off }) : d); ui.weekAdded = false;
+  }
+  function weekMissing() { const seen = new Set(), out = []; (ui.week || []).forEach(d => d.extra.forEach(i => { if (!seen.has(fold(i.name))) { seen.add(fold(i.name)); out.push(i); } })); return out; }
+  function weekSheet() {
+    const week = ui.week || [], miss = weekMissing(), fmt = new Intl.DateTimeFormat(LOCALES[lang()], { weekday: 'long', day: 'numeric', month: 'long' });
+    const body = !week.length ? `<div class="empty">${esc(t('Cargá productos para armar el plan de la semana.'))}</div>` : week.map(d => {
+      const day = new Date(Date.now() + d.off * 864e5), label = fmt.format(day);
+      return `<div class="card" style="margin:8px 0"><div class="small muted">${esc(label.charAt(0).toUpperCase() + label.slice(1))}</div>
+        <button class="link" style="display:flex;gap:12px;align-items:center;width:100%;text-align:left" data-act="week-open" data-id="${esc(d.r.id)}">${photo(d.r.id, 'thumb')}<span class="grow"><b>${flagOf(d.r.origin)}${esc(d.r.title)}</b>${d.expiring ? `<br><span class="small" style="color:var(--orange,#ff9500)">${esc(d.used.filter(x => x.d - d.off <= S.soon).map(x => x.name).join(', '))}</span>` : ''}</span></button>
+        <button class="link" data-act="week-swap" data-id="${d.off}">${ico('rotate-ccw')} ${esc(t('Otra receta'))}</button></div>`;
+    }).join('') + (miss.length ? `<button class="btn block" data-act="week-add" ${ui.weekAdded ? 'disabled' : ''}>${ico(ui.weekAdded ? 'check' : 'shopping-cart')} ${esc(ui.weekAdded ? t('Agregado a la lista de compras') : t('Agregar a la lista lo que falta de la semana'))}</button>` : '') + `<p class="small muted">${esc(t('Cada día usa primero lo que vence antes. Es una sugerencia: podés cambiar cualquier receta.'))}</p>`;
+    return page(t('Plan de la semana'), body, 'narrow');
+  }
   function recipesView() {
     const head = `<h1>${esc(t('¿Qué cocino hoy?'))}</h1>
       <div class="seg">${[['mine', 'Con lo que tenés'], ['all', 'Todas'], ['saved', 'Guardadas']].map(([k, n]) => `<button class="${ui.rmode === k ? 'on' : ''}" aria-pressed="${ui.rmode === k}" data-act="rmode" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
       ${ui.rmode === 'all' ? `<input class="search" id="rq" type="search" placeholder="${esc(t('Buscar receta…'))}" value="${esc(ui.rq)}" autocomplete="off">` : ''}
+      <button class="btn block" style="margin:6px 0" data-act="week">${ico('calendar')} ${esc(t('Plan de la semana'))}</button>
       <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" aria-pressed="${ui.rdiet === k}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`;
     return head + `<div id="rlist">${ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards()}</div>`;
   }
@@ -313,7 +366,7 @@
   /* La receta y «Cocinar» ocupan la pantalla (con un botón para volver) en vez de abrirse en una ventana flotante. */
   const page = (title, body, cls = '') => `<div class="rpage ${cls}"><div class="bar"><button class="btn" data-act="close">‹ ${esc(t('Volver'))}</button><h2 class="grow">${esc(title)}</h2></div>${body}</div>`;
   /* Pantallas que ocupan todo (con «Volver»); las confirmaciones chicas siguen siendo ventanas. */
-  const PAGE_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe']);
+  const PAGE_TYPES = new Set(['week', 'product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe']);
   const NARROW_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'receipt']);
   let sheetAsPage = false;
   const sheet = (title, body, close = true, cls = '') => sheetAsPage ? page(title, body, (cls + (ui.sheet && NARROW_TYPES.has(ui.sheet.type) ? ' narrow' : '')).trim()) : `<div class="sheet-bg" data-act="bg"><div class="sheet ${cls}" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3>${close ? `<button class="btn" data-act="close">${esc(t('Cerrar'))}</button>` : ''}</div>${body}</div></div>`;
@@ -545,7 +598,7 @@
     const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
     const isPage = !!(ui.sheet && PAGE_TYPES.has(ui.sheet.type)); sheetAsPage = isPage;
     const tabView = () => ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'week' ? weekSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     const wasPage = !!ui.inPage; if (isPage && !wasPage) ui.pageBack = window.scrollY;       // para volver al mismo lugar de la lista
     const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
@@ -591,7 +644,11 @@
       case 'open': ui.sheet = { type: 'product', id }; render(); break;
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
-      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; closeSheet(); break;
+      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; if (ui.sheet && ui.sheet.back === 'week') { ui.sheet = { type: 'week' }; render(); } else closeSheet(); break;
+      case 'week': if (ui.catalog) { weekBuild(); ui.sheet = { type: 'week' }; render(); } break;
+      case 'week-open': ui.cook = null; ui.sheet = { type: 'recipe', id, back: 'week' }; render(); cookWake(); break;
+      case 'week-swap': weekSwap(+id); render(); break;
+      case 'week-add': weekMissing().forEach(i => addToShopping(i.name, i.amount || '')); save(); ui.weekAdded = true; toast(t('Agregado a la lista de compras'), false, true); render(); break;
       case 'ticket': document.getElementById('ticketpic').click(); break;
       case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
       case 'rc-save': receiptSave(); break;
