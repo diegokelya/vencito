@@ -1,0 +1,34 @@
+name: Reportar un problema · Report a problem
+description: Algo no funciona como esperabas · Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. No incluyas datos personales ni fotos con información privada.
+        Thanks for reporting. Please don't include personal data or photos with private information.
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: ¿Qué pasó? · What happened?
+      description: Contá qué hiciste, qué esperabas y qué pasó · What you did, what you expected and what happened
+    validations:
+      required: true
+  - type: input
+    id: dispositivo
+    attributes:
+      label: Dispositivo e iOS · Device and iOS
+      placeholder: iPhone 16 Pro, iOS 27.1
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Vencito · Vencito version
+      description: Ajustes → Acerca de · Settings → About
+      placeholder: "3.12.0 (14)"
+  - type: dropdown
+    id: idioma
+    attributes:
+      label: Idioma de la app · App language
+      options: [Español, English, Português (Brasil), Français, Italiano, Deutsch]
