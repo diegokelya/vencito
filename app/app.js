@@ -312,7 +312,11 @@
   /* ---------- hojas (modales) ---------- */
   /* La receta y «Cocinar» ocupan la pantalla (con un botón para volver) en vez de abrirse en una ventana flotante. */
   const page = (title, body, cls = '') => `<div class="rpage ${cls}"><div class="bar"><button class="btn" data-act="close">‹ ${esc(t('Volver'))}</button><h2 class="grow">${esc(title)}</h2></div>${body}</div>`;
-  const sheet = (title, body, close = true, cls = '') => `<div class="sheet-bg" data-act="bg"><div class="sheet ${cls}" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3>${close ? `<button class="btn" data-act="close">${esc(t('Cerrar'))}</button>` : ''}</div>${body}</div></div>`;
+  /* Pantallas que ocupan todo (con «Volver»); las confirmaciones chicas siguen siendo ventanas. */
+  const PAGE_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe']);
+  const NARROW_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'receipt']);
+  let sheetAsPage = false;
+  const sheet = (title, body, close = true, cls = '') => sheetAsPage ? page(title, body, (cls + (ui.sheet && NARROW_TYPES.has(ui.sheet.type) ? ' narrow' : '')).trim()) : `<div class="sheet-bg" data-act="bg"><div class="sheet ${cls}" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3>${close ? `<button class="btn" data-act="close">${esc(t('Cerrar'))}</button>` : ''}</div>${body}</div></div>`;
   function productSheet(id) {
     const p = S.products.find(x => x.id === id); if (!p) return '';
     const d = daysOf(p), b = bucketOf(p);
@@ -537,13 +541,18 @@
     document.documentElement.lang = lang();
     const prevActive = document.activeElement;
     const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
-    const main = ui.sheet && ui.sheet.type === 'recipe' ? recipeSheet(String(ui.sheet.id)) : ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? '' : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const isPage = !!(ui.sheet && PAGE_TYPES.has(ui.sheet.type)); sheetAsPage = isPage;
+    const tabView = () => ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
+    const wasPage = !!ui.inPage; if (isPage && !wasPage) ui.pageBack = window.scrollY;       // para volver al mismo lugar de la lista
     const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
-    appEl.innerHTML = main + shHtml + tb + (ui.welcome != null ? welcomeHtml() : '');
+    appEl.innerHTML = (isPage ? shHtml : tabView() + shHtml) + tb + (ui.welcome != null ? welcomeHtml() : '');
+    sheetAsPage = false;
     if (!sh || sh.type !== 'recipe') cookStop();
     const key = sh ? sh.type + ':' + (sh.id || '') : '';
+    if (isPage && key !== ui.shKey) window.scrollTo(0, 0); else if (!isPage && wasPage) window.scrollTo(0, ui.pageBack || 0);
+    ui.inPage = isPage;
     if (key !== ui.shKey) {
       if (sh && !ui.shKey) ui.opener = prevActive && prevActive.dataset ? { act: prevActive.dataset.act, id: prevActive.dataset.id } : null;
       const sheetEl = document.querySelector('.sheet') || document.querySelector('.rpage');
@@ -580,7 +589,7 @@
       case 'open': ui.sheet = { type: 'product', id }; render(); break;
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
-      case 'close': { const wasRecipe = ui.sheet && ui.sheet.type === 'recipe'; if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; closeSheet(); if (wasRecipe) window.scrollTo(0, ui.recipeBack || 0); break; }
+      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; closeSheet(); break;
       case 'ticket': document.getElementById('ticketpic').click(); break;
       case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
       case 'rc-save': receiptSave(); break;
@@ -640,7 +649,7 @@
       case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
       case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;
       case 'wipe-yes': S.products = []; save(); closeSheet(false); toast(t('Listo')); break;
-      case 'recipe': ui.recipeBack = window.scrollY; ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); window.scrollTo(0, 0); cookWake(); break;
+      case 'recipe': ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); cookWake(); break;
       case 'ck-ing': case 'ck-step': case 'ck-serv': case 'ck-mode': case 'ck-prev': case 'ck-next': case 'ck-speak': case 'ck-share': case 'ck-chatgpt': case 'ck-missing': case 'save-recipe': cookAct(act, id, el); break;
       case 'rmode': ui.rmode = id; ui.rshown = 40; render(); break;
       case 'rdiet': ui.rdiet = id; ui.rshown = 40; render(); break;
