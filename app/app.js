@@ -867,6 +867,18 @@
     }
     try { if (navigator.vibrate) navigator.vibrate(40); } catch (e) { /* sin vibración */ }
   }
+  /* Dos notas que suben: el producto quedó completo (código, nombre y fecha). Distinto del beep corto de la lectura. */
+  function chime() {
+    if (S.sound === false) return;
+    try {
+      const a = beepCtx || new (window.AudioContext || window.webkitAudioContext)(); if (a.state === 'suspended') a.resume();
+      [[1760, 0, 0.09], [2349, 0.1, 0.18]].forEach(([f, at, len]) => {
+        const o = a.createOscillator(), g = a.createGain(), t0 = a.currentTime + at; o.frequency.value = f;
+        g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.5, t0 + 0.01); g.gain.exponentialRampToValueAtTime(0.0001, t0 + len);
+        o.connect(g); g.connect(a.destination); o.start(t0); o.stop(t0 + len + 0.02);
+      });
+    } catch (e) { /* sin audio */ }
+  }
   function webBeep() {
     try { const a = beepCtx || new (window.AudioContext || window.webkitAudioContext)(); if (a.state === 'suspended') a.resume(); const o = a.createOscillator(), g = a.createGain(); o.frequency.value = 2600; g.gain.setValueAtTime(0.0001, a.currentTime); g.gain.exponentialRampToValueAtTime(0.9, a.currentTime + 0.006); g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + 0.11); o.connect(g); g.connect(a.destination); o.start(); o.stop(a.currentTime + 0.12); } catch (e) { /* sin sonido */ }
   }
@@ -1033,7 +1045,7 @@
       if (!r) { say(t('No encontré una fecha de vencimiento. Cargala a mano.')); return; }
       if (tg.kind === 'live') { finishDate(r); return; }
       if (tg.kind === 'form') { const f = document.querySelector('form[data-form=product]'); if (!f) return; f.elements.expiry.value = r.date; f.elements.noexp.checked = false; f.elements.expiry.disabled = false; }
-      else { const it = scan.items[tg.i]; if (!it) return; it.expiry = r.date; scanList(); }
+      else { const it = scan.items[tg.i]; if (!it) return; it.expiry = r.date; scanList(); if (it.name.trim()) chime(); }
       say(t('Fecha detectada: %@ (confianza %@). Revisala antes de guardar.', fmtDate(r.date), t({ alta: 'Alta', media: 'Media', baja: 'Baja' }[r.confidence])));
     } catch (err) { say(t('No pude leer la foto: %@', String(err.message || err))); }
   }

@@ -74,6 +74,21 @@
     if (e == null) return MFG;
     return e >= m ? EXPIRY : MFG;
   }
+  /* Etiquetas en columnas: el OCR lee primero las palabras («ENV:», «VTO:») y después las fechas, cada una en su línea.
+     Se las junta en orden («ENV: 27/10/2026», «VTO: 25/01/2027») para que cada fecha lleve su palabra y no se tome la de envasado. */
+  const DATE_LINE = /^\s*\d{1,2}\s*[/\-.]\s*\d{1,2}\s*[/\-.]\s*\d{2,4}/;
+  const isLabel = l => { const t = l.trim(); return t.length >= 2 && t.length <= 12 && !/\d/.test(t) && /^[\p{L}: .]+$/u.test(t); };
+  function pairColumns(text) {
+    const lines = text.split(/\r?\n/), out = []; let i = 0;
+    while (i < lines.length) {
+      let labels = 0; while (i + labels < lines.length && isLabel(lines[i + labels])) labels++;
+      if (labels >= 2 && i + 2 * labels <= lines.length && lines.slice(i, i + labels).some(l => classify(l) === EXPIRY) && lines.slice(i + labels, i + 2 * labels).every(l => DATE_LINE.test(l))) {
+        for (let k = 0; k < labels; k++) out.push(lines[i + k].trim() + ' ' + lines[i + labels + k].trim());
+        i += 2 * labels;
+      } else { out.push(lines[i]); i++; }
+    }
+    return out.join('\n');
+  }
   function context(loc, text) {
     const lineStart = text.lastIndexOf('\n', loc - 1) + 1;
     const r = classify(text.substring(Math.max(lineStart, loc - 40), loc));
@@ -90,7 +105,7 @@
 
   /* today: 'AAAA-MM-DD' (para pruebas). Devuelve { date:'AAAA-MM-DD', literal, confidence:'alta'|'media'|'baja' } o null. */
   function parse(raw, today) {
-    const text = normalize(String(raw || ''));
+    const text = pairColumns(normalize(String(raw || '')));
     if (!today) { const n = new Date(); today = isoOf(n.getFullYear(), n.getMonth() + 1, n.getDate()); }
     const minDate = addYears(today, -5), maxDate = addYears(today, 15);
     const taken = [], cands = [];
