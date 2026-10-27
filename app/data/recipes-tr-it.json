@@ -8956,10 +8956,10 @@
   ]
  },
  "es-albondigas-en-salsa": {
-  "title": "Polpette al sugo",
-  "summary": "Un piatto della nonna, con tanto sugo per fare la scarpetta.",
-  "side": "Patatine fritte o riso",
-  "tip": "Passate le palline nella farina prima di friggerle perché non si sfaldino.",
+  "title": "Polpette alla salsa di mandorle",
+  "summary": "Polpette fatte in casa in una salsa dorata di mandorle e vino bianco, alla spagnola.",
+  "side": "Riso bianco o patate lesse",
+  "tip": "Tostate le mandorle a secco prima di frullarle: la salsa guadagna sapore e colore.",
   "ingredients": [
    {
     "name": "Carne macinata",
@@ -8978,8 +8978,12 @@
     "amount": "1"
    },
    {
-    "name": "Pomodoro",
-    "amount": "1 barattolo"
+    "name": "Mandorle",
+    "amount": "1 manciata (50 g)"
+   },
+   {
+    "name": "Vino bianco",
+    "amount": "1 bicchiere"
    },
    {
     "name": "Aglio",
@@ -8995,10 +8999,11 @@
    }
   ],
   "steps": [
-   "Mescolate la carne con l'uovo, il pangrattato, l'aglio tritato e il sale; formate le palline.",
-   "Rosolatele in padella con l'olio e mettetele da parte.",
-   "Soffriggete la cipolla tritata, aggiungete il pomodoro e cuocete 5 minuti.",
-   "Rimettete le polpette e cuocete coperto 20 minuti."
+   "Mescola la carne con l'uovo, il pangrattato, l'aglio tritato e il sale; forma le polpette e passale nella farina.",
+   "Rosolale in una padella con l'olio e mettile da parte.",
+   "Nello stesso olio soffriggi la cipolla tritata fino a doratura, aggiungi il vino e lascia ridurre 2 minuti.",
+   "Frulla le mandorle tostate con un bicchiere d'acqua, versale nella padella e aggiungi le polpette.",
+   "Cuoci coperto a fuoco basso per 20 minuti, scuotendo la padella ogni tanto."
   ]
  },
  "es-macarrones-con-chorizo": {

@@ -9001,10 +9001,10 @@
   ]
  },
  "es-albondigas-en-salsa": {
-  "title": "Fleischbällchen in Sauce",
-  "summary": "Ein Gericht der Großmutter, mit viel Sauce zum Tunken.",
-  "side": "Pommes oder Reis",
-  "tip": "Die Bällchen vor dem Braten in Mehl wenden, damit sie nicht zerfallen.",
+  "title": "Fleischbällchen in Mandelsauce",
+  "summary": "Hausgemachte Fleischbällchen in einer goldenen Mandel-Weißwein-Sauce nach spanischer Art.",
+  "side": "Weißer Reis oder Salzkartoffeln",
+  "tip": "Die Mandeln vor dem Mahlen ohne Fett rösten: Die Sauce wird aromatischer und dunkler.",
   "ingredients": [
    {
     "name": "Hackfleisch",
@@ -9023,7 +9023,11 @@
     "amount": "1"
    },
    {
-    "name": "Tomate",
+    "name": "Mandeln",
+    "amount": "1 Handvoll (50 g)"
+   },
+   {
+    "name": "Weißwein",
     "amount": "1 Glas"
    },
    {
@@ -9040,10 +9044,11 @@
    }
   ],
   "steps": [
-   "Das Fleisch mit dem Ei, den Semmelbröseln, dem gehackten Knoblauch und Salz mischen; Bällchen formen.",
+   "Das Fleisch mit dem Ei, den Semmelbröseln, dem gehackten Knoblauch und Salz mischen; Bällchen formen und in Mehl wenden.",
    "In einer Pfanne mit Öl anbraten und beiseitestellen.",
-   "Die gehackte Zwiebel andünsten, die Tomate zugeben und 5 Minuten garen.",
-   "Die Bällchen zurückgeben und zugedeckt 20 Minuten garen."
+   "In demselben Öl die gehackte Zwiebel goldbraun braten, den Wein dazugeben und 2 Minuten einkochen.",
+   "Die gerösteten Mandeln mit einem Glas Wasser pürieren, in die Pfanne gießen und die Fleischbällchen hinzufügen.",
+   "Zugedeckt bei schwacher Hitze 20 Minuten garen und die Pfanne ab und zu schwenken."
   ]
  },
  "es-macarrones-con-chorizo": {
