@@ -721,6 +721,67 @@
       case 'week-pick': ui.wq = ''; ui.sheet = { type: 'wpick', day: id, back: 'week' }; render(); break;
       case 'week-pick-add': { const day = ui.sheet && ui.sheet.day; if (day && !S.wplan.some(e => e.d === day && e.id === id)) { S.wplan.push({ d: day, id }); save(); ui.weekAdded = false; } ui.sheet = { type: 'week' }; render(); break; }
       case 'week-add': weekMissing().forEach(i => addToShopping(i.name, i.amount || '')); save(); ui.weekAdded = true; toast(t('Agregado a la lista de compras'), false, true); render(); break;
+      case 'ticket': document.getElementById('ticketpic').click(); break;
+      case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
+      case 'rc-save': receiptSave(); break;
+      case 'hperiod': ui.period = id; render(); break;
+      case 'dups': ui.sheet = { type: 'dups' }; render(); break;
+      case 'dup-merge': { const n = mergeGroup(id.split(',')); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
+      case 'dup-all': { let n = 0; dupGroups().forEach(g => { n += mergeGroup(g.map(x => x.id)); }); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
+      case 'homef': S.home = id; save(); render(); break;
+      case 'homes': ui.sheet = { type: 'homes' }; render(); break;
+      case 'home-add': { const i = document.getElementById('newhome'); if (i && i.value.trim()) { addHome(i.value); render(); } break; }
+      case 'home-del': ui.sheet = { type: 'homedel', id }; render(); break;
+      case 'home-del-yes': deleteHome(id); ui.sheet = { type: 'homes' }; render(); break;
+      case 'comp-more': { const add = VRecipes.suggest(lang(), compPantry(), 3, ui.comp.map(r => r.title)).map(registerComposed); ui.comp.push(...add); refreshRecipes(); break; }
+      case 'wl-next': if (ui.welcome >= WELCOME.length - 1) { ui.welcome = null; S.welcomed = true; save(); } else ui.welcome++; render(); break;
+      case 'wl-skip': ui.welcome = null; S.welcomed = true; save(); render(); break;
+      case 'wl-show': ui.welcome = 0; render(); break;
+      case 'locf': ui.loc = id; render(); break;
+      case 'catf': ui.cat = id; render(); break;
+      case 'unopen': { const p = S.products.find(x => x.id === id); if (p) { delete p.openedAt; delete p.openDays; save(); render(); } break; }
+      case 'open-it': { const p = S.products.find(x => x.id === id); if (p) { p.openedAt = iso(new Date()); p.openDays = OPEN_DAYS[catKey(p.category)] || 7; save(); render(); } break; }
+      case 'quick': openQuick(); break;
+      case 'quick-pick': quickPick(id); break;
+      case 'hist': ui.hist = id; ui.sheet = { type: 'hist' }; render(); break;
+      case 'readd': { const r = (ui.hist === 'consumed' ? S.consumed : S.discarded).find(x => x.id === id); if (r) { ui.sheet = { type: 'form', id: null, pre: { pre: true, name: r.name, category: r.category || '', barcode: r.barcode || '' } }; render(); } break; }
+      case 'scan-add': openScanner('add'); break;
+      case 'scan-consume': openScanner('consume'); break;
+      case 'scan-bulk': openScanner('bulk'); break;
+      case 'form-scan': openScanner('fill'); break;
+      case 'read-date': openScanner('date'); break;
+      case 'scan-close': closeScanner(); break;
+      case 'scan-skip': finishDate(null); break;
+      case 'scan-pic': document.getElementById('scanpic').click(); break;
+      case 'scan-date': pickDate({ kind: 'bulk', i: +id }); break;
+      case 'scan-del': scan.items.splice(+id, 1); scanList(); break;
+      case 'scan-save': scanSave(); break;
+      case 'scan-qty': { const it = scan.items[+id]; if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); scanList(); } break; }
+      case 'consume': consumeOne(id); break;
+      case 'discard': discard(id); break;
+      case 'remove': remove(id); break;
+      case 'ask-remove': ui.sheet = { type: 'remove', id }; render(); break;
+      case 'to-list': { const p = S.products.find(x => x.id === id); if (p) { addToShopping(p.name); closeSheet(false); toast(t('Agregado a la lista de compras')); } break; }
+      case 'stats': ui.sheet = { type: 'stats' }; render(); break;
+      case 'period': ui.period = id; render(); break;
+      case 'qty': { const c = document.getElementById('qty'), h = document.querySelector('input[name=quantity]'); const n = Math.min(999, Math.max(1, (parseInt(c.textContent, 10) || 1) + parseInt(id, 10))); c.textContent = n; h.value = n; break; }
+      case 'tick': { const i = S.shopping.find(x => x.id === id); if (i) { i.done = !i.done; save(); render(); } break; }
+      case 'untick': S.shopping = S.shopping.filter(x => x.id !== id); save(); render(); break;
+      case 'clear-done': S.shopping = S.shopping.filter(x => !x.done); save(); render(); break;
+      case 'share-list': shareList(); break;
+      case 'lang': S.lang = id; save(); render(); if (ui.tab === 'recipes') ensureRecipes(); break;
+      case 'export': exportJson(); break;
+      case 'egg': {   // huevo de pascua, como en las apps: siete toques en la versión
+        ui.eggTaps = (ui.eggTaps || 0) + 1;
+        if (ui.eggTaps >= 7) { ui.eggTaps = 0; try { navigator.vibrate && navigator.vibrate(40); } catch (e) { /* sin vibración */ } toast(t(['🧀 Este queso ya está en edad de merecer.', '🥛 La leche no avisa: Vencito sí.', '🍞 Lo que vence primero, se come primero.'][Math.floor(Math.random() * 3)]), false, true); }
+        break;
+      }
+      case 'wipe': ui.sheet = { type: 'wipe' }; render(); break;
+      case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
+      case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;
+      case 'wipe-yes': S.products = []; save(); closeSheet(false); toast(t('Listo')); break;
+      case 'recipe': ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); cookWake(); break;
+      case 'ck-ing': case 'ck-step': case 'ck-serv': case 'ck-mode': case 'ck-prev': case 'ck-next': case 'ck-speak': case 'ck-share': case 'ck-chatgpt': case 'ck-missing': case 'save-recipe': cookAct(act, id, el); break;
       case 'rmeal': ui.rmeal = id; ui.rshown = 40; render(); break;
       case 'rorigin': ui.rorigin = id; ui.rshown = 40; render(); break;
       case 'rdoable': { const v = Number(el.dataset.v); ui.rdoable = ui.rdoable === v ? 0 : v; } ui.rshown = 40; render(); break;
