@@ -39534,5 +39534,3533 @@
    "Ketchup, Senf und Salz zugeben.",
    "Die Hitze reduzieren, die Sahne zugeben und erwärmen, ohne zu kochen."
   ]
+ },
+ "ar-pastel-de-papa": {
+  "title": "Argentinischer Kartoffelauflauf",
+  "summary": "Hackfleisch mit Zwiebel unter überbackenem Kartoffelpüree.",
+  "side": "Blattsalat",
+  "tip": "Das Püree eher fest halten, damit es oben schön bräunt.",
+  "ingredients": [
+   {
+    "name": "Hackfleisch",
+    "amount": "400 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kartoffeln kochen, zerstampfen und salzen; das Püree fest halten.",
+   "Die gehackte Zwiebel in Öl anschwitzen und das Hackfleisch bräunen.",
+   "Das Fleisch in eine Form geben und mit dem Püree bedecken.",
+   "Mit Käse bestreuen und 15 Minuten bei starker Hitze überbacken."
+  ]
+ },
+ "ar-pizzetas-caseras": {
+  "title": "Mini-Pizzen nach Hausart",
+  "summary": "Kleine Pizzen mit weichem Teig, Sauce, Käse und allem, was der Kühlschrank hergibt.",
+  "side": "Tomatensalat",
+  "tip": "Den Teig vor der Sauce einstechen, damit er nicht aufgeht.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tomatensauce",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Mozzarella",
+    "amount": "200 g"
+   },
+   {
+    "name": "Oliven",
+    "amount": "6 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Mehl mit Salz, Öl und warmem Wasser zu einem weichen Teig verkneten und 15 Minuten ruhen lassen.",
+   "Dünn ausrollen und Kreise in der Größe eines kleinen Tellers ausstechen.",
+   "Mit Sauce, Käse und Oliven belegen.",
+   "12 Minuten bei starker Hitze backen, bis der Käse Blasen wirft."
+  ]
+ },
+ "ar-milanesas-de-zapallitos": {
+  "title": "Panierte Zucchinischnitzel",
+  "summary": "Lange Zucchinischeiben paniert und goldbraun gebraten, leicht und knusprig.",
+  "side": "Tomatensalat",
+  "tip": "Gut trocken tupfen, bevor sie ins Ei kommen, damit die Panade haftet.",
+  "ingredients": [
+   {
+    "name": "Zucchini",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Paniermehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Zucchini längs in dünne Scheiben schneiden und salzen.",
+   "Mit Küchenpapier trocken tupfen.",
+   "Durch das verquirlte Ei und dann durch das Paniermehl ziehen.",
+   "In heißem Öl von beiden Seiten goldbraun braten."
+  ]
+ },
+ "ar-sopa-de-verduras-con-fideos": {
+  "title": "Gemüsesuppe mit Nudeln",
+  "summary": "Hausgemachte Brühe mit Karotte, Kartoffel, Kürbis und kurzen Nudeln.",
+  "side": "Brot mit Käse",
+  "tip": "Die Nudeln erst am Schluss zugeben, damit sie nicht verkochen.",
+  "ingredients": [
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Kürbis",
+    "amount": "200 g"
+   },
+   {
+    "name": "Kurze Nudeln",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "1,5 Liter Wasser mit der ganzen Zwiebel und Salz zum Kochen bringen.",
+   "Karotte, Kartoffel und Kürbis in Würfeln zugeben und 15 Minuten kochen.",
+   "Die Nudeln zugeben und weich kochen.",
+   "Heiß servieren, nach Wunsch mit geriebenem Käse."
+  ]
+ },
+ "ar-tarta-de-berenjena": {
+  "title": "Auberginentarte",
+  "summary": "Tarte mit gerösteten Auberginen, Tomate und überbackenem Käse.",
+  "side": "Grüner Salat",
+  "tip": "Die Auberginen vorher rösten, damit sie Wasser verlieren und den Teig nicht aufweichen.",
+  "ingredients": [
+   {
+    "name": "Mürbeteig",
+    "amount": "1 Platte"
+   },
+   {
+    "name": "Aubergine",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "150 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Auberginen in Scheiben schneiden, salzen und im Ofen weich rösten.",
+   "Eine Form mit dem Teig auslegen und einstechen.",
+   "Die Auberginen mit Tomatenscheiben und dem Käse einschichten.",
+   "Mit den mit Salz verquirlten Eiern bedecken und 30 Minuten bei mittlerer Hitze backen."
+  ]
+ },
+ "ar-hamburguesa-de-pollo-casera": {
+  "title": "Hausgemachte Hähnchenburger",
+  "summary": "Hähnchenhack-Patties mit Zwiebel und Petersilie, saftig und einfach.",
+  "side": "Ofenkartoffeln",
+  "tip": "Die Hände anfeuchten, damit die Patties nicht kleben.",
+  "ingredients": [
+   {
+    "name": "Hähnchenhack",
+    "amount": "500 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Paniermehl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Petersilie",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchenhack mit der geriebenen Zwiebel, Ei, Paniermehl, Petersilie und Salz vermengen.",
+   "Patties in Brötchengröße formen.",
+   "Auf einer heißen Platte mit etwas Öl braten.",
+   "Nach 5 Minuten wenden und durchgaren."
+  ]
+ },
+ "ar-escalopes-con-papas": {
+  "title": "Kalbsschnitzel mit Kartoffeln",
+  "summary": "Dünne Schnitzel, in der Pfanne goldbraun gebraten, mit knusprigen Kartoffeln.",
+  "side": "Blattsalat",
+  "tip": "Das Fleisch sehr dünn klopfen, damit es schnell gart und zart bleibt.",
+  "ingredients": [
+   {
+    "name": "Kalbsschnitzel",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Mehl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Schnitzel dünn klopfen, salzen und in Mehl wenden.",
+   "Die Kartoffeln in Scheiben schneiden und in Öl weich und goldbraun braten.",
+   "Die Schnitzel in einer anderen Pfanne je 2 Minuten pro Seite braten.",
+   "Mit den Kartoffeln und einem Spritzer Zitrone servieren."
+  ]
+ },
+ "ar-torrejas-de-arroz": {
+  "title": "Reisküchlein",
+  "summary": "Gebratene Küchlein aus übrig gebliebenem Reis, Ei und Käse.",
+  "side": "Tomatensalat",
+  "tip": "Den Reis gut abtropfen lassen, damit die Küchlein in der Pfanne nicht zerfallen.",
+  "ingredients": [
+   {
+    "name": "Gekochter Reis",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Frühlingszwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Reis mit Eiern, Käse, gehackter Frühlingszwiebel und Salz mischen.",
+   "Öl in einer Pfanne erhitzen.",
+   "Mit einem Löffel Küchlein formen und goldbraun braten.",
+   "Auf Küchenpapier abtropfen lassen und heiß servieren."
+  ]
+ },
+ "mx-sopes-de-frijol": {
+  "title": "Sopes mit Bohnen",
+  "summary": "Dicke Masa-Fladen mit Bohnen, Salat, Käse und Salsa.",
+  "side": "Rote Salsa",
+  "tip": "Rund um jeden Fladen einen Rand hochkneifen, damit er den Belag hält.",
+  "ingredients": [
+   {
+    "name": "Maismehl (Masa)",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Gebratene Bohnen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Frischkäse",
+    "amount": "100 g"
+   },
+   {
+    "name": "Kopfsalat",
+    "amount": "2 Blätter"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Mehl mit warmem Wasser und Salz zu einem weichen Teig verkneten.",
+   "Dicke Fladen formen und auf einer Platte je 3 Minuten pro Seite backen.",
+   "Die Ränder noch heiß hochkneifen, so entsteht der Sope.",
+   "Mit Bohnen, Salatstreifen und zerbröseltem Käse belegen."
+  ]
+ },
+ "mx-huevos-en-salsa-verde": {
+  "title": "Eier in grüner Salsa",
+  "summary": "Eier in einer Tomatillo-Sauce mit etwas Schärfe.",
+  "side": "Bohnen und Tortillas",
+  "tip": "Die Salsa ein paar Minuten köcheln, bevor die Eier hineinkommen.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Tomatillos",
+    "amount": "6 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Chili",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Tomatillos mit dem Chili 5 Minuten kochen und mit der Zwiebel pürieren.",
+   "Die Salsa in einer Pfanne mit Öl und Salz 5 Minuten garen.",
+   "Mulden formen und die Eier hineinschlagen.",
+   "Zudecken und garen, bis das Eiweiß gestockt ist."
+  ]
+ },
+ "mx-frijoles-charros": {
+  "title": "Charro-Bohnen",
+  "summary": "Bohneneintopf mit Speck, Chorizo und Würstchen.",
+  "side": "Tortillas",
+  "tip": "Bereits gekochte Bohnen verwenden, dann ist er in unter einer Stunde fertig.",
+  "ingredients": [
+   {
+    "name": "Gekochte Bohnen",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Speck",
+    "amount": "100 g"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den gehackten Speck und den Chorizo im Topf anbraten.",
+   "Gehackte Zwiebel und Tomate zugeben und 5 Minuten garen.",
+   "Die Bohnen mit ihrer Brühe und Salz zufügen.",
+   "Bei niedriger Hitze 20 Minuten köcheln, bis alles eindickt."
+  ]
+ },
+ "mx-albondigas-al-chipotle": {
+  "title": "Chipotle-Fleischbällchen",
+  "summary": "Rinderhackbällchen in Tomaten-Chipotle-Sauce.",
+  "side": "Roter Reis",
+  "tip": "Mit wenig Chipotle beginnen und nach Geschmack nachlegen: er ist ziemlich scharf.",
+  "ingredients": [
+   {
+    "name": "Rinderhack",
+    "amount": "500 g"
+   },
+   {
+    "name": "Gekochter Reis",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Chipotle-Chili",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hackfleisch mit Reis, Ei und Salz vermengen und zu Bällchen formen.",
+   "Die Tomaten mit dem Chipotle pürieren und die Sauce durchsieben.",
+   "Die Sauce im Topf 5 Minuten kochen.",
+   "Die Bällchen zugeben und zugedeckt 25 Minuten garen."
+  ]
+ },
+ "mx-papas-con-rajas": {
+  "title": "Kartoffeln mit Paprika",
+  "summary": "Gebratene Kartoffeln mit Paprikastreifen und Zwiebel, einfach und sättigend.",
+  "side": "Warme Tortillas",
+  "tip": "Die Kartoffeln gleichmäßig schneiden, damit sie gleichzeitig gar werden.",
+  "ingredients": [
+   {
+    "name": "Kartoffel",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Paprika",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "80 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kartoffeln würfeln und in Öl weich und goldbraun braten.",
+   "Zwiebel und Paprikastreifen zugeben.",
+   "Mit Salz weitere 8 Minuten braten.",
+   "Mit zerbröseltem Käse bestreut servieren."
+  ]
+ },
+ "mx-pollo-con-rajas-y-crema": {
+  "title": "Hähnchen mit Paprika und Sahne",
+  "summary": "Gezupftes Hähnchen mit Paprikastreifen in cremiger Sauce.",
+  "side": "Weißer Reis",
+  "tip": "Das Hähnchen vorher garen und zupfen: so ist alles in Minuten fertig.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "500 g"
+   },
+   {
+    "name": "Paprika",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Sahne",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen 20 Minuten mit Salz kochen und zupfen.",
+   "Zwiebel und Paprikastreifen in Öl anschwitzen.",
+   "Hähnchen und Sahne zugeben.",
+   "8 Minuten bei niedriger Hitze garen und mit Reis servieren."
+  ]
+ },
+ "mx-chiles-rellenos-de-queso": {
+  "title": "Mit Käse gefüllte Paprika",
+  "summary": "Geröstete Paprika oder Poblanos mit Käse gefüllt, im Teigmantel frittiert.",
+  "side": "Roter Reis",
+  "tip": "Nach dem Rösten in einer geschlossenen Tüte schälen: die Haut löst sich leicht.",
+  "ingredients": [
+   {
+    "name": "Paprika oder Poblano",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Käse",
+    "amount": "200 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Mehl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Paprika rösten, bis die Haut schwarz wird, schälen und vorsichtig aufschneiden.",
+   "Mit dem Käse füllen und in Mehl wenden.",
+   "Das Eiweiß steif schlagen, das Eigelb unterheben und jede Paprika darin wenden.",
+   "In heißem Öl goldbraun ausbacken."
+  ]
+ },
+ "mx-arroz-con-elote": {
+  "title": "Mais-Reis",
+  "summary": "Lockerer Reis mit Maiskörnern, Zwiebel und einem Schuss Brühe.",
+  "side": "Gegrilltes Hähnchen",
+  "tip": "Den Reis abspülen, damit er locker bleibt.",
+  "ingredients": [
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Mais",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in Öl anschwitzen und den gewaschenen Reis zugeben.",
+   "2 Minuten glasig anrösten.",
+   "Mais, heiße Brühe und Salz zufügen.",
+   "Zugedeckt 15 Minuten bei niedriger Hitze garen."
+  ]
+ },
+ "cl-barros-luco": {
+  "title": "Barros-Luco-Sandwich",
+  "summary": "Das chilenische Sandwich mit dünnen Rindfleischstreifen und geschmolzenem Käse.",
+  "side": "Pommes frites",
+  "tip": "Das Fleisch sehr dünn schneiden und schnell braten, damit es zart bleibt.",
+  "ingredients": [
+   {
+    "name": "Brötchen",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Rindfleischstreifen",
+    "amount": "150 g"
+   },
+   {
+    "name": "Käse",
+    "amount": "2 Scheiben"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das in dünne Streifen geschnittene Fleisch salzen.",
+   "In einer Pfanne mit Öl bei starker Hitze 3 Minuten anbraten.",
+   "Den Käse auf das heiße Fleisch legen, damit er schmilzt.",
+   "Das Sandwich mit dem Brötchen belegen und warm servieren."
+  ]
+ },
+ "cl-chorrillana": {
+  "title": "Chorrillana",
+  "summary": "Pommes frites mit Rindfleisch, karamellisierten Zwiebeln und Spiegelei.",
+  "side": "Chilenischer Salat",
+  "tip": "Sofort servieren, damit die Pommes knusprig bleiben.",
+  "ingredients": [
+   {
+    "name": "Kartoffel",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Rindfleischstreifen",
+    "amount": "250 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kartoffeln in Stifte schneiden und goldbraun frittieren.",
+   "Die Zwiebelstreifen goldbraun braten und beiseitestellen.",
+   "Die Rindfleischstreifen mit Salz bei starker Hitze anbraten.",
+   "Auf einer Platte schichten: Pommes, Fleisch, Zwiebeln und die Spiegeleier oben drauf."
+  ]
+ },
+ "co-lentejas-con-platano-maduro": {
+  "title": "Linsen mit reifer Kochbanane",
+  "summary": "Linseneintopf mit Tomaten-Zwiebel-Sauce, dazu gebratene reife Kochbanane.",
+  "side": "Weißer Reis",
+  "tip": "Die Kochbanane muss sehr reif sein, mit dunkler Schale, damit sie karamellisiert.",
+  "ingredients": [
+   {
+    "name": "Linsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Reife Kochbanane",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Linsen in Wasser etwa 25 Minuten weich kochen.",
+   "Gehackte Zwiebel und Tomate in Öl zu einer Sauce anschwitzen.",
+   "Mit den Linsen und Salz mischen und 5 Minuten garen.",
+   "Scheiben reifer Kochbanane goldbraun braten und dazu servieren."
+  ]
+ },
+ "co-papas-criollas-salteadas": {
+  "title": "Gebratene Drillinge",
+  "summary": "Kleine Kartoffeln mit Knoblauch, Frühlingszwiebel und Koriander gebraten.",
+  "side": "Gegrilltes Steak",
+  "tip": "Mit Schale kochen: sie werden aromatischer und fester.",
+  "ingredients": [
+   {
+    "name": "Drillinge",
+    "amount": "600 g"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Frühlingszwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Koriander",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kartoffeln mit Schale 12 Minuten kochen und abgießen.",
+   "Öl erhitzen und die Kartoffeln ganz oder halbiert anbraten.",
+   "Gehackten Knoblauch und Frühlingszwiebel zugeben.",
+   "Salzen und mit gehacktem Koriander abschließen."
+  ]
+ },
+ "co-huevos-con-hogao": {
+  "title": "Eier mit Hogao",
+  "summary": "Rühr- oder Spiegeleier mit der kolumbianischen Tomaten-Zwiebel-Sauce.",
+  "side": "Arepa oder Brot",
+  "tip": "Den Hogao bei niedriger Hitze kochen, damit sich der Geschmack konzentriert.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Frühlingszwiebel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "1 Zehe"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Frühlingszwiebel mit dem Knoblauch in Öl anschwitzen.",
+   "Die geriebene Tomate zugeben und 8 Minuten zu einem Hogao einkochen.",
+   "Salzen und die Sauce beiseitestellen.",
+   "Die Eier nach Wunsch zubereiten und mit dem Hogao servieren."
+  ]
+ },
+ "co-pescado-frito-con-patacones": {
+  "title": "Gebratener Fisch mit Patacones",
+  "summary": "Goldbraune Fischfilets mit plattgedrückter, frittierter grüner Kochbanane.",
+  "side": "Tomaten-Zwiebel-Salat",
+  "tip": "Die Patacones in zwei Schritten zubereiten: frittieren, plattdrücken, noch einmal frittieren.",
+  "ingredients": [
+   {
+    "name": "Fischfilet",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Grüne Kochbanane",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Mehl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Fisch mit Salz und Zitrone würzen und in Mehl wenden.",
+   "Die Kochbanane in dicke Scheiben schneiden und 3 Minuten frittieren.",
+   "Mit dem Glasboden plattdrücken und nochmals goldbraun frittieren.",
+   "Den Fisch braten und mit den Patacones und Salz servieren."
+  ]
+ },
+ "pe-papa-a-la-ocopa": {
+  "title": "Kartoffeln in Ocopa-Sauce",
+  "summary": "Gekochte Kartoffeln in cremiger Sauce aus Käse, Erdnüssen und mildem Chili.",
+  "side": "Hartgekochtes Ei und Oliven",
+  "tip": "Die Sauce nach und nach mit der Milch pürieren, bis sie cremig und dick ist.",
+  "ingredients": [
+   {
+    "name": "Kartoffel",
+    "amount": "5 Stück"
+   },
+   {
+    "name": "Frischkäse",
+    "amount": "150 g"
+   },
+   {
+    "name": "Erdnüsse",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Milch",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Salzcracker",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kartoffeln mit Schale kochen, schälen und in Scheiben schneiden.",
+   "Käse mit Erdnüssen, Milch, Crackern und Salz zu einer cremigen Sauce pürieren.",
+   "Die Kartoffeln auf einer Platte anrichten.",
+   "Mit der Sauce übergießen und mit hartgekochtem Ei servieren."
+  ]
+ },
+ "pe-sopa-criolla-sencilla": {
+  "title": "Peruanische Kreolensuppe",
+  "summary": "Rindfleischsuppe mit feinen Nudeln, Milch und Ei.",
+  "side": "Geröstetes Brot",
+  "tip": "Das Ei zum Schluss zugeben und rühren, damit sich Fäden bilden.",
+  "ingredients": [
+   {
+    "name": "Rindfleisch",
+    "amount": "200 g"
+   },
+   {
+    "name": "Feine Nudeln",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Zwiebel mit den Rindfleischstreifen anschwitzen und 1 Liter Wasser zugeben.",
+   "15 Minuten kochen und die Nudeln zugeben.",
+   "Milch und Salz zufügen und 5 Minuten weitergaren.",
+   "Das verquirlte Ei unter Rühren einarbeiten und heiß servieren."
+  ]
+ },
+ "pe-arroz-con-atun": {
+  "title": "Gebratener Thunfischreis",
+  "summary": "Gebratener Reis mit Thunfisch, Zwiebel, Paprika und Erbsen.",
+  "side": "Zwiebel-Limetten-Salat",
+  "tip": "Den Thunfisch gut abtropfen lassen, damit der Reis nicht feucht wird.",
+  "ingredients": [
+   {
+    "name": "Gekochter Reis",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Thunfisch aus der Dose",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Gehackte Zwiebel und Paprika in Öl anschwitzen.",
+   "Die Erbsen zugeben und 3 Minuten braten.",
+   "Den gekochten Reis und den abgetropften Thunfisch zufügen.",
+   "5 Minuten bei starker Hitze braten und salzen."
+  ]
+ },
+ "ve-ensalada-de-gallina": {
+  "title": "Venezolanischer Hähnchensalat",
+  "summary": "Gezupftes Hähnchen mit Kartoffel, Karotte, Erbsen und Mayonnaise.",
+  "side": "Brot oder Cracker",
+  "tip": "Erst mischen, wenn alles kalt ist, damit die Mayonnaise nicht gerinnt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "400 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Mayonnaise",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen 25 Minuten mit Salz kochen und zupfen.",
+   "Kartoffeln und Karotten in Würfeln zusammen mit den Erbsen kochen.",
+   "Alles abkühlen lassen.",
+   "Mit der Mayonnaise mischen und vor dem Servieren kalt stellen."
+  ]
+ },
+ "ve-yuca-sancochada-con-mojo": {
+  "title": "Gekochter Maniok mit Mojo",
+  "summary": "Gekochter Maniok mit einer Sauce aus Knoblauch, Zwiebel und Zitrone.",
+  "side": "Weißer Käse",
+  "tip": "Den Maniok kochen, bis er gerade aufplatzt: das ist der richtige Punkt.",
+  "ingredients": [
+   {
+    "name": "Maniok",
+    "amount": "600 g"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "3 Zehen"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Maniok schälen, in Stücke schneiden und mit Salz 25 Minuten weich kochen.",
+   "Die dünn geschnittene Zwiebel mit dem Knoblauch in Öl anschwitzen.",
+   "Den Herd ausschalten und den Zitronensaft zugeben.",
+   "Den abgetropften Maniok mit dem Mojo servieren."
+  ]
+ },
+ "ve-pasta-con-pollo": {
+  "title": "Nudeln mit Hähnchen",
+  "summary": "Nudeln mit Hähnchenstücken, Sahne und gebratenem Gemüse.",
+  "side": "Grüner Salat",
+  "tip": "Etwas Kochwasser aufbewahren, um die Sauce zu binden.",
+  "ingredients": [
+   {
+    "name": "Nudeln",
+    "amount": "300 g"
+   },
+   {
+    "name": "Hähnchen",
+    "amount": "300 g"
+   },
+   {
+    "name": "Sahne",
+    "amount": "150 ml"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Nudeln in Salzwasser al dente kochen.",
+   "Das gewürfelte Hähnchen mit Zwiebel und Paprika in Öl anbraten.",
+   "Sahne und Salz zugeben und 5 Minuten köcheln.",
+   "Mit den Nudeln mischen und heiß servieren."
+  ]
+ },
+ "uy-guiso-de-arroz-y-carne": {
+  "title": "Reis-Rindfleisch-Eintopf",
+  "summary": "Alltagseintopf mit gewürfeltem Rindfleisch, Reis und Gemüse.",
+  "side": "Frisches Brot",
+  "tip": "Das Fleisch gut anbraten, bevor das Wasser dazukommt: das gibt mehr Geschmack.",
+  "ingredients": [
+   {
+    "name": "Gewürfeltes Rindfleisch",
+    "amount": "400 g"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Rindfleisch in Öl anbraten und die gehackte Zwiebel zugeben.",
+   "Kartoffeln und Karotte in Würfeln zufügen und mit Wasser bedecken.",
+   "20 Minuten kochen und den Reis mit Salz zugeben.",
+   "Weitere 15 Minuten garen, bis der Reis fertig ist."
+  ]
+ },
+ "ec-encebollado-sencillo": {
+  "title": "Ecuadorianische Thunfischsuppe",
+  "summary": "Ecuadorianische Suppe mit Thunfisch, Maniok und eingelegter roter Zwiebel.",
+  "side": "Kochbananenchips oder Brot",
+  "tip": "Die Zwiebel 10 Minuten in Zitronensaft ziehen lassen, damit sie einlegt.",
+  "ingredients": [
+   {
+    "name": "Thunfisch aus der Dose",
+    "amount": "2 Dosen"
+   },
+   {
+    "name": "Maniok",
+    "amount": "300 g"
+   },
+   {
+    "name": "Rote Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den gewürfelten Maniok in 1 Liter Salzwasser 20 Minuten kochen.",
+   "Die gehackte Tomate und den Thunfisch mit seinem Saft zugeben.",
+   "Weitere 10 Minuten garen.",
+   "Mit den in Zitrone marinierten Zwiebelstreifen servieren."
+  ]
+ },
+ "ec-seco-de-carne": {
+  "title": "Ecuadorianischer Rindfleischeintopf",
+  "summary": "Geschmortes Rindfleisch in Zwiebel-Tomaten-Koriander-Sauce, dazu Reis.",
+  "side": "Reis und gebratene Kochbanane",
+  "tip": "Das Fleisch zugedeckt bei niedriger Hitze schmoren: es wird zart und die Sauce dickt ein.",
+  "ingredients": [
+   {
+    "name": "Gewürfeltes Rindfleisch",
+    "amount": "500 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Koriander",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Rindfleisch in Öl mit Salz und Knoblauch anbraten.",
+   "Gehackte Zwiebel und Tomate zugeben und 5 Minuten anschwitzen.",
+   "Mit Wasser bedecken und zugedeckt 40 Minuten schmoren.",
+   "Den gehackten Koriander unterrühren und mit Reis servieren."
+  ]
+ },
+ "bo-papas-rellenas-bolivianas": {
+  "title": "Bolivianische gefüllte Kartoffeln",
+  "summary": "Kartoffelpüree-Bällchen mit Hackfleisch, Ei und Oliven gefüllt, goldbraun frittiert.",
+  "side": "Zwiebel-Tomaten-Salsa",
+  "tip": "Ein festes Püree verwenden und die Füllung vor dem Formen abkühlen lassen.",
+  "ingredients": [
+   {
+    "name": "Kartoffel",
+    "amount": "5 Stück"
+   },
+   {
+    "name": "Hackfleisch",
+    "amount": "250 g"
+   },
+   {
+    "name": "Hartgekochtes Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Oliven",
+    "amount": "6 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Kartoffeln kochen und mit Salz zu einem festen Püree zerstampfen.",
+   "Zwiebel mit dem Hackfleisch und Salz anschwitzen; gehacktes Ei und Oliven zugeben.",
+   "Aus dem Püree Bällchen formen, eine Mulde eindrücken und füllen.",
+   "Verschließen, nach Wunsch panieren und goldbraun frittieren."
+  ]
+ },
+ "py-mandioca-frita": {
+  "title": "Frittierter Maniok",
+  "summary": "Gekochte und frittierte Maniokstifte, außen knusprig und innen zart.",
+  "side": "Gegrilltes Fleisch",
+  "tip": "Den Maniok vor dem Frittieren kochen: innen wird er cremig.",
+  "ingredients": [
+   {
+    "name": "Maniok",
+    "amount": "700 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Maniok schälen, den faserigen Strunk entfernen und in Stifte schneiden.",
+   "Mit Salz 15 Minuten kochen, bis er fast weich ist.",
+   "Abgießen und gut trocknen.",
+   "In heißem Öl goldbraun frittieren und sofort servieren."
+  ]
+ },
+ "jp-tonkatsu": {
+  "title": "Tonkatsu",
+  "summary": "Paniertes Schweineschnitzel mit Panko, knusprig und saftig.",
+  "side": "Feiner Kohl und Reis",
+  "tip": "Das Schnitzel vor dem Schneiden 2 Minuten ruhen lassen, damit der Saft bleibt.",
+  "ingredients": [
+   {
+    "name": "Schweinekotelett",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Panko-Paniermehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Mehl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Kohl",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Öl",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Rand der Koteletts einschneiden und salzen.",
+   "In Mehl, verquirltem Ei und Panko wenden.",
+   "In heißem Öl etwa 4 Minuten pro Seite frittieren.",
+   "In Streifen schneiden und mit fein geschnittenem Kohl und Reis servieren."
+  ]
+ },
+ "jp-tonjiru": {
+  "title": "Tonjiru",
+  "summary": "Japanische Schweinefleischsuppe mit Wurzelgemüse und Miso.",
+  "side": "Reis",
+  "tip": "Das Miso erst nach dem Kochen einrühren, damit das Aroma bleibt.",
+  "ingredients": [
+   {
+    "name": "Schweinefleischstreifen",
+    "amount": "200 g"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Miso",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Schweinefleischstreifen im Topf anbraten, bis sie die Farbe ändern.",
+   "Karotte, Kartoffel und Zwiebel in Stücken mit 4 Tassen Wasser zugeben.",
+   "15 Minuten kochen, bis das Gemüse weich ist.",
+   "Den Herd ausschalten und das Miso vor dem Servieren in der Suppe auflösen."
+  ]
+ },
+ "jp-chawanmushi": {
+  "title": "Chawanmushi",
+  "summary": "Gedämpfter herzhafter Eierstich, seidig wie Creme.",
+  "side": "Weißer Reis",
+  "tip": "Bei sehr niedriger Hitze garen, damit sich keine Blasen bilden.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Sojasauce",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Garnelen oder Schinken",
+    "amount": "60 g"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Eier ohne Schaum verquirlen und mit der lauwarmen Brühe, Sojasauce und Salz mischen.",
+   "Die Masse durchsieben und mit den Garnelen oder dem Schinken auf zwei Tassen verteilen.",
+   "Die Tassen abdecken und bei niedriger Hitze 15 Minuten dämpfen.",
+   "Warm servieren, wenn die Mitte gestockt ist."
+  ]
+ },
+ "jp-nasu-dengaku": {
+  "title": "Nasu Dengaku",
+  "summary": "Geröstete Aubergine mit süß-salziger Miso-Glasur.",
+  "side": "Weißer Reis",
+  "tip": "Das Fruchtfleisch einritzen, damit das Miso gut einzieht.",
+  "ingredients": [
+   {
+    "name": "Aubergine",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Miso",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Sesamsamen",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Die Auberginen halbieren, das Fruchtfleisch gitterförmig einritzen und mit Öl bestreichen.",
+   "20 Minuten im Ofen weich rösten.",
+   "Das Miso mit dem Zucker und einem Schuss Wasser verrühren.",
+   "Die Mischung auf die Auberginen streichen, 3 Minuten überbacken und mit Sesam bestreuen."
+  ]
+ },
+ "jp-karaage": {
+  "title": "Karaage",
+  "summary": "Japanisches Brathähnchen, in Soja und Ingwer mariniert, sehr knusprig.",
+  "side": "Zitrone und Kohl",
+  "tip": "Mindestens 15 Minuten marinieren und in Speisestärke wenden.",
+  "ingredients": [
+   {
+    "name": "Hähnchenstücke",
+    "amount": "500 g"
+   },
+   {
+    "name": "Sojasauce",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Ingwer",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "1 Zehe"
+   },
+   {
+    "name": "Speisestärke",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "4 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen in mundgerechte Stücke schneiden und mit Sojasauce, geriebenem Ingwer und Knoblauch mischen.",
+   "15 Minuten marinieren.",
+   "In Speisestärke wenden und überschüssige abschütteln.",
+   "In heißem Öl goldbraun und knusprig frittieren."
+  ]
+ },
+ "in-masala-omelette": {
+  "title": "Masala-Omelett",
+  "summary": "Omelett mit Zwiebel, Tomate, Chili und Koriander.",
+  "side": "Toast",
+  "tip": "Alles sehr fein hacken, damit es sich gleichmäßig im Ei verteilt.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Chili",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Koriander",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Zwiebel, Tomate, Chili und Koriander fein hacken.",
+   "Die Eier mit dem Gemüse und Salz verquirlen.",
+   "In eine Pfanne mit heißem Öl gießen.",
+   "Pro Seite 2 Minuten goldbraun braten."
+  ]
+ },
+ "in-jeera-rice": {
+  "title": "Jeera-Reis",
+  "summary": "Duftender Basmatireis mit geröstetem Kreuzkümmel.",
+  "side": "Linsen-Dal",
+  "tip": "Den Kreuzkümmel im Öl rösten, bis er duftet, bevor der Reis dazukommt.",
+  "ingredients": [
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Kreuzkümmel",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Reis waschen, bis das Wasser fast klar ist.",
+   "Das Öl erhitzen und den Kreuzkümmel mit der gehackten Zwiebel rösten.",
+   "Den Reis und 2 Tassen Wasser mit Salz zugeben.",
+   "Zugedeckt 15 Minuten bei niedriger Hitze garen; 5 Minuten ruhen lassen."
+  ]
+ },
+ "in-baingan-bharta": {
+  "title": "Baingan Bharta",
+  "summary": "Rauchiges Püree aus gerösteter Aubergine mit Zwiebel, Tomate und Gewürzen.",
+  "side": "Chapati oder Reis",
+  "tip": "Die Aubergine ganz rösten, bis die Haut verkohlt: das gibt den rauchigen Geschmack.",
+  "ingredients": [
+   {
+    "name": "Aubergine",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Kreuzkümmel",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Chili",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die ganzen Auberginen rösten, bis sie weich sind und die Haut verkohlt; schälen und zerdrücken.",
+   "Die Zwiebel mit Kreuzkümmel und Chili in Öl anschwitzen.",
+   "Die gehackte Tomate zugeben und 8 Minuten garen.",
+   "Aubergine und Salz unterrühren und weitere 5 Minuten garen."
+  ]
+ },
+ "in-poha": {
+  "title": "Poha",
+  "summary": "Indisches Frühstück aus Reisflocken mit Zwiebel, Kartoffel und Kurkuma.",
+  "side": "Zitrone",
+  "tip": "Die Reisflocken nur kurz abspülen, nicht einweichen, damit sie nicht zerfallen.",
+  "ingredients": [
+   {
+    "name": "Reisflocken (Poha)",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Kurkuma",
+    "amount": "1/2 Teelöffel"
+   },
+   {
+    "name": "Erdnüsse",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Poha in einem Sieb abspülen und abtropfen lassen.",
+   "Zwiebel und gewürfelte Kartoffel in Öl weich braten.",
+   "Kurkuma, Erdnüsse und Salz zugeben.",
+   "Das Poha zufügen, 3 Minuten vorsichtig mischen und mit Zitrone servieren."
+  ]
+ },
+ "in-dal-tadka": {
+  "title": "Dal Tadka",
+  "summary": "Cremige gelbe Linsen, am Ende mit einer Würzmischung aus Knoblauch, Kreuzkümmel und Zwiebel verfeinert.",
+  "side": "Basmatireis",
+  "tip": "Das Tadka kommt am Ende und sehr heiß dazu: es sorgt für das Aroma.",
+  "ingredients": [
+   {
+    "name": "Linsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "3 Zehen"
+   },
+   {
+    "name": "Kreuzkümmel",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Linsen mit Wasser, der gehackten Tomate und Salz kochen, bis sie zerfallen, etwa 25 Minuten.",
+   "Das Öl erhitzen und die gehackte Zwiebel mit Knoblauch und Kreuzkümmel bräunen.",
+   "Diese Würzmischung über die Linsen geben.",
+   "Umrühren und mit Reis servieren."
+  ]
+ },
+ "gr-avgolemono": {
+  "title": "Avgolemono",
+  "summary": "Griechische Hähnchen-Reis-Suppe, mit Ei und Zitrone gebunden.",
+  "side": "Knuspriges Brot",
+  "tip": "Die heiße Brühe löffelweise zum Ei geben, damit es nicht gerinnt.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "300 g"
+   },
+   {
+    "name": "Reis",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Hähnchen mit der Karotte und Salz in 1,5 Liter Wasser 20 Minuten kochen und zupfen.",
+   "Den Reis in der Brühe 12 Minuten garen.",
+   "Die Eier mit dem Zitronensaft verquirlen und nach und nach heiße Brühe zugeben.",
+   "Alles mit dem Hähnchen in den Topf zurückgießen, nicht mehr kochen, und servieren."
+  ]
+ },
+ "gr-kolokithokeftedes": {
+  "title": "Zucchinipuffer",
+  "summary": "Gebratene Zucchinipuffer mit Käse und Kräutern, zum Dippen in Joghurt.",
+  "side": "Knoblauchjoghurt",
+  "tip": "Die geraspelten Zucchini mit Salz gut ausdrücken, damit sie nicht wässrig werden.",
+  "ingredients": [
+   {
+    "name": "Zucchini",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Feta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Mehl",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Zucchini raspeln, salzen und 10 Minuten abtropfen lassen; in einem Tuch ausdrücken.",
+   "Mit dem zerbröselten Käse, dem Ei und dem Mehl mischen.",
+   "Mit einem Löffel Puffer formen.",
+   "In heißem Öl von beiden Seiten goldbraun braten."
+  ]
+ },
+ "gr-fakes": {
+  "title": "Fakes",
+  "summary": "Dicke griechische Linsensuppe mit Tomate, Knoblauch und einem Schuss Essig.",
+  "side": "Oliven und Brot",
+  "tip": "Beim Servieren einen Schuss Essig zugeben: er hebt den ganzen Geschmack.",
+  "ingredients": [
+   {
+    "name": "Linsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Essig",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Gehackte Zwiebel und Knoblauch in Öl anschwitzen.",
+   "Die gehackte Tomate und die gewaschenen Linsen mit 4 Tassen Wasser zugeben.",
+   "30 Minuten bei niedriger Hitze köcheln, bis sie eindickt; zum Schluss salzen.",
+   "Mit einem Schuss Öl und Essig servieren."
+  ]
+ },
+ "es-potaje-de-garbanzos": {
+  "title": "Spanischer Kichererbseneintopf",
+  "summary": "Kichererbseneintopf mit Spinat und Paprikapulver, traditionell in der Fastenzeit.",
+  "side": "Brot",
+  "tip": "Gekochte Kichererbsen verwenden und das Paprikapulver vom Herd nehmen, damit es nicht bitter wird.",
+  "ingredients": [
+   {
+    "name": "Gekochte Kichererbsen",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Spinat",
+    "amount": "200 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Paprikapulver",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den in Scheiben geschnittenen Knoblauch in Öl bräunen und den Topf vom Herd nehmen, um das Paprikapulver zuzugeben.",
+   "Gewürfelte Kartoffel, Kichererbsen und Wasser zum Bedecken zufügen.",
+   "20 Minuten kochen, bis die Kartoffel weich ist.",
+   "Den Spinat zugeben und weitere 5 Minuten mit Salz garen."
+  ]
+ },
+ "es-tortilla-de-calabacin": {
+  "title": "Zucchini-Tortilla",
+  "summary": "Saftige spanische Tortilla mit langsam gegarten Zucchini und Zwiebeln.",
+  "side": "Tomatensalat",
+  "tip": "Die Zucchini zugedeckt garen, damit sie weich werden, ohne zu bräunen.",
+  "ingredients": [
+   {
+    "name": "Zucchini",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "5 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Zucchini und Zwiebel in kleine Würfel schneiden und zugedeckt in Öl 12 Minuten garen.",
+   "Die Eier mit Salz verquirlen und mit dem abgetropften Gemüse mischen.",
+   "Die Masse in einer Pfanne bei mittlerer Hitze 4 Minuten stocken lassen.",
+   "Mit einem Teller wenden und weitere 3 Minuten garen."
+  ]
+ },
+ "es-pimientos-de-padron": {
+  "title": "Pimientos de Padrón",
+  "summary": "Gebratene grüne Paprikaschoten mit grobem Salz: manche sind scharf, andere nicht.",
+  "side": "Brot und ein kühles Bier",
+  "tip": "Wenige auf einmal braten, damit sie Blasen werfen, ohne weich zu werden.",
+  "ingredients": [
+   {
+    "name": "Pimientos de Padrón",
+    "amount": "250 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Grobes Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Paprikaschoten waschen und gut abtrocknen.",
+   "Das Öl in einer Pfanne stark erhitzen.",
+   "Die Schoten 3 Minuten unter Wenden braten, bis sie Blasen werfen.",
+   "Abtropfen lassen und mit grobem Salz bestreuen."
+  ]
+ },
+ "es-merluza-en-salsa-verde": {
+  "title": "Seehecht in grüner Sauce",
+  "summary": "Seehecht in leichter Knoblauch-Petersilien-Sauce mit Erbsen.",
+  "side": "Brot",
+  "tip": "Den Topf schwenken statt rühren, damit die Sauce bindet, ohne den Fisch zu zerbrechen.",
+  "ingredients": [
+   {
+    "name": "Seehechtsteaks",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "3 Zehen"
+   },
+   {
+    "name": "Petersilie",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Mehl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den in Scheiben geschnittenen Knoblauch in Öl bräunen und das Mehl zugeben.",
+   "1 Tasse Wasser oder Brühe, Petersilie und Erbsen zufügen und 5 Minuten kochen.",
+   "Den gesalzenen Seehecht in den Topf legen.",
+   "Zugedeckt 8 Minuten garen und den Topf schwenken, bis die Sauce bindet."
+  ]
+ },
+ "es-judias-con-chorizo": {
+  "title": "Weiße Bohnen mit Chorizo",
+  "summary": "Weißer Bohneneintopf mit Chorizo und Paprikapulver.",
+  "side": "Brot",
+  "tip": "Den Chorizo vor dem Garen einstechen, damit er Fett und Farbe abgibt.",
+  "ingredients": [
+   {
+    "name": "Gekochte weiße Bohnen",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Paprikapulver",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Chorizo in Scheiben und die gehackte Zwiebel in Öl anbraten.",
+   "Vom Herd nehmen, das Paprikapulver und die Bohnen zugeben.",
+   "Mit Wasser oder Brühe bedecken.",
+   "25 Minuten bei niedriger Hitze köcheln, bis es eindickt."
+  ]
+ },
+ "es-bocadillo-de-calamares": {
+  "title": "Tintenfisch-Sandwich",
+  "summary": "Der Madrider Klassiker: frittierte Tintenfischringe im knusprigen Brötchen.",
+  "side": "Mayonnaise und Zitrone",
+  "tip": "Die Ringe gut trocknen, bevor sie in Mehl gewendet werden, damit sie knusprig bleiben.",
+  "ingredients": [
+   {
+    "name": "Tintenfischringe",
+    "amount": "300 g"
+   },
+   {
+    "name": "Mehl",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Brötchen",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "5 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Tintenfischringe mit Küchenpapier trocknen und salzen.",
+   "In Mehl wenden und überschüssiges abschütteln.",
+   "In sehr heißem Öl 2 Minuten goldbraun frittieren.",
+   "Die Brötchen mit den Ringen füllen und Zitrone darüberdrücken."
+  ]
+ },
+ "es-sopa-de-fideos": {
+  "title": "Spanische Nudelsuppe",
+  "summary": "Hühnerbrühe mit feinen Nudeln, das wohltuendste Löffelgericht.",
+  "side": "Brot",
+  "tip": "Die Nudeln in die kochende Brühe geben und nur so lange garen, wie auf der Packung steht.",
+  "ingredients": [
+   {
+    "name": "Hühnerbrühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Feine Nudeln",
+    "amount": "100 g"
+   },
+   {
+    "name": "Karotte",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Hartgekochtes Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Brühe mit der in dünne Scheiben geschnittenen Karotte erhitzen.",
+   "Wenn sie kocht, die Nudeln zugeben.",
+   "So lange garen, wie auf der Packung angegeben.",
+   "Mit Salz abschmecken und mit gehacktem hartgekochtem Ei servieren."
+  ]
+ },
+ "es-croquetas-de-pollo": {
+  "title": "Hähnchenkroketten",
+  "summary": "Cremige Kroketten aus gezupftem Hähnchen mit Béchamel.",
+  "side": "Grüner Salat",
+  "tip": "Die Masse mehrere Stunden kalt stellen, damit sie sich leicht formen lässt.",
+  "ingredients": [
+   {
+    "name": "Gekochtes Hähnchen",
+    "amount": "200 g"
+   },
+   {
+    "name": "Milch",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Mehl",
+    "amount": "5 Esslöffel"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Paniermehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "5 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Eine dicke Béchamel aus 3 Esslöffeln Öl, 3 Esslöffeln Mehl und der Milch zubereiten.",
+   "Das gezupfte Hähnchen und Salz zugeben und im Kühlschrank auskühlen lassen.",
+   "Kroketten formen und in Mehl, Ei und Paniermehl wenden.",
+   "In heißem Öl goldbraun frittieren."
+  ]
+ },
+ "gen-sopa-de-zapallo-y-jengibre": {
+  "title": "Kürbis-Ingwer-Suppe",
+  "summary": "Samtige Kürbissuppe mit einer frischen Note Ingwer.",
+  "side": "Geröstetes Brot",
+  "tip": "Den Ingwer fein reiben und erst am Ende zugeben, damit er nicht bitter wird.",
+  "ingredients": [
+   {
+    "name": "Kürbis",
+    "amount": "500 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Ingwer",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Brühe",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gehackte Zwiebel in Öl glasig anschwitzen.",
+   "Den gewürfelten Kürbis und die Brühe zugeben und 20 Minuten kochen.",
+   "Den geriebenen Ingwer und Salz zufügen.",
+   "Cremig pürieren und heiß servieren."
+  ]
+ },
+ "gen-pasta-con-tomates-cherry": {
+  "title": "Pasta mit Kirschtomaten",
+  "summary": "Schnelle Pasta mit gebratenen Kirschtomaten, Knoblauch und Basilikum.",
+  "side": "Geriebener Käse",
+  "tip": "Die Tomaten bei starker Hitze braten, bis sie aufplatzen und ihren Saft abgeben.",
+  "ingredients": [
+   {
+    "name": "Nudeln",
+    "amount": "200 g"
+   },
+   {
+    "name": "Kirschtomaten",
+    "amount": "250 g"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Basilikum",
+    "amount": "6 Blätter"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Nudeln in Salzwasser al dente kochen.",
+   "Den in Scheiben geschnittenen Knoblauch in Öl bräunen und die halbierten Tomaten zugeben.",
+   "8 Minuten garen, bis sie zu einer Sauce zerfallen.",
+   "Mit den Nudeln mischen und mit Basilikum abschließen."
+  ]
+ },
+ "gen-pollo-con-garbanzos": {
+  "title": "Hähnchen mit Kichererbsen",
+  "summary": "Hähnchen-Eintopf mit Kichererbsen, Tomate und milden Gewürzen.",
+  "side": "Weißer Reis",
+  "tip": "Kichererbsen aus der Dose oder bereits gekocht verwenden, dann ist es in unter einer Stunde fertig.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "500 g"
+   },
+   {
+    "name": "Gekochte Kichererbsen",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Paprikapulver",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Hähnchenstücke in Öl mit Salz anbraten; beiseitestellen.",
+   "Im selben Topf Zwiebel, Tomate und Paprikapulver anschwitzen.",
+   "Das Hähnchen mit den Kichererbsen und einem Glas Wasser zurückgeben.",
+   "Zugedeckt 25 Minuten bei niedriger Hitze garen."
+  ]
+ },
+ "gen-pizza-de-pan-de-molde": {
+  "title": "Toastbrot-Pizza",
+  "summary": "Schnelle Pizzen auf Scheiben von Toastbrot.",
+  "side": "Salat",
+  "tip": "Das Brot vor dem Belegen leicht rösten, damit es nicht durchweicht.",
+  "ingredients": [
+   {
+    "name": "Toastbrot",
+    "amount": "4 Scheiben"
+   },
+   {
+    "name": "Tomatensauce",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Käse",
+    "amount": "100 g"
+   },
+   {
+    "name": "Schinken",
+    "amount": "2 Scheiben"
+   },
+   {
+    "name": "Oregano",
+    "amount": "1 Teelöffel"
+   }
+  ],
+  "steps": [
+   "Die Brotscheiben leicht rösten.",
+   "Mit Tomatensauce und in Stücke geschnittenem Schinken belegen.",
+   "Den Käse darauf geben und mit Oregano bestreuen.",
+   "6 Minuten im Ofen überbacken, bis der Käse schmilzt."
+  ]
+ },
+ "gen-rollitos-de-jamon-y-queso": {
+  "title": "Schinken-Käse-Röllchen",
+  "summary": "Teigröllchen mit Schinken und Käse gefüllt, im Ofen goldbraun gebacken.",
+  "side": "Tomatensalat",
+  "tip": "Die Ränder gut mit etwas Wasser verschließen, damit kein Käse ausläuft.",
+  "ingredients": [
+   {
+    "name": "Empanada-Teig",
+    "amount": "8 Kreise"
+   },
+   {
+    "name": "Kochschinken",
+    "amount": "150 g"
+   },
+   {
+    "name": "Käse",
+    "amount": "150 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   }
+  ],
+  "steps": [
+   "Auf jeden Teigkreis eine Scheibe Schinken und eine Scheibe Käse legen.",
+   "Aufrollen und die Ränder mit etwas Wasser verschließen.",
+   "Mit verquirltem Ei bestreichen.",
+   "20 Minuten bei starker Hitze goldbraun backen."
+  ]
+ },
+ "gen-ensalada-de-pasta-con-pollo": {
+  "title": "Nudelsalat mit Hähnchen",
+  "summary": "Kalter Nudelsalat mit Hähnchen, Tomate und Mais.",
+  "side": "Brot",
+  "tip": "Die Nudeln kalt abspülen, damit sie nicht weitergaren und nicht kleben.",
+  "ingredients": [
+   {
+    "name": "Kurze Nudeln",
+    "amount": "200 g"
+   },
+   {
+    "name": "Gekochtes Hähnchen",
+    "amount": "200 g"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Mais",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Mayonnaise",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Nudeln kochen, abgießen und kalt abspülen.",
+   "Hähnchen und Tomaten würfeln.",
+   "Mit dem Mais, den Nudeln, dem Öl und der Mayonnaise mischen.",
+   "Salzen und vor dem Servieren kalt stellen."
+  ]
+ },
+ "gen-arroz-con-espinaca": {
+  "title": "Spinatreis",
+  "summary": "Grüner Reis mit Spinat, Knoblauch und Zwiebel.",
+  "side": "Hartgekochtes Ei",
+  "tip": "Den rohen Spinat mit dem Kochwasser pürieren, für eine kräftig grüne Farbe.",
+  "ingredients": [
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Spinat",
+    "amount": "200 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "1 Zehe"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den rohen Spinat mit 2 Tassen Wasser pürieren.",
+   "Gehackte Zwiebel und Knoblauch in Öl anschwitzen und den Reis zugeben.",
+   "Das grüne Püree und Salz zufügen.",
+   "Zugedeckt 15 Minuten bei niedriger Hitze garen."
+  ]
+ },
+ "gen-crema-de-puerros": {
+  "title": "Lauchcremesuppe",
+  "summary": "Sämige Suppe aus Lauch und Kartoffeln, ideal an kalten Tagen.",
+  "side": "Geröstetes Brot",
+  "tip": "Nur den weißen und hellgrünen Teil des Lauchs verwenden, gut gewaschen.",
+  "ingredients": [
+   {
+    "name": "Lauch",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Sahne",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Lauch in Ringe schneiden und in Öl ohne Farbe andünsten.",
+   "Die gewürfelten Kartoffeln und die Brühe zugeben.",
+   "20 Minuten kochen, bis alles weich ist.",
+   "Pürieren, Sahne und Salz zugeben und heiß servieren."
+  ]
+ },
+ "gen-bocaditos-de-espinaca": {
+  "title": "Spinatbällchen",
+  "summary": "Gebackene Bällchen aus Spinat, Käse und Paniermehl.",
+  "side": "Zitronenjoghurt",
+  "tip": "Den gekochten Spinat sehr gut ausdrücken, damit die Masse fest bleibt.",
+  "ingredients": [
+   {
+    "name": "Spinat",
+    "amount": "300 g"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Paniermehl",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Spinat kochen, gut abtropfen lassen und fein hacken.",
+   "Mit dem Käse, den Eiern, dem Paniermehl und Salz mischen.",
+   "Walnussgroße Bällchen formen.",
+   "20 Minuten bei mittlerer Hitze goldbraun backen."
+  ]
+ },
+ "gen-pollo-al-limon-con-arroz": {
+  "title": "Zitronenhähnchen mit Reis",
+  "summary": "Goldbraunes Hähnchen in Zitronen-Knoblauch-Sauce, dazu Reis.",
+  "side": "Weißer Reis",
+  "tip": "Die Zitrone erst am Ende zugeben, damit sie nicht bitter wird.",
+  "ingredients": [
+   {
+    "name": "Hähnchen",
+    "amount": "600 g"
+   },
+   {
+    "name": "Zitrone",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Reis",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Hähnchenstücke in Öl mit Salz und gehacktem Knoblauch anbraten.",
+   "Den Saft einer Zitrone und 1/2 Tasse Wasser zugeben.",
+   "Zugedeckt 20 Minuten bei niedriger Hitze garen.",
+   "Mit gekochtem Reis und Scheiben der anderen Zitrone servieren."
+  ]
+ },
+ "us-beef-stew": {
+  "title": "Rindfleischeintopf",
+  "summary": "Zarter Rindfleischeintopf mit Kartoffeln und Karotten, wärmend und herzhaft.",
+  "side": "Knuspriges Brot",
+  "tip": "Das Fleisch in Portionen anbraten, damit es röstet statt zu kochen.",
+  "ingredients": [
+   {
+    "name": "Rindfleischwürfel",
+    "amount": "500 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Rinderbrühe",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Rindfleischwürfel portionsweise in Öl anbraten und beiseitestellen.",
+   "Die Zwiebel anschwitzen, Fleisch und Brühe zugeben und zugedeckt 45 Minuten köcheln.",
+   "Kartoffeln und Karotten in Stücken zufügen.",
+   "Weitere 30 Minuten garen, bis alles zart ist."
+  ]
+ },
+ "us-tuna-noodle-casserole": {
+  "title": "Amerikanischer Thunfisch-Nudelauflauf",
+  "summary": "Überbackene Nudeln mit Thunfisch, Erbsen und cremiger Sauce.",
+  "side": "Grüner Salat",
+  "tip": "Die Nudeln nicht ganz gar kochen: sie garen im Ofen fertig.",
+  "ingredients": [
+   {
+    "name": "Nudeln",
+    "amount": "250 g"
+   },
+   {
+    "name": "Thunfisch aus der Dose",
+    "amount": "2 Dosen"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Sahne oder Béchamel",
+    "amount": "1 1/2 Tassen"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Nudeln 2 Minuten kürzer als angegeben kochen und abgießen.",
+   "Mit dem abgetropften Thunfisch, den Erbsen und der cremigen Sauce mischen.",
+   "In eine Form geben und mit geriebenem Käse bestreuen.",
+   "20 Minuten bei mittlerer Hitze überbacken, bis er goldbraun ist."
+  ]
+ },
+ "us-cornbread": {
+  "title": "Amerikanisches Maisbrot",
+  "summary": "Süßes, krümeliges Maismehlbrot als Beilage zu Eintöpfen.",
+  "side": "Butter und Honig",
+  "tip": "Den Teig nicht zu lange rühren: nur kurz vermischt wird er zarter.",
+  "ingredients": [
+   {
+    "name": "Maismehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Mehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Geschmolzene Butter",
+    "amount": "1/3 Tasse"
+   },
+   {
+    "name": "Zucker",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Maismehl und Mehl mit Zucker und Salz mischen.",
+   "Milch, Eier und geschmolzene Butter zugeben und nur kurz verrühren.",
+   "In eine gebutterte Form füllen.",
+   "25 Minuten bei mittlerer Hitze goldbraun backen."
+  ]
+ },
+ "us-pulled-pork-sandwiches": {
+  "title": "Pulled-Pork-Sandwiches",
+  "summary": "Langsam gegartes, zerupftes Schweinefleisch mit Barbecuesauce im weichen Brötchen.",
+  "side": "Krautsalat",
+  "tip": "Gut zugedeckt bei niedriger Hitze garen, bis es sich mit der Gabel zerpflücken lässt.",
+  "ingredients": [
+   {
+    "name": "Schweineschulter",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Barbecuesauce",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Burgerbrötchen",
+    "amount": "6 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Schweinefleisch salzen und mit der in Ringe geschnittenen Zwiebel in einen Topf legen.",
+   "Zugedeckt bei niedriger Hitze 2 Stunden mit 1/2 Tasse Wasser garen.",
+   "Mit zwei Gabeln zerpflücken und mit der Barbecuesauce mischen.",
+   "In warmen Brötchen servieren."
+  ]
+ },
+ "us-egg-muffins": {
+  "title": "Ei-Muffins",
+  "summary": "Gebackene Mini-Omeletts mit Gemüse und Käse, ideal zum Frühstück.",
+  "side": "Obst",
+  "tip": "Die Form gut einfetten, damit sich die Muffins ohne zu brechen lösen.",
+  "ingredients": [
+   {
+    "name": "Ei",
+    "amount": "6 Stück"
+   },
+   {
+    "name": "Spinat",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Geriebener Käse",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Eier mit Salz verquirlen.",
+   "Gehackten Spinat, gewürfelte Tomate und Käse in einer gefetteten Muffinform verteilen.",
+   "Das verquirlte Ei in jede Mulde gießen.",
+   "18 Minuten bei mittlerer Hitze backen, bis sie gestockt sind."
+  ]
+ },
+ "us-chicken-pot-pie": {
+  "title": "Cremige Hähnchenpastete",
+  "summary": "Gedeckte Pastete mit Hähnchen und Gemüse in cremiger Sauce.",
+  "side": "Grüner Salat",
+  "tip": "Die Füllung vor dem Abdecken abkühlen lassen, damit der Teig nicht durchweicht.",
+  "ingredients": [
+   {
+    "name": "Mürbeteig",
+    "amount": "2 Platten"
+   },
+   {
+    "name": "Gekochtes Hähnchen",
+    "amount": "300 g"
+   },
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Erbsen",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Sahne oder Béchamel",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die gewürfelte Karotte garen und mit dem gezupften Hähnchen, den Erbsen und der Sauce mischen.",
+   "Eine Form mit einer Teigplatte auslegen.",
+   "Die kalte Füllung einfüllen und mit der anderen Platte bedecken, Ränder festdrücken.",
+   "35 Minuten bei mittlerer Hitze goldbraun backen."
+  ]
+ },
+ "us-baked-ziti": {
+  "title": "Überbackene Ziti",
+  "summary": "Nudeln aus dem Ofen mit Tomatensauce, Ricotta und überbackenem Mozzarella.",
+  "side": "Knoblauchbrot",
+  "tip": "Die Nudeln nicht ganz gar kochen: sie garen im Ofen fertig.",
+  "ingredients": [
+   {
+    "name": "Kurze Nudeln",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tomatensauce",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Ricotta",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Mozzarella",
+    "amount": "200 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Nudeln 2 Minuten kürzer als angegeben kochen und abgießen.",
+   "Mit der Tomatensauce und der Ricotta mischen.",
+   "In eine Form geben und mit Mozzarella bedecken.",
+   "25 Minuten bei mittlerer Hitze goldbraun überbacken."
+  ]
+ },
+ "gb-lancashire-hotpot": {
+  "title": "Lancashire Hotpot",
+  "summary": "Lammeintopf mit Zwiebeln, bedeckt mit Schichten goldbrauner Kartoffeln.",
+  "side": "Gekochter Kohl",
+  "tip": "Die Kartoffelscheiben überlappend legen und mit Butter bestreichen, damit sie bräunen.",
+  "ingredients": [
+   {
+    "name": "Lammfleischstücke",
+    "amount": "600 g"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Lamm anbraten und die Hälfte mit den Zwiebelringen in einen Schmortopf geben.",
+   "Die Brühe zugeben und mit überlappenden Kartoffelscheiben bedecken.",
+   "Mit geschmolzener Butter bestreichen und salzen.",
+   "Zugedeckt 1 Stunde und offen weitere 30 Minuten backen, bis die Kartoffeln goldbraun sind."
+  ]
+ },
+ "gb-cheese-and-onion-pie": {
+  "title": "Käse-Zwiebel-Pastete",
+  "summary": "Gedeckte Pastete aus gegarten Zwiebeln und kräftigem Käse, einfach und herzhaft.",
+  "side": "Pellkartoffeln",
+  "tip": "Die Zwiebeln langsam garen, bis sie süß sind, bevor gefüllt wird.",
+  "ingredients": [
+   {
+    "name": "Mürbeteig",
+    "amount": "2 Platten"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Cheddar",
+    "amount": "200 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Öl",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Zwiebelringe in Öl bei niedriger Hitze 15 Minuten garen.",
+   "Mit dem geriebenen Käse und Salz mischen und abkühlen lassen.",
+   "Eine Form mit einer Teigplatte auslegen, füllen und mit der anderen bedecken.",
+   "Mit Ei bestreichen und 30 Minuten bei mittlerer Hitze backen."
+  ]
+ },
+ "gb-scones": {
+  "title": "Englische Scones",
+  "summary": "Zarte englische Scones zur Teezeit, mit Butter und Marmelade.",
+  "side": "Marmelade und Sahne",
+  "tip": "Sehr kalte Butter verwenden und den Teig nicht überkneten, damit sie aufgehen.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Kalte Butter",
+    "amount": "1/3 Tasse"
+   },
+   {
+    "name": "Milch",
+    "amount": "3/4 Tasse"
+   },
+   {
+    "name": "Backpulver",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Zucker",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Mehl mit Backpulver, Zucker und Salz mischen.",
+   "Die kalte Butter mit den Fingerspitzen einarbeiten.",
+   "Die Milch zugeben und ohne Kneten zusammenfügen.",
+   "Kreise von 3 cm Höhe ausstechen und 15 Minuten bei starker Hitze backen."
+  ]
+ },
+ "gb-sausage-rolls": {
+  "title": "Würstchen im Blätterteig",
+  "summary": "Gewürztes Wurstbrät, in Blätterteig gewickelt.",
+  "side": "Ketchup oder Senf",
+  "tip": "Den Rand fest mit einer Gabel verschließen, damit er beim Backen nicht aufgeht.",
+  "ingredients": [
+   {
+    "name": "Blätterteig",
+    "amount": "2 Platten"
+   },
+   {
+    "name": "Wurstbrät oder Schweinehack",
+    "amount": "400 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Fleisch mit der geriebenen Zwiebel und Salz mischen.",
+   "Einen Streifen Füllung auf jede Teigplatte legen und aufrollen.",
+   "Den Rand mit einer Gabel verschließen und in Stücke schneiden.",
+   "Mit Ei bestreichen und 25 Minuten bei starker Hitze backen."
+  ]
+ },
+ "gb-eggy-bread": {
+  "title": "Arme Ritter auf britische Art",
+  "summary": "In Ei getauchte und gebratene Brotscheiben, die herzhafte Verwandte des French Toast.",
+  "side": "Ketchup",
+  "tip": "Das Brot nur kurz eintauchen, damit es nicht zerfällt.",
+  "ingredients": [
+   {
+    "name": "Brot",
+    "amount": "4 Scheiben"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Eier mit der Milch und Salz verquirlen.",
+   "Die Brotscheiben auf beiden Seiten in der Mischung wenden.",
+   "Die Butter in einer Pfanne schmelzen.",
+   "Das Brot pro Seite 2 Minuten goldbraun braten."
+  ]
+ },
+ "br-bife-a-cavalo": {
+  "title": "Steak mit Spiegelei",
+  "summary": "Gebratenes Steak mit Spiegelei obenauf, dazu Reis und Bohnen.",
+  "side": "Reis und Bohnen",
+  "tip": "Das Spiegelei zuletzt braten, damit das Eigelb flüssig bleibt.",
+  "ingredients": [
+   {
+    "name": "Steak",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "1 Zehe"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Steaks mit Salz und gehacktem Knoblauch würzen.",
+   "In einer Pfanne mit heißem Öl pro Seite 3 Minuten braten.",
+   "Die Eier in einer anderen Pfanne braten.",
+   "Jedes Steak mit einem Spiegelei servieren."
+  ]
+ },
+ "br-pudim-de-leite": {
+  "title": "Brasilianischer Kondensmilch-Pudding",
+  "summary": "Cremiger brasilianischer Pudding mit gesüßter Kondensmilch und Karamell.",
+  "side": "Erdbeeren",
+  "tip": "Im Wasserbad garen und die Masse sieben, damit keine Blasen entstehen.",
+  "ingredients": [
+   {
+    "name": "Gesüßte Kondensmilch",
+    "amount": "1 Dose"
+   },
+   {
+    "name": "Milch",
+    "amount": "2 volle Dosen"
+   },
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zucker für das Karamell",
+    "amount": "1/2 Tasse"
+   }
+  ],
+  "steps": [
+   "Aus dem Zucker ein Karamell kochen und in eine Form gießen.",
+   "Kondensmilch, Milch und Eier mixen und sieben.",
+   "In die Form gießen und im Wasserbad zugedeckt 50 Minuten garen.",
+   "Vor dem Stürzen gut auskühlen lassen."
+  ]
+ },
+ "br-bolinho-de-chuva": {
+  "title": "Brasilianische Regenkrapfen",
+  "summary": "Süße frittierte Teigbällchen mit Zimtzucker, typisch für Regentage.",
+  "side": "Kaffee",
+  "tip": "Den Teig löffelweise in mittelheißes Öl geben, damit er durchgart.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Öl",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Zimt",
+    "amount": "1 Teelöffel"
+   }
+  ],
+  "steps": [
+   "Mehl mit Ei, Milch und 2 Esslöffeln Zucker zu einem dicken Teig verrühren.",
+   "Das Öl bei mittlerer Hitze erhitzen.",
+   "Löffelweise Teig hineingeben und goldbraun frittieren.",
+   "Noch heiß im Zimtzucker wälzen."
+  ]
+ },
+ "br-aipim-frito": {
+  "title": "Brasilianischer Maniok, frittiert",
+  "summary": "Maniokstifte mit Salz und Limette frittiert, knusprig und goldbraun.",
+  "side": "Knoblauchrindfleisch",
+  "tip": "Den Maniok kochen, bis er gerade aufplatzt, und vor dem Frittieren gut trocknen.",
+  "ingredients": [
+   {
+    "name": "Maniok",
+    "amount": "700 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Limette",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Maniok schälen und ohne den faserigen Strunk in Stifte schneiden.",
+   "Mit Salz 15 Minuten kochen und gut abtropfen lassen.",
+   "In heißem Öl goldbraun frittieren.",
+   "Mit Salz und einem Spritzer Limette servieren."
+  ]
+ },
+ "br-vaca-atolada": {
+  "title": "Brasilianischer Rinderrippen-Maniok-Eintopf",
+  "summary": "Rinderrippen mit Maniok, geschmort, bis der Maniok die Brühe eindickt.",
+  "side": "Weißer Reis",
+  "tip": "Langsam garen, bis der Maniok zerfällt und den Eintopf bindet.",
+  "ingredients": [
+   {
+    "name": "Rinderrippen",
+    "amount": "800 g"
+   },
+   {
+    "name": "Maniok",
+    "amount": "500 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Rippen in Öl mit Salz und Knoblauch anbraten.",
+   "Gehackte Zwiebel und Tomate zugeben und mit Wasser bedecken.",
+   "Zugedeckt 1 Stunde garen, bis das Fleisch zart ist.",
+   "Den Maniok in Stücken zugeben und weitere 30 Minuten garen, bis es eindickt."
+  ]
+ },
+ "br-sopa-de-ervilha": {
+  "title": "Brasilianische Erbsensuppe",
+  "summary": "Cremige Erbsensuppe mit Kartoffel und Speck.",
+  "side": "Geröstetes Brot",
+  "tip": "Bei getrockneten Erbsen am Vorabend einweichen.",
+  "ingredients": [
+   {
+    "name": "Erbsen",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Speck",
+    "amount": "80 g"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den gehackten Speck und die Zwiebel im Topf anbraten.",
+   "Die gewürfelte Kartoffel, die Erbsen und die Brühe zugeben.",
+   "25 Minuten kochen, bis alles weich ist.",
+   "Die Hälfte pürieren, um zu binden, und heiß servieren."
+  ]
+ },
+ "fr-boeuf-bourguignon-simple": {
+  "title": "Rindfleisch auf burgundische Art",
+  "summary": "Rindfleisch, langsam in Rotwein mit Zwiebeln und Karotten geschmort.",
+  "side": "Salzkartoffeln",
+  "tip": "Das Fleisch portionsweise anbraten und bei sehr niedriger Hitze garen, bis es zerfällt.",
+  "ingredients": [
+   {
+    "name": "Rindfleischwürfel",
+    "amount": "800 g"
+   },
+   {
+    "name": "Rotwein",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Karotte",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Speckwürfel",
+    "amount": "100 g"
+   },
+   {
+    "name": "Öl",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Speck und Rindfleischwürfel in einem Topf mit Öl anbraten.",
+   "Zwiebeln und Karotten in Stücken zugeben und anschwitzen.",
+   "Mit Rotwein bedecken, salzen und zugedeckt 2 Stunden bei niedriger Hitze schmoren.",
+   "Mit Salzkartoffeln servieren."
+  ]
+ },
+ "fr-pot-au-feu-simple": {
+  "title": "Einfacher Pot-au-feu",
+  "summary": "Gekochtes Rindfleisch mit Karotten, Lauch und Kartoffeln in seiner Brühe.",
+  "side": "Senf und Gewürzgurken",
+  "tip": "Die Brühe am Anfang abschäumen, damit sie klar bleibt.",
+  "ingredients": [
+   {
+    "name": "Rindfleisch zum Kochen",
+    "amount": "800 g"
+   },
+   {
+    "name": "Karotte",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Lauch",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Zwiebel",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Fleisch mit Salz und der Zwiebel in kaltes Wasser legen; aufkochen und abschäumen.",
+   "1 1/2 Stunden bei niedriger Hitze köcheln.",
+   "Karotten, Lauch und Kartoffeln in Stücken zugeben.",
+   "Weitere 30 Minuten garen und das Fleisch mit dem Gemüse und der Brühe servieren."
+  ]
+ },
+ "fr-crepes-sucrees": {
+  "title": "Süße Crêpes",
+  "summary": "Dünne Crêpes aus Mehl, Milch und Ei, mit Zucker oder Marmelade gefüllt.",
+  "side": "Zucker und Zitrone",
+  "tip": "Den Teig 30 Minuten ruhen lassen, damit die Crêpes dünn und klümpchenfrei werden.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 1/2 Tassen"
+   },
+   {
+    "name": "Ei",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Zucker",
+    "amount": "2 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Mehl mit Eiern, Milch, Zucker und geschmolzener Butter glatt verrühren.",
+   "Den Teig ruhen lassen.",
+   "Eine Kelle Teig in einer heißen Pfanne 1 Minute pro Seite backen.",
+   "Mit Zucker und Zitrone oder mit Marmelade servieren."
+  ]
+ },
+ "fr-salade-de-lentilles": {
+  "title": "Linsensalat",
+  "summary": "Warme Linsen mit Zwiebel, Senf und Vinaigrette.",
+  "side": "Brot",
+  "tip": "Die Linsen noch warm anmachen: so nehmen sie den Geschmack besser auf.",
+  "ingredients": [
+   {
+    "name": "Linsen",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Rote Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Senf",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Essig",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Linsen in ungesalzenem Wasser 20 Minuten kochen und abgießen.",
+   "Senf mit Essig, Öl und Salz verrühren.",
+   "Die warmen Linsen mit der Vinaigrette anmachen.",
+   "Die gehackte Zwiebel zugeben und warm oder kalt servieren."
+  ]
+ },
+ "fr-clafoutis-aux-pommes": {
+  "title": "Apfel-Clafoutis",
+  "summary": "Französisches Ofendessert mit Äpfeln in einem weichen, flanartigen Teig.",
+  "side": "Sahne oder Eis",
+  "tip": "Eine gebutterte Form verwenden und lauwarm servieren, dann ist er cremiger.",
+  "ingredients": [
+   {
+    "name": "Apfel",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Ei",
+    "amount": "3 Stück"
+   },
+   {
+    "name": "Milch",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Mehl",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1/2 Tasse"
+   }
+  ],
+  "steps": [
+   "Die Äpfel schälen und in Scheiben schneiden; in einer gebutterten Form verteilen.",
+   "Eier mit Zucker, Mehl und Milch verquirlen.",
+   "Den Teig über die Äpfel gießen.",
+   "35 Minuten bei mittlerer Hitze goldbraun und fest backen."
+  ]
+ },
+ "fr-soupe-aux-poireaux": {
+  "title": "Französische Lauch-Kartoffel-Suppe",
+  "summary": "Rustikale Lauch-Kartoffel-Suppe mit einem Stich Butter.",
+  "side": "Knuspriges Brot",
+  "tip": "Den Lauch gründlich waschen: Erde versteckt sich zwischen den Blättern.",
+  "ingredients": [
+   {
+    "name": "Lauch",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Kartoffel",
+    "amount": "2 Stück"
+   },
+   {
+    "name": "Brühe",
+    "amount": "1 Liter"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Den Lauch in Ringe schneiden und in Butter ohne Farbe andünsten.",
+   "Die gewürfelten Kartoffeln und die Brühe zugeben.",
+   "20 Minuten kochen, bis sie weich sind.",
+   "Leicht mit einer Gabel zerdrücken oder pürieren und heiß servieren."
+  ]
+ },
+ "it-pasta-alla-gricia": {
+  "title": "Pasta alla Gricia",
+  "summary": "Römische Pasta mit knusprigem Guanciale, Pecorino und schwarzem Pfeffer.",
+  "side": "Frisch gemahlener Pfeffer",
+  "tip": "Vom Herd nehmen und mit etwas Nudelwasser mischen, so wird die Sauce cremig.",
+  "ingredients": [
+   {
+    "name": "Nudeln",
+    "amount": "200 g"
+   },
+   {
+    "name": "Speck oder Guanciale",
+    "amount": "100 g"
+   },
+   {
+    "name": "Pecorino oder Parmesan",
+    "amount": "60 g"
+   },
+   {
+    "name": "Schwarzer Pfeffer",
+    "amount": "1 Teelöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Die Nudeln in Salzwasser kochen und eine Tasse Kochwasser aufheben.",
+   "Den gewürfelten Speck in einer Pfanne knusprig braten.",
+   "Die Nudeln mit etwas Nudelwasser und dem Pfeffer in die Pfanne geben.",
+   "Vom Herd nehmen, mit dem geriebenen Käse mischen und servieren."
+  ]
+ },
+ "it-saltimbocca-alla-romana": {
+  "title": "Saltimbocca alla romana",
+  "summary": "Kalbsschnitzel mit Rohschinken und Salbei, in Butter gebraten.",
+  "side": "Ofenkartoffeln",
+  "tip": "Salbei und Schinken mit einem Zahnstocher fixieren und schnell braten.",
+  "ingredients": [
+   {
+    "name": "Kalbsschnitzel",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Rohschinken",
+    "amount": "4 Scheiben"
+   },
+   {
+    "name": "Salbei",
+    "amount": "4 Blätter"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Weißwein",
+    "amount": "1/4 Tasse"
+   }
+  ],
+  "steps": [
+   "Auf jedes Schnitzel ein Salbeiblatt und eine Scheibe Schinken legen und mit einem Zahnstocher fixieren.",
+   "Die Butter in einer Pfanne schmelzen und die Schnitzel auf der Schinkenseite 2 Minuten braten.",
+   "Wenden und 1 Minute weiterbraten.",
+   "Mit dem Weißwein ablöschen und mit der Sauce servieren."
+  ]
+ },
+ "it-panzanella": {
+  "title": "Panzanella",
+  "summary": "Toskanischer Salat aus altem Brot mit Tomate, Zwiebel und Basilikum.",
+  "side": "Käse",
+  "tip": "Das Brot nur kurz einweichen und ausdrücken: es soll feucht, nicht durchnässt sein.",
+  "ingredients": [
+   {
+    "name": "Altes Brot",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tomate",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Rote Zwiebel",
+    "amount": "1/2 Stück"
+   },
+   {
+    "name": "Basilikum",
+    "amount": "8 Blätter"
+   },
+   {
+    "name": "Essig",
+    "amount": "2 Esslöffel"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Das Brot würfeln, kurz in Wasser einweichen und ausdrücken.",
+   "Die Tomaten in Stücke und die Zwiebel in dünne Scheiben schneiden.",
+   "Alles mit dem Basilikum mischen.",
+   "Mit Öl, Essig und Salz anmachen und 15 Minuten ziehen lassen."
+  ]
+ },
+ "it-crostata-di-marmellata": {
+  "title": "Marmeladen-Crostata",
+  "summary": "Italienische Mürbeteigtarte mit Marmeladenfüllung und Teiggitter.",
+  "side": "Tee oder Kaffee",
+  "tip": "Den Teig 30 Minuten kühlen, damit er beim Backen nicht schrumpft.",
+  "ingredients": [
+   {
+    "name": "Mehl",
+    "amount": "300 g"
+   },
+   {
+    "name": "Kalte Butter",
+    "amount": "150 g"
+   },
+   {
+    "name": "Zucker",
+    "amount": "100 g"
+   },
+   {
+    "name": "Ei",
+    "amount": "1 Stück"
+   },
+   {
+    "name": "Marmelade",
+    "amount": "300 g"
+   }
+  ],
+  "steps": [
+   "Mehl mit kalter Butter, Zucker und Ei zu einem Teig verkneten und 30 Minuten kühlen.",
+   "Zwei Drittel ausrollen und eine Form auslegen.",
+   "Mit der Marmelade füllen.",
+   "Mit gekreuzten Teigstreifen belegen und 35 Minuten bei mittlerer Hitze backen."
+  ]
+ },
+ "it-torta-della-nonna": {
+  "title": "Torta della nonna",
+  "summary": "Tarte mit Vanillecreme und Pinienkernen auf Mürbeteig.",
+  "side": "Puderzucker",
+  "tip": "Die Creme vor dem Füllen abkühlen lassen, damit der Teig nicht durchweicht.",
+  "ingredients": [
+   {
+    "name": "Mürbeteig",
+    "amount": "1 große Platte"
+   },
+   {
+    "name": "Milch",
+    "amount": "2 Tassen"
+   },
+   {
+    "name": "Eigelb",
+    "amount": "4 Stück"
+   },
+   {
+    "name": "Zucker",
+    "amount": "1/2 Tasse"
+   },
+   {
+    "name": "Speisestärke oder Mehl",
+    "amount": "4 Esslöffel"
+   },
+   {
+    "name": "Pinienkerne",
+    "amount": "3 Esslöffel"
+   }
+  ],
+  "steps": [
+   "Die Milch mit Eigelb, Zucker und Mehl andicken und abkühlen lassen.",
+   "Eine Form mit dem Teig auslegen.",
+   "Die Creme einfüllen und mit Pinienkernen bestreuen.",
+   "35 Minuten bei mittlerer Hitze goldbraun backen."
+  ]
+ },
+ "it-fagioli-all-uccelletto": {
+  "title": "Weiße Bohnen all'uccelletto",
+  "summary": "Weiße Bohnen mit Tomate, Knoblauch und Salbei nach toskanischer Art.",
+  "side": "Geröstetes Brot",
+  "tip": "Die Tomate einige Minuten mit dem Knoblauch kochen, bevor die Bohnen dazukommen.",
+  "ingredients": [
+   {
+    "name": "Gekochte weiße Bohnen",
+    "amount": "3 Tassen"
+   },
+   {
+    "name": "Gehackte Tomaten",
+    "amount": "1 Tasse"
+   },
+   {
+    "name": "Knoblauch",
+    "amount": "2 Zehen"
+   },
+   {
+    "name": "Salbei",
+    "amount": "4 Blätter"
+   },
+   {
+    "name": "Öl",
+    "amount": "3 Esslöffel"
+   },
+   {
+    "name": "Salz",
+    "amount": "nach Geschmack"
+   }
+  ],
+  "steps": [
+   "Knoblauch und Salbei in Öl bräunen.",
+   "Die gehackten Tomaten zugeben und 8 Minuten garen.",
+   "Die Bohnen und Salz zufügen.",
+   "15 Minuten bei niedriger Hitze köcheln, bis es eindickt."
+  ]
  }
 }

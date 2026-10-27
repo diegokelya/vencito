@@ -39760,5 +39760,3533 @@
    "Ajoutez le ketchup, la moutarde et le sel.",
    "Baissez le feu, ajoutez la crème et réchauffez sans bouillir."
   ]
+ },
+ "ar-pastel-de-papa": {
+  "title": "Pastel de papa argentin",
+  "summary": "Viande hachée à l'oignon sous une purée de pommes de terre gratinée.",
+  "side": "Salade verte",
+  "tip": "Gardez la purée assez ferme pour qu'elle dore bien dessus.",
+  "ingredients": [
+   {
+    "name": "Viande hachée",
+    "amount": "400 g"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "4"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Fromage râpé",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pommes de terre, écrasez-les et salez ; gardez la purée ferme.",
+   "Faites revenir l'oignon haché dans l'huile et ajoutez la viande jusqu'à ce qu'elle dore.",
+   "Mettez la viande dans un plat et couvrez de purée.",
+   "Saupoudrez de fromage et faites gratiner 15 minutes à four chaud."
+  ]
+ },
+ "ar-pizzetas-caseras": {
+  "title": "Mini-pizzas maison",
+  "summary": "Petites pizzas à pâte moelleuse avec sauce, fromage et ce qu'il y a au frigo.",
+  "side": "Salade de tomates",
+  "tip": "Piquez la pâte avant d'ajouter la sauce pour qu'elle ne gonfle pas.",
+  "ingredients": [
+   {
+    "name": "Farine",
+    "amount": "300 g"
+   },
+   {
+    "name": "Sauce tomate",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Mozzarella",
+    "amount": "200 g"
+   },
+   {
+    "name": "Olives",
+    "amount": "6"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez la farine avec le sel, l'huile et de l'eau tiède pour obtenir une pâte souple et laissez reposer 15 minutes.",
+   "Étalez-la finement et découpez des disques de la taille d'une petite assiette.",
+   "Garnissez de sauce, de fromage et d'olives.",
+   "Faites cuire 12 minutes à four chaud jusqu'à ce que le fromage bouillonne."
+  ]
+ },
+ "ar-milanesas-de-zapallitos": {
+  "title": "Escalopes de courgettes panées",
+  "summary": "Longues tranches de courgette panées et dorées, légères et croustillantes.",
+  "side": "Salade de tomates",
+  "tip": "Séchez-les bien avant de les passer dans l'œuf pour que la panure adhère.",
+  "ingredients": [
+   {
+    "name": "Courgette",
+    "amount": "3"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Chapelure",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez les courgettes en longues tranches fines et salez-les.",
+   "Séchez-les avec du papier absorbant.",
+   "Passez-les dans l'œuf battu puis dans la chapelure.",
+   "Faites-les frire dans l'huile chaude jusqu'à ce qu'elles dorent des deux côtés."
+  ]
+ },
+ "ar-sopa-de-verduras-con-fideos": {
+  "title": "Soupe de légumes aux pâtes",
+  "summary": "Bouillon maison aux carottes, pommes de terre, courge et petites pâtes.",
+  "side": "Pain au fromage",
+  "tip": "Ajoutez les pâtes à la fin pour qu'elles ne soient pas trop cuites.",
+  "ingredients": [
+   {
+    "name": "Carotte",
+    "amount": "2"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "2"
+   },
+   {
+    "name": "Courge",
+    "amount": "200 g"
+   },
+   {
+    "name": "Petites pâtes",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Portez à ébullition 1,5 litre d'eau avec l'oignon entier et du sel.",
+   "Ajoutez la carotte, la pomme de terre et la courge en dés et laissez cuire 15 minutes.",
+   "Ajoutez les pâtes et faites cuire jusqu'à ce qu'elles soient tendres.",
+   "Servez chaud avec du fromage râpé si vous voulez."
+  ]
+ },
+ "ar-tarta-de-berenjena": {
+  "title": "Tarte à l'aubergine",
+  "summary": "Tarte aux aubergines rôties, tomate et fromage gratiné.",
+  "side": "Salade verte",
+  "tip": "Faites d'abord rôtir les aubergines pour qu'elles rendent leur eau et ne détrempent pas la pâte.",
+  "ingredients": [
+   {
+    "name": "Pâte à tarte",
+    "amount": "1 abaisse"
+   },
+   {
+    "name": "Aubergine",
+    "amount": "2"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Fromage",
+    "amount": "150 g"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez les aubergines en rondelles, salez-les et faites-les rôtir au four jusqu'à ce qu'elles ramollissent.",
+   "Foncez un moule avec la pâte et piquez-la.",
+   "Disposez les aubergines avec des rondelles de tomate et le fromage.",
+   "Couvrez avec les œufs battus avec du sel et enfournez 30 minutes à four moyen."
+  ]
+ },
+ "ar-hamburguesa-de-pollo-casera": {
+  "title": "Burgers de poulet maison",
+  "summary": "Steaks de poulet haché à l'oignon et au persil, juteux et faciles.",
+  "side": "Pommes de terre au four",
+  "tip": "Mouillez-vous les mains pour former les steaks sans qu'ils collent.",
+  "ingredients": [
+   {
+    "name": "Poulet haché",
+    "amount": "500 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Chapelure",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Persil",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez le poulet avec l'oignon râpé, l'œuf, la chapelure, le persil et le sel.",
+   "Formez des steaks de la taille d'un pain.",
+   "Faites-les cuire sur une plaque chaude avec un peu d'huile.",
+   "Retournez-les au bout de 5 minutes et faites cuire à cœur."
+  ]
+ },
+ "ar-escalopes-con-papas": {
+  "title": "Escalopes de veau aux pommes de terre",
+  "summary": "Escalopes fines dorées à la poêle avec des pommes de terre dorées.",
+  "side": "Salade verte",
+  "tip": "Aplatissez bien la viande pour qu'elle cuise vite et reste tendre.",
+  "ingredients": [
+   {
+    "name": "Escalope de veau",
+    "amount": "4"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "3"
+   },
+   {
+    "name": "Farine",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Citron",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Aplatissez les escalopes, salez-les et farinez-les.",
+   "Coupez les pommes de terre en rondelles et faites-les dorer dans l'huile jusqu'à ce qu'elles soient tendres.",
+   "Faites dorer les escalopes 2 minutes de chaque côté dans une autre poêle.",
+   "Servez avec les pommes de terre et un filet de citron."
+  ]
+ },
+ "ar-torrejas-de-arroz": {
+  "title": "Galettes de riz",
+  "summary": "Galettes frites avec du riz restant, des œufs et du fromage.",
+  "side": "Salade de tomates",
+  "tip": "Égouttez bien le riz pour que les galettes ne se défassent pas dans la poêle.",
+  "ingredients": [
+   {
+    "name": "Riz cuit",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Fromage râpé",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Oignon nouveau",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez le riz avec les œufs, le fromage, l'oignon nouveau haché et le sel.",
+   "Chauffez de l'huile dans une poêle.",
+   "Formez des galettes à la cuillère et faites-les frire jusqu'à ce qu'elles dorent.",
+   "Égouttez sur du papier absorbant et servez chaud."
+  ]
+ },
+ "mx-sopes-de-frijol": {
+  "title": "Sopes aux haricots",
+  "summary": "Épais disques de masa garnis de haricots, laitue, fromage et sauce.",
+  "side": "Sauce rouge",
+  "tip": "Pincez un rebord autour de chaque disque pour retenir la garniture.",
+  "ingredients": [
+   {
+    "name": "Farine de maïs masa",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Haricots refrits",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Fromage frais",
+    "amount": "100 g"
+   },
+   {
+    "name": "Laitue",
+    "amount": "2 feuilles"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez la farine avec de l'eau tiède et du sel pour obtenir une pâte souple.",
+   "Formez de gros disques et faites-les cuire sur une plaque 3 minutes de chaque côté.",
+   "Pincez les bords encore chauds pour former le sope.",
+   "Garnissez de haricots, de laitue émincée et de fromage émietté."
+  ]
+ },
+ "mx-huevos-en-salsa-verde": {
+  "title": "Œufs à la sauce verte",
+  "summary": "Œufs pochés dans une sauce de tomatilles légèrement piquante.",
+  "side": "Haricots et tortillas",
+  "tip": "Laissez mijoter la sauce quelques minutes avant d'ajouter les œufs.",
+  "ingredients": [
+   {
+    "name": "Œuf",
+    "amount": "4"
+   },
+   {
+    "name": "Tomatilles",
+    "amount": "6"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1/2"
+   },
+   {
+    "name": "Piment",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites bouillir les tomatilles avec le piment 5 minutes et mixez avec l'oignon.",
+   "Faites cuire la sauce dans une poêle avec de l'huile et du sel pendant 5 minutes.",
+   "Creusez des puits et cassez les œufs dedans.",
+   "Couvrez et laissez cuire jusqu'à ce que les blancs soient pris."
+  ]
+ },
+ "mx-frijoles-charros": {
+  "title": "Haricots charros",
+  "summary": "Ragoût de haricots au lard, au chorizo et à la saucisse.",
+  "side": "Tortillas",
+  "tip": "Utilisez des haricots déjà cuits pour qu'il soit prêt en moins d'une heure.",
+  "ingredients": [
+   {
+    "name": "Haricots cuits",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Lard",
+    "amount": "100 g"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "1"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le lard et le chorizo hachés dans une marmite.",
+   "Ajoutez l'oignon et la tomate hachés et laissez cuire 5 minutes.",
+   "Ajoutez les haricots avec leur jus et du sel.",
+   "Laissez mijoter à feu doux 20 minutes jusqu'à épaississement."
+  ]
+ },
+ "mx-albondigas-al-chipotle": {
+  "title": "Boulettes au chipotle",
+  "summary": "Boulettes de bœuf dans une sauce tomate au chipotle.",
+  "side": "Riz rouge",
+  "tip": "Commencez avec peu de chipotle et ajoutez-en selon le goût : il est assez fort.",
+  "ingredients": [
+   {
+    "name": "Bœuf haché",
+    "amount": "500 g"
+   },
+   {
+    "name": "Riz cuit",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Tomate",
+    "amount": "3"
+   },
+   {
+    "name": "Piment chipotle",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez la viande avec le riz, l'œuf et le sel et formez des boulettes.",
+   "Mixez les tomates avec le chipotle et filtrez la sauce.",
+   "Faites cuire la sauce dans une marmite 5 minutes.",
+   "Ajoutez les boulettes et laissez cuire à couvert 25 minutes."
+  ]
+ },
+ "mx-papas-con-rajas": {
+  "title": "Pommes de terre aux poivrons",
+  "summary": "Pommes de terre sautées aux lanières de poivron et à l'oignon, simples et nourrissantes.",
+  "side": "Tortillas chaudes",
+  "tip": "Coupez les pommes de terre régulièrement pour qu'elles cuisent en même temps.",
+  "ingredients": [
+   {
+    "name": "Pomme de terre",
+    "amount": "4"
+   },
+   {
+    "name": "Poivron",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Fromage",
+    "amount": "80 g"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez les pommes de terre en dés et faites-les dorer dans l'huile jusqu'à ce qu'elles soient tendres.",
+   "Ajoutez l'oignon et le poivron en lanières.",
+   "Faites sauter 8 minutes de plus avec du sel.",
+   "Servez avec du fromage émietté dessus."
+  ]
+ },
+ "mx-pollo-con-rajas-y-crema": {
+  "title": "Poulet aux poivrons et à la crème",
+  "summary": "Poulet effiloché aux lanières de poivron dans une sauce crémeuse.",
+  "side": "Riz blanc",
+  "tip": "Faites cuire et effilochez le poulet à l'avance : c'est prêt en quelques minutes.",
+  "ingredients": [
+   {
+    "name": "Poulet",
+    "amount": "500 g"
+   },
+   {
+    "name": "Poivron",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Crème fraîche",
+    "amount": "200 ml"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites bouillir le poulet 20 minutes avec du sel et effilochez-le.",
+   "Faites revenir l'oignon et les poivrons en lanières dans l'huile.",
+   "Ajoutez le poulet et la crème.",
+   "Laissez cuire 8 minutes à feu doux et servez avec du riz."
+  ]
+ },
+ "mx-chiles-rellenos-de-queso": {
+  "title": "Poivrons farcis au fromage",
+  "summary": "Poivrons ou piments rôtis farcis de fromage, enrobés de pâte et frits.",
+  "side": "Riz rouge",
+  "tip": "Pelez-les après les avoir rôtis dans un sac fermé : la peau part toute seule.",
+  "ingredients": [
+   {
+    "name": "Poivron ou poblano",
+    "amount": "4"
+   },
+   {
+    "name": "Fromage",
+    "amount": "200 g"
+   },
+   {
+    "name": "Œuf",
+    "amount": "3"
+   },
+   {
+    "name": "Farine",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites rôtir les poivrons jusqu'à ce que la peau noircisse, pelez-les et ouvrez-les délicatement.",
+   "Farcissez-les de fromage et farinez-les.",
+   "Montez les blancs en neige, incorporez les jaunes et enrobez chaque poivron.",
+   "Faites-les frire dans l'huile chaude jusqu'à ce qu'ils dorent."
+  ]
+ },
+ "mx-arroz-con-elote": {
+  "title": "Riz au maïs",
+  "summary": "Riz bien égrené avec des grains de maïs, de l'oignon et un peu de bouillon.",
+  "side": "Poulet grillé",
+  "tip": "Rincez le riz pour qu'il reste bien égrené.",
+  "ingredients": [
+   {
+    "name": "Riz",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Maïs",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1/2"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites revenir l'oignon haché dans l'huile et ajoutez le riz rincé.",
+   "Laissez nacrer 2 minutes.",
+   "Ajoutez le maïs, le bouillon chaud et le sel.",
+   "Couvrez et laissez cuire 15 minutes à feu doux."
+  ]
+ },
+ "cl-barros-luco": {
+  "title": "Sandwich Barros Luco",
+  "summary": "Le sandwich chilien au bœuf en lanières et au fromage fondu.",
+  "side": "Frites",
+  "tip": "Coupez la viande très finement et cuisez-la vite pour qu'elle reste tendre.",
+  "ingredients": [
+   {
+    "name": "Pain",
+    "amount": "2"
+   },
+   {
+    "name": "Bœuf en lanières",
+    "amount": "150 g"
+   },
+   {
+    "name": "Fromage",
+    "amount": "2 tranches"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Salez la viande coupée en fines lanières.",
+   "Faites-la sauter dans une poêle avec de l'huile à feu vif 3 minutes.",
+   "Posez le fromage sur la viande chaude pour qu'il fonde.",
+   "Montez le sandwich avec le pain et servez tiède."
+  ]
+ },
+ "cl-chorrillana": {
+  "title": "Chorrillana",
+  "summary": "Frites garnies de bœuf, d'oignon caramélisé et d'un œuf au plat.",
+  "side": "Salade chilienne",
+  "tip": "Servez-la tout de suite pour que les frites restent croustillantes.",
+  "ingredients": [
+   {
+    "name": "Pomme de terre",
+    "amount": "4"
+   },
+   {
+    "name": "Bœuf en lanières",
+    "amount": "250 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "2"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Huile",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez les pommes de terre en bâtonnets et faites-les frire jusqu'à ce qu'elles dorent.",
+   "Faites sauter l'oignon émincé jusqu'à ce qu'il dore et réservez.",
+   "Faites sauter le bœuf en lanières avec du sel à feu vif.",
+   "Dressez sur un plat : frites, bœuf, oignon et les œufs au plat dessus."
+  ]
+ },
+ "co-lentejas-con-platano-maduro": {
+  "title": "Lentilles à la banane plantain mûre",
+  "summary": "Ragoût de lentilles à la sauce tomate-oignon, avec de la banane plantain frite.",
+  "side": "Riz blanc",
+  "tip": "La banane doit être très mûre, à la peau foncée, pour caraméliser.",
+  "ingredients": [
+   {
+    "name": "Lentilles",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Banane plantain mûre",
+    "amount": "2"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les lentilles dans l'eau jusqu'à ce qu'elles soient tendres, environ 25 minutes.",
+   "Préparez une sauce en faisant revenir l'oignon et la tomate hachés dans l'huile.",
+   "Mélangez avec les lentilles et le sel et laissez cuire 5 minutes.",
+   "Faites frire des rondelles de plantain mûr jusqu'à ce qu'elles dorent et servez à côté."
+  ]
+ },
+ "co-papas-criollas-salteadas": {
+  "title": "Petites pommes de terre sautées",
+  "summary": "Petites pommes de terre sautées à l'ail, à la ciboule et à la coriandre.",
+  "side": "Steak grillé",
+  "tip": "Faites-les bouillir avec la peau : elles sont plus savoureuses et fermes.",
+  "ingredients": [
+   {
+    "name": "Petites pommes de terre",
+    "amount": "600 g"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Ciboule",
+    "amount": "2"
+   },
+   {
+    "name": "Coriandre",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites bouillir les pommes de terre avec la peau 12 minutes et égouttez-les.",
+   "Chauffez l'huile et faites-les dorer entières ou coupées en deux.",
+   "Ajoutez l'ail haché et la ciboule.",
+   "Salez et terminez avec de la coriandre hachée."
+  ]
+ },
+ "co-huevos-con-hogao": {
+  "title": "Œufs au hogao",
+  "summary": "Œufs brouillés ou au plat avec la sauce créole colombienne tomate-oignon.",
+  "side": "Arepa ou pain",
+  "tip": "Faites cuire le hogao à feu doux pour concentrer les saveurs.",
+  "ingredients": [
+   {
+    "name": "Œuf",
+    "amount": "4"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Ciboule",
+    "amount": "3"
+   },
+   {
+    "name": "Ail",
+    "amount": "1 gousse"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites revenir la ciboule hachée avec l'ail dans l'huile.",
+   "Ajoutez la tomate râpée et laissez cuire 8 minutes pour former un hogao.",
+   "Salez et réservez la sauce.",
+   "Cuisez les œufs à votre goût et servez avec le hogao dessus."
+  ]
+ },
+ "co-pescado-frito-con-patacones": {
+  "title": "Poisson frit aux patacones",
+  "summary": "Filets de poisson dorés avec de la banane plantain verte écrasée et frite.",
+  "side": "Salade de tomates et oignon",
+  "tip": "Écrasez les patacones en deux temps : frire, écraser, puis frire de nouveau.",
+  "ingredients": [
+   {
+    "name": "Filet de poisson",
+    "amount": "2"
+   },
+   {
+    "name": "Banane plantain verte",
+    "amount": "2"
+   },
+   {
+    "name": "Citron",
+    "amount": "1"
+   },
+   {
+    "name": "Farine",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Assaisonnez le poisson de sel et de citron et farinez-le.",
+   "Coupez la banane en grosses rondelles et faites-les frire 3 minutes.",
+   "Écrasez-les avec le fond d'un verre et refaites-les frire jusqu'à ce qu'elles dorent.",
+   "Faites frire le poisson et servez avec les patacones et du sel."
+  ]
+ },
+ "pe-papa-a-la-ocopa": {
+  "title": "Pommes de terre à l'ocopa",
+  "summary": "Pommes de terre bouillies nappées d'une sauce crémeuse au fromage, aux cacahuètes et au piment doux.",
+  "side": "Œuf dur et olives",
+  "tip": "Mixez la sauce avec le lait petit à petit jusqu'à ce qu'elle soit crémeuse et épaisse.",
+  "ingredients": [
+   {
+    "name": "Pomme de terre",
+    "amount": "5"
+   },
+   {
+    "name": "Fromage frais",
+    "amount": "150 g"
+   },
+   {
+    "name": "Cacahuètes",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Lait",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Crackers",
+    "amount": "3"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pommes de terre avec la peau, pelez-les et coupez-les en rondelles.",
+   "Mixez le fromage avec les cacahuètes, le lait, les crackers et le sel pour obtenir une sauce crémeuse.",
+   "Disposez les pommes de terre sur un plat.",
+   "Nappez de sauce et servez avec un œuf dur."
+  ]
+ },
+ "pe-sopa-criolla-sencilla": {
+  "title": "Soupe créole péruvienne",
+  "summary": "Soupe de bœuf aux vermicelles, au lait et à l'œuf.",
+  "side": "Pain grillé",
+  "tip": "Ajoutez l'œuf à la fin et remuez pour qu'il forme des filaments.",
+  "ingredients": [
+   {
+    "name": "Bœuf",
+    "amount": "200 g"
+   },
+   {
+    "name": "Vermicelles",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Lait",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites revenir l'oignon avec le bœuf en lanières et ajoutez 1 litre d'eau.",
+   "Laissez cuire 15 minutes et ajoutez les vermicelles.",
+   "Ajoutez le lait et le sel et laissez cuire 5 minutes de plus.",
+   "Incorporez l'œuf battu en remuant et servez chaud."
+  ]
+ },
+ "pe-arroz-con-atun": {
+  "title": "Riz sauté au thon",
+  "summary": "Riz sauté au thon, à l'oignon, au poivron et aux petits pois.",
+  "side": "Salade d'oignon et citron vert",
+  "tip": "Égouttez bien le thon pour que le riz ne soit pas détrempé.",
+  "ingredients": [
+   {
+    "name": "Riz cuit",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Thon en boîte",
+    "amount": "1 boîte"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Poivron",
+    "amount": "1"
+   },
+   {
+    "name": "Petits pois",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites revenir l'oignon et le poivron hachés dans l'huile.",
+   "Ajoutez les petits pois et faites sauter 3 minutes.",
+   "Ajoutez le riz cuit et le thon égoutté.",
+   "Faites sauter 5 minutes à feu vif et salez."
+  ]
+ },
+ "ve-ensalada-de-gallina": {
+  "title": "Salade de poule vénézuélienne",
+  "summary": "Poulet effiloché avec pomme de terre, carotte, petits pois et mayonnaise.",
+  "side": "Pain ou crackers",
+  "tip": "Mélangez quand tout est froid pour que la mayonnaise ne tranche pas.",
+  "ingredients": [
+   {
+    "name": "Poulet",
+    "amount": "400 g"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "2"
+   },
+   {
+    "name": "Carotte",
+    "amount": "2"
+   },
+   {
+    "name": "Petits pois",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Mayonnaise",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire le poulet avec du sel 25 minutes et effilochez-le.",
+   "Faites cuire les pommes de terre et les carottes en dés avec les petits pois.",
+   "Laissez tout refroidir.",
+   "Mélangez avec la mayonnaise et réservez au frais avant de servir."
+  ]
+ },
+ "ve-yuca-sancochada-con-mojo": {
+  "title": "Manioc bouilli au mojo",
+  "summary": "Manioc bouilli avec une sauce à l'ail, à l'oignon et au citron.",
+  "side": "Fromage blanc",
+  "tip": "Faites cuire le manioc jusqu'à ce qu'il s'ouvre à peine : c'est le bon point.",
+  "ingredients": [
+   {
+    "name": "Manioc",
+    "amount": "600 g"
+   },
+   {
+    "name": "Ail",
+    "amount": "3 gousses"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Citron",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Pelez le manioc, coupez-le en morceaux et faites-le bouillir avec du sel 25 minutes jusqu'à ce qu'il soit tendre.",
+   "Faites revenir l'oignon en fines rondelles avec l'ail dans l'huile.",
+   "Éteignez le feu et ajoutez le jus de citron.",
+   "Servez le manioc égoutté avec le mojo dessus."
+  ]
+ },
+ "ve-pasta-con-pollo": {
+  "title": "Pâtes au poulet",
+  "summary": "Pâtes avec des morceaux de poulet, de la crème et des légumes sautés.",
+  "side": "Salade verte",
+  "tip": "Gardez un peu d'eau de cuisson pour lier la sauce.",
+  "ingredients": [
+   {
+    "name": "Pâtes",
+    "amount": "300 g"
+   },
+   {
+    "name": "Poulet",
+    "amount": "300 g"
+   },
+   {
+    "name": "Crème fraîche",
+    "amount": "150 ml"
+   },
+   {
+    "name": "Poivron",
+    "amount": "1"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pâtes dans de l'eau salée jusqu'à ce qu'elles soient al dente.",
+   "Faites sauter le poulet en dés avec l'oignon et le poivron dans l'huile.",
+   "Ajoutez la crème et le sel et laissez cuire 5 minutes.",
+   "Mélangez avec les pâtes et servez chaud."
+  ]
+ },
+ "uy-guiso-de-arroz-y-carne": {
+  "title": "Ragoût de riz et de bœuf",
+  "summary": "Ragoût de tous les jours avec du bœuf en dés, du riz et des légumes.",
+  "side": "Pain frais",
+  "tip": "Faites bien dorer la viande avant d'ajouter l'eau : cela donne plus de goût.",
+  "ingredients": [
+   {
+    "name": "Bœuf en dés",
+    "amount": "400 g"
+   },
+   {
+    "name": "Riz",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "2"
+   },
+   {
+    "name": "Carotte",
+    "amount": "1"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le bœuf en dés dans l'huile et ajoutez l'oignon haché.",
+   "Ajoutez les pommes de terre et la carotte en dés et couvrez d'eau.",
+   "Laissez cuire 20 minutes et ajoutez le riz avec du sel.",
+   "Poursuivez 15 minutes jusqu'à ce que le riz soit cuit."
+  ]
+ },
+ "ec-encebollado-sencillo": {
+  "title": "Encebollado équatorien au thon",
+  "summary": "Soupe équatorienne au thon, au manioc et à l'oignon rouge mariné.",
+  "side": "Chips de plantain ou pain",
+  "tip": "Laissez l'oignon dans le citron 10 minutes pour qu'il mariner.",
+  "ingredients": [
+   {
+    "name": "Thon en boîte",
+    "amount": "2 boîtes"
+   },
+   {
+    "name": "Manioc",
+    "amount": "300 g"
+   },
+   {
+    "name": "Oignon rouge",
+    "amount": "1"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1"
+   },
+   {
+    "name": "Citron",
+    "amount": "2"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites bouillir le manioc en dés dans 1 litre d'eau salée 20 minutes.",
+   "Ajoutez la tomate hachée et le thon avec son jus.",
+   "Laissez cuire 10 minutes de plus.",
+   "Servez avec l'oignon émincé mariné au citron."
+  ]
+ },
+ "ec-seco-de-carne": {
+  "title": "Seco de bœuf équatorien",
+  "summary": "Bœuf mijoté dans une sauce à l'oignon, à la tomate et à la coriandre, avec du riz.",
+  "side": "Riz et banane frite",
+  "tip": "Laissez la viande mijoter à couvert à feu doux : elle s'attendrit et la sauce épaissit.",
+  "ingredients": [
+   {
+    "name": "Bœuf en dés",
+    "amount": "500 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "2"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Coriandre",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le bœuf en dés dans l'huile avec du sel et de l'ail.",
+   "Ajoutez l'oignon et la tomate hachés et faites revenir 5 minutes.",
+   "Ajoutez de l'eau à hauteur et laissez cuire à couvert 40 minutes.",
+   "Ajoutez la coriandre hachée et servez avec du riz."
+  ]
+ },
+ "bo-papas-rellenas-bolivianas": {
+  "title": "Pommes de terre farcies boliviennes",
+  "summary": "Boules de purée farcies de bœuf, d'œuf et d'olives, frites et dorées.",
+  "side": "Salsa d'oignon et tomate",
+  "tip": "Utilisez une purée ferme et refroidissez la farce avant de les former.",
+  "ingredients": [
+   {
+    "name": "Pomme de terre",
+    "amount": "5"
+   },
+   {
+    "name": "Bœuf haché",
+    "amount": "250 g"
+   },
+   {
+    "name": "Œuf dur",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Olives",
+    "amount": "6"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire et écrasez les pommes de terre avec du sel en une purée ferme.",
+   "Faites revenir l'oignon avec le bœuf et le sel ; ajoutez l'œuf haché et les olives.",
+   "Formez des boules de purée, creusez un trou et garnissez.",
+   "Refermez, panez si vous voulez et faites frire jusqu'à ce qu'elles dorent."
+  ]
+ },
+ "py-mandioca-frita": {
+  "title": "Manioc frit",
+  "summary": "Bâtonnets de manioc bouillis puis frits, croustillants dehors et tendres dedans.",
+  "side": "Viande grillée",
+  "tip": "Faites bouillir le manioc avant de le frire : il devient crémeux à l'intérieur.",
+  "ingredients": [
+   {
+    "name": "Manioc",
+    "amount": "700 g"
+   },
+   {
+    "name": "Huile",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Pelez le manioc, retirez le cœur fibreux et coupez-le en bâtonnets.",
+   "Faites bouillir avec du sel 15 minutes jusqu'à ce qu'il soit presque tendre.",
+   "Égouttez et séchez bien.",
+   "Faites frire dans l'huile chaude jusqu'à ce qu'il dore et servez aussitôt."
+  ]
+ },
+ "jp-tonkatsu": {
+  "title": "Tonkatsu",
+  "summary": "Côtelette de porc panée au panko, croustillante et juteuse.",
+  "side": "Chou émincé et riz",
+  "tip": "Laissez reposer la côtelette 2 minutes avant de la couper pour garder le jus.",
+  "ingredients": [
+   {
+    "name": "Côtelette de porc",
+    "amount": "2"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Chapelure panko",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Farine",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Chou",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Huile",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Entaillez le bord des côtelettes et salez-les.",
+   "Passez-les dans la farine, l'œuf battu et le panko.",
+   "Faites-les frire dans l'huile chaude environ 4 minutes de chaque côté.",
+   "Coupez-les en lanières et servez avec du chou émincé et du riz."
+  ]
+ },
+ "jp-tonjiru": {
+  "title": "Tonjiru",
+  "summary": "Soupe japonaise au porc, aux légumes racines et au miso.",
+  "side": "Riz",
+  "tip": "Diluez le miso hors du feu pour qu'il garde son arôme.",
+  "ingredients": [
+   {
+    "name": "Porc en lanières",
+    "amount": "200 g"
+   },
+   {
+    "name": "Carotte",
+    "amount": "1"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "1"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Miso",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites sauter le porc en lanières dans une marmite jusqu'à ce qu'il change de couleur.",
+   "Ajoutez la carotte, la pomme de terre et l'oignon en morceaux avec 4 tasses d'eau.",
+   "Laissez cuire 15 minutes jusqu'à ce que les légumes soient tendres.",
+   "Éteignez le feu et diluez le miso dans la soupe avant de servir."
+  ]
+ },
+ "jp-chawanmushi": {
+  "title": "Chawanmushi",
+  "summary": "Flan salé d'œufs cuit à la vapeur, soyeux comme une crème.",
+  "side": "Riz blanc",
+  "tip": "Cuisez à feu très doux pour qu'il ne se forme pas de bulles.",
+  "ingredients": [
+   {
+    "name": "Œuf",
+    "amount": "3"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Sauce soja",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Crevettes ou jambon",
+    "amount": "60 g"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Battez les œufs sans faire de mousse et mélangez avec le bouillon tiède, la sauce soja et le sel.",
+   "Filtrez le mélange et répartissez-le dans deux tasses avec les crevettes ou le jambon.",
+   "Couvrez les tasses et faites cuire à la vapeur à feu doux 15 minutes.",
+   "Servez tiède quand le centre est pris."
+  ]
+ },
+ "jp-nasu-dengaku": {
+  "title": "Nasu dengaku",
+  "summary": "Aubergines rôties au glaçage de miso sucré-salé.",
+  "side": "Riz blanc",
+  "tip": "Quadrillez la chair pour que le miso la pénètre bien.",
+  "ingredients": [
+   {
+    "name": "Aubergine",
+    "amount": "2"
+   },
+   {
+    "name": "Miso",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sucre",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Graines de sésame",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   }
+  ],
+  "steps": [
+   "Coupez les aubergines en deux, quadrillez la chair et badigeonnez d'huile.",
+   "Faites rôtir au four 20 minutes jusqu'à ce qu'elles soient tendres.",
+   "Mélangez le miso avec le sucre et un filet d'eau.",
+   "Nappez les aubergines du mélange, faites gratiner 3 minutes et saupoudrez de sésame."
+  ]
+ },
+ "jp-karaage": {
+  "title": "Karaage",
+  "summary": "Poulet frit japonais mariné au soja et au gingembre, très croustillant.",
+  "side": "Citron et chou",
+  "tip": "Faites mariner au moins 15 minutes et passez-le dans la fécule ou la Maïzena.",
+  "ingredients": [
+   {
+    "name": "Poulet en morceaux",
+    "amount": "500 g"
+   },
+   {
+    "name": "Sauce soja",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Gingembre",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Ail",
+    "amount": "1 gousse"
+   },
+   {
+    "name": "Maïzena",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Huile",
+    "amount": "4 cuillères à soupe"
+   }
+  ],
+  "steps": [
+   "Coupez le poulet en bouchées et mélangez avec la sauce soja, le gingembre et l'ail râpés.",
+   "Laissez mariner 15 minutes.",
+   "Passez dans la Maïzena en secouant l'excédent.",
+   "Faites frire dans l'huile chaude jusqu'à ce qu'il soit doré et croustillant."
+  ]
+ },
+ "in-masala-omelette": {
+  "title": "Omelette masala",
+  "summary": "Omelette aux œufs, à l'oignon, à la tomate, au piment et à la coriandre.",
+  "side": "Pain grillé",
+  "tip": "Hachez tout très finement pour qu'il se répartisse bien dans l'œuf.",
+  "ingredients": [
+   {
+    "name": "Œuf",
+    "amount": "3"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1/2"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1/2"
+   },
+   {
+    "name": "Piment",
+    "amount": "1/2"
+   },
+   {
+    "name": "Coriandre",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Hachez finement l'oignon, la tomate, le piment et la coriandre.",
+   "Battez les œufs avec les légumes et le sel.",
+   "Versez dans une poêle avec de l'huile chaude.",
+   "Faites cuire 2 minutes de chaque côté jusqu'à ce qu'elle dore."
+  ]
+ },
+ "in-jeera-rice": {
+  "title": "Riz jeera",
+  "summary": "Riz basmati parfumé au cumin grillé.",
+  "side": "Dal de lentilles",
+  "tip": "Faites griller le cumin dans l'huile jusqu'à ce qu'il embaume avant d'ajouter le riz.",
+  "ingredients": [
+   {
+    "name": "Riz",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1/2"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Rincez le riz jusqu'à ce que l'eau soit presque claire.",
+   "Chauffez l'huile et faites griller le cumin avec l'oignon haché.",
+   "Ajoutez le riz et 2 tasses d'eau avec du sel.",
+   "Couvrez et laissez cuire 15 minutes à feu doux ; laissez reposer 5 minutes."
+  ]
+ },
+ "in-baingan-bharta": {
+  "title": "Baingan bharta",
+  "summary": "Purée fumée d'aubergine rôtie à l'oignon, à la tomate et aux épices.",
+  "side": "Chapati ou riz",
+  "tip": "Faites rôtir l'aubergine entière jusqu'à ce que la peau noircisse : c'est ce qui donne le goût fumé.",
+  "ingredients": [
+   {
+    "name": "Aubergine",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Piment",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites rôtir les aubergines entières jusqu'à ce qu'elles soient tendres et que la peau noircisse ; pelez-les et écrasez-les.",
+   "Faites revenir l'oignon avec le cumin et le piment dans l'huile.",
+   "Ajoutez la tomate hachée et laissez cuire 8 minutes.",
+   "Ajoutez l'aubergine et le sel et laissez cuire 5 minutes de plus."
+  ]
+ },
+ "in-poha": {
+  "title": "Poha",
+  "summary": "Petit-déjeuner indien de riz aplati à l'oignon, à la pomme de terre et au curcuma.",
+  "side": "Citron",
+  "tip": "Rincez le riz aplati brièvement, sans le tremper, pour qu'il ne se défasse pas.",
+  "ingredients": [
+   {
+    "name": "Riz aplati (poha)",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "1"
+   },
+   {
+    "name": "Curcuma",
+    "amount": "1/2 cuillère à café"
+   },
+   {
+    "name": "Cacahuètes",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Rincez le poha dans une passoire et laissez égoutter.",
+   "Faites sauter l'oignon et la pomme de terre en petits dés dans l'huile jusqu'à ce qu'ils soient tendres.",
+   "Ajoutez le curcuma, les cacahuètes et le sel.",
+   "Ajoutez le poha, mélangez délicatement 3 minutes et servez avec du citron."
+  ]
+ },
+ "in-dal-tadka": {
+  "title": "Dal tadka",
+  "summary": "Lentilles jaunes crémeuses finies par un revenu d'ail, de cumin et d'oignon.",
+  "side": "Riz basmati",
+  "tip": "Le tadka s'ajoute à la fin et bien chaud : c'est lui qui parfume le plat.",
+  "ingredients": [
+   {
+    "name": "Lentilles",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Ail",
+    "amount": "3 gousses"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les lentilles avec de l'eau, la tomate hachée et du sel jusqu'à ce qu'elles se défassent, environ 25 minutes.",
+   "Chauffez l'huile et faites dorer l'oignon haché avec l'ail et le cumin.",
+   "Versez ce revenu sur les lentilles.",
+   "Mélangez et servez avec du riz."
+  ]
+ },
+ "gr-avgolemono": {
+  "title": "Avgolemono",
+  "summary": "Soupe grecque au poulet et au riz liée à l'œuf et au citron.",
+  "side": "Pain croustillant",
+  "tip": "Ajoutez le bouillon chaud à l'œuf cuillerée par cuillerée pour qu'il ne caille pas.",
+  "ingredients": [
+   {
+    "name": "Poulet",
+    "amount": "300 g"
+   },
+   {
+    "name": "Riz",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Citron",
+    "amount": "1"
+   },
+   {
+    "name": "Carotte",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites bouillir le poulet avec la carotte et du sel dans 1,5 litre d'eau 20 minutes ; effilochez-le.",
+   "Faites cuire le riz dans le bouillon 12 minutes.",
+   "Battez les œufs avec le jus de citron et ajoutez peu à peu du bouillon chaud.",
+   "Reversez le tout dans la marmite avec le poulet, sans bouillir, et servez."
+  ]
+ },
+ "gr-kolokithokeftedes": {
+  "title": "Beignets de courgettes",
+  "summary": "Galettes frites de courgette au fromage et aux herbes, à tremper dans du yaourt.",
+  "side": "Yaourt à l'ail",
+  "tip": "Pressez bien les courgettes râpées avec du sel pour qu'elles ne soient pas aqueuses.",
+  "ingredients": [
+   {
+    "name": "Courgette",
+    "amount": "3"
+   },
+   {
+    "name": "Feta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Farine",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Râpez les courgettes, salez-les et laissez-les égoutter 10 minutes ; pressez-les dans un torchon.",
+   "Mélangez avec le fromage émietté, l'œuf et la farine.",
+   "Formez des galettes à la cuillère.",
+   "Faites-les frire dans l'huile chaude jusqu'à ce qu'elles dorent des deux côtés."
+  ]
+ },
+ "gr-fakes": {
+  "title": "Fakes",
+  "summary": "Soupe épaisse grecque de lentilles à la tomate, à l'ail et à un trait de vinaigre.",
+  "side": "Olives et pain",
+  "tip": "Ajoutez un trait de vinaigre au service : il relève tout le goût.",
+  "ingredients": [
+   {
+    "name": "Lentilles",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Vinaigre",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites revenir l'oignon et l'ail hachés dans l'huile.",
+   "Ajoutez la tomate hachée et les lentilles rincées avec 4 tasses d'eau.",
+   "Laissez cuire 30 minutes à feu doux jusqu'à épaississement ; salez à la fin.",
+   "Servez avec un filet d'huile et de vinaigre."
+  ]
+ },
+ "es-potaje-de-garbanzos": {
+  "title": "Potage espagnol aux pois chiches",
+  "summary": "Ragoût de pois chiches aux épinards et au paprika, traditionnel du Carême.",
+  "side": "Pain",
+  "tip": "Utilisez des pois chiches cuits et ajoutez le paprika hors du feu pour qu'il n'amère pas.",
+  "ingredients": [
+   {
+    "name": "Pois chiches cuits",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Épinards",
+    "amount": "200 g"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "1"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer l'ail en lamelles dans l'huile et retirez la marmite du feu pour ajouter le paprika.",
+   "Ajoutez la pomme de terre en dés, les pois chiches et de l'eau à hauteur.",
+   "Laissez cuire 20 minutes jusqu'à ce que la pomme de terre soit tendre.",
+   "Ajoutez les épinards et laissez cuire 5 minutes de plus avec du sel."
+  ]
+ },
+ "es-tortilla-de-calabacin": {
+  "title": "Tortilla aux courgettes",
+  "summary": "Tortilla juteuse aux courgettes et à l'oignon cuits doucement.",
+  "side": "Salade de tomates",
+  "tip": "Faites cuire les courgettes à couvert pour qu'elles ramollissent sans dorer.",
+  "ingredients": [
+   {
+    "name": "Courgette",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Œuf",
+    "amount": "5"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez les courgettes et l'oignon en petits dés et faites-les cuire à couvert dans l'huile 12 minutes.",
+   "Battez les œufs avec du sel et mélangez-les aux légumes égouttés.",
+   "Faites prendre le mélange dans une poêle à feu moyen 4 minutes.",
+   "Retournez avec une assiette et laissez cuire 3 minutes de plus."
+  ]
+ },
+ "es-pimientos-de-padron": {
+  "title": "Piments de Padrón",
+  "summary": "Piments verts frits au gros sel : certains piquent, d'autres non.",
+  "side": "Pain et une bière fraîche",
+  "tip": "Faites-les frire peu à la fois pour qu'ils cloquent sans ramollir.",
+  "ingredients": [
+   {
+    "name": "Piments de Padrón",
+    "amount": "250 g"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Gros sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Lavez et séchez bien les piments.",
+   "Chauffez l'huile dans une poêle à feu vif.",
+   "Faites frire les piments 3 minutes en les retournant jusqu'à ce qu'ils cloquent.",
+   "Égouttez et saupoudrez de gros sel."
+  ]
+ },
+ "es-merluza-en-salsa-verde": {
+  "title": "Merlu en sauce verte",
+  "summary": "Merlu dans une sauce légère à l'ail et au persil avec des petits pois.",
+  "side": "Pain",
+  "tip": "Secouez la cocotte plutôt que de remuer pour lier la sauce sans casser le poisson.",
+  "ingredients": [
+   {
+    "name": "Darne de merlu",
+    "amount": "2"
+   },
+   {
+    "name": "Ail",
+    "amount": "3 gousses"
+   },
+   {
+    "name": "Persil",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Petits pois",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Farine",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer l'ail en lamelles dans l'huile et ajoutez la farine.",
+   "Ajoutez 1 tasse d'eau ou de bouillon, le persil et les petits pois et laissez cuire 5 minutes.",
+   "Déposez le merlu salé dans la cocotte.",
+   "Laissez cuire à couvert 8 minutes en secouant la cocotte jusqu'à ce que la sauce lie."
+  ]
+ },
+ "es-judias-con-chorizo": {
+  "title": "Haricots blancs au chorizo",
+  "summary": "Ragoût de haricots blancs au chorizo et au paprika.",
+  "side": "Pain",
+  "tip": "Piquez le chorizo avant de le cuire pour qu'il rende sa graisse et sa couleur.",
+  "ingredients": [
+   {
+    "name": "Haricots blancs cuits",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "1"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le chorizo en rondelles et l'oignon haché dans l'huile.",
+   "Retirez du feu, ajoutez le paprika et les haricots.",
+   "Couvrez d'eau ou de bouillon.",
+   "Laissez cuire 25 minutes à feu doux jusqu'à épaississement."
+  ]
+ },
+ "es-bocadillo-de-calamares": {
+  "title": "Sandwich aux calamars",
+  "summary": "Le classique de Madrid : calamars frits dans un pain croustillant.",
+  "side": "Mayonnaise et citron",
+  "tip": "Séchez bien les anneaux avant de les fariner pour qu'ils restent croustillants.",
+  "ingredients": [
+   {
+    "name": "Anneaux de calamar",
+    "amount": "300 g"
+   },
+   {
+    "name": "Farine",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Petits pains",
+    "amount": "2"
+   },
+   {
+    "name": "Citron",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "5 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Séchez les anneaux de calamar avec du papier absorbant et salez-les.",
+   "Passez-les dans la farine en secouant l'excédent.",
+   "Faites-les frire dans l'huile très chaude 2 minutes jusqu'à ce qu'ils dorent.",
+   "Garnissez les petits pains de calamars et pressez du citron."
+  ]
+ },
+ "es-sopa-de-fideos": {
+  "title": "Soupe espagnole aux vermicelles",
+  "summary": "Bouillon de poulet aux vermicelles, le plat à la cuillère le plus réconfortant.",
+  "side": "Pain",
+  "tip": "Ajoutez les vermicelles au bouillon bouillant et cuisez seulement le temps indiqué.",
+  "ingredients": [
+   {
+    "name": "Bouillon de poulet",
+    "amount": "1 litre"
+   },
+   {
+    "name": "Vermicelles",
+    "amount": "100 g"
+   },
+   {
+    "name": "Carotte",
+    "amount": "1"
+   },
+   {
+    "name": "Œuf dur",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Chauffez le bouillon avec la carotte en fines rondelles.",
+   "Quand il bout, ajoutez les vermicelles.",
+   "Laissez cuire le temps indiqué sur le paquet.",
+   "Rectifiez le sel et servez avec de l'œuf dur haché."
+  ]
+ },
+ "es-croquetas-de-pollo": {
+  "title": "Croquettes de poulet",
+  "summary": "Croquettes crémeuses de poulet effiloché à la béchamel.",
+  "side": "Salade verte",
+  "tip": "Laissez refroidir la préparation plusieurs heures au frais pour la façonner facilement.",
+  "ingredients": [
+   {
+    "name": "Poulet cuit",
+    "amount": "200 g"
+   },
+   {
+    "name": "Lait",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Farine",
+    "amount": "5 cuillères à soupe"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Chapelure",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Huile",
+    "amount": "5 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Préparez une béchamel épaisse avec 3 cuillères d'huile, 3 de farine et le lait.",
+   "Ajoutez le poulet effiloché et le sel et laissez refroidir au réfrigérateur.",
+   "Façonnez des croquettes et passez-les dans la farine, l'œuf et la chapelure.",
+   "Faites-les frire dans l'huile chaude jusqu'à ce qu'elles dorent."
+  ]
+ },
+ "gen-sopa-de-zapallo-y-jengibre": {
+  "title": "Soupe de potiron au gingembre",
+  "summary": "Velouté soyeux de potiron avec une touche fraîche de gingembre.",
+  "side": "Pain grillé",
+  "tip": "Râpez finement le gingembre et ajoutez-le à la fin pour qu'il n'amère pas.",
+  "ingredients": [
+   {
+    "name": "Potiron",
+    "amount": "500 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Gingembre",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites revenir l'oignon haché dans l'huile jusqu'à ce qu'il soit translucide.",
+   "Ajoutez le potiron en dés et le bouillon et laissez cuire 20 minutes.",
+   "Ajoutez le gingembre râpé et le sel.",
+   "Mixez jusqu'à obtenir une texture crémeuse et servez chaud."
+  ]
+ },
+ "gen-pasta-con-tomates-cherry": {
+  "title": "Pâtes aux tomates cerises",
+  "summary": "Pâtes rapides aux tomates cerises sautées, à l'ail et au basilic.",
+  "side": "Fromage râpé",
+  "tip": "Faites sauter les tomates à feu vif jusqu'à ce qu'elles éclatent et rendent leur jus.",
+  "ingredients": [
+   {
+    "name": "Pâtes",
+    "amount": "200 g"
+   },
+   {
+    "name": "Tomates cerises",
+    "amount": "250 g"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Basilic",
+    "amount": "6 feuilles"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pâtes dans de l'eau salée jusqu'à ce qu'elles soient al dente.",
+   "Faites dorer l'ail en lamelles dans l'huile et ajoutez les tomates coupées en deux.",
+   "Laissez cuire 8 minutes jusqu'à ce qu'elles se défassent en sauce.",
+   "Mélangez avec les pâtes et terminez avec du basilic."
+  ]
+ },
+ "gen-pollo-con-garbanzos": {
+  "title": "Poulet aux pois chiches",
+  "summary": "Ragoût de poulet aux pois chiches, à la tomate et aux épices douces.",
+  "side": "Riz blanc",
+  "tip": "Utilisez des pois chiches en conserve ou déjà cuits pour qu'il soit prêt en moins d'une heure.",
+  "ingredients": [
+   {
+    "name": "Poulet",
+    "amount": "500 g"
+   },
+   {
+    "name": "Pois chiches cuits",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le poulet en morceaux dans l'huile avec du sel ; réservez.",
+   "Dans la même marmite, faites revenir l'oignon, la tomate et le paprika.",
+   "Remettez le poulet avec les pois chiches et un verre d'eau.",
+   "Laissez cuire à couvert 25 minutes à feu doux."
+  ]
+ },
+ "gen-pizza-de-pan-de-molde": {
+  "title": "Pizzas sur pain de mie",
+  "summary": "Pizzas rapides montées sur des tranches de pain de mie.",
+  "side": "Salade",
+  "tip": "Faites légèrement griller le pain avant de garnir pour qu'il ne ramollisse pas.",
+  "ingredients": [
+   {
+    "name": "Pain de mie",
+    "amount": "4 tranches"
+   },
+   {
+    "name": "Sauce tomate",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Fromage",
+    "amount": "100 g"
+   },
+   {
+    "name": "Jambon",
+    "amount": "2 tranches"
+   },
+   {
+    "name": "Origan",
+    "amount": "1 cuillère à café"
+   }
+  ],
+  "steps": [
+   "Faites légèrement griller les tranches de pain.",
+   "Garnissez de sauce tomate et de jambon en morceaux.",
+   "Ajoutez le fromage et saupoudrez d'origan.",
+   "Faites gratiner au four 6 minutes jusqu'à ce que le fromage fonde."
+  ]
+ },
+ "gen-rollitos-de-jamon-y-queso": {
+  "title": "Roulés jambon-fromage",
+  "summary": "Roulés de pâte garnis de jambon et de fromage, dorés au four.",
+  "side": "Salade de tomates",
+  "tip": "Scellez bien les bords avec un peu d'eau pour qu'ils ne perdent pas le fromage.",
+  "ingredients": [
+   {
+    "name": "Pâte à empanadas",
+    "amount": "8 disques"
+   },
+   {
+    "name": "Jambon cuit",
+    "amount": "150 g"
+   },
+   {
+    "name": "Fromage",
+    "amount": "150 g"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Posez une tranche de jambon et une de fromage sur chaque disque.",
+   "Roulez et scellez les bords avec un peu d'eau.",
+   "Badigeonnez d'œuf battu.",
+   "Faites cuire 20 minutes à four chaud jusqu'à ce qu'ils dorent."
+  ]
+ },
+ "gen-ensalada-de-pasta-con-pollo": {
+  "title": "Salade de pâtes au poulet",
+  "summary": "Salade froide de pâtes au poulet, à la tomate et au maïs.",
+  "side": "Pain",
+  "tip": "Rincez les pâtes à l'eau froide pour arrêter la cuisson et éviter qu'elles collent.",
+  "ingredients": [
+   {
+    "name": "Pâtes courtes",
+    "amount": "200 g"
+   },
+   {
+    "name": "Poulet cuit",
+    "amount": "200 g"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Maïs",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Mayonnaise",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pâtes, égouttez-les et passez-les sous l'eau froide.",
+   "Coupez le poulet et les tomates en dés.",
+   "Mélangez avec le maïs, les pâtes, l'huile et la mayonnaise.",
+   "Salez et réservez au frais avant de servir."
+  ]
+ },
+ "gen-arroz-con-espinaca": {
+  "title": "Riz aux épinards",
+  "summary": "Riz vert aux épinards, à l'ail et à l'oignon.",
+  "side": "Œuf dur",
+  "tip": "Mixez les épinards crus avec l'eau de cuisson pour une couleur bien verte.",
+  "ingredients": [
+   {
+    "name": "Riz",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Épinards",
+    "amount": "200 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1/2"
+   },
+   {
+    "name": "Ail",
+    "amount": "1 gousse"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mixez les épinards crus avec 2 tasses d'eau.",
+   "Faites revenir l'oignon et l'ail hachés dans l'huile et ajoutez le riz.",
+   "Ajoutez le mélange vert et le sel.",
+   "Couvrez et laissez cuire 15 minutes à feu doux."
+  ]
+ },
+ "gen-crema-de-puerros": {
+  "title": "Velouté de poireaux",
+  "summary": "Velouté doux de poireaux et de pommes de terre, idéal par temps froid.",
+  "side": "Pain grillé",
+  "tip": "N'utilisez que le blanc et le vert clair du poireau, bien lavés.",
+  "ingredients": [
+   {
+    "name": "Poireaux",
+    "amount": "3"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "2"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Crème fraîche",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez les poireaux en rondelles et faites-les suer dans l'huile sans les colorer.",
+   "Ajoutez les pommes de terre en dés et le bouillon.",
+   "Laissez cuire 20 minutes jusqu'à ce que tout soit tendre.",
+   "Mixez, ajoutez la crème et le sel et servez chaud."
+  ]
+ },
+ "gen-bocaditos-de-espinaca": {
+  "title": "Bouchées aux épinards",
+  "summary": "Boulettes au four d'épinards, de fromage et de chapelure.",
+  "side": "Yaourt au citron",
+  "tip": "Pressez très bien les épinards cuits pour que la préparation reste ferme.",
+  "ingredients": [
+   {
+    "name": "Épinards",
+    "amount": "300 g"
+   },
+   {
+    "name": "Fromage râpé",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Chapelure",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les épinards, égouttez-les bien et hachez-les finement.",
+   "Mélangez avec le fromage, les œufs, la chapelure et le sel.",
+   "Formez des boules de la taille d'une noix.",
+   "Faites cuire 20 minutes à four moyen jusqu'à ce qu'elles dorent."
+  ]
+ },
+ "gen-pollo-al-limon-con-arroz": {
+  "title": "Poulet au citron et riz",
+  "summary": "Poulet doré à la sauce citron et ail, servi avec du riz.",
+  "side": "Riz blanc",
+  "tip": "Ajoutez le citron à la fin pour qu'il n'amère pas.",
+  "ingredients": [
+   {
+    "name": "Poulet",
+    "amount": "600 g"
+   },
+   {
+    "name": "Citron",
+    "amount": "2"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Riz",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le poulet en morceaux dans l'huile avec du sel et de l'ail haché.",
+   "Ajoutez le jus d'un citron et 1/2 tasse d'eau.",
+   "Laissez cuire à couvert 20 minutes à feu doux.",
+   "Servez avec du riz bouilli et des rondelles de l'autre citron."
+  ]
+ },
+ "us-beef-stew": {
+  "title": "Ragoût de bœuf",
+  "summary": "Ragoût de bœuf tendre aux pommes de terre et aux carottes, réconfortant.",
+  "side": "Pain croustillant",
+  "tip": "Faites dorer la viande par lots pour qu'elle saisisse au lieu de bouillir.",
+  "ingredients": [
+   {
+    "name": "Bœuf en dés",
+    "amount": "500 g"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "3"
+   },
+   {
+    "name": "Carotte",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Bouillon de bœuf",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le bœuf en dés dans l'huile, par lots, et réservez.",
+   "Faites revenir l'oignon, ajoutez la viande et le bouillon et laissez mijoter à couvert 45 minutes.",
+   "Ajoutez les pommes de terre et les carottes en morceaux.",
+   "Laissez cuire 30 minutes de plus jusqu'à ce que tout soit tendre."
+  ]
+ },
+ "us-tuna-noodle-casserole": {
+  "title": "Casserole de pâtes au thon à l'américaine",
+  "summary": "Pâtes gratinées au thon, aux petits pois et à la sauce crémeuse.",
+  "side": "Salade verte",
+  "tip": "Ne cuisez pas complètement les pâtes : elles finissent de cuire au four.",
+  "ingredients": [
+   {
+    "name": "Pâtes",
+    "amount": "250 g"
+   },
+   {
+    "name": "Thon en boîte",
+    "amount": "2 boîtes"
+   },
+   {
+    "name": "Petits pois",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Crème ou béchamel",
+    "amount": "1 1/2 tasse"
+   },
+   {
+    "name": "Fromage râpé",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pâtes 2 minutes de moins que indiqué et égouttez-les.",
+   "Mélangez avec le thon égoutté, les petits pois et la sauce crémeuse.",
+   "Versez dans un plat et couvrez de fromage râpé.",
+   "Faites cuire 20 minutes à four moyen jusqu'à ce que ce soit gratiné."
+  ]
+ },
+ "us-cornbread": {
+  "title": "Pain de maïs américain",
+  "summary": "Pain doux et friable à la farine de maïs, pour accompagner les ragoûts.",
+  "side": "Beurre et miel",
+  "tip": "Ne mélangez pas trop la pâte : à peine mélangée, elle reste plus tendre.",
+  "ingredients": [
+   {
+    "name": "Farine de maïs",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Farine",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Lait",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Beurre fondu",
+    "amount": "1/3 tasse"
+   },
+   {
+    "name": "Sucre",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez les farines avec le sucre et le sel.",
+   "Ajoutez le lait, les œufs et le beurre fondu et mélangez juste assez.",
+   "Versez dans un moule beurré.",
+   "Faites cuire 25 minutes à four moyen jusqu'à ce que ce soit doré."
+  ]
+ },
+ "us-pulled-pork-sandwiches": {
+  "title": "Sandwichs au porc effiloché",
+  "summary": "Porc cuit lentement, effiloché à la sauce barbecue dans un pain moelleux.",
+  "side": "Salade de chou",
+  "tip": "Faites-le cuire bien couvert à feu doux jusqu'à ce qu'il s'effiloche à la fourchette.",
+  "ingredients": [
+   {
+    "name": "Épaule de porc",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Sauce barbecue",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Pains à burger",
+    "amount": "6"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Salez le porc et mettez-le dans une marmite avec l'oignon en rondelles.",
+   "Laissez cuire à couvert à feu doux 2 heures avec 1/2 tasse d'eau.",
+   "Effilochez-le avec deux fourchettes et mélangez avec la sauce barbecue.",
+   "Servez dans des pains tièdes."
+  ]
+ },
+ "us-egg-muffins": {
+  "title": "Muffins aux œufs",
+  "summary": "Mini omelettes au four aux légumes et au fromage, idéales pour le petit-déjeuner.",
+  "side": "Fruits",
+  "tip": "Graissez bien le moule pour que les muffins se démoulent sans se casser.",
+  "ingredients": [
+   {
+    "name": "Œuf",
+    "amount": "6"
+   },
+   {
+    "name": "Épinards",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1"
+   },
+   {
+    "name": "Fromage râpé",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Battez les œufs avec du sel.",
+   "Répartissez les épinards hachés, la tomate en dés et le fromage dans un moule à muffins beurré.",
+   "Versez l'œuf battu dans chaque alvéole.",
+   "Faites cuire 18 minutes à four moyen jusqu'à ce qu'ils soient pris."
+  ]
+ },
+ "us-chicken-pot-pie": {
+  "title": "Tourte au poulet crémeuse",
+  "summary": "Tourte garnie de poulet et de légumes dans une sauce crémeuse.",
+  "side": "Salade verte",
+  "tip": "Laissez refroidir la garniture avant de couvrir pour que la pâte ne ramollisse pas.",
+  "ingredients": [
+   {
+    "name": "Pâte à tarte",
+    "amount": "2 abaisses"
+   },
+   {
+    "name": "Poulet cuit",
+    "amount": "300 g"
+   },
+   {
+    "name": "Carotte",
+    "amount": "2"
+   },
+   {
+    "name": "Petits pois",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Crème ou béchamel",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire la carotte en dés et mélangez-la avec le poulet effiloché, les petits pois et la sauce.",
+   "Foncez un moule avec une abaisse.",
+   "Versez la garniture froide et couvrez avec l'autre abaisse en scellant les bords.",
+   "Faites cuire 35 minutes à four moyen jusqu'à ce que ce soit doré."
+  ]
+ },
+ "us-baked-ziti": {
+  "title": "Ziti au four",
+  "summary": "Pâtes au four à la sauce tomate, à la ricotta et à la mozzarella gratinée.",
+  "side": "Pain à l'ail",
+  "tip": "Ne cuisez pas complètement les pâtes : elles finissent de cuire au four.",
+  "ingredients": [
+   {
+    "name": "Pâtes courtes",
+    "amount": "300 g"
+   },
+   {
+    "name": "Sauce tomate",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Ricotta",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Mozzarella",
+    "amount": "200 g"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pâtes 2 minutes de moins que indiqué et égouttez-les.",
+   "Mélangez avec la sauce tomate et la ricotta.",
+   "Versez dans un plat et couvrez de mozzarella.",
+   "Faites cuire 25 minutes à four moyen jusqu'à ce que ce soit gratiné."
+  ]
+ },
+ "gb-lancashire-hotpot": {
+  "title": "Hotpot du Lancashire",
+  "summary": "Ragoût d'agneau aux oignons, couvert de couches de pommes de terre dorées.",
+  "side": "Chou bouilli",
+  "tip": "Superposez les tranches de pommes de terre et badigeonnez de beurre pour qu'elles dorent.",
+  "ingredients": [
+   {
+    "name": "Agneau en morceaux",
+    "amount": "600 g"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "4"
+   },
+   {
+    "name": "Oignon",
+    "amount": "2"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Beurre",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer l'agneau et mettez-en la moitié dans une cocotte avec l'oignon en rondelles.",
+   "Ajoutez le bouillon et couvrez de tranches de pommes de terre superposées.",
+   "Badigeonnez de beurre fondu et salez.",
+   "Faites cuire à couvert 1 heure puis à découvert 30 minutes de plus jusqu'à ce que les pommes de terre dorent."
+  ]
+ },
+ "gb-cheese-and-onion-pie": {
+  "title": "Tourte au fromage et à l'oignon",
+  "summary": "Tourte à l'oignon cuit et au fromage fort, simple et savoureuse.",
+  "side": "Pommes de terre bouillies",
+  "tip": "Faites cuire l'oignon lentement jusqu'à ce qu'il soit doux avant de garnir.",
+  "ingredients": [
+   {
+    "name": "Pâte à tarte",
+    "amount": "2 abaisses"
+   },
+   {
+    "name": "Oignon",
+    "amount": "3"
+   },
+   {
+    "name": "Cheddar",
+    "amount": "200 g"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les oignons en rondelles dans l'huile à feu doux 15 minutes.",
+   "Mélangez avec le fromage râpé et le sel et laissez refroidir.",
+   "Foncez un moule avec une abaisse, garnissez et couvrez avec l'autre.",
+   "Badigeonnez d'œuf et faites cuire 30 minutes à four moyen."
+  ]
+ },
+ "gb-scones": {
+  "title": "Scones anglais",
+  "summary": "Petits pains anglais moelleux pour l'heure du thé, avec du beurre et de la confiture.",
+  "side": "Confiture et crème",
+  "tip": "Utilisez du beurre très froid et ne travaillez pas trop la pâte pour qu'ils lèvent.",
+  "ingredients": [
+   {
+    "name": "Farine",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Beurre froid",
+    "amount": "1/3 tasse"
+   },
+   {
+    "name": "Lait",
+    "amount": "3/4 tasse"
+   },
+   {
+    "name": "Levure chimique",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sucre",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez la farine avec la levure, le sucre et le sel.",
+   "Sablez le beurre froid du bout des doigts.",
+   "Ajoutez le lait et rassemblez sans pétrir.",
+   "Découpez des disques de 3 cm d'épaisseur et faites cuire 15 minutes à four chaud."
+  ]
+ },
+ "gb-sausage-rolls": {
+  "title": "Feuilletés à la saucisse",
+  "summary": "Chair à saucisse assaisonnée enveloppée de pâte feuilletée.",
+  "side": "Ketchup ou moutarde",
+  "tip": "Scellez bien le bord avec une fourchette pour qu'il ne s'ouvre pas à la cuisson.",
+  "ingredients": [
+   {
+    "name": "Pâte feuilletée",
+    "amount": "2 abaisses"
+   },
+   {
+    "name": "Chair à saucisse ou porc haché",
+    "amount": "400 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1/2"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Mélangez la viande avec l'oignon râpé et le sel.",
+   "Déposez une bande de farce sur chaque pâte et roulez.",
+   "Scellez le bord à la fourchette et coupez en portions.",
+   "Badigeonnez d'œuf et faites cuire 25 minutes à four chaud."
+  ]
+ },
+ "gb-eggy-bread": {
+  "title": "Pain perdu salé à l'anglaise",
+  "summary": "Tranches de pain trempées dans l'œuf et poêlées, cousin salé du pain perdu.",
+  "side": "Ketchup",
+  "tip": "Trempez le pain juste un instant pour qu'il ne s'effrite pas.",
+  "ingredients": [
+   {
+    "name": "Pain",
+    "amount": "4 tranches"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Lait",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Beurre",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Battez les œufs avec le lait et le sel.",
+   "Trempez les tranches de pain dans le mélange des deux côtés.",
+   "Faites fondre le beurre dans une poêle.",
+   "Faites dorer le pain 2 minutes de chaque côté."
+  ]
+ },
+ "br-bife-a-cavalo": {
+  "title": "Bifteck à cheval",
+  "summary": "Bifteck poêlé surmonté d'un œuf au plat, servi avec du riz et des haricots.",
+  "side": "Riz et haricots",
+  "tip": "Faites frire l'œuf en dernier pour que le jaune reste coulant.",
+  "ingredients": [
+   {
+    "name": "Bifteck",
+    "amount": "2"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Ail",
+    "amount": "1 gousse"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Assaisonnez les biftecks de sel et d'ail haché.",
+   "Faites-les cuire dans une poêle avec de l'huile chaude 3 minutes de chaque côté.",
+   "Faites frire les œufs dans une autre poêle.",
+   "Servez chaque bifteck avec un œuf dessus."
+  ]
+ },
+ "br-pudim-de-leite": {
+  "title": "Flan brésilien au lait concentré",
+  "summary": "Flan brésilien crémeux au lait concentré sucré et au caramel.",
+  "side": "Fraises",
+  "tip": "Faites cuire au bain-marie et filtrez le mélange pour éviter les bulles.",
+  "ingredients": [
+   {
+    "name": "Lait concentré sucré",
+    "amount": "1 boîte"
+   },
+   {
+    "name": "Lait",
+    "amount": "2 boîtes pleines"
+   },
+   {
+    "name": "Œuf",
+    "amount": "3"
+   },
+   {
+    "name": "Sucre pour le caramel",
+    "amount": "1/2 tasse"
+   }
+  ],
+  "steps": [
+   "Préparez un caramel avec le sucre et versez-le dans un moule.",
+   "Mixez le lait concentré, le lait et les œufs et filtrez.",
+   "Versez dans le moule et faites cuire au bain-marie à couvert 50 minutes.",
+   "Laissez bien refroidir avant de démouler."
+  ]
+ },
+ "br-bolinho-de-chuva": {
+  "title": "Beignets de pluie brésiliens",
+  "summary": "Boules sucrées frites à la cannelle et au sucre, typiques des jours de pluie.",
+  "side": "Café",
+  "tip": "Laissez tomber la pâte à la cuillère dans l'huile moyennement chaude pour qu'elle cuise à cœur.",
+  "ingredients": [
+   {
+    "name": "Farine",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Lait",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Sucre",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Huile",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Cannelle",
+    "amount": "1 cuillère à café"
+   }
+  ],
+  "steps": [
+   "Mélangez la farine avec l'œuf, le lait et 2 cuillères de sucre pour obtenir une pâte épaisse.",
+   "Chauffez l'huile à feu moyen.",
+   "Déposez des cuillerées de pâte et faites frire jusqu'à ce qu'elles dorent.",
+   "Roulez dans du sucre à la cannelle encore chauds."
+  ]
+ },
+ "br-aipim-frito": {
+  "title": "Manioc frit brésilien",
+  "summary": "Bâtonnets de manioc frits au sel et au citron vert, croustillants et dorés.",
+  "side": "Bœuf à l'ail",
+  "tip": "Faites cuire le manioc jusqu'à ce qu'il s'entrouvre et séchez-le bien avant de frire.",
+  "ingredients": [
+   {
+    "name": "Manioc",
+    "amount": "700 g"
+   },
+   {
+    "name": "Huile",
+    "amount": "500 ml"
+   },
+   {
+    "name": "Citron vert",
+    "amount": "1"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Pelez le manioc et coupez-le en bâtonnets sans le cœur fibreux.",
+   "Faites bouillir avec du sel 15 minutes et égouttez bien.",
+   "Faites frire dans l'huile chaude jusqu'à ce qu'il dore.",
+   "Servez avec du sel et un filet de citron vert."
+  ]
+ },
+ "br-vaca-atolada": {
+  "title": "Côtes de bœuf au manioc à la brésilienne",
+  "summary": "Côtes de bœuf au manioc cuites jusqu'à ce que le manioc épaississe le bouillon.",
+  "side": "Riz blanc",
+  "tip": "Cuisez lentement jusqu'à ce que le manioc se défasse et épaississe le ragoût.",
+  "ingredients": [
+   {
+    "name": "Côtes de bœuf",
+    "amount": "800 g"
+   },
+   {
+    "name": "Manioc",
+    "amount": "500 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Tomate",
+    "amount": "2"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer les côtes dans l'huile avec du sel et de l'ail.",
+   "Ajoutez l'oignon et la tomate hachés et couvrez d'eau.",
+   "Laissez cuire à couvert 1 heure jusqu'à ce que la viande soit tendre.",
+   "Ajoutez le manioc en morceaux et laissez cuire 30 minutes de plus jusqu'à épaississement."
+  ]
+ },
+ "br-sopa-de-ervilha": {
+  "title": "Soupe de pois brésilienne",
+  "summary": "Soupe crémeuse de petits pois à la pomme de terre et au lard.",
+  "side": "Pain grillé",
+  "tip": "Si vous utilisez des pois secs, faites-les tremper la veille.",
+  "ingredients": [
+   {
+    "name": "Petits pois",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Pomme de terre",
+    "amount": "1"
+   },
+   {
+    "name": "Lard",
+    "amount": "80 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer le lard haché et l'oignon dans une marmite.",
+   "Ajoutez la pomme de terre en dés, les petits pois et le bouillon.",
+   "Laissez cuire 25 minutes jusqu'à ce que tout soit tendre.",
+   "Mixez la moitié pour épaissir et servez chaud."
+  ]
+ },
+ "it-pasta-alla-gricia": {
+  "title": "Pasta alla gricia",
+  "summary": "Pâtes romaines au guanciale croustillant, au pecorino et au poivre noir.",
+  "side": "Poivre fraîchement moulu",
+  "tip": "Mélangez hors du feu avec un peu d'eau de cuisson pour une sauce crémeuse.",
+  "ingredients": [
+   {
+    "name": "Pâtes",
+    "amount": "200 g"
+   },
+   {
+    "name": "Lard ou guanciale",
+    "amount": "100 g"
+   },
+   {
+    "name": "Pecorino ou parmesan",
+    "amount": "60 g"
+   },
+   {
+    "name": "Poivre noir",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites cuire les pâtes dans de l'eau salée et gardez une tasse d'eau de cuisson.",
+   "Faites dorer le lard en dés dans une poêle jusqu'à ce qu'il soit croustillant.",
+   "Ajoutez les pâtes dans la poêle avec un peu d'eau de cuisson et le poivre.",
+   "Hors du feu, mélangez avec le fromage râpé et servez."
+  ]
+ },
+ "it-saltimbocca-alla-romana": {
+  "title": "Saltimbocca à la romaine",
+  "summary": "Escalopes de veau au jambon cru et à la sauge, dorés au beurre.",
+  "side": "Pommes de terre rôties",
+  "tip": "Fixez la sauge et le jambon avec un pique et cuisez vite.",
+  "ingredients": [
+   {
+    "name": "Escalopes de veau",
+    "amount": "4"
+   },
+   {
+    "name": "Jambon cru",
+    "amount": "4 tranches"
+   },
+   {
+    "name": "Sauge",
+    "amount": "4 feuilles"
+   },
+   {
+    "name": "Beurre",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Vin blanc",
+    "amount": "1/4 tasse"
+   }
+  ],
+  "steps": [
+   "Posez une feuille de sauge et une tranche de jambon sur chaque escalope et fixez avec un pique.",
+   "Faites fondre le beurre dans une poêle et faites dorer les escalopes côté jambon 2 minutes.",
+   "Retournez et laissez cuire 1 minute de plus.",
+   "Déglacez avec le vin blanc et servez avec la sauce."
+  ]
+ },
+ "it-panzanella": {
+  "title": "Panzanella",
+  "summary": "Salade toscane de pain rassis à la tomate, à l'oignon et au basilic.",
+  "side": "Fromage",
+  "tip": "Trempez le pain brièvement et pressez-le : il doit être humide, pas détrempé.",
+  "ingredients": [
+   {
+    "name": "Pain rassis",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tomate",
+    "amount": "4"
+   },
+   {
+    "name": "Oignon rouge",
+    "amount": "1/2"
+   },
+   {
+    "name": "Basilic",
+    "amount": "8 feuilles"
+   },
+   {
+    "name": "Vinaigre",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Coupez le pain en dés, trempez-le brièvement dans l'eau et pressez-le.",
+   "Coupez les tomates en morceaux et l'oignon en fines lamelles.",
+   "Mélangez le tout avec le basilic.",
+   "Assaisonnez d'huile, de vinaigre et de sel et laissez reposer 15 minutes."
+  ]
+ },
+ "it-crostata-di-marmellata": {
+  "title": "Crostata à la confiture",
+  "summary": "Tarte italienne sablée garnie de confiture et décorée de bandes croisées.",
+  "side": "Thé ou café",
+  "tip": "Faites refroidir la pâte 30 minutes pour qu'elle ne rétrécisse pas à la cuisson.",
+  "ingredients": [
+   {
+    "name": "Farine",
+    "amount": "300 g"
+   },
+   {
+    "name": "Beurre froid",
+    "amount": "150 g"
+   },
+   {
+    "name": "Sucre",
+    "amount": "100 g"
+   },
+   {
+    "name": "Œuf",
+    "amount": "1"
+   },
+   {
+    "name": "Confiture",
+    "amount": "300 g"
+   }
+  ],
+  "steps": [
+   "Mélangez la farine avec le beurre froid, le sucre et l'œuf pour former une pâte et réservez-la 30 minutes au frais.",
+   "Étalez les deux tiers et foncez un moule.",
+   "Garnissez de confiture.",
+   "Couvrez de bandes de pâte croisées et faites cuire 35 minutes à four moyen."
+  ]
+ },
+ "it-torta-della-nonna": {
+  "title": "Tarte de la grand-mère italienne",
+  "summary": "Tarte à la crème pâtissière et aux pignons sur pâte sablée.",
+  "side": "Sucre glace",
+  "tip": "Laissez refroidir la crème avant de garnir pour que la pâte ne ramollisse pas.",
+  "ingredients": [
+   {
+    "name": "Pâte sablée",
+    "amount": "1 grand disque"
+   },
+   {
+    "name": "Lait",
+    "amount": "2 tasses"
+   },
+   {
+    "name": "Jaunes d'œufs",
+    "amount": "4"
+   },
+   {
+    "name": "Sucre",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Maïzena ou farine",
+    "amount": "4 cuillères à soupe"
+   },
+   {
+    "name": "Pignons",
+    "amount": "3 cuillères à soupe"
+   }
+  ],
+  "steps": [
+   "Faites cuire le lait avec les jaunes, le sucre et la farine jusqu'à épaississement et laissez refroidir.",
+   "Foncez un moule avec la pâte.",
+   "Versez la crème et parsemez de pignons.",
+   "Faites cuire 35 minutes à four moyen jusqu'à ce que ce soit doré."
+  ]
+ },
+ "it-fagioli-all-uccelletto": {
+  "title": "Haricots blancs à l'uccelletto",
+  "summary": "Haricots blancs à la tomate, à l'ail et à la sauge, à la toscane.",
+  "side": "Pain grillé",
+  "tip": "Laissez cuire la tomate quelques minutes avec l'ail avant d'ajouter les haricots.",
+  "ingredients": [
+   {
+    "name": "Haricots blancs cuits",
+    "amount": "3 tasses"
+   },
+   {
+    "name": "Tomates concassées",
+    "amount": "1 tasse"
+   },
+   {
+    "name": "Ail",
+    "amount": "2 gousses"
+   },
+   {
+    "name": "Sauge",
+    "amount": "4 feuilles"
+   },
+   {
+    "name": "Huile",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer l'ail et la sauge dans l'huile.",
+   "Ajoutez les tomates concassées et laissez cuire 8 minutes.",
+   "Ajoutez les haricots et le sel.",
+   "Laissez cuire 15 minutes à feu doux jusqu'à épaississement."
+  ]
+ },
+ "de-apfelstrudel": {
+  "title": "Strudel aux pommes",
+  "summary": "Pâte fine roulée autour de pommes à la cannelle et à la chapelure.",
+  "side": "Crème ou glace à la vanille",
+  "tip": "Étirez la pâte le plus finement possible : on doit voir la table à travers.",
+  "ingredients": [
+   {
+    "name": "Pâte à strudel ou feuilletée",
+    "amount": "1 abaisse"
+   },
+   {
+    "name": "Pomme",
+    "amount": "4"
+   },
+   {
+    "name": "Sucre",
+    "amount": "1/3 tasse"
+   },
+   {
+    "name": "Cannelle",
+    "amount": "1 cuillère à café"
+   },
+   {
+    "name": "Chapelure",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Beurre fondu",
+    "amount": "3 cuillères à soupe"
+   }
+  ],
+  "steps": [
+   "Pelez et émincez les pommes et mélangez-les avec le sucre et la cannelle.",
+   "Saupoudrez la pâte de chapelure et répartissez les pommes.",
+   "Roulez, badigeonnez de beurre et déposez sur une plaque.",
+   "Faites cuire 35 minutes à four moyen jusqu'à ce que ce soit doré."
+  ]
+ },
+ "de-kartoffelgratin": {
+  "title": "Gratin de pommes de terre allemand",
+  "summary": "Pommes de terre en fines lamelles gratinées à la crème et au fromage.",
+  "side": "Salade verte",
+  "tip": "Coupez les pommes de terre fines et régulières, idéalement à la mandoline, pour une cuisson uniforme.",
+  "ingredients": [
+   {
+    "name": "Pomme de terre",
+    "amount": "800 g"
+   },
+   {
+    "name": "Crème fraîche",
+    "amount": "300 ml"
+   },
+   {
+    "name": "Fromage râpé",
+    "amount": "100 g"
+   },
+   {
+    "name": "Ail",
+    "amount": "1 gousse"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Frottez un plat à l'ail et garnissez-le de pommes de terre en fines lamelles.",
+   "Ajoutez la crème avec du sel et une partie du fromage.",
+   "Couvrez du reste de fromage.",
+   "Faites cuire 50 minutes à four moyen jusqu'à ce que ce soit doré et tendre."
+  ]
+ },
+ "de-rotkohl-mit-aepfeln": {
+  "title": "Chou rouge aux pommes",
+  "summary": "Chou rouge braisé aux pommes, au vinaigre et à une touche sucrée.",
+  "side": "Saucisses ou viande rôtie",
+  "tip": "Le vinaigre fixe la couleur : ajoutez-le dès le début.",
+  "ingredients": [
+   {
+    "name": "Chou rouge",
+    "amount": "1/2"
+   },
+   {
+    "name": "Pomme",
+    "amount": "2"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Vinaigre",
+    "amount": "3 cuillères à soupe"
+   },
+   {
+    "name": "Sucre",
+    "amount": "1 cuillère à soupe"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Émincez le chou et faites-le suer avec l'oignon dans l'huile.",
+   "Ajoutez les pommes en dés, le vinaigre, le sucre, le sel et un demi-verre d'eau.",
+   "Laissez cuire à couvert à feu doux 40 minutes.",
+   "Découvrez et laissez réduire quelques minutes jusqu'à épaississement."
+  ]
+ },
+ "de-pfannkuchensuppe": {
+  "title": "Soupe de crêpes",
+  "summary": "Bouillon aux lanières de crêpe, un classique de la cuisine allemande.",
+  "side": "Pain",
+  "tip": "Coupez les crêpes en fines lanières et ajoutez-les au service pour qu'elles ne se défassent pas.",
+  "ingredients": [
+   {
+    "name": "Farine",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Lait",
+    "amount": "1/2 tasse"
+   },
+   {
+    "name": "Bouillon",
+    "amount": "1 litre"
+   },
+   {
+    "name": "Ciboulette ou persil",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Fouettez la farine avec les œufs, le lait et le sel pour obtenir une pâte fluide.",
+   "Faites des crêpes fines dans une poêle huilée.",
+   "Coupez-les en fines lanières.",
+   "Servez le bouillon chaud avec les lanières et la ciboulette hachée."
+  ]
+ },
+ "de-leberkaese-mit-spiegelei": {
+  "title": "Leberkäse à l'œuf au plat",
+  "summary": "Tranches dorées de pain de viande allemand avec un œuf au plat et du pain.",
+  "side": "Moutarde douce et pain",
+  "tip": "Faites dorer les tranches à feu moyen-vif pour qu'elles soient croustillantes à l'extérieur.",
+  "ingredients": [
+   {
+    "name": "Leberkäse ou pain de viande",
+    "amount": "4 tranches"
+   },
+   {
+    "name": "Œuf",
+    "amount": "2"
+   },
+   {
+    "name": "Pain",
+    "amount": "2 tranches"
+   },
+   {
+    "name": "Huile",
+    "amount": "2 cuillères à soupe"
+   },
+   {
+    "name": "Sel",
+    "amount": "à votre goût"
+   }
+  ],
+  "steps": [
+   "Faites dorer les tranches dans une poêle avec de l'huile 3 minutes de chaque côté.",
+   "Gardez-les au chaud.",
+   "Faites frire les œufs dans la même poêle.",
+   "Servez avec les œufs dessus et du pain."
+  ]
+ },
+ "de-schupfnudeln-mit-sauerkraut": {
+  "title": "Schupfnudeln à la choucroute",
+  "summary": "Nouilles de pomme de terre poêlées à la choucroute et au lard.",
+  "side": "Moutarde",
+  "tip": "Faites bien dorer les nouilles de pomme de terre à la poêle jusqu'à ce qu'elles soient croustillantes.",
+  "ingredients": [
+   {
+    "name": "Schupfnudeln ou gnocchis de pomme de terre",
+    "amount": "500 g"
+   },
+   {
+    "name": "Choucroute",
+    "amount": "300 g"
+   },
+   {
+    "name": "Lard",
+    "amount": "100 g"
+   },
+   {
+    "name": "Oignon",
+    "amount": "1"
+   },
+   {
+    "name": "Huile",
+    "amount": "1 cuillère à soupe"
+   }
+  ],
+  "steps": [
+   "Faites dorer le lard et l'oignon hachés dans une grande poêle.",
+   "Ajoutez la choucroute et faites sauter 5 minutes.",
+   "À part, faites dorer les nouilles de pomme de terre dans l'huile jusqu'à ce qu'elles soient croustillantes.",
+   "Mélangez le tout et servez chaud."
+  ]
  }
 }

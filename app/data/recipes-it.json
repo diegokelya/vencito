@@ -2518,5 +2518,392 @@
     ],
     "tip": "Aggiungi il brodo caldo poco alla volta e mescola spesso per ottenere la cremosità.",
     "origin": "IT"
+  },
+  {
+    "id": "it-pasta-alla-gricia",
+    "title": "Pasta alla gricia",
+    "summary": "Pasta romana con guanciale croccante, pecorino e pepe nero.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Pepe macinato al momento",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "spaghetti",
+          "rigatoni",
+          "mezze maniche"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Guanciale o pancetta",
+        "keywords": [
+          "guanciale",
+          "pancetta",
+          "bacon"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Pecorino o parmigiano",
+        "keywords": [
+          "pecorino",
+          "parmigiano",
+          "formaggio"
+        ],
+        "amount": "60 g"
+      },
+      {
+        "name": "Pepe nero",
+        "keywords": [
+          "pepe"
+        ],
+        "amount": "1 cucchiaino",
+        "kind": "optional"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cuoci la pasta in acqua salata e conserva una tazza d'acqua di cottura.",
+      "Rosola il guanciale a dadini in una padella fino a renderlo croccante.",
+      "Aggiungi la pasta in padella con un po' d'acqua di cottura e il pepe.",
+      "Fuori dal fuoco, manteca con il formaggio grattugiato e servi."
+    ],
+    "tip": "Manteca fuori dal fuoco con un po' d'acqua di cottura per una crema.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-saltimbocca-alla-romana",
+    "title": "Saltimbocca alla romana",
+    "summary": "Fettine di vitello con prosciutto crudo e salvia, rosolate nel burro.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Patate arrosto",
+    "ingredients": [
+      {
+        "name": "Fettine di vitello",
+        "keywords": [
+          "vitello",
+          "fettine",
+          "scaloppine"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Prosciutto crudo",
+        "keywords": [
+          "prosciutto"
+        ],
+        "amount": "4 fette"
+      },
+      {
+        "name": "Salvia",
+        "keywords": [
+          "salvia"
+        ],
+        "amount": "4 foglie"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro"
+        ],
+        "amount": "2 cucchiai"
+      },
+      {
+        "name": "Vino bianco",
+        "keywords": [
+          "vino"
+        ],
+        "amount": "1/4 tazza",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Metti una foglia di salvia e una fetta di prosciutto su ogni fettina e fissa con uno stuzzicadenti.",
+      "Fai sciogliere il burro in una padella e rosola le fettine dal lato del prosciutto per 2 minuti.",
+      "Girale e cuoci ancora 1 minuto.",
+      "Sfuma con il vino bianco e servi con il sughetto."
+    ],
+    "tip": "Fissa la salvia e il prosciutto con uno stuzzicadenti e cuoci in fretta.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-panzanella",
+    "title": "Panzanella",
+    "summary": "Insalata toscana di pane raffermo con pomodoro, cipolla e basilico.",
+    "minutes": 20,
+    "servings": 3,
+    "side": "Formaggio",
+    "ingredients": [
+      {
+        "name": "Pane raffermo",
+        "keywords": [
+          "pane"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Pomodoro",
+        "keywords": [
+          "pomodoro",
+          "pomodori"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Cipolla rossa",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "8 foglie",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceto",
+        "keywords": [
+          "aceto"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio",
+        "keywords": [
+          "olio",
+          "olio d'oliva"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Taglia il pane a cubetti, bagnalo brevemente in acqua e strizzalo.",
+      "Taglia i pomodori a pezzi e la cipolla a fettine sottili.",
+      "Mescola tutto con il basilico.",
+      "Condisci con olio, aceto e sale e lascia riposare 15 minuti."
+    ],
+    "tip": "Bagna il pane solo brevemente e strizzalo: deve essere umido, non fradicio.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-crostata-di-marmellata",
+    "title": "Crostata di marmellata",
+    "summary": "Torta italiana di pasta frolla farcita con marmellata e strisce incrociate.",
+    "minutes": 60,
+    "servings": 8,
+    "side": "Tè o caffè",
+    "ingredients": [
+      {
+        "name": "Farina",
+        "keywords": [
+          "farina"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Burro freddo",
+        "keywords": [
+          "burro"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Zucchero",
+        "keywords": [
+          "zucchero"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Uovo",
+        "keywords": [
+          "uovo"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Marmellata",
+        "keywords": [
+          "marmellata",
+          "confettura"
+        ],
+        "amount": "300 g"
+      }
+    ],
+    "steps": [
+      "Impasta la farina con il burro freddo, lo zucchero e l'uovo fino a formare un panetto e fallo riposare 30 minuti in frigo.",
+      "Stendi due terzi e fodera uno stampo.",
+      "Riempi con la marmellata.",
+      "Copri con strisce di pasta incrociate e inforna per 35 minuti a forno medio."
+    ],
+    "tip": "Fai riposare la frolla 30 minuti in frigo perché non si ritiri in cottura.",
+    "origin": "IT",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "it-torta-della-nonna",
+    "title": "Torta della nonna",
+    "summary": "Torta di crema pasticcera e pinoli su base di pasta frolla.",
+    "minutes": 70,
+    "servings": 8,
+    "side": "Zucchero a velo",
+    "ingredients": [
+      {
+        "name": "Pasta frolla",
+        "keywords": [
+          "frolla",
+          "pasta"
+        ],
+        "amount": "1 disco grande"
+      },
+      {
+        "name": "Latte",
+        "keywords": [
+          "latte"
+        ],
+        "amount": "2 tazze"
+      },
+      {
+        "name": "Tuorli",
+        "keywords": [
+          "tuorli",
+          "uova",
+          "uovo"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Zucchero",
+        "keywords": [
+          "zucchero"
+        ],
+        "amount": "1/2 tazza",
+        "kind": "optional"
+      },
+      {
+        "name": "Maizena o farina",
+        "keywords": [
+          "maizena",
+          "farina",
+          "amido"
+        ],
+        "amount": "4 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Pinoli",
+        "keywords": [
+          "pinoli"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cuoci il latte con i tuorli, lo zucchero e la farina finché si addensa e lascia raffreddare.",
+      "Fodera uno stampo con la pasta frolla.",
+      "Versa la crema e cospargi di pinoli.",
+      "Inforna per 35 minuti a forno medio fino a doratura."
+    ],
+    "tip": "Lascia raffreddare la crema prima di farcire perché la pasta non si inumidisca.",
+    "origin": "IT",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "it-fagioli-all-uccelletto",
+    "title": "Fagioli all'uccelletto",
+    "summary": "Fagioli bianchi con pomodoro, aglio e salvia, alla toscana.",
+    "minutes": 40,
+    "servings": 3,
+    "side": "Pane tostato",
+    "ingredients": [
+      {
+        "name": "Fagioli bianchi cotti",
+        "keywords": [
+          "fagioli",
+          "cannellini"
+        ],
+        "amount": "3 tazze"
+      },
+      {
+        "name": "Pomodoro pelato",
+        "keywords": [
+          "pomodoro",
+          "pelati",
+          "passata"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "2 spicchi"
+      },
+      {
+        "name": "Salvia",
+        "keywords": [
+          "salvia"
+        ],
+        "amount": "4 foglie",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio",
+        "keywords": [
+          "olio",
+          "olio d'oliva"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "q.b.",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rosola l'aglio e la salvia nell'olio.",
+      "Aggiungi il pomodoro e cuoci 8 minuti.",
+      "Unisci i fagioli e il sale.",
+      "Cuoci 15 minuti a fuoco basso finché si addensa."
+    ],
+    "tip": "Lascia cuocere il pomodoro qualche minuto con l'aglio prima di aggiungere i fagioli.",
+    "origin": "IT"
   }
 ]

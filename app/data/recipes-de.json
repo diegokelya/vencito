@@ -2858,5 +2858,397 @@
     ],
     "tip": "Die Klopse nur sanft garen, damit sie nicht zerfallen.",
     "origin": "DE"
+  },
+  {
+    "id": "de-apfelstrudel",
+    "title": "Apfelstrudel",
+    "summary": "Dünner Teig, gefüllt mit Äpfeln, Zimt und Semmelbröseln.",
+    "minutes": 60,
+    "servings": 6,
+    "side": "Sahne oder Vanilleeis",
+    "ingredients": [
+      {
+        "name": "Strudelteig oder Blätterteig",
+        "keywords": [
+          "strudelteig",
+          "blätterteig",
+          "teig"
+        ],
+        "amount": "1 Platte"
+      },
+      {
+        "name": "Apfel",
+        "keywords": [
+          "apfel",
+          "äpfel"
+        ],
+        "amount": "4 Stück"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "1/3 Tasse"
+      },
+      {
+        "name": "Zimt",
+        "keywords": [
+          "zimt"
+        ],
+        "amount": "1 Teelöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Semmelbrösel",
+        "keywords": [
+          "semmelbrösel",
+          "paniermehl"
+        ],
+        "amount": "3 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Geschmolzene Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "3 Esslöffel",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Die Äpfel schälen, in Scheiben schneiden und mit Zucker und Zimt mischen.",
+      "Den Teig mit den Semmelbröseln bestreuen und die Äpfel darauf verteilen.",
+      "Aufrollen, mit Butter bestreichen und auf ein Blech legen.",
+      "35 Minuten bei mittlerer Hitze goldbraun backen."
+    ],
+    "tip": "Den Teig so dünn wie möglich ausziehen: man soll den Tisch hindurch sehen.",
+    "origin": "DE",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "de-kartoffelgratin",
+    "title": "Kartoffelgratin",
+    "summary": "In dünne Scheiben geschnittene Kartoffeln, mit Sahne und Käse überbacken.",
+    "minutes": 70,
+    "servings": 4,
+    "side": "Grüner Salat",
+    "ingredients": [
+      {
+        "name": "Kartoffel",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Sahne",
+        "keywords": [
+          "sahne",
+          "schlagsahne"
+        ],
+        "amount": "300 ml"
+      },
+      {
+        "name": "Geriebener Käse",
+        "keywords": [
+          "käse",
+          "gouda",
+          "emmentaler"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Knoblauch",
+        "keywords": [
+          "knoblauch"
+        ],
+        "amount": "1 Zehe",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Eine Form mit Knoblauch ausreiben und mit den dünnen Kartoffelscheiben füllen.",
+      "Die Sahne mit Salz und einem Teil des Käses zugeben.",
+      "Mit dem restlichen Käse bedecken.",
+      "50 Minuten bei mittlerer Hitze goldbraun und weich backen."
+    ],
+    "tip": "Die Kartoffeln dünn und gleichmäßig schneiden, am besten mit dem Hobel, damit sie gleich garen.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-rotkohl-mit-aepfeln",
+    "title": "Rotkohl mit Äpfeln",
+    "summary": "Geschmorter Rotkohl mit Apfel, Essig und einer süßen Note.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Würstchen oder Braten",
+    "ingredients": [
+      {
+        "name": "Rotkohl",
+        "keywords": [
+          "rotkohl",
+          "rotkraut",
+          "blaukraut"
+        ],
+        "amount": "1/2 Kopf"
+      },
+      {
+        "name": "Apfel",
+        "keywords": [
+          "apfel",
+          "äpfel"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Essig",
+        "keywords": [
+          "essig"
+        ],
+        "amount": "3 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "öl",
+          "olivenöl"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Den Rotkohl in feine Streifen schneiden und mit der Zwiebel in Öl andünsten.",
+      "Die gewürfelten Äpfel, Essig, Zucker, Salz und ein halbes Glas Wasser zugeben.",
+      "Zugedeckt bei niedriger Hitze 40 Minuten schmoren.",
+      "Aufdecken und einige Minuten einkochen, bis es eindickt."
+    ],
+    "tip": "Der Essig fixiert die Farbe: von Anfang an zugeben.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-pfannkuchensuppe",
+    "title": "Pfannkuchensuppe",
+    "summary": "Brühe mit Pfannkuchenstreifen, ein Klassiker der deutschen Küche.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "1/2 Tasse"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "1/2 Tasse"
+      },
+      {
+        "name": "Brühe",
+        "keywords": [
+          "brühe",
+          "bouillon",
+          "fleischbrühe"
+        ],
+        "amount": "1 Liter"
+      },
+      {
+        "name": "Schnittlauch oder Petersilie",
+        "keywords": [
+          "schnittlauch",
+          "petersilie"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mehl mit Eiern, Milch und Salz zu einem flüssigen Teig verrühren.",
+      "In einer gefetteten Pfanne dünne Pfannkuchen backen.",
+      "In feine Streifen schneiden.",
+      "Die heiße Brühe mit den Streifen und dem gehackten Schnittlauch servieren."
+    ],
+    "tip": "Die Pfannkuchen in dünne Streifen schneiden und erst beim Servieren zugeben, damit sie nicht zerfallen.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-leberkaese-mit-spiegelei",
+    "title": "Leberkäse mit Spiegelei",
+    "summary": "Angebratene Leberkäsescheiben mit Spiegelei und Brot.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Süßer Senf und Brot",
+    "ingredients": [
+      {
+        "name": "Leberkäse",
+        "keywords": [
+          "leberkäse",
+          "leberkase",
+          "fleischkäse",
+          "fleischkase"
+        ],
+        "amount": "4 Scheiben"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Brot",
+        "keywords": [
+          "brot",
+          "semmel",
+          "brötchen"
+        ],
+        "amount": "2 Scheiben",
+        "kind": "optional"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "öl",
+          "olivenöl"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Salz",
+        "keywords": [
+          "salz"
+        ],
+        "amount": "nach Geschmack",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Scheiben in einer Pfanne mit Öl je 3 Minuten pro Seite anbraten.",
+      "Warm halten.",
+      "In derselben Pfanne die Eier braten.",
+      "Mit den Spiegeleiern obenauf und Brot servieren."
+    ],
+    "tip": "Die Scheiben bei mittlerer bis starker Hitze braten, damit sie außen knusprig werden.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-schupfnudeln-mit-sauerkraut",
+    "title": "Schupfnudeln mit Sauerkraut",
+    "summary": "Gebratene Kartoffelnudeln mit Sauerkraut und Speck.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Senf",
+    "ingredients": [
+      {
+        "name": "Schupfnudeln",
+        "keywords": [
+          "schupfnudeln",
+          "kartoffelnudeln",
+          "gnocchi"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Sauerkraut",
+        "keywords": [
+          "sauerkraut"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Speck",
+        "keywords": [
+          "speck",
+          "bacon"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "öl",
+          "olivenöl"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Den gehackten Speck und die Zwiebel in einer großen Pfanne anbraten.",
+      "Das Sauerkraut zugeben und 5 Minuten braten.",
+      "Separat die Schupfnudeln in Öl knusprig anbraten.",
+      "Alles vermengen und heiß servieren."
+    ],
+    "tip": "Die Schupfnudeln in der Pfanne gut bräunen, bis sie knusprig sind.",
+    "origin": "DE"
   }
 ]
