@@ -3,7 +3,7 @@ const VERSION = 'vencito-pwa-40';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'i18n.js', 'icons.js', 'dateparser.js', 'scan.js', 'receipt.js', 'recipes.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', '../assets/img/icon.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'vencito-offline').map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 // Primero la red (para recibir versiones nuevas) y, sin conexión, lo guardado.
 self.addEventListener('fetch', e => {
