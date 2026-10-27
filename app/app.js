@@ -22,7 +22,15 @@
   const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, sound: true, shake: false, autoShop: false, welcomed: false, units: 'auto', wplan: [], saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
-  const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
+  // Copia durable en IndexedDB además de localStorage: si uno falla, el otro conserva los datos.
+  const IDB = 'vencito-db';
+  const idbOpen = () => new Promise((res, rej) => { if (!window.indexedDB) return rej(new Error('sin IndexedDB')); const q = indexedDB.open(IDB, 1); q.onupgradeneeded = () => q.result.createObjectStore('state'); q.onsuccess = () => res(q.result); q.onerror = () => rej(q.error); });
+  const idbPut = (k, v) => idbOpen().then(db => new Promise((res, rej) => { const tx = db.transaction('state', 'readwrite'); tx.objectStore('state').put(v, k); tx.oncomplete = () => { db.close(); res(); }; tx.onerror = tx.onabort = () => { db.close(); rej(tx.error); }; }));
+  const idbGet = k => idbOpen().then(db => new Promise((res, rej) => { const q = db.transaction('state').objectStore('state').get(k); q.onsuccess = () => { db.close(); res(q.result); }; q.onerror = () => { db.close(); rej(q.error); }; }));
+  const lsWrite = json => { try { localStorage.setItem(LS, json); return localStorage.getItem(LS) === json; } catch (e) { return false; } };
+  const save = () => { const json = JSON.stringify(S), ls = lsWrite(json); idbPut('state', json).catch(() => { if (!ls) toast(t('No se pudo guardar en este navegador')); }); return ls; };
+  // Guarda y confirma leyendo de vuelta: true solo si al menos una de las dos copias quedó verificada.
+  const saveVerified = async () => { const json = JSON.stringify(S), ls = lsWrite(json); let idb = false; try { await idbPut('state', json); idb = (await idbGet('state')) === json; } catch (e) {} return ls || idb; };
   const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rmeal: '', rorigin: '', rdoable: 0, rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', loc: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, shKey: '', opener: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
 
   /* ---------- casas: cada una con sus productos ---------- */
@@ -171,11 +179,12 @@
     return `<div class="row"><h1 class="grow brand"><img src="icons/icon-192.png" alt="" width="36" height="36">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">${ico('chart-column')}</button></div>
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
-      <div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button><button class="btn" data-act="ticket"><b>${ico('receipt-text')}</b>${esc(t('Cargar ticket'))}</button></div>
-      <button class="btn block" style="margin:8px 0;text-align:left" data-act="week">${ico('calendar')} <b>${esc(t('Plan de la semana'))}</b><br><span class="small muted">${esc(weekCardSubtitle())}</span></button>
+      <div class="quick two main"><button class="btn primary" data-act="add"><b>${ico('plus')}</b>${esc(t('Agregar producto'))}</button><label class="btn" for="imp2" style="cursor:pointer"><b>${ico('download')}</b>${esc(t('Importar desde iPhone'))}<input type="file" id="imp2" accept="application/json,.json" class="sr"></label></div>
+      <details class="more-load"><summary class="btn block">${ico('layers')} ${esc(t('Más formas de cargar'))}</summary><div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button><button class="btn" data-act="ticket"><b>${ico('receipt-text')}</b>${esc(t('Cargar ticket'))}</button></div></details>
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
       ${homeChips()}${catChips()}${locChips()}
       <div id="list">${listHtml()}</div>
+      <button class="btn block" style="margin:12px 0;text-align:left" data-act="week">${ico('calendar')} <b>${esc(t('Plan de la semana'))}</b><br><span class="small muted">${esc(weekCardSubtitle())}</span></button>
       <button class="fab" data-act="add" aria-label="${esc(t('Agregar producto'))}">+</button>`;
   }
   function installHtml() {
@@ -195,7 +204,31 @@
       ${done.length ? `<div class="row"><h2 class="grow">${esc(t('Comprados'))}</h2><button class="link" style="width:auto" data-act="clear-done">${esc(t('Quitar comprados'))}</button></div><div class="group">${done.map(row).join('')}</div>` : ''}
       </div></div>`;
   }
+  /* ---------- uso sin conexión ---------- */
+  const OFFLINE = 'vencito-offline';   // aparte de la caché de la app: sobrevive a las versiones nuevas
+  const offlineData = () => ['data/recipe-numbers.json', 'data/recipe-diets.json', 'data/recipes-tr-' + lang() + '.json', ...SRC.map(x => 'data/recipes-' + x + '.json')];
+  async function offlineStatus() {
+    const el = document.getElementById('offstat'); if (!el || !window.caches) return;
+    try {
+      const c = await caches.open(OFFLINE), keys = await c.keys(), thumbs = keys.filter(r => r.url.includes('/photos/t/')).length;
+      const data = (await Promise.all(offlineData().map(u => caches.match(u)))).every(Boolean);
+      el.textContent = data && thumbs ? t('Catálogo y %lld fotos guardados en este dispositivo', thumbs) : t('Todavía no guardaste el catálogo: sin conexión solo se ven las recetas y fotos que ya abriste.');
+    } catch (e) { el.textContent = ''; }
+  }
+  async function offlineDownload(btn) {
+    if (!window.caches) return; const el = document.getElementById('offstat'); btn.disabled = true;
+    try {
+      const c = await caches.open(OFFLINE); const ids = new Set();
+      for (const u of offlineData()) { const res = await fetch(u, { cache: 'no-store' }); if (!res.ok) { if (/recipes-tr-/.test(u)) continue; throw new Error(u); } await c.put(u, res.clone()); const j = await res.json(); if (Array.isArray(j)) j.forEach(r => r && r.id && ids.add(r.id)); }
+      const urls = [...ids].map(id => 'photos/t/' + encodeURIComponent(id) + '.webp'); let done = 0, bad = 0;
+      const worker = async () => { while (urls.length) { const u = urls.pop(); try { if (!(await c.match(u))) { const res = await fetch(u); if (res.ok) await c.put(u, res); else bad++; } } catch (e) { bad++; } done++; if (el && done % 20 === 0) el.textContent = t('Guardando… %lld/%lld', done, done + urls.length); } };
+      await Promise.all(Array.from({ length: 6 }, worker));
+      if (bad > ids.size / 2) throw new Error('fotos');
+    } catch (e) { if (el) el.textContent = t('No se pudo guardar todo. Probá de nuevo con conexión.'); btn.disabled = false; return; }
+    btn.disabled = false; offlineStatus();
+  }
   function settingsView() {
+    setTimeout(offlineStatus, 0);
     const cur = S.lang;
     const langRow = (k, name) => `<button class="item" data-act="lang" data-id="${k}"><span class="grow t">${esc(name)}</span>${cur === k ? '<span class="good">' + ico('check') + '</span>' : ''}</button>`;
     return `<h1>${esc(t('Ajustes'))}</h1>
@@ -206,6 +239,7 @@
       <h2>${esc(t('Lista de compras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sumar a la lista al terminar un producto'))}</span><input type="checkbox" data-act="autoshop" style="width:auto" ${S.autoShop ? 'checked' : ''}></label></div>
       <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
       <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">${ico('house')} ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
+      <h2>${esc(t('Sin conexión'))}</h2><div class="group"><button class="link" data-act="offline-save">${ico('download')} ${esc(t('Guardar recetas para usar sin conexión'))}</button></div><p class="small muted" id="offstat" aria-live="polite"></p>
       <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label>
         <label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sonido al escanear'))}</span><input type="checkbox" data-act="sound" style="width:auto" ${S.sound !== false ? 'checked' : ''}></label></div>
       <p class="small muted">${esc(t('Primero se busca en catálogos de Argentina y EE. UU. que ya están en la app (sin enviar nada). Si no está y la búsqueda está activada, solo el número del código se envía a Open Food Facts y a GTINSearch para obtener el nombre. Nada más sale de tu dispositivo.'))}</p>
@@ -273,7 +307,7 @@
   function compHtml() {
     compSync(); if (!ui.comp.length) return '';
     const more = ui.comp.length < 12;
-    return `<h2>${esc(t('Armadas con tus productos'))}</h2>${ui.comp.map(r => recipeCard(Object.assign(matchRecipe(r), { r }))).join('')}${more ? `<button class="btn block" data-act="comp-more">${esc(t('Otras ideas'))}</button>` : ''}<h2>${esc(t('Recetas'))}</h2>`;
+    return `<h2>${esc(t('Armadas con tus productos'))}</h2>${ui.comp.map(r => recipeCard(Object.assign(matchRecipe(r), { r }))).join('')}${more ? `<button class="btn block" data-act="comp-more">${esc(t('Otras ideas'))}</button>` : ''}`;
   }
   // Las armadas no tienen foto propia: se usa la del primer producto que llevan (de la carga rápida).
   function composedThumb(r) {
@@ -293,7 +327,7 @@
     const b = DIET_BADGES.filter(x => tags.has(x[0])); if (!b.length) return '';
     return `<div class="badges${small ? ' sm' : ''}">${b.map(x => `<span class="badge">${ico(x[2])} ${esc(t(x[1]))}</span>`).join('')}</div>`;
   }
-  const photo = (id, cls) => `<img class="${cls}" src="photos/${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
+  const photo = (id, cls) => `<img class="${cls}" src="photos/${cls === 'thumb' ? 't/' : ''}${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
   /* Windows no dibuja las banderas como emoji (se ven como dos letras): en pantalla van como imagen y el emoji queda solo para el texto que se comparte. */
   const flagEmoji = o => (o && /^[A-Z]{2}$/.test(o) ? String.fromCodePoint(...[...o].map(c => 127397 + c.charCodeAt(0))) + ' ' : '');
   const flagOf = o => (o && /^[A-Z]{2}$/.test(o) ? `<img class="flag" src="../assets/flags/${o.toLowerCase()}.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> ` : '');
@@ -304,8 +338,8 @@
     if (ui.rmode === 'saved' && !list.length) return `<div class="empty"><b>${esc(t('Recetas guardadas'))}</b>${esc(t('Todavía no guardaste ninguna receta.'))}</div>`;
     if (ui.rmode === 'mine' && (!visible().length || !list.length)) return comp || `<div class="empty"><b>${esc(t('Todavía no hay ideas'))}</b>${esc(t('Agregá productos y te propongo recetas con lo que tenés.'))}</div>`;
     if (!list.length) return `<div class="empty">${esc(t('Sin resultados'))}</div>`;
-    const shown = ui.rmode !== 'mine' ? list.slice(0, ui.rshown) : list;
-    return comp + shown.map(recipeCard).join('') + (shown.length < list.length ? `<button class="btn block" data-act="more">${esc(t('Ver más'))} (${shown.length}/${list.length})</button>` : '') + `<p class="small muted">${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p>`;
+    const shown = list.slice(0, ui.rmode === 'mine' ? Math.max(8, ui.rshown - 32) : ui.rshown);
+    return shown.map(recipeCard).join('') + (shown.length < list.length ? `<button class="btn block" data-act="more">${esc(t('Ver más'))} (${shown.length}/${list.length})</button>` : '') + comp + `<p class="small muted">${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p>`;
   }
   /* ---------- plan de la semana ---------- */
   /* Una receta por día que usa primero lo que vence antes. Cada día cuenta los días que le faltan a cada producto desde ese día y no repite
@@ -421,8 +455,9 @@
       ${ui.rmode === 'all' ? `<input class="search" id="rq" type="search" placeholder="${esc(t('Buscar receta…'))}" value="${esc(ui.rq)}" autocomplete="off">` : ''}
       ${ui.rmode === 'saved' ? '' : `<div class="chips">${[['', 'Todas'], ['breakfast', 'Desayuno y merienda'], ['main', 'Almuerzo y cena']].map(([k, n]) => `<button class="chip ${ui.rmeal === k ? 'on' : ''}" aria-pressed="${ui.rmeal === k}" data-act="rmeal" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`}
       <button class="btn block" style="margin:6px 0" data-act="week">${ico('calendar')} ${esc(t('Plan de la semana'))}</button>
+      <details class="rfilters" ${ui.rfopen ? 'open' : ''}><summary class="btn block">${esc(t('Filtros'))}${ui.rdoable || ui.rorigin || ui.rdiet ? ' · ' + esc(t('activos')) : ''}</summary>
       ${ui.rmode === 'all' ? `<div class="chips"><button class="chip ${ui.rdoable === 1 ? 'on' : ''}" aria-pressed="${ui.rdoable === 1}" data-act="rdoable" data-v="1">${esc(t('Solo las que puedo hacer'))}</button><button class="chip ${ui.rdoable === 2 ? 'on' : ''}" aria-pressed="${ui.rdoable === 2}" data-act="rdoable" data-v="2">${esc(t('Faltan hasta 2'))}</button>${[['', null], ...originsOf((ui.catalog || []).filter(dietOk).filter(mealOk))].map(([o, n]) => o === '' && n === null ? `<button class="chip ${!ui.rorigin ? 'on' : ''}" aria-pressed="${!ui.rorigin}" data-act="rorigin" data-id="">${esc(t('Todas'))}</button>` : `<button class="chip ${ui.rorigin === o ? 'on' : ''}" aria-pressed="${ui.rorigin === o}" data-act="rorigin" data-id="${esc(o)}">${o ? flagOf(o) : ''}${n}</button>`).join('')}</div>` : ''}
-      <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" aria-pressed="${ui.rdiet === k}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`;
+      <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" aria-pressed="${ui.rdiet === k}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div></details>`;
     return head + `<div id="rlist">${ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards()}</div>`;
   }
 
@@ -721,6 +756,68 @@
       case 'week-pick': ui.wq = ''; ui.sheet = { type: 'wpick', day: id, back: 'week' }; render(); break;
       case 'week-pick-add': { const day = ui.sheet && ui.sheet.day; if (day && !S.wplan.some(e => e.d === day && e.id === id)) { S.wplan.push({ d: day, id }); save(); ui.weekAdded = false; } ui.sheet = { type: 'week' }; render(); break; }
       case 'week-add': weekMissing().forEach(i => addToShopping(i.name, i.amount || '')); save(); ui.weekAdded = true; toast(t('Agregado a la lista de compras'), false, true); render(); break;
+      case 'ticket': document.getElementById('ticketpic').click(); break;
+      case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
+      case 'rc-save': receiptSave(); break;
+      case 'hperiod': ui.period = id; render(); break;
+      case 'dups': ui.sheet = { type: 'dups' }; render(); break;
+      case 'dup-merge': { const n = mergeGroup(id.split(',')); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
+      case 'dup-all': { let n = 0; dupGroups().forEach(g => { n += mergeGroup(g.map(x => x.id)); }); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
+      case 'homef': S.home = id; save(); render(); break;
+      case 'homes': ui.sheet = { type: 'homes' }; render(); break;
+      case 'home-add': { const i = document.getElementById('newhome'); if (i && i.value.trim()) { addHome(i.value); render(); } break; }
+      case 'home-del': ui.sheet = { type: 'homedel', id }; render(); break;
+      case 'home-del-yes': deleteHome(id); ui.sheet = { type: 'homes' }; render(); break;
+      case 'comp-more': { const add = VRecipes.suggest(lang(), compPantry(), 3, ui.comp.map(r => r.title)).map(registerComposed); ui.comp.push(...add); refreshRecipes(); break; }
+      case 'wl-next': if (ui.welcome >= WELCOME.length - 1) { ui.welcome = null; S.welcomed = true; save(); } else ui.welcome++; render(); break;
+      case 'wl-skip': ui.welcome = null; S.welcomed = true; save(); render(); break;
+      case 'wl-show': ui.welcome = 0; render(); break;
+      case 'locf': ui.loc = id; render(); break;
+      case 'catf': ui.cat = id; render(); break;
+      case 'unopen': { const p = S.products.find(x => x.id === id); if (p) { delete p.openedAt; delete p.openDays; save(); render(); } break; }
+      case 'open-it': { const p = S.products.find(x => x.id === id); if (p) { p.openedAt = iso(new Date()); p.openDays = OPEN_DAYS[catKey(p.category)] || 7; save(); render(); } break; }
+      case 'quick': openQuick(); break;
+      case 'quick-pick': quickPick(id); break;
+      case 'hist': ui.hist = id; ui.sheet = { type: 'hist' }; render(); break;
+      case 'readd': { const r = (ui.hist === 'consumed' ? S.consumed : S.discarded).find(x => x.id === id); if (r) { ui.sheet = { type: 'form', id: null, pre: { pre: true, name: r.name, category: r.category || '', barcode: r.barcode || '' } }; render(); } break; }
+      case 'scan-add': openScanner('add'); break;
+      case 'scan-consume': openScanner('consume'); break;
+      case 'scan-bulk': openScanner('bulk'); break;
+      case 'form-scan': openScanner('fill'); break;
+      case 'read-date': openScanner('date'); break;
+      case 'scan-close': closeScanner(); break;
+      case 'scan-skip': finishDate(null); break;
+      case 'scan-pic': document.getElementById('scanpic').click(); break;
+      case 'scan-date': pickDate({ kind: 'bulk', i: +id }); break;
+      case 'scan-del': scan.items.splice(+id, 1); scanList(); break;
+      case 'scan-save': scanSave(); break;
+      case 'scan-qty': { const it = scan.items[+id]; if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); scanList(); } break; }
+      case 'consume': consumeOne(id); break;
+      case 'discard': discard(id); break;
+      case 'remove': remove(id); break;
+      case 'ask-remove': ui.sheet = { type: 'remove', id }; render(); break;
+      case 'to-list': { const p = S.products.find(x => x.id === id); if (p) { addToShopping(p.name); closeSheet(false); toast(t('Agregado a la lista de compras')); } break; }
+      case 'stats': ui.sheet = { type: 'stats' }; render(); break;
+      case 'period': ui.period = id; render(); break;
+      case 'qty': { const c = document.getElementById('qty'), h = document.querySelector('input[name=quantity]'); const n = Math.min(999, Math.max(1, (parseInt(c.textContent, 10) || 1) + parseInt(id, 10))); c.textContent = n; h.value = n; break; }
+      case 'tick': { const i = S.shopping.find(x => x.id === id); if (i) { i.done = !i.done; save(); render(); } break; }
+      case 'untick': S.shopping = S.shopping.filter(x => x.id !== id); save(); render(); break;
+      case 'clear-done': S.shopping = S.shopping.filter(x => !x.done); save(); render(); break;
+      case 'share-list': shareList(); break;
+      case 'lang': S.lang = id; save(); render(); if (ui.tab === 'recipes') ensureRecipes(); break;
+      case 'export': exportJson(); break;
+      case 'egg': {   // huevo de pascua, como en las apps: siete toques en la versión
+        ui.eggTaps = (ui.eggTaps || 0) + 1;
+        if (ui.eggTaps >= 7) { ui.eggTaps = 0; try { navigator.vibrate && navigator.vibrate(40); } catch (e) { /* sin vibración */ } toast(t(['🧀 Este queso ya está en edad de merecer.', '🥛 La leche no avisa: Vencito sí.', '🍞 Lo que vence primero, se come primero.'][Math.floor(Math.random() * 3)]), false, true); }
+        break;
+      }
+      case 'wipe': ui.sheet = { type: 'wipe' }; render(); break;
+      case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
+      case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;
+      case 'wipe-yes': S.products = []; save(); closeSheet(false); toast(t('Listo')); break;
+      case 'recipe': ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); cookWake(); break;
+      case 'ck-ing': case 'ck-step': case 'ck-serv': case 'ck-mode': case 'ck-prev': case 'ck-next': case 'ck-speak': case 'ck-share': case 'ck-chatgpt': case 'ck-missing': case 'save-recipe': cookAct(act, id, el); break;
+      case 'rmode': ui.rmode = id; ui.rshown = 40; render(); break;
       case 'rmeal': ui.rmeal = id; ui.rshown = 40; render(); break;
       case 'rorigin': ui.rorigin = id; ui.rshown = 40; render(); break;
       case 'rdoable': { const v = Number(el.dataset.v); ui.rdoable = ui.rdoable === v ? 0 : v; } ui.rshown = 40; render(); break;
@@ -728,9 +825,11 @@
       case 'more': ui.rshown += 40; document.getElementById('rlist').innerHTML = recipeCards(); break;
       case 'miss-to-list': { const r = (ui.catalog || []).find(x => x.id === id); if (r) { matchRecipe(r).ing.filter(x => !x.have && !x.staple).forEach(x => addToShopping(x.name)); closeSheet(false); toast(t('Agregado a la lista de compras')); } break; }
       case 'undo': if (ui.undo) { ui.undo(); ui.undo = null; ui.toast = null; const e = document.getElementById('toast'); if (e) e.remove(); render(); } break;
+      case 'offline-save': offlineDownload(el); break;
       case 'install': if (ui.install) { ui.install.prompt(); ui.install = null; render(); } break;
     }
   });
+  document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('rfilters')) ui.rfopen = e.target.open; }, true);
   document.addEventListener('input', e => {
     if (e.target.id === 'q') { ui.q = e.target.value; document.getElementById('list').innerHTML = listHtml(); }
     if (e.target.name === 'name' && e.target.form && e.target.form.dataset.form === 'product') { const c = e.target.form.elements.category; if (c && (!c.value || c.dataset.auto)) { const k = VScan.suggest(e.target.value); c.value = k; c.dataset.auto = k ? '1' : ''; } }
@@ -757,7 +856,7 @@
     if (e.target.id === 'datepic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; dateFromPhoto(f); }
     if (e.target.id === 'scanpic' && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; if (scan.step === 'date') { scan.dateTarget = { kind: 'live' }; dateFromPhoto(f); } else codeFromPhoto(f); }
     if (e.target.dataset && e.target.dataset.act === 'soon') { S.soon = parseInt(e.target.value, 10) || 7; save(); render(); }
-    if (e.target.id === 'imp' && e.target.files[0]) importJson(e.target.files[0]);
+    if ((e.target.id === 'imp' || e.target.id === 'imp2') && e.target.files[0]) { const f = e.target.files[0]; e.target.value = ''; importJson(f); }
     if (e.target.name === 'noexp') { const d = document.querySelector('input[name=expiry]'); if (d) d.disabled = e.target.checked; }
   });
   document.addEventListener('submit', e => {
@@ -791,23 +890,52 @@
     const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(env, null, 2)], { type: 'application/json' }));
     a.download = 'vencito-' + iso(new Date()) + '.json'; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   }
-  function importJson(file) {
-    const rd = new FileReader();
-    rd.onload = () => {
-      try {
-        const env = JSON.parse(rd.result), have = new Set(S.products.map(p => p.id)); let n = 0;
-        const haveH = new Set(S.homes.map(h => h.id)); (env.homes || []).forEach((h, i) => { if (h && h.id && h.name && !haveH.has(h.id)) S.homes.push({ id: h.id, name: String(h.name).slice(0, 60), createdAt: new Date(Date.now() - 100000 + i).toISOString() }); });
-        (env.products || []).forEach(p => {
-          if (!p || !p.name || have.has(p.id)) return; const exp = p.expiry && daysBetween(today0(), parseDay(p.expiry)) < NO_EXPIRY_DAYS ? String(p.expiry).slice(0, 10) : null;
-          S.products.push({ id: p.id || uid(), name: String(p.name).slice(0, 200), barcode: p.barcode || '', openedAt: p.openedAt ? String(p.openedAt).slice(0, 10) : undefined, openDays: p.openLifeDays || undefined, homeId: p.homeId || undefined, expiry: exp, quantity: p.quantity || 1, category: catKey(p.category) || p.category || '', location: p.location || '', notes: p.notes || '', addedAt: p.addedAt || new Date().toISOString() }); n++;
-        });
-        const haveC = new Set(S.consumed.map(c => c.id)); (env.consumed || []).forEach(c => { if (c && c.name && !haveC.has(c.id)) S.consumed.push({ id: c.id || uid(), name: c.name, category: c.category || '', consumedAt: c.consumedAt || new Date().toISOString(), expiry: c.expiry && daysBetween(today0(), parseDay(c.expiry)) < NO_EXPIRY_DAYS ? String(c.expiry).slice(0, 10) : null }); });
-        const haveS = new Set(S.shopping.map(i => i.id)); (env.shopping || []).forEach(i => { if (i && i.name && !haveS.has(i.id)) S.shopping.push({ id: i.id || uid(), name: i.name, note: i.note || '', done: !!i.isDone, addedAt: new Date().toISOString() }); });
-        const haveD = new Set(S.discarded.map(d => d.id)); (env.discarded || []).forEach(d => { if (d && d.name && !haveD.has(d.id)) S.discarded.push(d); });
-        save(); render(); toast(t('Importados: %lld', n));
-      } catch (err) { toast(t('No se pudo importar: %@', String(err.message || err))); }
-    };
-    rd.readAsText(file);
+  // Acepta las claves de ambas apps (snake_case del iPhone/Android y camelCase de la PWA), valida todo antes de tocar el estado y solo avisa «Importados» si el guardado se verificó.
+  const pick = (o, ...ks) => { for (const k of ks) if (o[k] !== undefined && o[k] !== null) return o[k]; return undefined; };
+  const validDay = v => { const s = String(v || '').slice(0, 10); return /^\d{4}-\d{2}-\d{2}$/.test(s) && !isNaN(parseDay(s)) ? s : null; };
+  function parseBackup(text) {
+    let env; try { env = JSON.parse(text); } catch (e) { throw new Error(t('El archivo no es un JSON válido')); }
+    if (Array.isArray(env)) env = { products: env };
+    if (!env || typeof env !== 'object' || !['products', 'consumed', 'shopping', 'homes'].some(k => Array.isArray(env[k]))) throw new Error(t('El archivo no parece una copia de Vencito'));
+    const seen = new Set(), res = { products: [], consumed: [], shopping: [], homes: [], discarded: [], skipped: 0 };
+    const fresh1 = (set, id) => { if (!id) return true; if (set.has(id)) return false; set.add(id); return true; };
+    const sp = new Set(), sc = new Set(), ss = new Set(), sh = new Set(), sd = new Set();
+    (env.homes || []).forEach(h => { const id = h && pick(h, 'id'), name = h && String(pick(h, 'name') || '').trim(); if (!id || !name || !fresh1(sh, String(id))) { res.skipped++; return; } res.homes.push({ id: String(id), name: name.slice(0, 60) }); });
+    (env.products || []).forEach(p => {
+      const name = p && String(pick(p, 'name') || '').trim(); const id = p && pick(p, 'id') ? String(pick(p, 'id')) : '';
+      if (!name || !fresh1(sp, id)) { res.skipped++; return; }
+      const rawExp = pick(p, 'expiry'), expD = validDay(rawExp), exp = expD && daysBetween(today0(), parseDay(expD)) < NO_EXPIRY_DAYS ? expD : null;
+      if (rawExp && !expD) { res.skipped++; return; }
+      const q = Math.round(Number(pick(p, 'quantity'))), od = Math.round(Number(pick(p, 'open_life_days', 'openLifeDays', 'openDays')));
+      res.products.push({ id: id || uid(), name: name.slice(0, 200), barcode: String(pick(p, 'barcode') || ''), openedAt: validDay(pick(p, 'opened_at', 'openedAt')) || undefined, openDays: od > 0 ? Math.min(od, 3650) : undefined, homeId: pick(p, 'home_id', 'homeId') ? String(pick(p, 'home_id', 'homeId')) : undefined, expiry: exp, quantity: q >= 1 ? Math.min(q, 999) : 1, category: catKey(pick(p, 'category')) || String(pick(p, 'category') || ''), location: String(pick(p, 'location') || ''), notes: String(pick(p, 'notes') || ''), addedAt: String(pick(p, 'added_at', 'addedAt') || new Date().toISOString()) });
+    });
+    (env.consumed || []).forEach(c => {
+      const name = c && String(pick(c, 'name') || '').trim(), id = c && pick(c, 'id') ? String(pick(c, 'id')) : '';
+      if (!name || !fresh1(sc, id)) { res.skipped++; return; }
+      const ex = validDay(pick(c, 'expiry'));
+      res.consumed.push({ id: id || uid(), name: name.slice(0, 200), category: String(pick(c, 'category') || ''), barcode: String(pick(c, 'barcode') || ''), consumedAt: String(pick(c, 'consumed_at', 'consumedAt') || new Date().toISOString()), expiry: ex && daysBetween(today0(), parseDay(ex)) < NO_EXPIRY_DAYS ? ex : null });
+    });
+    (env.shopping || []).forEach(i => {
+      const name = i && String(pick(i, 'name') || '').trim(), id = i && pick(i, 'id') ? String(pick(i, 'id')) : '';
+      if (!name || !fresh1(ss, id)) { res.skipped++; return; }
+      res.shopping.push({ id: id || uid(), name: name.slice(0, 200), note: String(pick(i, 'note') || ''), done: !!pick(i, 'is_done', 'isDone', 'done'), addedAt: new Date().toISOString() });
+    });
+    (env.discarded || []).forEach(d => { const name = d && String(pick(d, 'name') || '').trim(), id = d && pick(d, 'id') ? String(pick(d, 'id')) : ''; if (!name || !fresh1(sd, id)) { res.skipped++; return; } res.discarded.push(Object.assign({}, d, { id: id || uid(), name: name.slice(0, 200) })); });
+    return res;
+  }
+  async function importJson(file) {
+    let text; try { text = await file.text(); } catch (e) { toast(t('No se pudo importar: %@', String(e.message || e))); return; }
+    let res; try { res = parseBackup(text); } catch (err) { toast(t('No se pudo importar: %@', String(err.message || err))); return; }
+    const snapshot = JSON.stringify(S);
+    const haveP = new Set(S.products.map(p => p.id)), haveH = new Set(S.homes.map(h => h.id)), haveC = new Set(S.consumed.map(c => c.id)), haveS = new Set(S.shopping.map(i => i.id)), haveD = new Set(S.discarded.map(d => d.id));
+    let n = 0;
+    res.homes.forEach((h, i) => { if (!haveH.has(h.id)) { S.homes.push({ id: h.id, name: h.name, createdAt: new Date(Date.now() - 100000 + i).toISOString() }); haveH.add(h.id); } });
+    res.products.forEach(p => { if (haveP.has(p.id)) return; if (p.homeId && !haveH.has(p.homeId)) p.homeId = undefined; S.products.push(p); haveP.add(p.id); n++; });
+    res.consumed.forEach(c => { if (!haveC.has(c.id)) S.consumed.push(c); });
+    res.shopping.forEach(i => { if (!haveS.has(i.id)) S.shopping.push(i); });
+    res.discarded.forEach(d => { if (!haveD.has(d.id)) S.discarded.push(d); });
+    if (!(await saveVerified())) { S = Object.assign(fresh(), JSON.parse(snapshot)); render(); toast(t('No se pudo guardar en este navegador')); return; }
+    render(); toast(t('Importados: %lld', n));
   }
   function shareList() {
     const text = S.shopping.filter(i => !i.done).map(i => '• ' + i.name).join('\n'); if (!text) return;
@@ -1093,6 +1221,8 @@
   /* ---------- arranque ---------- */
   { const lp = new URLSearchParams(location.search).get('lang'); if (lp && LANGS[lp] && !S.lang) { S.lang = lp; save(); } }
   if (!S.welcomed && !S.products.length && !/[?&]demo=1/.test(location.search)) ui.welcome = 0; else if (!S.welcomed) { S.welcomed = true; save(); }
+  // Si el navegador borró localStorage pero IndexedDB conserva la copia, se recupera.
+  (async () => { let missing = false; try { missing = localStorage.getItem(LS) === null; } catch (e) { missing = true; } if (!missing) return; try { const json = await idbGet('state'); if (json) { S = Object.assign(fresh(), JSON.parse(json)); lsWrite(json); render(); } } catch (e) {} })();
   render();
   { const a = new URLSearchParams(location.search).get('action'); if (a === 'scan' && ui.welcome == null) openScanner('add'); else if (a === 'quick' && ui.welcome == null) openQuick(); else if (a === 'recipes' || new URLSearchParams(location.search).get('r')) { ui.linkR = new URLSearchParams(location.search).get('r'); ui.tab = 'recipes'; ensureRecipes(); ensureComposer(); render(); } }
   // Si el navegador lo permite, pide que los datos no se borren solos.

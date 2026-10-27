@@ -266,3 +266,15 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .wd i b { display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--primary); }
 .wd.on i b { background: var(--onprimary, #fff); }
 .card .link img.thumb { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; flex: none; }
+
+.quick.main { margin-bottom: 6px; }
+.quick.main .btn { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 10px; font-size: 15px; font-weight: 600; }
+.more-load { margin: 0 0 10px; }
+.more-load > summary { list-style: none; cursor: pointer; text-align: left; }
+.more-load > summary::-webkit-details-marker { display: none; }
+.more-load[open] > summary { margin-bottom: 8px; }
+.rfilters { margin: 6px 0; }
+.rfilters > summary { list-style: none; cursor: pointer; text-align: left; }
+.rfilters > summary::-webkit-details-marker { display: none; }
+.rfilters[open] > summary { margin-bottom: 6px; }
+.hero { max-width: 440px; margin-inline: auto; display: block; }
