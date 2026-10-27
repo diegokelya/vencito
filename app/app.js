@@ -23,7 +23,7 @@
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
-  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rmeal: '', rorigin: '', rdoable: false, rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', loc: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, shKey: '', opener: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
+  const ui = { tab: 'products', q: '', sheet: null, period: 'month', toast: null, catalog: null, catLang: null, diets: {}, rmode: 'mine', rmeal: '', rorigin: '', rdoable: 0, rq: '', rdiet: '', rshown: 40, install: null, undo: null, cat: '', loc: '', hist: 'consumed', quick: null, quickQ: '', quickAdded: {}, welcome: null, shKey: '', opener: null, cook: null, comp: [], compSig: '', composer: null, composedMap: {} };
 
   /* ---------- casas: cada una con sus productos ---------- */
   const homesSorted = () => S.homes.slice().sort((a, b) => (a.createdAt + a.id).localeCompare(b.createdAt + b.id));
@@ -236,13 +236,15 @@
   const dietOk = r => !ui.rdiet || ((ui.diets || {})[r.id] || []).includes(ui.rdiet);
   const mealOk = r => !ui.rmeal || ((r.meals || []).length ? r.meals : ['main']).includes(ui.rmeal);
   const doable = m => m.ing.every(x => x.have || x.staple || x.optional);
+  const missingOf = m => m.ing.filter(x => !x.have && !x.staple && !x.optional).length;
+  const availOk = r => !ui.rdoable || missingOf(matchRecipe(r)) <= (ui.rdoable === 1 ? 0 : 2);
   const originsOf = cat => { const c = {}; cat.forEach(r => { const o = r.origin || ''; c[o] = (c[o] || 0) + 1; }); return Object.entries(c).sort((a, b) => (a[0] || '~').localeCompare(b[0] || '~')); };
   function recipeList() {
     const cat = (ui.catalog || []).filter(dietOk).filter(r => ui.rmode === 'saved' || mealOk(r));
     if (ui.rmode === 'saved') return cat.filter(r => S.saved.includes(r.id)).concat(S.savedC.filter(r => !ui.rdiet)).sort((a, b) => a.title.localeCompare(b.title, LOCALES[lang()])).map(r => ({ r, all: true }));
     if (ui.rmode === 'all') {
       const q = fold(ui.rq);
-      return cat.filter(r => !ui.rorigin || (r.origin || '') === ui.rorigin).filter(r => !ui.rdoable || doable(matchRecipe(r))).filter(r => !q || fold(r.title).includes(q) || fold(r.summary).includes(q) || (r.ingredients || []).some(i => fold(i.name).includes(q)))
+      return cat.filter(r => !ui.rorigin || (r.origin || '') === ui.rorigin).filter(availOk).filter(r => !q || fold(r.title).includes(q) || fold(r.summary).includes(q) || (r.ingredients || []).some(i => fold(i.name).includes(q)))
         .sort((a, b) => a.title.localeCompare(b.title, LOCALES[lang()])).map(r => ({ r, all: true }));
     }
     return cat.map(matchRecipe).filter(m => m.have >= 2 || (m.total && m.have / m.total >= 0.5))
@@ -419,7 +421,7 @@
       ${ui.rmode === 'all' ? `<input class="search" id="rq" type="search" placeholder="${esc(t('Buscar receta…'))}" value="${esc(ui.rq)}" autocomplete="off">` : ''}
       ${ui.rmode === 'saved' ? '' : `<div class="chips">${[['', 'Todas'], ['breakfast', 'Desayuno y merienda'], ['main', 'Almuerzo y cena']].map(([k, n]) => `<button class="chip ${ui.rmeal === k ? 'on' : ''}" aria-pressed="${ui.rmeal === k}" data-act="rmeal" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`}
       <button class="btn block" style="margin:6px 0" data-act="week">${ico('calendar')} ${esc(t('Plan de la semana'))}</button>
-      ${ui.rmode === 'all' ? `<div class="chips"><button class="chip ${ui.rdoable ? 'on' : ''}" aria-pressed="${ui.rdoable}" data-act="rdoable">${esc(t('Solo las que puedo hacer'))}</button>${[['', null], ...originsOf((ui.catalog || []).filter(dietOk).filter(mealOk))].map(([o, n]) => o === '' && n === null ? `<button class="chip ${!ui.rorigin ? 'on' : ''}" aria-pressed="${!ui.rorigin}" data-act="rorigin" data-id="">${esc(t('Todas'))}</button>` : `<button class="chip ${ui.rorigin === o ? 'on' : ''}" aria-pressed="${ui.rorigin === o}" data-act="rorigin" data-id="${esc(o)}">${o ? flagOf(o) : ''}${n}</button>`).join('')}</div>` : ''}
+      ${ui.rmode === 'all' ? `<div class="chips"><button class="chip ${ui.rdoable === 1 ? 'on' : ''}" aria-pressed="${ui.rdoable === 1}" data-act="rdoable" data-v="1">${esc(t('Solo las que puedo hacer'))}</button><button class="chip ${ui.rdoable === 2 ? 'on' : ''}" aria-pressed="${ui.rdoable === 2}" data-act="rdoable" data-v="2">${esc(t('Faltan hasta 2'))}</button>${[['', null], ...originsOf((ui.catalog || []).filter(dietOk).filter(mealOk))].map(([o, n]) => o === '' && n === null ? `<button class="chip ${!ui.rorigin ? 'on' : ''}" aria-pressed="${!ui.rorigin}" data-act="rorigin" data-id="">${esc(t('Todas'))}</button>` : `<button class="chip ${ui.rorigin === o ? 'on' : ''}" aria-pressed="${ui.rorigin === o}" data-act="rorigin" data-id="${esc(o)}">${o ? flagOf(o) : ''}${n}</button>`).join('')}</div>` : ''}
       <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" aria-pressed="${ui.rdiet === k}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`;
     return head + `<div id="rlist">${ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards()}</div>`;
   }
@@ -721,7 +723,7 @@
       case 'week-add': weekMissing().forEach(i => addToShopping(i.name, i.amount || '')); save(); ui.weekAdded = true; toast(t('Agregado a la lista de compras'), false, true); render(); break;
       case 'rmeal': ui.rmeal = id; ui.rshown = 40; render(); break;
       case 'rorigin': ui.rorigin = id; ui.rshown = 40; render(); break;
-      case 'rdoable': ui.rdoable = !ui.rdoable; ui.rshown = 40; render(); break;
+      case 'rdoable': { const v = Number(el.dataset.v); ui.rdoable = ui.rdoable === v ? 0 : v; } ui.rshown = 40; render(); break;
       case 'rdiet': ui.rdiet = id; ui.rshown = 40; render(); break;
       case 'more': ui.rshown += 40; document.getElementById('rlist').innerHTML = recipeCards(); break;
       case 'miss-to-list': { const r = (ui.catalog || []).find(x => x.id === id); if (r) { matchRecipe(r).ing.filter(x => !x.have && !x.staple).forEach(x => addToShopping(x.name)); closeSheet(false); toast(t('Agregado a la lista de compras')); } break; }
