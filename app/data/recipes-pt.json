@@ -3918,5 +3918,375 @@
     ],
     "tip": "Doure os cogumelos sem mexer muito para soltarem menos água.",
     "origin": "BR"
+  },
+  {
+    "id": "br-bife-a-cavalo",
+    "title": "Bife a cavalo",
+    "summary": "Bife na chapa com ovo frito por cima, servido com arroz e feijão.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Arroz e feijão",
+    "ingredients": [
+      {
+        "name": "Bife",
+        "keywords": [
+          "bife",
+          "carne",
+          "contrafilé",
+          "alcatra",
+          "patinho"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo",
+          "ovos"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "1 dente"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tempere os bifes com sal e alho picado.",
+      "Cozinhe em uma frigideira com óleo quente por 3 minutos de cada lado.",
+      "Frite os ovos em outra frigideira.",
+      "Sirva cada bife com um ovo por cima."
+    ],
+    "tip": "Frite o ovo por último para a gema ficar mole.",
+    "origin": "BR"
+  },
+  {
+    "id": "br-pudim-de-leite",
+    "title": "Pudim de leite condensado",
+    "summary": "Pudim cremoso brasileiro com leite condensado e calda de caramelo.",
+    "minutes": 70,
+    "servings": 6,
+    "side": "Morangos",
+    "ingredients": [
+      {
+        "name": "Leite condensado",
+        "keywords": [
+          "leite condensado",
+          "condensado"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "2 medidas da lata"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo",
+          "ovos"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Açúcar para a calda",
+        "keywords": [
+          "açúcar",
+          "acucar"
+        ],
+        "amount": "1/2 xícara"
+      }
+    ],
+    "steps": [
+      "Faça um caramelo com o açúcar e despeje em uma forma.",
+      "Bata o leite condensado, o leite e os ovos no liquidificador e coe.",
+      "Despeje na forma e leve ao forno em banho-maria, coberto, por 50 minutos.",
+      "Deixe esfriar bem antes de desenformar."
+    ],
+    "tip": "Asse em banho-maria e coe a mistura para não ficar com bolhas.",
+    "origin": "BR"
+  },
+  {
+    "id": "br-bolinho-de-chuva",
+    "title": "Bolinho de chuva",
+    "summary": "Bolinhos doces fritos com açúcar e canela, típicos dos dias de chuva.",
+    "minutes": 25,
+    "servings": 4,
+    "side": "Café",
+    "ingredients": [
+      {
+        "name": "Farinha de trigo",
+        "keywords": [
+          "farinha"
+        ],
+        "amount": "2 xícaras"
+      },
+      {
+        "name": "Ovo",
+        "keywords": [
+          "ovo"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1/2 xícara"
+      },
+      {
+        "name": "Açúcar",
+        "keywords": [
+          "açúcar",
+          "acucar"
+        ],
+        "amount": "1/2 xícara"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo"
+        ],
+        "amount": "500 ml"
+      },
+      {
+        "name": "Canela",
+        "keywords": [
+          "canela"
+        ],
+        "amount": "1 colher de chá",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Misture a farinha com o ovo, o leite e 2 colheres de açúcar até obter uma massa grossa.",
+      "Aqueça o óleo em fogo médio.",
+      "Despeje colheradas de massa e frite até dourar.",
+      "Passe no açúcar com canela ainda quentes."
+    ],
+    "tip": "Despeje colheradas de massa em óleo médio para cozinhar por dentro.",
+    "origin": "BR",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "br-aipim-frito",
+    "title": "Aipim frito",
+    "summary": "Palitos de aipim fritos com sal e limão, crocantes e dourados.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Carne de alho",
+    "ingredients": [
+      {
+        "name": "Aipim",
+        "keywords": [
+          "aipim",
+          "mandioca",
+          "macaxeira"
+        ],
+        "amount": "700 g"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo"
+        ],
+        "amount": "500 ml"
+      },
+      {
+        "name": "Limão",
+        "keywords": [
+          "limão",
+          "limao"
+        ],
+        "amount": "1 unidade",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Descasque o aipim e corte em palitos sem o miolo fibroso.",
+      "Cozinhe com sal por 15 minutos e escorra bem.",
+      "Frite em óleo quente até dourar.",
+      "Sirva com sal e gotas de limão."
+    ],
+    "tip": "Cozinhe o aipim até abrir levemente e seque bem antes de fritar.",
+    "origin": "BR"
+  },
+  {
+    "id": "br-vaca-atolada",
+    "title": "Vaca atolada",
+    "summary": "Costela com mandioca cozida até a mandioca engrossar o caldo.",
+    "minutes": 100,
+    "servings": 4,
+    "side": "Arroz branco",
+    "ingredients": [
+      {
+        "name": "Costela bovina",
+        "keywords": [
+          "costela",
+          "carne"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Mandioca",
+        "keywords": [
+          "mandioca",
+          "aipim",
+          "macaxeira"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "2 dentes"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "óleo",
+          "oleo",
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Doure a costela no óleo com sal e alho.",
+      "Junte a cebola e o tomate picados e cubra com água.",
+      "Cozinhe tampado por 1 hora até a carne ficar macia.",
+      "Acrescente a mandioca em pedaços e cozinhe mais 30 minutos até engrossar."
+    ],
+    "tip": "Cozinhe devagar até a mandioca desmanchar e engrossar o cozido.",
+    "origin": "BR"
+  },
+  {
+    "id": "br-sopa-de-ervilha",
+    "title": "Sopa de ervilha",
+    "summary": "Sopa cremosa de ervilha com batata e bacon.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Pão torrado",
+    "ingredients": [
+      {
+        "name": "Ervilhas",
+        "keywords": [
+          "ervilha",
+          "ervilhas"
+        ],
+        "amount": "2 xícaras"
+      },
+      {
+        "name": "Batata",
+        "keywords": [
+          "batata"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon",
+          "toucinho",
+          "linguiça"
+        ],
+        "amount": "80 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Caldo",
+        "keywords": [
+          "caldo",
+          "água"
+        ],
+        "amount": "3 xícaras",
+        "kind": "optional"
+      },
+      {
+        "name": "Sal",
+        "keywords": [
+          "sal"
+        ],
+        "amount": "a gosto",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Doure o bacon picado e a cebola em uma panela.",
+      "Acrescente a batata em cubos, as ervilhas e o caldo.",
+      "Cozinhe 25 minutos até tudo ficar macio.",
+      "Bata metade para engrossar e sirva quente."
+    ],
+    "tip": "Se usar ervilha seca, deixe de molho na véspera.",
+    "origin": "BR"
   }
 ]

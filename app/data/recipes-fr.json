@@ -2380,5 +2380,394 @@
       "breakfast",
       "main"
     ]
+  },
+  {
+    "id": "fr-boeuf-bourguignon-simple",
+    "title": "Bœuf bourguignon facile",
+    "summary": "Bœuf mijoté lentement au vin rouge avec oignons et carottes.",
+    "minutes": 150,
+    "servings": 4,
+    "side": "Pommes de terre vapeur",
+    "ingredients": [
+      {
+        "name": "Bœuf en cubes",
+        "keywords": [
+          "bœuf",
+          "boeuf",
+          "paleron",
+          "viande"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Vin rouge",
+        "keywords": [
+          "vin",
+          "vin rouge"
+        ],
+        "amount": "2 tasses"
+      },
+      {
+        "name": "Carotte",
+        "keywords": [
+          "carotte",
+          "carottes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon",
+          "oignons"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Lardons",
+        "keywords": [
+          "lardons",
+          "lard",
+          "poitrine"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "à votre goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites dorer les lardons et le bœuf en cubes dans une cocotte avec de l'huile.",
+      "Ajoutez les oignons et les carottes en morceaux et faites revenir.",
+      "Couvrez de vin rouge, salez et laissez cuire à couvert 2 heures à feu doux.",
+      "Servez avec des pommes de terre vapeur."
+    ],
+    "tip": "Faites dorer la viande par lots et cuisez à feu très doux jusqu'à ce qu'elle se défasse.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-pot-au-feu-simple",
+    "title": "Pot-au-feu facile",
+    "summary": "Bœuf bouilli avec carottes, poireaux et pommes de terre dans son bouillon.",
+    "minutes": 150,
+    "servings": 4,
+    "side": "Moutarde et cornichons",
+    "ingredients": [
+      {
+        "name": "Bœuf à pot-au-feu",
+        "keywords": [
+          "bœuf",
+          "boeuf",
+          "viande",
+          "paleron",
+          "jarret"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Carotte",
+        "keywords": [
+          "carotte",
+          "carottes"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Poireau",
+        "keywords": [
+          "poireau",
+          "poireaux"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Pomme de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "à votre goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mettez la viande dans de l'eau froide avec du sel et l'oignon ; portez à ébullition et écumez.",
+      "Laissez mijoter 1 h 30 à feu doux.",
+      "Ajoutez les carottes, les poireaux et les pommes de terre en morceaux.",
+      "Laissez cuire 30 minutes de plus et servez la viande avec les légumes et le bouillon."
+    ],
+    "tip": "Écumez le bouillon au début pour qu'il reste clair.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-crepes-sucrees",
+    "title": "Crêpes sucrées",
+    "summary": "Crêpes fines à la farine, au lait et aux œufs, à garnir de sucre ou de confiture.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Sucre et citron",
+    "ingredients": [
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "1 1/2 tasse"
+      },
+      {
+        "name": "Œuf",
+        "keywords": [
+          "œuf",
+          "oeuf",
+          "œufs",
+          "oeufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sucre",
+        "keywords": [
+          "sucre"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Fouettez la farine avec les œufs, le lait, le sucre et le beurre fondu jusqu'à ce qu'il n'y ait plus de grumeaux.",
+      "Laissez reposer la pâte.",
+      "Faites cuire une louche de pâte dans une poêle chaude 1 minute de chaque côté.",
+      "Servez avec du sucre et du citron ou de la confiture."
+    ],
+    "tip": "Laissez reposer la pâte 30 minutes pour des crêpes fines et sans grumeaux.",
+    "origin": "FR",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "fr-salade-de-lentilles",
+    "title": "Salade de lentilles",
+    "summary": "Lentilles tièdes à l'oignon, à la moutarde et à la vinaigrette.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Pain",
+    "ingredients": [
+      {
+        "name": "Lentilles",
+        "keywords": [
+          "lentille",
+          "lentilles"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Oignon rouge",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "1 cuillère à soupe"
+      },
+      {
+        "name": "Vinaigre",
+        "keywords": [
+          "vinaigre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile",
+          "huile d'olive"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "à votre goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites cuire les lentilles dans de l'eau non salée 20 minutes et égouttez-les.",
+      "Fouettez la moutarde avec le vinaigre, l'huile et le sel.",
+      "Assaisonnez les lentilles tièdes avec la vinaigrette.",
+      "Ajoutez l'oignon haché et servez tiède ou froid."
+    ],
+    "tip": "Assaisonnez les lentilles encore tièdes : elles absorbent mieux les saveurs.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-clafoutis-aux-pommes",
+    "title": "Clafoutis aux pommes",
+    "summary": "Dessert français au four, pommes dans une pâte onctueuse façon flan.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Crème ou glace",
+    "ingredients": [
+      {
+        "name": "Pomme",
+        "keywords": [
+          "pomme",
+          "pommes"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Œuf",
+        "keywords": [
+          "œuf",
+          "oeuf",
+          "œufs",
+          "oeufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "1/2 tasse"
+      },
+      {
+        "name": "Sucre",
+        "keywords": [
+          "sucre"
+        ],
+        "amount": "1/2 tasse"
+      }
+    ],
+    "steps": [
+      "Pelez et coupez les pommes en lamelles ; disposez-les dans un plat beurré.",
+      "Fouettez les œufs avec le sucre, la farine et le lait.",
+      "Versez la pâte sur les pommes.",
+      "Faites cuire 35 minutes à four moyen jusqu'à ce que ce soit doré et ferme."
+    ],
+    "tip": "Utilisez un plat beurré et servez tiède pour plus de onctuosité.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-soupe-aux-poireaux",
+    "title": "Soupe aux poireaux et pommes de terre",
+    "summary": "Soupe rustique de poireaux et de pommes de terre avec une noix de beurre.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Pain croustillant",
+    "ingredients": [
+      {
+        "name": "Poireaux",
+        "keywords": [
+          "poireau",
+          "poireaux"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Pomme de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Bouillon",
+        "keywords": [
+          "bouillon",
+          "eau"
+        ],
+        "amount": "1 litre",
+        "kind": "optional"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "à votre goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Coupez les poireaux en rondelles et faites-les suer dans le beurre sans les colorer.",
+      "Ajoutez les pommes de terre en dés et le bouillon.",
+      "Laissez cuire 20 minutes jusqu'à ce qu'elles soient tendres.",
+      "Écrasez légèrement à la fourchette ou mixez et servez chaud."
+    ],
+    "tip": "Lavez bien les poireaux : la terre se cache entre les feuilles.",
+    "origin": "FR"
   }
 ]
