@@ -277,4 +277,4 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rfilters > summary { list-style: none; cursor: pointer; text-align: left; }
 .rfilters > summary::-webkit-details-marker { display: none; }
 .rfilters[open] > summary { margin-bottom: 6px; }
-.hero { max-width: 440px; margin-inline: auto; display: block; }
+.hero { max-width: 600px; margin-inline: auto; display: block; }
