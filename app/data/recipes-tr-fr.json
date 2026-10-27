@@ -8987,10 +8987,10 @@
   ]
  },
  "es-albondigas-en-salsa": {
-  "title": "Boulettes en sauce",
-  "summary": "Un plat de grand-mère, avec beaucoup de sauce pour tremper le pain.",
-  "side": "Frites ou riz",
-  "tip": "Passez les boulettes dans la farine avant de les faire frire pour qu'elles ne se défassent pas.",
+  "title": "Boulettes en sauce aux amandes",
+  "summary": "Boulettes maison dans une sauce dorée aux amandes et au vin blanc, à l'espagnole.",
+  "side": "Riz blanc ou pommes de terre vapeur",
+  "tip": "Faites griller les amandes à sec avant de les mixer : la sauce gagne en goût et en couleur.",
   "ingredients": [
    {
     "name": "Viande hachée",
@@ -9009,8 +9009,12 @@
     "amount": "1"
    },
    {
-    "name": "Tomate",
-    "amount": "1 bocal"
+    "name": "Amandes",
+    "amount": "1 poignée (50 g)"
+   },
+   {
+    "name": "Vin blanc",
+    "amount": "1 verre"
    },
    {
     "name": "Ail",
@@ -9026,10 +9030,11 @@
    }
   ],
   "steps": [
-   "Mélangez la viande avec l'œuf, la chapelure, l'ail haché et le sel ; formez des boulettes.",
-   "Faites-les dorer dans une poêle avec de l'huile et réservez-les.",
-   "Faites revenir l'oignon haché, ajoutez la tomate et faites cuire 5 minutes.",
-   "Remettez les boulettes et faites cuire à couvert 20 minutes."
+   "Mélangez la viande avec l'œuf, la chapelure, l'ail haché et le sel ; formez des boulettes et roulez-les dans la farine.",
+   "Faites-les dorer à la poêle avec de l'huile et réservez.",
+   "Dans la même huile, faites dorer l'oignon haché, ajoutez le vin et laissez réduire 2 minutes.",
+   "Mixez les amandes grillées avec un verre d'eau, versez dans la poêle et ajoutez les boulettes.",
+   "Laissez cuire à couvert à feu doux 20 minutes en remuant la poêle de temps en temps."
   ]
  },
  "es-macarrones-con-chorizo": {

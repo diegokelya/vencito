@@ -7054,10 +7054,10 @@
   ]
  },
  "es-albondigas-en-salsa": {
-  "title": "Meatballs in sauce",
-  "summary": "Grandma's dish, with lots of sauce for dipping bread.",
-  "side": "French fries or rice",
-  "tip": "Roll the balls in flour before frying so they don't fall apart.",
+  "title": "Meatballs in almond sauce",
+  "summary": "Homemade meatballs in a golden almond and white wine sauce, Spanish style.",
+  "side": "White rice or boiled potatoes",
+  "tip": "Toast the almonds dry before grinding them: the sauce gains flavor and color.",
   "ingredients": [
    {
     "name": "Ground beef",
@@ -7076,8 +7076,12 @@
     "amount": "1"
    },
    {
-    "name": "Tomato",
-    "amount": "1 jar"
+    "name": "Almonds",
+    "amount": "1 handful (50 g)"
+   },
+   {
+    "name": "White wine",
+    "amount": "1 glass"
    },
    {
     "name": "Garlic",
@@ -7093,10 +7097,11 @@
    }
   ],
   "steps": [
-   "Mix the meat with the egg, breadcrumbs, minced garlic and salt; shape into balls.",
-   "Brown them in a skillet with oil and set aside.",
-   "Sauté the chopped onion, add the tomato and cook 5 minutes.",
-   "Return the meatballs and cook covered 20 minutes."
+   "Mix the meat with the egg, breadcrumbs, minced garlic and salt; shape into balls and roll them in flour.",
+   "Brown them in a pan with oil and set aside.",
+   "In the same oil, fry the chopped onion until golden, add the wine and let it reduce for 2 minutes.",
+   "Blend the toasted almonds with a glass of water, pour into the pan and add the meatballs.",
+   "Cook covered over low heat for 20 minutes, shaking the pan from time to time."
   ]
  },
  "es-macarrones-con-chorizo": {

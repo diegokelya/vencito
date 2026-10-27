@@ -3738,11 +3738,11 @@
   {
     "id": "es-albondigas-en-salsa",
     "origin": "ES",
-    "title": "Albóndigas en salsa",
-    "summary": "Un plato de la abuela, con mucha salsa para mojar pan.",
-    "minutes": 45,
+    "title": "Albóndigas en salsa de almendras",
+    "summary": "Albóndigas caseras en una salsa dorada de almendras y vino blanco, al estilo español.",
+    "minutes": 50,
     "servings": 2,
-    "side": "Patatas fritas o arroz",
+    "side": "Arroz blanco o patatas cocidas",
     "ingredients": [
       {
         "name": "Carne picada",
@@ -3775,13 +3775,21 @@
         "amount": "1 unidad"
       },
       {
-        "name": "Tomate",
+        "name": "Almendras",
         "keywords": [
-          "tomate frito",
-          "tomate triturado",
-          "tomate"
+          "almendras",
+          "almendra"
         ],
-        "amount": "1 bote"
+        "amount": "1 puñado (50 g)"
+      },
+      {
+        "name": "Vino blanco",
+        "keywords": [
+          "vino blanco",
+          "vino"
+        ],
+        "amount": "1 vaso",
+        "kind": "optional"
       },
       {
         "name": "Ajo",
@@ -3809,12 +3817,13 @@
       }
     ],
     "steps": [
-      "Mezcla la carne con el huevo, el pan rallado, el ajo picado y sal; forma bolas.",
+      "Mezcla la carne con el huevo, el pan rallado, el ajo picado y sal; forma bolas y pásalas por harina.",
       "Dóralas en una sartén con aceite y resérvalas.",
-      "Sofríe la cebolla picada, añade el tomate y cuece 5 minutos.",
-      "Vuelve a poner las albóndigas y cuece tapado 20 minutos."
+      "En ese aceite sofríe la cebolla picada hasta que esté dorada y añade el vino; deja reducir 2 minutos.",
+      "Tritura las almendras tostadas con un vaso de agua, vuélcalas a la sartén y agrega las albóndigas.",
+      "Cuece tapado a fuego suave 20 minutos, moviendo la sartén de vez en cuando."
     ],
-    "tip": "Pasa las bolas por harina antes de freírlas para que no se deshagan."
+    "tip": "Tuesta las almendras en seco antes de triturarlas: la salsa gana sabor y color."
   },
   {
     "id": "es-macarrones-con-chorizo",
