@@ -172,6 +172,7 @@
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
       <div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button><button class="btn" data-act="ticket"><b>${ico('receipt-text')}</b>${esc(t('Cargar ticket'))}</button></div>
+      <button class="btn block" style="margin:8px 0;text-align:left" data-act="week">${ico('calendar')} <b>${esc(t('Plan de la semana'))}</b><br><span class="small muted">${esc(weekCardSubtitle())}</span></button>
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
       ${homeChips()}${catChips()}${locChips()}
       <div id="list">${listHtml()}</div>
@@ -308,6 +309,11 @@
   /* Una receta por día que usa primero lo que vence antes. Cada día cuenta los días que le faltan a cada producto desde ese día y no repite
      productos ya usados. Es una sugerencia: cada día se puede cambiar por otra receta. */
   const kwTest = k => new RegExp('(^|[^a-z0-9])' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[^a-z0-9])');
+  /* Qué dice el acceso directo de la pantalla principal: cuántas recetas hay planificadas en los próximos siete días. */
+  function weekCardSubtitle() {
+    const days = new Set(weekDays()), n = (S.wplan || []).filter(e => days.has(e.d)).length;
+    return n ? t('%lld recetas planificadas', n) : t('Planificá tus comidas');
+  }
   function weekIdea(r, pantry, off, lenient) {
     const avail = pantry.filter(x => x.d >= off); let main = 0, expiring = 0; const used = [], extra = [];
     for (const i of r.ingredients || []) {
@@ -701,7 +707,7 @@
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
       case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; if (ui.sheet && ui.sheet.back === 'week') { ui.sheet = { type: 'week' }; render(); } else if (ui.sheet && ui.sheet.back === 'recipe') { ui.sheet = { type: 'recipe', id: ui.sheet.id }; render(); } else closeSheet(); break;
-      case 'week': if (ui.catalog) { weekLoad(); ui.sheet = { type: 'week' }; render(); } break;
+      case 'week': if (ui.catalog) { weekLoad(); ui.sheet = { type: 'week' }; render(); } else { ui.weekPending = true; ensureRecipes(); } break;
       case 'week-open': ui.cook = null; ui.sheet = { type: 'recipe', id, back: 'week' }; render(); cookWake(); break;
       case 'week-swap': { const [d, rid] = id.split('|'); weekSwap(d, rid); render(); break; }
       case 'week-day': ui.wsel = id; ui.wmonth = id.slice(0, 7); render(); break;
@@ -829,7 +835,7 @@
         }
         all.push(r);
       }));
-      ui.diets = diets; ui.catalog = all; if (ui.tab === 'recipes') render(); setTimeout(openLinkedRecipe, 0);
+      ui.diets = diets; ui.catalog = all; if (ui.weekPending) { ui.weekPending = false; weekLoad(); ui.sheet = { type: 'week' }; render(); } else if (ui.tab === 'recipes') render(); setTimeout(openLinkedRecipe, 0);
     }).catch(() => { ui.catalog = []; if (ui.tab === 'recipes') render(); });
   }
 
