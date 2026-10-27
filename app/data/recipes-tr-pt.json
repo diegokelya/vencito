@@ -7555,10 +7555,10 @@
   ]
  },
  "es-albondigas-en-salsa": {
-  "title": "Almôndegas ao molho",
-  "summary": "Um prato de vó, com muito molho para molhar o pão.",
-  "side": "Batata frita ou arroz",
-  "tip": "Passe as bolinhas na farinha antes de fritar para não se desmancharem.",
+  "title": "Almôndegas ao molho de amêndoas",
+  "summary": "Almôndegas caseiras num molho dourado de amêndoas e vinho branco, à espanhola.",
+  "side": "Arroz branco ou batata cozida",
+  "tip": "Toste as amêndoas a seco antes de bater: o molho ganha sabor e cor.",
   "ingredients": [
    {
     "name": "Carne moída",
@@ -7577,8 +7577,12 @@
     "amount": "1"
    },
    {
-    "name": "Tomate",
-    "amount": "1 pote"
+    "name": "Amêndoas",
+    "amount": "1 punhado (50 g)"
+   },
+   {
+    "name": "Vinho branco",
+    "amount": "1 copo"
    },
    {
     "name": "Alho",
@@ -7594,10 +7598,11 @@
    }
   ],
   "steps": [
-   "Misture a carne com o ovo, a farinha de rosca, o alho picado e sal; modele bolinhas.",
-   "Doure numa frigideira com azeite e reserve.",
-   "Refogue a cebola picada, junte o tomate e cozinhe 5 minutos.",
-   "Devolva as almôndegas e cozinhe tampado 20 minutos."
+   "Misture a carne com o ovo, a farinha de rosca, o alho picado e sal; modele bolinhas e passe-as na farinha.",
+   "Doure-as numa frigideira com azeite e reserve.",
+   "No mesmo azeite, refogue a cebola picada até dourar, junte o vinho e deixe reduzir 2 minutos.",
+   "Bata as amêndoas torradas com um copo de água, despeje na frigideira e junte as almôndegas.",
+   "Cozinhe tampado em fogo baixo por 20 minutos, mexendo a frigideira de vez em quando."
   ]
  },
  "es-macarrones-con-chorizo": {
