@@ -253,3 +253,16 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (min-width: 1000px) { .rpage.narrow .bar { margin: 0 0 14px; padding-left: 0; padding-right: 0; } }
 .scanbg { align-items: stretch; background: var(--bg); }
 .scanbg .sheet { max-width: 960px; width: 100%; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0 auto; }
+
+/* Plan de la semana: calendario del mes */
+.wgrid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; margin-top: 6px; }
+.wgrid .wh { text-align: center; font-size: 12px; font-weight: 600; color: var(--muted); padding: 4px 0; }
+.wd { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 46px; border: 0; border-radius: 10px; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.wd.out { opacity: .45; }
+.wd.today span { font-weight: 700; }
+.wd.today:not(.on) { box-shadow: inset 0 0 0 1.5px var(--primary); }
+.wd.on { background: var(--primary); color: var(--onprimary, #fff); }
+.wd i { display: flex; gap: 2px; height: 6px; }
+.wd i b { display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--primary); }
+.wd.on i b { background: var(--onprimary, #fff); }
+.card .link img.thumb { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; flex: none; }

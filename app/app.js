@@ -19,7 +19,7 @@
   const NO_EXPIRY_DAYS = 20000;
 
   /* ---------- estado ---------- */
-  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, sound: true, shake: false, autoShop: false, welcomed: false, units: 'auto', saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
+  const fresh = () => ({ v: 1, lang: '', soon: 7, lookup: true, sound: true, shake: false, autoShop: false, welcomed: false, units: 'auto', wplan: [], saved: [], savedC: [], homes: [], home: '', products: [], consumed: [], discarded: [], shopping: [] });
   const load = () => { try { return Object.assign(fresh(), JSON.parse(localStorage.getItem(LS)) || {}); } catch (e) { return fresh(); } };
   let S = load();
   const save = () => { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) { toast(t('No se pudo guardar en este navegador')); } };
@@ -172,6 +172,7 @@
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
       <div class="quick four"><button class="btn" data-act="scan-add"><b>${ico('scan-barcode')}</b>${esc(t('Escanear código'))}</button><button class="btn" data-act="scan-consume"><b>${ico('circle-check')}</b>${esc(t('Consumir con escáner'))}</button><button class="btn" data-act="scan-bulk"><b>${ico('layers')}</b>${esc(t('Agregar varios'))}</button><button class="btn" data-act="quick"><b>${ico('zap')}</b>${esc(t('Carga rápida'))}</button><button class="btn" data-act="ticket"><b>${ico('receipt-text')}</b>${esc(t('Cargar ticket'))}</button></div>
+      <button class="btn block" style="margin:8px 0;text-align:left" data-act="week">${ico('calendar')} <b>${esc(t('Plan de la semana'))}</b><br><span class="small muted">${esc(weekCardSubtitle())}</span></button>
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
       ${homeChips()}${catChips()}${locChips()}
       <div id="list">${listHtml()}</div>
@@ -308,16 +309,21 @@
   /* Una receta por día que usa primero lo que vence antes. Cada día cuenta los días que le faltan a cada producto desde ese día y no repite
      productos ya usados. Es una sugerencia: cada día se puede cambiar por otra receta. */
   const kwTest = k => new RegExp('(^|[^a-z0-9])' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[^a-z0-9])');
-  function weekIdea(r, pantry, off) {
+  /* Qué dice el acceso directo de la pantalla principal: cuántas recetas hay planificadas en los próximos siete días. */
+  function weekCardSubtitle() {
+    const days = new Set(weekDays()), n = (S.wplan || []).filter(e => days.has(e.d)).length;
+    return n ? t('%lld recetas planificadas', n) : t('Planificá tus comidas');
+  }
+  function weekIdea(r, pantry, off, lenient) {
     const avail = pantry.filter(x => x.d >= off); let main = 0, expiring = 0; const used = [], extra = [];
     for (const i of r.ingredients || []) {
       const staple = i.kind === 'staple', opt = i.kind === 'optional';
       const kws = (i.keywords && i.keywords.length ? i.keywords : [i.name]).map(fold).filter(Boolean);
       const hit = staple ? null : avail.find(x => !used.includes(x) && kws.some(k => kwTest(k).test(x.n)));
-      if (hit) { used.push(hit); if (hit.d - off <= S.soon) expiring++; } else if (staple || opt) extra.push(i); else return null;
+      if (hit) { used.push(hit); if (hit.d - off <= S.soon) expiring++; } else if (staple || opt || lenient) extra.push(i); else return null;
       if (!staple && !opt) main++;
     }
-    return main ? { r, used, extra, expiring, minutes: r.minutes || 0 } : null;
+    return main || lenient ? { r, used, extra, expiring, minutes: r.minutes || 0 } : null;
   }
   function weekPick(cands, pantry, off, titles) {
     let best = null;
@@ -328,38 +334,84 @@
     }
     return best;
   }
-  const weekRest = (week, except) => { const gone = new Set(); week.forEach(d => { if (d.off !== except) d.used.forEach(x => gone.add(x)); }); return gone; };
-  function weekBuild() {
-    const pantry = visible().map(p => ({ n: fold(p.name), name: p.name, d: daysOf(p) })).filter(x => x.d != null && x.d >= 0);
-    ui.wpantry = pantry;
-    const cands = (ui.catalog || []).filter(dietOk).filter(r => !(r.meals || []).length || r.meals.includes('main')), week = [], titles = new Set(); let left = pantry;
-    for (let off = 0; off < 7; off++) {
-      const w = weekPick(cands, left, off, titles); if (!w) break;
-      week.push(Object.assign(w, { off })); titles.add(fold(w.r.title)); left = left.filter(x => !w.used.includes(x));
-    }
-    ui.week = week; ui.weekAdded = false; ui.wseen = {}; ui.wnone = new Set();
+  /* El plan se guarda en el navegador (S.wplan): una lista de {d: 'aaaa-mm-dd', id}; un día puede tener varias recetas. */
+  const weekDays = () => { const t0 = new Date(); return Array.from({ length: 7 }, (_, i) => { const d = new Date(t0.getFullYear(), t0.getMonth(), t0.getDate() + i); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }); };
+  const weekKey = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  const weekOff = key => { const t0 = new Date(); return Math.round((new Date(+key.slice(0, 4), +key.slice(5, 7) - 1, +key.slice(8, 10)) - new Date(t0.getFullYear(), t0.getMonth(), t0.getDate())) / 864e5); };
+  const weekCands = () => (ui.catalog || []).filter(dietOk).filter(r => !(r.meals || []).length || r.meals.includes('main'));
+  const weekPantry = () => visible().map(p => ({ n: fold(p.name), name: p.name, d: daysOf(p) })).filter(x => x.d != null && x.d >= 0);
+  /* Cada receta del plan con lo que se usa de la despensa y lo que falta (también si no se puede hacer del todo). */
+  function weekItems() {
+    const days = weekDays(), pantry = weekPantry(), out = [];
+    (S.wplan || []).forEach(e => { const off = weekOff(e.d), r = (ui.catalog || []).find(x => x.id === e.id); if (off >= 0 && r) out.push(Object.assign(weekIdea(r, pantry, off, true), { e, off })); });
+    return out;
   }
-  function weekSwap(off) {
-    const week = ui.week, cur = week.find(d => d.off === off); if (!cur) return;
-    const seen = (ui.wseen[off] = ui.wseen[off] || new Set()); seen.add(fold(cur.r.title));
-    const cands = (ui.catalog || []).filter(dietOk).filter(r => !(r.meals || []).length || r.meals.includes('main'));
-    const gone = weekRest(week, off), strict = ui.wpantry.filter(x => !gone.has(x)), planTitles = new Set(week.map(d => fold(d.r.title)));
-    const avoid = new Set([...planTitles, ...seen]);
-    // Primero con lo que no usan los demás días; si no alcanza, también con lo que usa otro día; y si ya se vieron todas, vuelven a ofrecerse.
-    const w = weekPick(cands, strict, off, avoid) || weekPick(cands, ui.wpantry, off, avoid) || weekPick(cands, strict, off, planTitles) || weekPick(cands, ui.wpantry, off, planTitles);
-    if (!w) { ui.wnone.add(off); return; }
-    ui.wnone.delete(off); ui.week = week.map(d => d.off === off ? Object.assign(w, { off }) : d); ui.weekAdded = false;
+  function weekFill(keep) {
+    const days = weekDays(), pantry = weekPantry(), cands = weekCands(), plan = keep.slice();
+    const items = []; plan.forEach(e => { const off = weekOff(e.d), r = cands.concat(ui.catalog || []).find(x => x.id === e.id); if (off >= 0 && r) items.push(weekIdea(r, pantry, off, true)); });
+    let left = pantry.filter(x => !items.some(w => w.used.includes(x)));
+    const titles = new Set(items.map(w => fold(w.r.title)));
+    days.forEach((d, off) => {
+      if (plan.some(e => e.d === d)) return;
+      const w = weekPick(cands, left, off, titles); if (!w) return;
+      plan.push({ d, id: w.r.id }); titles.add(fold(w.r.title)); left = left.filter(x => !w.used.includes(x));
+    });
+    return plan;
   }
-  function weekMissing() { const seen = new Set(), out = []; (ui.week || []).forEach(d => d.extra.forEach(i => { if (!seen.has(fold(i.name))) { seen.add(fold(i.name)); out.push(i); } })); return out; }
+  function weekLoad() {
+    const first = weekDays()[0];
+    S.wplan = (S.wplan || []).filter(e => e.d >= first);      // el plan puede llegar tan lejos como se quiera; lo que ya pasó se descarta
+    if (!S.wplan.length) S.wplan = weekFill([]);
+    save(); ui.weekAdded = false; ui.wseen = {}; ui.wnone = new Set(); ui.wsel = first; ui.wmonth = first.slice(0, 7);
+  }
+  function weekSwap(d, id) {
+    const items = weekItems(), cur = items.find(w => w.e.d === d && w.e.id === id); if (!cur) return;
+    const slot = d + '|' + id, seen = (ui.wseen[slot] = ui.wseen[slot] || new Set()); seen.add(fold(cur.r.title));
+    const others = items.filter(w => w !== cur), pantry = weekPantry(), gone = new Set(); others.forEach(w => w.used.forEach(x => gone.add(x)));
+    const strict = pantry.filter(x => !gone.has(x)), planTitles = new Set(items.map(w => fold(w.r.title))), avoid = new Set([...planTitles, ...seen]), cands = weekCands();
+    const w = weekPick(cands, strict, cur.off, avoid) || weekPick(cands, pantry, cur.off, avoid) || weekPick(cands, strict, cur.off, planTitles) || weekPick(cands, pantry, cur.off, planTitles);
+    if (!w) { ui.wnone.add(slot); return; }
+    ui.wnone.delete(slot); ui.wseen[d + '|' + w.r.id] = seen;
+    S.wplan = S.wplan.map(e => e === cur.e ? { d, id: w.r.id } : e); save(); ui.weekAdded = false;
+  }
+  function weekMissing() { const seen = new Set(), out = []; weekItems().filter(w => w.off < 7).forEach(w => w.extra.forEach(i => { if (!seen.has(fold(i.name))) { seen.add(fold(i.name)); out.push(i); } })); return out; }
   function weekSheet() {
-    const week = ui.week || [], miss = weekMissing(), fmt = new Intl.DateTimeFormat(LOCALES[lang()], { weekday: 'long', day: 'numeric', month: 'long' });
-    const body = !week.length ? `<div class="empty">${esc(t('Cargá productos para armar el plan de la semana.'))}</div>` : week.map(d => {
-      const day = new Date(Date.now() + d.off * 864e5), label = fmt.format(day);
-      return `<div class="card" style="margin:8px 0"><div class="small muted">${esc(label.charAt(0).toUpperCase() + label.slice(1))}</div>
-        <button class="link" style="display:flex;gap:12px;align-items:center;width:100%;text-align:left" data-act="week-open" data-id="${esc(d.r.id)}">${photo(d.r.id, 'thumb')}<span class="grow"><b>${flagOf(d.r.origin)}${esc(d.r.title)}</b>${d.expiring ? `<br><span class="small" style="color:var(--orange,#ff9500)">${esc(d.used.filter(x => x.d - d.off <= S.soon).map(x => x.name).join(', '))}</span>` : ''}</span></button>
-        <button class="link" data-act="week-swap" data-id="${d.off}">${ico('rotate-ccw')} ${esc(t('Otra receta'))}</button>${ui.wnone && ui.wnone.has(d.off) ? `<p class="small muted">${esc(t('No hay otra receta con tus productos.'))}</p>` : ''}</div>`;
-    }).join('') + (miss.length ? `<button class="btn block" data-act="week-add" ${ui.weekAdded ? 'disabled' : ''}>${ico(ui.weekAdded ? 'check' : 'shopping-cart')} ${esc(ui.weekAdded ? t('Agregado a la lista de compras') : t('Agregar a la lista lo que falta de la semana'))}</button>` : '') + `<p class="small muted">${esc(t('Cada día usa primero lo que vence antes. Es una sugerencia: podés cambiar cualquier receta.'))}</p>`;
+    const items = weekItems(), miss = weekMissing(), loc = LOCALES[lang()], days = weekDays(), today = days[0];
+    const sel = ui.wsel || today, ym = ui.wmonth || sel.slice(0, 7), y = +ym.slice(0, 4), m = +ym.slice(5, 7) - 1;
+    const sundayFirst = /^(en|pt)/.test(lang()), first = new Date(y, m, 1), lead = (first.getDay() - (sundayFirst ? 0 : 1) + 7) % 7;
+    const cells = []; for (let i = -lead; i < 42; i++) { const d = new Date(y, m, 1 + i); if (i >= new Date(y, m + 1, 0).getDate() && d.getDay() === (sundayFirst ? 0 : 1)) break; cells.push(d); }
+    const dow = new Intl.DateTimeFormat(loc, { weekday: 'narrow' }), monthName = new Intl.DateTimeFormat(loc, { month: 'long', year: 'numeric' }).format(first);
+    const head = Array.from({ length: 7 }, (_, i) => dow.format(new Date(2024, 0, (sundayFirst ? 7 : 1) + i)));
+    const cal = `<div class="card wcal"><div class="row"><button class="link" style="width:auto" data-act="week-month" data-id="-1" aria-label="‹">‹</button><b class="grow" style="text-align:center">${esc(monthName.charAt(0).toUpperCase() + monthName.slice(1))}</b><button class="link" style="width:auto" data-act="week-month" data-id="1" aria-label="›">›</button></div>
+      <div class="wgrid">${head.map(h => `<span class="wh">${esc(h)}</span>`).join('')}${cells.map(d => { const k = weekKey(d), n = items.filter(w => w.e.d === k).length, out = d.getMonth() !== m || k < today;
+        return `<button class="wd${k === sel ? ' on' : ''}${k === today ? ' today' : ''}${out ? ' out' : ''}" data-act="week-day" data-id="${k}"><span>${d.getDate()}</span><i>${'<b></b>'.repeat(Math.min(n, 3))}</i></button>`; }).join('')}</div></div>`;
+    const label = new Intl.DateTimeFormat(loc, { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date(+sel.slice(0, 4), +sel.slice(5, 7) - 1, +sel.slice(8, 10)));
+    const mine = items.filter(w => w.e.d === sel);
+    const day = `<div class="card" style="margin:8px 0"><div class="small muted">${esc(label.charAt(0).toUpperCase() + label.slice(1))}</div>` +
+      (mine.length ? mine.map(w => {
+        const slot = sel + '|' + w.r.id;
+        return `<button class="link" style="display:flex;gap:12px;align-items:center;width:100%;text-align:left" data-act="week-open" data-id="${esc(w.r.id)}">${photo(w.r.id, 'thumb')}<span class="grow"><b>${flagOf(w.r.origin)}${esc(w.r.title)}</b>${w.expiring ? `<br><span class="small" style="color:var(--orange,#ff9500)">${esc(w.used.filter(x => x.d - w.off <= S.soon).map(x => x.name).join(', '))}</span>` : ''}</span></button>
+          <div class="row"><button class="link" style="width:auto" data-act="week-swap" data-id="${esc(slot)}">${ico('rotate-ccw')} ${esc(t('Otra receta'))}</button><button class="link" style="width:auto" data-act="week-del" data-id="${esc(slot)}">${ico('trash-2')} ${esc(t('Quitar del plan'))}</button></div>${ui.wnone && ui.wnone.has(slot) ? `<p class="small muted">${esc(t('No hay otra receta con tus productos.'))}</p>` : ''}`;
+      }).join('') : `<p class="small muted">${esc(t('Sin recetas este día'))}</p>`) +
+      `<button class="link" data-act="week-pick" data-id="${esc(sel)}">${ico('plus')} ${esc(t('Agregar receta'))}</button></div>`;
+    const body = `<button class="btn" style="margin:6px 0" data-act="week-rebuild">${ico('sparkles')} ${esc(t('Sugerir la semana'))}</button>` + (!items.length ? `<div class="empty">${esc(t('Cargá productos para armar el plan de la semana.'))}</div>` : '') + cal + day +
+      (miss.length ? `<button class="btn block" data-act="week-add" ${ui.weekAdded ? 'disabled' : ''}>${ico(ui.weekAdded ? 'check' : 'shopping-cart')} ${esc(ui.weekAdded ? t('Agregado a la lista de compras') : t('Agregar a la lista lo que falta de la semana'))}</button>` : '') + `<p class="small muted">${esc(t('Cada día usa primero lo que vence antes. Es una sugerencia: podés cambiar cualquier receta.'))}</p>`;
     return page(t('Plan de la semana'), body, 'narrow');
+  }
+  /* «Agregar al plan» desde la receta: se elige el día en un calendario del navegador. */
+  function planDaySheet() {
+    const id = ui.sheet.id, today = weekDays()[0];
+    return page(t('Elegí el día'), `<input type="date" id="wdate" min="${today}" value="${esc(ui.wsel && ui.wsel >= today ? ui.wsel : today)}" style="font-size:18px;padding:12px;width:100%"><button class="btn primary block" style="margin-top:12px" data-act="plan-day-ok" data-id="${esc(id)}">${esc(t('Agregar al plan'))}</button>`, 'narrow');
+  }
+  /* Buscador de recetas para ponerle una al día: las que se pueden hacer con lo que hay van primero. */
+  function weekPickList() {
+    const q = fold(ui.wq || ''), pantry = weekPantry(), doableIds = new Set((ui.catalog || []).filter(r => { const w = weekIdea(r, pantry, 0, true); return w && w.extra.every(i => i.kind === 'staple' || i.kind === 'optional'); }).map(r => r.id));
+    const list = (ui.catalog || []).filter(dietOk).filter(r => !q || fold(r.title).includes(q) || (r.ingredients || []).some(i => fold(i.name).includes(q)))
+      .sort((a, b) => (doableIds.has(b.id) - doableIds.has(a.id)) || a.title.localeCompare(b.title, LOCALES[lang()])).slice(0, 100);
+    return list.map(r => `<button class="card" style="display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;margin:6px 0" data-act="week-pick-add" data-id="${esc(r.id)}"><span class="grow">${flagOf(r.origin)}${esc(r.title)}</span>${doableIds.has(r.id) ? ico('circle-check') : ''}</button>`).join('');
+  }
+  function weekPickSheet() {
+    return page(t('Elegí una receta'), `<input class="search" id="wq" type="search" placeholder="${esc(t('Buscar receta…'))}" value="${esc(ui.wq || '')}" autocomplete="off"><div id="wlist">${weekPickList()}</div>`, 'narrow');
   }
   function recipesView() {
     const head = `<h1>${esc(t('¿Qué cocino hoy?'))}</h1>
@@ -376,7 +428,7 @@
   /* La receta y «Cocinar» ocupan la pantalla (con un botón para volver) en vez de abrirse en una ventana flotante. */
   const page = (title, body, cls = '') => `<div class="rpage ${cls}"><div class="bar"><button class="btn" data-act="close">‹ ${esc(t('Volver'))}</button><h2 class="grow">${esc(title)}</h2></div>${body}</div>`;
   /* Pantallas que ocupan todo (con «Volver»); las confirmaciones chicas siguen siendo ventanas. */
-  const PAGE_TYPES = new Set(['week', 'product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe']);
+  const PAGE_TYPES = new Set(['week', 'wpick', 'wday', 'product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe']);
   const NARROW_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'receipt']);
   let sheetAsPage = false;
   const sheet = (title, body, close = true, cls = '') => sheetAsPage ? page(title, body, (cls + (ui.sheet && NARROW_TYPES.has(ui.sheet.type) ? ' narrow' : '')).trim()) : `<div class="sheet-bg" data-act="bg"><div class="sheet ${cls}" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3>${close ? `<button class="btn" data-act="close">${esc(t('Cerrar'))}</button>` : ''}</div>${body}</div></div>`;
@@ -567,7 +619,7 @@
       ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">${ico('users')} <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
       ${r.side ? `<p class="small">${ico('leaf')} ${esc(r.side)}</p>` : ''}
       ${recipeLink(r) ? `<p class="small">${ico('link')} <a class="rlink" href="${esc(recipeLink(r))}" target="_blank" rel="noopener">${esc(recipeLink(r).replace('https://', ''))}</a></p>` : ''}
-      <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>${ico('play')}</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${ico('heart', saved ? 'fill' : '')}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button><button class="btn" data-act="ck-share"><b>${ico('share-2')}</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>${ico('audio-lines')}</b>${esc(t('Cocinar con ChatGPT'))}</button></div></div>
+      <div class="quick two"><button class="btn" data-act="ck-mode" data-id="steps"><b>${ico('play')}</b>${esc(t('Paso a paso'))}</button><button class="btn" data-act="save-recipe" data-id="${esc(id)}"><b>${ico('heart', saved ? 'fill' : '')}</b>${esc(saved ? t('Quitar de guardadas') : t('Guardar receta'))}</button>${r.composed ? '' : `<button class="btn" data-act="plan-day"><b>${ico('calendar')}</b>${esc(t('Agregar al plan'))}</button>`}<button class="btn" data-act="ck-share"><b>${ico('share-2')}</b>${esc(t('Compartir receta'))}</button><button class="btn" data-act="ck-chatgpt"><b>${ico('audio-lines')}</b>${esc(t('Cocinar con ChatGPT'))}</button></div></div>
       <div class="rcol"><h2>${esc(t('Ingredientes'))}</h2><div class="group" id="cking">${cookIngHtml(r)}</div>
       ${m.ing.some(x => !x.have && !x.staple) ? `<button class="btn block" style="margin-top:8px" data-act="ck-missing">${ico('shopping-cart')} ${esc(t('Agregar lo que falta a la lista'))}</button>` : ''}</div>
       <div class="rcol"><h2>${esc(t('Preparación'))}</h2><div class="group" id="ckstp">${cookStepsHtml(r)}</div>${r.tip ? `<p class="muted small">${ico('lightbulb')} ${esc(r.tip)}</p>` : ''}
@@ -608,7 +660,7 @@
     const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
     const isPage = !!(ui.sheet && PAGE_TYPES.has(ui.sheet.type)); sheetAsPage = isPage;
     const tabView = () => ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'week' ? weekSheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'week' ? weekSheet() : sh.type === 'wpick' ? weekPickSheet() : sh.type === 'wday' ? planDaySheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
     const wasPage = !!ui.inPage; if (isPage && !wasPage) ui.pageBack = window.scrollY;       // para volver al mismo lugar de la lista
     const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
@@ -654,73 +706,19 @@
       case 'open': ui.sheet = { type: 'product', id }; render(); break;
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
-      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; if (ui.sheet && ui.sheet.back === 'week') { ui.sheet = { type: 'week' }; render(); } else closeSheet(); break;
-      case 'week': if (ui.catalog) { weekBuild(); ui.sheet = { type: 'week' }; render(); } break;
+      case 'close': if (ui.sheet && ui.sheet.type === 'receipt') ui.receipt = null; if (ui.sheet && ui.sheet.back === 'week') { ui.sheet = { type: 'week' }; render(); } else if (ui.sheet && ui.sheet.back === 'recipe') { ui.sheet = { type: 'recipe', id: ui.sheet.id }; render(); } else closeSheet(); break;
+      case 'week': if (ui.catalog) { weekLoad(); ui.sheet = { type: 'week' }; render(); } else { ui.weekPending = true; ensureRecipes(); } break;
       case 'week-open': ui.cook = null; ui.sheet = { type: 'recipe', id, back: 'week' }; render(); cookWake(); break;
-      case 'week-swap': weekSwap(+id); render(); break;
+      case 'week-swap': { const [d, rid] = id.split('|'); weekSwap(d, rid); render(); break; }
+      case 'week-day': ui.wsel = id; ui.wmonth = id.slice(0, 7); render(); break;
+      case 'week-month': { const [yy, mm] = (ui.wmonth || weekDays()[0].slice(0, 7)).split('-').map(Number), d = new Date(yy, mm - 1 + Number(id), 1); ui.wmonth = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0'); render(); break; }
+      case 'plan-day': ui.sheet = { type: 'wday', id: ui.sheet.id, back: 'recipe' }; render(); break;
+      case 'plan-day-ok': { const day = (document.getElementById('wdate') || {}).value; if (day && day >= weekDays()[0]) { if (!(S.wplan || []).some(e => e.d === day && e.id === id)) { (S.wplan = S.wplan || []).push({ d: day, id }); save(); } ui.wsel = day; ui.cook = null; ui.sheet = { type: 'recipe', id }; toast(t('Agregada al plan'), false, true); render(); } break; }
+      case 'week-del': { const [d, rid] = id.split('|'); S.wplan = S.wplan.filter(e => !(e.d === d && e.id === rid)); save(); ui.weekAdded = false; render(); break; }
+      case 'week-rebuild': S.wplan = weekFill(S.wplan || []); save(); ui.weekAdded = false; ui.wseen = {}; ui.wnone = new Set(); render(); break;
+      case 'week-pick': ui.wq = ''; ui.sheet = { type: 'wpick', day: id, back: 'week' }; render(); break;
+      case 'week-pick-add': { const day = ui.sheet && ui.sheet.day; if (day && !S.wplan.some(e => e.d === day && e.id === id)) { S.wplan.push({ d: day, id }); save(); ui.weekAdded = false; } ui.sheet = { type: 'week' }; render(); break; }
       case 'week-add': weekMissing().forEach(i => addToShopping(i.name, i.amount || '')); save(); ui.weekAdded = true; toast(t('Agregado a la lista de compras'), false, true); render(); break;
-      case 'ticket': document.getElementById('ticketpic').click(); break;
-      case 'rc-qty': { const it = ui.receipt && ui.receipt.items.find(x => String(x.id) === id); if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); const b = el.parentElement.querySelector('b'); if (b) b.textContent = it.qty; } break; }
-      case 'rc-save': receiptSave(); break;
-      case 'hperiod': ui.period = id; render(); break;
-      case 'dups': ui.sheet = { type: 'dups' }; render(); break;
-      case 'dup-merge': { const n = mergeGroup(id.split(',')); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
-      case 'dup-all': { let n = 0; dupGroups().forEach(g => { n += mergeGroup(g.map(x => x.id)); }); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
-      case 'homef': S.home = id; save(); render(); break;
-      case 'homes': ui.sheet = { type: 'homes' }; render(); break;
-      case 'home-add': { const i = document.getElementById('newhome'); if (i && i.value.trim()) { addHome(i.value); render(); } break; }
-      case 'home-del': ui.sheet = { type: 'homedel', id }; render(); break;
-      case 'home-del-yes': deleteHome(id); ui.sheet = { type: 'homes' }; render(); break;
-      case 'comp-more': { const add = VRecipes.suggest(lang(), compPantry(), 3, ui.comp.map(r => r.title)).map(registerComposed); ui.comp.push(...add); refreshRecipes(); break; }
-      case 'wl-next': if (ui.welcome >= WELCOME.length - 1) { ui.welcome = null; S.welcomed = true; save(); } else ui.welcome++; render(); break;
-      case 'wl-skip': ui.welcome = null; S.welcomed = true; save(); render(); break;
-      case 'wl-show': ui.welcome = 0; render(); break;
-      case 'locf': ui.loc = id; render(); break;
-      case 'catf': ui.cat = id; render(); break;
-      case 'unopen': { const p = S.products.find(x => x.id === id); if (p) { delete p.openedAt; delete p.openDays; save(); render(); } break; }
-      case 'open-it': { const p = S.products.find(x => x.id === id); if (p) { p.openedAt = iso(new Date()); p.openDays = OPEN_DAYS[catKey(p.category)] || 7; save(); render(); } break; }
-      case 'quick': openQuick(); break;
-      case 'quick-pick': quickPick(id); break;
-      case 'hist': ui.hist = id; ui.sheet = { type: 'hist' }; render(); break;
-      case 'readd': { const r = (ui.hist === 'consumed' ? S.consumed : S.discarded).find(x => x.id === id); if (r) { ui.sheet = { type: 'form', id: null, pre: { pre: true, name: r.name, category: r.category || '', barcode: r.barcode || '' } }; render(); } break; }
-      case 'scan-add': openScanner('add'); break;
-      case 'scan-consume': openScanner('consume'); break;
-      case 'scan-bulk': openScanner('bulk'); break;
-      case 'form-scan': openScanner('fill'); break;
-      case 'read-date': openScanner('date'); break;
-      case 'scan-close': closeScanner(); break;
-      case 'scan-skip': finishDate(null); break;
-      case 'scan-pic': document.getElementById('scanpic').click(); break;
-      case 'scan-date': pickDate({ kind: 'bulk', i: +id }); break;
-      case 'scan-del': scan.items.splice(+id, 1); scanList(); break;
-      case 'scan-save': scanSave(); break;
-      case 'scan-qty': { const it = scan.items[+id]; if (it) { it.qty = Math.max(1, Math.min(99, it.qty + +el.dataset.d)); scanList(); } break; }
-      case 'consume': consumeOne(id); break;
-      case 'discard': discard(id); break;
-      case 'remove': remove(id); break;
-      case 'ask-remove': ui.sheet = { type: 'remove', id }; render(); break;
-      case 'to-list': { const p = S.products.find(x => x.id === id); if (p) { addToShopping(p.name); closeSheet(false); toast(t('Agregado a la lista de compras')); } break; }
-      case 'stats': ui.sheet = { type: 'stats' }; render(); break;
-      case 'period': ui.period = id; render(); break;
-      case 'qty': { const c = document.getElementById('qty'), h = document.querySelector('input[name=quantity]'); const n = Math.min(999, Math.max(1, (parseInt(c.textContent, 10) || 1) + parseInt(id, 10))); c.textContent = n; h.value = n; break; }
-      case 'tick': { const i = S.shopping.find(x => x.id === id); if (i) { i.done = !i.done; save(); render(); } break; }
-      case 'untick': S.shopping = S.shopping.filter(x => x.id !== id); save(); render(); break;
-      case 'clear-done': S.shopping = S.shopping.filter(x => !x.done); save(); render(); break;
-      case 'share-list': shareList(); break;
-      case 'lang': S.lang = id; save(); render(); if (ui.tab === 'recipes') ensureRecipes(); break;
-      case 'export': exportJson(); break;
-      case 'egg': {   // huevo de pascua, como en las apps: siete toques en la versión
-        ui.eggTaps = (ui.eggTaps || 0) + 1;
-        if (ui.eggTaps >= 7) { ui.eggTaps = 0; try { navigator.vibrate && navigator.vibrate(40); } catch (e) { /* sin vibración */ } toast(t(['🧀 Este queso ya está en edad de merecer.', '🥛 La leche no avisa: Vencito sí.', '🍞 Lo que vence primero, se come primero.'][Math.floor(Math.random() * 3)]), false, true); }
-        break;
-      }
-      case 'wipe': ui.sheet = { type: 'wipe' }; render(); break;
-      case 'clear-hist': ui.sheet = { type: 'hist-clear' }; render(); break;
-      case 'clear-hist-yes': S.consumed = []; save(); closeSheet(false); toast(t('Listo')); break;
-      case 'wipe-yes': S.products = []; save(); closeSheet(false); toast(t('Listo')); break;
-      case 'recipe': ui.cook = null; ui.sheet = { type: 'recipe', id }; render(); cookWake(); break;
-      case 'ck-ing': case 'ck-step': case 'ck-serv': case 'ck-mode': case 'ck-prev': case 'ck-next': case 'ck-speak': case 'ck-share': case 'ck-chatgpt': case 'ck-missing': case 'save-recipe': cookAct(act, id, el); break;
-      case 'rmode': ui.rmode = id; ui.rshown = 40; render(); break;
       case 'rmeal': ui.rmeal = id; ui.rshown = 40; render(); break;
       case 'rorigin': ui.rorigin = id; ui.rshown = 40; render(); break;
       case 'rdoable': ui.rdoable = !ui.rdoable; ui.rshown = 40; render(); break;
@@ -739,6 +737,7 @@
     if (ui.receipt && e.target.id === 'rcstore') ui.receipt.store = e.target.value;
     if (ui.receipt && e.target.dataset && (e.target.dataset.rc === 'name' || e.target.dataset.rc === 'days')) { const it = ui.receipt.items.find(x => String(x.id) === e.target.dataset.id); if (it) it[e.target.dataset.rc] = e.target.dataset.rc === 'days' ? Math.max(0, Math.min(3650, parseInt(e.target.value, 10) || 0)) : e.target.value; }
     if (e.target.id === 'qq') { ui.quickQ = e.target.value; refreshQuick(); }
+    if (e.target.id === 'wq') { ui.wq = e.target.value; document.getElementById('wlist').innerHTML = weekPickList(); return; }
     if (e.target.id === 'rq') { ui.rq = e.target.value; ui.rshown = 40; document.getElementById('rlist').innerHTML = recipeCards(); }
   });
   document.addEventListener('change', e => {
@@ -836,7 +835,7 @@
         }
         all.push(r);
       }));
-      ui.diets = diets; ui.catalog = all; if (ui.tab === 'recipes') render(); setTimeout(openLinkedRecipe, 0);
+      ui.diets = diets; ui.catalog = all; if (ui.weekPending) { ui.weekPending = false; weekLoad(); ui.sheet = { type: 'week' }; render(); } else if (ui.tab === 'recipes') render(); setTimeout(openLinkedRecipe, 0);
     }).catch(() => { ui.catalog = []; if (ui.tab === 'recipes') render(); });
   }
 
