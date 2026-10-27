@@ -35,3 +35,13 @@ test('números que no son un vencimiento', () => {
   ['LOTE 250326', 'COD 123456', 'EAN 7791234567890', 'PESO NETO 14 02 27', 'LOTE 12 05 27', 'EXP 2027-13'].forEach(t => assert.equal(date(t), null, t));
   ['L 301230 VTO 14/02/27', 'VTO 14/02/27 LOTE 301230'].forEach(t => assert.equal(date(t), '2027-02-14', t)); assert.equal(date('PROD 140227 VTO 140228'), '2028-02-14');
 });
+
+test('etiquetas con las palabras y las fechas en columnas: VTO toma su fecha y no la de envasado', () => {
+  const day = r => r && r.date;
+  const text = 'ALMENDRA SIN CASCARA X KG\nOrigen Chile. RNE 010081488 RNPA 2906-5411/01.\nENV:\nVTO:\n27/10/2026\n25/01/2027\n00:38\nPESO\n1.03kg';
+  assert.equal(day(P.parse(text, '2026-10-27')), '2027-01-25');
+  assert.equal(day(P.parse('ELAB:\nENV:\nVTO:\n01/10/2026\n02/10/2026\n12/02/2027', '2026-10-27')), '2027-02-12');
+  assert.equal(day(P.parse('ENV: 27/10/2026\nVTO: 25/01/2027 00:38', '2026-10-27')), '2027-01-25');
+  assert.equal(day(P.parse('VTO:\n25/01/2027', '2026-10-27')), '2027-01-25');
+});
+
