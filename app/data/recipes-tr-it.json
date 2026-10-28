@@ -43262,5 +43262,3209 @@
    "A parte, rosola i bastoncini di patate nell'olio fino a renderli croccanti.",
    "Mescola tutto e servi caldo."
   ]
+ },
+ "jp-shogayaki": {
+  "title": "Shōgayaki",
+  "summary": "Maiale saltato con zenzero e salsa di soia, veloce e perfetto con il riso.",
+  "side": "Riso e cavolo cappuccio a julienne",
+  "tip": "Taglia la carne molto sottile: cuoce in un minuto e resta tenera.",
+  "ingredients": [
+   {
+    "name": "Maiale a fettine sottili",
+    "amount": "400 g"
+   },
+   {
+    "name": "Zenzero",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Salsa di soia",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Olio",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Mescola la salsa di soia con lo zenzero grattugiato e lo zucchero.",
+   "Taglia la cipolla a mezzelune e saltala per 3 minuti.",
+   "Aggiungi il maiale e cuocilo fino a doratura.",
+   "Versa la salsa e lasciala insaporire la carne per 1 minuto."
+  ]
+ },
+ "jp-kitsune-udon": {
+  "title": "Kitsune udon",
+  "summary": "Zuppa giapponese di spaghetti spessi con tofu fritto dolce e cipollotto.",
+  "side": "Cipollotto e shichimi",
+  "tip": "Cuoci gli udon a parte così il brodo resta limpido.",
+  "ingredients": [
+   {
+    "name": "Noodles udon",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tofu fritto (aburaage)",
+    "amount": "2"
+   },
+   {
+    "name": "Salsa di soia",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Dashi o brodo vegetale",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Cipollotto",
+    "amount": "2"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Porta a bollore il brodo con la salsa di soia e lo zucchero.",
+   "Aggiungi il tofu e cuoci 5 minuti perché assorba il sapore.",
+   "Lessa gli udon a parte, scolali e distribuiscili nelle ciotole.",
+   "Copri con il brodo caldo, il tofu e il cipollotto tritato."
+  ]
+ },
+ "jp-omurice": {
+  "title": "Omurice",
+  "summary": "Riso saltato con pollo avvolto in una frittata morbida con ketchup.",
+  "side": "Ketchup e insalata verde",
+  "tip": "Togli la frittata dal fuoco quando il centro è ancora cremoso.",
+  "ingredients": [
+   {
+    "name": "Riso cotto",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Pollo",
+    "amount": "150 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Uova",
+    "amount": "4"
+   },
+   {
+    "name": "Ketchup",
+    "amount": "4 cucchiai"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Rosola la cipolla e il pollo tagliato a cubetti.",
+   "Aggiungi il riso e 3 cucchiai di ketchup e mescola bene.",
+   "Sbatti le uova e cuocile in una padella unta come frittata morbida.",
+   "Metti il riso al centro, chiudi la frittata e servi con altro ketchup."
+  ]
+ },
+ "in-palak-paneer": {
+  "title": "Palak paneer",
+  "summary": "Spinaci cremosi con cubetti di formaggio fresco e spezie delicate.",
+  "side": "Riso basmati o naan",
+  "tip": "Dora i cubetti di formaggio prima, così non si sfaldano.",
+  "ingredients": [
+   {
+    "name": "Spinaci",
+    "amount": "400 g"
+   },
+   {
+    "name": "Formaggio fresco compatto (paneer)",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pomodoro",
+    "amount": "1"
+   },
+   {
+    "name": "Aglio",
+    "amount": "2 spicchi"
+   },
+   {
+    "name": "Cumino",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Panna",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Sbollenta gli spinaci 2 minuti e frullali.",
+   "Soffriggi cipolla, aglio e cumino; aggiungi il pomodoro a pezzetti.",
+   "Unisci gli spinaci e cuoci 5 minuti.",
+   "Aggiungi il formaggio a cubetti e la panna e scalda ancora 3 minuti."
+  ]
+ },
+ "in-paneer-bhurji": {
+  "title": "Paneer bhurji",
+  "summary": "Formaggio fresco sbriciolato e saltato con cipolla, pomodoro e spezie.",
+  "side": "Roti o pane",
+  "tip": "Aggiungi un pizzico di sale solo alla fine così il formaggio non si secca.",
+  "ingredients": [
+   {
+    "name": "Formaggio fresco compatto",
+    "amount": "250 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pomodoro",
+    "amount": "1"
+   },
+   {
+    "name": "Curcuma",
+    "amount": "1/2 cucchiaino"
+   },
+   {
+    "name": "Cumino",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Sbriciola il formaggio con le mani.",
+   "Soffriggi la cipolla con il cumino fino a renderla trasparente.",
+   "Aggiungi il pomodoro a pezzetti e la curcuma e cuoci 4 minuti.",
+   "Unisci il formaggio, mescola e cuoci altri 3 minuti."
+  ]
+ },
+ "gr-spanakorizo": {
+  "title": "Spanakorizo",
+  "summary": "Riso greco con spinaci, limone e aneto, leggero e fresco.",
+  "side": "Feta e limone",
+  "tip": "Servilo tiepido con un bel filo d’olio crudo.",
+  "ingredients": [
+   {
+    "name": "Riso",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Spinaci",
+    "amount": "400 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Limone",
+    "amount": "1"
+   },
+   {
+    "name": "Aneto",
+    "amount": "1 mazzetto"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "4 cucchiai"
+   }
+  ],
+  "steps": [
+   "Soffriggi la cipolla tritata nell’olio d’oliva.",
+   "Aggiungi gli spinaci tritati finché appassiscono.",
+   "Unisci il riso e 2 tazze di acqua calda e cuoci coperto 15 minuti.",
+   "Finisci con succo di limone e aneto tritato."
+  ]
+ },
+ "gr-dakos": {
+  "title": "Dakos",
+  "summary": "Fetta di pane duro cretese con pomodoro grattugiato, formaggio e olio d’oliva.",
+  "side": "Olive",
+  "tip": "Con pomodori ben maturi non serve altro.",
+  "ingredients": [
+   {
+    "name": "Pane raffermo o friselle",
+    "amount": "2 fette"
+   },
+   {
+    "name": "Pomodori maturi",
+    "amount": "2"
+   },
+   {
+    "name": "Feta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Origano",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Bagna brevemente il pane duro con acqua e scolalo.",
+   "Grattugia i pomodori e distribuisci la polpa sul pane.",
+   "Sbriciola la feta sopra.",
+   "Condisci con origano e olio d’oliva."
+  ]
+ },
+ "gr-fasolakia-yiahni": {
+  "title": "Fasolakia yiahni",
+  "summary": "Fagiolini in umido con pomodoro, patate e olio d’oliva, alla greca.",
+  "side": "Feta e pane",
+  "tip": "Più lenta è la cottura, più sapore e più cremoso il sugo.",
+  "ingredients": [
+   {
+    "name": "Fagiolini",
+    "amount": "500 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "2"
+   },
+   {
+    "name": "Pomodori pelati",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Aglio",
+    "amount": "2 spicchi"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "4 cucchiai"
+   }
+  ],
+  "steps": [
+   "Soffriggi cipolla e aglio nell’olio d’oliva.",
+   "Aggiungi i fagiolini e le patate a cubetti.",
+   "Versa il pomodoro e mezza tazza d’acqua.",
+   "Cuoci coperto a fuoco basso 30 minuti finché tutto è tenero."
+  ]
+ },
+ "gr-saganaki": {
+  "title": "Saganaki",
+  "summary": "Formaggio fritto dorato fuori e filante dentro, con limone.",
+  "side": "Pane e limone",
+  "tip": "Bagnare il formaggio prima di infarinarlo aiuta la crosticina ad aderire.",
+  "ingredients": [
+   {
+    "name": "Formaggio a pasta dura (provolone o kefalotyri)",
+    "amount": "200 g"
+   },
+   {
+    "name": "Farina",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Limone",
+    "amount": "1"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Taglia il formaggio a fette di 1 cm e passale nell’acqua.",
+   "Infarinale scuotendo l’eccesso.",
+   "Doralle 1 minuto per lato nell’olio d’oliva caldo.",
+   "Servile subito con succo di limone."
+  ]
+ },
+ "in-upma": {
+  "title": "Upma",
+  "summary": "Colazione indiana salata di semola con cipolla, verdure e spezie.",
+  "side": "Yogurt naturale",
+  "tip": "Versa la semola poco alla volta mescolando per evitare i grumi.",
+  "ingredients": [
+   {
+    "name": "Semola",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Carota",
+    "amount": "1"
+   },
+   {
+    "name": "Piselli",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Semi di senape",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Tosta la semola a secco per 3 minuti e mettila da parte.",
+   "Scalda l’olio con i semi di senape e soffriggi la cipolla.",
+   "Aggiungi carota, piselli e 2 tazze d’acqua; porta a bollore.",
+   "Versa la semola a pioggia mescolando e cuoci coperto 3 minuti."
+  ]
+ },
+ "in-aloo-paratha": {
+  "title": "Aloo paratha",
+  "summary": "Pani piatti indiani ripieni di purè di patate speziato.",
+  "side": "Yogurt o pickles",
+  "tip": "Usa patate ben asciutte perché il ripieno non strappi l’impasto.",
+  "ingredients": [
+   {
+    "name": "Farina integrale o 00",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Patate lesse",
+    "amount": "3"
+   },
+   {
+    "name": "Cumino",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Peperoncino in polvere",
+    "amount": "1/2 cucchiaino"
+   },
+   {
+    "name": "Burro o olio",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Prepara un impasto con farina, sale e acqua tiepida e lascialo riposare 15 minuti.",
+   "Schiaccia le patate e mescolale con cumino, peperoncino e sale.",
+   "Stendi palline di impasto, farciscile con il purè e chiudile.",
+   "Stendile di nuovo e cuocile in padella con burro fino a doratura su entrambi i lati."
+  ]
+ },
+ "in-lemon-rice": {
+  "title": "Lemon rice",
+  "summary": "Riso dell’India del sud con limone, curcuma e arachidi tostate.",
+  "side": "Yogurt e pickles",
+  "tip": "Ideale per recuperare il riso del giorno prima.",
+  "ingredients": [
+   {
+    "name": "Riso cotto",
+    "amount": "3 tazze"
+   },
+   {
+    "name": "Limoni",
+    "amount": "2"
+   },
+   {
+    "name": "Curcuma",
+    "amount": "1/2 cucchiaino"
+   },
+   {
+    "name": "Arachidi",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Semi di senape",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Scalda l’olio e tosta le arachidi con i semi di senape.",
+   "Aggiungi la curcuma e spegni il fuoco.",
+   "Unisci il riso cotto e mescola bene.",
+   "Termina con il succo di limone e sale."
+  ]
+ },
+ "jp-horenso-goma-ae": {
+  "title": "Horenso no goma-ae",
+  "summary": "Spinaci sbollentati con crema di sesamo e salsa di soia.",
+  "side": "Riso bianco",
+  "tip": "Strizza bene gli spinaci perché la salsa non diventi acquosa.",
+  "ingredients": [
+   {
+    "name": "Spinaci",
+    "amount": "300 g"
+   },
+   {
+    "name": "Sesamo",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Salsa di soia",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Sbollenta gli spinaci 1 minuto e passali sotto l’acqua fredda.",
+   "Strizzali bene e tagliali a pezzi.",
+   "Tosta e macina il sesamo; mescolalo con la salsa di soia e lo zucchero.",
+   "Condisci gli spinaci con la salsa."
+  ]
+ },
+ "fr-omelette-aux-fines-herbes": {
+  "title": "Omelette alle erbe fini",
+  "summary": "Omelette morbida profumata di prezzemolo e erba cipollina.",
+  "side": "Insalata verde",
+  "tip": "Toglila dal fuoco quando è ancora cremosa: finisce di cuocere in padella.",
+  "ingredients": [
+   {
+    "name": "Uova",
+    "amount": "4"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 mazzetto"
+   },
+   {
+    "name": "Erba cipollina",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Burro",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Sale",
+    "amount": "q.b."
+   }
+  ],
+  "steps": [
+   "Sbatti le uova con un pizzico di sale.",
+   "Aggiungi prezzemolo ed erba cipollina tritati.",
+   "Fai sciogliere il burro in padella e versa le uova.",
+   "Porta i bordi verso il centro e ripiega l’omelette."
+  ]
+ },
+ "fr-riz-au-lait": {
+  "title": "Riso al latte alla francese",
+  "summary": "Dolce cremoso di riso cotto lentamente nel latte con vaniglia.",
+  "side": "Caramello o marmellata",
+  "tip": "Mescola spesso: il latte attacca subito sul fondo.",
+  "ingredients": [
+   {
+    "name": "Riso a chicco tondo",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "4 cucchiai"
+   },
+   {
+    "name": "Vaniglia",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Scalda il latte con la vaniglia.",
+   "Aggiungi il riso e lo zucchero.",
+   "Cuoci a fuoco basso per 35 minuti mescolando spesso.",
+   "Servi tiepido o freddo."
+  ]
+ },
+ "fr-gateau-au-yaourt": {
+  "title": "Torta allo yogurt francese",
+  "summary": "Torta semplicissima in cui il vasetto dello yogurt fa da misurino.",
+  "side": "Tè o caffè",
+  "tip": "Usa il vasetto vuoto dello yogurt per misurare tutti gli ingredienti.",
+  "ingredients": [
+   {
+    "name": "Yogurt bianco",
+    "amount": "1 vasetto"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 vasetti"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 vasetto"
+   },
+   {
+    "name": "Uova",
+    "amount": "3"
+   },
+   {
+    "name": "Olio",
+    "amount": "1/2 vasetto"
+   },
+   {
+    "name": "Lievito in polvere",
+    "amount": "1 bustina"
+   }
+  ],
+  "steps": [
+   "Preriscalda il forno a 180 °C.",
+   "Mescola lo yogurt, lo zucchero e le uova.",
+   "Aggiungi la farina, il lievito e l’olio.",
+   "Versa in una tortiera imburrata e cuoci 35 minuti."
+  ]
+ },
+ "de-linsen-mit-spaetzle": {
+  "title": "Lenticchie con spätzle",
+  "summary": "Classico svevo: stufato di lenticchie con spätzle e salsicce.",
+  "side": "Aceto",
+  "tip": "Un goccio di aceto alla fine rende lo stufato più rotondo.",
+  "ingredients": [
+   {
+    "name": "Lenticchie",
+    "amount": "200 g"
+   },
+   {
+    "name": "Spätzle o pasta",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Salsicce",
+    "amount": "2"
+   },
+   {
+    "name": "Carota",
+    "amount": "1"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Taglia a dadini cipolla e carota e soffriggile nell’olio.",
+   "Aggiungi le lenticchie e 1 litro d’acqua e cuoci 25 minuti.",
+   "Cuoci gli spätzle secondo le indicazioni.",
+   "Servi tutto con le salsicce e un goccio di aceto."
+  ]
+ },
+ "de-maultaschen-in-bruehe": {
+  "title": "Maultaschen in brodo",
+  "summary": "Ravioloni svevi ripieni in brodo caldo.",
+  "side": "Erba cipollina",
+  "tip": "Non bollire forte altrimenti i ravioloni si aprono.",
+  "ingredients": [
+   {
+    "name": "Maultaschen o ravioloni",
+    "amount": "8"
+   },
+   {
+    "name": "Brodo vegetale o di manzo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Erba cipollina",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1/2"
+   }
+  ],
+  "steps": [
+   "Porta il brodo a bollore.",
+   "Aggiungi le maultaschen e cuoci 8 minuti.",
+   "Cospargi con anelli di cipolla.",
+   "Servi con erba cipollina."
+  ]
+ },
+ "de-zwiebelkuchen": {
+  "title": "Torta di cipolle tedesca",
+  "summary": "Torta salata con cipolle, pancetta e panna acida.",
+  "side": "Insalata verde",
+  "tip": "Il meglio è mangiarla tiepida, con vino novello.",
+  "ingredients": [
+   {
+    "name": "Cipolle",
+    "amount": "600 g"
+   },
+   {
+    "name": "Pasta sfoglia o lievitata",
+    "amount": "1 rotolo"
+   },
+   {
+    "name": "Pancetta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Panna acida",
+    "amount": "150 g"
+   },
+   {
+    "name": "Uova",
+    "amount": "2"
+   },
+   {
+    "name": "Burro",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Affetta le cipolle e stufale con la pancetta nel burro per 10 minuti.",
+   "Sbatti la panna acida con le uova e condisci con sale e cumino.",
+   "Fodera una teglia con la pasta e distribuisci le cipolle.",
+   "Versa il composto di uova e cuoci 35 minuti a 200 °C."
+  ]
+ },
+ "de-wuerstchen-eintopf": {
+  "title": "Stufato tedesco di salsicce",
+  "summary": "Stufato sostanzioso con salsicce, patate e verdure.",
+  "side": "Pane",
+  "tip": "Schiacciare qualche patata rende lo stufato più denso.",
+  "ingredients": [
+   {
+    "name": "Salsicce",
+    "amount": "3"
+   },
+   {
+    "name": "Patate",
+    "amount": "3"
+   },
+   {
+    "name": "Carote",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Brodo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Olio",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Taglia a dadini cipolla, carote e patate.",
+   "Rosola tutto brevemente nell’olio e copri con il brodo.",
+   "Fai sobbollire 20 minuti.",
+   "Aggiungi le salsicce a rondelle e scalda 5 minuti."
+  ]
+ },
+ "de-quarkkeulchen": {
+  "title": "Quarkkeulchen",
+  "summary": "Frittelle sassoni di quark e patate.",
+  "side": "Composta di mele e zucchero alla cannella",
+  "tip": "Forma con le mani infarinate perché l’impasto non si attacchi.",
+  "ingredients": [
+   {
+    "name": "Quark o ricotta",
+    "amount": "250 g"
+   },
+   {
+    "name": "Patate lesse",
+    "amount": "200 g"
+   },
+   {
+    "name": "Farina",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Uovo",
+    "amount": "1"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Schiaccia le patate e mescola con quark, farina, uovo e zucchero.",
+   "Forma piccole frittelle piatte.",
+   "Dorale nel burro a fuoco medio da entrambi i lati.",
+   "Servi con composta di mele e zucchero alla cannella."
+  ]
+ },
+ "de-milchreis-mit-zimt": {
+  "title": "Riso al latte alla cannella",
+  "summary": "Riso al latte cremoso con cannella e zucchero.",
+  "side": "Composta di ciliegie",
+  "tip": "Mescola sempre perché non bruci.",
+  "ingredients": [
+   {
+    "name": "Riso",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Cannella",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Burro",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Porta a bollore il latte con il riso e un pizzico di sale.",
+   "Cuoci a fuoco basso 30 minuti mescolando.",
+   "Aggiungi lo zucchero e mescola ancora un attimo.",
+   "Servi con zucchero e cannella e burro."
+  ]
+ },
+ "de-rote-bete-salat": {
+  "title": "Insalata di barbabietole tedesca",
+  "summary": "Insalata fresca di barbabietole cotte con cipolla e aceto.",
+  "side": "Patate saltate",
+  "tip": "Taglia con i guanti: la barbabietola macchia le dita.",
+  "ingredients": [
+   {
+    "name": "Barbabietole",
+    "amount": "500 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Aceto",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Cumino dei prati",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Taglia le barbabietole cotte a fette.",
+   "Trita finemente la cipolla.",
+   "Mescola aceto, olio, sale e cumino per il condimento.",
+   "Unisci tutto e lascia riposare 20 minuti."
+  ]
+ },
+ "de-rahmschnitzel": {
+  "title": "Scaloppina alla panna",
+  "summary": "Scaloppina in padella con cremosa salsa ai funghi.",
+  "side": "Spätzle o patate",
+  "tip": "Batti le scaloppine in modo uniforme così cuociono in fretta.",
+  "ingredients": [
+   {
+    "name": "Scaloppine di maiale o vitello",
+    "amount": "2"
+   },
+   {
+    "name": "Funghi champignon",
+    "amount": "200 g"
+   },
+   {
+    "name": "Panna",
+    "amount": "150 ml"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Sala le scaloppine, infarinale e dorale nel burro.",
+   "Toglile e tienile in caldo.",
+   "Rosola cipolla e funghi nello stesso grasso.",
+   "Aggiungi la panna, riduci e rimetti le scaloppine nella salsa per un attimo."
+  ]
+ },
+ "pt-arroz-de-marisco": {
+  "title": "Riso ai frutti di mare portoghese",
+  "summary": "Riso brodoso portoghese con gamberi e cozze in salsa di pomodoro.",
+  "side": "Coriandolo e limone",
+  "tip": "Il riso deve restare brodoso.",
+  "ingredients": [
+   {
+    "name": "Riso",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Gamberi",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cozze",
+    "amount": "300 g"
+   },
+   {
+    "name": "Pomodori",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Soffriggi la cipolla nell’olio e aggiungi il pomodoro a pezzetti.",
+   "Unisci il riso e 3 tazze di acqua calda.",
+   "Cuoci 10 minuti e aggiungi i frutti di mare.",
+   "Cuoci altri 5 minuti fino a ottenere un riso brodoso e finisci con coriandolo."
+  ]
+ },
+ "pt-sopa-de-peixe": {
+  "title": "Zuppa di pesce portoghese",
+  "summary": "Zuppa di pesce leggera e saporita con pomodoro, patate ed erbe.",
+  "side": "Pane tostato",
+  "tip": "Aggiungi il pesce alla fine perché non si sfaldi.",
+  "ingredients": [
+   {
+    "name": "Filetti di pesce bianco",
+    "amount": "400 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "2"
+   },
+   {
+    "name": "Pomodori",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 mazzetto"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Soffriggi la cipolla nell’olio e aggiungi il pomodoro a pezzetti.",
+   "Unisci le patate a cubetti e 1 litro d’acqua.",
+   "Cuoci 15 minuti e aggiungi il pesce a pezzi.",
+   "Cuoci altri 5 minuti e finisci con prezzemolo."
+  ]
+ },
+ "pt-bacalhau-a-gomes-de-sa": {
+  "title": "Baccalà alla Gomes de Sá",
+  "summary": "Baccalà sfilacciato con patate, cipolle, uovo sodo e olive.",
+  "side": "Prezzemolo",
+  "tip": "Lascia in ammollo il baccalà 24 ore in acqua fredda cambiandola.",
+  "ingredients": [
+   {
+    "name": "Baccalà dissalato",
+    "amount": "400 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "600 g"
+   },
+   {
+    "name": "Cipolle",
+    "amount": "2"
+   },
+   {
+    "name": "Uova sode",
+    "amount": "2"
+   },
+   {
+    "name": "Olive",
+    "amount": "1 manciata"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "4 cucchiai"
+   }
+  ],
+  "steps": [
+   "Lessa le patate con la buccia e tagliale a fette.",
+   "Cuoci il baccalà a scaglie e scolalo.",
+   "Stufa le cipolle a rondelle nell’olio fino a farle ammorbidire.",
+   "Componi a strati con le patate e il baccalà e inforna 15 minuti; servi con uovo e olive."
+  ]
+ },
+ "pt-arroz-doce": {
+  "title": "Riso dolce portoghese",
+  "summary": "Dolce cremoso con scorza di limone e cannella.",
+  "side": "Cannella in polvere",
+  "tip": "Mescola sempre perché il fondo non bruci.",
+  "ingredients": [
+   {
+    "name": "Riso",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Tuorli",
+    "amount": "3"
+   },
+   {
+    "name": "Scorza di limone",
+    "amount": "1"
+   },
+   {
+    "name": "Cannella",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Lessa il riso in acqua 5 minuti e scolalo.",
+   "Aggiungi latte, scorza di limone e zucchero e cuoci 25 minuti mescolando.",
+   "Togli dal fuoco e incorpora i tuorli sbattuti.",
+   "Servi freddo con cannella."
+  ]
+ },
+ "pt-carne-de-porco-a-alentejana": {
+  "title": "Maiale all’alentejana",
+  "summary": "Maiale marinato con vongole e patate fritte.",
+  "side": "Coriandolo",
+  "tip": "Più a lungo marina, più il maiale è saporito.",
+  "ingredients": [
+   {
+    "name": "Lonza o coscia di maiale",
+    "amount": "500 g"
+   },
+   {
+    "name": "Vongole o cozze",
+    "amount": "300 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "3"
+   },
+   {
+    "name": "Aglio",
+    "amount": "3 spicchi"
+   },
+   {
+    "name": "Vino bianco",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Marina il maiale a cubetti con aglio, vino e sale per 30 minuti.",
+   "Friggi le patate a cubetti fino a doratura.",
+   "Rosola il maiale nell’olio e aggiungi le vongole finché si aprono.",
+   "Mescola con le patate e servi con coriandolo."
+  ]
+ },
+ "gb-full-english-breakfast": {
+  "title": "Colazione inglese completa",
+  "summary": "Classico fritto con uova, bacon, salsicce, fagioli e toast.",
+  "side": "Salsa bruna",
+  "tip": "Cuoci le salsicce lentamente perché si dorino senza scoppiare.",
+  "ingredients": [
+   {
+    "name": "Uova",
+    "amount": "2"
+   },
+   {
+    "name": "Bacon",
+    "amount": "4 fette"
+   },
+   {
+    "name": "Salsicce",
+    "amount": "2"
+   },
+   {
+    "name": "Fagioli in salsa",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Pomodoro",
+    "amount": "1"
+   },
+   {
+    "name": "Pane",
+    "amount": "2 fette"
+   },
+   {
+    "name": "Olio",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Friggi le salsicce nell’olio 10 minuti fino a doratura.",
+   "Aggiungi il bacon e il pomodoro tagliato a metà e cuoci 5 minuti.",
+   "Scalda i fagioli e tosta il pane.",
+   "Friggi le uova e servi tutto insieme."
+  ]
+ },
+ "gb-colcannon": {
+  "title": "Colcannon",
+  "summary": "Purè di patate irlandese con cavolo e cipollotto.",
+  "side": "Salsicce",
+  "tip": "Fai un incavo al centro e metti una noce di burro.",
+  "ingredients": [
+   {
+    "name": "Patate",
+    "amount": "600 g"
+   },
+   {
+    "name": "Cavolo o cavolo riccio",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Cipollotti",
+    "amount": "3"
+   },
+   {
+    "name": "Latte",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Lessa le patate fino a renderle tenere e schiacciale.",
+   "Cuoci il cavolo a listarelle nel burro 5 minuti.",
+   "Scalda il latte con i cipollotti affettati.",
+   "Mescola tutto al purè e condisci con sale e pepe."
+  ]
+ },
+ "gb-irish-stew": {
+  "title": "Irish stew",
+  "summary": "Stufato lento di agnello con patate, carote e cipolla.",
+  "side": "Pane soda",
+  "tip": "Schiuma all’inizio per un brodo più limpido.",
+  "ingredients": [
+   {
+    "name": "Agnello o carne",
+    "amount": "600 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "450 g"
+   },
+   {
+    "name": "Carote",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolle",
+    "amount": "2"
+   },
+   {
+    "name": "Acqua o brodo",
+    "amount": "3 tazze"
+   },
+   {
+    "name": "Timo",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Metti la carne, le cipolle e le carote in una pentola con l’acqua.",
+   "Porta a bollore e cuoci a fuoco basso 1 ora.",
+   "Aggiungi le patate e il timo.",
+   "Cuoci altri 30 minuti finché tutto è tenero."
+  ]
+ },
+ "us-pot-roast": {
+  "title": "Brasato all’americana",
+  "summary": "Manzo brasato lentamente con carote, patate e cipolla.",
+  "side": "Panini",
+  "tip": "Lascia riposare l’arrosto 10 minuti prima di affettarlo.",
+  "ingredients": [
+   {
+    "name": "Spalla o cappello del prete di manzo",
+    "amount": "900 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "450 g"
+   },
+   {
+    "name": "Carote",
+    "amount": "3"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Brodo di manzo",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Olio",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Condisci la carne e rosolala su tutti i lati nell’olio.",
+   "Aggiungi la cipolla a fette e il brodo, copri e cuoci a fuoco basso 2 ore.",
+   "Unisci patate e carote.",
+   "Cuoci altri 30 minuti finché la carne è tenera."
+  ]
+ },
+ "us-chicken-and-dumplings": {
+  "title": "Zuppa di pollo con gnocchetti",
+  "summary": "Zuppa cremosa di pollo con soffici gnocchetti di pasta.",
+  "side": "Pepe nero",
+  "tip": "Non alzare il coperchio mentre gli gnocchetti cuociono.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "450 g"
+   },
+   {
+    "name": "Carote",
+    "amount": "2"
+   },
+   {
+    "name": "Sedano",
+    "amount": "2 coste"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Farina",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Cuoci il pollo con le verdure a dadini in 6 tazze d’acqua per 20 minuti.",
+   "Sfilaccia il pollo e rimettilo in pentola.",
+   "Impasta farina, latte, burro e un pizzico di sale.",
+   "Versa cucchiaiate nella zuppa che sobbolle e cuoci coperto 10 minuti."
+  ]
+ },
+ "us-biscuits-and-gravy": {
+  "title": "Biscotti salati con salsa di salsiccia",
+  "summary": "Biscotti caldi con cremosa salsa di salsiccia.",
+  "side": "Uova al tegamino",
+  "tip": "Usa molto pepe: la salsa deve essere ben pepata.",
+  "ingredients": [
+   {
+    "name": "Biscotti salati o scones",
+    "amount": "4"
+   },
+   {
+    "name": "Salsiccia fresca",
+    "amount": "225 g"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Latte",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Pepe nero",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Scalda i biscotti in forno.",
+   "Rosola la salsiccia sbriciolata in padella.",
+   "Aggiungi la farina e cuoci 1 minuto.",
+   "Versa il latte, fai addensare, pepa e servi sui biscotti."
+  ]
+ },
+ "us-cobb-salad": {
+  "title": "Insalata Cobb",
+  "summary": "Lattuga con pollo, bacon, uovo, pomodoro e avocado.",
+  "side": "Salsa ranch o vinaigrette",
+  "tip": "Condisci subito prima di servire per mantenere la lattuga croccante.",
+  "ingredients": [
+   {
+    "name": "Lattuga",
+    "amount": "4 tazze"
+   },
+   {
+    "name": "Pollo cotto",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Bacon",
+    "amount": "4 fette"
+   },
+   {
+    "name": "Uova sode",
+    "amount": "2"
+   },
+   {
+    "name": "Pomodoro",
+    "amount": "1"
+   },
+   {
+    "name": "Avocado",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Rosola il bacon fino a renderlo croccante e sbriciolalo.",
+   "Taglia pollo, uova, pomodoro e avocado.",
+   "Disponi la lattuga su un piatto.",
+   "Allinea gli ingredienti in file e condisci a tavola."
+  ]
+ },
+ "us-french-onion-soup": {
+  "title": "Zuppa di cipolle gratinata",
+  "summary": "Zuppa di cipolle caramellate con pane tostato e formaggio gratinato.",
+  "side": "Insalata verde",
+  "tip": "La pazienza con le cipolle dà il sapore.",
+  "ingredients": [
+   {
+    "name": "Cipolle",
+    "amount": "4"
+   },
+   {
+    "name": "Brodo di manzo",
+    "amount": "4 tazze"
+   },
+   {
+    "name": "Pane",
+    "amount": "4 fette"
+   },
+   {
+    "name": "Groviera o emmental",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Cuoci le cipolle a fette nel burro a fuoco basso 30 minuti fino a doratura intensa.",
+   "Aggiungi il brodo e fai sobbollire 15 minuti.",
+   "Versa in ciotole da forno e copri con pane tostato e formaggio.",
+   "Gratina finché il formaggio fa le bolle e si dora."
+  ]
+ },
+ "us-sheet-pan-sausage-and-veggies": {
+  "title": "Salsicce e verdure in teglia",
+  "summary": "Salsicce arrostite con patate, peperoni e cipolla in un’unica teglia.",
+  "side": "Senape",
+  "tip": "Taglia le patate piccole perché cuociano insieme alle salsicce.",
+  "ingredients": [
+   {
+    "name": "Salsicce",
+    "amount": "4"
+   },
+   {
+    "name": "Patate",
+    "amount": "450 g"
+   },
+   {
+    "name": "Peperoni",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Scalda il forno a 220 °C.",
+   "Condisci patate a cubetti, peperoni e cipolla con olio, paprika e sale su una teglia.",
+   "Adagia le salsicce sopra.",
+   "Cuoci 30 minuti girando una volta, fino a doratura."
+  ]
+ },
+ "ca-cretons-on-toast": {
+  "title": "Cretons su crostini",
+  "summary": "Patè di maiale speziato del Québec su pane tostato.",
+  "side": "Sottaceti",
+  "tip": "Si conserva alcuni giorni in frigorifero.",
+  "ingredients": [
+   {
+    "name": "Maiale macinato",
+    "amount": "450 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Latte",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Cannella",
+    "amount": "1/2 cucchiaino"
+   },
+   {
+    "name": "Pane",
+    "amount": "4 fette"
+   }
+  ],
+  "steps": [
+   "Cuoci il maiale con la cipolla tritata fine, il latte, la cannella, sale e pepe per 15 minuti.",
+   "Mescola spesso sbriciolando la carne finché il liquido è assorbito.",
+   "Frulla o schiaccia fino a una crema spalmabile e fai raffreddare.",
+   "Spalma sul pane tostato."
+  ]
+ },
+ "ca-pouding-chomeur": {
+  "title": "Pouding chômeur",
+  "summary": "Dolce del Québec cotto in una salsa calda di sciroppo d’acero.",
+  "side": "Gelato alla vaniglia",
+  "tip": "Servi tiepido perché lo sciroppo resti fluido.",
+  "ingredients": [
+   {
+    "name": "Farina",
+    "amount": "1 1/2 tazza"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "3/4 tazza"
+   },
+   {
+    "name": "Sciroppo d’acero",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "1/4 tazza"
+   },
+   {
+    "name": "Lievito in polvere",
+    "amount": "2 cucchiaini"
+   }
+  ],
+  "steps": [
+   "Mescola farina, zucchero, lievito, burro fuso e latte in una pastella.",
+   "Scalda lo sciroppo con 1/2 tazza d’acqua e versalo in una teglia.",
+   "Distribuisci a cucchiaiate la pastella sullo sciroppo caldo.",
+   "Inforna a 180 °C 30 minuti fino a doratura."
+  ]
+ },
+ "ca-smoked-meat-sandwich": {
+  "title": "Panino con carne affumicata",
+  "summary": "Panino alla Montréal con carne affumicata tiepida e senape.",
+  "side": "Cetriolino sott’aceto",
+  "tip": "Scalda a vapore perché resti succosa.",
+  "ingredients": [
+   {
+    "name": "Carne affumicata o pastrami",
+    "amount": "225 g"
+   },
+   {
+    "name": "Pane di segale",
+    "amount": "4 fette"
+   },
+   {
+    "name": "Senape",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Cetriolini",
+    "amount": "2"
+   }
+  ],
+  "steps": [
+   "Scalda la carne a fette in padella coperta con un goccio d’acqua.",
+   "Spalma la senape sul pane.",
+   "Accumula la carne calda su due fette.",
+   "Chiudi i panini e servi con i cetriolini."
+  ]
+ },
+ "ca-maple-glazed-carrots": {
+  "title": "Carote glassate allo sciroppo d’acero",
+  "summary": "Carote tenere glassate con sciroppo d’acero e burro.",
+  "side": "Pollo arrosto",
+  "tip": "Mescola di continuo alla fine perché la glassa non bruci.",
+  "ingredients": [
+   {
+    "name": "Carote",
+    "amount": "450 g"
+   },
+   {
+    "name": "Sciroppo d’acero",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Taglia le carote a rondelle.",
+   "Cuocile in 1/2 tazza d’acqua con il burro fino a renderle tenere, circa 10 minuti.",
+   "Aggiungi lo sciroppo e lascia ridurre il liquido a glassa.",
+   "Sala e completa con il prezzemolo."
+  ]
+ },
+ "ca-lemon-butter-cod": {
+  "title": "Merluzzo al burro e limone",
+  "summary": "Filetti di merluzzo in padella con una rapida salsa al burro e limone.",
+  "side": "Patate lesse",
+  "tip": "Non spostare il pesce mentre rosola per formare la crosticina.",
+  "ingredients": [
+   {
+    "name": "Filetti di merluzzo",
+    "amount": "2"
+   },
+   {
+    "name": "Burro",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Limone",
+    "amount": "1"
+   },
+   {
+    "name": "Aglio",
+    "amount": "1 spicchio"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Condisci il pesce e infarinalo leggermente.",
+   "Rosolalo in metà del burro 3-4 minuti per lato.",
+   "Togli il pesce e aggiungi in padella il resto del burro, l’aglio e il succo di limone.",
+   "Fai sobbollire 1 minuto e versa sul pesce."
+  ]
+ },
+ "ca-tourtiere-du-lac": {
+  "title": "Padellata di maiale e patate alla québécoise",
+  "summary": "Maiale macinato speziato con patate a cubetti in stile Québec.",
+  "side": "Ketchup o chutney",
+  "tip": "Le spezie calde danno il sapore della tourtière.",
+  "ingredients": [
+   {
+    "name": "Maiale macinato",
+    "amount": "450 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "3"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Cannella",
+    "amount": "1/2 cucchiaino"
+   },
+   {
+    "name": "Chiodi di garofano",
+    "amount": "1 pizzico"
+   },
+   {
+    "name": "Olio",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Rosola il maiale con la cipolla tritata nell’olio.",
+   "Aggiungi le patate a cubetti, la cannella, i chiodi di garofano, sale e pepe.",
+   "Unisci 1/2 tazza d’acqua, copri e cuoci 15 minuti.",
+   "Scopri e cuoci finché le patate sono dorate e tenere."
+  ]
+ },
+ "fr-gratin-de-poireaux-au-jambon": {
+  "title": "Gratin di porri al prosciutto",
+  "summary": "Porri avvolti nel prosciutto, coperti di besciamella e gratinati.",
+  "side": "Insalata verde",
+  "tip": "Strizza bene i porri perché il gratin non risulti acquoso.",
+  "ingredients": [
+   {
+    "name": "Porri",
+    "amount": "4"
+   },
+   {
+    "name": "Prosciutto cotto",
+    "amount": "4 fette"
+   },
+   {
+    "name": "Latte",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Farina",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Burro",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Formaggio grattugiato",
+    "amount": "1/2 tazza"
+   }
+  ],
+  "steps": [
+   "Lessa i porri 10 minuti e scolali.",
+   "Avvolgi ogni porro in una fetta di prosciutto.",
+   "Prepara la besciamella con burro, farina e latte.",
+   "Copri, cospargi di formaggio e gratina 20 minuti a 200 °C."
+  ]
+ },
+ "fr-veloute-de-champignons": {
+  "title": "Vellutata di funghi",
+  "summary": "Vellutata di champignon con panna.",
+  "side": "Crostini",
+  "tip": "Tieni da parte qualche fungo saltato per decorare.",
+  "ingredients": [
+   {
+    "name": "Funghi champignon",
+    "amount": "400 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Patata",
+    "amount": "1"
+   },
+   {
+    "name": "Panna",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Brodo",
+    "amount": "3 tazze"
+   }
+  ],
+  "steps": [
+   "Soffriggi la cipolla nel burro e aggiungi i funghi a fette.",
+   "Unisci la patata a cubetti e il brodo.",
+   "Cuoci 20 minuti e frulla.",
+   "Incorpora la panna e correggi di sale."
+  ]
+ },
+ "fr-blanquette-de-poulet": {
+  "title": "Blanquette di pollo",
+  "summary": "Pollo stufato in salsa bianca cremosa con carote e funghi.",
+  "side": "Riso bianco",
+  "tip": "Aggiungi un filo di limone alla fine per ravvivare la salsa.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "600 g"
+   },
+   {
+    "name": "Carote",
+    "amount": "2"
+   },
+   {
+    "name": "Funghi",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Panna",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Cuoci il pollo con la cipolla e le carote in 3 tazze d’acqua per 25 minuti.",
+   "Filtra il brodo e tieni da parte carne e verdure.",
+   "Prepara un roux con burro e farina e scioglilo con 1,5 tazze di brodo.",
+   "Rimetti tutto con la panna e i funghi e cuoci 10 minuti."
+  ]
+ },
+ "fr-quiche-saumon-poireaux": {
+  "title": "Quiche salmone e porri",
+  "summary": "Torta salata con salmone e porri, morbida e cremosa.",
+  "side": "Insalata verde",
+  "tip": "Precuoci la pasta 10 minuti perché resti croccante.",
+  "ingredients": [
+   {
+    "name": "Pasta brisée",
+    "amount": "1"
+   },
+   {
+    "name": "Salmone",
+    "amount": "200 g"
+   },
+   {
+    "name": "Porri",
+    "amount": "2"
+   },
+   {
+    "name": "Uova",
+    "amount": "3"
+   },
+   {
+    "name": "Panna",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Formaggio grattugiato",
+    "amount": "1/2 tazza"
+   }
+  ],
+  "steps": [
+   "Fai appassire i porri a rondelle in padella 8 minuti.",
+   "Fodera uno stampo con la pasta e distribuisci porri e salmone a pezzi.",
+   "Sbatti le uova con la panna, sale e pepe e versa sopra.",
+   "Cospargi di formaggio e inforna 35 minuti a 180 °C."
+  ]
+ },
+ "fr-moules-marinieres": {
+  "title": "Cozze alla marinara",
+  "summary": "Cozze cotte al vino bianco con scalogno e prezzemolo.",
+  "side": "Patatine fritte",
+  "tip": "Scarta quelle aperte prima della cottura e quelle chiuse dopo.",
+  "ingredients": [
+   {
+    "name": "Cozze",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Scalogno o cipolla",
+    "amount": "2"
+   },
+   {
+    "name": "Vino bianco",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 mazzetto"
+   }
+  ],
+  "steps": [
+   "Lava le cozze e togli il bisso.",
+   "Soffriggi lo scalogno nel burro.",
+   "Aggiungi il vino e le cozze, copri e cuoci 6 minuti scuotendo la pentola.",
+   "Cospargi di prezzemolo e servi con il liquido di cottura."
+  ]
+ },
+ "fr-endives-au-jambon": {
+  "title": "Indivie al prosciutto",
+  "summary": "Indivie brasate avvolte nel prosciutto e gratinate con besciamella.",
+  "side": "Patate al vapore",
+  "tip": "Strizza le indivie per eliminare l’acqua ed evitare l’amaro.",
+  "ingredients": [
+   {
+    "name": "Indivie",
+    "amount": "4"
+   },
+   {
+    "name": "Prosciutto cotto",
+    "amount": "4 fette"
+   },
+   {
+    "name": "Latte",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Farina",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Burro",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Formaggio grattugiato",
+    "amount": "1/2 tazza"
+   }
+  ],
+  "steps": [
+   "Cuoci le indivie al vapore o in acqua 15 minuti e scolale bene.",
+   "Avvolgi ognuna in una fetta di prosciutto.",
+   "Prepara una besciamella e ricopri le indivie.",
+   "Cospargi di formaggio e gratina 20 minuti a 200 °C."
+  ]
+ },
+ "es-flan-de-huevo": {
+  "title": "Flan di uova fatto in casa",
+  "summary": "Dolce classico di uova, latte e caramello.",
+  "side": "Crema o panna",
+  "tip": "Filtra il composto perché il flan non abbia bolle.",
+  "ingredients": [
+   {
+    "name": "Uova",
+    "amount": "4"
+   },
+   {
+    "name": "Latte",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "3/4 tazza"
+   },
+   {
+    "name": "Vaniglia",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Prepara un caramello con 1/4 di tazza di zucchero e ricopri il fondo di uno stampo.",
+   "Sbatti le uova con il resto dello zucchero, il latte e la vaniglia.",
+   "Versa nello stampo e cuoci a bagnomaria in forno 45 minuti a 170 °C.",
+   "Raffredda e sforma."
+  ]
+ },
+ "es-arroz-con-leche": {
+  "title": "Riso al latte spagnolo",
+  "summary": "Dolce cremoso con cannella e scorza di limone.",
+  "side": "Cannella in polvere",
+  "tip": "Mescola spesso perché diventi cremoso e non si attacchi.",
+  "ingredients": [
+   {
+    "name": "Riso",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Scorza di limone",
+    "amount": "1"
+   },
+   {
+    "name": "Stecca di cannella",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Scalda il latte con la cannella e la scorza di limone.",
+   "Aggiungi il riso e cuoci a fuoco basso 35 minuti mescolando spesso.",
+   "Unisci lo zucchero e cuoci altri 5 minuti.",
+   "Togli cannella e scorza e servi tiepido o freddo."
+  ]
+ },
+ "es-escalivada": {
+  "title": "Escalivada catalana",
+  "summary": "Melanzane, peperoni e cipolle arrostiti, conditi con olio d’oliva.",
+  "side": "Pane con pomodoro",
+  "tip": "Coprire le verdure arrostite le rende più facili da pelare.",
+  "ingredients": [
+   {
+    "name": "Melanzane",
+    "amount": "2"
+   },
+   {
+    "name": "Peperoni rossi",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolle",
+    "amount": "2"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Aglio",
+    "amount": "1 spicchio"
+   }
+  ],
+  "steps": [
+   "Arrostisci melanzane, peperoni e cipolle interi in forno a 200 °C per 45 minuti.",
+   "Lascia intiepidire coperti e pela.",
+   "Taglia tutto a strisce.",
+   "Condisci con olio d’oliva, aglio tritato e sale."
+  ]
+ },
+ "es-patatas-a-la-riojana": {
+  "title": "Patate alla riojana",
+  "summary": "Stufato di patate con chorizo e paprika.",
+  "side": "Pane croccante",
+  "tip": "Spezza le patate invece di tagliarle perché rilascino amido.",
+  "ingredients": [
+   {
+    "name": "Patate",
+    "amount": "600 g"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "150 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Aglio",
+    "amount": "2 spicchi"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Soffriggi cipolla e aglio tritati nell’olio.",
+   "Aggiungi il chorizo a rondelle e la paprika.",
+   "Unisci le patate a pezzi e copri d’acqua.",
+   "Cuoci 30 minuti a fuoco basso finché il brodo si addensa."
+  ]
+ },
+ "es-caldo-gallego": {
+  "title": "Caldo galiziano",
+  "summary": "Zuppa galiziana di patate, fagioli bianchi, cavolo e chorizo.",
+  "side": "Pane di mais",
+  "tip": "Il giorno dopo è ancora migliore.",
+  "ingredients": [
+   {
+    "name": "Patate",
+    "amount": "3"
+   },
+   {
+    "name": "Fagioli bianchi",
+    "amount": "1 lattina"
+   },
+   {
+    "name": "Cavolo verza o bietole",
+    "amount": "200 g"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "100 g"
+   },
+   {
+    "name": "Pancetta",
+    "amount": "100 g"
+   }
+  ],
+  "steps": [
+   "Fai bollire chorizo e pancetta in 1,5 litri d’acqua per 30 minuti.",
+   "Aggiungi le patate a pezzi e cuoci 15 minuti.",
+   "Unisci il cavolo tritato e i fagioli.",
+   "Cuoci altri 15 minuti e sala."
+  ]
+ },
+ "es-empanadillas-de-atun": {
+  "title": "Panzerotti al tonno",
+  "summary": "Panzerotti fritti ripieni di tonno, pomodoro e uovo.",
+  "side": "Insalata",
+  "tip": "Puoi cuocerli in forno 15 minuti a 200 °C per usare meno olio.",
+  "ingredients": [
+   {
+    "name": "Dischi di pasta per panzerotti",
+    "amount": "8"
+   },
+   {
+    "name": "Tonno in scatola",
+    "amount": "2 scatole"
+   },
+   {
+    "name": "Salsa di pomodoro",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Uovo sodo",
+    "amount": "1"
+   },
+   {
+    "name": "Olio",
+    "amount": "1 tazza"
+   }
+  ],
+  "steps": [
+   "Mescola il tonno scolato con la salsa di pomodoro e l’uovo sodo tritato.",
+   "Metti un cucchiaio di ripieno su ogni disco.",
+   "Ripiega e sigilla i bordi con una forchetta.",
+   "Friggi in olio caldo fino a doratura e scola su carta."
+  ]
+ },
+ "pt-pasteis-de-bacalhau": {
+  "title": "Frittelle di baccalà",
+  "summary": "Frittelle di baccalà e patate con prezzemolo.",
+  "side": "Riso e fagioli",
+  "tip": "Lascia riposare l’impasto 15 minuti prima di formare.",
+  "ingredients": [
+   {
+    "name": "Baccalà dissalato",
+    "amount": "300 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "400 g"
+   },
+   {
+    "name": "Uova",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 mazzetto"
+   },
+   {
+    "name": "Olio",
+    "amount": "1 tazza"
+   }
+  ],
+  "steps": [
+   "Lessa patate e baccalà e sfilaccia il pesce.",
+   "Schiaccia le patate e mescola con il baccalà, la cipolla grattugiata, il prezzemolo e le uova.",
+   "Forma quenelle con due cucchiai.",
+   "Friggi in olio caldo fino a doratura."
+  ]
+ },
+ "pt-feijoada-a-portuguesa": {
+  "title": "Feijoada alla portoghese",
+  "summary": "Fagioli stufati con chorizo, lardo e cavolo.",
+  "side": "Riso bianco",
+  "tip": "Schiaccia un po’ di fagioli in pentola per addensare il brodo.",
+  "ingredients": [
+   {
+    "name": "Fagioli cotti",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "150 g"
+   },
+   {
+    "name": "Lardo",
+    "amount": "100 g"
+   },
+   {
+    "name": "Cavolo",
+    "amount": "200 g"
+   },
+   {
+    "name": "Carota",
+    "amount": "1"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Soffriggi la cipolla con il lardo e il chorizo a rondelle.",
+   "Aggiungi la carota a cubetti e i fagioli con 2 tazze d’acqua.",
+   "Cuoci 30 minuti a fuoco basso.",
+   "Unisci il cavolo a pezzi e cuoci altri 10 minuti."
+  ]
+ },
+ "pt-omelete-de-chourico": {
+  "title": "Frittata al chorizo",
+  "summary": "Frittata soffice con rondelle di chorizo.",
+  "side": "Insalata di pomodori",
+  "tip": "Poco sale, perché il chorizo è già saporito.",
+  "ingredients": [
+   {
+    "name": "Uova",
+    "amount": "4"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "80 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Rosola il chorizo a rondelle nell’olio finché rilascia il grasso.",
+   "Aggiungi la cipolla tritata e cuoci 2 minuti.",
+   "Sbatti le uova con sale e prezzemolo e versale in padella.",
+   "Cuoci a fuoco basso e ripiega a metà."
+  ]
+ },
+ "gb-corned-beef-hash": {
+  "title": "Hash di corned beef",
+  "summary": "Patate croccanti in padella con corned beef e cipolla.",
+  "side": "Uovo fritto",
+  "tip": "Non mescolare troppo, così si forma la crosticina.",
+  "ingredients": [
+   {
+    "name": "Corned beef",
+    "amount": "1 scatola"
+   },
+   {
+    "name": "Patate",
+    "amount": "450 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Burro",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Salsa Worcestershire",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Lessa le patate a cubetti 8 minuti e scolale.",
+   "Soffriggi la cipolla tritata nel burro.",
+   "Aggiungi le patate e il corned beef sbriciolato.",
+   "Friggi fino a doratura croccante e condisci con salsa Worcestershire."
+  ]
+ },
+ "gb-scotch-broth": {
+  "title": "Zuppa scozzese di agnello e orzo",
+  "summary": "Zuppa scozzese sostanziosa con agnello, orzo e verdure a radice.",
+  "side": "Pane croccante",
+  "tip": "L’orzo addensa il brodo durante la cottura.",
+  "ingredients": [
+   {
+    "name": "Agnello o manzo",
+    "amount": "300 g"
+   },
+   {
+    "name": "Orzo perlato",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Carote",
+    "amount": "2"
+   },
+   {
+    "name": "Rapa o patata",
+    "amount": "1"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Porro",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Cuoci la carne con l’orzo in 8 tazze d’acqua per 45 minuti.",
+   "Aggiungi carote, rapa, cipolla e porro a cubetti.",
+   "Cuoci altri 30 minuti finché sono teneri.",
+   "Schiuma, condisci e servi."
+  ]
+ },
+ "gb-bread-and-butter-pudding": {
+  "title": "Budino inglese di pane e burro",
+  "summary": "Budino al forno con pane imburrato, crema e uvetta.",
+  "side": "Crema inglese",
+  "tip": "Il pane raffermo è migliore perché assorbe di più.",
+  "ingredients": [
+   {
+    "name": "Pane",
+    "amount": "6 fette"
+   },
+   {
+    "name": "Burro",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Latte",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Uova",
+    "amount": "3"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/3 tazza"
+   },
+   {
+    "name": "Uvetta",
+    "amount": "1/4 tazza"
+   }
+  ],
+  "steps": [
+   "Imburra le fette di pane e tagliale a triangoli.",
+   "Disponile in una teglia con l’uvetta.",
+   "Sbatti le uova con il latte e lo zucchero e versa sopra.",
+   "Lascia assorbire 15 minuti e inforna 35 minuti a 180 °C."
+  ]
+ },
+ "gb-rice-pudding": {
+  "title": "Riso al latte al forno",
+  "summary": "Riso al latte cremoso cotto al forno con crosticina dorata.",
+  "side": "Marmellata",
+  "tip": "Non mescolare dopo i primi 30 minuti per formare la crosticina.",
+  "ingredients": [
+   {
+    "name": "Riso a chicco tondo",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "3 tazze"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/4 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Noce moscata",
+    "amount": "1 pizzico"
+   }
+  ],
+  "steps": [
+   "Metti riso, latte e zucchero in una teglia imburrata.",
+   "Distribuisci fiocchetti di burro e gratta la noce moscata.",
+   "Inforna a 150 °C per 1 ora e mezza, mescolando una volta dopo 30 minuti.",
+   "Servi tiepido con marmellata."
+  ]
+ },
+ "gb-chicken-and-mushroom-pie": {
+  "title": "Torta salata di pollo e funghi",
+  "summary": "Ripieno cremoso di pollo e funghi sotto un coperchio di pasta dorata.",
+  "side": "Piselli e purè",
+  "tip": "Fai raffreddare il ripieno prima di coprire per mantenere la sfoglia croccante.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "450 g"
+   },
+   {
+    "name": "Funghi",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pasta sfoglia",
+    "amount": "1 rotolo"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Latte o panna",
+    "amount": "1 tazza"
+   }
+  ],
+  "steps": [
+   "Rosola il pollo a dadini, la cipolla e i funghi fino a doratura.",
+   "Aggiungi la farina, poi il latte, e fai addensare.",
+   "Versa in una teglia e copri con la sfoglia.",
+   "Spennella con uovo o latte e inforna 30 minuti a 200 °C."
+  ]
+ },
+ "fr-salade-lyonnaise": {
+  "title": "Insalata lionese",
+  "summary": "Indivia riccia con pancetta, crostini e uovo in camicia.",
+  "side": "Pane casereccio",
+  "tip": "Sfuma la padella con aceto caldo e servi tiepida.",
+  "ingredients": [
+   {
+    "name": "Indivia riccia o lattuga",
+    "amount": "1 cespo"
+   },
+   {
+    "name": "Pancetta a listarelle",
+    "amount": "100 g"
+   },
+   {
+    "name": "Uova",
+    "amount": "2"
+   },
+   {
+    "name": "Pane",
+    "amount": "2 fette"
+   },
+   {
+    "name": "Aceto",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Senape",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Rosola la pancetta senza olio e mettila da parte, tenendo il grasso.",
+   "Tosta il pane a cubetti in quel grasso.",
+   "Cuoci le uova in camicia 3 minuti in acqua appena sobbollente con aceto.",
+   "Condisci l’insalata con aceto e senape e aggiungi pancetta, crostini e uova."
+  ]
+ },
+ "fr-brandade-de-morue": {
+  "title": "Brandade di baccalà",
+  "summary": "Purè gratinato di baccalà dissalato e patate.",
+  "side": "Insalata verde",
+  "tip": "Aggiungi il latte caldo poco alla volta per una consistenza cremosa.",
+  "ingredients": [
+   {
+    "name": "Baccalà dissalato",
+    "amount": "400 g"
+   },
+   {
+    "name": "Patate",
+    "amount": "500 g"
+   },
+   {
+    "name": "Latte",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Aglio",
+    "amount": "2 spicchi"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Sbollenta il baccalà nel latte 10 minuti e sfilaccialo.",
+   "Lessa e schiaccia le patate.",
+   "Mescola con il baccalà, l’aglio schiacciato, l’olio e un po’ di latte caldo.",
+   "Versa in una teglia e gratina 15 minuti a 200 °C."
+  ]
+ },
+ "fr-cake-jambon-olives": {
+  "title": "Plumcake salato prosciutto e olive",
+  "summary": "Plumcake salato soffice con prosciutto, olive e formaggio grattugiato.",
+  "side": "Insalata verde",
+  "tip": "Si conserva 3 giorni e si può congelare a fette.",
+  "ingredients": [
+   {
+    "name": "Farina",
+    "amount": "1 1/2 tazza"
+   },
+   {
+    "name": "Uova",
+    "amount": "3"
+   },
+   {
+    "name": "Prosciutto cotto",
+    "amount": "150 g"
+   },
+   {
+    "name": "Olive verdi",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Formaggio grattugiato",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1/2 tazza"
+   }
+  ],
+  "steps": [
+   "Mescola la farina, 1 bustina di lievito e il sale.",
+   "Aggiungi le uova, il latte e 1/4 di tazza d’olio.",
+   "Incorpora il prosciutto a dadini, le olive e il formaggio.",
+   "Versa in uno stampo da plumcake e inforna 45 minuti a 180 °C."
+  ]
+ },
+ "fr-poulet-basquaise": {
+  "title": "Pollo alla basca",
+  "summary": "Pollo stufato con peperoni, pomodori e peperoncino di Espelette.",
+  "side": "Riso bianco",
+  "tip": "Più cuoce, più il sugo diventa dolce e concentrato.",
+  "ingredients": [
+   {
+    "name": "Cosce di pollo",
+    "amount": "4"
+   },
+   {
+    "name": "Peperoni",
+    "amount": "3"
+   },
+   {
+    "name": "Pomodori",
+    "amount": "4"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Aglio",
+    "amount": "2 spicchi"
+   },
+   {
+    "name": "Paprika piccante",
+    "amount": "1 pizzico"
+   }
+  ],
+  "steps": [
+   "Rosola le cosce di pollo nell’olio e mettile da parte.",
+   "Soffriggi la cipolla, l’aglio e i peperoni a listarelle.",
+   "Aggiungi i pomodori a pezzi, la paprika e il pollo.",
+   "Copri e cuoci a fuoco basso 40 minuti."
+  ]
+ },
+ "fr-tomates-farcies": {
+  "title": "Pomodori ripieni di carne",
+  "summary": "Pomodori al forno ripieni di carne macinata.",
+  "side": "Riso o patate",
+  "tip": "Disponi i pomodori in una teglia stretta perché restino dritti.",
+  "ingredients": [
+   {
+    "name": "Pomodori",
+    "amount": "6"
+   },
+   {
+    "name": "Carne macinata",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Aglio",
+    "amount": "1 spicchio"
+   },
+   {
+    "name": "Pangrattato",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 mazzetto"
+   }
+  ],
+  "steps": [
+   "Taglia la calotta ai pomodori e svuotali, tenendo la polpa.",
+   "Mescola la carne, la cipolla, l’aglio, il prezzemolo e la polpa tritata.",
+   "Riempi i pomodori e rimetti i cappelli.",
+   "Inforna 40 minuti a 180 °C."
+  ]
+ },
+ "fr-pommes-de-terre-sarladaises": {
+  "title": "Patate saltate aglio e prezzemolo",
+  "summary": "Patate saltate dorate e croccanti con aglio e prezzemolo.",
+  "side": "Uova fritte",
+  "tip": "Aggiungi l’aglio alla fine perché non bruci.",
+  "ingredients": [
+   {
+    "name": "Patate",
+    "amount": "800 g"
+   },
+   {
+    "name": "Aglio",
+    "amount": "3 spicchi"
+   },
+   {
+    "name": "Prezzemolo",
+    "amount": "1 mazzetto"
+   },
+   {
+    "name": "Olio o grasso d’anatra",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Affetta le patate sottili e asciugale.",
+   "Rosolale nel grasso caldo 15 minuti, girandole.",
+   "Copri 10 minuti perché cuociano all’interno.",
+   "Aggiungi l’aglio tritato e il prezzemolo e sala alla fine."
+  ]
+ },
+ "jp-gyoza": {
+  "title": "Gyoza fatti in casa",
+  "summary": "Ravioli giapponesi di maiale e cavolo, dorati e cotti al vapore.",
+  "side": "Salsa di soia e aceto",
+  "tip": "Strizza il cavolo in un canovaccio perché il ripieno non rilasci acqua.",
+  "ingredients": [
+   {
+    "name": "Sfoglie per gyoza",
+    "amount": "20"
+   },
+   {
+    "name": "Maiale macinato",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cavolo",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Cipollotti",
+    "amount": "2"
+   },
+   {
+    "name": "Zenzero",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Salsa di soia",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Mescola il maiale con il cavolo tritato fine, i cipollotti, lo zenzero e la salsa di soia.",
+   "Metti un cucchiaio di ripieno su ogni sfoglia, bagna il bordo e chiudi con le pieghe.",
+   "Rosola i gyoza 2 minuti da un lato in una padella unta.",
+   "Aggiungi 1/4 di tazza d’acqua, copri e cuoci 5 minuti finché evapora."
+  ]
+ },
+ "jp-soba-frio": {
+  "title": "Soba freddi con salsa di soia",
+  "summary": "Spaghetti di grano saraceno freddi con salsa per intingere.",
+  "side": "Cetriolo a rondelle",
+  "tip": "Il risciacquo in acqua fredda toglie l’amido ed evita che si attacchino.",
+  "ingredients": [
+   {
+    "name": "Spaghetti soba",
+    "amount": "200 g"
+   },
+   {
+    "name": "Salsa di soia",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Cipollotti",
+    "amount": "2"
+   },
+   {
+    "name": "Zenzero",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Semi di sesamo",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Lessa gli spaghetti come da confezione (circa 5 minuti).",
+   "Sciacquali sotto acqua fredda e scolali bene.",
+   "Mescola la salsa di soia con 1/2 tazza d’acqua, lo zucchero e lo zenzero grattugiato.",
+   "Servi gli spaghetti freddi con la salsa, i cipollotti tritati e il sesamo."
+  ]
+ },
+ "in-khichdi": {
+  "title": "Khichdi",
+  "summary": "Stufato morbido di riso e lenticchie con spezie, comfort food.",
+  "side": "Yogurt naturale",
+  "tip": "Se si addensa troppo, aggiungi un goccio d’acqua calda.",
+  "ingredients": [
+   {
+    "name": "Riso",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Lenticchie rosse",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Curcuma",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Cumino",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Ghee o olio",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Lava il riso e le lenticchie finché l’acqua è limpida.",
+   "Soffriggi nel ghee il cumino e la cipolla tritata.",
+   "Aggiungi riso, lenticchie, curcuma, sale e 4 tazze d’acqua.",
+   "Cuoci coperto 25 minuti a fuoco basso finché è cremoso."
+  ]
+ },
+ "gr-bifteki": {
+  "title": "Bifteki",
+  "summary": "Hamburger greci di manzo con origano e cipolla, alla piastra.",
+  "side": "Patatine e tzatziki",
+  "tip": "Falli riposare 15 minuti in frigo prima di cuocerli perché mantengano la forma.",
+  "ingredients": [
+   {
+    "name": "Manzo macinato",
+    "amount": "500 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pangrattato",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Origano",
+    "amount": "1 cucchiaino"
+   },
+   {
+    "name": "Uovo",
+    "amount": "1"
+   },
+   {
+    "name": "Feta",
+    "amount": "80 g"
+   }
+  ],
+  "steps": [
+   "Mescola la carne con la cipolla grattugiata, il pangrattato, l’uovo, l’origano, sale e pepe.",
+   "Forma 4 hamburger, con un pezzo di feta al centro se vuoi.",
+   "Cuoci su piastra o padella calda 5 minuti per lato.",
+   "Servi con limone e tzatziki."
+  ]
+ },
+ "gr-horiatiki": {
+  "title": "Insalata greca (horiatiki)",
+  "summary": "Pomodoro, cetriolo, cipolla rossa, olive e feta con origano.",
+  "side": "Pane pita",
+  "tip": "Niente lattuga né aceto: il sapore viene dal pomodoro maturo e dall’olio.",
+  "ingredients": [
+   {
+    "name": "Pomodori",
+    "amount": "3"
+   },
+   {
+    "name": "Cetriolo",
+    "amount": "1"
+   },
+   {
+    "name": "Cipolla rossa",
+    "amount": "1/2"
+   },
+   {
+    "name": "Olive nere",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Feta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Olio d’oliva",
+    "amount": "3 cucchiai"
+   }
+  ],
+  "steps": [
+   "Taglia i pomodori e il cetriolo a grossi pezzi.",
+   "Aggiungi la cipolla a mezzelune e le olive.",
+   "Condisci con olio d’oliva, sale e origano.",
+   "Adagia sopra il blocco di feta e servi subito."
+  ]
+ },
+ "us-jambalaya": {
+  "title": "Jambalaya di pollo e salsiccia",
+  "summary": "Riso della Louisiana in una sola pentola con pollo, salsiccia affumicata e peperone.",
+  "side": "Salsa piccante",
+  "tip": "Non sollevare il coperchio mentre il riso cuoce.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "450 g"
+   },
+   {
+    "name": "Salsiccia affumicata",
+    "amount": "200 g"
+   },
+   {
+    "name": "Riso",
+    "amount": "1 1/2 tazza"
+   },
+   {
+    "name": "Peperone",
+    "amount": "1"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pomodori in scatola",
+    "amount": "1 tazza"
+   }
+  ],
+  "steps": [
+   "Rosola il pollo a dadini e la salsiccia a rondelle in una grande pentola.",
+   "Aggiungi la cipolla e il peperone e cuoci 5 minuti.",
+   "Unisci il riso, i pomodori, 2 tazze di brodo e spezie cajun.",
+   "Copri e cuoci a fuoco basso 25 minuti finché il riso è tenero."
+  ]
+ },
+ "jp-korokke": {
+  "title": "Korokke",
+  "summary": "Crocchette giapponesi di patate e manzo, impanate e fritte.",
+  "side": "Cavolo a julienne e salsa tonkatsu",
+  "tip": "Fai raffreddare l’impasto prima di formare perché non si sfaldi.",
+  "ingredients": [
+   {
+    "name": "Patate",
+    "amount": "500 g"
+   },
+   {
+    "name": "Manzo macinato",
+    "amount": "150 g"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Uovo",
+    "amount": "1"
+   },
+   {
+    "name": "Pangrattato",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Farina",
+    "amount": "1/2 tazza"
+   }
+  ],
+  "steps": [
+   "Lessa e schiaccia le patate.",
+   "Soffriggi la cipolla con la carne e mescola al purè, con sale e pepe.",
+   "Forma degli ovali e passali in farina, uovo sbattuto e pangrattato.",
+   "Friggi in olio caldo fino a doratura."
+  ]
+ },
+ "in-sambar": {
+  "title": "Sambar",
+  "summary": "Stufato di lenticchie del sud dell’India con verdure, tamarindo e spezie.",
+  "side": "Riso bianco",
+  "tip": "Senza tamarindo, finisci con succo di limone.",
+  "ingredients": [
+   {
+    "name": "Lenticchie gialle o rosse",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Carota",
+    "amount": "1"
+   },
+   {
+    "name": "Patata",
+    "amount": "1"
+   },
+   {
+    "name": "Pomodori",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pasta di tamarindo",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Cuoci le lenticchie con curcuma e 4 tazze d’acqua finché si sfaldano.",
+   "Aggiungi carota, patata, pomodoro e cipolla a cubetti con 1 tazza d’acqua.",
+   "Unisci il tamarindo, 2 cucchiaini di curry in polvere e sale.",
+   "Cuoci altri 20 minuti finché le verdure sono tenere."
+  ]
+ },
+ "de-rinderrouladen": {
+  "title": "Involtini di manzo alla tedesca",
+  "summary": "Involtini di manzo con pancetta, cetriolino e senape in salsa al vino rosso.",
+  "side": "Canederli di patate e cavolo rosso",
+  "tip": "Alla fine addensa il sugo con un po’ di farina.",
+  "ingredients": [
+   {
+    "name": "Fettine di manzo",
+    "amount": "4"
+   },
+   {
+    "name": "Senape",
+    "amount": "4 cucchiaini"
+   },
+   {
+    "name": "Pancetta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Cetriolini",
+    "amount": "2"
+   },
+   {
+    "name": "Cipolle",
+    "amount": "2"
+   },
+   {
+    "name": "Vino rosso o brodo",
+    "amount": "1 tazza"
+   }
+  ],
+  "steps": [
+   "Spalma le fettine di senape e farciscile con pancetta, strisce di cetriolino e cipolla.",
+   "Arrotola e fissa con spago o stuzzicadenti.",
+   "Rosola bene da tutti i lati e sfuma con vino e 1 tazza d’acqua.",
+   "Brasa coperto 90 minuti a fuoco basso."
+  ]
+ },
+ "de-apfelpfannkuchen": {
+  "title": "Frittelle spesse di mele",
+  "summary": "Frittelle spesse con fette di mela, spolverate di cannella e zucchero.",
+  "side": "Composta di mele",
+  "tip": "Lascia riposare la pastella 10 minuti per frittelle più soffici.",
+  "ingredients": [
+   {
+    "name": "Mele",
+    "amount": "2"
+   },
+   {
+    "name": "Farina",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Latte",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Uova",
+    "amount": "2"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "2 cucchiai"
+   },
+   {
+    "name": "Cannella",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Sbatti farina, latte, uova e un pizzico di sale fino a una pastella liscia.",
+   "Sbuccia le mele e affettale sottili.",
+   "Scalda il burro in padella, disponi le mele e versa la pastella.",
+   "Dora da entrambi i lati e spolvera di cannella e zucchero."
+  ]
+ },
+ "gb-shortbread": {
+  "title": "Shortbread scozzese",
+  "summary": "Biscotti scozzesi al burro con soli tre ingredienti.",
+  "side": "Tè",
+  "tip": "Se fa caldo, metti l’impasto in frigo 20 minuti.",
+  "ingredients": [
+   {
+    "name": "Burro",
+    "amount": "225 g"
+   },
+   {
+    "name": "Farina",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Sale",
+    "amount": "1 pizzico"
+   }
+  ],
+  "steps": [
+   "Monta il burro morbido con lo zucchero fino a ottenere una crema.",
+   "Incorpora la farina e il sale fino a formare un impasto.",
+   "Premilo in una teglia, bucherellalo con la forchetta e segna dei bastoncini.",
+   "Inforna 30 minuti a 160 °C fino a doratura chiara e lascia raffreddare nella teglia."
+  ]
+ },
+ "ca-butter-tarts": {
+  "title": "Tortine canadesi al burro",
+  "summary": "Tortine di pasta con ripieno cremoso di burro, zucchero e uvetta.",
+  "side": "Caffè",
+  "tip": "Non riempire troppo, il ripieno si gonfia in cottura.",
+  "ingredients": [
+   {
+    "name": "Pasta frolla",
+    "amount": "1 rotolo"
+   },
+   {
+    "name": "Burro",
+    "amount": "60 g"
+   },
+   {
+    "name": "Zucchero di canna",
+    "amount": "3/4 tazza"
+   },
+   {
+    "name": "Uovo",
+    "amount": "1"
+   },
+   {
+    "name": "Sciroppo d’acero",
+    "amount": "1/4 tazza"
+   },
+   {
+    "name": "Uvetta",
+    "amount": "1/2 tazza"
+   }
+  ],
+  "steps": [
+   "Taglia la pasta a dischi e rivesti uno stampo da muffin.",
+   "Sciogli il burro e mescolalo con zucchero, uovo e sciroppo.",
+   "Metti un po’ d’uvetta in ogni base e versa il ripieno.",
+   "Inforna 15-18 minuti a 200 °C finché il ripieno borbotta."
+  ]
+ },
+ "ca-nanaimo-bars": {
+  "title": "Barrette Nanaimo",
+  "summary": "Barrette senza cottura con base al cioccolato e cocco, strato di crema e copertura di cioccolato.",
+  "side": "Tè",
+  "tip": "Taglia con un coltello caldo per quadrati netti.",
+  "ingredients": [
+   {
+    "name": "Burro",
+    "amount": "115 g"
+   },
+   {
+    "name": "Cacao",
+    "amount": "1/4 tazza"
+   },
+   {
+    "name": "Biscotti secchi",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Cocco grattugiato",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Zucchero a velo",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Cioccolato fondente",
+    "amount": "170 g"
+   }
+  ],
+  "steps": [
+   "Sciogli metà del burro con cacao e zucchero e mescola con i biscotti sbriciolati e il cocco.",
+   "Premi in una teglia e metti in frigo.",
+   "Monta il burro rimasto con lo zucchero a velo e un po’ di latte e spalmalo sopra.",
+   "Copri con cioccolato fuso e raffredda finché è sodo prima di tagliare."
+  ]
+ },
+ "us-banana-bread": {
+  "title": "Banana bread classico",
+  "summary": "Plumcake soffice con banane molto mature.",
+  "side": "Burro",
+  "tip": "Più le banane sono scure, più il dolce è zuccherino.",
+  "ingredients": [
+   {
+    "name": "Banane mature",
+    "amount": "3"
+   },
+   {
+    "name": "Farina",
+    "amount": "1 1/2 tazza"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "3/4 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "80 g"
+   },
+   {
+    "name": "Uovo",
+    "amount": "1"
+   },
+   {
+    "name": "Bicarbonato",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Schiaccia le banane e mescolale con il burro fuso, lo zucchero e l’uovo.",
+   "Incorpora la farina, il bicarbonato e un pizzico di sale.",
+   "Versa in uno stampo da plumcake imburrato.",
+   "Inforna 55-60 minuti a 180 °C finché uno stecchino esce pulito."
+  ]
+ },
+ "us-lemon-bars": {
+  "title": "Barrette al limone",
+  "summary": "Base di frolla con una crema acidula al limone.",
+  "side": "Caffè",
+  "tip": "Lascia raffreddare del tutto prima di tagliare per barrette nette.",
+  "ingredients": [
+   {
+    "name": "Farina",
+    "amount": "1 3/4 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "170 g"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 1/2 tazza"
+   },
+   {
+    "name": "Limoni",
+    "amount": "3"
+   },
+   {
+    "name": "Uova",
+    "amount": "4"
+   },
+   {
+    "name": "Zucchero a velo",
+    "amount": "2 cucchiai"
+   }
+  ],
+  "steps": [
+   "Mescola 1 1/2 tazza di farina, il burro e 1/2 tazza di zucchero e premi in una teglia.",
+   "Cuoci la base 20 minuti a 180 °C.",
+   "Sbatti le uova con lo zucchero rimasto, il succo e la scorza di limone e 1/4 di tazza di farina.",
+   "Versa sulla base calda, cuoci altri 20 minuti, lascia raffreddare e spolvera di zucchero a velo."
+  ]
+ },
+ "fr-moelleux-au-chocolat": {
+  "title": "Tortino al cioccolato",
+  "summary": "Tortino al cioccolato con cuore fondente.",
+  "side": "Gelato alla vaniglia",
+  "tip": "Sforma ancora tiepido per mantenere il cuore fondente.",
+  "ingredients": [
+   {
+    "name": "Cioccolato fondente",
+    "amount": "200 g"
+   },
+   {
+    "name": "Burro",
+    "amount": "100 g"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1/2 tazza"
+   },
+   {
+    "name": "Uova",
+    "amount": "3"
+   },
+   {
+    "name": "Farina",
+    "amount": "3 cucchiai"
+   },
+   {
+    "name": "Zucchero a velo",
+    "amount": "1 cucchiaio"
+   }
+  ],
+  "steps": [
+   "Sciogli il cioccolato con il burro a bagnomaria.",
+   "Sbatti le uova con lo zucchero e incorpora il cioccolato.",
+   "Aggiungi la farina e versa in pirottini imburrati.",
+   "Inforna 10-12 minuti a 200 °C: il centro deve restare cremoso."
+  ]
+ },
+ "fr-tarte-tatin": {
+  "title": "Tarte Tatin",
+  "summary": "Torta rovesciata di mele caramellate.",
+  "side": "Panna acida",
+  "tip": "Rovescia la torta tiepida, altrimenti il caramello si indurisce e si attacca.",
+  "ingredients": [
+   {
+    "name": "Mele",
+    "amount": "6"
+   },
+   {
+    "name": "Pasta brisée o sfoglia",
+    "amount": "1 rotolo"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "3/4 tazza"
+   },
+   {
+    "name": "Burro",
+    "amount": "50 g"
+   }
+  ],
+  "steps": [
+   "Prepara un caramello con lo zucchero in una padella adatta al forno e aggiungi il burro.",
+   "Disponi le mele sbucciate a spicchi ben strette nel caramello.",
+   "Copri con la pasta rimboccando i bordi.",
+   "Inforna 35 minuti a 190 °C, lascia intiepidire 5 minuti e rovescia su un piatto."
+  ]
+ },
+ "gb-eton-mess": {
+  "title": "Eton mess",
+  "summary": "Meringa sbriciolata mescolata con panna montata e fragole.",
+  "side": "Menta fresca",
+  "tip": "Aggiungi la meringa all’ultimo momento perché resti croccante.",
+  "ingredients": [
+   {
+    "name": "Fragole",
+    "amount": "2 tazze"
+   },
+   {
+    "name": "Meringhe",
+    "amount": "6"
+   },
+   {
+    "name": "Panna fresca",
+    "amount": "1 tazza"
+   },
+   {
+    "name": "Zucchero",
+    "amount": "1 cucchiaio"
+   },
+   {
+    "name": "Vaniglia",
+    "amount": "1 cucchiaino"
+   }
+  ],
+  "steps": [
+   "Affetta le fragole e mescolale con lo zucchero.",
+   "Monta la panna con la vaniglia a neve morbida.",
+   "Rompi le meringhe a pezzi.",
+   "Amalgama tutto delicatamente e servi subito."
+  ]
  }
 }

@@ -3250,5 +3250,631 @@
     ],
     "tip": "Die Schupfnudeln in der Pfanne gut bräunen, bis sie knusprig sind.",
     "origin": "DE"
+  },
+  {
+    "id": "de-linsen-mit-spaetzle",
+    "title": "Linsen mit Spätzle",
+    "summary": "Schwäbischer Klassiker: Linseneintopf mit Spätzle und Würstchen.",
+    "minutes": 40,
+    "servings": 3,
+    "side": "Essig",
+    "ingredients": [
+      {
+        "name": "Linsen",
+        "keywords": [
+          "linse",
+          "linsen"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Spätzle",
+        "keywords": [
+          "spatzle",
+          "nudeln"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "wiener"
+        ],
+        "amount": "2 Stück",
+        "kind": "optional"
+      },
+      {
+        "name": "Karotte",
+        "keywords": [
+          "karotte",
+          "mohre"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "pflanzenol"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel und Karotte würfeln und im Öl anbraten.",
+      "Linsen und 1 Liter Wasser zugeben und 25 Minuten kochen.",
+      "Die Spätzle nach Packungsangabe garen.",
+      "Alles mit den Würstchen anrichten und mit einem Spritzer Essig abschmecken."
+    ],
+    "tip": "Ein Schuss Essig am Ende macht den Eintopf runder.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-maultaschen-in-bruehe",
+    "title": "Maultaschen in Brühe",
+    "summary": "Schwäbische gefüllte Nudeltaschen in heißer Brühe.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Schnittlauch",
+    "ingredients": [
+      {
+        "name": "Maultaschen",
+        "keywords": [
+          "maultaschen"
+        ],
+        "amount": "8 Stück"
+      },
+      {
+        "name": "Gemüse- oder Rinderbrühe",
+        "keywords": [
+          "bruhe"
+        ],
+        "amount": "1 Liter"
+      },
+      {
+        "name": "Schnittlauch",
+        "keywords": [
+          "schnittlauch"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1/2 Stück",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Die Brühe zum Kochen bringen.",
+      "Die Maultaschen hineingeben und 8 Minuten ziehen lassen.",
+      "Zwiebel in Ringen darüberstreuen.",
+      "Mit Schnittlauch bestreut servieren."
+    ],
+    "tip": "Nicht sprudelnd kochen, sonst platzen die Taschen.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-zwiebelkuchen",
+    "title": "Zwiebelkuchen",
+    "summary": "Herzhafter Kuchen mit Zwiebeln, Speck und Sauerrahm.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Grüner Salat",
+    "ingredients": [
+      {
+        "name": "Zwiebeln",
+        "keywords": [
+          "zwiebel",
+          "zwiebeln"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Blätterteig oder Hefeteig",
+        "keywords": [
+          "teig",
+          "blatterteig"
+        ],
+        "amount": "1 Rolle"
+      },
+      {
+        "name": "Speck",
+        "keywords": [
+          "speck"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Sauerrahm",
+        "keywords": [
+          "sauerrahm",
+          "saure sahne",
+          "sahne"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Zwiebeln in Ringe schneiden und mit Speck in Butter 10 Minuten dünsten.",
+      "Sauerrahm und Eier verquirlen und mit Salz und Kümmel würzen.",
+      "Den Teig in eine Form legen und die Zwiebeln darauf verteilen.",
+      "Die Eiermasse darübergießen und 35 Minuten bei 200 °C backen."
+    ],
+    "tip": "Warm mit neuem Wein schmeckt er am besten.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-wuerstchen-eintopf",
+    "title": "Würstchen-Eintopf",
+    "summary": "Deftiger Eintopf mit Würstchen, Kartoffeln und Gemüse.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Brot",
+    "ingredients": [
+      {
+        "name": "Würstchen",
+        "keywords": [
+          "wurstchen",
+          "wurst",
+          "wiener",
+          "bockwurst"
+        ],
+        "amount": "3 Stück"
+      },
+      {
+        "name": "Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "3 Stück"
+      },
+      {
+        "name": "Karotten",
+        "keywords": [
+          "karotte",
+          "karotten",
+          "mohre"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Brühe",
+        "keywords": [
+          "bruhe",
+          "wasser"
+        ],
+        "amount": "1 Liter",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "pflanzenol"
+        ],
+        "amount": "1 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Zwiebel, Karotten und Kartoffeln würfeln.",
+      "Alles im Öl kurz anbraten und mit Brühe aufgießen.",
+      "20 Minuten köcheln lassen.",
+      "Die Würstchen in Scheiben zugeben und 5 Minuten miterhitzen."
+    ],
+    "tip": "Ein paar zerdrückte Kartoffeln machen den Eintopf sämiger.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-quarkkeulchen",
+    "title": "Quarkkeulchen",
+    "summary": "Sächsische Pfannkuchen aus Quark und Kartoffeln.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Apfelmus und Zimtzucker",
+    "ingredients": [
+      {
+        "name": "Quark",
+        "keywords": [
+          "quark",
+          "frischkase"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Gekochte Kartoffeln",
+        "keywords": [
+          "kartoffel",
+          "kartoffeln"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "3 Esslöffel"
+      },
+      {
+        "name": "Ei",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "1 Stück"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Kartoffeln zerdrücken und mit Quark, Mehl, Ei und Zucker vermengen.",
+      "Aus dem Teig kleine flache Küchlein formen.",
+      "In Butter bei mittlerer Hitze von beiden Seiten goldbraun braten.",
+      "Mit Apfelmus und Zimtzucker servieren."
+    ],
+    "tip": "Mit bemehlten Händen formen, dann klebt der Teig nicht.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-milchreis-mit-zimt",
+    "title": "Milchreis mit Zimt",
+    "summary": "Cremiger Milchreis mit Zimt und Zucker.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Kirschkompott",
+    "ingredients": [
+      {
+        "name": "Milchreis",
+        "keywords": [
+          "reis",
+          "milchreis"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "1 Liter"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "3 Esslöffel"
+      },
+      {
+        "name": "Zimt",
+        "keywords": [
+          "zimt"
+        ],
+        "amount": "1 Teelöffel",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 Teelöffel",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Milch mit Reis und einer Prise Salz aufkochen.",
+      "Bei niedriger Hitze 30 Minuten unter Rühren quellen lassen.",
+      "Zucker zugeben und kurz weiterrühren.",
+      "Mit Zimtzucker und Butter servieren."
+    ],
+    "tip": "Ständig rühren, damit nichts anbrennt.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-rote-bete-salat",
+    "title": "Rote-Bete-Salat",
+    "summary": "Frischer Salat aus gekochter Roter Bete mit Zwiebeln und Essig.",
+    "minutes": 15,
+    "servings": 3,
+    "side": "Bratkartoffeln",
+    "ingredients": [
+      {
+        "name": "Rote Bete",
+        "keywords": [
+          "rote bete",
+          "rote rube"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1/2 Stück"
+      },
+      {
+        "name": "Essig",
+        "keywords": [
+          "essig"
+        ],
+        "amount": "3 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Öl",
+        "keywords": [
+          "ol",
+          "pflanzenol"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Kümmel",
+        "keywords": [
+          "kummel"
+        ],
+        "amount": "1 Teelöffel",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Die gekochte Rote Bete in Scheiben schneiden.",
+      "Die Zwiebel fein würfeln.",
+      "Essig, Öl, Salz und Kümmel zu einem Dressing verrühren.",
+      "Alles vermengen und 20 Minuten ziehen lassen."
+    ],
+    "tip": "Mit Handschuhen schneiden, sonst färbt die Rote Bete die Finger.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-rahmschnitzel",
+    "title": "Rahmschnitzel",
+    "summary": "Schnitzel in cremiger Pilz-Rahmsauce.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Spätzle oder Kartoffeln",
+    "ingredients": [
+      {
+        "name": "Schweine- oder Kalbsschnitzel",
+        "keywords": [
+          "schnitzel",
+          "schwein",
+          "kalb",
+          "fleisch"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Champignons",
+        "keywords": [
+          "champignons",
+          "pilze"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Sahne",
+        "keywords": [
+          "sahne"
+        ],
+        "amount": "150 ml"
+      },
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "2 Esslöffel"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "1/2 Stück"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Die Schnitzel salzen, in Mehl wenden und in Butter goldbraun braten.",
+      "Die Schnitzel herausnehmen und warm halten.",
+      "Zwiebel und Pilze im Bratfett anbraten.",
+      "Mit Sahne ablöschen, einkochen lassen und die Schnitzel kurz in der Sauce wenden."
+    ],
+    "tip": "Die Schnitzel gleichmäßig dünn klopfen, dann garen sie schnell.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-rinderrouladen",
+    "title": "Rinderrouladen",
+    "summary": "Rindsrouladen mit Speck, Gurke und Senf in Rotweinsauce.",
+    "minutes": 120,
+    "servings": 4,
+    "side": "Kartoffelklöße und Rotkohl",
+    "ingredients": [
+      {
+        "name": "Rinderrouladen",
+        "keywords": [
+          "rinderroulade",
+          "rindfleisch",
+          "rind"
+        ],
+        "amount": "4 Stück"
+      },
+      {
+        "name": "Senf",
+        "keywords": [
+          "senf"
+        ],
+        "amount": "4 Teelöffel"
+      },
+      {
+        "name": "Speck",
+        "keywords": [
+          "speck"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Essiggurken",
+        "keywords": [
+          "gurke",
+          "essiggurke"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Zwiebel",
+        "keywords": [
+          "zwiebel"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Rotwein oder Brühe",
+        "keywords": [
+          "rotwein",
+          "bruehe"
+        ],
+        "amount": "1 Tasse",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Die Rouladen mit Senf bestreichen und mit Speck, Gurkenstreifen und Zwiebel belegen.",
+      "Aufrollen und mit Küchengarn oder Zahnstochern fixieren.",
+      "Rundherum kräftig anbraten und mit Wein und 1 Tasse Wasser ablöschen.",
+      "Zugedeckt 90 Minuten bei niedriger Hitze schmoren."
+    ],
+    "tip": "Die Sauce zum Schluss mit etwas Mehl binden.",
+    "origin": "DE"
+  },
+  {
+    "id": "de-apfelpfannkuchen",
+    "title": "Apfelpfannkuchen",
+    "summary": "Dicke Pfannkuchen mit Apfelscheiben, mit Zimt und Zucker bestreut.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Apfelmus",
+    "ingredients": [
+      {
+        "name": "Äpfel",
+        "keywords": [
+          "apfel",
+          "aepfel"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Mehl",
+        "keywords": [
+          "mehl"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Milch",
+        "keywords": [
+          "milch"
+        ],
+        "amount": "1 Tasse"
+      },
+      {
+        "name": "Eier",
+        "keywords": [
+          "ei",
+          "eier"
+        ],
+        "amount": "2 Stück"
+      },
+      {
+        "name": "Zucker",
+        "keywords": [
+          "zucker"
+        ],
+        "amount": "2 Esslöffel",
+        "kind": "staple"
+      },
+      {
+        "name": "Zimt",
+        "keywords": [
+          "zimt"
+        ],
+        "amount": "1 Teelöffel",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Mehl, Milch, Eier und eine Prise Salz zu einem glatten Teig verrühren.",
+      "Die Äpfel schälen und in dünne Scheiben schneiden.",
+      "Butter in der Pfanne erhitzen, Apfelscheiben einlegen und mit Teig übergießen.",
+      "Von beiden Seiten goldbraun backen und mit Zimt und Zucker bestreuen."
+    ],
+    "tip": "Den Teig 10 Minuten ruhen lassen, dann wird der Pfannkuchen fluffiger.",
+    "origin": "DE"
   }
 ]

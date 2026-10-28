@@ -2905,5 +2905,752 @@
     ],
     "tip": "Lascia cuocere il pomodoro qualche minuto con l'aglio prima di aggiungere i fagioli.",
     "origin": "IT"
+  },
+  {
+    "id": "it-pappa-al-pomodoro",
+    "title": "Pappa al pomodoro",
+    "summary": "Zuppa toscana di pane raffermo, pomodoro e basilico.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Olio a crudo",
+    "ingredients": [
+      {
+        "name": "Pane raffermo",
+        "keywords": [
+          "pane"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Pomodori pelati",
+        "keywords": [
+          "pomodori",
+          "pelati",
+          "pomodoro"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "2 spicchi"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "1 mazzetto",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio d’oliva",
+        "keywords": [
+          "olio"
+        ],
+        "amount": "4 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggi l’aglio nell’olio.",
+      "Aggiungi i pomodori e cuoci 10 minuti.",
+      "Unisci il pane a pezzi e 2 tazze di acqua calda.",
+      "Cuoci 15 minuti mescolando e finisci con il basilico."
+    ],
+    "tip": "Si mangia tiepida, con un filo d’olio a crudo.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-frittelle-di-zucchine",
+    "title": "Frittelle di zucchine",
+    "summary": "Frittelle croccanti di zucchine grattugiate e formaggio.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Yogurt e limone",
+    "ingredients": [
+      {
+        "name": "Zucchine",
+        "keywords": [
+          "zucchine",
+          "zucchina"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Farina",
+        "keywords": [
+          "farina"
+        ],
+        "amount": "4 cucchiai"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "formaggio grattugiato",
+          "formaggio"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio",
+        "keywords": [
+          "olio"
+        ],
+        "amount": "4 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Grattugia le zucchine e strizzale bene.",
+      "Mescola con uova, farina, parmigiano e sale.",
+      "Friggi cucchiaiate di impasto in olio caldo.",
+      "Scola su carta assorbente e servi calde."
+    ],
+    "tip": "Strizzare bene le zucchine è la chiave per frittelle croccanti.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-pasta-e-lenticchie",
+    "title": "Pasta e lenticchie",
+    "summary": "Zuppa densa di lenticchie e pasta corta, economica e saziante.",
+    "minutes": 40,
+    "servings": 3,
+    "side": "Olio a crudo e pepe",
+    "ingredients": [
+      {
+        "name": "Lenticchie",
+        "keywords": [
+          "lenticchie"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Pasta corta",
+        "keywords": [
+          "pasta",
+          "ditalini",
+          "tubetti"
+        ],
+        "amount": "120 g"
+      },
+      {
+        "name": "Carota",
+        "keywords": [
+          "carota"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Passata di pomodoro",
+        "keywords": [
+          "pomodoro",
+          "passata"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio",
+        "keywords": [
+          "olio"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggi cipolla e carota tritate nell’olio.",
+      "Aggiungi le lenticchie, la passata e 1 litro d’acqua.",
+      "Cuoci 25 minuti finché le lenticchie sono tenere.",
+      "Unisci la pasta e cuoci altri 10 minuti."
+    ],
+    "tip": "Aggiungi acqua calda se si addensa troppo.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-ribollita",
+    "title": "Ribollita",
+    "summary": "Zuppa toscana di verdure e fagioli con pane raffermo.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Olio a crudo",
+    "ingredients": [
+      {
+        "name": "Fagioli cannellini",
+        "keywords": [
+          "fagioli",
+          "cannellini"
+        ],
+        "amount": "1 lattina"
+      },
+      {
+        "name": "Cavolo nero o verza",
+        "keywords": [
+          "cavolo",
+          "verza"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Carote",
+        "keywords": [
+          "carota",
+          "carote"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pane raffermo",
+        "keywords": [
+          "pane"
+        ],
+        "amount": "4 fette"
+      },
+      {
+        "name": "Olio d’oliva",
+        "keywords": [
+          "olio"
+        ],
+        "amount": "3 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggi cipolla, carote e cavolo tagliati a pezzi nell’olio.",
+      "Aggiungi i fagioli e 4 tazze d’acqua e cuoci 30 minuti.",
+      "Unisci il pane a pezzi e mescola finché si sfa.",
+      "Lascia riposare e servi con un filo d’olio."
+    ],
+    "tip": "Il giorno dopo è ancora più buona.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-focaccia-semplice",
+    "title": "Focaccia semplice",
+    "summary": "Focaccia soffice con olio d’oliva e sale grosso.",
+    "minutes": 90,
+    "servings": 6,
+    "side": "Affettati",
+    "ingredients": [
+      {
+        "name": "Farina",
+        "keywords": [
+          "farina"
+        ],
+        "amount": "500 g",
+        "kind": "staple"
+      },
+      {
+        "name": "Acqua tiepida",
+        "keywords": [
+          "acqua"
+        ],
+        "amount": "1 1/2 tazza",
+        "kind": "staple"
+      },
+      {
+        "name": "Lievito secco",
+        "keywords": [
+          "lievito"
+        ],
+        "amount": "1 bustina"
+      },
+      {
+        "name": "Olio d’oliva",
+        "keywords": [
+          "olio"
+        ],
+        "amount": "4 cucchiai",
+        "kind": "staple"
+      },
+      {
+        "name": "Sale",
+        "keywords": [
+          "sale"
+        ],
+        "amount": "1 cucchiaino",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Impasta farina, acqua, lievito, 2 cucchiai di olio e il sale.",
+      "Lascia lievitare 1 ora coperto.",
+      "Stendi nella teglia, fai i buchi con le dita e condisci con olio e sale grosso.",
+      "Inforna 25 minuti a 220 °C."
+    ],
+    "tip": "Emulsiona olio e acqua da versare sulla focaccia prima di infornare.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-risotto-alla-zucca",
+    "title": "Risotto alla zucca",
+    "summary": "Risotto cremoso con zucca e parmigiano.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Salvia fritta",
+    "ingredients": [
+      {
+        "name": "Riso per risotto",
+        "keywords": [
+          "riso"
+        ],
+        "amount": "1 1/2 tazza"
+      },
+      {
+        "name": "Zucca",
+        "keywords": [
+          "zucca"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Brodo",
+        "keywords": [
+          "brodo"
+        ],
+        "amount": "4 tazze",
+        "kind": "staple"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "formaggio"
+        ],
+        "amount": "1/2 tazza"
+      },
+      {
+        "name": "Burro",
+        "keywords": [
+          "burro"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Soffriggi la cipolla nel burro e aggiungi la zucca a cubetti.",
+      "Unisci il riso e tostalo 2 minuti.",
+      "Aggiungi il brodo caldo poco alla volta mescolando per 18 minuti.",
+      "Manteca con parmigiano e burro e servi."
+    ],
+    "tip": "Frulla metà della zucca per una cremosità maggiore.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-tiramisu",
+    "title": "Tiramisù",
+    "summary": "Dolce al cucchiaio con savoiardi, caffè e mascarpone.",
+    "minutes": 30,
+    "servings": 6,
+    "side": "Cacao amaro",
+    "ingredients": [
+      {
+        "name": "Savoiardi",
+        "keywords": [
+          "savoiardi",
+          "biscotti"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Mascarpone",
+        "keywords": [
+          "mascarpone"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Zucchero",
+        "keywords": [
+          "zucchero"
+        ],
+        "amount": "1/2 tazza",
+        "kind": "staple"
+      },
+      {
+        "name": "Caffè",
+        "keywords": [
+          "caffe"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Cacao amaro",
+        "keywords": [
+          "cacao"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Monta i tuorli con lo zucchero e incorpora il mascarpone.",
+      "Monta gli albumi a neve e uniscili alla crema.",
+      "Inzuppa i savoiardi nel caffè e disponili a strati con la crema.",
+      "Fai riposare in frigo 4 ore e cospargi di cacao."
+    ],
+    "tip": "Non inzuppare troppo i savoiardi o si sfaldano.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-panna-cotta",
+    "title": "Panna cotta",
+    "summary": "Dolce al cucchiaio di panna con salsa di frutti rossi.",
+    "minutes": 20,
+    "servings": 4,
+    "side": "Frutti rossi",
+    "ingredients": [
+      {
+        "name": "Panna",
+        "keywords": [
+          "panna"
+        ],
+        "amount": "2 tazze"
+      },
+      {
+        "name": "Zucchero",
+        "keywords": [
+          "zucchero"
+        ],
+        "amount": "1/3 tazza",
+        "kind": "staple"
+      },
+      {
+        "name": "Gelatina",
+        "keywords": [
+          "gelatina",
+          "colla di pesce"
+        ],
+        "amount": "2 fogli"
+      },
+      {
+        "name": "Vaniglia",
+        "keywords": [
+          "vaniglia"
+        ],
+        "amount": "1 cucchiaino",
+        "kind": "optional"
+      },
+      {
+        "name": "Frutti rossi",
+        "keywords": [
+          "frutti rossi",
+          "fragole"
+        ],
+        "amount": "1 tazza",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Ammorbidisci la gelatina in acqua fredda.",
+      "Scalda la panna con lo zucchero e la vaniglia senza bollire.",
+      "Sciogli la gelatina strizzata nella panna calda.",
+      "Versa negli stampini e fai rapprendere in frigo 4 ore."
+    ],
+    "tip": "Non far bollire la panna o perde cremosità.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-penne-alla-vodka",
+    "title": "Penne alla vodka",
+    "summary": "Penne in salsa di pomodoro, panna e vodka.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Parmigiano",
+    "ingredients": [
+      {
+        "name": "Penne",
+        "keywords": [
+          "penne",
+          "pasta"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Passata di pomodoro",
+        "keywords": [
+          "pomodoro",
+          "passata"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Panna",
+        "keywords": [
+          "panna"
+        ],
+        "amount": "1/2 tazza"
+      },
+      {
+        "name": "Vodka",
+        "keywords": [
+          "vodka"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "optional"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "formaggio"
+        ],
+        "amount": "1/4 tazza"
+      }
+    ],
+    "steps": [
+      "Cuoci le penne al dente.",
+      "Soffriggi la cipolla tritata e aggiungi la vodka a sfumare.",
+      "Unisci la passata e cuoci 8 minuti, poi la panna.",
+      "Manteca le penne con la salsa e il parmigiano."
+    ],
+    "tip": "Lascia evaporare bene la vodka prima di aggiungere il pomodoro.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-polpettone",
+    "title": "Polpettone al forno",
+    "summary": "Polpettone di carne macinata, uova e parmigiano cotto al forno.",
+    "minutes": 70,
+    "servings": 5,
+    "side": "Patate arrosto",
+    "ingredients": [
+      {
+        "name": "Carne macinata",
+        "keywords": [
+          "carne macinata",
+          "manzo",
+          "macinato"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Uova",
+        "keywords": [
+          "uovo",
+          "uova"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Pane raffermo",
+        "keywords": [
+          "pane"
+        ],
+        "amount": "2 fette"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "formaggio"
+        ],
+        "amount": "3 cucchiai"
+      },
+      {
+        "name": "Latte",
+        "keywords": [
+          "latte"
+        ],
+        "amount": "1/2 tazza"
+      },
+      {
+        "name": "Prezzemolo",
+        "keywords": [
+          "prezzemolo"
+        ],
+        "amount": "1 mazzetto",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Ammolla il pane nel latte e strizzalo.",
+      "Impasta la carne con pane, uova, parmigiano, prezzemolo, sale e pepe.",
+      "Forma un rotolo e adagialo in una teglia con un filo d’olio.",
+      "Inforna 45 minuti a 180 °C girandolo a metà cottura."
+    ],
+    "tip": "Lascialo riposare 10 minuti prima di affettarlo.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-pollo-ai-peperoni",
+    "title": "Pollo ai peperoni",
+    "summary": "Pollo stufato con peperoni e pomodoro, un classico romano.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Pane casereccio",
+    "ingredients": [
+      {
+        "name": "Pollo a pezzi",
+        "keywords": [
+          "pollo",
+          "cosce di pollo"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Peperoni",
+        "keywords": [
+          "peperone",
+          "peperoni"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Pomodori pelati",
+        "keywords": [
+          "pomodori",
+          "pelati",
+          "pomodoro"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Cipolla",
+        "keywords": [
+          "cipolla"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Aglio",
+        "keywords": [
+          "aglio"
+        ],
+        "amount": "2 spicchi"
+      },
+      {
+        "name": "Vino bianco",
+        "keywords": [
+          "vino"
+        ],
+        "amount": "1/2 tazza",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Rosola il pollo in olio e mettilo da parte.",
+      "Soffriggi la cipolla, l’aglio e i peperoni a listarelle.",
+      "Sfuma con il vino, aggiungi i pomodori e il pollo.",
+      "Cuoci coperto 35 minuti a fuoco basso."
+    ],
+    "tip": "Aggiungi i peperoni a metà cottura se li vuoi più sodi.",
+    "origin": "IT"
+  },
+  {
+    "id": "it-involtini-di-melanzane",
+    "title": "Involtini di melanzane",
+    "summary": "Fette di melanzana grigliate, farcite con ricotta e basilico e gratinate.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Pane tostato",
+    "ingredients": [
+      {
+        "name": "Melanzane",
+        "keywords": [
+          "melanzana",
+          "melanzane"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Ricotta",
+        "keywords": [
+          "ricotta"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Salsa di pomodoro",
+        "keywords": [
+          "salsa di pomodoro",
+          "passata",
+          "pomodoro"
+        ],
+        "amount": "1 tazza"
+      },
+      {
+        "name": "Parmigiano",
+        "keywords": [
+          "parmigiano",
+          "formaggio"
+        ],
+        "amount": "3 cucchiai"
+      },
+      {
+        "name": "Basilico",
+        "keywords": [
+          "basilico"
+        ],
+        "amount": "1 mazzetto",
+        "kind": "optional"
+      },
+      {
+        "name": "Olio d’oliva",
+        "keywords": [
+          "olio"
+        ],
+        "amount": "2 cucchiai",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Affetta le melanzane per il lungo e grigliale con un filo d’olio.",
+      "Spalma ogni fetta con ricotta e basilico e arrotolala.",
+      "Adagia gli involtini in una teglia sul sugo di pomodoro.",
+      "Cospargi di parmigiano e inforna 20 minuti a 200 °C."
+    ],
+    "tip": "Fette sottili di 5 mm si arrotolano senza spezzarsi.",
+    "origin": "IT"
   }
 ]

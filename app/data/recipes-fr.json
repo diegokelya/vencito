@@ -2769,5 +2769,1042 @@
     ],
     "tip": "Lavez bien les poireaux : la terre se cache entre les feuilles.",
     "origin": "FR"
+  },
+  {
+    "id": "fr-omelette-aux-fines-herbes",
+    "title": "Omelette aux fines herbes",
+    "summary": "Omelette moelleuse parfumée au persil et à la ciboulette.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Persil",
+        "keywords": [
+          "persil"
+        ],
+        "amount": "1 poignée"
+      },
+      {
+        "name": "Ciboulette",
+        "keywords": [
+          "ciboulette"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "1 cuillère à soupe"
+      },
+      {
+        "name": "Sel",
+        "keywords": [
+          "sel"
+        ],
+        "amount": "selon le goût",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Battez les œufs avec une pincée de sel.",
+      "Ajoutez le persil et la ciboulette ciselés.",
+      "Faites fondre le beurre dans une poêle et versez les œufs.",
+      "Ramenez les bords vers le centre, puis repliez l’omelette."
+    ],
+    "tip": "Retirez-la du feu quand elle est encore baveuse : elle finit de cuire dans la poêle.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-riz-au-lait",
+    "title": "Riz au lait",
+    "summary": "Dessert crémeux de riz cuit lentement dans le lait avec de la vanille.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Caramel ou confiture",
+    "ingredients": [
+      {
+        "name": "Riz rond",
+        "keywords": [
+          "riz"
+        ],
+        "amount": "1/2 tasse"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "1 litre"
+      },
+      {
+        "name": "Sucre",
+        "keywords": [
+          "sucre"
+        ],
+        "amount": "4 cuillères à soupe"
+      },
+      {
+        "name": "Vanille",
+        "keywords": [
+          "vanille"
+        ],
+        "amount": "1 cuillère à café",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites chauffer le lait avec la vanille.",
+      "Ajoutez le riz et le sucre.",
+      "Cuisez à feu doux 35 minutes en remuant souvent.",
+      "Servez tiède ou froid."
+    ],
+    "tip": "Remuez souvent : le lait attache vite au fond de la casserole.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-gateau-au-yaourt",
+    "title": "Gâteau au yaourt",
+    "summary": "Gâteau très simple où le pot de yaourt sert de mesure.",
+    "minutes": 45,
+    "servings": 6,
+    "side": "Thé ou café",
+    "ingredients": [
+      {
+        "name": "Yaourt nature",
+        "keywords": [
+          "yaourt",
+          "yogourt"
+        ],
+        "amount": "1 pot"
+      },
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "2 pots"
+      },
+      {
+        "name": "Sucre",
+        "keywords": [
+          "sucre"
+        ],
+        "amount": "1 pot"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Huile",
+        "keywords": [
+          "huile"
+        ],
+        "amount": "1/2 pot",
+        "kind": "staple"
+      },
+      {
+        "name": "Levure chimique",
+        "keywords": [
+          "levure"
+        ],
+        "amount": "1 sachet",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Préchauffez le four à 180 °C.",
+      "Mélangez le yaourt, le sucre et les œufs.",
+      "Ajoutez la farine, la levure et l’huile.",
+      "Versez dans un moule beurré et cuisez 35 minutes."
+    ],
+    "tip": "Utilisez le pot de yaourt vide pour mesurer tous les ingrédients.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-gratin-de-poireaux-au-jambon",
+    "title": "Gratin de poireaux au jambon",
+    "summary": "Poireaux enroulés de jambon, nappés de béchamel et gratinés.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Poireaux",
+        "keywords": [
+          "poireau",
+          "poireaux"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon"
+        ],
+        "amount": "4 tranches"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "2 tasses"
+      },
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental"
+        ],
+        "amount": "1/2 tasse"
+      }
+    ],
+    "steps": [
+      "Cuisez les poireaux à l’eau 10 minutes et égouttez-les.",
+      "Enroulez chaque poireau dans une tranche de jambon.",
+      "Préparez la béchamel avec le beurre, la farine et le lait.",
+      "Nappez, saupoudrez de fromage et gratinez 20 minutes à 200 °C."
+    ],
+    "tip": "Pressez bien les poireaux pour que le gratin ne soit pas aqueux.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-veloute-de-champignons",
+    "title": "Velouté de champignons",
+    "summary": "Soupe onctueuse de champignons de Paris à la crème.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Croûtons",
+    "ingredients": [
+      {
+        "name": "Champignons de Paris",
+        "keywords": [
+          "champignon",
+          "champignons"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme"
+        ],
+        "amount": "1/2 tasse",
+        "kind": "optional"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Bouillon",
+        "keywords": [
+          "bouillon"
+        ],
+        "amount": "3 tasses",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites revenir l’oignon dans le beurre et ajoutez les champignons émincés.",
+      "Ajoutez la pomme de terre en dés et le bouillon.",
+      "Cuisez 20 minutes puis mixez.",
+      "Incorporez la crème et rectifiez l’assaisonnement."
+    ],
+    "tip": "Gardez quelques champignons sautés pour la décoration.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-blanquette-de-poulet",
+    "title": "Blanquette de poulet",
+    "summary": "Poulet mijoté en sauce blanche crémeuse avec carottes et champignons.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Riz blanc",
+    "ingredients": [
+      {
+        "name": "Poulet",
+        "keywords": [
+          "poulet"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Carottes",
+        "keywords": [
+          "carotte",
+          "carottes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Champignons",
+        "keywords": [
+          "champignon",
+          "champignons"
+        ],
+        "amount": "200 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme"
+        ],
+        "amount": "1/2 tasse"
+      },
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites mijoter le poulet avec l’oignon et les carottes dans 3 tasses d’eau 25 minutes.",
+      "Filtrez le bouillon et gardez la viande et les légumes.",
+      "Faites un roux avec le beurre et la farine et délayez avec 1,5 tasse de bouillon.",
+      "Remettez le tout avec la crème et les champignons et cuisez 10 minutes."
+    ],
+    "tip": "Ajoutez un filet de citron à la fin pour relever la sauce.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-quiche-saumon-poireaux",
+    "title": "Quiche saumon-poireaux",
+    "summary": "Tarte salée au saumon et aux poireaux, moelleuse et crémeuse.",
+    "minutes": 50,
+    "servings": 6,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Pâte brisée",
+        "keywords": [
+          "pate",
+          "pate brisee"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Saumon",
+        "keywords": [
+          "saumon"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Poireaux",
+        "keywords": [
+          "poireau",
+          "poireaux"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Crème",
+        "keywords": [
+          "creme"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage",
+          "gruyere"
+        ],
+        "amount": "1/2 tasse",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites fondre les poireaux émincés dans une poêle 8 minutes.",
+      "Étalez la pâte dans un moule et répartissez les poireaux et le saumon en morceaux.",
+      "Battez les œufs avec la crème, le sel et le poivre et versez sur le tout.",
+      "Parsemez de fromage et enfournez 35 minutes à 180 °C."
+    ],
+    "tip": "Précuisez la pâte 10 minutes pour qu’elle reste croustillante.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-moules-marinieres",
+    "title": "Moules marinières",
+    "summary": "Moules cuites au vin blanc avec échalotes et persil.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Frites",
+    "ingredients": [
+      {
+        "name": "Moules",
+        "keywords": [
+          "moule",
+          "moules"
+        ],
+        "amount": "1 kg"
+      },
+      {
+        "name": "Échalotes",
+        "keywords": [
+          "echalote",
+          "echalotes",
+          "oignon"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Vin blanc",
+        "keywords": [
+          "vin"
+        ],
+        "amount": "1/2 tasse"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "2 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Persil",
+        "keywords": [
+          "persil"
+        ],
+        "amount": "1 poignée",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Lavez et ébarbez les moules.",
+      "Faites revenir les échalotes dans le beurre.",
+      "Ajoutez le vin et les moules, couvrez et cuisez 6 minutes en secouant la casserole.",
+      "Parsemez de persil et servez avec le jus."
+    ],
+    "tip": "Jetez les moules restées ouvertes avant la cuisson et celles restées fermées après.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-endives-au-jambon",
+    "title": "Endives au jambon",
+    "summary": "Endives braisées enroulées de jambon, gratinées à la béchamel.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Pommes de terre vapeur",
+    "ingredients": [
+      {
+        "name": "Endives",
+        "keywords": [
+          "endive",
+          "endives"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon"
+        ],
+        "amount": "4 tranches"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "2 tasses"
+      },
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental"
+        ],
+        "amount": "1/2 tasse"
+      }
+    ],
+    "steps": [
+      "Faites cuire les endives à la vapeur ou à l’eau 15 minutes et égouttez-les bien.",
+      "Enroulez chacune dans une tranche de jambon.",
+      "Préparez une béchamel et nappez les endives avec elle.",
+      "Parsemez de fromage et gratinez 20 minutes à 200 °C."
+    ],
+    "tip": "Pressez les endives pour retirer l’eau et éviter l’amertume.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-salade-lyonnaise",
+    "title": "Salade lyonnaise",
+    "summary": "Frisée aux lardons, croûtons et œuf poché.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Pain de campagne",
+    "ingredients": [
+      {
+        "name": "Frisée ou laitue",
+        "keywords": [
+          "frisee",
+          "laitue",
+          "salade"
+        ],
+        "amount": "1 tête"
+      },
+      {
+        "name": "Lardons",
+        "keywords": [
+          "lardons",
+          "bacon",
+          "lard"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Pain",
+        "keywords": [
+          "pain"
+        ],
+        "amount": "2 tranches"
+      },
+      {
+        "name": "Vinaigre",
+        "keywords": [
+          "vinaigre"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "staple"
+      },
+      {
+        "name": "Moutarde",
+        "keywords": [
+          "moutarde"
+        ],
+        "amount": "1 cuillère à café",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites dorer les lardons à sec et réservez-les, en gardant le gras.",
+      "Faites griller le pain en cubes dans ce gras.",
+      "Pochez les œufs 3 minutes dans l’eau frémissante vinaigrée.",
+      "Assaisonnez la salade de vinaigre et de moutarde, ajoutez lardons, croûtons et œufs."
+    ],
+    "tip": "Versez le vinaigre chaud dans la poêle pour déglacer et servez-le tiède.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-brandade-de-morue",
+    "title": "Brandade de morue",
+    "summary": "Purée gratinée de morue dessalée et de pommes de terre.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Morue dessalée",
+        "keywords": [
+          "morue",
+          "cabillaud"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Ail",
+        "keywords": [
+          "ail"
+        ],
+        "amount": "2 gousses"
+      },
+      {
+        "name": "Huile d’olive",
+        "keywords": [
+          "huile"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Pochez la morue dans le lait 10 minutes et effeuillez-la.",
+      "Cuisez et écrasez les pommes de terre.",
+      "Mélangez avec la morue, l’ail écrasé, l’huile et un peu de lait chaud.",
+      "Versez dans un plat et gratinez 15 minutes à 200 °C."
+    ],
+    "tip": "Ajoutez le lait chaud peu à peu pour une texture onctueuse.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-cake-jambon-olives",
+    "title": "Cake au jambon et aux olives",
+    "summary": "Cake salé moelleux au jambon, olives et fromage râpé.",
+    "minutes": 55,
+    "servings": 6,
+    "side": "Salade verte",
+    "ingredients": [
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "1 1/2 tasse"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Jambon",
+        "keywords": [
+          "jambon"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Olives vertes",
+        "keywords": [
+          "olives",
+          "olive"
+        ],
+        "amount": "1/2 tasse"
+      },
+      {
+        "name": "Fromage râpé",
+        "keywords": [
+          "fromage",
+          "gruyere",
+          "emmental"
+        ],
+        "amount": "1 tasse"
+      },
+      {
+        "name": "Lait",
+        "keywords": [
+          "lait"
+        ],
+        "amount": "1/2 tasse"
+      }
+    ],
+    "steps": [
+      "Mélangez la farine, 1 sachet de levure et le sel.",
+      "Ajoutez les œufs, le lait et 1/4 tasse d’huile.",
+      "Incorporez le jambon en dés, les olives et le fromage.",
+      "Versez dans un moule à cake et enfournez 45 minutes à 180 °C."
+    ],
+    "tip": "Se conserve 3 jours et se congèle en tranches.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-poulet-basquaise",
+    "title": "Poulet basquaise",
+    "summary": "Poulet mijoté aux poivrons, tomates et piment d’Espelette.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Riz blanc",
+    "ingredients": [
+      {
+        "name": "Cuisses de poulet",
+        "keywords": [
+          "poulet",
+          "cuisses de poulet"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Poivrons",
+        "keywords": [
+          "poivron",
+          "poivrons"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Ail",
+        "keywords": [
+          "ail"
+        ],
+        "amount": "2 gousses"
+      },
+      {
+        "name": "Piment d’Espelette",
+        "keywords": [
+          "piment",
+          "paprika"
+        ],
+        "amount": "1 pincée",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites dorer les cuisses de poulet dans l’huile et réservez.",
+      "Faites revenir l’oignon, l’ail et les poivrons en lanières.",
+      "Ajoutez les tomates concassées, le piment et le poulet.",
+      "Couvrez et laissez mijoter 40 minutes."
+    ],
+    "tip": "Plus il mijote, plus la sauce est sucrée et concentrée.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-tomates-farcies",
+    "title": "Tomates farcies",
+    "summary": "Tomates au four farcies de viande hachée et de riz.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Riz ou pommes de terre",
+    "ingredients": [
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Viande hachée",
+        "keywords": [
+          "viande hachee",
+          "boeuf hache",
+          "porc"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Oignon",
+        "keywords": [
+          "oignon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Ail",
+        "keywords": [
+          "ail"
+        ],
+        "amount": "1 gousse"
+      },
+      {
+        "name": "Chapelure",
+        "keywords": [
+          "chapelure"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "optional"
+      },
+      {
+        "name": "Persil",
+        "keywords": [
+          "persil"
+        ],
+        "amount": "1 poignée",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Coupez le chapeau des tomates et videz-les, en gardant la pulpe.",
+      "Mélangez la viande, l’oignon, l’ail, le persil et la pulpe hachée.",
+      "Garnissez les tomates et remettez les chapeaux.",
+      "Enfournez 40 minutes à 180 °C."
+    ],
+    "tip": "Posez les tomates dans un plat serré pour qu’elles tiennent droites.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-pommes-de-terre-sarladaises",
+    "title": "Pommes de terre sarladaises",
+    "summary": "Pommes de terre sautées à l’ail et au persil, dorées et croustillantes.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Œufs au plat",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "keywords": [
+          "pomme de terre",
+          "pommes de terre"
+        ],
+        "amount": "800 g"
+      },
+      {
+        "name": "Ail",
+        "keywords": [
+          "ail"
+        ],
+        "amount": "3 gousses"
+      },
+      {
+        "name": "Persil",
+        "keywords": [
+          "persil"
+        ],
+        "amount": "1 poignée"
+      },
+      {
+        "name": "Huile ou graisse de canard",
+        "keywords": [
+          "huile",
+          "graisse"
+        ],
+        "amount": "3 cuillères à soupe",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Coupez les pommes de terre en rondelles fines et séchez-les.",
+      "Faites-les dorer dans la graisse chaude 15 minutes en les retournant.",
+      "Couvrez 10 minutes pour qu’elles cuisent à cœur.",
+      "Ajoutez l’ail haché et le persil et salez en fin de cuisson."
+    ],
+    "tip": "Ajoutez l’ail à la fin pour qu’il ne brûle pas.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-moelleux-au-chocolat",
+    "title": "Moelleux au chocolat",
+    "summary": "Petit gâteau au chocolat avec un cœur fondant.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Glace vanille",
+    "ingredients": [
+      {
+        "name": "Chocolat noir",
+        "keywords": [
+          "chocolat"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "100 g",
+        "kind": "staple"
+      },
+      {
+        "name": "Sucre",
+        "keywords": [
+          "sucre"
+        ],
+        "amount": "1/2 tasse",
+        "kind": "staple"
+      },
+      {
+        "name": "Œufs",
+        "keywords": [
+          "oeuf",
+          "oeufs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Farine",
+        "keywords": [
+          "farine"
+        ],
+        "amount": "3 cuillères à soupe"
+      },
+      {
+        "name": "Sucre glace",
+        "keywords": [
+          "sucre glace"
+        ],
+        "amount": "1 cuillère à soupe",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Faites fondre le chocolat et le beurre au bain-marie.",
+      "Fouettez les œufs avec le sucre et incorporez le chocolat.",
+      "Ajoutez la farine et versez dans des ramequins beurrés.",
+      "Enfournez 10 à 12 minutes à 200 °C : le centre doit rester coulant."
+    ],
+    "tip": "Démoulez tiède pour garder le cœur fondant.",
+    "origin": "FR"
+  },
+  {
+    "id": "fr-tarte-tatin",
+    "title": "Tarte Tatin",
+    "summary": "Tarte renversée aux pommes caramélisées.",
+    "minutes": 60,
+    "servings": 6,
+    "side": "Crème fraîche",
+    "ingredients": [
+      {
+        "name": "Pommes",
+        "keywords": [
+          "pomme",
+          "pommes"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Pâte brisée ou feuilletée",
+        "keywords": [
+          "pate",
+          "pâte"
+        ],
+        "amount": "1 abaisse"
+      },
+      {
+        "name": "Sucre",
+        "keywords": [
+          "sucre"
+        ],
+        "amount": "3/4 tasse",
+        "kind": "staple"
+      },
+      {
+        "name": "Beurre",
+        "keywords": [
+          "beurre"
+        ],
+        "amount": "50 g",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Faites un caramel avec le sucre dans une poêle allant au four, ajoutez le beurre.",
+      "Disposez les pommes pelées et coupées en quartiers serrés dans le caramel.",
+      "Couvrez avec la pâte en rentrant les bords.",
+      "Enfournez 35 minutes à 190 °C, laissez tiédir 5 minutes et retournez sur un plat."
+    ],
+    "tip": "Retournez la tarte tiède, sinon le caramel durcit et colle.",
+    "origin": "FR"
   }
 ]

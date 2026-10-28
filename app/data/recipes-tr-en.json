@@ -41616,5 +41616,2671 @@
    "Separately, brown the potato noodles in oil until crisp.",
    "Combine and serve hot."
   ]
+ },
+ "jp-shogayaki": {
+  "title": "Shogayaki",
+  "summary": "Pork stir-fried with ginger and soy, quick and perfect with rice.",
+  "side": "Rice and shredded cabbage",
+  "tip": "Slice the meat very thin so it cooks in a minute and stays tender.",
+  "ingredients": [
+   {
+    "name": "Thinly sliced pork",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Ginger",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Mix the soy sauce with the grated ginger and the sugar.",
+   "Cut the onion into half-moons and sauté for 3 minutes.",
+   "Add the pork and cook until browned.",
+   "Pour in the sauce and let it cling to the meat for 1 minute."
+  ]
+ },
+ "jp-kitsune-udon": {
+  "title": "Kitsune udon",
+  "summary": "Japanese thick noodle soup with sweet fried tofu and scallions.",
+  "side": "Scallions and shichimi",
+  "tip": "Cook the udon separately so the broth stays clear.",
+  "ingredients": [
+   {
+    "name": "Udon noodles",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Fried tofu (aburaage)",
+    "amount": "2"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Dashi or vegetable broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Scallions",
+    "amount": "2"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Boil the broth with the soy sauce and sugar.",
+   "Add the tofu and cook 5 minutes so it absorbs the flavor.",
+   "Boil the udon separately, drain and divide among bowls.",
+   "Top with the hot broth, the tofu and chopped scallions."
+  ]
+ },
+ "jp-omurice": {
+  "title": "Omurice",
+  "summary": "Chicken fried rice wrapped in a soft omelet with ketchup.",
+  "side": "Ketchup and green salad",
+  "tip": "Take the omelet off the heat while the center is still creamy.",
+  "ingredients": [
+   {
+    "name": "Cooked rice",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Chicken",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Eggs",
+    "amount": "4"
+   },
+   {
+    "name": "Ketchup",
+    "amount": "4 tablespoons"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the onion and the chicken cut into small cubes.",
+   "Add the rice and 3 tablespoons of ketchup and mix well.",
+   "Beat the eggs and cook them in an oiled skillet as a soft omelet.",
+   "Put the rice in the center, fold the omelet over and serve with more ketchup."
+  ]
+ },
+ "in-palak-paneer": {
+  "title": "Palak paneer",
+  "summary": "Creamy spinach with cubes of fresh cheese and mild spices.",
+  "side": "Basmati rice or naan",
+  "tip": "Brown the cheese cubes first so they do not fall apart.",
+  "ingredients": [
+   {
+    "name": "Spinach",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Firm fresh cheese (paneer)",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Tomato",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Heavy cream",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Blanch the spinach for 2 minutes and blend it.",
+   "Sauté onion, garlic and cumin; add the chopped tomato.",
+   "Add the spinach and cook 5 minutes.",
+   "Add the cubed cheese and the cream and heat 3 more minutes."
+  ]
+ },
+ "in-paneer-bhurji": {
+  "title": "Paneer bhurji",
+  "summary": "Crumbled fresh cheese sautéed with onion, tomato and spices.",
+  "side": "Roti or bread",
+  "tip": "Add a pinch of salt only at the end so the cheese does not dry out.",
+  "ingredients": [
+   {
+    "name": "Firm fresh cheese",
+    "amount": "9 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Tomato",
+    "amount": "1"
+   },
+   {
+    "name": "Turmeric",
+    "amount": "1/2 teaspoon"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Crumble the cheese by hand.",
+   "Sauté the onion with the cumin until translucent.",
+   "Add the chopped tomato and the turmeric and cook 4 minutes.",
+   "Add the cheese, stir and cook 3 more minutes."
+  ]
+ },
+ "gr-spanakorizo": {
+  "title": "Spanakorizo",
+  "summary": "Greek spinach rice with lemon and dill, light and fresh.",
+  "side": "Feta cheese and lemon",
+  "tip": "Serve warm with a good drizzle of raw olive oil.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Spinach",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Lemon",
+    "amount": "1"
+   },
+   {
+    "name": "Dill",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "4 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion in olive oil.",
+   "Add the chopped spinach until it wilts.",
+   "Add the rice and 2 cups of hot water and cook covered for 15 minutes.",
+   "Finish with lemon juice and chopped dill."
+  ]
+ },
+ "gr-dakos": {
+  "title": "Dakos",
+  "summary": "Cretan hard bread rusk topped with grated tomato, cheese and olive oil.",
+  "side": "Olives",
+  "tip": "With really ripe tomatoes you need nothing else.",
+  "ingredients": [
+   {
+    "name": "Stale bread or rusks",
+    "amount": "2 slices"
+   },
+   {
+    "name": "Ripe tomatoes",
+    "amount": "2"
+   },
+   {
+    "name": "Feta cheese",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Oregano",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Briefly wet the hard bread with water and drain it.",
+   "Grate the tomatoes and spoon the pulp over the bread.",
+   "Crumble the feta on top.",
+   "Season with oregano and olive oil."
+  ]
+ },
+ "gr-fasolakia-yiahni": {
+  "title": "Fasolakia yiahni",
+  "summary": "Green beans stewed with tomato, potato and olive oil, Greek style.",
+  "side": "Feta cheese and bread",
+  "tip": "The slower it cooks, the more flavor and the creamier the sauce.",
+  "ingredients": [
+   {
+    "name": "Green beans",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "2"
+   },
+   {
+    "name": "Crushed tomatoes",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "4 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the onion and garlic in olive oil.",
+   "Add the green beans and the diced potatoes.",
+   "Pour in the tomato and half a cup of water.",
+   "Cook covered over low heat for 30 minutes until everything is tender."
+  ]
+ },
+ "gr-saganaki": {
+  "title": "Saganaki",
+  "summary": "Fried cheese, golden outside and melted inside, with lemon.",
+  "side": "Bread and lemon",
+  "tip": "Wetting the cheese before flouring helps the crust stick.",
+  "ingredients": [
+   {
+    "name": "Firm cheese (provolone or kefalotyri)",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Flour",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Lemon",
+    "amount": "1"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Cut the cheese into 1/2-inch slices and dip them in water.",
+   "Dredge in flour, shaking off the excess.",
+   "Brown 1 minute per side in hot olive oil.",
+   "Serve right away with lemon juice."
+  ]
+ },
+ "in-upma": {
+  "title": "Upma",
+  "summary": "Savory Indian semolina breakfast with onion, vegetables and spices.",
+  "side": "Plain yogurt",
+  "tip": "Add the semolina slowly while stirring to avoid lumps.",
+  "ingredients": [
+   {
+    "name": "Semolina",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Peas",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Mustard seeds",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Dry-toast the semolina for 3 minutes and set aside.",
+   "Heat the oil with the mustard seeds and sauté the onion.",
+   "Add the carrot, peas and 2 cups of water; bring to a boil.",
+   "Rain in the semolina while stirring and cook covered for 3 minutes."
+  ]
+ },
+ "in-aloo-paratha": {
+  "title": "Aloo paratha",
+  "summary": "Indian flatbreads stuffed with spiced mashed potato.",
+  "side": "Yogurt or pickles",
+  "tip": "Use very dry potatoes so the filling does not tear the dough.",
+  "ingredients": [
+   {
+    "name": "Whole wheat or all-purpose flour",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Boiled potatoes",
+    "amount": "3"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Chili powder",
+    "amount": "1/2 teaspoon"
+   },
+   {
+    "name": "Butter or oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Make a dough with the flour, salt and warm water and rest it for 15 minutes.",
+   "Mash the potatoes and mix with cumin, chili and salt.",
+   "Roll out small dough balls, fill with the mash and seal.",
+   "Roll them out again and cook in a skillet with butter until golden on both sides."
+  ]
+ },
+ "in-lemon-rice": {
+  "title": "Lemon rice",
+  "summary": "South Indian rice with lemon, turmeric and toasted peanuts.",
+  "side": "Yogurt and pickles",
+  "tip": "Perfect for using up yesterday’s rice.",
+  "ingredients": [
+   {
+    "name": "Cooked rice",
+    "amount": "3 cups"
+   },
+   {
+    "name": "Lemons",
+    "amount": "2"
+   },
+   {
+    "name": "Turmeric",
+    "amount": "1/2 teaspoon"
+   },
+   {
+    "name": "Peanuts",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Mustard seeds",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Heat the oil and toast the peanuts with the mustard seeds.",
+   "Add the turmeric and turn off the heat.",
+   "Add the cooked rice and mix well.",
+   "Finish with the lemon juice and salt."
+  ]
+ },
+ "jp-horenso-goma-ae": {
+  "title": "Horenso no goma-ae",
+  "summary": "Blanched spinach in a creamy sesame and soy dressing.",
+  "side": "White rice",
+  "tip": "Squeeze the spinach thoroughly so the dressing does not get watery.",
+  "ingredients": [
+   {
+    "name": "Spinach",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Sesame seeds",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Blanch the spinach for 1 minute and rinse in cold water.",
+   "Squeeze it dry and cut into pieces.",
+   "Toast and grind the sesame; mix with the soy sauce and sugar.",
+   "Toss the spinach with the dressing."
+  ]
+ },
+ "fr-omelette-aux-fines-herbes": {
+  "title": "Omelette aux fines herbes",
+  "summary": "Fluffy omelet scented with parsley and chives.",
+  "side": "Green salad",
+  "tip": "Take it off the heat while still creamy: it finishes cooking in the pan.",
+  "ingredients": [
+   {
+    "name": "Eggs",
+    "amount": "4"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Chives",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Salt",
+    "amount": "to taste"
+   }
+  ],
+  "steps": [
+   "Beat the eggs with a pinch of salt.",
+   "Add the chopped parsley and chives.",
+   "Melt the butter in a skillet and pour in the eggs.",
+   "Draw the edges toward the center, then fold the omelet."
+  ]
+ },
+ "fr-riz-au-lait": {
+  "title": "French rice pudding",
+  "summary": "Creamy dessert of rice slowly cooked in milk with vanilla.",
+  "side": "Caramel or jam",
+  "tip": "Stir often: milk sticks quickly to the bottom of the pot.",
+  "ingredients": [
+   {
+    "name": "Short-grain rice",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "4 tablespoons"
+   },
+   {
+    "name": "Vanilla",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Heat the milk with the vanilla.",
+   "Add the rice and sugar.",
+   "Cook over low heat for 35 minutes, stirring often.",
+   "Serve warm or cold."
+  ]
+ },
+ "fr-gateau-au-yaourt": {
+  "title": "French yogurt cake",
+  "summary": "Very simple cake where the yogurt pot is the measuring cup.",
+  "side": "Tea or coffee",
+  "tip": "Use the empty yogurt pot to measure all the ingredients.",
+  "ingredients": [
+   {
+    "name": "Plain yogurt",
+    "amount": "1 pot"
+   },
+   {
+    "name": "Flour",
+    "amount": "2 pots"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 pot"
+   },
+   {
+    "name": "Eggs",
+    "amount": "3"
+   },
+   {
+    "name": "Oil",
+    "amount": "1/2 pot"
+   },
+   {
+    "name": "Baking powder",
+    "amount": "1 packet"
+   }
+  ],
+  "steps": [
+   "Preheat the oven to 350 °F.",
+   "Mix the yogurt, sugar and eggs.",
+   "Add the flour, baking powder and oil.",
+   "Pour into a buttered pan and bake 35 minutes."
+  ]
+ },
+ "it-pappa-al-pomodoro": {
+  "title": "Pappa al pomodoro",
+  "summary": "Tuscan soup of stale bread, tomato and basil.",
+  "side": "Raw olive oil",
+  "tip": "Eat it warm, with a drizzle of raw olive oil.",
+  "ingredients": [
+   {
+    "name": "Stale bread",
+    "amount": "9 oz"
+   },
+   {
+    "name": "Canned peeled tomatoes",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Basil",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "4 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the garlic in the oil.",
+   "Add the tomatoes and cook 10 minutes.",
+   "Add the torn bread and 2 cups of hot water.",
+   "Cook 15 minutes, stirring, and finish with the basil."
+  ]
+ },
+ "it-frittelle-di-zucchine": {
+  "title": "Zucchini fritters",
+  "summary": "Crispy fritters of grated zucchini and cheese.",
+  "side": "Yogurt and lemon",
+  "tip": "Squeezing the zucchini well is the key to crispy fritters.",
+  "ingredients": [
+   {
+    "name": "Zucchini",
+    "amount": "3"
+   },
+   {
+    "name": "Eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Flour",
+    "amount": "4 tablespoons"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Oil",
+    "amount": "4 tablespoons"
+   }
+  ],
+  "steps": [
+   "Grate the zucchini and squeeze it well.",
+   "Mix with eggs, flour, Parmesan and salt.",
+   "Fry spoonfuls of batter in hot oil.",
+   "Drain on paper towels and serve hot."
+  ]
+ },
+ "it-pasta-e-lenticchie": {
+  "title": "Pasta and lentils",
+  "summary": "Thick lentil and short pasta soup, cheap and filling.",
+  "side": "Raw olive oil and pepper",
+  "tip": "Add hot water if it gets too thick.",
+  "ingredients": [
+   {
+    "name": "Lentils",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Short pasta",
+    "amount": "4 oz"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Tomato purée",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion and carrot in the oil.",
+   "Add the lentils, the tomato purée and 4 cups of water.",
+   "Cook 25 minutes until the lentils are tender.",
+   "Add the pasta and cook 10 more minutes."
+  ]
+ },
+ "de-linsen-mit-spaetzle": {
+  "title": "Lentils with spätzle",
+  "summary": "Swabian classic: lentil stew with spätzle and sausages.",
+  "side": "Vinegar",
+  "tip": "A splash of vinegar at the end rounds out the stew.",
+  "ingredients": [
+   {
+    "name": "Lentils",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Spätzle or noodles",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Sausages",
+    "amount": "2"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Dice the onion and carrot and sauté in the oil.",
+   "Add the lentils and 4 cups of water and cook 25 minutes.",
+   "Cook the spätzle following the package directions.",
+   "Serve everything with the sausages and a splash of vinegar."
+  ]
+ },
+ "de-maultaschen-in-bruehe": {
+  "title": "Maultaschen in broth",
+  "summary": "Swabian stuffed pasta pockets in hot broth.",
+  "side": "Chives",
+  "tip": "Do not boil hard or the pockets burst.",
+  "ingredients": [
+   {
+    "name": "Maultaschen or large ravioli",
+    "amount": "8"
+   },
+   {
+    "name": "Vegetable or beef broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Chives",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   }
+  ],
+  "steps": [
+   "Bring the broth to a boil.",
+   "Add the maultaschen and simmer 8 minutes.",
+   "Scatter onion rings on top.",
+   "Serve sprinkled with chives."
+  ]
+ },
+ "de-zwiebelkuchen": {
+  "title": "German onion tart",
+  "summary": "Savory tart with onions, bacon and sour cream.",
+  "side": "Green salad",
+  "tip": "It is best eaten warm, with young wine.",
+  "ingredients": [
+   {
+    "name": "Onions",
+    "amount": "1 1/3 lb"
+   },
+   {
+    "name": "Puff pastry or yeast dough",
+    "amount": "1 sheet"
+   },
+   {
+    "name": "Bacon",
+    "amount": "3.5 oz"
+   },
+   {
+    "name": "Sour cream",
+    "amount": "2/3 cup"
+   },
+   {
+    "name": "Eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Slice the onions and cook with the bacon in butter for 10 minutes.",
+   "Whisk the sour cream with the eggs and season with salt and caraway.",
+   "Line a pan with the dough and spread the onions over it.",
+   "Pour over the egg mixture and bake 35 minutes at 400 °F."
+  ]
+ },
+ "de-wuerstchen-eintopf": {
+  "title": "German sausage stew",
+  "summary": "Hearty stew with sausages, potatoes and vegetables.",
+  "side": "Bread",
+  "tip": "Mashing a few potatoes thickens the stew.",
+  "ingredients": [
+   {
+    "name": "Sausages",
+    "amount": "3"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "3"
+   },
+   {
+    "name": "Carrots",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Dice the onion, carrots and potatoes.",
+   "Brown everything briefly in the oil and cover with broth.",
+   "Simmer for 20 minutes.",
+   "Add the sliced sausages and heat 5 minutes."
+  ]
+ },
+ "de-quarkkeulchen": {
+  "title": "Quarkkeulchen",
+  "summary": "Saxon pancakes of quark and potato.",
+  "side": "Applesauce and cinnamon sugar",
+  "tip": "Shape with floured hands so the dough does not stick.",
+  "ingredients": [
+   {
+    "name": "Quark or cream cheese",
+    "amount": "9 oz"
+   },
+   {
+    "name": "Boiled potatoes",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Flour",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Egg",
+    "amount": "1"
+   },
+   {
+    "name": "Sugar",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Mash the potatoes and mix with the quark, flour, egg and sugar.",
+   "Shape small flat patties.",
+   "Brown in butter over medium heat on both sides.",
+   "Serve with applesauce and cinnamon sugar."
+  ]
+ },
+ "de-milchreis-mit-zimt": {
+  "title": "Milk rice with cinnamon",
+  "summary": "Creamy rice pudding with cinnamon and sugar.",
+  "side": "Cherry compote",
+  "tip": "Stir constantly so nothing burns.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Cinnamon",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Butter",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Bring the milk, rice and a pinch of salt to a boil.",
+   "Simmer over low heat for 30 minutes, stirring.",
+   "Add the sugar and stir a moment longer.",
+   "Serve with cinnamon sugar and butter."
+  ]
+ },
+ "de-rote-bete-salat": {
+  "title": "German beet salad",
+  "summary": "Fresh salad of cooked beets with onion and vinegar.",
+  "side": "Fried potatoes",
+  "tip": "Cut with gloves on, as beets stain fingers.",
+  "ingredients": [
+   {
+    "name": "Beets",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Vinegar",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Oil",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Caraway",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Slice the cooked beets.",
+   "Finely dice the onion.",
+   "Whisk vinegar, oil, salt and caraway into a dressing.",
+   "Toss everything together and let it sit 20 minutes."
+  ]
+ },
+ "de-rahmschnitzel": {
+  "title": "Cream schnitzel",
+  "summary": "Pan-fried cutlet in a creamy mushroom sauce.",
+  "side": "Spätzle or potatoes",
+  "tip": "Pound the cutlets evenly thin so they cook fast.",
+  "ingredients": [
+   {
+    "name": "Pork or veal cutlets",
+    "amount": "2"
+   },
+   {
+    "name": "Mushrooms",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Heavy cream",
+    "amount": "2/3 cup"
+   },
+   {
+    "name": "Flour",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Salt the cutlets, dredge in flour and brown in butter.",
+   "Remove and keep warm.",
+   "Sauté the onion and mushrooms in the same fat.",
+   "Add the cream, reduce and return the cutlets to the sauce briefly."
+  ]
+ },
+ "pt-arroz-de-marisco": {
+  "title": "Portuguese seafood rice",
+  "summary": "Soupy Portuguese rice with shrimp and mussels in tomato sauce.",
+  "side": "Cilantro and lemon",
+  "tip": "The rice should stay loose and brothy.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Shrimp",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Mussels",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Tomatoes",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the onion in olive oil and add the chopped tomato.",
+   "Add the rice and 3 cups of hot water.",
+   "Cook 10 minutes and add the seafood.",
+   "Cook 5 more minutes until soupy and finish with cilantro."
+  ]
+ },
+ "pt-sopa-de-peixe": {
+  "title": "Portuguese fish soup",
+  "summary": "Light and tasty fish soup with tomato, potato and herbs.",
+  "side": "Toasted bread",
+  "tip": "Add the fish at the end so it does not fall apart.",
+  "ingredients": [
+   {
+    "name": "White fish fillets",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "2"
+   },
+   {
+    "name": "Tomatoes",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the onion in oil and add the chopped tomato.",
+   "Add the diced potatoes and 4 cups of water.",
+   "Cook 15 minutes and add the fish in pieces.",
+   "Cook 5 more minutes and finish with parsley."
+  ]
+ },
+ "pt-bacalhau-a-gomes-de-sa": {
+  "title": "Bacalhau à Gomes de Sá",
+  "summary": "Flaked salt cod with potato, onion, boiled egg and olives.",
+  "side": "Parsley",
+  "tip": "Soak the salt cod in cold water for 24 hours, changing the water.",
+  "ingredients": [
+   {
+    "name": "Desalted salt cod",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "1 1/3 lb"
+   },
+   {
+    "name": "Onions",
+    "amount": "2"
+   },
+   {
+    "name": "Boiled eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Olives",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "4 tablespoons"
+   }
+  ],
+  "steps": [
+   "Boil the potatoes in their skins and slice.",
+   "Poach the cod in flakes and drain.",
+   "Sauté the sliced onions in oil until soft.",
+   "Layer with the potatoes and cod and bake 15 minutes; serve with egg and olives."
+  ]
+ },
+ "pt-arroz-doce": {
+  "title": "Portuguese rice pudding",
+  "summary": "Creamy dessert with lemon zest and cinnamon.",
+  "side": "Ground cinnamon",
+  "tip": "Stir constantly so the bottom does not burn.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Egg yolks",
+    "amount": "3"
+   },
+   {
+    "name": "Lemon zest",
+    "amount": "1 lemon"
+   },
+   {
+    "name": "Cinnamon",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Boil the rice in water for 5 minutes and drain.",
+   "Add the milk, lemon zest and sugar and cook 25 minutes, stirring.",
+   "Remove from the heat and stir in the beaten yolks.",
+   "Serve cold with cinnamon."
+  ]
+ },
+ "pt-carne-de-porco-a-alentejana": {
+  "title": "Alentejo-style pork and clams",
+  "summary": "Marinated pork with clams and fried potatoes.",
+  "side": "Cilantro",
+  "tip": "The longer the marinade, the tastier the pork.",
+  "ingredients": [
+   {
+    "name": "Pork loin or leg",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Clams or mussels",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "3"
+   },
+   {
+    "name": "Garlic",
+    "amount": "3 cloves"
+   },
+   {
+    "name": "White wine",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Marinate the cubed pork with garlic, wine and salt for 30 minutes.",
+   "Fry the diced potatoes until golden.",
+   "Brown the pork in oil and add the clams until they open.",
+   "Toss with the potatoes and serve with cilantro."
+  ]
+ },
+ "fr-gratin-de-poireaux-au-jambon": {
+  "title": "Leek and ham gratin",
+  "summary": "Leeks wrapped in ham, covered in béchamel and baked until golden.",
+  "side": "Green salad",
+  "tip": "Squeeze the leeks well so the gratin is not watery.",
+  "ingredients": [
+   {
+    "name": "Leeks",
+    "amount": "4"
+   },
+   {
+    "name": "Ham",
+    "amount": "4 slices"
+   },
+   {
+    "name": "Milk",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Flour",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Butter",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Grated cheese",
+    "amount": "1/2 cup"
+   }
+  ],
+  "steps": [
+   "Boil the leeks for 10 minutes and drain.",
+   "Wrap each leek in a slice of ham.",
+   "Make a béchamel with the butter, flour and milk.",
+   "Pour over, sprinkle with cheese and bake 20 minutes at 400°F."
+  ]
+ },
+ "fr-veloute-de-champignons": {
+  "title": "Cream of mushroom soup",
+  "summary": "Velvety white mushroom soup with cream.",
+  "side": "Croutons",
+  "tip": "Keep a few sautéed mushrooms for garnish.",
+  "ingredients": [
+   {
+    "name": "White mushrooms",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Potato",
+    "amount": "1"
+   },
+   {
+    "name": "Cream",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Broth",
+    "amount": "3 cups"
+   }
+  ],
+  "steps": [
+   "Sauté the onion in the butter and add the sliced mushrooms.",
+   "Add the diced potato and the broth.",
+   "Cook 20 minutes, then blend.",
+   "Stir in the cream and adjust the seasoning."
+  ]
+ },
+ "fr-blanquette-de-poulet": {
+  "title": "Chicken blanquette",
+  "summary": "Chicken simmered in a creamy white sauce with carrots and mushrooms.",
+  "side": "White rice",
+  "tip": "Add a squeeze of lemon at the end to brighten the sauce.",
+  "ingredients": [
+   {
+    "name": "Chicken",
+    "amount": "1 1/3 lb"
+   },
+   {
+    "name": "Carrots",
+    "amount": "2"
+   },
+   {
+    "name": "Mushrooms",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Cream",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Flour",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Simmer the chicken with the onion and carrots in 3 cups of water for 25 minutes.",
+   "Strain the broth and keep the meat and vegetables.",
+   "Make a roux with the butter and flour and whisk in 1 1/2 cups of broth.",
+   "Return everything with the cream and mushrooms and cook 10 minutes."
+  ]
+ },
+ "fr-quiche-saumon-poireaux": {
+  "title": "Salmon and leek quiche",
+  "summary": "Savory tart with salmon and leeks, soft and creamy.",
+  "side": "Green salad",
+  "tip": "Blind-bake the crust for 10 minutes to keep it crisp.",
+  "ingredients": [
+   {
+    "name": "Pie crust",
+    "amount": "1"
+   },
+   {
+    "name": "Salmon",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Leeks",
+    "amount": "2"
+   },
+   {
+    "name": "Eggs",
+    "amount": "3"
+   },
+   {
+    "name": "Cream",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Grated cheese",
+    "amount": "1/2 cup"
+   }
+  ],
+  "steps": [
+   "Soften the sliced leeks in a skillet for 8 minutes.",
+   "Line a pan with the crust and spread the leeks and salmon pieces over it.",
+   "Beat the eggs with the cream, salt and pepper and pour over.",
+   "Top with cheese and bake 35 minutes at 350°F."
+  ]
+ },
+ "fr-moules-marinieres": {
+  "title": "Mussels in white wine",
+  "summary": "Mussels cooked in white wine with shallots and parsley.",
+  "side": "French fries",
+  "tip": "Discard mussels that stay open before cooking and those that stay closed after.",
+  "ingredients": [
+   {
+    "name": "Mussels",
+    "amount": "2 lb"
+   },
+   {
+    "name": "Shallots or onion",
+    "amount": "2"
+   },
+   {
+    "name": "White wine",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   }
+  ],
+  "steps": [
+   "Scrub the mussels and remove the beards.",
+   "Sauté the shallots in the butter.",
+   "Add the wine and mussels, cover and cook 6 minutes, shaking the pot.",
+   "Sprinkle with parsley and serve with the broth."
+  ]
+ },
+ "fr-endives-au-jambon": {
+  "title": "Ham-wrapped endives",
+  "summary": "Braised endives wrapped in ham and baked with béchamel.",
+  "side": "Steamed potatoes",
+  "tip": "Squeeze the endives to remove water and avoid bitterness.",
+  "ingredients": [
+   {
+    "name": "Endives",
+    "amount": "4"
+   },
+   {
+    "name": "Ham",
+    "amount": "4 slices"
+   },
+   {
+    "name": "Milk",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Flour",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Butter",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Grated cheese",
+    "amount": "1/2 cup"
+   }
+  ],
+  "steps": [
+   "Steam or boil the endives 15 minutes and drain well.",
+   "Wrap each in a slice of ham.",
+   "Make a béchamel and pour it over the endives.",
+   "Sprinkle with cheese and bake 20 minutes at 400°F."
+  ]
+ },
+ "it-ribollita": {
+  "title": "Ribollita",
+  "summary": "Tuscan vegetable and bean soup thickened with stale bread.",
+  "side": "Raw olive oil",
+  "tip": "It tastes even better the next day.",
+  "ingredients": [
+   {
+    "name": "Cannellini beans",
+    "amount": "1 can"
+   },
+   {
+    "name": "Lacinato kale or cabbage",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Carrots",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Stale bread",
+    "amount": "4 slices"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion, carrots and kale in the oil.",
+   "Add the beans and 4 cups of water and cook 30 minutes.",
+   "Add the bread in pieces and stir until it breaks down.",
+   "Let rest and serve with a drizzle of oil."
+  ]
+ },
+ "it-focaccia-semplice": {
+  "title": "Simple focaccia",
+  "summary": "Fluffy focaccia with olive oil and coarse salt.",
+  "side": "Cold cuts",
+  "tip": "Whisk oil and water together and pour over before baking.",
+  "ingredients": [
+   {
+    "name": "Flour",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Warm water",
+    "amount": "1 1/2 cups"
+   },
+   {
+    "name": "Dry yeast",
+    "amount": "1 packet"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "4 tablespoons"
+   },
+   {
+    "name": "Salt",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Knead the flour, water, yeast, 2 tablespoons of oil and the salt.",
+   "Let rise covered for 1 hour.",
+   "Stretch into a pan, dimple with your fingers and top with oil and coarse salt.",
+   "Bake 25 minutes at 425°F."
+  ]
+ },
+ "it-risotto-alla-zucca": {
+  "title": "Pumpkin risotto",
+  "summary": "Creamy risotto with pumpkin and Parmesan.",
+  "side": "Fried sage",
+  "tip": "Blend half the pumpkin for extra creaminess.",
+  "ingredients": [
+   {
+    "name": "Risotto rice",
+    "amount": "1 1/2 cups"
+   },
+   {
+    "name": "Pumpkin or squash",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Broth",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the onion in butter and add the diced pumpkin.",
+   "Add the rice and toast 2 minutes.",
+   "Add hot broth little by little, stirring, for 18 minutes.",
+   "Finish with Parmesan and butter and serve."
+  ]
+ },
+ "it-tiramisu": {
+  "title": "Tiramisu",
+  "summary": "Chilled dessert with ladyfingers, coffee and mascarpone.",
+  "side": "Cocoa powder",
+  "tip": "Do not soak the ladyfingers too long or they fall apart.",
+  "ingredients": [
+   {
+    "name": "Ladyfingers",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Mascarpone",
+    "amount": "9 oz"
+   },
+   {
+    "name": "Eggs",
+    "amount": "3"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Coffee",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Cocoa powder",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Whisk the yolks with the sugar and fold in the mascarpone.",
+   "Whip the whites to stiff peaks and fold into the cream.",
+   "Dip the ladyfingers in coffee and layer with the cream.",
+   "Chill 4 hours and dust with cocoa."
+  ]
+ },
+ "it-panna-cotta": {
+  "title": "Panna cotta",
+  "summary": "Silky cream dessert with berry sauce.",
+  "side": "Berries",
+  "tip": "Do not boil the cream or it loses its silkiness.",
+  "ingredients": [
+   {
+    "name": "Heavy cream",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1/3 cup"
+   },
+   {
+    "name": "Gelatin",
+    "amount": "2 sheets"
+   },
+   {
+    "name": "Vanilla",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Berries",
+    "amount": "1 cup"
+   }
+  ],
+  "steps": [
+   "Soften the gelatin in cold water.",
+   "Warm the cream with the sugar and vanilla without boiling.",
+   "Dissolve the squeezed gelatin in the warm cream.",
+   "Pour into molds and chill 4 hours until set."
+  ]
+ },
+ "it-penne-alla-vodka": {
+  "title": "Penne alla vodka",
+  "summary": "Penne in a tomato, cream and vodka sauce.",
+  "side": "Parmesan",
+  "tip": "Let the vodka cook off fully before adding the tomato.",
+  "ingredients": [
+   {
+    "name": "Penne",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Tomato sauce",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Cream",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Vodka",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "1/4 cup"
+   }
+  ],
+  "steps": [
+   "Cook the penne al dente.",
+   "Sauté the chopped onion and deglaze with the vodka.",
+   "Add the tomato sauce and cook 8 minutes, then the cream.",
+   "Toss the penne with the sauce and Parmesan."
+  ]
+ },
+ "es-flan-de-huevo": {
+  "title": "Homemade egg flan",
+  "summary": "Classic dessert of egg, milk and caramel.",
+  "side": "Cream or whipped cream",
+  "tip": "Strain the mixture so the flan has no bubbles.",
+  "ingredients": [
+   {
+    "name": "Eggs",
+    "amount": "4"
+   },
+   {
+    "name": "Milk",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "3/4 cup"
+   },
+   {
+    "name": "Vanilla",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Make a caramel with 1/4 cup of sugar and coat the bottom of a mold.",
+   "Whisk the eggs with the remaining sugar, the milk and the vanilla.",
+   "Pour into the mold and bake in a water bath 45 minutes at 340°F.",
+   "Chill and unmold."
+  ]
+ },
+ "es-arroz-con-leche": {
+  "title": "Spanish rice pudding",
+  "summary": "Creamy dessert with cinnamon and lemon peel.",
+  "side": "Ground cinnamon",
+  "tip": "Stir often so it turns creamy and does not stick.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "4 cups"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Lemon peel",
+    "amount": "1 lemon"
+   },
+   {
+    "name": "Cinnamon stick",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Heat the milk with the cinnamon and lemon peel.",
+   "Add the rice and cook on low heat 35 minutes, stirring often.",
+   "Add the sugar and cook 5 more minutes.",
+   "Remove the cinnamon and peel and serve warm or cold."
+  ]
+ },
+ "es-escalivada": {
+  "title": "Catalan roasted vegetables",
+  "summary": "Roasted eggplant, pepper and onion dressed with olive oil.",
+  "side": "Tomato bread",
+  "tip": "Covering the roasted vegetables makes them easier to peel.",
+  "ingredients": [
+   {
+    "name": "Eggplants",
+    "amount": "2"
+   },
+   {
+    "name": "Red bell peppers",
+    "amount": "2"
+   },
+   {
+    "name": "Onions",
+    "amount": "2"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Garlic",
+    "amount": "1 clove"
+   }
+  ],
+  "steps": [
+   "Roast the whole eggplants, peppers and onions at 400°F for 45 minutes.",
+   "Let them cool covered and peel.",
+   "Cut everything into strips.",
+   "Dress with olive oil, minced garlic and salt."
+  ]
+ },
+ "es-patatas-a-la-riojana": {
+  "title": "Rioja-style potatoes",
+  "summary": "Potato stew with chorizo and paprika.",
+  "side": "Crusty bread",
+  "tip": "Snap the potatoes instead of cutting them so they release starch.",
+  "ingredients": [
+   {
+    "name": "Potatoes",
+    "amount": "1 1/3 lb"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Paprika",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Sauté the chopped onion and garlic in the oil.",
+   "Add the sliced chorizo and the paprika.",
+   "Add the potatoes in chunks and cover with water.",
+   "Cook 30 minutes on low heat until the broth thickens."
+  ]
+ },
+ "es-caldo-gallego": {
+  "title": "Galician broth",
+  "summary": "Galician soup of potatoes, white beans, greens and chorizo.",
+  "side": "Corn bread",
+  "tip": "It tastes better the next day.",
+  "ingredients": [
+   {
+    "name": "Potatoes",
+    "amount": "3"
+   },
+   {
+    "name": "White beans",
+    "amount": "1 can"
+   },
+   {
+    "name": "Collard greens or chard",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "3 1/2 oz"
+   },
+   {
+    "name": "Bacon",
+    "amount": "3 1/2 oz"
+   }
+  ],
+  "steps": [
+   "Boil the chorizo and bacon in 6 cups of water for 30 minutes.",
+   "Add the potatoes in chunks and cook 15 minutes.",
+   "Add the chopped greens and the beans.",
+   "Cook 15 more minutes and season with salt."
+  ]
+ },
+ "es-empanadillas-de-atun": {
+  "title": "Tuna turnovers",
+  "summary": "Fried turnovers filled with tuna, tomato and egg.",
+  "side": "Salad",
+  "tip": "You can bake them at 400°F for 15 minutes for less oil.",
+  "ingredients": [
+   {
+    "name": "Empanada dough rounds",
+    "amount": "8"
+   },
+   {
+    "name": "Canned tuna",
+    "amount": "2 cans"
+   },
+   {
+    "name": "Tomato sauce",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Hard-boiled egg",
+    "amount": "1"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 cup"
+   }
+  ],
+  "steps": [
+   "Mix the drained tuna with the tomato sauce and the chopped egg.",
+   "Put a spoonful of filling on each round.",
+   "Fold and seal the edges with a fork.",
+   "Fry in hot oil until golden and drain on paper."
+  ]
+ },
+ "pt-pasteis-de-bacalhau": {
+  "title": "Salt cod fritters",
+  "summary": "Fried salt cod and potato fritters with parsley.",
+  "side": "Bean rice",
+  "tip": "Let the mixture rest 15 minutes before shaping.",
+  "ingredients": [
+   {
+    "name": "Desalted salt cod",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Oil",
+    "amount": "1 cup"
+   }
+  ],
+  "steps": [
+   "Boil the potatoes and the cod and flake the fish.",
+   "Mash the potatoes and mix with the cod, grated onion, parsley and eggs.",
+   "Shape into ovals using two spoons.",
+   "Fry in hot oil until golden."
+  ]
+ },
+ "pt-feijoada-a-portuguesa": {
+  "title": "Portuguese bean stew",
+  "summary": "White or red beans simmered with chorizo, bacon and cabbage.",
+  "side": "White rice",
+  "tip": "Mash some of the beans in the pot to thicken the broth.",
+  "ingredients": [
+   {
+    "name": "Cooked beans",
+    "amount": "2 cups"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Bacon",
+    "amount": "3 1/2 oz"
+   },
+   {
+    "name": "Cabbage or kale",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Sauté the onion with the bacon and the sliced chorizo.",
+   "Add the diced carrot and the beans with 2 cups of water.",
+   "Cook 30 minutes on low heat.",
+   "Add the chopped cabbage and cook 10 more minutes."
+  ]
+ },
+ "pt-omelete-de-chourico": {
+  "title": "Chorizo omelet",
+  "summary": "Fluffy omelet with sliced chorizo.",
+  "side": "Tomato salad",
+  "tip": "Go easy on the salt because the chorizo is already salty.",
+  "ingredients": [
+   {
+    "name": "Eggs",
+    "amount": "4"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "3 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Fry the sliced chorizo in the oil until it releases its fat.",
+   "Add the chopped onion and cook 2 minutes.",
+   "Beat the eggs with salt and parsley and pour into the pan.",
+   "Cook on low heat and fold in half."
+  ]
+ },
+ "fr-salade-lyonnaise": {
+  "title": "Lyonnaise salad",
+  "summary": "Frisée with bacon, croutons and a poached egg.",
+  "side": "Country bread",
+  "tip": "Deglaze the pan with hot vinegar and serve the salad warm.",
+  "ingredients": [
+   {
+    "name": "Frisée or lettuce",
+    "amount": "1 head"
+   },
+   {
+    "name": "Bacon lardons",
+    "amount": "3 1/2 oz"
+   },
+   {
+    "name": "Eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Bread",
+    "amount": "2 slices"
+   },
+   {
+    "name": "Vinegar",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Mustard",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Brown the bacon in a dry pan and set aside, keeping the fat.",
+   "Toast the cubed bread in that fat.",
+   "Poach the eggs 3 minutes in barely simmering vinegared water.",
+   "Dress the greens with vinegar and mustard, then add bacon, croutons and eggs."
+  ]
+ },
+ "fr-brandade-de-morue": {
+  "title": "Salt cod brandade",
+  "summary": "Gratinéed purée of desalted salt cod and potatoes.",
+  "side": "Green salad",
+  "tip": "Add the hot milk gradually for a creamy texture.",
+  "ingredients": [
+   {
+    "name": "Desalted salt cod",
+    "amount": "14 oz"
+   },
+   {
+    "name": "Potatoes",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Milk",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Poach the cod in the milk 10 minutes and flake it.",
+   "Boil and mash the potatoes.",
+   "Mix with the cod, crushed garlic, oil and a little hot milk.",
+   "Pour into a dish and broil 15 minutes at 400°F."
+  ]
+ },
+ "fr-cake-jambon-olives": {
+  "title": "Ham and olive savory cake",
+  "summary": "Moist savory loaf with ham, olives and grated cheese.",
+  "side": "Green salad",
+  "tip": "Keeps 3 days and freezes well in slices.",
+  "ingredients": [
+   {
+    "name": "Flour",
+    "amount": "1 1/2 cups"
+   },
+   {
+    "name": "Eggs",
+    "amount": "3"
+   },
+   {
+    "name": "Ham",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Green olives",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Grated cheese",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "1/2 cup"
+   }
+  ],
+  "steps": [
+   "Mix the flour, 2 teaspoons baking powder and salt.",
+   "Add the eggs, milk and 1/4 cup oil.",
+   "Fold in the diced ham, olives and cheese.",
+   "Pour into a loaf pan and bake 45 minutes at 350°F."
+  ]
+ },
+ "fr-poulet-basquaise": {
+  "title": "Basque-style chicken",
+  "summary": "Chicken stewed with peppers, tomatoes and Espelette pepper.",
+  "side": "White rice",
+  "tip": "The longer it simmers, the sweeter and richer the sauce.",
+  "ingredients": [
+   {
+    "name": "Chicken thighs",
+    "amount": "4"
+   },
+   {
+    "name": "Bell peppers",
+    "amount": "3"
+   },
+   {
+    "name": "Tomatoes",
+    "amount": "4"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "Espelette pepper or paprika",
+    "amount": "1 pinch"
+   }
+  ],
+  "steps": [
+   "Brown the chicken thighs in oil and set aside.",
+   "Sauté the onion, garlic and sliced peppers.",
+   "Add the chopped tomatoes, the pepper and the chicken.",
+   "Cover and simmer 40 minutes."
+  ]
+ },
+ "fr-tomates-farcies": {
+  "title": "Stuffed tomatoes",
+  "summary": "Oven-baked tomatoes stuffed with ground meat.",
+  "side": "Rice or potatoes",
+  "tip": "Set the tomatoes in a snug dish so they stay upright.",
+  "ingredients": [
+   {
+    "name": "Tomatoes",
+    "amount": "6"
+   },
+   {
+    "name": "Ground meat",
+    "amount": "10 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "1 clove"
+   },
+   {
+    "name": "Breadcrumbs",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   }
+  ],
+  "steps": [
+   "Cut the tops off the tomatoes and scoop them out, keeping the pulp.",
+   "Mix the meat, onion, garlic, parsley and chopped pulp.",
+   "Fill the tomatoes and put the tops back.",
+   "Bake 40 minutes at 350°F."
+  ]
+ },
+ "fr-pommes-de-terre-sarladaises": {
+  "title": "Garlic parsley potatoes",
+  "summary": "Golden, crispy pan-fried potatoes with garlic and parsley.",
+  "side": "Fried eggs",
+  "tip": "Add the garlic last so it does not burn.",
+  "ingredients": [
+   {
+    "name": "Potatoes",
+    "amount": "1 3/4 lb"
+   },
+   {
+    "name": "Garlic",
+    "amount": "3 cloves"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Oil or duck fat",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Slice the potatoes thinly and pat them dry.",
+   "Fry them in the hot fat 15 minutes, turning often.",
+   "Cover 10 minutes so they cook through.",
+   "Add the minced garlic and parsley and salt at the end."
+  ]
+ },
+ "jp-gyoza": {
+  "title": "Homemade gyoza",
+  "summary": "Japanese pork and cabbage dumplings, pan-fried and steamed.",
+  "side": "Soy and vinegar dipping sauce",
+  "tip": "Squeeze the cabbage in a towel so the filling stays dry.",
+  "ingredients": [
+   {
+    "name": "Gyoza wrappers",
+    "amount": "20"
+   },
+   {
+    "name": "Ground pork",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Cabbage",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Scallions",
+    "amount": "2"
+   },
+   {
+    "name": "Ginger",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Mix the pork with the finely chopped cabbage, scallions, ginger and soy sauce.",
+   "Put a spoonful of filling in each wrapper, wet the edge and pleat to seal.",
+   "Brown the gyoza 2 minutes on one side in an oiled pan.",
+   "Add 1/4 cup water, cover and cook 5 minutes until it evaporates."
+  ]
+ },
+ "jp-soba-frio": {
+  "title": "Cold soba with dipping sauce",
+  "summary": "Chilled buckwheat noodles with a soy dipping sauce.",
+  "side": "Sliced cucumber",
+  "tip": "Rinsing in cold water removes starch and keeps the noodles from sticking.",
+  "ingredients": [
+   {
+    "name": "Soba noodles",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Soy sauce",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Scallions",
+    "amount": "2"
+   },
+   {
+    "name": "Ginger",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Sesame seeds",
+    "amount": "1 tablespoon"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Boil the noodles per the package (about 5 minutes).",
+   "Rinse under cold water and drain well.",
+   "Mix the soy sauce with 1/2 cup water, the sugar and grated ginger for the sauce.",
+   "Serve the cold noodles with the sauce, chopped scallions and sesame."
+  ]
+ },
+ "in-khichdi": {
+  "title": "Khichdi",
+  "summary": "Soft rice and lentil stew with spices, pure comfort food.",
+  "side": "Plain yogurt",
+  "tip": "If it gets too thick, add a splash of hot water.",
+  "ingredients": [
+   {
+    "name": "Rice",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Red lentils",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Turmeric",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Cumin",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Ghee or oil",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Wash the rice and lentils until the water runs clear.",
+   "Sauté the cumin and chopped onion in the ghee.",
+   "Add the rice, lentils, turmeric, salt and 4 cups water.",
+   "Cook covered 25 minutes on low heat until creamy."
+  ]
+ },
+ "gr-bifteki": {
+  "title": "Bifteki",
+  "summary": "Greek beef patties with oregano and onion, pan-grilled.",
+  "side": "Fries and tzatziki",
+  "tip": "Chill them 15 minutes before cooking so they hold their shape.",
+  "ingredients": [
+   {
+    "name": "Ground beef",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Breadcrumbs",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Oregano",
+    "amount": "1 teaspoon"
+   },
+   {
+    "name": "Egg",
+    "amount": "1"
+   },
+   {
+    "name": "Feta cheese",
+    "amount": "3 oz"
+   }
+  ],
+  "steps": [
+   "Mix the beef with the grated onion, breadcrumbs, egg, oregano, salt and pepper.",
+   "Shape 4 patties, with a piece of feta in the center if you like.",
+   "Cook on a hot griddle or pan 5 minutes per side.",
+   "Serve with lemon and tzatziki."
+  ]
+ },
+ "gr-horiatiki": {
+  "title": "Greek village salad (horiatiki)",
+  "summary": "Tomato, cucumber, red onion, olives and feta with oregano.",
+  "side": "Pita bread",
+  "tip": "No lettuce or vinegar: the flavor comes from ripe tomatoes and good oil.",
+  "ingredients": [
+   {
+    "name": "Tomatoes",
+    "amount": "3"
+   },
+   {
+    "name": "Cucumber",
+    "amount": "1"
+   },
+   {
+    "name": "Red onion",
+    "amount": "1/2"
+   },
+   {
+    "name": "Black olives",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Feta cheese",
+    "amount": "3 1/2 oz"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "3 tablespoons"
+   }
+  ],
+  "steps": [
+   "Cut the tomatoes and cucumber into large chunks.",
+   "Add the onion in half-moons and the olives.",
+   "Dress with olive oil, salt and oregano.",
+   "Top with a slab of feta and serve right away."
+  ]
+ },
+ "it-polpettone": {
+  "title": "Baked Italian meatloaf",
+  "summary": "Ground beef loaf with eggs and Parmesan, baked in the oven.",
+  "side": "Roast potatoes",
+  "tip": "Rest it 10 minutes before slicing.",
+  "ingredients": [
+   {
+    "name": "Ground beef",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Stale bread",
+    "amount": "2 slices"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Milk",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Parsley",
+    "amount": "1 handful"
+   }
+  ],
+  "steps": [
+   "Soak the bread in the milk and squeeze it out.",
+   "Mix the meat with the bread, eggs, Parmesan, parsley, salt and pepper.",
+   "Shape into a loaf and set in a baking dish with a little oil.",
+   "Bake 45 minutes at 350°F, turning halfway."
+  ]
+ },
+ "it-pollo-ai-peperoni": {
+  "title": "Roman chicken with peppers",
+  "summary": "Chicken stewed with bell peppers and tomato, a Roman classic.",
+  "side": "Crusty bread",
+  "tip": "Add the peppers halfway through if you want them firmer.",
+  "ingredients": [
+   {
+    "name": "Chicken pieces",
+    "amount": "1 3/4 lb"
+   },
+   {
+    "name": "Bell peppers",
+    "amount": "3"
+   },
+   {
+    "name": "Canned tomatoes",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Garlic",
+    "amount": "2 cloves"
+   },
+   {
+    "name": "White wine",
+    "amount": "1/2 cup"
+   }
+  ],
+  "steps": [
+   "Brown the chicken in oil and set aside.",
+   "Sauté the onion, garlic and sliced peppers.",
+   "Deglaze with the wine, add the tomatoes and the chicken.",
+   "Cook covered 35 minutes on low heat."
+  ]
+ },
+ "it-involtini-di-melanzane": {
+  "title": "Eggplant rolls",
+  "summary": "Grilled eggplant slices filled with ricotta and basil and baked.",
+  "side": "Toasted bread",
+  "tip": "Slices about 1/4 inch thick roll without breaking.",
+  "ingredients": [
+   {
+    "name": "Eggplants",
+    "amount": "2"
+   },
+   {
+    "name": "Ricotta",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Tomato sauce",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Parmesan",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Basil",
+    "amount": "1 handful"
+   },
+   {
+    "name": "Olive oil",
+    "amount": "2 tablespoons"
+   }
+  ],
+  "steps": [
+   "Slice the eggplants lengthwise and grill with a little oil.",
+   "Spread each slice with ricotta and basil and roll up.",
+   "Arrange the rolls in a dish on top of the tomato sauce.",
+   "Sprinkle with Parmesan and bake 20 minutes at 400°F."
+  ]
+ },
+ "jp-korokke": {
+  "title": "Korokke",
+  "summary": "Japanese potato and beef croquettes, breaded and fried.",
+  "side": "Shredded cabbage and tonkatsu sauce",
+  "tip": "Chill the mixture before shaping so it holds together.",
+  "ingredients": [
+   {
+    "name": "Potatoes",
+    "amount": "1 lb"
+   },
+   {
+    "name": "Ground beef",
+    "amount": "5 oz"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Egg",
+    "amount": "1"
+   },
+   {
+    "name": "Breadcrumbs",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Flour",
+    "amount": "1/2 cup"
+   }
+  ],
+  "steps": [
+   "Boil and mash the potatoes.",
+   "Sauté the onion with the beef and mix into the mash, with salt and pepper.",
+   "Shape into ovals and coat in flour, beaten egg and breadcrumbs.",
+   "Fry in hot oil until golden."
+  ]
+ },
+ "in-sambar": {
+  "title": "Sambar",
+  "summary": "South Indian lentil stew with vegetables, tamarind and spices.",
+  "side": "White rice",
+  "tip": "Without tamarind, finish with lemon juice.",
+  "ingredients": [
+   {
+    "name": "Yellow or red lentils",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Carrot",
+    "amount": "1"
+   },
+   {
+    "name": "Potato",
+    "amount": "1"
+   },
+   {
+    "name": "Tomatoes",
+    "amount": "2"
+   },
+   {
+    "name": "Onion",
+    "amount": "1"
+   },
+   {
+    "name": "Tamarind paste",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Cook the lentils with turmeric and 4 cups water until they break down.",
+   "Add the diced carrot, potato, tomato and onion with 1 cup water.",
+   "Stir in the tamarind, 2 teaspoons curry powder and salt.",
+   "Cook 20 more minutes until the vegetables are tender."
+  ]
+ },
+ "de-rinderrouladen": {
+  "title": "German beef rolls",
+  "summary": "Beef rolls with bacon, pickle and mustard in red wine gravy.",
+  "side": "Potato dumplings and red cabbage",
+  "tip": "Thicken the gravy at the end with a little flour.",
+  "ingredients": [
+   {
+    "name": "Thin beef slices",
+    "amount": "4"
+   },
+   {
+    "name": "Mustard",
+    "amount": "4 teaspoons"
+   },
+   {
+    "name": "Bacon",
+    "amount": "3 1/2 oz"
+   },
+   {
+    "name": "Pickles",
+    "amount": "2"
+   },
+   {
+    "name": "Onions",
+    "amount": "2"
+   },
+   {
+    "name": "Red wine or broth",
+    "amount": "1 cup"
+   }
+  ],
+  "steps": [
+   "Spread the beef slices with mustard and top with bacon, pickle strips and onion.",
+   "Roll up and secure with kitchen twine or toothpicks.",
+   "Brown well on all sides and deglaze with wine and 1 cup water.",
+   "Braise covered 90 minutes on low heat."
+  ]
+ },
+ "de-apfelpfannkuchen": {
+  "title": "Thick apple pancakes",
+  "summary": "Thick pancakes with apple slices, dusted with cinnamon and sugar.",
+  "side": "Applesauce",
+  "tip": "Rest the batter 10 minutes for fluffier pancakes.",
+  "ingredients": [
+   {
+    "name": "Apples",
+    "amount": "2"
+   },
+   {
+    "name": "Flour",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Milk",
+    "amount": "1 cup"
+   },
+   {
+    "name": "Eggs",
+    "amount": "2"
+   },
+   {
+    "name": "Sugar",
+    "amount": "2 tablespoons"
+   },
+   {
+    "name": "Cinnamon",
+    "amount": "1 teaspoon"
+   }
+  ],
+  "steps": [
+   "Whisk the flour, milk, eggs and a pinch of salt into a smooth batter.",
+   "Peel the apples and slice thinly.",
+   "Heat butter in a pan, add the apple slices and pour the batter over.",
+   "Cook until golden on both sides and sprinkle with cinnamon and sugar."
+  ]
+ },
+ "fr-moelleux-au-chocolat": {
+  "title": "Molten chocolate cakes",
+  "summary": "Small chocolate cakes with a gooey center.",
+  "side": "Vanilla ice cream",
+  "tip": "Unmold while warm to keep the center molten.",
+  "ingredients": [
+   {
+    "name": "Dark chocolate",
+    "amount": "7 oz"
+   },
+   {
+    "name": "Butter",
+    "amount": "3 1/2 oz"
+   },
+   {
+    "name": "Sugar",
+    "amount": "1/2 cup"
+   },
+   {
+    "name": "Eggs",
+    "amount": "3"
+   },
+   {
+    "name": "Flour",
+    "amount": "3 tablespoons"
+   },
+   {
+    "name": "Powdered sugar",
+    "amount": "1 tablespoon"
+   }
+  ],
+  "steps": [
+   "Melt the chocolate and butter over a double boiler.",
+   "Whisk the eggs with the sugar and fold in the chocolate.",
+   "Add the flour and pour into buttered ramekins.",
+   "Bake 10 to 12 minutes at 400°F: the center should stay runny."
+  ]
+ },
+ "fr-tarte-tatin": {
+  "title": "Tarte Tatin",
+  "summary": "Upside-down tart of caramelized apples.",
+  "side": "Crème fraîche",
+  "tip": "Flip it while warm, or the caramel hardens and sticks.",
+  "ingredients": [
+   {
+    "name": "Apples",
+    "amount": "6"
+   },
+   {
+    "name": "Pie or puff pastry",
+    "amount": "1 sheet"
+   },
+   {
+    "name": "Sugar",
+    "amount": "3/4 cup"
+   },
+   {
+    "name": "Butter",
+    "amount": "2 oz"
+   }
+  ],
+  "steps": [
+   "Make a caramel with the sugar in an oven-safe skillet and add the butter.",
+   "Pack the peeled apple quarters tightly into the caramel.",
+   "Cover with the pastry, tucking in the edges.",
+   "Bake 35 minutes at 375°F, cool 5 minutes and flip onto a plate."
+  ]
  }
 }
