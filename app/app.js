@@ -142,12 +142,23 @@
   }
 
   /* ---------- vistas ---------- */
+  // Un producto sin foto propia usa la de carga rápida cuyo nombre coincide (el idioma actual tiene prioridad).
+  function quickPhotoId(name) {
+    const q = ui.quick; if (!q || !q.length) return null;
+    const l = lang(); if (ui.quickIdx === undefined || ui.quickIdxLang !== l) { ui.quickIdxLang = l; ui.quickIdx = new Map(); [l, 'es', 'en', 'pt', 'fr', 'it', 'de'].forEach(g => q.forEach(x => { const k = fold(x[4][g]); if (k && !ui.quickIdx.has(k)) ui.quickIdx.set(k, x[0]); })); }
+    return ui.quickIdx.get(fold(name)) || null;
+  }
+  function productBadge(p) {
+    const id = quickPhotoId(p.name || '');
+    if (!id) return catBadge(catKey(p.category));
+    return `<span class="ico qph" aria-hidden="true"><img src="quick-photos/${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.parentNode.outerHTML=this.parentNode.dataset.fb"></span>`.replace('<span ', `<span data-fb="${esc(catBadge(catKey(p.category)))}" `);
+  }
   function productRow(p) {
     const d = daysOf(p), b = bucketOf(p), meta = [];
     if (expOf(p) && b !== 'none') meta.push(fmtDate(expOf(p))); else meta.push(t('Sin fecha'));
     const c = catLabel(catKey(p.category)) || p.category; if (c) meta.push(c);
     if (p.location) meta.push(placeLabel(p.location));
-    return `<div class="swrow"><div class="swbg l" aria-hidden="true">${ico('circle-check')} ${esc(t('Usé 1'))}</div><div class="swbg r" aria-hidden="true">${esc(t('Tirar'))} ${ico('trash-2')}</div><button class="item" data-act="open" data-id="${esc(p.id)}">${catBadge(catKey(p.category))}
+    return `<div class="swrow"><div class="swbg l" aria-hidden="true">${ico('circle-check')} ${esc(t('Usé 1'))}</div><div class="swbg r" aria-hidden="true">${esc(t('Tirar'))} ${ico('trash-2')}</div><button class="item" data-act="open" data-id="${esc(p.id)}">${productBadge(p)}
       <span class="grow"><span class="t">${esc(p.name)}${p.quantity > 1 ? ' ×' + p.quantity : ''}</span><br><span class="s">${esc(meta.join(' · '))}</span></span>
       ${b !== 'none' ? `<span class="pill ${tone(b)}">${esc(shortLabel(d))}</span>` : ''}</button></div>`;
   }
@@ -318,7 +329,7 @@
     }
     return '<span class="thumb ph">' + ico('chef-hat') + '</span>';
   }
-  function ensureQuickData() { if (!ui.quickP) ui.quickP = fetch('data/quick.json').then(r => r.json()).then(j => { ui.quick = j; if (ui.tab === 'recipes') refreshRecipes(); }).catch(() => { ui.quick = []; }); return ui.quickP; }
+  function ensureQuickData() { if (!ui.quickP) ui.quickP = fetch('data/quick.json').then(r => r.json()).then(j => { ui.quick = j; if (ui.tab === 'recipes') refreshRecipes(); else if (ui.tab === 'products' && !ui.sheet) render(); }).catch(() => { ui.quick = []; }); return ui.quickP; }
   const refreshRecipes = () => { const e = document.getElementById('rlist'); if (e && ui.tab === 'recipes' && !ui.sheet) e.innerHTML = ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards(); };
   /* etiquetas de dieta de la receta (orientativas, como en la app): la vegana ya implica vegetariana */
   const DIET_BADGES = [['vegetarian', 'Vegetariana', 'carrot'], ['vegan', 'Vegana', 'leaf'], ['dairyFree', 'Sin lácteos', 'milk'], ['glutenFree', 'Sin gluten', 'wheat']];
@@ -1223,6 +1234,7 @@
   if (!S.welcomed && !S.products.length && !/[?&]demo=1/.test(location.search)) ui.welcome = 0; else if (!S.welcomed) { S.welcomed = true; save(); }
   // Si el navegador borró localStorage pero IndexedDB conserva la copia, se recupera.
   (async () => { let missing = false; try { missing = localStorage.getItem(LS) === null; } catch (e) { missing = true; } if (!missing) return; try { const json = await idbGet('state'); if (json) { S = Object.assign(fresh(), JSON.parse(json)); lsWrite(json); render(); } } catch (e) {} })();
+  ensureQuickData();
   render();
   { const a = new URLSearchParams(location.search).get('action'); if (a === 'scan' && ui.welcome == null) openScanner('add'); else if (a === 'quick' && ui.welcome == null) openQuick(); else if (a === 'recipes' || new URLSearchParams(location.search).get('r')) { ui.linkR = new URLSearchParams(location.search).get('r'); ui.tab = 'recipes'; ensureRecipes(); ensureComposer(); render(); } }
   // Si el navegador lo permite, pide que los datos no se borren solos.
