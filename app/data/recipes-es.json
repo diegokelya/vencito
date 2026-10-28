@@ -62635,5 +62635,1631 @@
     ],
     "tip": "Agregá el limón al final para que no amargue.",
     "origin": ""
+  },
+  {
+    "id": "jp-shogayaki",
+    "title": "Shōgayaki",
+    "summary": "Cerdo salteado con jengibre y soja, rápido y perfecto con arroz.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Arroz y repollo rallado",
+    "ingredients": [
+      {
+        "name": "Cerdo en bifes finos",
+        "keywords": [
+          "cerdo",
+          "bondiola",
+          "lomo",
+          "carré"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Jengibre",
+        "keywords": [
+          "jengibre"
+        ],
+        "amount": "1 cucharada"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja",
+          "salsa de soja"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "staple"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mezclá la soja con el jengibre rallado y el azúcar.",
+      "Cortá la cebolla en medialunas y salteala 3 minutos.",
+      "Agregá el cerdo y cocinalo hasta que se dore.",
+      "Volcá la salsa y dejá que se pegue a la carne 1 minuto."
+    ],
+    "tip": "Si cortás la carne bien fina, se cocina en un minuto y queda tierna.",
+    "origin": "JP"
+  },
+  {
+    "id": "jp-kitsune-udon",
+    "title": "Kitsune udon",
+    "summary": "Sopa japonesa de fideos gruesos con tofu frito dulce y cebolla de verdeo.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Cebolla de verdeo y shichimi",
+    "ingredients": [
+      {
+        "name": "Fideos udon",
+        "keywords": [
+          "udon",
+          "fideos gruesos",
+          "fideos"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Tofu frito (aburaage)",
+        "keywords": [
+          "tofu"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja",
+          "salsa de soja"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Caldo dashi o de verduras",
+        "keywords": [
+          "caldo",
+          "dashi"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Cebolla de verdeo",
+        "keywords": [
+          "cebolla de verdeo",
+          "verdeo"
+        ],
+        "amount": "2 unidades",
+        "kind": "optional"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví el caldo con la soja y el azúcar.",
+      "Sumá el tofu y cocinalo 5 minutos para que absorba el sabor.",
+      "Herví los udon aparte, escurrilos y repartilos en bowls.",
+      "Cubrilos con el caldo caliente, el tofu y la cebolla de verdeo picada."
+    ],
+    "tip": "Cociná los udon aparte para que el caldo quede transparente.",
+    "origin": "JP"
+  },
+  {
+    "id": "jp-omurice",
+    "title": "Omurice",
+    "summary": "Arroz salteado con pollo envuelto en una tortilla suave y ketchup.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Ketchup y ensalada verde",
+    "ingredients": [
+      {
+        "name": "Arroz cocido",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Pollo",
+        "keywords": [
+          "pollo",
+          "pechuga"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Huevos",
+        "keywords": [
+          "huevo",
+          "huevos"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Ketchup",
+        "keywords": [
+          "ketchup",
+          "salsa de tomate"
+        ],
+        "amount": "4 cucharadas"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Salteá la cebolla y el pollo en cubos chicos.",
+      "Sumá el arroz y 3 cucharadas de ketchup y mezclá bien.",
+      "Batí los huevos y cocinalos en una sartén aceitada como tortilla blanda.",
+      "Poné el arroz en el centro, cerrá la tortilla y servila con más ketchup."
+    ],
+    "tip": "Sacá la tortilla del fuego cuando el centro aún esté cremoso.",
+    "origin": "JP"
+  },
+  {
+    "id": "in-palak-paneer",
+    "title": "Palak paneer",
+    "summary": "Espinaca cremosa con cubos de queso fresco y especias suaves.",
+    "minutes": 30,
+    "servings": 3,
+    "side": "Arroz basmati o naan",
+    "ingredients": [
+      {
+        "name": "Espinaca",
+        "keywords": [
+          "espinaca"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Queso fresco firme (paneer)",
+        "keywords": [
+          "paneer",
+          "queso fresco",
+          "queso"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Crema de leche",
+        "keywords": [
+          "crema",
+          "crema de leche"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Escaldá la espinaca 2 minutos y procesala.",
+      "Sofreí cebolla, ajo y comino; sumá el tomate picado.",
+      "Agregá la espinaca y cociná 5 minutos.",
+      "Sumá el queso en cubos y la crema y calentá 3 minutos más."
+    ],
+    "tip": "Dorá el queso en cubos antes de agregarlo para que no se deshaga.",
+    "origin": "IN"
+  },
+  {
+    "id": "in-paneer-bhurji",
+    "title": "Paneer bhurji",
+    "summary": "Queso fresco desmenuzado y salteado con cebolla, tomate y especias.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Roti o pan",
+    "ingredients": [
+      {
+        "name": "Queso fresco firme",
+        "keywords": [
+          "paneer",
+          "queso fresco",
+          "queso"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Cúrcuma",
+        "keywords": [
+          "cúrcuma",
+          "curcuma"
+        ],
+        "amount": "1/2 cucharadita"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Desmenuzá el queso con las manos.",
+      "Sofreí la cebolla con el comino hasta que esté transparente.",
+      "Sumá el tomate picado y la cúrcuma y cociná 4 minutos.",
+      "Agregá el queso, mezclá y cociná 3 minutos más."
+    ],
+    "tip": "Sumá una pizca de sal recién al final para que el queso no se seque.",
+    "origin": "IN"
+  },
+  {
+    "id": "gr-spanakorizo",
+    "title": "Spanakorizo",
+    "summary": "Arroz griego con espinaca, limón y eneldo, liviano y fresco.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Queso feta y limón",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Espinaca",
+        "keywords": [
+          "espinaca"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Limón",
+        "keywords": [
+          "limón",
+          "limon"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Eneldo",
+        "keywords": [
+          "eneldo"
+        ],
+        "amount": "1 puñado",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite de oliva",
+          "aceite"
+        ],
+        "amount": "4 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Sofreí la cebolla picada en aceite de oliva.",
+      "Sumá la espinaca picada hasta que se reduzca.",
+      "Agregá el arroz y 2 tazas de agua caliente y cociná tapado 15 minutos.",
+      "Terminá con jugo de limón y eneldo picado."
+    ],
+    "tip": "Servilo tibio con un buen chorro de aceite de oliva crudo.",
+    "origin": "GR"
+  },
+  {
+    "id": "gr-dakos",
+    "title": "Dakos",
+    "summary": "Tostada cretense de pan duro con tomate rallado, queso y aceite de oliva.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Aceitunas",
+    "ingredients": [
+      {
+        "name": "Pan duro o galletas",
+        "keywords": [
+          "pan",
+          "pan duro",
+          "galletas"
+        ],
+        "amount": "2 rebanadas"
+      },
+      {
+        "name": "Tomate maduro",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Queso feta",
+        "keywords": [
+          "feta",
+          "queso"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Orégano",
+        "keywords": [
+          "orégano",
+          "oregano"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite de oliva",
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mojá apenas el pan duro con agua y escurrilo.",
+      "Rallá los tomates y poné la pulpa sobre el pan.",
+      "Desmenuzá el feta por encima.",
+      "Condimentá con orégano y aceite de oliva."
+    ],
+    "tip": "Con tomates bien maduros no hace falta nada más.",
+    "origin": "GR"
+  },
+  {
+    "id": "gr-fasolakia-yiahni",
+    "title": "Fasolakia yiahni",
+    "summary": "Chauchas guisadas con tomate, papa y aceite de oliva al estilo griego.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Queso feta y pan",
+    "ingredients": [
+      {
+        "name": "Chauchas",
+        "keywords": [
+          "chauchas",
+          "judías verdes",
+          "ejotes"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Papas",
+        "keywords": [
+          "papa",
+          "papas"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Tomate triturado",
+        "keywords": [
+          "tomate",
+          "tomate triturado"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite de oliva",
+          "aceite"
+        ],
+        "amount": "4 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Sofreí la cebolla y el ajo en aceite de oliva.",
+      "Sumá las chauchas y las papas en cubos.",
+      "Agregá el tomate y media taza de agua.",
+      "Cociná tapado a fuego bajo 30 minutos hasta que todo esté tierno."
+    ],
+    "tip": "Cuanto más lento se cocina, más sabor y más cremosa queda la salsa.",
+    "origin": "GR"
+  },
+  {
+    "id": "gr-saganaki",
+    "title": "Saganaki",
+    "summary": "Queso frito dorado por fuera y fundido por dentro, con limón.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Pan y limón",
+    "ingredients": [
+      {
+        "name": "Queso firme (provolone o kefalotyri)",
+        "keywords": [
+          "queso",
+          "provolone",
+          "provoleta"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Harina",
+        "keywords": [
+          "harina"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Limón",
+        "keywords": [
+          "limón",
+          "limon"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite de oliva",
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá el queso en rebanadas de 1 cm y mojalas en agua.",
+      "Pasalas por harina sacudiendo el exceso.",
+      "Doralas 1 minuto por lado en aceite de oliva caliente.",
+      "Servilas enseguida con jugo de limón."
+    ],
+    "tip": "Mojar el queso antes de enharinarlo ayuda a que la costra se pegue.",
+    "origin": "GR"
+  },
+  {
+    "id": "in-upma",
+    "title": "Upma",
+    "summary": "Desayuno indio salado de sémola con cebolla, verduras y especias.",
+    "minutes": 20,
+    "servings": 3,
+    "side": "Yogur natural",
+    "ingredients": [
+      {
+        "name": "Sémola",
+        "keywords": [
+          "sémola",
+          "semola",
+          "semolín"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "1 unidad",
+        "kind": "optional"
+      },
+      {
+        "name": "Arvejas",
+        "keywords": [
+          "arvejas",
+          "guisantes"
+        ],
+        "amount": "1/2 taza",
+        "kind": "optional"
+      },
+      {
+        "name": "Semillas de mostaza",
+        "keywords": [
+          "mostaza"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Tostá la sémola en seco 3 minutos y reservala.",
+      "Calentá el aceite con las semillas de mostaza y sofreí la cebolla.",
+      "Sumá la zanahoria y las arvejas y 2 tazas de agua; llevá a hervor.",
+      "Agregá la sémola en lluvia revolviendo y cociná 3 minutos tapado."
+    ],
+    "tip": "Echá la sémola de a poco mientras revolvés para evitar grumos.",
+    "origin": "IN"
+  },
+  {
+    "id": "in-aloo-paratha",
+    "title": "Aloo paratha",
+    "summary": "Panes planos indios rellenos de puré de papa especiado.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Yogur o pickles",
+    "ingredients": [
+      {
+        "name": "Harina integral o 000",
+        "keywords": [
+          "harina",
+          "harina integral"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Papas hervidas",
+        "keywords": [
+          "papa",
+          "papas"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Ají molido o chile",
+        "keywords": [
+          "ají",
+          "chile",
+          "aji molido"
+        ],
+        "amount": "1/2 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Manteca o aceite",
+        "keywords": [
+          "manteca",
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Armá una masa con la harina, sal y agua tibia y dejala reposar 15 minutos.",
+      "Pisá las papas y mezclalas con comino, ají y sal.",
+      "Estirá bollitos de masa, rellenalos con el puré y cerralos.",
+      "Estiralos otra vez y cocinalos en sartén con manteca hasta dorar por ambos lados."
+    ],
+    "tip": "Usá papas bien secas para que el relleno no rompa la masa.",
+    "origin": "IN"
+  },
+  {
+    "id": "in-lemon-rice",
+    "title": "Lemon rice",
+    "summary": "Arroz del sur de la India con limón, cúrcuma y maní tostado.",
+    "minutes": 20,
+    "servings": 3,
+    "side": "Yogur y pickles",
+    "ingredients": [
+      {
+        "name": "Arroz cocido",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "3 tazas"
+      },
+      {
+        "name": "Limón",
+        "keywords": [
+          "limón",
+          "limon"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cúrcuma",
+        "keywords": [
+          "cúrcuma",
+          "curcuma"
+        ],
+        "amount": "1/2 cucharadita"
+      },
+      {
+        "name": "Maní",
+        "keywords": [
+          "maní",
+          "mani"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "optional"
+      },
+      {
+        "name": "Semillas de mostaza",
+        "keywords": [
+          "mostaza"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "2 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Calentá el aceite y tostá el maní con las semillas de mostaza.",
+      "Sumá la cúrcuma y apagá el fuego.",
+      "Agregá el arroz cocido y mezclá bien.",
+      "Terminá con el jugo de limón y sal."
+    ],
+    "tip": "Es ideal para aprovechar arroz del día anterior.",
+    "origin": "IN"
+  },
+  {
+    "id": "jp-horenso-goma-ae",
+    "title": "Horenso no goma-ae",
+    "summary": "Espinaca blanqueada con aderezo cremoso de sésamo y soja.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Arroz blanco",
+    "ingredients": [
+      {
+        "name": "Espinaca",
+        "keywords": [
+          "espinaca"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Sésamo",
+        "keywords": [
+          "sésamo",
+          "sesamo"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja",
+          "salsa de soja"
+        ],
+        "amount": "1 cucharada"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azúcar",
+          "azucar"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Blanqueá la espinaca 1 minuto y pasala por agua fría.",
+      "Exprimila bien y cortala en trozos.",
+      "Tostá y molé el sésamo; mezclalo con la soja y el azúcar.",
+      "Condimentá la espinaca con el aderezo."
+    ],
+    "tip": "Exprimí la espinaca a fondo para que el aderezo no se aguade.",
+    "origin": "JP"
+  },
+  {
+    "id": "es-flan-de-huevo",
+    "title": "Flan de huevo casero",
+    "summary": "Postre clásico de huevo, leche y caramelo.",
+    "minutes": 60,
+    "servings": 6,
+    "side": "Crema o nata",
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "keywords": [
+          "huevo",
+          "huevos"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Leche",
+        "keywords": [
+          "leche"
+        ],
+        "amount": "2 tazas"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azucar"
+        ],
+        "amount": "3/4 taza",
+        "kind": "staple"
+      },
+      {
+        "name": "Vainilla",
+        "keywords": [
+          "vainilla"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Hacé un caramelo con 1/4 de taza de azúcar y cubrí el fondo de un molde.",
+      "Batí los huevos con el resto del azúcar, la leche y la vainilla.",
+      "Volcá la mezcla en el molde y cociná a baño María en el horno 45 minutos a 170 °C.",
+      "Enfriá y desmoldá."
+    ],
+    "tip": "Colá la mezcla para que el flan quede sin burbujas.",
+    "origin": "ES"
+  },
+  {
+    "id": "es-arroz-con-leche",
+    "title": "Arroz con leche asturiano",
+    "summary": "Postre cremoso con canela y piel de limón.",
+    "minutes": 50,
+    "servings": 6,
+    "side": "Canela en polvo",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Leche",
+        "keywords": [
+          "leche"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azucar"
+        ],
+        "amount": "1/2 taza",
+        "kind": "staple"
+      },
+      {
+        "name": "Limón (cáscara)",
+        "keywords": [
+          "limon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Canela en rama",
+        "keywords": [
+          "canela"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Herví la leche con la canela y la cáscara de limón.",
+      "Agregá el arroz y cociná a fuego bajo 35 minutos revolviendo seguido.",
+      "Sumá el azúcar y cociná 5 minutos más.",
+      "Retirá la canela y la cáscara y serví tibio o frío."
+    ],
+    "tip": "Revolvé seguido para que quede cremoso y no se pegue.",
+    "origin": "ES"
+  },
+  {
+    "id": "es-escalivada",
+    "title": "Escalivada catalana",
+    "summary": "Berenjena, morrón y cebolla asados, aliñados con aceite de oliva.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Pan con tomate",
+    "ingredients": [
+      {
+        "name": "Berenjenas",
+        "keywords": [
+          "berenjena",
+          "berenjenas"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Morrones rojos",
+        "keywords": [
+          "morron",
+          "morrones",
+          "pimiento",
+          "pimientos"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "1 diente",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Asá las berenjenas, los morrones y las cebollas enteros en el horno a 200 °C 45 minutos.",
+      "Dejalos entibiar tapados y pelalos.",
+      "Cortá todo en tiras.",
+      "Aliñá con aceite de oliva, ajo picado y sal."
+    ],
+    "tip": "Tapar las verduras asadas facilita pelarlas.",
+    "origin": "ES"
+  },
+  {
+    "id": "es-patatas-a-la-riojana",
+    "title": "Patatas a la riojana",
+    "summary": "Guiso de papas con chorizo y pimentón.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Pan crujiente",
+    "ingredients": [
+      {
+        "name": "Papas",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata",
+          "patatas"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Chorizo",
+        "keywords": [
+          "chorizo"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pimentón",
+        "keywords": [
+          "pimenton"
+        ],
+        "amount": "1 cucharadita"
+      },
+      {
+        "name": "Ajo",
+        "keywords": [
+          "ajo"
+        ],
+        "amount": "2 dientes",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Sofreí la cebolla y el ajo picados en el aceite.",
+      "Sumá el chorizo en rodajas y el pimentón.",
+      "Agregá las papas cortadas en trozos y cubrí con agua.",
+      "Cociná 30 minutos a fuego bajo hasta que el caldo espese."
+    ],
+    "tip": "“Cascá” las papas en vez de cortarlas para que suelten almidón.",
+    "origin": "ES"
+  },
+  {
+    "id": "es-caldo-gallego",
+    "title": "Caldo gallego",
+    "summary": "Sopa gallega de papas, porotos blancos, grelos y chorizo.",
+    "minutes": 75,
+    "servings": 4,
+    "side": "Pan de maíz",
+    "ingredients": [
+      {
+        "name": "Papas",
+        "keywords": [
+          "papa",
+          "papas",
+          "patata",
+          "patatas"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Porotos blancos",
+        "keywords": [
+          "poroto",
+          "porotos",
+          "alubias",
+          "judias"
+        ],
+        "amount": "1 lata"
+      },
+      {
+        "name": "Berza o acelga",
+        "keywords": [
+          "berza",
+          "acelga",
+          "col",
+          "repollo"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Chorizo",
+        "keywords": [
+          "chorizo"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Panceta",
+        "keywords": [
+          "panceta",
+          "tocino"
+        ],
+        "amount": "100 g",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Herví el chorizo y la panceta en 1,5 litros de agua 30 minutos.",
+      "Agregá las papas en trozos y cociná 15 minutos.",
+      "Sumá la berza picada y los porotos.",
+      "Cociná 15 minutos más y condimentá con sal."
+    ],
+    "tip": "Es mejor de un día para otro.",
+    "origin": "ES"
+  },
+  {
+    "id": "es-empanadillas-de-atun",
+    "title": "Empanadillas de atún",
+    "summary": "Empanadillas fritas rellenas de atún, tomate y huevo.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Ensalada",
+    "ingredients": [
+      {
+        "name": "Tapas de empanadillas",
+        "keywords": [
+          "tapas",
+          "empanadillas",
+          "masa"
+        ],
+        "amount": "8"
+      },
+      {
+        "name": "Atún en lata",
+        "keywords": [
+          "atun"
+        ],
+        "amount": "2 latas"
+      },
+      {
+        "name": "Tomate frito",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Huevo duro",
+        "keywords": [
+          "huevo",
+          "huevos"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Aceite",
+        "keywords": [
+          "aceite"
+        ],
+        "amount": "1 taza",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mezclá el atún escurrido con el tomate frito y el huevo duro picado.",
+      "Poné una cucharada de relleno en cada tapa.",
+      "Doblá, sellá los bordes con un tenedor.",
+      "Freí en aceite caliente hasta que doren y escurrí sobre papel."
+    ],
+    "tip": "Podés hornearlas a 200 °C 15 minutos si preferís menos aceite.",
+    "origin": "ES"
+  },
+  {
+    "id": "jp-gyoza",
+    "title": "Gyoza caseros",
+    "summary": "Empanaditas japonesas de cerdo y repollo, doradas y al vapor.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Salsa de soja y vinagre",
+    "ingredients": [
+      {
+        "name": "Tapas de empanada o gyoza",
+        "keywords": [
+          "tapas",
+          "masa"
+        ],
+        "amount": "20 unidades"
+      },
+      {
+        "name": "Carne de cerdo picada",
+        "keywords": [
+          "cerdo",
+          "carne picada"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Repollo",
+        "keywords": [
+          "repollo",
+          "col"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Cebolla de verdeo",
+        "keywords": [
+          "verdeo",
+          "cebolla de verdeo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Jengibre",
+        "keywords": [
+          "jengibre"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mezclá el cerdo con el repollo picado fino, el verdeo, el jengibre y la soja.",
+      "Poné una cucharada de relleno en cada tapa, mojá el borde y cerrá haciendo pliegues.",
+      "Dorá los gyoza 2 minutos de un lado en una sartén con aceite.",
+      "Sumá 1/4 de taza de agua, tapá y cociná 5 minutos hasta que se evapore."
+    ],
+    "tip": "Apretá bien el repollo en un repasador para que el relleno no largue agua.",
+    "origin": "JP"
+  },
+  {
+    "id": "jp-soba-frio",
+    "title": "Soba frío con salsa de soja",
+    "summary": "Fideos de trigo sarraceno fríos con salsa para mojar.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Pepino en rodajas",
+    "ingredients": [
+      {
+        "name": "Fideos soba",
+        "keywords": [
+          "soba",
+          "fideos"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Salsa de soja",
+        "keywords": [
+          "soja"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      },
+      {
+        "name": "Cebolla de verdeo",
+        "keywords": [
+          "verdeo",
+          "cebolla de verdeo"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Jengibre",
+        "keywords": [
+          "jengibre"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Semillas de sésamo",
+        "keywords": [
+          "sesamo"
+        ],
+        "amount": "1 cucharada",
+        "kind": "optional"
+      },
+      {
+        "name": "Azúcar",
+        "keywords": [
+          "azucar"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví los fideos según el paquete (unos 5 minutos).",
+      "Enjuagalos bajo agua fría y escurrilos bien.",
+      "Mezclá la soja con 1/2 taza de agua, el azúcar y el jengibre rallado para la salsa.",
+      "Serví los fideos fríos con la salsa, el verdeo picado y el sésamo."
+    ],
+    "tip": "Enjuagar con agua fría saca el almidón y evita que se peguen.",
+    "origin": "JP"
+  },
+  {
+    "id": "in-khichdi",
+    "title": "Khichdi",
+    "summary": "Guiso suave de arroz y lentejas con especias, comida reconfortante.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Yogur natural",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Lentejas rojas",
+        "keywords": [
+          "lentejas"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Cúrcuma",
+        "keywords": [
+          "curcuma"
+        ],
+        "amount": "1 cucharadita"
+      },
+      {
+        "name": "Comino",
+        "keywords": [
+          "comino"
+        ],
+        "amount": "1 cucharadita"
+      },
+      {
+        "name": "Manteca clarificada o aceite",
+        "keywords": [
+          "manteca",
+          "aceite"
+        ],
+        "amount": "1 cucharada",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Lavá el arroz y las lentejas hasta que el agua salga clara.",
+      "Rehogá en la manteca el comino y la cebolla picada.",
+      "Sumá el arroz, las lentejas, la cúrcuma, sal y 4 tazas de agua.",
+      "Cociná tapado 25 minutos a fuego bajo hasta que quede cremoso."
+    ],
+    "tip": "Si se espesa de más, agregá un chorrito de agua caliente.",
+    "origin": "IN"
+  },
+  {
+    "id": "gr-bifteki",
+    "title": "Bifteki",
+    "summary": "Hamburguesas griegas de carne con orégano y cebolla, a la plancha.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Papas fritas y tzatziki",
+    "ingredients": [
+      {
+        "name": "Carne picada",
+        "keywords": [
+          "carne picada",
+          "carne molida"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Pan rallado",
+        "keywords": [
+          "pan rallado"
+        ],
+        "amount": "3 cucharadas"
+      },
+      {
+        "name": "Orégano",
+        "keywords": [
+          "oregano"
+        ],
+        "amount": "1 cucharadita",
+        "kind": "optional"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Queso feta",
+        "keywords": [
+          "feta",
+          "queso"
+        ],
+        "amount": "80 g",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Mezclá la carne con la cebolla rallada, el pan rallado, el huevo, el orégano, sal y pimienta.",
+      "Formá 4 hamburguesas, con un trozo de feta en el centro si querés.",
+      "Cociná en una plancha o sartén caliente 5 minutos de cada lado.",
+      "Serví con limón y tzatziki."
+    ],
+    "tip": "Dejalas 15 minutos en la heladera antes de cocinar para que mantengan la forma.",
+    "origin": "GR"
+  },
+  {
+    "id": "gr-horiatiki",
+    "title": "Ensalada griega (horiatiki)",
+    "summary": "Tomate, pepino, cebolla morada, aceitunas y feta con orégano.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Pan pita",
+    "ingredients": [
+      {
+        "name": "Tomates",
+        "keywords": [
+          "tomate",
+          "tomates"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Pepino",
+        "keywords": [
+          "pepino"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Cebolla morada",
+        "keywords": [
+          "cebolla morada",
+          "cebolla"
+        ],
+        "amount": "1/2 unidad"
+      },
+      {
+        "name": "Aceitunas negras",
+        "keywords": [
+          "aceitunas"
+        ],
+        "amount": "1/2 taza"
+      },
+      {
+        "name": "Queso feta",
+        "keywords": [
+          "feta",
+          "queso"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "keywords": [
+          "aceite de oliva"
+        ],
+        "amount": "3 cucharadas",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cortá los tomates y el pepino en trozos grandes.",
+      "Sumá la cebolla en medias lunas y las aceitunas.",
+      "Aliñá con aceite de oliva, sal y orégano.",
+      "Poné el bloque de feta encima y servilo enseguida."
+    ],
+    "tip": "No lleva lechuga ni vinagre: el sabor sale del tomate maduro y el aceite.",
+    "origin": "GR"
+  },
+  {
+    "id": "jp-korokke",
+    "title": "Korokke",
+    "summary": "Croquetas japonesas de papa y carne, empanadas y fritas.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Repollo rallado y salsa tonkatsu",
+    "ingredients": [
+      {
+        "name": "Papas",
+        "keywords": [
+          "papa",
+          "papas"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Carne picada",
+        "keywords": [
+          "carne picada",
+          "carne molida"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Huevo",
+        "keywords": [
+          "huevo"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Pan rallado",
+        "keywords": [
+          "pan rallado"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Harina",
+        "keywords": [
+          "harina"
+        ],
+        "amount": "1/2 taza",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Herví y pisá las papas.",
+      "Sofreí la cebolla con la carne y mezclala con el puré, con sal y pimienta.",
+      "Formá óvalos, pasalos por harina, huevo batido y pan rallado.",
+      "Freí en aceite caliente hasta que estén dorados."
+    ],
+    "tip": "Enfriá la mezcla antes de formar para que no se deshaga.",
+    "origin": "JP"
+  },
+  {
+    "id": "in-sambar",
+    "title": "Sambar",
+    "summary": "Guiso sureño de lentejas con verduras, tamarindo y especias.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Arroz blanco",
+    "ingredients": [
+      {
+        "name": "Lentejas amarillas o rojas",
+        "keywords": [
+          "lentejas"
+        ],
+        "amount": "1 taza"
+      },
+      {
+        "name": "Zanahoria",
+        "keywords": [
+          "zanahoria"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Papa",
+        "keywords": [
+          "papa"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebolla",
+        "keywords": [
+          "cebolla"
+        ],
+        "amount": "1 unidad"
+      },
+      {
+        "name": "Pasta de tamarindo",
+        "keywords": [
+          "tamarindo"
+        ],
+        "amount": "1 cucharada",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cociná las lentejas con cúrcuma y 4 tazas de agua hasta que se deshagan.",
+      "Sumá la zanahoria, la papa, el tomate y la cebolla en cubos con 1 taza de agua.",
+      "Agregá el tamarindo, 2 cucharaditas de curry en polvo y sal.",
+      "Cociná 20 minutos más hasta que las verduras estén tiernas."
+    ],
+    "tip": "Si no tenés tamarindo, usá jugo de limón al final.",
+    "origin": "IN"
   }
 ]

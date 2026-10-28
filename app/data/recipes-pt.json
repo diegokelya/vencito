@@ -4288,5 +4288,523 @@
     ],
     "tip": "Se usar ervilha seca, deixe de molho na véspera.",
     "origin": "BR"
+  },
+  {
+    "id": "pt-arroz-de-marisco",
+    "title": "Arroz de marisco",
+    "summary": "Arroz caldoso português com camarão e mexilhões em molho de tomate.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Coentros e limão",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Camarões",
+        "keywords": [
+          "camarao",
+          "camaroes",
+          "marisco"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Mexilhões",
+        "keywords": [
+          "mexilhao",
+          "mexilhoes",
+          "marisco"
+        ],
+        "amount": "300 g",
+        "kind": "optional"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola no azeite e junte o tomate picado.",
+      "Adicione o arroz e 3 xícaras de água quente.",
+      "Cozinhe 10 minutos e junte o marisco.",
+      "Cozinhe mais 5 minutos até ficar caldoso e finalize com coentros."
+    ],
+    "tip": "O arroz deve ficar malandrinho, com bastante caldo.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-sopa-de-peixe",
+    "title": "Sopa de peixe",
+    "summary": "Sopa de peixe com tomate, batata e ervas, leve e saborosa.",
+    "minutes": 35,
+    "servings": 4,
+    "side": "Pão torrado",
+    "ingredients": [
+      {
+        "name": "Filés de peixe branco",
+        "keywords": [
+          "peixe",
+          "pescada",
+          "merluza",
+          "filé"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Batatas",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Tomate",
+        "keywords": [
+          "tomate"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Salsinha",
+        "keywords": [
+          "salsinha",
+          "salsa"
+        ],
+        "amount": "1 punhado",
+        "kind": "optional"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "2 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola no azeite e junte o tomate picado.",
+      "Adicione as batatas em cubos e 1 litro de água.",
+      "Cozinhe 15 minutos e junte o peixe em pedaços.",
+      "Cozinhe mais 5 minutos e finalize com salsinha."
+    ],
+    "tip": "Junte o peixe no fim para não desfazer.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-bacalhau-a-gomes-de-sa",
+    "title": "Bacalhau à Gomes de Sá",
+    "summary": "Bacalhau desfiado com batata, cebola, ovo cozido e azeitonas.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Salsinha",
+    "ingredients": [
+      {
+        "name": "Bacalhau dessalgado",
+        "keywords": [
+          "bacalhau"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Batatas",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "600 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Ovos cozidos",
+        "keywords": [
+          "ovo",
+          "ovos"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Azeitonas",
+        "keywords": [
+          "azeitona",
+          "azeitonas"
+        ],
+        "amount": "1 punhado",
+        "kind": "optional"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "4 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas com casca e corte em rodelas.",
+      "Cozinhe o bacalhau em lascas e escorra.",
+      "Refogue a cebola em rodelas no azeite até ficar macia.",
+      "Monte em camadas com as batatas e o bacalhau e leve ao forno 15 minutos; sirva com ovo e azeitonas."
+    ],
+    "tip": "Deixe o bacalhau de molho em água fria por 24 horas, trocando a água.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-arroz-doce",
+    "title": "Arroz-doce português",
+    "summary": "Sobremesa cremosa com casca de limão e canela.",
+    "minutes": 45,
+    "servings": 6,
+    "side": "Canela em pó",
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "keywords": [
+          "arroz"
+        ],
+        "amount": "1 xícara"
+      },
+      {
+        "name": "Leite",
+        "keywords": [
+          "leite"
+        ],
+        "amount": "1 litro"
+      },
+      {
+        "name": "Açúcar",
+        "keywords": [
+          "acucar"
+        ],
+        "amount": "1/2 xícara"
+      },
+      {
+        "name": "Gemas",
+        "keywords": [
+          "gema",
+          "gemas",
+          "ovo"
+        ],
+        "amount": "3 unidades",
+        "kind": "optional"
+      },
+      {
+        "name": "Limão (casca)",
+        "keywords": [
+          "limao"
+        ],
+        "amount": "1 unidade",
+        "kind": "optional"
+      },
+      {
+        "name": "Canela",
+        "keywords": [
+          "canela"
+        ],
+        "amount": "1 colher de chá",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cozinhe o arroz em água por 5 minutos e escorra.",
+      "Junte o leite, a casca de limão e o açúcar e cozinhe 25 minutos mexendo.",
+      "Retire do fogo e misture as gemas batidas.",
+      "Sirva frio com canela."
+    ],
+    "tip": "Mexa sempre para não queimar o fundo.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-carne-de-porco-a-alentejana",
+    "title": "Carne de porco à alentejana",
+    "summary": "Porco marinado com amêijoas e batatas fritas.",
+    "minutes": 40,
+    "servings": 3,
+    "side": "Coentros",
+    "ingredients": [
+      {
+        "name": "Lombo ou pernil de porco",
+        "keywords": [
+          "porco",
+          "lombo",
+          "pernil"
+        ],
+        "amount": "500 g"
+      },
+      {
+        "name": "Amêijoas ou mexilhões",
+        "keywords": [
+          "ameijoa",
+          "ameijoas",
+          "mexilhao",
+          "mexilhoes"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Batatas",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "3 unidades"
+      },
+      {
+        "name": "Alho",
+        "keywords": [
+          "alho"
+        ],
+        "amount": "3 dentes"
+      },
+      {
+        "name": "Vinho branco",
+        "keywords": [
+          "vinho"
+        ],
+        "amount": "1/2 xícara",
+        "kind": "optional"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "3 colheres de sopa",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Marine o porco em cubos com alho, vinho e sal por 30 minutos.",
+      "Frite as batatas em cubos até dourar.",
+      "Doure o porco no azeite e junte as amêijoas até abrirem.",
+      "Misture as batatas e sirva com coentros."
+    ],
+    "tip": "Quanto mais tempo de marinada, mais saboroso fica o porco.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-pasteis-de-bacalhau",
+    "title": "Pastéis de bacalhau",
+    "summary": "Bolinhos fritos de bacalhau com batata e salsinha.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Arroz de feijão",
+    "ingredients": [
+      {
+        "name": "Bacalhau dessalgado",
+        "keywords": [
+          "bacalhau"
+        ],
+        "amount": "300 g"
+      },
+      {
+        "name": "Batatas",
+        "keywords": [
+          "batata",
+          "batatas"
+        ],
+        "amount": "400 g"
+      },
+      {
+        "name": "Ovos",
+        "keywords": [
+          "ovo",
+          "ovos"
+        ],
+        "amount": "2 unidades"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Salsinha",
+        "keywords": [
+          "salsinha",
+          "salsa"
+        ],
+        "amount": "1 punhado",
+        "kind": "optional"
+      },
+      {
+        "name": "Óleo",
+        "keywords": [
+          "oleo"
+        ],
+        "amount": "1 xícara",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cozinhe as batatas e o bacalhau e desfie o peixe.",
+      "Amasse as batatas e misture com o bacalhau, a cebola ralada, a salsinha e os ovos.",
+      "Modele bolinhos com duas colheres.",
+      "Frite em óleo quente até dourar."
+    ],
+    "tip": "Deixe a massa descansar 15 minutos antes de modelar.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-feijoada-a-portuguesa",
+    "title": "Feijoada à portuguesa",
+    "summary": "Feijão-branco ou vermelho cozido com chouriço, toucinho e couve.",
+    "minutes": 70,
+    "servings": 5,
+    "side": "Arroz branco",
+    "ingredients": [
+      {
+        "name": "Feijão cozido",
+        "keywords": [
+          "feijao"
+        ],
+        "amount": "2 xícaras"
+      },
+      {
+        "name": "Chouriço",
+        "keywords": [
+          "chourico",
+          "linguica"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Toucinho ou bacon",
+        "keywords": [
+          "toucinho",
+          "bacon"
+        ],
+        "amount": "100 g"
+      },
+      {
+        "name": "Couve",
+        "keywords": [
+          "couve",
+          "repolho"
+        ],
+        "amount": "200 g"
+      },
+      {
+        "name": "Cenoura",
+        "keywords": [
+          "cenoura"
+        ],
+        "amount": "1 unidade"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1 unidade"
+      }
+    ],
+    "steps": [
+      "Refogue a cebola com o toucinho e o chouriço em rodelas.",
+      "Junte a cenoura em cubos e o feijão com 2 xícaras de água.",
+      "Cozinhe 30 minutos em fogo baixo.",
+      "Adicione a couve cortada e cozinhe mais 10 minutos."
+    ],
+    "tip": "Amasse um pouco do feijão na panela para engrossar o caldo.",
+    "origin": "PT"
+  },
+  {
+    "id": "pt-omelete-de-chourico",
+    "title": "Omelete de chouriço",
+    "summary": "Omelete fofa com rodelas de chouriço.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Salada de tomate",
+    "ingredients": [
+      {
+        "name": "Ovos",
+        "keywords": [
+          "ovo",
+          "ovos"
+        ],
+        "amount": "4 unidades"
+      },
+      {
+        "name": "Chouriço",
+        "keywords": [
+          "chourico",
+          "linguica"
+        ],
+        "amount": "80 g"
+      },
+      {
+        "name": "Cebola",
+        "keywords": [
+          "cebola"
+        ],
+        "amount": "1/2 unidade",
+        "kind": "optional"
+      },
+      {
+        "name": "Azeite",
+        "keywords": [
+          "azeite"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "staple"
+      },
+      {
+        "name": "Salsinha",
+        "keywords": [
+          "salsinha",
+          "salsa"
+        ],
+        "amount": "1 colher de sopa",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Frite o chouriço em rodelas no azeite até soltar a gordura.",
+      "Junte a cebola picada e refogue 2 minutos.",
+      "Bata os ovos com sal e salsinha e despeje na frigideira.",
+      "Cozinhe em fogo baixo e dobre ao meio."
+    ],
+    "tip": "Não precisa de muito sal porque o chouriço já é salgado.",
+    "origin": "PT"
   }
 ]

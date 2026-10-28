@@ -10244,5 +10244,2701 @@
    "Aparte, dorá los fideos de papa en aceite hasta que estén crocantes.",
    "Mezclá todo y serví caliente."
   ]
+ },
+ "fr-omelette-aux-fines-herbes": {
+  "title": "Omelette de finas hierbas",
+  "summary": "Omelette esponjosa perfumada con perejil y cebollín.",
+  "side": "Ensalada verde",
+  "tip": "Sacala del fuego cuando todavía esté cremosa: termina de cocinarse en la sartén.",
+  "ingredients": [
+   {
+    "name": "Huevos",
+    "amount": "4"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Cebollín",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Sal",
+    "amount": "al gusto"
+   }
+  ],
+  "steps": [
+   "Batí los huevos con una pizca de sal.",
+   "Agregá el perejil y el cebollín picados.",
+   "Derretí la manteca en una sartén y volcá los huevos.",
+   "Llevá los bordes hacia el centro y doblá la omelette."
+  ]
+ },
+ "fr-riz-au-lait": {
+  "title": "Arroz con leche francés",
+  "summary": "Postre cremoso de arroz cocido lento en leche con vainilla.",
+  "side": "Caramelo o mermelada",
+  "tip": "Revolvé seguido: la leche se pega rápido en el fondo.",
+  "ingredients": [
+   {
+    "name": "Arroz de grano redondo",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "4 cucharadas"
+   },
+   {
+    "name": "Vainilla",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Calentá la leche con la vainilla.",
+   "Agregá el arroz y el azúcar.",
+   "Cociná a fuego bajo 35 minutos revolviendo seguido.",
+   "Servilo tibio o frío."
+  ]
+ },
+ "fr-gateau-au-yaourt": {
+  "title": "Bizcochuelo de yogur",
+  "summary": "Bizcochuelo muy simple donde el pote de yogur sirve de medida.",
+  "side": "Té o café",
+  "tip": "Usá el pote de yogur vacío para medir todos los ingredientes.",
+  "ingredients": [
+   {
+    "name": "Yogur natural",
+    "amount": "1 pote"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 potes"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1 pote"
+   },
+   {
+    "name": "Huevos",
+    "amount": "3"
+   },
+   {
+    "name": "Aceite",
+    "amount": "1/2 pote"
+   },
+   {
+    "name": "Polvo de hornear",
+    "amount": "1 sobre"
+   }
+  ],
+  "steps": [
+   "Precalentá el horno a 180 °C.",
+   "Mezclá el yogur, el azúcar y los huevos.",
+   "Agregá la harina, el polvo de hornear y el aceite.",
+   "Volcá en un molde enmantecado y cociná 35 minutos."
+  ]
+ },
+ "it-pappa-al-pomodoro": {
+  "title": "Pappa al pomodoro",
+  "summary": "Sopa toscana de pan duro, tomate y albahaca.",
+  "side": "Aceite de oliva crudo",
+  "tip": "Se come tibia, con un chorrito de aceite crudo.",
+  "ingredients": [
+   {
+    "name": "Pan duro",
+    "amount": "250 g"
+   },
+   {
+    "name": "Tomates pelados",
+    "amount": "400 g"
+   },
+   {
+    "name": "Ajo",
+    "amount": "2 dientes"
+   },
+   {
+    "name": "Albahaca",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "4 cucharadas"
+   }
+  ],
+  "steps": [
+   "Sofreí el ajo en el aceite.",
+   "Agregá los tomates y cociná 10 minutos.",
+   "Sumá el pan en trozos y 2 tazas de agua caliente.",
+   "Cociná 15 minutos revolviendo y terminá con la albahaca."
+  ]
+ },
+ "it-frittelle-di-zucchine": {
+  "title": "Buñuelos de zapallito",
+  "summary": "Buñuelos crocantes de zapallitos rallados y queso.",
+  "side": "Yogur y limón",
+  "tip": "Exprimir bien los zapallitos es la clave para que queden crocantes.",
+  "ingredients": [
+   {
+    "name": "Zapallitos",
+    "amount": "3"
+   },
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Harina",
+    "amount": "4 cucharadas"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Aceite",
+    "amount": "4 cucharadas"
+   }
+  ],
+  "steps": [
+   "Rallá los zapallitos y exprimilos bien.",
+   "Mezclá con huevos, harina, queso y sal.",
+   "Freí cucharadas de mezcla en aceite caliente.",
+   "Escurrí sobre papel absorbente y serví calientes."
+  ]
+ },
+ "it-pasta-e-lenticchie": {
+  "title": "Pasta y lentejas",
+  "summary": "Sopa espesa de lentejas y pasta corta, económica y saciante.",
+  "side": "Aceite crudo y pimienta",
+  "tip": "Agregá agua caliente si espesa demasiado.",
+  "ingredients": [
+   {
+    "name": "Lentejas",
+    "amount": "200 g"
+   },
+   {
+    "name": "Pasta corta",
+    "amount": "120 g"
+   },
+   {
+    "name": "Zanahoria",
+    "amount": "1"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pasta de tomate",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Aceite",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla y la zanahoria picadas en el aceite.",
+   "Agregá las lentejas, el puré de tomate y 1 litro de agua.",
+   "Cociná 25 minutos hasta que las lentejas estén tiernas.",
+   "Sumá la pasta y cociná 10 minutos más."
+  ]
+ },
+ "de-linsen-mit-spaetzle": {
+  "title": "Lentejas con spätzle",
+  "summary": "Clásico suabo: guiso de lentejas con spätzle y salchichas.",
+  "side": "Vinagre",
+  "tip": "Un chorrito de vinagre al final redondea el guiso.",
+  "ingredients": [
+   {
+    "name": "Lentejas",
+    "amount": "200 g"
+   },
+   {
+    "name": "Spätzle o fideos",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Salchichas",
+    "amount": "2"
+   },
+   {
+    "name": "Zanahoria",
+    "amount": "1"
+   },
+   {
+    "name": "Aceite",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Cortá la cebolla y la zanahoria en cubos y rehogalas en aceite.",
+   "Agregá las lentejas y 1 litro de agua y cociná 25 minutos.",
+   "Cociná los spätzle según el paquete.",
+   "Serví todo con las salchichas y un chorrito de vinagre."
+  ]
+ },
+ "de-maultaschen-in-bruehe": {
+  "title": "Maultaschen en caldo",
+  "summary": "Pastas rellenas suabas en caldo caliente.",
+  "side": "Cebollín",
+  "tip": "No las hiervas a borbotones o se abren.",
+  "ingredients": [
+   {
+    "name": "Maultaschen o ravioles grandes",
+    "amount": "8"
+   },
+   {
+    "name": "Caldo de verduras o de carne",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Cebollín",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1/2"
+   }
+  ],
+  "steps": [
+   "Llevá el caldo a hervor.",
+   "Sumá las maultaschen y dejalas 8 minutos.",
+   "Espolvoreá con cebolla en aros.",
+   "Serví con cebollín picado."
+  ]
+ },
+ "de-zwiebelkuchen": {
+  "title": "Tarta de cebolla alemana",
+  "summary": "Tarta salada con cebollas, panceta y crema agria.",
+  "side": "Ensalada verde",
+  "tip": "Tibia, con vino joven, es como mejor sabe.",
+  "ingredients": [
+   {
+    "name": "Cebollas",
+    "amount": "600 g"
+   },
+   {
+    "name": "Masa de hojaldre o levadura",
+    "amount": "1 rollo"
+   },
+   {
+    "name": "Panceta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Crema agria",
+    "amount": "150 g"
+   },
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Cortá las cebollas en aros y rehogalas con la panceta en manteca 10 minutos.",
+   "Batí la crema agria con los huevos y condimentá con sal y comino.",
+   "Forrá un molde con la masa y repartí las cebollas.",
+   "Volcá la mezcla de huevos y horneá 35 minutos a 200 °C."
+  ]
+ },
+ "de-wuerstchen-eintopf": {
+  "title": "Guiso alemán de salchichas",
+  "summary": "Guiso contundente con salchichas, papas y verduras.",
+  "side": "Pan",
+  "tip": "Aplastar unas papas espesa el guiso.",
+  "ingredients": [
+   {
+    "name": "Salchichas",
+    "amount": "3"
+   },
+   {
+    "name": "Papas",
+    "amount": "3"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Caldo",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Aceite",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Cortá la cebolla, las zanahorias y las papas en cubos.",
+   "Salteá todo un momento en el aceite y cubrí con caldo.",
+   "Cociná a fuego bajo 20 minutos.",
+   "Sumá las salchichas en rodajas y calentá 5 minutos."
+  ]
+ },
+ "de-quarkkeulchen": {
+  "title": "Quarkkeulchen",
+  "summary": "Tortitas sajonas de requesón y papa.",
+  "side": "Puré de manzana y azúcar con canela",
+  "tip": "Formalas con las manos enharinadas para que no se pegue.",
+  "ingredients": [
+   {
+    "name": "Requesón o queso crema",
+    "amount": "250 g"
+   },
+   {
+    "name": "Papas hervidas",
+    "amount": "200 g"
+   },
+   {
+    "name": "Harina",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Huevo",
+    "amount": "1"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Pisá las papas y mezclalas con el requesón, la harina, el huevo y el azúcar.",
+   "Formá tortitas chatas pequeñas.",
+   "Doralas en manteca a fuego medio de ambos lados.",
+   "Serví con puré de manzana y azúcar con canela."
+  ]
+ },
+ "de-milchreis-mit-zimt": {
+  "title": "Arroz con leche y canela",
+  "summary": "Arroz con leche cremoso con canela y azúcar.",
+  "side": "Compota de cerezas",
+  "tip": "Revolvé siempre para que no se queme.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Canela",
+    "amount": "1 cucharadita"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Llevá la leche con el arroz y una pizca de sal a hervor.",
+   "Cociná a fuego bajo 30 minutos revolviendo.",
+   "Agregá el azúcar y revolvé un momento más.",
+   "Serví con azúcar y canela y manteca."
+  ]
+ },
+ "de-rote-bete-salat": {
+  "title": "Ensalada de remolacha alemana",
+  "summary": "Ensalada fresca de remolacha cocida con cebolla y vinagre.",
+  "side": "Papas salteadas",
+  "tip": "Cortala con guantes: la remolacha tiñe los dedos.",
+  "ingredients": [
+   {
+    "name": "Remolachas",
+    "amount": "500 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Vinagre",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Aceite",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Comino de prado",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Cortá las remolachas cocidas en rodajas.",
+   "Picá la cebolla fina.",
+   "Mezclá vinagre, aceite, sal y comino para el aderezo.",
+   "Unilo todo y dejalo reposar 20 minutos."
+  ]
+ },
+ "de-rahmschnitzel": {
+  "title": "Schnitzel a la crema",
+  "summary": "Milanesa sin empanar en cremosa salsa de champiñones.",
+  "side": "Spätzle o papas",
+  "tip": "Aplastá los bifes parejos y finos para que se cocinen rápido.",
+  "ingredients": [
+   {
+    "name": "Milanesas de cerdo o ternera",
+    "amount": "2"
+   },
+   {
+    "name": "Champiñones",
+    "amount": "200 g"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "150 ml"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Salá los bifes, pasalos por harina y doralos en manteca.",
+   "Retiralos y mantenelos calientes.",
+   "Salteá la cebolla y los champiñones en la misma grasa.",
+   "Agregá la crema, reducí y devolvé los bifes un momento a la salsa."
+  ]
+ },
+ "pt-arroz-de-marisco": {
+  "title": "Arroz de mariscos portugués",
+  "summary": "Arroz caldoso portugués con camarones y mejillones en salsa de tomate.",
+  "side": "Cilantro y limón",
+  "tip": "El arroz tiene que quedar caldoso, “malandrinho”.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Camarones",
+    "amount": "300 g"
+   },
+   {
+    "name": "Mejillones",
+    "amount": "300 g"
+   },
+   {
+    "name": "Tomates",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla en aceite de oliva y sumá el tomate picado.",
+   "Agregá el arroz y 3 tazas de agua caliente.",
+   "Cociná 10 minutos y sumá los mariscos.",
+   "Cociná 5 minutos más hasta que quede caldoso y terminá con cilantro."
+  ]
+ },
+ "pt-sopa-de-peixe": {
+  "title": "Sopa de pescado portuguesa",
+  "summary": "Sopa de pescado con tomate, papa y hierbas, liviana y sabrosa.",
+  "side": "Pan tostado",
+  "tip": "Sumá el pescado al final para que no se deshaga.",
+  "ingredients": [
+   {
+    "name": "Filetes de pescado blanco",
+    "amount": "400 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "2"
+   },
+   {
+    "name": "Tomates",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla en aceite y sumá el tomate picado.",
+   "Agregá las papas en cubos y 1 litro de agua.",
+   "Cociná 15 minutos y sumá el pescado en trozos.",
+   "Cociná 5 minutos más y terminá con perejil."
+  ]
+ },
+ "pt-bacalhau-a-gomes-de-sa": {
+  "title": "Bacalao a la Gomes de Sá",
+  "summary": "Bacalao desmenuzado con papas, cebolla, huevo duro y aceitunas.",
+  "side": "Perejil",
+  "tip": "Remojá el bacalao en agua fría 24 horas, cambiando el agua.",
+  "ingredients": [
+   {
+    "name": "Bacalao desalado",
+    "amount": "400 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "600 g"
+   },
+   {
+    "name": "Cebollas",
+    "amount": "2"
+   },
+   {
+    "name": "Huevos duros",
+    "amount": "2"
+   },
+   {
+    "name": "Aceitunas",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "4 cucharadas"
+   }
+  ],
+  "steps": [
+   "Hervé las papas con cáscara y cortalas en rodajas.",
+   "Cociná el bacalao en lascas y escurrilo.",
+   "Rehogá la cebolla en rodajas en aceite hasta que esté blanda.",
+   "Armá capas con las papas y el bacalao y horneá 15 minutos; serví con huevo y aceitunas."
+  ]
+ },
+ "pt-arroz-doce": {
+  "title": "Arroz con leche portugués",
+  "summary": "Postre cremoso con cáscara de limón y canela.",
+  "side": "Canela en polvo",
+  "tip": "Revolvé siempre para que no se queme el fondo.",
+  "ingredients": [
+   {
+    "name": "Arroz",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 litro"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Yemas",
+    "amount": "3"
+   },
+   {
+    "name": "Cáscara de limón",
+    "amount": "1"
+   },
+   {
+    "name": "Canela",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Hervé el arroz en agua 5 minutos y escurrilo.",
+   "Sumá la leche, la cáscara de limón y el azúcar y cociná 25 minutos revolviendo.",
+   "Retirá del fuego y mezclá las yemas batidas.",
+   "Serví frío con canela."
+  ]
+ },
+ "pt-carne-de-porco-a-alentejana": {
+  "title": "Cerdo a la alentejana",
+  "summary": "Cerdo marinado con almejas y papas fritas.",
+  "side": "Cilantro",
+  "tip": "Cuanto más tiempo de marinada, más sabroso queda el cerdo.",
+  "ingredients": [
+   {
+    "name": "Lomo o pernil de cerdo",
+    "amount": "500 g"
+   },
+   {
+    "name": "Almejas o mejillones",
+    "amount": "300 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "3"
+   },
+   {
+    "name": "Ajo",
+    "amount": "3 dientes"
+   },
+   {
+    "name": "Vino blanco",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Marinná el cerdo en cubos con ajo, vino y sal 30 minutos.",
+   "Freí las papas en cubos hasta dorar.",
+   "Doná el cerdo en aceite y sumá las almejas hasta que abran.",
+   "Mezclá con las papas y serví con cilantro."
+  ]
+ },
+ "gb-full-english-breakfast": {
+  "title": "Desayuno inglés completo",
+  "summary": "Fritanga clásica con huevos, panceta, salchichas, porotos y tostadas.",
+  "side": "Salsa marrón",
+  "tip": "Cociná las salchichas despacio para que doren sin reventar.",
+  "ingredients": [
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Panceta",
+    "amount": "4 fetas"
+   },
+   {
+    "name": "Salchichas",
+    "amount": "2"
+   },
+   {
+    "name": "Porotos en salsa",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1"
+   },
+   {
+    "name": "Pan",
+    "amount": "2 rebanadas"
+   },
+   {
+    "name": "Aceite",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Freí las salchichas en el aceite 10 minutos hasta que doren.",
+   "Sumá la panceta y el tomate cortado al medio y cociná 5 minutos.",
+   "Calentá los porotos y tostá el pan.",
+   "Freí los huevos y serví todo junto."
+  ]
+ },
+ "gb-colcannon": {
+  "title": "Colcannon",
+  "summary": "Puré de papas irlandés con repollo y cebolla de verdeo.",
+  "side": "Salchichas",
+  "tip": "Hacé un hueco en el centro y poné un trocito de manteca.",
+  "ingredients": [
+   {
+    "name": "Papas",
+    "amount": "600 g"
+   },
+   {
+    "name": "Repollo o kale",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Cebolla de verdeo",
+    "amount": "3"
+   },
+   {
+    "name": "Leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Hervé las papas hasta que estén tiernas y hacelas puré.",
+   "Cociná el repollo en tiras en manteca 5 minutos.",
+   "Calentá la leche con la cebolla de verdeo picada.",
+   "Mezclá todo con el puré y condimentá con sal y pimienta."
+  ]
+ },
+ "gb-irish-stew": {
+  "title": "Estofado irlandés",
+  "summary": "Guiso lento de cordero con papas, zanahorias y cebolla.",
+  "side": "Pan de soda",
+  "tip": "Quitá la espuma al principio para un caldo más limpio.",
+  "ingredients": [
+   {
+    "name": "Cordero o carne",
+    "amount": "600 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "450 g"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "2"
+   },
+   {
+    "name": "Cebollas",
+    "amount": "2"
+   },
+   {
+    "name": "Agua o caldo",
+    "amount": "3 tazas"
+   },
+   {
+    "name": "Tomillo",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Poné la carne, las cebollas y las zanahorias en una olla con el agua.",
+   "Llevá a hervor y cociná a fuego bajo 1 hora.",
+   "Agregá las papas y el tomillo.",
+   "Cociná 30 minutos más hasta que todo esté tierno."
+  ]
+ },
+ "us-pot-roast": {
+  "title": "Carne estofada al horno",
+  "summary": "Carne braseada lentamente con zanahorias, papas y cebolla.",
+  "side": "Pancitos",
+  "tip": "Dejá reposar la carne 10 minutos antes de cortarla.",
+  "ingredients": [
+   {
+    "name": "Asado o paleta de vaca",
+    "amount": "900 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "450 g"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "3"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Caldo de carne",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Aceite",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Condimentá la carne y doralá por todos lados en aceite.",
+   "Sumá la cebolla en rodajas y el caldo, tapá y cociná a fuego bajo 2 horas.",
+   "Agregá las papas y las zanahorias.",
+   "Cociná 30 minutos más hasta que la carne esté tierna."
+  ]
+ },
+ "us-chicken-and-dumplings": {
+  "title": "Sopa de pollo con bolitas de masa",
+  "summary": "Sopa cremosa de pollo con bollitos de masa blandos.",
+  "side": "Pimienta negra",
+  "tip": "No levantes la tapa mientras se cocinan los bollitos.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "450 g"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "2"
+   },
+   {
+    "name": "Apio",
+    "amount": "2 tallos"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Harina",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Herví el pollo con las verduras en cubos en 6 tazas de agua 20 minutos.",
+   "Desmenuzá el pollo y volvelo a la olla.",
+   "Mezclá la harina, la leche, la manteca y una pizca de sal hasta formar una masa.",
+   "Poné cucharadas en la sopa hirviendo y cociná tapado 10 minutos."
+  ]
+ },
+ "us-biscuits-and-gravy": {
+  "title": "Bizcochos con salsa de salchicha",
+  "summary": "Bizcochos tibios con salsa cremosa de salchicha.",
+  "side": "Huevos fritos",
+  "tip": "Poné bastante pimienta; la salsa tiene que ser bien pimentada.",
+  "ingredients": [
+   {
+    "name": "Bizcochos o scones",
+    "amount": "4"
+   },
+   {
+    "name": "Chorizo o salchicha fresca",
+    "amount": "225 g"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Pimienta negra",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Calentá los bizcochos en el horno.",
+   "Doralá la salchicha desmenuzada en una sartén.",
+   "Agregá la harina y cociná 1 minuto.",
+   "Volcá la leche, hervila hasta espesar, condimentá con pimienta y servila sobre los bizcochos."
+  ]
+ },
+ "us-cobb-salad": {
+  "title": "Ensalada Cobb",
+  "summary": "Lechuga con pollo, panceta, huevo, tomate y palta.",
+  "side": "Ranch o vinagreta",
+  "tip": "Condimentá justo antes de servir para que la lechuga siga crocante.",
+  "ingredients": [
+   {
+    "name": "Lechuga",
+    "amount": "4 tazas"
+   },
+   {
+    "name": "Pollo cocido",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Panceta",
+    "amount": "4 fetas"
+   },
+   {
+    "name": "Huevos duros",
+    "amount": "2"
+   },
+   {
+    "name": "Tomate",
+    "amount": "1"
+   },
+   {
+    "name": "Palta",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Freí la panceta hasta que esté crocante y desmenuzala.",
+   "Cortá el pollo, los huevos, el tomate y la palta.",
+   "Poné la lechuga en una fuente.",
+   "Acomodá los ingredientes en hileras y condimentá en la mesa."
+  ]
+ },
+ "us-french-onion-soup": {
+  "title": "Sopa de cebolla gratinada",
+  "summary": "Sopa de cebolla caramelizada con pan tostado y queso gratinado.",
+  "side": "Ensalada verde",
+  "tip": "La paciencia con las cebollas es lo que da el sabor.",
+  "ingredients": [
+   {
+    "name": "Cebollas",
+    "amount": "4"
+   },
+   {
+    "name": "Caldo de carne",
+    "amount": "4 tazas"
+   },
+   {
+    "name": "Pan",
+    "amount": "4 rebanadas"
+   },
+   {
+    "name": "Queso gruyère o similar",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Cociná las cebollas en rodajas en la manteca a fuego bajo 30 minutos hasta que estén bien doradas.",
+   "Agregá el caldo y hervilo a fuego bajo 15 minutos.",
+   "Serví en cuencos aptos para horno y cubrí con pan tostado y queso.",
+   "Gratiná hasta que el queso burbujee y se dore."
+  ]
+ },
+ "us-sheet-pan-sausage-and-veggies": {
+  "title": "Salchichas y verduras en una fuente",
+  "summary": "Salchichas asadas con papas, morrones y cebolla en una sola bandeja.",
+  "side": "Mostaza",
+  "tip": "Cortá las papas chicas para que se cocinen igual que las salchichas.",
+  "ingredients": [
+   {
+    "name": "Salchichas",
+    "amount": "4"
+   },
+   {
+    "name": "Papas",
+    "amount": "450 g"
+   },
+   {
+    "name": "Morrones",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Pimentón",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Precalentá el horno a 220 °C.",
+   "Mezclá las papas en cubos, los morrones y la cebolla con el aceite, el pimentón y sal en una placa.",
+   "Poné las salchichas encima.",
+   "Asá 30 minutos, dando vuelta una vez, hasta que doren."
+  ]
+ },
+ "ca-cretons-on-toast": {
+  "title": "Cretons sobre tostadas",
+  "summary": "Pasta de cerdo especiada de Quebec sobre pan tostado.",
+  "side": "Pepinillos",
+  "tip": "Se conserva varios días en la heladera.",
+  "ingredients": [
+   {
+    "name": "Carne de cerdo picada",
+    "amount": "450 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Canela",
+    "amount": "1/2 cucharadita"
+   },
+   {
+    "name": "Pan",
+    "amount": "4 rebanadas"
+   }
+  ],
+  "steps": [
+   "Cociná el cerdo con la cebolla bien picada, la leche, la canela, sal y pimienta 15 minutos.",
+   "Revolvé seguido y desarmá la carne hasta que se absorba el líquido.",
+   "Procesá o pisá hasta obtener una pasta untable y enfriala.",
+   "Untá sobre pan tostado."
+  ]
+ },
+ "ca-pouding-chomeur": {
+  "title": "Pouding chômeur",
+  "summary": "Bizcocho de Quebec horneado en salsa tibia de jarabe de arce.",
+  "side": "Helado de vainilla",
+  "tip": "Servilo tibio para que el jarabe siga líquido.",
+  "ingredients": [
+   {
+    "name": "Harina",
+    "amount": "1 1/2 tazas"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "3/4 taza"
+   },
+   {
+    "name": "Jarabe de arce",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1/4 taza"
+   },
+   {
+    "name": "Polvo de hornear",
+    "amount": "2 cucharaditas"
+   }
+  ],
+  "steps": [
+   "Mezclá la harina, el azúcar, el polvo de hornear, la manteca derretida y la leche hasta obtener una masa.",
+   "Calentá el jarabe de arce con 1/2 taza de agua y volcalo en una fuente para horno.",
+   "Poné cucharadas de masa sobre el jarabe caliente.",
+   "Horneá a 180 °C 30 minutos hasta que dore."
+  ]
+ },
+ "ca-smoked-meat-sandwich": {
+  "title": "Sándwich de carne ahumada",
+  "summary": "Sándwich estilo Montreal con carne ahumada tibia y mostaza.",
+  "side": "Pepinillo",
+  "tip": "Calentá la carne al vapor para que quede jugosa.",
+  "ingredients": [
+   {
+    "name": "Carne ahumada o pastrami",
+    "amount": "225 g"
+   },
+   {
+    "name": "Pan de centeno",
+    "amount": "4 rebanadas"
+   },
+   {
+    "name": "Mostaza",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Pepinillos",
+    "amount": "2"
+   }
+  ],
+  "steps": [
+   "Calentá la carne en fetas en una sartén tapada con un chorrito de agua.",
+   "Untá mostaza en el pan.",
+   "Apilá la carne tibia sobre dos rebanadas.",
+   "Cerrá los sándwiches y serví con pepinillos."
+  ]
+ },
+ "ca-maple-glazed-carrots": {
+  "title": "Zanahorias glaseadas con jarabe de arce",
+  "summary": "Zanahorias tiernas glaseadas con jarabe de arce y manteca.",
+  "side": "Pollo al horno",
+  "tip": "Revolvé sin parar al final para que el glaseado no se queme.",
+  "ingredients": [
+   {
+    "name": "Zanahorias",
+    "amount": "450 g"
+   },
+   {
+    "name": "Jarabe de arce",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Cortá las zanahorias en rodajas.",
+   "Cocinalas en 1/2 taza de agua con la manteca hasta que estén tiernas, unos 10 minutos.",
+   "Sumá el jarabe de arce y dejá reducir el líquido hasta formar un glaseado.",
+   "Condimentá con sal y perejil."
+  ]
+ },
+ "ca-lemon-butter-cod": {
+  "title": "Bacalao fresco con manteca y limón",
+  "summary": "Filetes de bacalao a la plancha con una salsa rápida de manteca y limón.",
+  "side": "Papas hervidas",
+  "tip": "No muevas el pescado mientras se sella para que forme costra.",
+  "ingredients": [
+   {
+    "name": "Filetes de bacalao fresco",
+    "amount": "2"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Limón",
+    "amount": "1"
+   },
+   {
+    "name": "Ajo",
+    "amount": "1 diente"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Condimentá el pescado y enharinalo apenas.",
+   "Sellalo en la mitad de la manteca 3 a 4 minutos por lado.",
+   "Retirá el pescado y sumá a la sartén el resto de la manteca, el ajo y el jugo de limón.",
+   "Hervilo 1 minuto y volcalo sobre el pescado."
+  ]
+ },
+ "ca-tourtiere-du-lac": {
+  "title": "Salteado de cerdo y papas estilo Quebec",
+  "summary": "Cerdo picado especiado con papas en cubos al estilo de Quebec.",
+  "side": "Ketchup o chutney",
+  "tip": "Las especias cálidas son las que le dan sabor a tourtière.",
+  "ingredients": [
+   {
+    "name": "Carne de cerdo picada",
+    "amount": "450 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "3"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Canela",
+    "amount": "1/2 cucharadita"
+   },
+   {
+    "name": "Clavo de olor",
+    "amount": "1 pizca"
+   },
+   {
+    "name": "Aceite",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Doralá el cerdo con la cebolla picada en el aceite.",
+   "Sumá las papas en cubos, la canela, el clavo, sal y pimienta.",
+   "Agregá 1/2 taza de agua, tapá y cociná 15 minutos.",
+   "Destapá y cociná hasta que las papas estén doradas y tiernas."
+  ]
+ },
+ "fr-gratin-de-poireaux-au-jambon": {
+  "title": "Gratín de puerros con jamón",
+  "summary": "Puerros envueltos en jamón, cubiertos con bechamel y gratinados.",
+  "side": "Ensalada verde",
+  "tip": "Exprimí bien los puerros para que el gratín no quede aguado.",
+  "ingredients": [
+   {
+    "name": "Puerros",
+    "amount": "4"
+   },
+   {
+    "name": "Jamón",
+    "amount": "4 fetas"
+   },
+   {
+    "name": "Leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Harina",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "1/2 taza"
+   }
+  ],
+  "steps": [
+   "Herví los puerros 10 minutos y escurrilos.",
+   "Envolvé cada puerro en una feta de jamón.",
+   "Prepará la bechamel con la manteca, la harina y la leche.",
+   "Cubrí, espolvoreá con queso y gratiná 20 minutos a 200 °C."
+  ]
+ },
+ "fr-veloute-de-champignons": {
+  "title": "Crema de champiñones",
+  "summary": "Sopa cremosa de champiñones con crema de leche.",
+  "side": "Crutones",
+  "tip": "Reservá algunos champiñones salteados para decorar.",
+  "ingredients": [
+   {
+    "name": "Champiñones",
+    "amount": "400 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Papa",
+    "amount": "1"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Caldo",
+    "amount": "3 tazas"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla en la manteca y sumá los champiñones laminados.",
+   "Agregá la papa en cubos y el caldo.",
+   "Cociná 20 minutos y procesá.",
+   "Incorporá la crema y rectificá el condimento."
+  ]
+ },
+ "fr-blanquette-de-poulet": {
+  "title": "Blanquette de pollo",
+  "summary": "Pollo guisado en salsa blanca cremosa con zanahorias y champiñones.",
+  "side": "Arroz blanco",
+  "tip": "Agregá un chorrito de limón al final para realzar la salsa.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "600 g"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "2"
+   },
+   {
+    "name": "Champiñones",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Herví el pollo con la cebolla y las zanahorias en 3 tazas de agua 25 minutos.",
+   "Colá el caldo y reservá la carne y las verduras.",
+   "Hacé un roux con la manteca y la harina y desleílo con 1,5 tazas de caldo.",
+   "Volvé todo a la olla con la crema y los champiñones y cociná 10 minutos."
+  ]
+ },
+ "fr-quiche-saumon-poireaux": {
+  "title": "Quiche de salmón y puerros",
+  "summary": "Tarta salada de salmón y puerros, esponjosa y cremosa.",
+  "side": "Ensalada verde",
+  "tip": "Precociná la masa 10 minutos para que quede crocante.",
+  "ingredients": [
+   {
+    "name": "Masa de tarta",
+    "amount": "1"
+   },
+   {
+    "name": "Salmón",
+    "amount": "200 g"
+   },
+   {
+    "name": "Puerros",
+    "amount": "2"
+   },
+   {
+    "name": "Huevos",
+    "amount": "3"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "1/2 taza"
+   }
+  ],
+  "steps": [
+   "Rehogá los puerros en rodajas en una sartén 8 minutos.",
+   "Estirá la masa en un molde y repartí los puerros y el salmón en trozos.",
+   "Batí los huevos con la crema, sal y pimienta y volcá sobre todo.",
+   "Espolvoreá con queso y horneá 35 minutos a 180 °C."
+  ]
+ },
+ "fr-moules-marinieres": {
+  "title": "Mejillones a la marinera",
+  "summary": "Mejillones al vino blanco con echalotes y perejil.",
+  "side": "Papas fritas",
+  "tip": "Descartá los que estén abiertos antes de cocinar y los que sigan cerrados después.",
+  "ingredients": [
+   {
+    "name": "Mejillones",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Echalotes o cebolla",
+    "amount": "2"
+   },
+   {
+    "name": "Vino blanco",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   }
+  ],
+  "steps": [
+   "Lavá los mejillones y quitales las barbas.",
+   "Sofreí las echalotes en la manteca.",
+   "Agregá el vino y los mejillones, tapá y cociná 6 minutos sacudiendo la cacerola.",
+   "Espolvoreá con perejil y serví con el jugo."
+  ]
+ },
+ "fr-endives-au-jambon": {
+  "title": "Endibias al jamón",
+  "summary": "Endibias braseadas envueltas en jamón y gratinadas con bechamel.",
+  "side": "Papas al vapor",
+  "tip": "Exprimí las endibias para sacar el agua y evitar el amargor.",
+  "ingredients": [
+   {
+    "name": "Endibias",
+    "amount": "4"
+   },
+   {
+    "name": "Jamón",
+    "amount": "4 fetas"
+   },
+   {
+    "name": "Leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Harina",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "1/2 taza"
+   }
+  ],
+  "steps": [
+   "Cociná las endibias al vapor o en agua 15 minutos y escurrilas bien.",
+   "Envolvé cada una en una feta de jamón.",
+   "Prepará una bechamel y cubrí las endibias.",
+   "Espolvoreá con queso y gratiná 20 minutos a 200 °C."
+  ]
+ },
+ "it-ribollita": {
+  "title": "Ribollita",
+  "summary": "Sopa toscana de verduras y porotos con pan del día anterior.",
+  "side": "Aceite de oliva crudo",
+  "tip": "Al día siguiente es todavía más rica.",
+  "ingredients": [
+   {
+    "name": "Porotos blancos",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Col negra o repollo",
+    "amount": "200 g"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Pan del día anterior",
+    "amount": "4 rebanadas"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla, las zanahorias y la col picadas en el aceite.",
+   "Agregá los porotos y 4 tazas de agua y cociná 30 minutos.",
+   "Sumá el pan en trozos y revolvé hasta que se deshaga.",
+   "Dejá reposar y serví con un chorrito de aceite."
+  ]
+ },
+ "it-focaccia-semplice": {
+  "title": "Focaccia sencilla",
+  "summary": "Focaccia esponjosa con aceite de oliva y sal gruesa.",
+  "side": "Fiambres",
+  "tip": "Emulsioná aceite y agua y volcalo sobre la focaccia antes de hornear.",
+  "ingredients": [
+   {
+    "name": "Harina",
+    "amount": "500 g"
+   },
+   {
+    "name": "Agua tibia",
+    "amount": "1 1/2 taza"
+   },
+   {
+    "name": "Levadura seca",
+    "amount": "1 sobre"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "4 cucharadas"
+   },
+   {
+    "name": "Sal",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Amasá la harina, el agua, la levadura, 2 cucharadas de aceite y la sal.",
+   "Dejá leudar 1 hora tapada.",
+   "Estirá en la placa, hacé hoyitos con los dedos y condimentá con aceite y sal gruesa.",
+   "Horneá 25 minutos a 220 °C."
+  ]
+ },
+ "it-risotto-alla-zucca": {
+  "title": "Risotto de zapallo",
+  "summary": "Risotto cremoso con zapallo y queso parmesano.",
+  "side": "Salvia frita",
+  "tip": "Procesá la mitad del zapallo para que quede más cremoso.",
+  "ingredients": [
+   {
+    "name": "Arroz para risotto",
+    "amount": "1 1/2 taza"
+   },
+   {
+    "name": "Zapallo",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Caldo",
+    "amount": "4 tazas"
+   },
+   {
+    "name": "Queso parmesano",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla en la manteca y sumá el zapallo en cubos.",
+   "Agregá el arroz y tostalo 2 minutos.",
+   "Incorporá el caldo caliente de a poco revolviendo 18 minutos.",
+   "Mantecá con parmesano y manteca y serví."
+  ]
+ },
+ "it-tiramisu": {
+  "title": "Tiramisú",
+  "summary": "Postre frío con vainillas, café y mascarpone.",
+  "side": "Cacao amargo",
+  "tip": "No mojes demasiado las vainillas o se deshacen.",
+  "ingredients": [
+   {
+    "name": "Vainillas",
+    "amount": "200 g"
+   },
+   {
+    "name": "Mascarpone",
+    "amount": "250 g"
+   },
+   {
+    "name": "Huevos",
+    "amount": "3"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Café",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Cacao amargo",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Batí las yemas con el azúcar e incorporá el mascarpone.",
+   "Batí las claras a punto nieve y uníselas a la crema.",
+   "Mojá las vainillas en el café y armá capas con la crema.",
+   "Dejá reposar en la heladera 4 horas y espolvoreá con cacao."
+  ]
+ },
+ "it-panna-cotta": {
+  "title": "Panna cotta",
+  "summary": "Postre cremoso de crema de leche con salsa de frutos rojos.",
+  "side": "Frutos rojos",
+  "tip": "No dejes hervir la crema o pierde cremosidad.",
+  "ingredients": [
+   {
+    "name": "Crema de leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/3 taza"
+   },
+   {
+    "name": "Gelatina sin sabor",
+    "amount": "2 hojas"
+   },
+   {
+    "name": "Vainilla",
+    "amount": "1 cucharadita"
+   },
+   {
+    "name": "Frutos rojos",
+    "amount": "1 taza"
+   }
+  ],
+  "steps": [
+   "Hidratá la gelatina en agua fría.",
+   "Calentá la crema con el azúcar y la vainilla sin que hierva.",
+   "Disolvé la gelatina escurrida en la crema caliente.",
+   "Volcá en moldecitos y dejá cuajar 4 horas en la heladera."
+  ]
+ },
+ "it-penne-alla-vodka": {
+  "title": "Penne a la vodka",
+  "summary": "Penne en salsa de tomate, crema y vodka.",
+  "side": "Queso parmesano",
+  "tip": "Dejá evaporar bien la vodka antes de agregar el tomate.",
+  "ingredients": [
+   {
+    "name": "Penne",
+    "amount": "300 g"
+   },
+   {
+    "name": "Puré de tomate",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Vodka",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Queso parmesano",
+    "amount": "1/4 taza"
+   }
+  ],
+  "steps": [
+   "Cociná los penne al dente.",
+   "Sofreí la cebolla picada y agregá la vodka para desglasar.",
+   "Sumá el puré de tomate y cociná 8 minutos, luego la crema.",
+   "Mezclá los penne con la salsa y el parmesano."
+  ]
+ },
+ "pt-pasteis-de-bacalhau": {
+  "title": "Buñuelos de bacalao",
+  "summary": "Buñuelos fritos de bacalao con papa y perejil.",
+  "side": "Arroz con porotos",
+  "tip": "Dejá reposar la masa 15 minutos antes de formar.",
+  "ingredients": [
+   {
+    "name": "Bacalao desalado",
+    "amount": "300 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "400 g"
+   },
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Aceite",
+    "amount": "1 taza"
+   }
+  ],
+  "steps": [
+   "Herví las papas y el bacalao y desmenuzá el pescado.",
+   "Pisá las papas y mezclalas con el bacalao, la cebolla rallada, el perejil y los huevos.",
+   "Formá croquetas ovaladas con dos cucharas.",
+   "Freílas en aceite caliente hasta dorar."
+  ]
+ },
+ "pt-feijoada-a-portuguesa": {
+  "title": "Feijoada a la portuguesa",
+  "summary": "Porotos cocidos con chorizo, panceta y repollo.",
+  "side": "Arroz blanco",
+  "tip": "Pisá un poco de porotos en la olla para espesar el caldo.",
+  "ingredients": [
+   {
+    "name": "Porotos cocidos",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "150 g"
+   },
+   {
+    "name": "Panceta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Repollo o col",
+    "amount": "200 g"
+   },
+   {
+    "name": "Zanahoria",
+    "amount": "1"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Sofreí la cebolla con la panceta y el chorizo en rodajas.",
+   "Sumá la zanahoria en cubos y los porotos con 2 tazas de agua.",
+   "Cociná 30 minutos a fuego bajo.",
+   "Agregá la col cortada y cociná 10 minutos más."
+  ]
+ },
+ "pt-omelete-de-chourico": {
+  "title": "Tortilla de chorizo",
+  "summary": "Tortilla esponjosa con rodajas de chorizo.",
+  "side": "Ensalada de tomate",
+  "tip": "No hace falta mucha sal porque el chorizo ya es salado.",
+  "ingredients": [
+   {
+    "name": "Huevos",
+    "amount": "4"
+   },
+   {
+    "name": "Chorizo",
+    "amount": "80 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1/2"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Freí el chorizo en rodajas en el aceite hasta que suelte la grasa.",
+   "Sumá la cebolla picada y rehogá 2 minutos.",
+   "Batí los huevos con sal y perejil y volcalos en la sartén.",
+   "Cociná a fuego bajo y doblá al medio."
+  ]
+ },
+ "gb-corned-beef-hash": {
+  "title": "Hash de carne en conserva",
+  "summary": "Papas fritas crocantes con carne en conserva y cebolla.",
+  "side": "Huevo frito",
+  "tip": "No revuelvas demasiado para que se forme una costra.",
+  "ingredients": [
+   {
+    "name": "Carne en conserva (corned beef)",
+    "amount": "1 lata"
+   },
+   {
+    "name": "Papas",
+    "amount": "450 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Manteca",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Salsa inglesa",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Herví las papas en cubos 8 minutos y escurrilas.",
+   "Freí la cebolla picada en la manteca.",
+   "Sumá las papas y la carne desmenuzada.",
+   "Freí hasta que esté crocante y dorado y condimentá con salsa inglesa."
+  ]
+ },
+ "gb-scotch-broth": {
+  "title": "Sopa escocesa de cordero y cebada",
+  "summary": "Sopa escocesa abundante con cordero, cebada y verduras de raíz.",
+  "side": "Pan crujiente",
+  "tip": "La cebada espesa el caldo mientras se cocina.",
+  "ingredients": [
+   {
+    "name": "Cordero o carne de vaca",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cebada perlada",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Zanahorias",
+    "amount": "2"
+   },
+   {
+    "name": "Nabo o papa",
+    "amount": "1"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Puerro",
+    "amount": "1"
+   }
+  ],
+  "steps": [
+   "Herví la carne con la cebada en 8 tazas de agua 45 minutos.",
+   "Agregá las zanahorias, el nabo, la cebolla y el puerro en cubos.",
+   "Cociná 30 minutos más hasta que estén tiernos.",
+   "Quitá la espuma, condimentá y serví."
+  ]
+ },
+ "gb-bread-and-butter-pudding": {
+  "title": "Budín inglés de pan y manteca",
+  "summary": "Budín horneado de pan con manteca, natilla y pasas.",
+  "side": "Crema inglesa",
+  "tip": "El pan del día anterior funciona mejor porque absorbe más.",
+  "ingredients": [
+   {
+    "name": "Pan",
+    "amount": "6 rebanadas"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Leche",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Huevos",
+    "amount": "3"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/3 taza"
+   },
+   {
+    "name": "Pasas de uva",
+    "amount": "1/4 taza"
+   }
+  ],
+  "steps": [
+   "Untá el pan con manteca y cortalo en triángulos.",
+   "Acomodalo en una fuente con las pasas.",
+   "Batí los huevos con la leche y el azúcar y volcá encima.",
+   "Dejá embeber 15 minutos y horneá 35 minutos a 180 °C."
+  ]
+ },
+ "gb-rice-pudding": {
+  "title": "Arroz con leche al horno",
+  "summary": "Arroz con leche cremoso al horno con costra dorada.",
+  "side": "Mermelada",
+  "tip": "No revuelvas después de los primeros 30 minutos para que se forme la costra.",
+  "ingredients": [
+   {
+    "name": "Arroz de grano corto",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "3 tazas"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/4 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Nuez moscada",
+    "amount": "1 pizca"
+   }
+  ],
+  "steps": [
+   "Poné el arroz, la leche y el azúcar en una fuente enmantecada.",
+   "Distribuí trocitos de manteca y rallá nuez moscada.",
+   "Horneá a 150 °C 1 hora y media, revolviendo una vez a los 30 minutos.",
+   "Serví tibio con mermelada."
+  ]
+ },
+ "gb-chicken-and-mushroom-pie": {
+  "title": "Pastel de pollo y champiñones",
+  "summary": "Relleno cremoso de pollo y champiñones bajo una tapa de masa dorada.",
+  "side": "Arvejas y puré",
+  "tip": "Enfriá el relleno antes de tapar para que la masa quede crocante.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "450 g"
+   },
+   {
+    "name": "Champiñones",
+    "amount": "200 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Masa hojaldrada",
+    "amount": "1 lámina"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Leche o crema",
+    "amount": "1 taza"
+   }
+  ],
+  "steps": [
+   "Salteá el pollo en cubos, la cebolla y los champiñones hasta que doren.",
+   "Agregá la harina, luego la leche, y cociná hasta espesar.",
+   "Volcá en una fuente para pastel y cubrí con la masa.",
+   "Pintá con huevo o leche y horneá 30 minutos a 200 °C."
+  ]
+ },
+ "fr-salade-lyonnaise": {
+  "title": "Ensalada lionesa",
+  "summary": "Escarola con panceta, crutones y huevo poché.",
+  "side": "Pan de campo",
+  "tip": "Desglasá la sartén con vinagre caliente y servilo tibio.",
+  "ingredients": [
+   {
+    "name": "Escarola o lechuga",
+    "amount": "1 planta"
+   },
+   {
+    "name": "Panceta en tiras",
+    "amount": "100 g"
+   },
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Pan",
+    "amount": "2 rebanadas"
+   },
+   {
+    "name": "Vinagre",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Mostaza",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Dorá la panceta sin aceite y reservala, guardando la grasa.",
+   "Tostá el pan en cubos en esa grasa.",
+   "Pochá los huevos 3 minutos en agua apenas hirviendo con vinagre.",
+   "Condimentá la ensalada con vinagre y mostaza y sumá panceta, crutones y huevos."
+  ]
+ },
+ "fr-brandade-de-morue": {
+  "title": "Brandada de bacalao",
+  "summary": "Puré gratinado de bacalao desalado y papas.",
+  "side": "Ensalada verde",
+  "tip": "Agregá la leche caliente de a poco para una textura cremosa.",
+  "ingredients": [
+   {
+    "name": "Bacalao desalado",
+    "amount": "400 g"
+   },
+   {
+    "name": "Papas",
+    "amount": "500 g"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Ajo",
+    "amount": "2 dientes"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Pochá el bacalao en la leche 10 minutos y desmenuzalo.",
+   "Herví y pisá las papas.",
+   "Mezclá con el bacalao, el ajo machacado, el aceite y un poco de leche caliente.",
+   "Volcá en una fuente y gratiná 15 minutos a 200 °C."
+  ]
+ },
+ "fr-cake-jambon-olives": {
+  "title": "Cake salado de jamón y aceitunas",
+  "summary": "Budín salado esponjoso de jamón, aceitunas y queso rallado.",
+  "side": "Ensalada verde",
+  "tip": "Se conserva 3 días y se puede congelar en porciones.",
+  "ingredients": [
+   {
+    "name": "Harina",
+    "amount": "1 1/2 taza"
+   },
+   {
+    "name": "Huevos",
+    "amount": "3"
+   },
+   {
+    "name": "Jamón cocido",
+    "amount": "150 g"
+   },
+   {
+    "name": "Aceitunas verdes",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Queso rallado",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1/2 taza"
+   }
+  ],
+  "steps": [
+   "Mezclá la harina, 1 sobre de polvo de hornear y la sal.",
+   "Sumá los huevos, la leche y 1/4 taza de aceite.",
+   "Incorporá el jamón en cubos, las aceitunas y el queso.",
+   "Volcá en un molde de budín y horneá 45 minutos a 180 °C."
+  ]
+ },
+ "fr-poulet-basquaise": {
+  "title": "Pollo a la vasca",
+  "summary": "Pollo estofado con pimientos, tomates y pimiento de Espelette.",
+  "side": "Arroz blanco",
+  "tip": "Cuanto más se cocina, más dulce y concentrada queda la salsa.",
+  "ingredients": [
+   {
+    "name": "Muslos de pollo",
+    "amount": "4"
+   },
+   {
+    "name": "Pimientos",
+    "amount": "3"
+   },
+   {
+    "name": "Tomates",
+    "amount": "4"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Ajo",
+    "amount": "2 dientes"
+   },
+   {
+    "name": "Pimentón picante",
+    "amount": "1 pizca"
+   }
+  ],
+  "steps": [
+   "Dorá los muslos de pollo en aceite y reservalos.",
+   "Sofreí la cebolla, el ajo y los pimientos en tiras.",
+   "Agregá los tomates picados, el pimentón y el pollo.",
+   "Tapá y cociná a fuego bajo 40 minutos."
+  ]
+ },
+ "fr-tomates-farcies": {
+  "title": "Tomates rellenos de carne",
+  "summary": "Tomates al horno rellenos de carne picada.",
+  "side": "Arroz o papas",
+  "tip": "Acomodá los tomates en una fuente ajustada para que no se caigan.",
+  "ingredients": [
+   {
+    "name": "Tomates",
+    "amount": "6"
+   },
+   {
+    "name": "Carne picada",
+    "amount": "300 g"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Ajo",
+    "amount": "1 diente"
+   },
+   {
+    "name": "Pan rallado",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   }
+  ],
+  "steps": [
+   "Cortá la tapa de los tomates y vaciálos, guardando la pulpa.",
+   "Mezclá la carne, la cebolla, el ajo, el perejil y la pulpa picada.",
+   "Rellená los tomates y poné las tapas.",
+   "Horneá 40 minutos a 180 °C."
+  ]
+ },
+ "fr-pommes-de-terre-sarladaises": {
+  "title": "Papas salteadas al ajo y perejil",
+  "summary": "Papas salteadas con ajo y perejil, doradas y crocantes.",
+  "side": "Huevos fritos",
+  "tip": "Agregá el ajo al final para que no se queme.",
+  "ingredients": [
+   {
+    "name": "Papas",
+    "amount": "800 g"
+   },
+   {
+    "name": "Ajo",
+    "amount": "3 dientes"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Aceite o grasa de pato",
+    "amount": "3 cucharadas"
+   }
+  ],
+  "steps": [
+   "Cortá las papas en rodajas finas y secalas.",
+   "Doralas en la grasa caliente 15 minutos dándolas vuelta.",
+   "Tapá 10 minutos para que se cocinen por dentro.",
+   "Sumá el ajo picado y el perejil y salá al final."
+  ]
+ },
+ "it-polpettone": {
+  "title": "Pastel de carne al horno",
+  "summary": "Rollo de carne picada, huevos y parmesano al horno.",
+  "side": "Papas al horno",
+  "tip": "Dejalo reposar 10 minutos antes de cortarlo.",
+  "ingredients": [
+   {
+    "name": "Carne picada",
+    "amount": "500 g"
+   },
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Pan del día anterior",
+    "amount": "2 rebanadas"
+   },
+   {
+    "name": "Parmesano",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Leche",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Perejil",
+    "amount": "1 puñado"
+   }
+  ],
+  "steps": [
+   "Remojá el pan en la leche y escurrilo.",
+   "Amasá la carne con el pan, los huevos, el parmesano, el perejil, sal y pimienta.",
+   "Formá un rollo y ponelo en una asadera con un chorrito de aceite.",
+   "Horneá 45 minutos a 180 °C dándolo vuelta a mitad de cocción."
+  ]
+ },
+ "it-pollo-ai-peperoni": {
+  "title": "Pollo con pimientos a la romana",
+  "summary": "Pollo estofado con pimientos y tomate, un clásico romano.",
+  "side": "Pan casero",
+  "tip": "Agregá los pimientos a mitad de cocción si los querés más firmes.",
+  "ingredients": [
+   {
+    "name": "Pollo trozado",
+    "amount": "800 g"
+   },
+   {
+    "name": "Pimientos",
+    "amount": "3"
+   },
+   {
+    "name": "Tomates pelados",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Ajo",
+    "amount": "2 dientes"
+   },
+   {
+    "name": "Vino blanco",
+    "amount": "1/2 taza"
+   }
+  ],
+  "steps": [
+   "Dorá el pollo en aceite y reservalo.",
+   "Sofreí la cebolla, el ajo y los pimientos en tiras.",
+   "Desglasá con el vino, sumá el tomate y el pollo.",
+   "Cociná tapado 35 minutos a fuego bajo."
+  ]
+ },
+ "it-involtini-di-melanzane": {
+  "title": "Rollitos de berenjena",
+  "summary": "Fetas de berenjena grilladas, rellenas de ricota y albahaca y gratinadas.",
+  "side": "Pan tostado",
+  "tip": "Con fetas finas de 5 mm se enrollan sin romperse.",
+  "ingredients": [
+   {
+    "name": "Berenjenas",
+    "amount": "2"
+   },
+   {
+    "name": "Ricota",
+    "amount": "200 g"
+   },
+   {
+    "name": "Salsa de tomate",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Queso parmesano",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Albahaca",
+    "amount": "1 puñado"
+   },
+   {
+    "name": "Aceite de oliva",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Cortá las berenjenas a lo largo y grillalas con un chorrito de aceite.",
+   "Untá cada feta con ricota y albahaca y enrollala.",
+   "Acomodá los rollitos en una fuente sobre la salsa de tomate.",
+   "Espolvoreá con parmesano y horneá 20 minutos a 200 °C."
+  ]
+ },
+ "us-jambalaya": {
+  "title": "Jambalaya de pollo y salchicha",
+  "summary": "Arroz de Luisiana en una sola olla con pollo, salchicha ahumada y pimiento.",
+  "side": "Salsa picante",
+  "tip": "No levantes la tapa mientras se cocina el arroz.",
+  "ingredients": [
+   {
+    "name": "Pollo",
+    "amount": "450 g"
+   },
+   {
+    "name": "Salchicha ahumada",
+    "amount": "200 g"
+   },
+   {
+    "name": "Arroz",
+    "amount": "1 1/2 taza"
+   },
+   {
+    "name": "Pimiento",
+    "amount": "1"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Tomates en lata",
+    "amount": "1 taza"
+   }
+  ],
+  "steps": [
+   "Dorá el pollo en cubos y la salchicha en rodajas en una olla grande.",
+   "Sumá la cebolla y el pimiento y cociná 5 minutos.",
+   "Agregá el arroz, el tomate, 2 tazas de caldo y condimento cajún.",
+   "Tapá y cociná a fuego bajo 25 minutos hasta que el arroz esté tierno."
+  ]
+ },
+ "de-rinderrouladen": {
+  "title": "Rollitos de carne a la alemana",
+  "summary": "Rollitos de carne vacuna con panceta, pepinillo y mostaza en salsa de vino tinto.",
+  "side": "Bolas de papa y repollo colorado",
+  "tip": "Al final espesá la salsa con un poco de harina.",
+  "ingredients": [
+   {
+    "name": "Bifes finos de vaca",
+    "amount": "4"
+   },
+   {
+    "name": "Mostaza",
+    "amount": "4 cucharaditas"
+   },
+   {
+    "name": "Panceta",
+    "amount": "100 g"
+   },
+   {
+    "name": "Pepinillos",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "2"
+   },
+   {
+    "name": "Vino tinto o caldo",
+    "amount": "1 taza"
+   }
+  ],
+  "steps": [
+   "Untá los bifes con mostaza y poné encima panceta, tiras de pepinillo y cebolla.",
+   "Enrollalos y sujetalos con hilo de cocina o palillos.",
+   "Doralos bien por todos lados y desglasá con vino y 1 taza de agua.",
+   "Cociná tapado 90 minutos a fuego bajo."
+  ]
+ },
+ "de-apfelpfannkuchen": {
+  "title": "Panqueques gruesos de manzana",
+  "summary": "Panqueques gruesos con rodajas de manzana, espolvoreados con canela y azúcar.",
+  "side": "Puré de manzana",
+  "tip": "Dejá reposar la masa 10 minutos para que quede más esponjosa.",
+  "ingredients": [
+   {
+    "name": "Manzanas",
+    "amount": "2"
+   },
+   {
+    "name": "Harina",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Leche",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Huevos",
+    "amount": "2"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "2 cucharadas"
+   },
+   {
+    "name": "Canela",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Mezclá la harina, la leche, los huevos y una pizca de sal hasta lograr una masa lisa.",
+   "Pelá las manzanas y cortalas en rodajas finas.",
+   "Calentá manteca en la sartén, poné las manzanas y volcá la masa encima.",
+   "Doralos de ambos lados y espolvoreá con canela y azúcar."
+  ]
+ },
+ "gb-shortbread": {
+  "title": "Shortbread escocés",
+  "summary": "Galletas de manteca escocesas con solo tres ingredientes.",
+  "side": "Té",
+  "tip": "Si hace calor, enfriá la masa 20 minutos.",
+  "ingredients": [
+   {
+    "name": "Manteca",
+    "amount": "225 g"
+   },
+   {
+    "name": "Harina",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Sal",
+    "amount": "1 pizca"
+   }
+  ],
+  "steps": [
+   "Batí la manteca blanda con el azúcar hasta que quede cremosa.",
+   "Incorporá la harina y la sal hasta formar una masa.",
+   "Estirala en una asadera, pinchala con un tenedor y marcá bastones.",
+   "Horneá 30 minutos a 160 °C hasta que esté dorado claro y dejá enfriar en la asadera."
+  ]
+ },
+ "ca-butter-tarts": {
+  "title": "Tartaletas canadienses de manteca",
+  "summary": "Tartaletas de masa con relleno pegajoso de manteca, azúcar y pasas.",
+  "side": "Café",
+  "tip": "No las llenes del todo: el relleno se infla al hornear.",
+  "ingredients": [
+   {
+    "name": "Masa de tarta",
+    "amount": "1 lámina"
+   },
+   {
+    "name": "Manteca",
+    "amount": "60 g"
+   },
+   {
+    "name": "Azúcar negra",
+    "amount": "3/4 taza"
+   },
+   {
+    "name": "Huevo",
+    "amount": "1"
+   },
+   {
+    "name": "Jarabe de arce",
+    "amount": "1/4 taza"
+   },
+   {
+    "name": "Pasas de uva",
+    "amount": "1/2 taza"
+   }
+  ],
+  "steps": [
+   "Cortá la masa en círculos y apoyalos en un molde de muffins.",
+   "Derretí la manteca y mezclala con el azúcar, el huevo y el jarabe.",
+   "Poné unas pasas en cada base y volcá el relleno.",
+   "Horneá 15 a 18 minutos a 200 °C hasta que el relleno burbujee."
+  ]
+ },
+ "ca-nanaimo-bars": {
+  "title": "Barras Nanaimo",
+  "summary": "Barras sin horno con base de chocolate y coco, capa de crema y cobertura de chocolate.",
+  "side": "Té",
+  "tip": "Cortá con un cuchillo caliente para que queden prolijas.",
+  "ingredients": [
+   {
+    "name": "Manteca",
+    "amount": "115 g"
+   },
+   {
+    "name": "Cacao",
+    "amount": "1/4 taza"
+   },
+   {
+    "name": "Galletitas dulces",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Coco rallado",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Azúcar impalpable",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Chocolate semiamargo",
+    "amount": "170 g"
+   }
+  ],
+  "steps": [
+   "Derretí la mitad de la manteca con el cacao y el azúcar y mezclá con las galletitas trituradas y el coco.",
+   "Presioná en una asadera y llevá a la heladera.",
+   "Batí el resto de la manteca con el azúcar impalpable y un poco de leche y extendé encima.",
+   "Cubrí con chocolate derretido y enfriá hasta que endurezca antes de cortar."
+  ]
+ },
+ "us-banana-bread": {
+  "title": "Pan de banana clásico",
+  "summary": "Budín húmedo hecho con bananas muy maduras.",
+  "side": "Manteca",
+  "tip": "Cuanto más oscuras las bananas, más dulce el pan.",
+  "ingredients": [
+   {
+    "name": "Bananas maduras",
+    "amount": "3"
+   },
+   {
+    "name": "Harina",
+    "amount": "1 1/2 taza"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "3/4 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "80 g"
+   },
+   {
+    "name": "Huevo",
+    "amount": "1"
+   },
+   {
+    "name": "Bicarbonato",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Pisá las bananas y mezclalas con la manteca derretida, el azúcar y el huevo.",
+   "Incorporá la harina, el bicarbonato y una pizca de sal.",
+   "Volcá en un molde de budín enmantecado.",
+   "Horneá 55 a 60 minutos a 180 °C hasta que un palillo salga limpio."
+  ]
+ },
+ "us-lemon-bars": {
+  "title": "Barras de limón",
+  "summary": "Base de masa sablée con una crema ácida de limón.",
+  "side": "Café",
+  "tip": "Dejá enfriar por completo antes de cortar para que queden prolijas.",
+  "ingredients": [
+   {
+    "name": "Harina",
+    "amount": "1 3/4 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "170 g"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1 1/2 taza"
+   },
+   {
+    "name": "Limones",
+    "amount": "3"
+   },
+   {
+    "name": "Huevos",
+    "amount": "4"
+   },
+   {
+    "name": "Azúcar impalpable",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Mezclá 1 1/2 taza de harina, la manteca y 1/2 taza de azúcar y presioná en una asadera.",
+   "Horneá la base 20 minutos a 180 °C.",
+   "Batí los huevos con el resto del azúcar, el jugo y la ralladura de limón y 1/4 taza de harina.",
+   "Volcá sobre la base caliente, horneá 20 minutos más, dejá enfriar y espolvoreá con azúcar impalpable."
+  ]
+ },
+ "fr-moelleux-au-chocolat": {
+  "title": "Volcán de chocolate",
+  "summary": "Bizcochuelo de chocolate con corazón líquido.",
+  "side": "Helado de vainilla",
+  "tip": "Desmoldá tibio para conservar el corazón líquido.",
+  "ingredients": [
+   {
+    "name": "Chocolate semiamargo",
+    "amount": "200 g"
+   },
+   {
+    "name": "Manteca",
+    "amount": "100 g"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1/2 taza"
+   },
+   {
+    "name": "Huevos",
+    "amount": "3"
+   },
+   {
+    "name": "Harina",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Azúcar impalpable",
+    "amount": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Derretí el chocolate con la manteca a baño María.",
+   "Batí los huevos con el azúcar e incorporá el chocolate.",
+   "Agregá la harina y volcá en moldecitos enmantecados.",
+   "Horneá 10 a 12 minutos a 200 °C: el centro debe quedar líquido."
+  ]
+ },
+ "fr-tarte-tatin": {
+  "title": "Tarta Tatin",
+  "summary": "Tarta invertida de manzanas caramelizadas.",
+  "side": "Crema de leche",
+  "tip": "Dala vuelta tibia, si no el caramelo se endurece y se pega.",
+  "ingredients": [
+   {
+    "name": "Manzanas",
+    "amount": "6"
+   },
+   {
+    "name": "Masa de tarta",
+    "amount": "1 lámina"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "3/4 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "50 g"
+   }
+  ],
+  "steps": [
+   "Hacé un caramelo con el azúcar en una sartén apta para horno y agregá la manteca.",
+   "Acomodá las manzanas peladas y cortadas en cuartos bien apretadas en el caramelo.",
+   "Cubrí con la masa metiendo los bordes.",
+   "Horneá 35 minutos a 190 °C, dejá entibiar 5 minutos y dalo vuelta sobre una fuente."
+  ]
+ },
+ "gb-eton-mess": {
+  "title": "Eton mess",
+  "summary": "Merengue triturado mezclado con crema batida y frutillas.",
+  "side": "Menta fresca",
+  "tip": "Agregá el merengue al final para que quede crocante.",
+  "ingredients": [
+   {
+    "name": "Frutillas",
+    "amount": "2 tazas"
+   },
+   {
+    "name": "Merengues",
+    "amount": "6"
+   },
+   {
+    "name": "Crema de leche",
+    "amount": "1 taza"
+   },
+   {
+    "name": "Azúcar",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Esencia de vainilla",
+    "amount": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Cortá las frutillas y mezclalas con el azúcar.",
+   "Batí la crema con la vainilla a punto blando.",
+   "Rompé los merengues en trozos.",
+   "Mezclá todo suavemente y serví enseguida."
+  ]
  }
 }
