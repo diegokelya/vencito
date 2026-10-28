@@ -37244,40 +37244,6 @@
    "Cuisez à couvert 100 minutes."
   ]
  },
- "cl-completo-chileno": {
-  "title": "Completo chilien",
-  "summary": "Hot dog à l'avocat et à la tomate.",
-  "side": "",
-  "tip": "Servez avec de la mayonnaise maison.",
-  "ingredients": [
-   {
-    "name": "Saucisses",
-    "amount": "2"
-   },
-   {
-    "name": "Pains à hot-dog",
-    "amount": "2"
-   },
-   {
-    "name": "Avocat",
-    "amount": "1"
-   },
-   {
-    "name": "Tomate",
-    "amount": "1"
-   },
-   {
-    "name": "Mayonnaise",
-    "amount": "3 cuillères à soupe"
-   }
-  ],
-  "steps": [
-   "Faites cuire les saucisses.",
-   "Faites griller les pains à hot-dog.",
-   "Montez avec la saucisse, l'avocat et la tomate.",
-   "Terminez avec de la mayonnaise."
-  ]
- },
  "cl-pan-amasado": {
   "title": "Pan amasado",
   "summary": "Pain maison chilien.",

@@ -35993,40 +35993,6 @@
    "Cook covered 100 minutes."
   ]
  },
- "cl-completo-chileno": {
-  "title": "Chilean completo",
-  "summary": "Hot dog with avocado and tomato.",
-  "side": "",
-  "tip": "Serve it with homemade mayonnaise.",
-  "ingredients": [
-   {
-    "name": "Sausages",
-    "amount": "2"
-   },
-   {
-    "name": "Hot dog buns",
-    "amount": "2"
-   },
-   {
-    "name": "Avocado",
-    "amount": "1"
-   },
-   {
-    "name": "Tomato",
-    "amount": "1"
-   },
-   {
-    "name": "Mayonnaise",
-    "amount": "3 tablespoons"
-   }
-  ],
-  "steps": [
-   "Boil the sausages.",
-   "Toast the hot dog buns.",
-   "Build with sausage, avocado and tomato.",
-   "Finish with mayonnaise."
-  ]
- },
  "cl-pan-amasado": {
   "title": "Pan amasado",
   "summary": "Chilean homemade bread.",

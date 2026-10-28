@@ -37213,40 +37213,6 @@
    "Cuoci coperto 100 minuti."
   ]
  },
- "cl-completo-chileno": {
-  "title": "Completo cileno",
-  "summary": "Hot dog con avocado e pomodoro.",
-  "side": "",
-  "tip": "Servilo con maionese fatta in casa.",
-  "ingredients": [
-   {
-    "name": "Salsicce",
-    "amount": "2"
-   },
-   {
-    "name": "Panini per hot dog",
-    "amount": "2"
-   },
-   {
-    "name": "Avocado",
-    "amount": "1"
-   },
-   {
-    "name": "Pomodoro",
-    "amount": "1"
-   },
-   {
-    "name": "Maionese",
-    "amount": "3 cucchiai"
-   }
-  ],
-  "steps": [
-   "Lessa le salsicce.",
-   "Tosta i panini per hot dog.",
-   "Prepara con salsiccia, avocado e pomodoro.",
-   "Finisci con maionese."
-  ]
- },
  "cl-pan-amasado": {
   "title": "Pan amasado",
   "summary": "Pane casalingo cileno.",
