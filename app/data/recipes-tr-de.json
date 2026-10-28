@@ -37022,40 +37022,6 @@
    "Zugedeckt 100 Minuten garen."
   ]
  },
- "cl-completo-chileno": {
-  "title": "Chilenischer Completo",
-  "summary": "Hotdog mit Avocado und Tomate.",
-  "side": "",
-  "tip": "Mit hausgemachter Mayonnaise servieren.",
-  "ingredients": [
-   {
-    "name": "Würstchen",
-    "amount": "2 Stück"
-   },
-   {
-    "name": "Hot-Dog-Brötchen",
-    "amount": "2 Stück"
-   },
-   {
-    "name": "Avocado",
-    "amount": "1 Stück"
-   },
-   {
-    "name": "Tomate",
-    "amount": "1 Stück"
-   },
-   {
-    "name": "Mayonnaise",
-    "amount": "3 EL"
-   }
-  ],
-  "steps": [
-   "Die Würstchen kochen.",
-   "Die Hotdog-Brötchen toasten.",
-   "Mit Würstchen, Avocado und Tomate belegen.",
-   "Mit Mayonnaise abschließen."
-  ]
- },
  "cl-pan-amasado": {
   "title": "Pan amasado",
   "summary": "Chilenisches Hausbrot.",

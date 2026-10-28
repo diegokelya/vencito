@@ -36458,40 +36458,6 @@
    "Cozinhe tampado 100 minutos."
   ]
  },
- "cl-completo-chileno": {
-  "title": "Completo chileno",
-  "summary": "Cachorro-quente com abacate e tomate.",
-  "side": "",
-  "tip": "Sirva com maionese caseira.",
-  "ingredients": [
-   {
-    "name": "Salsichas",
-    "amount": "2 unidades"
-   },
-   {
-    "name": "Pães de cachorro-quente",
-    "amount": "2 unidades"
-   },
-   {
-    "name": "Abacate",
-    "amount": "1 unidade"
-   },
-   {
-    "name": "Tomate",
-    "amount": "1 unidade"
-   },
-   {
-    "name": "Maionese",
-    "amount": "3 colheres de sopa"
-   }
-  ],
-  "steps": [
-   "Cozinhe as salsichas.",
-   "Toste os pães de cachorro-quente.",
-   "Monte com salsicha, abacate e tomate.",
-   "Finalize com maionese."
-  ]
- },
  "cl-pan-amasado": {
   "title": "Pan amasado",
   "summary": "Pão caseiro chileno.",

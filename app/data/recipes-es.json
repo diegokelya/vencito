@@ -54574,69 +54574,6 @@
     "origin": "CU"
   },
   {
-    "id": "cl-completo-chileno",
-    "title": "Completo chileno",
-    "summary": "Pancho con palta y tomate.",
-    "minutes": 20,
-    "servings": 2,
-    "side": "",
-    "ingredients": [
-      {
-        "name": "Salchichas",
-        "keywords": [
-          "salchicha",
-          "salchichas",
-          "chorizo"
-        ],
-        "amount": "2 unidades"
-      },
-      {
-        "name": "Pan de pancho",
-        "keywords": [
-          "pan de pancho",
-          "pan para pancho"
-        ],
-        "amount": "2 unidades"
-      },
-      {
-        "name": "Palta",
-        "keywords": [
-          "palta",
-          "aguacate",
-          "avocado"
-        ],
-        "amount": "1 unidad"
-      },
-      {
-        "name": "Tomate",
-        "keywords": [
-          "tomate",
-          "tomates",
-          "pure de tomate",
-          "salsa de tomate",
-          "tomate triturado"
-        ],
-        "amount": "1 unidad"
-      },
-      {
-        "name": "Mayonesa",
-        "keywords": [
-          "mayonesa",
-          "mayo"
-        ],
-        "amount": "3 cucharadas"
-      }
-    ],
-    "steps": [
-      "Hervi las salchichas.",
-      "Tostá el pan de hot dog.",
-      "Armá con salchicha, palta y tomate.",
-      "Terminá con mayonesa."
-    ],
-    "tip": "Servilo con mayonesa casera.",
-    "origin": "CL"
-  },
-  {
     "id": "cl-pan-amasado",
     "title": "Pan amasado",
     "summary": "Pan casero chileno.",
