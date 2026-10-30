@@ -206,3 +206,7 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 
 /* Banderas como imagen: Windows no dibuja las banderas emoji */
 .flag, .recipe img.flag { display: inline-block; width: 20px; height: 15px; aspect-ratio: auto; object-fit: cover; vertical-align: -2px; border: 0; border-radius: 2px; box-shadow: 0 0 0 1px #00000026; }
+
+/* Badge de App Store */
+.store-badge { display: inline-flex; line-height: 0; }
+.store-badge img { height: 48px; width: auto; }
