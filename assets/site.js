@@ -3,7 +3,7 @@
 (function () {
   const input = document.getElementById("label-text");
   if (!input) return;
-  const lang = document.documentElement.lang.startsWith("en") ? "en" : "es";
+  const lang = (document.documentElement.lang || "es").slice(0, 2).toLowerCase();
   const out = {
     date: document.getElementById("result-date"),
     pill: document.getElementById("result-pill"),
@@ -24,7 +24,35 @@
       marker: (m) => `Picked the date after “${m}”.`, plain: "Picked the first valid date in the text.",
       monthOnly: "Month and year only: the app uses the last day of the month.",
     },
-  }[lang];
+    pt: {
+      none: "Não encontrei uma data", noneHow: "Tente outro formato, por exemplo VAL 14/02/27.",
+      today: "Vence hoje", tomorrow: "Vence amanhã",
+      inDays: (n) => `Vence em ${n} dias`, ago: (n) => (n === 1 ? "Vencido há 1 dia" : `Vencido há ${n} dias`),
+      marker: (m) => `Peguei a data que vem depois de “${m}”.`, plain: "Peguei a primeira data válida do texto.",
+      monthOnly: "Só mês e ano: o app usa o último dia do mês.",
+    },
+    fr: {
+      none: "Aucune date trouvée", noneHow: "Essayez un autre format, par exemple DLC 14/02/27.",
+      today: "Expire aujourd'hui", tomorrow: "Expire demain",
+      inDays: (n) => `Expire dans ${n} jours`, ago: (n) => (n === 1 ? "Périmé depuis 1 jour" : `Périmé depuis ${n} jours`),
+      marker: (m) => `J'ai pris la date qui suit « ${m} ».`, plain: "J'ai pris la première date valide du texte.",
+      monthOnly: "Seulement le mois et l'année : l'app utilise le dernier jour du mois.",
+    },
+    it: {
+      none: "Nessuna data trovata", noneHow: "Prova un altro formato, ad esempio SCAD 14/02/27.",
+      today: "Scade oggi", tomorrow: "Scade domani",
+      inDays: (n) => `Scade tra ${n} giorni`, ago: (n) => (n === 1 ? "Scaduto da 1 giorno" : `Scaduto da ${n} giorni`),
+      marker: (m) => `Ho preso la data che segue “${m}”.`, plain: "Ho preso la prima data valida del testo.",
+      monthOnly: "Solo mese e anno: l'app usa l'ultimo giorno del mese.",
+    },
+    de: {
+      none: "Kein Datum gefunden", noneHow: "Probiere ein anderes Format, zum Beispiel MHD 14.02.27.",
+      today: "Läuft heute ab", tomorrow: "Läuft morgen ab",
+      inDays: (n) => `Läuft in ${n} Tagen ab`, ago: (n) => (n === 1 ? "Seit 1 Tag abgelaufen" : `Seit ${n} Tagen abgelaufen`),
+      marker: (m) => `Ich habe das Datum nach „${m}“ genommen.`, plain: "Ich habe das erste gültige Datum im Text genommen.",
+      monthOnly: "Nur Monat und Jahr: Die App verwendet den letzten Tag des Monats.",
+    },
+  }[lang] || null;
 
   const MONTHS = {
     ENE: 1, JAN: 1, GEN: 1, JANV: 1, FEB: 2, FEV: 2, FEVR: 2, MAR: 3, MARS: 3, MAR_: 3, MAERZ: 3, MARZ: 3,
@@ -33,11 +61,16 @@
     NOV: 11, DIC: 12, DEC: 12, DEZ: 12,
     ENERO: 1, FEBRERO: 2, MARZO: 3, ABRIL: 4, MAYO: 5, JUNIO: 6, JULIO: 7, AGOSTO: 8,
     SEPTIEMBRE: 9, SETIEMBRE: 9, OCTUBRE: 10, NOVIEMBRE: 11, DICIEMBRE: 12,
+    JANEIRO: 1, FEVEREIRO: 2, MARCO: 3, MAIO_: 5, JUNHO: 6, JULHO: 7, SETEMBRO: 9, OUTUBRO: 10, NOVEMBRO: 11, DEZEMBRO: 12,
+    JANVIER: 1, FEVRIER: 2, AVRIL_: 4, JUILLET: 7, AOUT_: 8, SEPTEMBRE: 9, OCTOBRE: 10, DECEMBRE: 12,
+    GENNAIO: 1, FEBBRAIO: 2, APRILE: 4, MAGGIO: 5, GIUGNO: 6, LUGLIO: 7, SETTEMBRE: 9, OTTOBRE: 10, DICEMBRE: 12,
+    JANUAR: 1, FEBRUAR: 2, JUNI: 6, JULI: 7, OKTOBER: 10, MRZ: 3,
     JANUARY: 1, FEBRUARY: 2, MARCH: 3, APRIL: 4, JUNE: 6, JULY: 7, AUGUST: 8, SEPTEMBER: 9,
     OCTOBER: 10, NOVEMBER: 11, DECEMBER: 12,
   };
-  const EXPIRY = /(VTO|VENC(?:IMIENTO)?|VENCE|EXP(?:IRY|IRES)?|CAD(?:UCIDAD)?|BB|BEST\s+BEFORE|USE\s+BY|CONSUMIR\s+ANTES(?:\s+DEL?)?|VAL(?:IDADE)?|DLC|MHD|SCAD(?:ENZA)?)/;
-  const MADE = /(ELAB(?:ORADO)?|FAB(?:RICADO)?|PROD|ENV(?:ASADO)?|MFG|LOTE)/;
+  // Frases de fr/it/de primero: en la alternancia gana la que empieza antes, así que la frase completa queda como marcador.
+  const EXPIRY = /(A\s+CONSOMMER(?:\s+DE\s+PREFERENCE)?\s+(?:AVANT|JUSQU'?AU)(?:\s+LE)?|DDM|DA\s+CONSUMARSI(?:\s+PREFERIBILMENTE)?\s+ENTRO(?:\s+IL)?|MINDESTENS\s+HALTBAR\s+BIS|ZU\s+VERBRAUCHEN\s+BIS|VERBRAUCHEN\s+BIS|VTO|VENC(?:IMIENTO)?|VENCE|EXP(?:IRY|IRES)?|CAD(?:UCIDAD)?|BB|BEST\s+BEFORE|USE\s+BY|CONSUMIR\s+ANTES(?:\s+DEL?)?|VAL(?:IDADE)?|DLC|MHD|SCAD(?:ENZA)?)/;
+  const MADE = /(ELAB(?:ORADO)?|FAB(?:RICADO)?|PROD|ENV(?:ASADO)?|MFG|LOTE|HERGESTELLT(?:\s+AM)?|HERGEST)/;
 
   const fold = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
   const valid = (y, m, d) => {
@@ -62,7 +95,7 @@
     push(/(?<!\d[-/.])\b(\d{1,2})[-/.](\d{4})\b/g, (m) => ({ date: valid(+m[2], +m[1], null), monthOnly: true }));
     // "VTO 04/27": mes/año de 2 dígitos, solo si lo precede una palabra de vencimiento (como en la app).
     push(/(?<!\d[-/.])\b(\d{1,2})[-/.](\d{2})\b(?![-/.]\d)/g, (m) => {
-      const before = text.slice(Math.max(0, m.index - 28), m.index);
+      const before = text.slice(Math.max(0, m.index - 44), m.index);
       return new RegExp(EXPIRY.source + "[^A-Z0-9]*$").test(before)
         ? { date: valid(+m[2], +m[1], null), monthOnly: true } : null;
     });
@@ -82,7 +115,7 @@
     const dates = findDates(text);
     if (!dates.length) return null;
     for (const d of dates) {
-      const before = text.slice(Math.max(0, d.index - 28), d.index);
+      const before = text.slice(Math.max(0, d.index - 44), d.index);
       const marker = before.match(new RegExp(EXPIRY.source + "[^A-Z0-9]*$"));
       if (marker) return { ...d, marker: marker[1].replace(/\s+/g, " ") };
     }
@@ -91,7 +124,7 @@
     return { ...(notMade[0] || dates[0]), marker: null };
   }
 
-  const locale = lang === "es" ? "es-AR" : "en-US";
+  const locale = { es: "es-AR", en: "en-US", pt: "pt-BR", fr: "fr-FR", it: "it-IT", de: "de-DE" }[lang] || "en-US";
   const fmt = new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long", year: "numeric" });
 
   function render() {

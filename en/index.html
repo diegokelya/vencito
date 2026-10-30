@@ -4,19 +4,31 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vencito · Expiry dates under control</title>
-<meta name="description" content="Vencito is an iPhone and iPad app that reads the expiration date from a photo of the package and reminds you before it expires. Everything on-device, no accounts.">
+<meta name="description" content="Vencito is an iPhone, iPad and Android app that reads the expiration date from a photo of the package and reminds you before it expires. Everything on-device, no accounts.">
 <meta name="theme-color" content="#1f7a57">
 <link rel="icon" href="../assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="canonical" href="https://vencito.app/en/">
 <link rel="alternate" hreflang="es" href="https://vencito.app/">
 <link rel="alternate" hreflang="en" href="https://vencito.app/en/">
+<link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/">
+<link rel="alternate" hreflang="fr" href="https://vencito.app/fr/">
+<link rel="alternate" hreflang="it" href="https://vencito.app/it/">
+<link rel="alternate" hreflang="de" href="https://vencito.app/de/">
+<link rel="alternate" hreflang="x-default" href="https://vencito.app/">
 <meta property="og:title" content="Vencito · Expiry dates under control">
 <meta property="og:description" content="Snap the package: Vencito reads the date and reminds you before it expires.">
 <meta property="og:image" content="https://vencito.app/assets/img/og.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vencito.app/en/">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Vencito">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vencito icon next to the text “Sacale una foto al envase. Te avisa antes de que se venza.” (in Spanish) and the stamp VTO 14/02/27">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/site.css?v=20261026">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -28,7 +40,7 @@
       <a class="hide-sm" href="#funciones">Features</a>
       <a class="hide-sm" href="#privacidad">Privacy</a>
       <a href="../support.html#en">Support</a>
-      <a class="lang" href="../" hreflang="es" lang="es">Español</a>
+      <a class="lang" href="#idiomas">Languages</a>
     </nav>
   </div>
 </header>
@@ -37,10 +49,10 @@
   <section class="hero">
     <div class="wrap">
       <div class="hero-copy">
-        <p class="eyebrow">For iPhone and iPad</p>
+        <p class="eyebrow">For iPhone, iPad and Android</p>
         <h1>Nothing in your pantry goes to waste.</h1>
         <p class="lead">Snap a photo of the package and Vencito reads the expiration date. It reminds you before it expires and shows you what to use first.</p>
-        <div class="stamp-line" aria-label="Example: EXP 14/02/27 is read as February 14, 2027">
+        <div class="stamp-line" role="img" aria-label="Example: EXP 14/02/27 is read as February 14, 2027">
           <span class="stamp">EXP 14/02/27</span><span class="arrow" aria-hidden="true">→</span><span class="parsed">February 14, 2027</span>
         </div>
         <div class="actions">
@@ -48,7 +60,7 @@
           <a class="btn btn-primary" href="#probar">Try the date reader</a>
           <a class="btn btn-ghost" href="#funciones">See features</a>
         </div>
-        <p class="note">Free · iOS and iPadOS 17 or later</p>
+        <p class="note">Coming soon to Google Play · Free · iOS and iPadOS 17 or later · Android 8 or later<br><a href="../app/?lang=en">Or try it right now in your browser →</a></p>
       </div>
       <div class="device"><img src="../assets/img/iphone-en-list.webp" alt="Product list in Vencito: summary with total, expired and expiring soon, and products grouped by status with thumbnails" width="660" height="1434" fetchpriority="high"></div>
     </div>
@@ -79,7 +91,7 @@
         <div class="label-card">
           <label for="label-text">Text printed on the package</label>
           <input id="label-text" type="text" value="MFG 03/01/26 EXP 14/02/27" autocomplete="off" spellcheck="false">
-          <div class="chips" aria-label="Examples">
+          <div class="chips" role="group" aria-label="Examples">
             <button class="chip-btn" type="button" data-sample="USE BY 25 AUG 2026">25 AUG 2026</button>
             <button class="chip-btn" type="button" data-sample="Best before 3/4/27">3/4/27</button>
             <button class="chip-btn" type="button" data-sample="EXP 10/2027">10/2027</button>
@@ -104,20 +116,24 @@
         <h2 id="funciones-t">Made for the pantry, the fridge and the medicine cabinet</h2>
       </div>
       <div class="features">
-        <div class="feature"><h3>AI recognition</h3><p>On iPhones with Apple Intelligence, Apple’s model looks at the photo and fills in name, category and expiration date. It runs on the iPhone, offline. AI recipe ideas are optional (beta) and off by default: turn them on in Settings.</p></div>
         <div class="feature"><h3>Date reader</h3><p>EXP 14/02/27, 25-08-2026, 25 AUG 2026, 08/2027, EXP 04/27… It tells expiration from manufacturing dates and reads packages in six languages.</p></div>
         <div class="feature"><h3>Barcodes</h3><p>Live scanning or from the photo, with EAN, UPC and QR codes. Open Food Facts (and its cosmetics and other-products databases, such as over-the-counter medicines) fills in name, brand and category.</p></div>
-        <div class="feature"><h3>What should I cook today?</h3><p>Recipes from what you have, starting with what expires soon. Its own catalog of over 600 common, easy dishes from several countries, with photos and in your language, for breakfast, snacks, lunch and dinner, with a cooking mode and saved recipes. It works offline.</p></div>
+        <div class="feature"><h3>What should I cook today?</h3><p>Recipes from what you have, starting with what expires soon. Its own catalog of over 1,000 common, easy dishes from several countries, with photos and in your language, for breakfast, snacks, lunch and dinner, with a cooking mode and saved recipes. It works offline.</p></div>
         <div class="feature"><h3>Several homes</h3><p>Keep the products of more than one home and pick which one to see, or see them all together. Reminders and the widget combine the expiry dates of every home.</p></div>
         <div class="feature"><h3>Shopping list</h3><p>Write down what you need to buy, add what a recipe is missing with one tap, or let it add what you run out of. Tick what you bought and share the list as text.</p></div>
         <div class="feature"><h3>Add many in a row</h3><p>Continuous scanning: barcode, date, done. If a date isn’t read with confidence, the app asks you to confirm it before saving.</p></div>
+        <div class="feature"><h3>Quick add</h3><p>Over a hundred common products with photos, to add what you bought with one tap: milk, eggs, bread, fruit… It suggests the ones you use most first and estimates the expiration of each product.</p></div>
+        <div class="feature"><h3>Statistics</h3><p>How much you consumed, what share you used on time, what you threw out and what you rescued at the last minute, with your waste-free streak, a six-month chart and a comparison with the previous period. “Throw out” records what went bad; “Delete” corrects an entry mistake.</p></div>
+        <div class="feature"><h3>Use up by scanning</h3><p>Point at the barcode or QR of the product you used and one unit of the one that expires first is deducted. Move on to the next without touching the screen.</p></div>
+        <div class="feature"><h3>Load your grocery receipt</h3><p>From a photo (camera or gallery) or a PDF: it reads the lines, ignores taxes and payments, estimates each product’s expiry and, if the receipt prints the barcode, looks up the real name.</p></div>
+        <div class="feature"><h3>Cook with ChatGPT</h3><p>On a recipe, share the photo and instructions in one tap: pick ChatGPT, send it, turn on voice mode and it guides you step by step, with the servings you chose.</p></div>
         <div class="feature"><h3>No expiration date</h3><p>For things that don’t expire or have no date: saved on their own, without reminders.</p></div>
         <div class="feature"><h3>Live scan</h3><p>In a single frame it reads the barcode, the expiration date and the product name. Each value is only confirmed once it repeats, to avoid blurry misreads.</p></div>
         <div class="feature"><h3>Multiple photos per product</h3><p>Keep a photo of the product, one of the barcode, one of the expiry date and as many as you like. They show up in a swipeable gallery.</p></div>
         <div class="feature"><h3>Widgets</h3><p>On the Home Screen and Lock Screen, with what expires next. Tap a product to open it in the app.</p></div>
         <div class="feature"><h3>Status at a glance</h3><p>Expired, expiring soon and upcoming, with a summary on top and a thumbnail for every product.</p></div>
-        <div class="feature"><h3>Swipe to consume</h3><p>One swipe takes off a unit or removes the product. Made a mistake? Shake to undo.</p></div>
-        <div class="feature"><h3>iPad</h3><p>List and detail side by side, in any orientation and with multitasking. With a keyboard, ⌘N adds a product.</p></div>
+        <div class="feature"><h3>Swipe to consume</h3><p>Swipe to use one unit or remove the product. If you make a mistake, shake the iPhone to undo, or tap “Undo” on Android.</p></div>
+        <div class="feature"><h3>iPad and tablets</h3><p>List and detail side by side, in any orientation; on iPad also with multitasking and, with a keyboard, ⌘N adds a product. Android tablets get the same two-pane view.</p></div>
         <div class="feature"><h3>Six languages</h3><p>Spanish, English, Portuguese (Brazil), French, Italian and German. Switch instantly in Settings.</p></div>
         <div class="feature"><h3>Accessible</h3><p>Works with VoiceOver and large text sizes. Each product is read in full: name, status and date.</p></div>
       </div>
@@ -139,6 +155,35 @@
     </div>
   </section>
 
+  <section id="recetas" class="band" aria-labelledby="recetas-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Recipes</p>
+        <h2 id="recetas-t">A peek at the catalog</h2>
+        <p class="lead">Over 1,000 common, easy dishes from many countries, each with its own photo. Here are a few.</p>
+      </div>
+      <ul class="recipes">
+        <li class="recipe"><img src="../assets/img/recetas/milanesa-a-la-napolitana.webp" alt="Milanesa napolitana" width="600" height="600" loading="lazy"><div><h3>Milanesa napolitana</h3><p><img class="flag" src="../assets/flags/ar.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 40 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/empanadas-de-carne-al-horno.webp" alt="Baked beef empanadas" width="600" height="600" loading="lazy"><div><h3>Baked beef empanadas</h3><p><img class="flag" src="../assets/flags/ar.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 55 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/uy-chivito.webp" alt="Chivito" width="600" height="600" loading="lazy"><div><h3>Chivito</h3><p><img class="flag" src="../assets/flags/uy.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/mx-chilaquiles-rojos.webp" alt="Red chilaquiles" width="600" height="600" loading="lazy"><div><h3>Red chilaquiles</h3><p><img class="flag" src="../assets/flags/mx.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/pe-lomo-saltado.webp" alt="Lomo saltado" width="600" height="600" loading="lazy"><div><h3>Lomo saltado</h3><p><img class="flag" src="../assets/flags/pe.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/ve-pabellon-criollo.webp" alt="Pabellón criollo" width="600" height="600" loading="lazy"><div><h3>Pabellón criollo</h3><p><img class="flag" src="../assets/flags/ve.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 50 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/co-arepas-con-queso.webp" alt="Arepas with cheese" width="600" height="600" loading="lazy"><div><h3>Arepas with cheese</h3><p><img class="flag" src="../assets/flags/co.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/cl-pastel-de-choclo.webp" alt="Chilean corn pie" width="600" height="600" loading="lazy"><div><h3>Chilean corn pie</h3><p><img class="flag" src="../assets/flags/cl.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 60 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/es-tortilla-de-patatas.webp" alt="Spanish potato omelet" width="600" height="600" loading="lazy"><div><h3>Spanish potato omelet</h3><p><img class="flag" src="../assets/flags/es.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 35 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/jp-oyakodon.webp" alt="Oyakodon" width="600" height="600" loading="lazy"><div><h3>Oyakodon</h3><p><img class="flag" src="../assets/flags/jp.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 25 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/gr-souvlaki-de-pollo.webp" alt="Chicken souvlaki" width="600" height="600" loading="lazy"><div><h3>Chicken souvlaki</h3><p><img class="flag" src="../assets/flags/gr.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 30 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/in-chana-masala.webp" alt="Chana masala" width="600" height="600" loading="lazy"><div><h3>Chana masala</h3><p><img class="flag" src="../assets/flags/in.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 30 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/cu-ropa-vieja.webp" alt="Ropa vieja" width="600" height="600" loading="lazy"><div><h3>Ropa vieja</h3><p><img class="flag" src="../assets/flags/cu.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 60 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/py-sopa-paraguaya.webp" alt="Sopa paraguaya" width="600" height="600" loading="lazy"><div><h3>Sopa paraguaya</h3><p><img class="flag" src="../assets/flags/py.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 50 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/us-mac-and-cheese.webp" alt="Stovetop mac and cheese" width="600" height="600" loading="lazy"><div><h3>Stovetop mac and cheese</h3><p><img class="flag" src="../assets/flags/us.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 30 min</p></div></li>
+        <li class="recipe"><img src="../assets/img/recetas/us-pancakes.webp" alt="Fluffy pancakes" width="600" height="600" loading="lazy"><div><h3>Fluffy pancakes</h3><p><img class="flag" src="../assets/flags/us.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> · 20 min</p></div></li>
+      </ul>
+      <p class="note" style="text-align:center">Recipes are suggested from what you have and what expires first.</p>
+    </div>
+  </section>
+
   <section aria-labelledby="capturas-t">
     <div class="wrap">
       <div class="section-head">
@@ -150,6 +195,7 @@
         <figure><div class="device"><img src="../assets/img/iphone-en-add.webp" alt="Form to add a product with photo, name, category and date" width="660" height="1434" loading="lazy"></div><figcaption>Add with a photo or by hand</figcaption></figure>
         <figure><div class="device"><img src="../assets/img/iphone-en-settings.webp" alt="Settings with reminder days, notification time and language" width="660" height="1434" loading="lazy"></div><figcaption>Reminders your way</figcaption></figure>
         <figure><div class="device"><img src="../assets/img/iphone-en-recipes.webp" alt="Recipe idea built from your products: ingredients you have, what you’re missing and the steps" width="660" height="1435" loading="lazy"></div><figcaption>What should I cook today?</figcaption></figure>
+        <figure><div class="device"><img src="../assets/img/iphone-en-stats.webp" alt="Consumption statistics: consumed, used on time, thrown out and saved, with a six-month chart" width="660" height="1434" loading="lazy"></div><figcaption>Statistics</figcaption></figure>
         <figure><div class="device"><img src="../assets/img/iphone-en-shopping.webp" alt="Shopping list with pending items and one already bought" width="660" height="1435" loading="lazy"></div><figcaption>Shopping list</figcaption></figure>
         <figure><div class="device"><img src="../assets/img/iphone-en-homelist.webp" alt="Product list of one home: the home menu at the top and only that home’s products" width="660" height="1435" loading="lazy"></div><figcaption>Pick which home to see</figcaption></figure>
         <figure><div class="device"><img src="../assets/img/iphone-en-homes.webp" alt="Homes screen with the number of products in each" width="660" height="1435" loading="lazy"></div><figcaption>Several homes</figcaption></figure>
@@ -160,19 +206,36 @@
       </div>
     </div>
   </section>
+  <section aria-labelledby="android-t">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Android</p>
+        <h2 id="android-t">On Android too</h2>
+      </div>
+      <div class="gallery">
+        <figure><div class="device android"><img src="../assets/img/android-en-list.webp" alt="Main screen on Android with the Add product, Quick add and Add several cards, and the next product to expire" width="660" height="1467" loading="lazy"></div><figcaption>Home with quick add and scanner</figcaption></figure>
+        <figure><div class="device android"><img src="../assets/img/android-en-detail.webp" alt="A product's detail on Android: expiration date, category and location" width="660" height="1467" loading="lazy"></div><figcaption>Product detail</figcaption></figure>
+        <figure><div class="device android"><img src="../assets/img/android-en-stats.webp" alt="Consumption statistics on Android: consumed, used on time, thrown out and saved" width="660" height="1467" loading="lazy"></div><figcaption>Statistics</figcaption></figure>
+      </div>
+      <div class="ipad-row">
+        <div class="device ipad tablet"><img src="../assets/img/androidtablet-en-detail.webp" alt="Vencito on an Android tablet: the product list on the left and the detail on the right" width="1376" height="860" loading="lazy"></div>
+        <p class="note" style="text-align:center">On Android tablets, the list and the detail sit side by side.</p>
+      </div>
+    </div>
+  </section>
 
   <section id="privacidad" class="band" aria-labelledby="privacidad-t">
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Privacy</p>
-        <h2 id="privacidad-t">Your data stays on your iPhone</h2>
+        <h2 id="privacidad-t">Your data stays on your phone</h2>
         <p class="lead">Vencito has no accounts, no servers of its own, no analytics and no ads.</p>
       </div>
       <div class="privacy-grid">
-        <div><h3>All on-device</h3><p>Products, photos and settings are stored on your iPhone or iPad. If you turn on iCloud sync, also in your private iCloud (the developer has no access).</p></div>
-        <div><h3>AI without the cloud</h3><p>Text, barcodes and Apple Intelligence recognition are processed on the device.</p></div>
-        <div><h3>One optional piece of data leaves</h3><p>To look up a product, only the barcode number is sent to Open Food Facts and its sister databases. You can turn it off.</p></div>
-        <div><h3>Local reminders</h3><p>Notifications are scheduled by the iPhone itself. They never go through a server.</p></div>
+        <div><h3>All on-device</h3><p>Products, photos and settings are stored on your iPhone, iPad or Android phone. On Apple devices, if you turn on iCloud sync, they are also in your private iCloud (the developer has no access).</p></div>
+        <div><h3>Read on the device</h3><p>Text in photos and barcodes are read on the device: with Apple's recognition on iPhone and iPad, and with Google's ML Kit on Android.</p></div>
+        <div><h3>One optional piece of data leaves</h3><p>To look up a product, only the barcode number is sent to Open Food Facts, its sister databases and, as a last resort, GTINSearch. You can turn it off.</p></div>
+        <div><h3>Local reminders</h3><p>Notifications are scheduled by the phone itself. They don't go through any server.</p></div>
       </div>
       <p style="margin-top:28px"><a href="../privacy.html#en">Read the full privacy policy</a></p>
     </div>
@@ -185,9 +248,9 @@
         <h2 id="faq-t">Common questions</h2>
       </div>
       <div class="faq">
-        <details><summary>How much does it cost?</summary><p>It’s free, with nothing locked. If you find it useful, you can buy me a coffee with an optional tip in Settings.</p></details>
-        <details><summary>Do I need an iPhone with Apple Intelligence?</summary><p>No. Without it, the app reads the date and name with Apple’s text recognition. AI adds the category and reads tricky packages better.</p></details>
+        <details><summary>How much does it cost?</summary><p>It’s free, with nothing locked.</p></details>
         <details><summary>Does it work offline?</summary><p>Yes. Only the barcode product lookup needs the internet.</p></details>
+        <details><summary>Does it work on Android and tablets?</summary><p>Yes. There are versions for iPhone, iPad and Android, tablets included, with the same six languages. Data doesn't sync between an iPhone and an Android phone: you move it by exporting and importing a file from Settings.</p></details>
         <details><summary>Can I move my data to another phone?</summary><p>Yes. In Settings you can export a file with all your products (with or without photos) and import it on another device.</p></details>
         <details><summary>What if the date shows only month and year?</summary><p>The app uses the last day of that month, which is how packages are meant to be read. It understands both 08/2027 and EXP 04/27.</p></details>
         <details><summary>Can I keep more than one photo per product?</summary><p>Yes. Besides the main photo you can add one of the barcode, one of the expiry date and up to 8 more. Swipe through them on the detail screen; they are included when you export.</p></details>
@@ -203,10 +266,19 @@
     <nav aria-label="Footer">
       <a href="../privacy.html#en">Privacy</a>
       <a href="../support.html#en">Support</a>
+    </nav>
+  </div>
+  <div class="wrap" id="idiomas" style="margin-top:10px">
+    <nav aria-label="Languages">
       <a href="../" hreflang="es" lang="es">Español</a>
+      <a href="../en/" hreflang="en" lang="en" aria-current="page">English</a>
+      <a href="../pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
+      <a href="../fr/" hreflang="fr" lang="fr">Français</a>
+      <a href="../it/" hreflang="it" lang="it">Italiano</a>
+      <a href="../de/" hreflang="de" lang="de">Deutsch</a>
     </nav>
   </div>
 </footer>
-<script src="../assets/site.js" defer></script>
+<script src="../assets/site.js?v=20261024" defer></script>
 </body>
 </html>

@@ -1,0 +1,7381 @@
+[
+  {
+    "id": "us-spaghetti-meat-sauce",
+    "origin": "US",
+    "title": "Spaghetti with meat sauce",
+    "summary": "A weeknight classic.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Green salad",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "keywords": [
+          "spaghetti",
+          "pasta",
+          "noodle",
+          "noodles"
+        ],
+        "amount": "8 oz"
+      },
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Tomato sauce",
+        "keywords": [
+          "tomato sauce",
+          "tomato",
+          "tomatoes",
+          "marinara",
+          "crushed tomatoes"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1 small",
+        "kind": "optional"
+      },
+      {
+        "name": "Parmesan",
+        "keywords": [
+          "parmesan",
+          "cheese"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the spaghetti in salted water until tender.",
+      "Cook the chopped onion and ground beef in oil until browned, about 8 minutes.",
+      "Add the tomato sauce and simmer 15 minutes, seasoning with salt.",
+      "Toss with the drained pasta and top with cheese."
+    ],
+    "tip": "Save a little pasta water to loosen the sauce."
+  },
+  {
+    "id": "us-chicken-noodle-soup",
+    "origin": "US",
+    "title": "Chicken noodle soup",
+    "summary": "Comfort in a bowl.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Crackers or bread",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "chicken thigh"
+        ],
+        "amount": "2 breasts or thighs"
+      },
+      {
+        "name": "Egg noodles",
+        "keywords": [
+          "noodle",
+          "noodles",
+          "pasta",
+          "egg noodles"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Celery",
+        "keywords": [
+          "celery"
+        ],
+        "amount": "2 stalks",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Black pepper",
+        "keywords": [
+          "pepper"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Water or broth",
+        "keywords": [
+          "water",
+          "broth",
+          "stock"
+        ],
+        "amount": "6 cups",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Simmer the chicken in the water with salt for 20 minutes, then remove and shred it.",
+      "Add the chopped carrot, onion and celery to the pot and cook 10 minutes.",
+      "Add the noodles and cook until tender.",
+      "Return the chicken to the soup and season."
+    ],
+    "tip": "Skim the foam from the top for a clearer broth."
+  },
+  {
+    "id": "us-grilled-cheese-tomato-soup",
+    "origin": "US",
+    "title": "Grilled cheese and tomato soup",
+    "summary": "Crispy sandwich, warm soup.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar",
+          "american cheese"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Tomato soup",
+        "keywords": [
+          "tomato soup",
+          "tomato sauce",
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Warm the tomato soup in a pot over low heat.",
+      "Butter one side of each slice of bread and build the sandwiches with cheese.",
+      "Cook in a skillet over medium heat, 3 minutes per side, until golden and melted.",
+      "Serve the sandwiches with the soup."
+    ],
+    "tip": "Low and slow keeps the bread from burning before the cheese melts.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "us-baked-chicken-and-potatoes",
+    "origin": "US",
+    "title": "Baked chicken and potatoes",
+    "summary": "One pan, little cleanup.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Green beans",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken thigh",
+          "drumstick",
+          "chicken breast"
+        ],
+        "amount": "4 pieces"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "3 medium"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Lemon",
+        "keywords": [
+          "lemon"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Black pepper",
+        "keywords": [
+          "pepper"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 425°F (220°C).",
+      "Toss the potatoes and onion with oil and salt in a roasting pan.",
+      "Season the chicken and set it on top, adding a squeeze of lemon.",
+      "Roast 40 minutes, until the chicken is golden and cooked through."
+    ],
+    "tip": "Chicken is done when it reaches 165°F (74°C)."
+  },
+  {
+    "id": "us-beef-tacos",
+    "origin": "US",
+    "title": "Beef tacos",
+    "summary": "Ready in 25 minutes.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Tortillas",
+        "keywords": [
+          "tortilla",
+          "taco shells",
+          "taco shell"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce"
+        ],
+        "amount": "a handful",
+        "kind": "optional"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Taco seasoning",
+        "keywords": [
+          "taco seasoning",
+          "cumin",
+          "chili powder"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Brown the ground beef in a skillet, about 7 minutes.",
+      "Add the seasoning and a splash of water and cook 3 minutes.",
+      "Warm the tortillas.",
+      "Fill with beef, cheese, lettuce and tomato."
+    ],
+    "tip": "Warm tortillas directly over the flame or in a dry pan for better flavor."
+  },
+  {
+    "id": "us-mac-and-cheese",
+    "origin": "US",
+    "title": "Stovetop mac and cheese",
+    "summary": "Creamy and quick.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Steamed broccoli",
+    "ingredients": [
+      {
+        "name": "Macaroni",
+        "keywords": [
+          "macaroni",
+          "pasta",
+          "elbow"
+        ],
+        "amount": "8 oz"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the macaroni in salted water and drain.",
+      "Melt the butter in the pot over low heat and pour in the milk.",
+      "Stir in the cheese until smooth.",
+      "Add the pasta and stir until coated."
+    ],
+    "tip": "Grate the cheese yourself; it melts smoother than pre-shredded."
+  },
+  {
+    "id": "us-beef-chili",
+    "origin": "US",
+    "title": "Beef and bean chili",
+    "summary": "Hearty and good for leftovers.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Rice or cornbread",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Beans",
+        "keywords": [
+          "bean",
+          "beans",
+          "kidney beans",
+          "black beans"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato",
+          "tomatoes",
+          "crushed tomatoes",
+          "tomato sauce"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Chili powder",
+        "keywords": [
+          "chili powder",
+          "chili",
+          "cumin"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion and the beef in oil until browned.",
+      "Stir in the chili powder and a little salt.",
+      "Add the tomato and the drained beans.",
+      "Simmer 30 minutes, stirring now and then."
+    ],
+    "tip": "It tastes even better the next day."
+  },
+  {
+    "id": "us-veggie-omelet",
+    "origin": "US",
+    "title": "Veggie and cheese omelet",
+    "summary": "Breakfast for dinner.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Toast",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Bell pepper",
+        "keywords": [
+          "bell pepper",
+          "pepper",
+          "peppers"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Spinach",
+        "keywords": [
+          "spinach"
+        ],
+        "amount": "a handful",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Saute the chopped vegetables in butter for 3 minutes.",
+      "Beat the eggs with salt and pour them into the pan.",
+      "When almost set, add the cheese and fold the omelet.",
+      "Serve right away."
+    ],
+    "tip": "Cook over medium-low heat so the eggs stay tender."
+  },
+  {
+    "id": "us-egg-fried-rice",
+    "origin": "US",
+    "title": "Egg fried rice",
+    "summary": "Perfect for leftover rice.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "3 cups cooked"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "peas",
+          "pea"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Soy sauce",
+        "keywords": [
+          "soy sauce",
+          "soy"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat oil in a large skillet and cook the grated carrot and peas 3 minutes.",
+      "Add the cold rice and stir-fry over high heat 3 minutes.",
+      "Push the rice aside, scramble the eggs in the gap, then mix.",
+      "Season with the soy sauce."
+    ],
+    "tip": "Day-old rice gives separate, never mushy, grains."
+  },
+  {
+    "id": "us-meatloaf",
+    "origin": "US",
+    "title": "Classic meatloaf",
+    "summary": "Simple, with a sweet glaze.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Mashed potatoes",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Breadcrumbs",
+        "keywords": [
+          "breadcrumbs",
+          "bread crumbs"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1 small",
+        "kind": "optional"
+      },
+      {
+        "name": "Ketchup",
+        "keywords": [
+          "ketchup",
+          "tomato sauce"
+        ],
+        "amount": "1/3 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Black pepper",
+        "keywords": [
+          "pepper"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 350°F (175°C).",
+      "Mix the beef, egg, breadcrumbs, grated onion, salt and pepper.",
+      "Shape into a loaf in a baking dish and spread ketchup on top.",
+      "Bake 50 minutes, then rest 10 minutes before slicing."
+    ],
+    "tip": "Don't overmix: it makes the loaf dense."
+  },
+  {
+    "id": "us-tuna-melt",
+    "origin": "US",
+    "title": "Tuna melt",
+    "summary": "Warm, cheesy and ready in 15.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "keywords": [
+          "tuna"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Celery",
+        "keywords": [
+          "celery"
+        ],
+        "amount": "1 stalk",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the drained tuna with mayonnaise, diced celery and a pinch of salt.",
+      "Spread it on two slices of bread and top with cheese.",
+      "Toast in a skillet or under the broiler until the cheese melts.",
+      "Close with the other bread and cut in half."
+    ],
+    "tip": "Toast the bread first so it stays crisp.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "us-quesadillas",
+    "origin": "US",
+    "title": "Cheese quesadillas",
+    "summary": "Done in 15 minutes.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Salsa and sour cream",
+    "ingredients": [
+      {
+        "name": "Tortillas",
+        "keywords": [
+          "tortilla",
+          "tortillas"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar",
+          "mozzarella"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken"
+        ],
+        "amount": "1 cup cooked",
+        "kind": "optional"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1/4",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Sprinkle cheese (and chicken, if using) over half of each tortilla.",
+      "Fold in half.",
+      "Cook in a lightly oiled skillet 2 to 3 minutes per side, until golden.",
+      "Cut into wedges."
+    ],
+    "tip": "Use medium heat so the cheese melts before the tortilla darkens."
+  },
+  {
+    "id": "us-loaded-baked-potatoes",
+    "origin": "US",
+    "title": "Loaded baked potatoes",
+    "summary": "Cheesy and filling.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Salad",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "2 large"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Broccoli",
+        "keywords": [
+          "broccoli"
+        ],
+        "amount": "1 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 425°F (220°C) and pierce the potatoes with a fork.",
+      "Bake 45 minutes, until tender.",
+      "Split them open and mash the flesh slightly with butter and salt.",
+      "Top with cheese and steamed broccoli and bake 5 more minutes."
+    ],
+    "tip": "Rub the skins with oil and salt for a crispier shell."
+  },
+  {
+    "id": "us-sloppy-joes",
+    "origin": "US",
+    "title": "Sloppy joes",
+    "summary": "Messy and fun.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Coleslaw or chips",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Buns",
+        "keywords": [
+          "bun",
+          "buns",
+          "hamburger buns",
+          "bread"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Tomato sauce",
+        "keywords": [
+          "tomato sauce",
+          "ketchup",
+          "tomato"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1 small"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion and the beef in oil until browned.",
+      "Stir in the tomato sauce and a splash of water.",
+      "Simmer 10 minutes and season.",
+      "Spoon over the toasted buns."
+    ],
+    "tip": "A teaspoon of mustard or vinegar brightens the sauce."
+  },
+  {
+    "id": "us-chicken-caesar-salad",
+    "origin": "US",
+    "title": "Chicken Caesar salad",
+    "summary": "A fresh and filling dinner salad.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast"
+        ],
+        "amount": "2 breasts"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce",
+          "romaine"
+        ],
+        "amount": "1 head"
+      },
+      {
+        "name": "Parmesan",
+        "keywords": [
+          "parmesan",
+          "cheese"
+        ],
+        "amount": "1/4 cup"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "2 slices",
+        "kind": "optional"
+      },
+      {
+        "name": "Caesar dressing",
+        "keywords": [
+          "caesar dressing",
+          "dressing",
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "3 tablespoons"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Season the chicken and cook it in oil 6 minutes per side. Let it rest and slice.",
+      "Cube the bread and toast it in a pan with a little oil to make croutons.",
+      "Tear the lettuce into a bowl and toss with the dressing.",
+      "Top with chicken, croutons and parmesan."
+    ],
+    "tip": "Rest the chicken 5 minutes so it stays juicy."
+  },
+  {
+    "id": "gb-shepherds-pie",
+    "origin": "GB",
+    "title": "Shepherd's pie",
+    "summary": "Mince topped with mashed potato.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Peas or green beans",
+    "ingredients": [
+      {
+        "name": "Minced lamb or beef",
+        "keywords": [
+          "mince",
+          "minced lamb",
+          "minced beef",
+          "lamb mince",
+          "ground beef"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "4 medium"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "peas",
+          "pea"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the peeled potatoes 20 minutes and mash with butter and salt.",
+      "Cook the chopped onion, carrot and mince in oil 10 minutes.",
+      "Add the peas and a splash of water and simmer 10 minutes.",
+      "Spread the mince in a dish, top with mash and bake 15 minutes at 200°C."
+    ],
+    "tip": "Run a fork over the mash for a crispy, ridged top."
+  },
+  {
+    "id": "gb-bangers-and-mash",
+    "origin": "GB",
+    "title": "Bangers and mash",
+    "summary": "Sausages, creamy mash and onion gravy.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Peas",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "keywords": [
+          "sausage",
+          "sausages",
+          "banger",
+          "bangers"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "4 medium"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Gravy",
+        "keywords": [
+          "gravy",
+          "stock",
+          "broth"
+        ],
+        "amount": "1 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the peeled potatoes 20 minutes, then mash with butter, milk and salt.",
+      "Cook the sausages in a pan with oil, turning, 15 minutes.",
+      "Fry the sliced onion in the same pan until soft, and add the gravy.",
+      "Serve everything together."
+    ],
+    "tip": "Prick sausages lightly and cook gently so they do not split."
+  },
+  {
+    "id": "gb-beans-on-toast",
+    "origin": "GB",
+    "title": "Beans on toast with cheese",
+    "summary": "The quickest comfort meal.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Baked beans",
+        "keywords": [
+          "beans",
+          "baked beans"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "2 slices"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Warm the baked beans in a small pan.",
+      "Toast the bread and butter it.",
+      "Spoon the beans over the toast.",
+      "Top with grated cheese."
+    ],
+    "tip": "A dash of Worcestershire sauce adds a nice depth.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "gb-toad-in-the-hole",
+    "origin": "GB",
+    "title": "Toad in the hole",
+    "summary": "Sausages baked in crisp batter.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "Peas and gravy",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "keywords": [
+          "sausage",
+          "sausages",
+          "banger",
+          "bangers"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 220°C and put the oil and sausages in a baking dish for 10 minutes.",
+      "Whisk the eggs, flour, milk and salt into a smooth batter.",
+      "Pour the batter around the hot sausages.",
+      "Bake 30 minutes without opening the oven, until risen and golden."
+    ],
+    "tip": "The oil must be very hot when the batter goes in."
+  },
+  {
+    "id": "gb-jacket-potato-tuna",
+    "origin": "GB",
+    "title": "Jacket potato with tuna",
+    "summary": "A filling lunch.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Side salad",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "2 large"
+      },
+      {
+        "name": "Tuna",
+        "keywords": [
+          "tuna"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Sweetcorn",
+        "keywords": [
+          "sweetcorn",
+          "corn"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200°C and prick the potatoes.",
+      "Bake 50 minutes, until the skin is crisp and the inside soft.",
+      "Mix the tuna with mayonnaise and sweetcorn.",
+      "Split the potatoes, fill and top with cheese."
+    ],
+    "tip": "Microwave 5 minutes first to cut the oven time."
+  },
+  {
+    "id": "gb-cauliflower-cheese",
+    "origin": "GB",
+    "title": "Cauliflower cheese",
+    "summary": "A bubbling, golden bake.",
+    "minutes": 45,
+    "servings": 2,
+    "side": "Bread",
+    "ingredients": [
+      {
+        "name": "Cauliflower",
+        "keywords": [
+          "cauliflower"
+        ],
+        "amount": "1 medium"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the cauliflower florets 6 minutes and drain well.",
+      "Melt the butter, stir in the flour, then add the milk gradually until thick.",
+      "Stir in most of the cheese and salt.",
+      "Pour over the cauliflower, top with cheese and bake 20 minutes at 200°C."
+    ],
+    "tip": "Dry the cauliflower well so the sauce does not turn watery."
+  },
+  {
+    "id": "gb-leek-potato-soup",
+    "origin": "GB",
+    "title": "Leek and potato soup",
+    "summary": "Smooth, warm and simple.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Leek",
+        "keywords": [
+          "leek"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "3 medium"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Stock",
+        "keywords": [
+          "stock",
+          "broth"
+        ],
+        "amount": "4 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Black pepper",
+        "keywords": [
+          "pepper"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Slice the leeks and soften them in butter for 5 minutes.",
+      "Add the diced potatoes and the stock.",
+      "Simmer 20 minutes until the potatoes are soft.",
+      "Blend until smooth and season."
+    ],
+    "tip": "Wash the leeks well: soil hides between the layers."
+  },
+  {
+    "id": "gb-bubble-and-squeak",
+    "origin": "GB",
+    "title": "Bubble and squeak",
+    "summary": "The best way to use leftovers.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Fried egg",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "3 cooked"
+      },
+      {
+        "name": "Cabbage",
+        "keywords": [
+          "cabbage"
+        ],
+        "amount": "1 cup cooked",
+        "kind": "optional"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mash the cooked potato and mix it with the chopped cooked cabbage.",
+      "Shape into patties and season.",
+      "Fry in oil over medium heat 4 to 5 minutes per side, until crisp.",
+      "Serve topped with a fried egg."
+    ],
+    "tip": "Press the patties well so they hold together."
+  },
+  {
+    "id": "gb-ploughmans-lunch",
+    "origin": "GB",
+    "title": "Ploughman's lunch",
+    "summary": "No cooking: cheese, bread and pickle.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "150 g"
+      },
+      {
+        "name": "Ham",
+        "keywords": [
+          "cooked ham"
+        ],
+        "amount": "4 slices",
+        "kind": "optional"
+      },
+      {
+        "name": "Apple",
+        "keywords": [
+          "apple"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Pickle",
+        "keywords": [
+          "pickle",
+          "chutney"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Slice the cheese, the ham and the apple.",
+      "Arrange on a board with the bread.",
+      "Add the pickle on the side."
+    ],
+    "tip": "Let the cheese come to room temperature for more flavour."
+  },
+  {
+    "id": "gb-sausage-casserole",
+    "origin": "GB",
+    "title": "Sausage casserole",
+    "summary": "A one-pot winter dinner.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "Green beans",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "keywords": [
+          "sausage",
+          "sausages",
+          "banger",
+          "bangers"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "3 medium"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato",
+          "tomatoes",
+          "chopped tomatoes"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Stock",
+        "keywords": [
+          "stock",
+          "broth",
+          "water"
+        ],
+        "amount": "1 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Brown the sausages in a pot with oil and reserve.",
+      "Soften the onion and carrot 5 minutes.",
+      "Add the tomatoes, stock, potatoes and the sausages cut into chunks.",
+      "Simmer covered 35 minutes, until everything is tender."
+    ],
+    "tip": "A spoonful of mustard stirred in at the end adds a lift."
+  },
+  {
+    "id": "gb-oven-fish-and-chips",
+    "origin": "GB",
+    "title": "Oven fish and chips",
+    "summary": "Lighter than the takeaway.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "White fish",
+        "keywords": [
+          "fish",
+          "cod",
+          "haddock",
+          "white fish",
+          "fish fillet"
+        ],
+        "amount": "2 fillets"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "3 medium"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "peas",
+          "pea"
+        ],
+        "amount": "1 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Lemon",
+        "keywords": [
+          "lemon"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 220°C. Cut the potatoes into chips and toss with oil and salt.",
+      "Bake the chips 30 minutes, turning once.",
+      "Season the fish with salt and lemon and add it to the tray for the last 12 minutes.",
+      "Serve with the peas."
+    ],
+    "tip": "Dry the chips well before oiling for a crisper finish."
+  },
+  {
+    "id": "gb-kedgeree",
+    "origin": "GB",
+    "title": "Kedgeree",
+    "summary": "Rice, eggs and curry flavours.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Smoked fish or tuna",
+        "keywords": [
+          "haddock",
+          "smoked haddock",
+          "fish",
+          "tuna",
+          "salmon"
+        ],
+        "amount": "1 fillet or can"
+      },
+      {
+        "name": "Curry powder",
+        "keywords": [
+          "curry powder",
+          "curry"
+        ],
+        "amount": "2 teaspoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the rice in salted water and drain.",
+      "Boil the eggs 9 minutes, peel and quarter.",
+      "Fry the chopped onion in butter, add the curry powder and the flaked fish.",
+      "Fold in the rice, season, and top with the eggs."
+    ],
+    "tip": "Keep the eggs slightly soft in the middle for a creamier dish.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "gb-welsh-rarebit",
+    "origin": "GB",
+    "title": "Welsh rarebit",
+    "summary": "Cheese on toast, upgraded.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Tomato salad",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Mustard",
+        "keywords": [
+          "mustard"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Mix the grated cheese with the mustard, milk and egg yolk.",
+      "Toast the bread on one side.",
+      "Spread the mixture over the untoasted side.",
+      "Grill until bubbling and golden."
+    ],
+    "tip": "Watch it closely under the grill: it browns in seconds.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "gb-chicken-leek-pasta",
+    "origin": "GB",
+    "title": "Creamy chicken and leek pasta",
+    "summary": "A quick supper.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "penne",
+          "fusilli",
+          "tagliatelle"
+        ],
+        "amount": "250 g"
+      },
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast"
+        ],
+        "amount": "1 breast"
+      },
+      {
+        "name": "Leek",
+        "keywords": [
+          "leek"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cream",
+        "keywords": [
+          "cream",
+          "milk"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the pasta in salted water.",
+      "Fry the diced chicken and the sliced leek in oil for 8 minutes.",
+      "Add the cream and simmer 3 minutes.",
+      "Mix with the pasta and the cheese."
+    ],
+    "tip": "Add a spoonful of pasta water to make the sauce silky."
+  },
+  {
+    "id": "us-blt",
+    "origin": "US",
+    "title": "BLT sandwich",
+    "summary": "Crispy bacon, lettuce and tomato.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Chips or a pickle",
+    "ingredients": [
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "6 slices"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce"
+        ],
+        "amount": "4 leaves"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato"
+        ],
+        "amount": "1 large"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cook the bacon in a skillet until crisp and drain on paper towels.",
+      "Toast the bread.",
+      "Spread mayonnaise on the toast.",
+      "Layer bacon, lettuce and sliced tomato and close the sandwiches."
+    ],
+    "tip": "Salt the tomato slices lightly for more flavor."
+  },
+  {
+    "id": "us-chicken-fajitas",
+    "origin": "US",
+    "title": "Chicken fajitas",
+    "summary": "Sizzling strips with peppers and onion.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Rice and beans",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "chicken thigh"
+        ],
+        "amount": "2 breasts"
+      },
+      {
+        "name": "Bell pepper",
+        "keywords": [
+          "bell pepper",
+          "pepper",
+          "peppers"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Tortillas",
+        "keywords": [
+          "tortilla",
+          "tortillas"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Fajita seasoning",
+        "keywords": [
+          "fajita seasoning",
+          "taco seasoning",
+          "cumin",
+          "chili powder"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Slice the chicken, peppers and onion into thin strips.",
+      "Cook the chicken in oil over high heat 5 minutes with the seasoning and salt.",
+      "Add the peppers and onion and cook 5 more minutes.",
+      "Warm the tortillas and fill them."
+    ],
+    "tip": "Cook over high heat so the vegetables char slightly."
+  },
+  {
+    "id": "us-breakfast-burritos",
+    "origin": "US",
+    "title": "Breakfast burritos",
+    "summary": "Eggs, cheese and potatoes in a tortilla.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Tortillas",
+        "keywords": [
+          "tortilla",
+          "tortillas"
+        ],
+        "amount": "2 large"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "1 small",
+        "kind": "optional"
+      },
+      {
+        "name": "Bacon or sausage",
+        "keywords": [
+          "bacon",
+          "sausage"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Dice the potato and cook in oil until golden, about 8 minutes.",
+      "Scramble the eggs with salt in the same pan.",
+      "Warm the tortillas and fill with eggs, potato, cheese and meat.",
+      "Fold in the sides and roll up."
+    ],
+    "tip": "Wrap tightly in foil to keep them warm and make them easy to carry.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "us-stuffed-peppers",
+    "origin": "US",
+    "title": "Stuffed bell peppers",
+    "summary": "Rice and beef baked inside the peppers.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bell pepper",
+        "keywords": [
+          "bell pepper",
+          "pepper",
+          "peppers"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup cooked"
+      },
+      {
+        "name": "Tomato sauce",
+        "keywords": [
+          "tomato sauce",
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar",
+          "mozzarella"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1 small",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 375°F (190°C) and cut the tops off the peppers; remove the seeds.",
+      "Cook the chopped onion and the beef in oil until browned and mix with the rice and sauce.",
+      "Fill the peppers and stand them in a baking dish.",
+      "Bake 35 minutes, top with cheese and bake 5 more."
+    ],
+    "tip": "Parboil the peppers 3 minutes if you like them very soft."
+  },
+  {
+    "id": "us-baked-potato-soup",
+    "origin": "US",
+    "title": "Baked potato soup",
+    "summary": "Creamy, with cheese and bacon.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Crackers",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "4 medium"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "3 slices",
+        "kind": "optional"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1 small",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Peel and cube the potatoes and boil them in salted water 15 minutes.",
+      "Cook the chopped onion in butter, add the drained potatoes and the milk.",
+      "Mash part of the potatoes and simmer 10 minutes.",
+      "Stir in the cheese and top with crumbled bacon."
+    ],
+    "tip": "Mash only half the potatoes to keep some texture."
+  },
+  {
+    "id": "us-egg-salad-sandwich",
+    "origin": "US",
+    "title": "Egg salad sandwich",
+    "summary": "Simple and filling.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Fruit",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "3 tablespoons"
+      },
+      {
+        "name": "Celery",
+        "keywords": [
+          "celery"
+        ],
+        "amount": "1 stalk",
+        "kind": "optional"
+      },
+      {
+        "name": "Mustard",
+        "keywords": [
+          "mustard"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the eggs 10 minutes, cool in cold water and peel.",
+      "Chop the eggs and mix with the mayonnaise, mustard, diced celery and salt.",
+      "Spread on the bread.",
+      "Close the sandwiches and cut in half."
+    ],
+    "tip": "Cool the eggs completely before mixing so the salad isn't runny.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "us-beef-and-broccoli",
+    "origin": "US",
+    "title": "Beef and broccoli stir-fry",
+    "summary": "Better than takeout.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Steamed rice",
+    "ingredients": [
+      {
+        "name": "Beef",
+        "keywords": [
+          "beef",
+          "steak",
+          "flank",
+          "sirloin"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Broccoli",
+        "keywords": [
+          "broccoli"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Soy sauce",
+        "keywords": [
+          "soy sauce",
+          "soy"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Slice the beef thinly against the grain.",
+      "Stir-fry the beef in hot oil 3 minutes and set aside.",
+      "Cook the broccoli florets with a splash of water 4 minutes.",
+      "Return the beef, add the soy sauce and toss for 1 minute."
+    ],
+    "tip": "Freeze the beef 20 minutes first: it's easier to slice thin."
+  },
+  {
+    "id": "us-chicken-wraps",
+    "origin": "US",
+    "title": "Chicken salad wraps",
+    "summary": "No cooking if you use leftover chicken.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "chicken thigh"
+        ],
+        "amount": "1 cup cooked"
+      },
+      {
+        "name": "Tortillas",
+        "keywords": [
+          "tortilla",
+          "tortillas"
+        ],
+        "amount": "2 large"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce"
+        ],
+        "amount": "a handful"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Shred or dice the cooked chicken and mix with the mayonnaise and salt.",
+      "Lay the lettuce and tomato on each tortilla.",
+      "Add the chicken salad.",
+      "Roll up tightly and cut in half."
+    ],
+    "tip": "Warm the tortillas for a few seconds so they roll without cracking."
+  },
+  {
+    "id": "us-meatball-subs",
+    "origin": "US",
+    "title": "Meatball subs",
+    "summary": "Saucy and cheesy.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "keywords": [
+          "ground beef",
+          "beef",
+          "minced beef",
+          "mince"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Rolls",
+        "keywords": [
+          "roll",
+          "rolls",
+          "bun",
+          "buns",
+          "hoagie",
+          "bread"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Tomato sauce",
+        "keywords": [
+          "tomato sauce",
+          "marinara",
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "mozzarella"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Breadcrumbs",
+        "keywords": [
+          "breadcrumbs",
+          "bread crumbs"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the beef with the egg, breadcrumbs and salt and shape into small balls.",
+      "Brown them in a skillet, add the tomato sauce and simmer 15 minutes.",
+      "Fill the rolls with meatballs and sauce.",
+      "Top with cheese and broil 2 minutes until melted."
+    ],
+    "tip": "Make the balls the same size so they cook evenly."
+  },
+  {
+    "id": "us-cheesy-tomato-pasta-bake",
+    "origin": "US",
+    "title": "Cheesy tomato pasta bake",
+    "summary": "A crowd-pleaser.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Green salad",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "penne",
+          "macaroni",
+          "rigatoni",
+          "ziti"
+        ],
+        "amount": "8 oz"
+      },
+      {
+        "name": "Tomato sauce",
+        "keywords": [
+          "tomato sauce",
+          "marinara",
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "mozzarella",
+          "cheddar"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1/2",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 400°F (200°C) and cook the pasta until almost tender.",
+      "Warm the sauce with the chopped onion and a pinch of salt.",
+      "Mix the pasta with the sauce in a baking dish and cover with cheese.",
+      "Bake 15 minutes, until bubbling and golden."
+    ],
+    "tip": "Undercook the pasta a minute: it will finish cooking in the oven."
+  },
+  {
+    "id": "gb-cottage-pie",
+    "origin": "GB",
+    "title": "Cottage pie",
+    "summary": "Beef mince under a mashed potato top.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Peas",
+    "ingredients": [
+      {
+        "name": "Minced beef",
+        "keywords": [
+          "mince",
+          "minced beef",
+          "ground beef",
+          "beef"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "4 medium"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato",
+          "tomatoes",
+          "tomato puree",
+          "chopped tomatoes"
+        ],
+        "amount": "1/2 can",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the peeled potatoes 20 minutes and mash with butter and salt.",
+      "Cook the chopped onion, carrot and mince in oil 10 minutes.",
+      "Add the tomato and a splash of water and simmer 10 minutes.",
+      "Spread the mince in a dish, top with mash and bake 20 minutes at 200°C."
+    ],
+    "tip": "Run a fork over the mash for a golden, crunchy top."
+  },
+  {
+    "id": "gb-chicken-curry",
+    "origin": "GB",
+    "title": "Easy chicken curry",
+    "summary": "A weeknight favourite.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Rice and naan",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "chicken thigh"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato",
+          "tomatoes",
+          "chopped tomatoes"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Curry powder",
+        "keywords": [
+          "curry powder",
+          "curry"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Fry the chopped onion in oil until soft, about 5 minutes.",
+      "Add the curry powder and cook 1 minute, then add the diced chicken.",
+      "Pour in the tomatoes, add salt and simmer 20 minutes.",
+      "Serve over cooked rice."
+    ],
+    "tip": "Frying the curry powder first brings out its flavour."
+  },
+  {
+    "id": "gb-tuna-pasta-bake",
+    "origin": "GB",
+    "title": "Tuna pasta bake",
+    "summary": "Cheesy, cheap and easy.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "keywords": [
+          "pasta",
+          "penne",
+          "fusilli",
+          "macaroni"
+        ],
+        "amount": "8 oz"
+      },
+      {
+        "name": "Tuna",
+        "keywords": [
+          "tuna"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sweetcorn",
+        "keywords": [
+          "sweetcorn",
+          "corn"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the pasta in salted water and drain.",
+      "Melt the butter, stir in the flour, then add the milk gradually until thick.",
+      "Mix in half the cheese, then the pasta, tuna and sweetcorn.",
+      "Put in a dish, top with cheese and bake 15 minutes at 200°C."
+    ],
+    "tip": "A little mustard in the sauce wakes up the flavour."
+  },
+  {
+    "id": "gb-ham-cheese-toastie",
+    "origin": "GB",
+    "title": "Ham and cheese toastie",
+    "summary": "Quick, hot and satisfying.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "Tomato soup",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Ham",
+        "keywords": [
+          "cooked ham"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Butter the outside of the bread.",
+      "Fill with ham and cheese.",
+      "Toast in a pan over medium heat 3 minutes per side.",
+      "Cut in half and serve."
+    ],
+    "tip": "Press down gently with a spatula for even browning.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "gb-carrot-lentil-soup",
+    "origin": "GB",
+    "title": "Carrot and lentil soup",
+    "summary": "Thick, warming and cheap.",
+    "minutes": 35,
+    "servings": 2,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Lentils",
+        "keywords": [
+          "lentil",
+          "lentils",
+          "red lentils"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Stock",
+        "keywords": [
+          "stock",
+          "broth",
+          "water"
+        ],
+        "amount": "4 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Chop the carrots and onion and soften them in oil 5 minutes.",
+      "Add the rinsed lentils and the stock.",
+      "Simmer 20 minutes until everything is soft.",
+      "Blend until smooth and season."
+    ],
+    "tip": "A squeeze of lemon at the end makes the flavours pop."
+  },
+  {
+    "id": "gb-cheese-potato-pie",
+    "origin": "GB",
+    "title": "Cheese and potato pie",
+    "summary": "A classic comfort bake.",
+    "minutes": 50,
+    "servings": 2,
+    "side": "Baked beans",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato"
+        ],
+        "amount": "4 medium"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the peeled potatoes 20 minutes and mash with butter, milk and salt.",
+      "Fry the sliced onion until soft.",
+      "Layer mash, onion and cheese in a dish and finish with cheese on top.",
+      "Bake 25 minutes at 200°C, until golden."
+    ],
+    "tip": "Use a strong cheddar: it holds its flavour in the oven."
+  },
+  {
+    "id": "gb-bacon-and-egg-roll",
+    "origin": "GB",
+    "title": "Bacon and egg roll",
+    "summary": "The classic breakfast sandwich.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "4 rashers"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Bread rolls",
+        "keywords": [
+          "roll",
+          "rolls",
+          "bun",
+          "buns",
+          "bread"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Grill or fry the bacon until crisp.",
+      "Fry the eggs in the bacon fat or a little butter.",
+      "Split and toast the rolls.",
+      "Fill with the bacon and the eggs."
+    ],
+    "tip": "For a runny yolk, take the egg off the heat while the white is just set.",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "gb-fish-finger-sandwich",
+    "origin": "GB",
+    "title": "Fish finger sandwich",
+    "summary": "Crispy fish in soft bread.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Peas",
+    "ingredients": [
+      {
+        "name": "Fish fingers",
+        "keywords": [
+          "fish finger",
+          "fish fingers"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce"
+        ],
+        "amount": "a few leaves",
+        "kind": "optional"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo",
+          "tartare sauce"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the fish fingers in the oven or in a pan until golden and hot, about 12 minutes.",
+      "Spread the bread with mayonnaise.",
+      "Add the lettuce and the fish fingers.",
+      "Close the sandwiches."
+    ],
+    "tip": "Bake them on a hot tray so the bottoms stay crisp."
+  },
+  {
+    "id": "ca-poutine",
+    "origin": "CA",
+    "title": "Poutine",
+    "summary": "Fries with cheese curds and gravy.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "3 medium"
+      },
+      {
+        "name": "Cheese curds or mozzarella",
+        "keywords": [
+          "cheese curds",
+          "cheese",
+          "mozzarella"
+        ],
+        "amount": "5 oz"
+      },
+      {
+        "name": "Gravy",
+        "keywords": [
+          "gravy"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 425°F (220°C) and cut the potatoes into sticks.",
+      "Toss with oil and salt and bake 30 minutes, turning once.",
+      "Warm the gravy.",
+      "Pile the fries on a plate, top with the cheese and pour over the hot gravy."
+    ],
+    "tip": "The gravy must be very hot so the cheese melts."
+  },
+  {
+    "id": "ca-maple-salmon",
+    "origin": "CA",
+    "title": "Maple glazed salmon",
+    "summary": "Salmon fillets with a sweet-savory glaze.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Rice and steamed broccoli",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "keywords": [
+          "salmon"
+        ],
+        "amount": "2 fillets"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "maple"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Soy sauce",
+        "keywords": [
+          "soy sauce",
+          "soy"
+        ],
+        "amount": "1 tablespoon"
+      },
+      {
+        "name": "Garlic",
+        "keywords": [
+          "garlic"
+        ],
+        "amount": "1 clove",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the maple syrup, soy sauce and minced garlic.",
+      "Heat the oil in a skillet and sear the salmon 3 minutes per side.",
+      "Pour the glaze over and cook 2 minutes, spooning it over the fish.",
+      "Serve with rice or vegetables."
+    ],
+    "tip": "Don't use pancake syrup: pure maple syrup gives the best flavor."
+  },
+  {
+    "id": "ca-split-pea-soup",
+    "origin": "CA",
+    "title": "Split pea soup",
+    "summary": "A thick, hearty soup.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Bread",
+    "ingredients": [
+      {
+        "name": "Split peas",
+        "keywords": [
+          "split peas",
+          "peas",
+          "lentils"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 medium",
+        "kind": "optional"
+      },
+      {
+        "name": "Ham or bacon",
+        "keywords": [
+          "ham",
+          "bacon"
+        ],
+        "amount": "2 oz",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Water or broth",
+        "keywords": [
+          "water",
+          "broth"
+        ],
+        "amount": "5 cups",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Rinse the split peas.",
+      "Put them in a pot with the water, chopped onion, carrot and potato.",
+      "Simmer 45 minutes, stirring now and then, until soft.",
+      "Season, mash part of the soup and add the ham."
+    ],
+    "tip": "The longer it simmers, the thicker it gets."
+  },
+  {
+    "id": "ca-peameal-sandwich",
+    "origin": "CA",
+    "title": "Peameal bacon sandwich",
+    "summary": "The Toronto classic on a bun.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Pickles",
+    "ingredients": [
+      {
+        "name": "Peameal or back bacon",
+        "keywords": [
+          "bacon",
+          "peameal",
+          "back bacon",
+          "ham"
+        ],
+        "amount": "6 slices"
+      },
+      {
+        "name": "Bread rolls",
+        "keywords": [
+          "rolls",
+          "bread",
+          "buns"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Mustard",
+        "keywords": [
+          "mustard"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat a skillet with a little oil.",
+      "Cook the bacon slices 3 minutes per side.",
+      "Toast the rolls and spread with mustard.",
+      "Fill with the bacon."
+    ],
+    "tip": "Pile it high for a proper sandwich."
+  },
+  {
+    "id": "ca-bannock",
+    "origin": "CA",
+    "title": "Bannock",
+    "summary": "Quick pan bread with no yeast.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Jam or soup",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Baking powder",
+        "keywords": [
+          "baking powder"
+        ],
+        "amount": "1 tablespoon"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter",
+          "oil"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Water",
+        "keywords": [
+          "water"
+        ],
+        "amount": "3/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the flour, baking powder and salt.",
+      "Rub in the butter and add the water to make a soft dough.",
+      "Flatten into a disc about 1 inch thick.",
+      "Cook in a greased skillet over medium heat 8 minutes per side."
+    ],
+    "tip": "Don't knead it too much: it keeps it tender.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "ca-maple-baked-beans",
+    "origin": "CA",
+    "title": "Maple baked beans",
+    "summary": "Beans simmered with maple and bacon.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Toast",
+    "ingredients": [
+      {
+        "name": "Beans",
+        "keywords": [
+          "beans",
+          "white beans",
+          "haricot beans"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "maple"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "2 slices",
+        "kind": "optional"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Mustard",
+        "keywords": [
+          "mustard"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped bacon and onion in a pot until soft.",
+      "Add the drained beans, maple syrup, mustard and a splash of water.",
+      "Simmer over low heat 25 minutes, until thick.",
+      "Season and serve."
+    ],
+    "tip": "Stir now and then so they don't stick."
+  },
+  {
+    "id": "us-pancakes",
+    "origin": "US",
+    "title": "Fluffy pancakes",
+    "summary": "Weekend breakfast made with pantry basics.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Fruit",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "3/4 cup"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Baking powder",
+        "keywords": [
+          "baking powder"
+        ],
+        "amount": "2 teaspoons"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "syrup",
+          "honey"
+        ],
+        "amount": "to serve",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Mix the flour, baking powder and sugar.",
+      "Whisk in the milk, egg and melted butter until just combined.",
+      "Pour small rounds onto a hot greased skillet and cook until bubbles form.",
+      "Flip and cook 1 more minute, then serve with syrup."
+    ],
+    "tip": "Don't overmix: a few lumps make them fluffier.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "us-french-toast",
+    "origin": "US",
+    "title": "French toast",
+    "summary": "Eggy bread with cinnamon.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread",
+          "sliced bread",
+          "brioche"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Cinnamon",
+        "keywords": [
+          "cinnamon"
+        ],
+        "amount": "1/2 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "syrup",
+          "honey"
+        ],
+        "amount": "to serve",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Whisk the eggs, milk and cinnamon in a shallow dish.",
+      "Dip each slice of bread until soaked.",
+      "Fry in a buttered skillet 2 to 3 minutes per side, until golden.",
+      "Serve with syrup or fruit."
+    ],
+    "tip": "Slightly stale bread soaks up the custard best.",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "us-tuna-salad-sandwich",
+    "origin": "US",
+    "title": "Tuna salad sandwich",
+    "summary": "Creamy tuna with crunch.",
+    "minutes": 10,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "keywords": [
+          "tuna"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Mayonnaise",
+        "keywords": [
+          "mayonnaise",
+          "mayo"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Celery",
+        "keywords": [
+          "celery"
+        ],
+        "amount": "1 stalk",
+        "kind": "optional"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread",
+          "sliced bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce"
+        ],
+        "amount": "a few leaves",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Drain the tuna and mash with the mayonnaise.",
+      "Stir in the chopped celery and salt.",
+      "Toast the bread if you like.",
+      "Fill the sandwiches with the tuna salad and lettuce."
+    ],
+    "tip": "A squeeze of lemon freshens it up."
+  },
+  {
+    "id": "us-shrimp-scampi",
+    "origin": "US",
+    "title": "Shrimp scampi pasta",
+    "summary": "Garlic butter shrimp over spaghetti.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "keywords": [
+          "spaghetti",
+          "pasta",
+          "linguine"
+        ],
+        "amount": "8 oz"
+      },
+      {
+        "name": "Shrimp",
+        "keywords": [
+          "shrimp",
+          "prawns"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Garlic",
+        "keywords": [
+          "garlic"
+        ],
+        "amount": "3 cloves"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Lemon",
+        "keywords": [
+          "lemon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Parsley",
+        "keywords": [
+          "parsley"
+        ],
+        "amount": "1 handful",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the pasta in salted water until al dente.",
+      "Melt the butter in a skillet and cook the garlic 1 minute.",
+      "Add the shrimp and cook 3 minutes per side, with the lemon juice and salt.",
+      "Toss with the pasta and parsley."
+    ],
+    "tip": "Don't overcook the shrimp: they turn rubbery."
+  },
+  {
+    "id": "us-chicken-and-rice-casserole",
+    "origin": "US",
+    "title": "Chicken and rice bake",
+    "summary": "One dish, no stirring.",
+    "minutes": 55,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken thigh",
+          "chicken breast"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Chicken broth",
+        "keywords": [
+          "broth",
+          "stock",
+          "chicken broth"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 375°F (190°C) and sauté the chopped onion in oil.",
+      "Put the rice, onion, broth and salt in a baking dish and top with the chicken.",
+      "Cover with foil and bake 40 minutes.",
+      "Sprinkle with cheese and bake 5 minutes more."
+    ],
+    "tip": "Use raw long-grain rice, not instant."
+  },
+  {
+    "id": "gb-fish-pie",
+    "origin": "GB",
+    "title": "Fish pie",
+    "summary": "Fish in white sauce under mashed potato.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "White fish",
+        "keywords": [
+          "fish",
+          "cod",
+          "haddock",
+          "white fish",
+          "salmon"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "peas"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the potatoes, mash with a little butter and salt.",
+      "Make a white sauce: melt butter, stir in flour then milk until thick.",
+      "Add the fish in chunks and the peas and spoon into a dish.",
+      "Top with the mash and bake 25 minutes at 400°F (200°C)."
+    ],
+    "tip": "Add a little grated cheese to the mash for a golden top."
+  },
+  {
+    "id": "gb-roast-chicken-dinner",
+    "origin": "GB",
+    "title": "Roast chicken and potatoes",
+    "summary": "Sunday roast, weekday size.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "Gravy",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken thigh",
+          "drumstick"
+        ],
+        "amount": "1 1/2 lb"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 425°F (220°C).",
+      "Toss the potatoes, carrots and onion with oil and salt in a tray.",
+      "Place the seasoned chicken on top.",
+      "Roast 45 minutes, turning the potatoes halfway."
+    ],
+    "tip": "Rest the chicken 5 minutes before carving."
+  },
+  {
+    "id": "gb-egg-and-chips",
+    "origin": "GB",
+    "title": "Egg and chips",
+    "summary": "The classic greasy-spoon plate.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "3 medium"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "vegetable oil"
+        ],
+        "amount": "1 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Baked beans",
+        "keywords": [
+          "baked beans",
+          "beans"
+        ],
+        "amount": "1/2 can",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cut the potatoes into thick chips and soak 10 minutes.",
+      "Dry well and fry in hot oil until golden.",
+      "Fry the eggs.",
+      "Serve together with beans."
+    ],
+    "tip": "Dry the chips completely so they don't spit."
+  },
+  {
+    "id": "gb-vegetable-soup",
+    "origin": "GB",
+    "title": "Hearty vegetable soup",
+    "summary": "Whatever is in the fridge.",
+    "minutes": 40,
+    "servings": 2,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Celery",
+        "keywords": [
+          "celery"
+        ],
+        "amount": "1 stalk",
+        "kind": "optional"
+      },
+      {
+        "name": "Vegetable stock",
+        "keywords": [
+          "stock",
+          "broth"
+        ],
+        "amount": "4 cups"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Sauté the chopped onion and celery in oil.",
+      "Add the diced carrot and potato.",
+      "Pour in the stock, season and simmer 25 minutes.",
+      "Mash roughly or blend for a thicker soup."
+    ],
+    "tip": "Serve with buttered bread."
+  },
+  {
+    "id": "ca-tourtiere-simple",
+    "origin": "CA",
+    "title": "Simple tourtière",
+    "summary": "Spiced pork and potato pie.",
+    "minutes": 60,
+    "servings": 2,
+    "side": "",
+    "ingredients": [
+      {
+        "name": "Ground pork",
+        "keywords": [
+          "pork",
+          "ground pork",
+          "ground beef"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 medium"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Pie crust",
+        "keywords": [
+          "pie crust",
+          "pastry",
+          "puff pastry"
+        ],
+        "amount": "2 sheets"
+      },
+      {
+        "name": "Cinnamon",
+        "keywords": [
+          "cinnamon"
+        ],
+        "amount": "1/2 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 400°F (200°C) and boil the diced potato 10 minutes.",
+      "Cook the onion and pork with the spices and salt; mix in the mashed potato.",
+      "Line a dish with one crust, fill and cover with the other.",
+      "Bake 35 minutes, until golden."
+    ],
+    "tip": "Better the next day."
+  },
+  {
+    "id": "ca-hot-chicken-sandwich",
+    "origin": "CA",
+    "title": "Hot chicken sandwich",
+    "summary": "Open-faced, with gravy and peas.",
+    "minutes": 30,
+    "servings": 2,
+    "side": "Fries",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "turkey"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread",
+          "sliced bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Gravy",
+        "keywords": [
+          "gravy"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "peas"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chicken with salt until done and shred it.",
+      "Toast the bread slices.",
+      "Warm the gravy.",
+      "Pile chicken on the bread, add peas and pour the gravy on top."
+    ],
+    "tip": "Leftover roast chicken works great."
+  },
+  {
+    "id": "us-buffalo-chicken-wraps",
+    "title": "Buffalo chicken wraps",
+    "summary": "Tortillas filled with spicy chicken, lettuce and a cool dressing.",
+    "minutes": 20,
+    "servings": 3,
+    "side": "Carrot sticks",
+    "ingredients": [
+      {
+        "name": "Cooked chicken",
+        "keywords": [
+          "chicken",
+          "chicken breast",
+          "rotisserie chicken"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Hot sauce",
+        "keywords": [
+          "hot sauce",
+          "buffalo sauce"
+        ],
+        "amount": "3 tablespoons"
+      },
+      {
+        "name": "Flour tortillas",
+        "keywords": [
+          "tortilla",
+          "tortillas",
+          "wrap",
+          "wraps"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce",
+          "romaine"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Ranch dressing",
+        "keywords": [
+          "ranch",
+          "dressing",
+          "sour cream"
+        ],
+        "amount": "4 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Shred the cooked chicken.",
+      "Warm the hot sauce with the butter and toss the chicken in it.",
+      "Spread the tortillas with the ranch dressing and add the lettuce.",
+      "Add the chicken, roll tightly and cut in half."
+    ],
+    "tip": "Toss the chicken in the hot sauce while it is still warm so it soaks it up.",
+    "origin": "US"
+  },
+  {
+    "id": "us-black-bean-rice-bowl",
+    "title": "Black bean and rice bowl",
+    "summary": "Rice topped with black beans, corn, tomato and cheese.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Lime wedges",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Black beans",
+        "keywords": [
+          "black beans",
+          "beans"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Corn",
+        "keywords": [
+          "corn",
+          "sweet corn"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "2 oz",
+        "kind": "optional"
+      },
+      {
+        "name": "Avocado",
+        "keywords": [
+          "avocado"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the rice with salt.",
+      "Warm the rinsed black beans and the corn in a pan.",
+      "Dice the tomato.",
+      "Build the bowls with rice, beans, corn, tomato, cheese and avocado."
+    ],
+    "tip": "Rinse the canned beans well to remove the extra salt.",
+    "origin": "US"
+  },
+  {
+    "id": "gb-cullen-skink",
+    "title": "Cullen skink",
+    "summary": "Scottish creamy soup of smoked haddock, potato and onion.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Smoked haddock",
+        "keywords": [
+          "haddock",
+          "smoked haddock",
+          "smoked fish",
+          "cod"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion in the butter until soft.",
+      "Add the diced potatoes and enough water to cover; simmer for 15 minutes.",
+      "Add the haddock and the milk and cook gently for 8 minutes.",
+      "Flake the fish, mash some of the potato to thicken and season."
+    ],
+    "tip": "Do not boil the milk hard once the fish is in or it can split.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-pea-and-ham-soup",
+    "title": "Pea and ham soup",
+    "summary": "Thick green soup of peas and ham, made with a stock cube.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Buttered toast",
+    "ingredients": [
+      {
+        "name": "Frozen peas",
+        "keywords": [
+          "peas",
+          "frozen peas",
+          "green peas"
+        ],
+        "amount": "14 oz"
+      },
+      {
+        "name": "Ham",
+        "keywords": [
+          "ham",
+          "gammon",
+          "bacon"
+        ],
+        "amount": "5 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Stock",
+        "keywords": [
+          "stock",
+          "broth",
+          "stock cube"
+        ],
+        "amount": "4 cups"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion and the diced potato in a little stock for 10 minutes.",
+      "Add the rest of the stock and the peas and simmer for 10 minutes.",
+      "Blend about two thirds of the soup.",
+      "Stir in the diced ham, heat through and season."
+    ],
+    "tip": "Blend only part of the soup to keep a little texture.",
+    "origin": "GB"
+  },
+  {
+    "id": "ca-salmon-chowder",
+    "title": "Salmon chowder",
+    "summary": "Creamy soup of salmon, potato and corn.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Crackers",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "keywords": [
+          "salmon",
+          "fish"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Corn",
+        "keywords": [
+          "corn",
+          "sweet corn"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the chopped onion in the butter until soft.",
+      "Add the diced potatoes, the corn and enough water to cover and simmer for 15 minutes.",
+      "Pour in the milk and add the salmon in chunks.",
+      "Cook gently for 8 minutes and season."
+    ],
+    "tip": "Add the salmon at the end so it stays tender and does not dry out.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-maple-bacon-pancakes",
+    "title": "Maple bacon pancakes",
+    "summary": "Fluffy pancakes with crisp bacon and maple syrup.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Fresh fruit",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Baking powder",
+        "keywords": [
+          "baking powder"
+        ],
+        "amount": "2 teaspoons"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "syrup"
+        ],
+        "amount": "4 tablespoons"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the bacon in a pan until crisp and set it on paper towels.",
+      "Mix the flour, baking powder, a pinch of salt, the egg and the milk into a batter.",
+      "Cook ladlefuls of batter in the bacon fat until golden on both sides.",
+      "Serve the pancakes with the crumbled bacon and the maple syrup."
+    ],
+    "tip": "Do not overmix the batter: a few lumps make the pancakes fluffier.",
+    "origin": "CA",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "us-beef-stew",
+    "title": "Beef stew",
+    "summary": "Tender beef stew with potatoes and carrots, comforting and hearty.",
+    "minutes": 90,
+    "servings": 4,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Beef chuck cubes",
+        "keywords": [
+          "beef",
+          "chuck",
+          "stew meat",
+          "steak"
+        ],
+        "amount": "1.1 lb"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Beef broth",
+        "keywords": [
+          "broth",
+          "stock",
+          "bouillon"
+        ],
+        "amount": "3 cups",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Brown the beef cubes in oil in batches and set aside.",
+      "Soften the onion, add the beef and the broth and simmer covered for 45 minutes.",
+      "Add the potatoes and carrots in chunks.",
+      "Cook 30 more minutes until everything is tender."
+    ],
+    "tip": "Brown the beef in batches so it sears instead of steaming.",
+    "origin": "US"
+  },
+  {
+    "id": "us-tuna-noodle-casserole",
+    "title": "Tuna noodle casserole",
+    "summary": "Baked noodles with tuna, peas and a creamy sauce.",
+    "minutes": 40,
+    "servings": 4,
+    "side": "Green salad",
+    "ingredients": [
+      {
+        "name": "Egg noodles",
+        "keywords": [
+          "noodle",
+          "noodles",
+          "pasta"
+        ],
+        "amount": "9 oz"
+      },
+      {
+        "name": "Canned tuna",
+        "keywords": [
+          "tuna"
+        ],
+        "amount": "2 cans"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "pea",
+          "peas"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Cream sauce or cream of mushroom soup",
+        "keywords": [
+          "cream",
+          "sauce",
+          "soup",
+          "milk"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Shredded cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the noodles 2 minutes less than directed and drain.",
+      "Mix with the drained tuna, peas and cream sauce.",
+      "Transfer to a baking dish and top with shredded cheese.",
+      "Bake for 20 minutes in a medium oven until bubbly and golden."
+    ],
+    "tip": "Undercook the noodles slightly: they finish cooking in the oven.",
+    "origin": "US"
+  },
+  {
+    "id": "us-cornbread",
+    "title": "Cornbread",
+    "summary": "Sweet, crumbly cornmeal bread to serve with stews and chili.",
+    "minutes": 40,
+    "servings": 6,
+    "side": "Butter and honey",
+    "ingredients": [
+      {
+        "name": "Cornmeal",
+        "keywords": [
+          "cornmeal",
+          "corn meal",
+          "polenta"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Melted butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1/3 cup"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the cornmeal and flour with the sugar and salt.",
+      "Add the milk, eggs and melted butter and stir just until combined.",
+      "Pour into a buttered pan.",
+      "Bake for 25 minutes in a medium oven until golden."
+    ],
+    "tip": "Do not overmix the batter: barely combined makes it more tender.",
+    "origin": "US",
+    "meals": [
+      "breakfast",
+      "main"
+    ]
+  },
+  {
+    "id": "us-pulled-pork-sandwiches",
+    "title": "Pulled pork sandwiches",
+    "summary": "Slow-cooked shredded pork with barbecue sauce on soft buns.",
+    "minutes": 120,
+    "servings": 6,
+    "side": "Coleslaw",
+    "ingredients": [
+      {
+        "name": "Pork shoulder",
+        "keywords": [
+          "pork",
+          "shoulder",
+          "butt",
+          "pork shoulder"
+        ],
+        "amount": "2.2 lb"
+      },
+      {
+        "name": "Barbecue sauce",
+        "keywords": [
+          "barbecue",
+          "bbq"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Burger buns",
+        "keywords": [
+          "bun",
+          "buns",
+          "roll",
+          "rolls",
+          "bread"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Season the pork with salt and place it in a pot with the sliced onion.",
+      "Cook covered over low heat for 2 hours with 1/2 cup of water.",
+      "Shred it with two forks and toss with the barbecue sauce.",
+      "Serve in warm buns."
+    ],
+    "tip": "Cook it tightly covered over low heat until it falls apart with a fork.",
+    "origin": "US"
+  },
+  {
+    "id": "us-egg-muffins",
+    "title": "Egg muffins",
+    "summary": "Baked mini omelets with vegetables and cheese, ideal for breakfast.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Fresh fruit",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Spinach",
+        "keywords": [
+          "spinach"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Shredded cheese",
+        "keywords": [
+          "cheese",
+          "cheddar"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Beat the eggs with salt.",
+      "Divide the chopped spinach, diced tomato and cheese among a greased muffin tin.",
+      "Pour the beaten egg into each cup.",
+      "Bake for 18 minutes in a medium oven until set."
+    ],
+    "tip": "Grease the tin well so they release without breaking.",
+    "origin": "US",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "us-chicken-pot-pie",
+    "title": "Chicken pot pie",
+    "summary": "Covered pie filled with chicken and vegetables in a creamy sauce.",
+    "minutes": 70,
+    "servings": 4,
+    "side": "Green salad",
+    "ingredients": [
+      {
+        "name": "Pie crust",
+        "keywords": [
+          "pie crust",
+          "crust",
+          "pastry",
+          "dough"
+        ],
+        "amount": "2 sheets"
+      },
+      {
+        "name": "Cooked chicken",
+        "keywords": [
+          "chicken"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Carrot",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Peas",
+        "keywords": [
+          "pea",
+          "peas"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Cream sauce or béchamel",
+        "keywords": [
+          "cream",
+          "sauce",
+          "bechamel",
+          "milk"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the diced carrot and mix with the shredded chicken, peas and sauce.",
+      "Line a pie dish with one crust.",
+      "Add the cool filling and cover with the other crust, sealing the edges.",
+      "Bake for 35 minutes in a medium oven until golden."
+    ],
+    "tip": "Cool the filling before covering so the crust does not get soggy.",
+    "origin": "US"
+  },
+  {
+    "id": "us-baked-ziti",
+    "title": "Baked ziti",
+    "summary": "Oven-baked pasta with tomato sauce, ricotta and melted mozzarella.",
+    "minutes": 50,
+    "servings": 4,
+    "side": "Garlic bread",
+    "ingredients": [
+      {
+        "name": "Ziti or penne",
+        "keywords": [
+          "ziti",
+          "penne",
+          "pasta",
+          "rigatoni"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Tomato sauce",
+        "keywords": [
+          "tomato sauce",
+          "marinara",
+          "tomato"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Ricotta cheese",
+        "keywords": [
+          "ricotta"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Mozzarella",
+        "keywords": [
+          "mozzarella",
+          "cheese"
+        ],
+        "amount": "7 oz"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the pasta 2 minutes less than directed and drain.",
+      "Mix with the tomato sauce and ricotta.",
+      "Transfer to a baking dish and cover with mozzarella.",
+      "Bake for 25 minutes in a medium oven until bubbly and golden."
+    ],
+    "tip": "Undercook the pasta slightly: it finishes cooking in the oven.",
+    "origin": "US"
+  },
+  {
+    "id": "gb-lancashire-hotpot",
+    "title": "Lancashire hotpot",
+    "summary": "Lamb casserole with onions, topped with layers of golden potatoes.",
+    "minutes": 120,
+    "servings": 4,
+    "side": "Boiled cabbage",
+    "ingredients": [
+      {
+        "name": "Lamb pieces",
+        "keywords": [
+          "lamb",
+          "mutton"
+        ],
+        "amount": "1.3 lb"
+      },
+      {
+        "name": "Potato",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion",
+          "onions"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Lamb or beef stock",
+        "keywords": [
+          "stock",
+          "broth"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Brown the lamb and put half in a casserole with the sliced onion.",
+      "Add the stock and cover with overlapping potato slices.",
+      "Brush with melted butter and season with salt.",
+      "Bake covered for 1 hour and uncovered 30 more minutes until the potatoes are golden."
+    ],
+    "tip": "Overlap the potato slices and brush with butter so they brown.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-cheese-and-onion-pie",
+    "title": "Cheese and onion pie",
+    "summary": "Covered pie of cooked onion and sharp cheese, simple and tasty.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Boiled potatoes",
+    "ingredients": [
+      {
+        "name": "Pie crust",
+        "keywords": [
+          "crust",
+          "pastry",
+          "dough",
+          "pie crust"
+        ],
+        "amount": "2 sheets"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion",
+          "onions"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Cheddar cheese",
+        "keywords": [
+          "cheddar",
+          "cheese"
+        ],
+        "amount": "7 oz"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil",
+          "olive oil",
+          "vegetable oil"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the sliced onions in oil over low heat for 15 minutes.",
+      "Mix with the grated cheese and salt and let it cool.",
+      "Line a pie dish with one crust, fill and cover with the other.",
+      "Brush with egg and bake for 30 minutes in a medium oven."
+    ],
+    "tip": "Cook the onion slowly until sweet before filling.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-scones",
+    "title": "Scones",
+    "summary": "Tender English scones for tea time, served with butter and jam.",
+    "minutes": 30,
+    "servings": 6,
+    "side": "Jam and cream",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Cold butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1/3 cup"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "3/4 cup"
+      },
+      {
+        "name": "Baking powder",
+        "keywords": [
+          "baking powder"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the flour with the baking powder, sugar and salt.",
+      "Rub in the cold butter with your fingertips.",
+      "Add the milk and bring together without kneading.",
+      "Cut out rounds 1 inch thick and bake for 15 minutes in a hot oven."
+    ],
+    "tip": "Use very cold butter and do not overwork the dough so they rise.",
+    "origin": "GB",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "gb-sausage-rolls",
+    "title": "Sausage rolls",
+    "summary": "Seasoned sausage meat wrapped in flaky pastry.",
+    "minutes": 45,
+    "servings": 6,
+    "side": "Ketchup or mustard",
+    "ingredients": [
+      {
+        "name": "Puff pastry",
+        "keywords": [
+          "puff pastry",
+          "pastry",
+          "dough"
+        ],
+        "amount": "2 sheets"
+      },
+      {
+        "name": "Sausage meat or ground pork",
+        "keywords": [
+          "sausage",
+          "pork",
+          "ground"
+        ],
+        "amount": "14 oz"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1/2"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the meat with the grated onion and salt.",
+      "Lay a strip of filling along each pastry sheet and roll up.",
+      "Seal the edge with a fork and cut into pieces.",
+      "Brush with egg and bake for 25 minutes in a hot oven."
+    ],
+    "tip": "Seal the edge firmly with a fork so it does not open while baking.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-eggy-bread",
+    "title": "Eggy bread",
+    "summary": "Bread slices dipped in egg and fried, the savory cousin of French toast.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Ketchup",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread",
+          "toast"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "optional"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "sal",
+          "salt"
+        ],
+        "amount": "to taste",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Beat the eggs with the milk and salt.",
+      "Dip the bread slices in the mixture on both sides.",
+      "Melt the butter in a skillet.",
+      "Fry the bread for 2 minutes per side until golden."
+    ],
+    "tip": "Dip the bread only for a moment so it does not fall apart.",
+    "origin": "GB",
+    "meals": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "gb-full-english-breakfast",
+    "title": "Full English breakfast",
+    "summary": "Classic fry-up with eggs, bacon, sausages, beans and toast.",
+    "minutes": 25,
+    "servings": 2,
+    "side": "Brown sauce",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Sausages",
+        "keywords": [
+          "sausage",
+          "sausages"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Baked beans",
+        "keywords": [
+          "beans",
+          "baked beans"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "2 slices"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Fry the sausages in the oil for 10 minutes until browned.",
+      "Add the bacon and the halved tomato and cook 5 minutes.",
+      "Warm the beans and toast the bread.",
+      "Fry the eggs and serve everything together."
+    ],
+    "tip": "Cook the sausages slowly so they brown without bursting.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-colcannon",
+    "title": "Colcannon",
+    "summary": "Irish mashed potatoes with cabbage and scallions.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Sausages",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 1/3 lb"
+      },
+      {
+        "name": "Cabbage",
+        "keywords": [
+          "cabbage",
+          "kale"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Scallions",
+        "keywords": [
+          "scallion",
+          "scallions",
+          "spring onion"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Boil the potatoes until tender and mash them.",
+      "Cook the shredded cabbage in butter for 5 minutes.",
+      "Warm the milk with the sliced scallions.",
+      "Mix everything into the mash and season with salt and pepper."
+    ],
+    "tip": "Make a well in the center and add a knob of butter.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-irish-stew",
+    "title": "Irish stew",
+    "summary": "Slow-cooked lamb stew with potatoes, carrots and onion.",
+    "minutes": 90,
+    "servings": 4,
+    "side": "Soda bread",
+    "ingredients": [
+      {
+        "name": "Lamb or mutton",
+        "keywords": [
+          "lamb",
+          "mutton",
+          "beef"
+        ],
+        "amount": "1 1/3 lb"
+      },
+      {
+        "name": "Potatoes",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Carrots",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onions",
+        "keywords": [
+          "onion",
+          "onions"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Water or stock",
+        "keywords": [
+          "water",
+          "stock",
+          "broth"
+        ],
+        "amount": "3 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Thyme",
+        "keywords": [
+          "thyme"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Place the meat, onions and carrots in a pot with the water.",
+      "Bring to a boil, then simmer for 1 hour.",
+      "Add the potatoes and thyme.",
+      "Cook 30 more minutes until everything is tender."
+    ],
+    "tip": "Skim the foam at the beginning for a cleaner broth.",
+    "origin": "GB"
+  },
+  {
+    "id": "us-pot-roast",
+    "title": "Pot roast",
+    "summary": "Slow-braised beef with carrots, potatoes and onion.",
+    "minutes": 150,
+    "servings": 5,
+    "side": "Dinner rolls",
+    "ingredients": [
+      {
+        "name": "Beef chuck roast",
+        "keywords": [
+          "beef",
+          "roast",
+          "chuck"
+        ],
+        "amount": "2 lb"
+      },
+      {
+        "name": "Potatoes",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Carrots",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Beef broth",
+        "keywords": [
+          "broth",
+          "stock"
+        ],
+        "amount": "2 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Season the beef and brown it on all sides in oil.",
+      "Add the sliced onion and broth, cover and cook at low heat for 2 hours.",
+      "Add the potatoes and carrots.",
+      "Cook 30 more minutes until the meat is fork-tender."
+    ],
+    "tip": "Let the roast rest 10 minutes before slicing.",
+    "origin": "US"
+  },
+  {
+    "id": "us-chicken-and-dumplings",
+    "title": "Chicken and dumplings",
+    "summary": "Creamy chicken soup with soft biscuit dumplings.",
+    "minutes": 45,
+    "servings": 4,
+    "side": "Black pepper",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Carrots",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Celery",
+        "keywords": [
+          "celery"
+        ],
+        "amount": "2 stalks",
+        "kind": "optional"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Simmer the chicken with the diced vegetables in 6 cups of water for 20 minutes.",
+      "Shred the chicken and return it to the pot.",
+      "Mix the flour, milk, butter and a pinch of salt into a dough.",
+      "Drop spoonfuls into the simmering soup and cook covered for 10 minutes."
+    ],
+    "tip": "Do not lift the lid while the dumplings cook.",
+    "origin": "US"
+  },
+  {
+    "id": "us-biscuits-and-gravy",
+    "title": "Biscuits and gravy",
+    "summary": "Warm biscuits with creamy sausage gravy.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Fried eggs",
+    "ingredients": [
+      {
+        "name": "Biscuits",
+        "keywords": [
+          "biscuit",
+          "biscuits",
+          "bread"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Breakfast sausage",
+        "keywords": [
+          "sausage"
+        ],
+        "amount": "1/2 lb"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Black pepper",
+        "keywords": [
+          "pepper"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Warm the biscuits in the oven.",
+      "Brown the crumbled sausage in a skillet.",
+      "Stir in the flour and cook 1 minute.",
+      "Pour in the milk, simmer until thick, season with pepper and pour over the biscuits."
+    ],
+    "tip": "Use plenty of pepper; the gravy should be peppery.",
+    "origin": "US"
+  },
+  {
+    "id": "us-cobb-salad",
+    "title": "Cobb salad",
+    "summary": "Lettuce with chicken, bacon, egg, tomato and avocado.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Ranch or vinaigrette",
+    "ingredients": [
+      {
+        "name": "Lettuce",
+        "keywords": [
+          "lettuce"
+        ],
+        "amount": "4 cups"
+      },
+      {
+        "name": "Cooked chicken",
+        "keywords": [
+          "chicken"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Bacon",
+        "keywords": [
+          "bacon"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Hard-boiled eggs",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Tomato",
+        "keywords": [
+          "tomato"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Avocado",
+        "keywords": [
+          "avocado"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Fry the bacon until crisp and crumble it.",
+      "Chop the chicken, eggs, tomato and avocado.",
+      "Arrange the lettuce on a platter.",
+      "Line up the toppings in rows and dress at the table."
+    ],
+    "tip": "Dress just before serving so the lettuce stays crisp.",
+    "origin": "US"
+  },
+  {
+    "id": "us-french-onion-soup",
+    "title": "French onion soup",
+    "summary": "Caramelized onion soup topped with toasted bread and melted cheese.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Green salad",
+    "ingredients": [
+      {
+        "name": "Onions",
+        "keywords": [
+          "onion",
+          "onions"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Beef broth",
+        "keywords": [
+          "broth",
+          "stock"
+        ],
+        "amount": "4 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Gruyere or Swiss cheese",
+        "keywords": [
+          "cheese",
+          "gruyere",
+          "swiss"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Cook the sliced onions in the butter over low heat for 30 minutes until deep golden.",
+      "Add the broth and simmer for 15 minutes.",
+      "Ladle into ovenproof bowls and top with toasted bread and cheese.",
+      "Broil until the cheese is bubbly and browned."
+    ],
+    "tip": "Patience with the onions is what gives the flavor.",
+    "origin": "US"
+  },
+  {
+    "id": "us-sheet-pan-sausage-and-veggies",
+    "title": "Sheet-pan sausage and veggies",
+    "summary": "Sausages roasted with potatoes, peppers and onion on one pan.",
+    "minutes": 35,
+    "servings": 3,
+    "side": "Mustard",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "keywords": [
+          "sausage",
+          "sausages"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Potatoes",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Bell pepper",
+        "keywords": [
+          "pepper",
+          "bell pepper"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Olive oil",
+        "keywords": [
+          "oil",
+          "olive oil"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Paprika",
+        "keywords": [
+          "paprika"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 425°F.",
+      "Toss the cubed potatoes, peppers and onion with the oil, paprika and salt on a sheet pan.",
+      "Place the sausages on top.",
+      "Roast 30 minutes, turning once, until golden."
+    ],
+    "tip": "Cut the potatoes small so they cook as fast as the sausages.",
+    "origin": "US"
+  },
+  {
+    "id": "ca-cretons-on-toast",
+    "title": "Cretons on toast",
+    "summary": "Quebec spiced pork spread on toasted bread.",
+    "minutes": 20,
+    "servings": 4,
+    "side": "Pickles",
+    "ingredients": [
+      {
+        "name": "Ground pork",
+        "keywords": [
+          "pork",
+          "ground pork"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Cinnamon",
+        "keywords": [
+          "cinnamon"
+        ],
+        "amount": "1/2 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "4 slices"
+      }
+    ],
+    "steps": [
+      "Cook the pork with the finely chopped onion, milk, cinnamon, salt and pepper for 15 minutes.",
+      "Stir often and break up the meat until the liquid is absorbed.",
+      "Blend or mash into a spreadable paste and chill.",
+      "Spread on toasted bread."
+    ],
+    "tip": "It keeps well in the fridge for several days.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-pouding-chomeur",
+    "title": "Pouding chômeur",
+    "summary": "Quebec cake baked in warm maple syrup sauce.",
+    "minutes": 45,
+    "servings": 6,
+    "side": "Vanilla ice cream",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 1/2 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1/2 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "3/4 cup"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "syrup"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Baking powder",
+        "keywords": [
+          "baking powder"
+        ],
+        "amount": "2 teaspoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mix the flour, sugar, baking powder, melted butter and milk into a batter.",
+      "Heat the maple syrup with 1/2 cup of water and pour it into a baking dish.",
+      "Spoon the batter over the hot syrup.",
+      "Bake at 350°F for 30 minutes until golden."
+    ],
+    "tip": "Serve warm so the syrup stays saucy.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-smoked-meat-sandwich",
+    "title": "Smoked meat sandwich",
+    "summary": "Montreal-style sandwich with warm smoked meat and mustard.",
+    "minutes": 15,
+    "servings": 2,
+    "side": "Dill pickle",
+    "ingredients": [
+      {
+        "name": "Smoked meat or pastrami",
+        "keywords": [
+          "smoked meat",
+          "pastrami",
+          "beef",
+          "ham"
+        ],
+        "amount": "8 oz"
+      },
+      {
+        "name": "Rye bread",
+        "keywords": [
+          "bread",
+          "rye"
+        ],
+        "amount": "4 slices"
+      },
+      {
+        "name": "Yellow mustard",
+        "keywords": [
+          "mustard"
+        ],
+        "amount": "2 tablespoons"
+      },
+      {
+        "name": "Pickles",
+        "keywords": [
+          "pickle",
+          "pickles"
+        ],
+        "amount": "2",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Warm the sliced meat in a covered pan with a splash of water.",
+      "Spread mustard on the bread.",
+      "Pile the warm meat on two slices.",
+      "Close the sandwiches and serve with pickles."
+    ],
+    "tip": "Steam the meat so it stays juicy.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-maple-glazed-carrots",
+    "title": "Maple-glazed carrots",
+    "summary": "Tender carrots glazed with maple syrup and butter.",
+    "minutes": 25,
+    "servings": 4,
+    "side": "Roast chicken",
+    "ingredients": [
+      {
+        "name": "Carrots",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple syrup",
+          "syrup"
+        ],
+        "amount": "3 tablespoons"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Parsley",
+        "keywords": [
+          "parsley"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Slice the carrots into rounds.",
+      "Cook them in 1/2 cup of water with the butter until tender, about 10 minutes.",
+      "Add the maple syrup and let the liquid reduce to a glaze.",
+      "Season with salt and parsley."
+    ],
+    "tip": "Stir constantly at the end so the glaze does not burn.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-lemon-butter-cod",
+    "title": "Lemon-butter cod",
+    "summary": "Pan-seared cod with a quick lemon butter sauce.",
+    "minutes": 20,
+    "servings": 2,
+    "side": "Boiled potatoes",
+    "ingredients": [
+      {
+        "name": "Cod fillets",
+        "keywords": [
+          "cod",
+          "fish"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Lemon",
+        "keywords": [
+          "lemon"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Garlic",
+        "keywords": [
+          "garlic"
+        ],
+        "amount": "1 clove",
+        "kind": "optional"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Season the cod and dust lightly with flour.",
+      "Sear in half the butter 3 to 4 minutes per side.",
+      "Remove the fish and add the rest of the butter, garlic and lemon juice to the pan.",
+      "Simmer 1 minute and pour over the fish."
+    ],
+    "tip": "Do not move the fish while it sears so it forms a crust.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-tourtiere-du-lac",
+    "title": "Skillet pork and potato hash",
+    "summary": "Quebec-style spiced ground pork with diced potatoes.",
+    "minutes": 30,
+    "servings": 4,
+    "side": "Ketchup or chutney",
+    "ingredients": [
+      {
+        "name": "Ground pork",
+        "keywords": [
+          "pork",
+          "ground pork"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Potatoes",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Cinnamon",
+        "keywords": [
+          "cinnamon"
+        ],
+        "amount": "1/2 teaspoon",
+        "kind": "optional"
+      },
+      {
+        "name": "Cloves",
+        "keywords": [
+          "clove",
+          "cloves"
+        ],
+        "amount": "1 pinch",
+        "kind": "optional"
+      },
+      {
+        "name": "Oil",
+        "keywords": [
+          "oil"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Brown the pork with the chopped onion in the oil.",
+      "Add the diced potatoes, cinnamon, cloves, salt and pepper.",
+      "Add 1/2 cup of water, cover and cook 15 minutes.",
+      "Uncover and cook until the potatoes are golden and tender."
+    ],
+    "tip": "The warm spices are what make it taste like tourtière.",
+    "origin": "CA"
+  },
+  {
+    "id": "gb-corned-beef-hash",
+    "title": "Corned beef hash",
+    "summary": "Crispy fried potatoes with corned beef and onion.",
+    "minutes": 25,
+    "servings": 3,
+    "side": "Fried egg",
+    "ingredients": [
+      {
+        "name": "Corned beef",
+        "keywords": [
+          "corned beef",
+          "beef"
+        ],
+        "amount": "1 can"
+      },
+      {
+        "name": "Potatoes",
+        "keywords": [
+          "potato",
+          "potatoes"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "keywords": [
+          "worcestershire"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Boil the diced potatoes 8 minutes and drain.",
+      "Fry the chopped onion in the butter.",
+      "Add the potatoes and the crumbled corned beef.",
+      "Fry until crisp and golden, season with Worcestershire sauce."
+    ],
+    "tip": "Do not stir too often so a crust forms.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-scotch-broth",
+    "title": "Scotch broth",
+    "summary": "Hearty Scottish soup with lamb, barley and root vegetables.",
+    "minutes": 90,
+    "servings": 5,
+    "side": "Crusty bread",
+    "ingredients": [
+      {
+        "name": "Lamb or beef",
+        "keywords": [
+          "lamb",
+          "beef"
+        ],
+        "amount": "10 oz"
+      },
+      {
+        "name": "Pearl barley",
+        "keywords": [
+          "barley"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Carrots",
+        "keywords": [
+          "carrot",
+          "carrots"
+        ],
+        "amount": "2"
+      },
+      {
+        "name": "Turnip or potato",
+        "keywords": [
+          "turnip",
+          "potato"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Leek",
+        "keywords": [
+          "leek"
+        ],
+        "amount": "1",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Simmer the meat with the barley in 8 cups of water for 45 minutes.",
+      "Add the diced carrots, turnip, onion and leek.",
+      "Cook 30 more minutes until tender.",
+      "Skim, season and serve."
+    ],
+    "tip": "The barley will thicken the broth as it cooks.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-bread-and-butter-pudding",
+    "title": "Bread and butter pudding",
+    "summary": "Baked custard pudding with buttered bread and raisins.",
+    "minutes": 50,
+    "servings": 6,
+    "side": "Custard",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "keywords": [
+          "bread"
+        ],
+        "amount": "6 slices"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "3 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1/3 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Raisins",
+        "keywords": [
+          "raisins"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Butter the bread slices and cut into triangles.",
+      "Layer them in a baking dish with the raisins.",
+      "Whisk the eggs with the milk and sugar and pour over.",
+      "Let soak 15 minutes and bake 35 minutes at 350°F."
+    ],
+    "tip": "Stale bread works best because it absorbs more custard.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-rice-pudding",
+    "title": "Baked rice pudding",
+    "summary": "Creamy oven-baked rice pudding with a golden skin.",
+    "minutes": 90,
+    "servings": 4,
+    "side": "Jam",
+    "ingredients": [
+      {
+        "name": "Short-grain rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1/2 cup"
+      },
+      {
+        "name": "Milk",
+        "keywords": [
+          "milk"
+        ],
+        "amount": "3 cups"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Nutmeg",
+        "keywords": [
+          "nutmeg"
+        ],
+        "amount": "1 pinch",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Put the rice, milk and sugar in a buttered baking dish.",
+      "Dot with butter and grate nutmeg on top.",
+      "Bake at 300°F for 1 1/2 hours, stirring once after 30 minutes.",
+      "Serve warm with jam."
+    ],
+    "tip": "Do not stir after the first 30 minutes so the skin forms.",
+    "origin": "GB"
+  },
+  {
+    "id": "gb-chicken-and-mushroom-pie",
+    "title": "Chicken and mushroom pie",
+    "summary": "Creamy chicken and mushroom filling under a golden pastry lid.",
+    "minutes": 60,
+    "servings": 4,
+    "side": "Peas and mash",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Mushrooms",
+        "keywords": [
+          "mushroom",
+          "mushrooms"
+        ],
+        "amount": "7 oz"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Puff pastry",
+        "keywords": [
+          "pastry",
+          "puff pastry"
+        ],
+        "amount": "1 sheet"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "staple"
+      },
+      {
+        "name": "Milk or cream",
+        "keywords": [
+          "milk",
+          "cream"
+        ],
+        "amount": "1 cup"
+      }
+    ],
+    "steps": [
+      "Sauté the diced chicken, onion and mushrooms until golden.",
+      "Stir in the flour, then the milk, and simmer until thick.",
+      "Pour into a pie dish and cover with the pastry.",
+      "Brush with egg or milk and bake 30 minutes at 400°F."
+    ],
+    "tip": "Cool the filling before topping so the pastry stays crisp.",
+    "origin": "GB"
+  },
+  {
+    "id": "us-jambalaya",
+    "title": "Chicken and sausage jambalaya",
+    "summary": "One-pot Louisiana rice with chicken, smoked sausage and peppers.",
+    "minutes": 50,
+    "servings": 5,
+    "side": "Hot sauce",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "keywords": [
+          "chicken"
+        ],
+        "amount": "1 lb"
+      },
+      {
+        "name": "Smoked sausage",
+        "keywords": [
+          "sausage"
+        ],
+        "amount": "7 oz"
+      },
+      {
+        "name": "Rice",
+        "keywords": [
+          "rice"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Bell pepper",
+        "keywords": [
+          "pepper",
+          "peppers"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Onion",
+        "keywords": [
+          "onion"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Canned tomatoes",
+        "keywords": [
+          "tomato",
+          "tomatoes"
+        ],
+        "amount": "1 cup"
+      }
+    ],
+    "steps": [
+      "Brown the diced chicken and sliced sausage in a large pot.",
+      "Add the onion and pepper and cook 5 minutes.",
+      "Stir in the rice, tomatoes, 2 cups of broth and Cajun seasoning.",
+      "Cover and simmer 25 minutes until the rice is tender."
+    ],
+    "tip": "Do not lift the lid while the rice cooks.",
+    "origin": "US"
+  },
+  {
+    "id": "gb-shortbread",
+    "title": "Scottish shortbread",
+    "summary": "Buttery three-ingredient shortbread fingers.",
+    "minutes": 50,
+    "servings": 8,
+    "side": "Tea",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1/2 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Salt",
+        "keywords": [
+          "salt"
+        ],
+        "amount": "1 pinch",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Beat the soft butter with the sugar until creamy.",
+      "Stir in the flour and salt to form a dough.",
+      "Press into a pan, prick with a fork and score into fingers.",
+      "Bake 30 minutes at 325°F until pale golden and cool in the pan."
+    ],
+    "tip": "Chill the dough 20 minutes if the kitchen is warm.",
+    "origin": "GB"
+  },
+  {
+    "id": "ca-butter-tarts",
+    "title": "Canadian butter tarts",
+    "summary": "Small pastry tarts with a gooey butter, sugar and raisin filling.",
+    "minutes": 45,
+    "servings": 8,
+    "side": "Coffee",
+    "ingredients": [
+      {
+        "name": "Pastry dough",
+        "keywords": [
+          "pastry",
+          "dough"
+        ],
+        "amount": "1 sheet"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Brown sugar",
+        "keywords": [
+          "sugar",
+          "brown sugar"
+        ],
+        "amount": "3/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Maple syrup",
+        "keywords": [
+          "maple",
+          "syrup"
+        ],
+        "amount": "1/4 cup",
+        "kind": "optional"
+      },
+      {
+        "name": "Raisins",
+        "keywords": [
+          "raisins"
+        ],
+        "amount": "1/2 cup",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Cut the pastry into rounds and press into a muffin tin.",
+      "Melt the butter and mix with the sugar, egg and syrup.",
+      "Put a few raisins in each shell and spoon in the filling.",
+      "Bake 15 to 18 minutes at 400°F until the filling is bubbling."
+    ],
+    "tip": "Do not overfill, since the filling puffs while it bakes.",
+    "origin": "CA"
+  },
+  {
+    "id": "ca-nanaimo-bars",
+    "title": "Nanaimo bars",
+    "summary": "No-bake bars with a chocolate-coconut base, custard layer and chocolate top.",
+    "minutes": 40,
+    "servings": 12,
+    "side": "Tea",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1/2 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Cocoa",
+        "keywords": [
+          "cocoa"
+        ],
+        "amount": "1/4 cup"
+      },
+      {
+        "name": "Graham crackers",
+        "keywords": [
+          "graham",
+          "cookies",
+          "crackers"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Shredded coconut",
+        "keywords": [
+          "coconut"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Powdered sugar",
+        "keywords": [
+          "sugar",
+          "icing sugar"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Dark chocolate",
+        "keywords": [
+          "chocolate"
+        ],
+        "amount": "6 oz"
+      }
+    ],
+    "steps": [
+      "Melt half the butter with the cocoa and sugar, then mix in the crushed crackers and coconut.",
+      "Press into a pan and chill.",
+      "Beat the remaining butter with the powdered sugar and a little milk and spread on top.",
+      "Cover with melted chocolate and chill until firm before cutting."
+    ],
+    "tip": "Cut with a hot knife for clean squares.",
+    "origin": "CA"
+  },
+  {
+    "id": "us-banana-bread",
+    "title": "Classic banana bread",
+    "summary": "Moist loaf made with very ripe bananas.",
+    "minutes": 70,
+    "servings": 8,
+    "side": "Butter",
+    "ingredients": [
+      {
+        "name": "Ripe bananas",
+        "keywords": [
+          "banana",
+          "bananas"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 1/2 cups"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "3/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "1/3 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Egg",
+        "keywords": [
+          "egg"
+        ],
+        "amount": "1"
+      },
+      {
+        "name": "Baking soda",
+        "keywords": [
+          "baking soda"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "staple"
+      }
+    ],
+    "steps": [
+      "Mash the bananas and mix with the melted butter, sugar and egg.",
+      "Stir in the flour, baking soda and a pinch of salt.",
+      "Pour into a greased loaf pan.",
+      "Bake 55 to 60 minutes at 350°F until a toothpick comes out clean."
+    ],
+    "tip": "The darker the bananas, the sweeter the bread.",
+    "origin": "US"
+  },
+  {
+    "id": "us-lemon-bars",
+    "title": "Lemon bars",
+    "summary": "Shortbread crust topped with a tangy lemon custard.",
+    "minutes": 55,
+    "servings": 12,
+    "side": "Coffee",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "keywords": [
+          "flour"
+        ],
+        "amount": "1 3/4 cups"
+      },
+      {
+        "name": "Butter",
+        "keywords": [
+          "butter"
+        ],
+        "amount": "3/4 cup",
+        "kind": "staple"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1 1/2 cups",
+        "kind": "staple"
+      },
+      {
+        "name": "Lemons",
+        "keywords": [
+          "lemon",
+          "lemons"
+        ],
+        "amount": "3"
+      },
+      {
+        "name": "Eggs",
+        "keywords": [
+          "egg",
+          "eggs"
+        ],
+        "amount": "4"
+      },
+      {
+        "name": "Powdered sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "2 tablespoons",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Mix 1 1/2 cups flour, the butter and 1/2 cup sugar and press into a pan.",
+      "Bake the crust 20 minutes at 350°F.",
+      "Whisk the eggs with the remaining sugar, lemon juice and zest and 1/4 cup flour.",
+      "Pour over the hot crust, bake 20 more minutes, cool and dust with powdered sugar."
+    ],
+    "tip": "Cool completely before cutting for clean bars.",
+    "origin": "US"
+  },
+  {
+    "id": "gb-eton-mess",
+    "title": "Eton mess",
+    "summary": "Crushed meringue folded with whipped cream and strawberries.",
+    "minutes": 15,
+    "servings": 4,
+    "side": "Fresh mint",
+    "ingredients": [
+      {
+        "name": "Strawberries",
+        "keywords": [
+          "strawberry",
+          "strawberries"
+        ],
+        "amount": "2 cups"
+      },
+      {
+        "name": "Meringues",
+        "keywords": [
+          "meringue",
+          "meringues"
+        ],
+        "amount": "6"
+      },
+      {
+        "name": "Heavy cream",
+        "keywords": [
+          "cream"
+        ],
+        "amount": "1 cup"
+      },
+      {
+        "name": "Sugar",
+        "keywords": [
+          "sugar"
+        ],
+        "amount": "1 tablespoon",
+        "kind": "staple"
+      },
+      {
+        "name": "Vanilla",
+        "keywords": [
+          "vanilla"
+        ],
+        "amount": "1 teaspoon",
+        "kind": "optional"
+      }
+    ],
+    "steps": [
+      "Slice the strawberries and toss with the sugar.",
+      "Whip the cream with the vanilla to soft peaks.",
+      "Break the meringues into chunks.",
+      "Fold everything together gently and serve right away."
+    ],
+    "tip": "Add the meringue at the last minute so it stays crisp.",
+    "origin": "GB"
+  }
+]
