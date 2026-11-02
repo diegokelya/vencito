@@ -210,3 +210,14 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 /* Badge de App Store */
 .store-badge { display: inline-flex; line-height: 0; }
 .store-badge img { height: 48px; width: auto; }
+
+/* Menú de idiomas del encabezado */
+.lang-menu { position: relative; }
+.lang-menu summary { list-style: none; cursor: pointer; color: var(--ink); font-size: var(--step--1); font-weight: 700; }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary::after { content: " ▾"; }
+.lang-menu summary:hover { color: var(--accent); }
+.lang-list { position: absolute; right: 0; top: calc(100% + 8px); min-width: 150px; display: grid; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.18); z-index: 10; }
+.lang-list a { padding: 8px 12px; border-radius: 8px; white-space: nowrap; }
+.lang-list a[aria-current] { color: var(--accent); }
+.lang-list a:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
