@@ -151,22 +151,18 @@
   render();
 })();
 
-// El video de la portada empieza solo (sin sonido) cuando se ve en pantalla, salvo que se prefiera menos movimiento.
+// El video de la portada se comporta como un GIF: se repite solo y sin sonido. Con "reducir movimiento" queda en pausa y con controles.
 (function () {
   const video = document.querySelector("video[data-autoplay]");
-  if (!video || !("IntersectionObserver" in window)) return;
-  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (!video) return;
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    video.pause();
+    video.controls = true;
+    return;
+  }
   video.muted = true;
-  let started = false;
-  new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting || started) return;
-      started = true;
-      observer.disconnect();
-      const playing = video.play();
-      if (playing && playing.catch) playing.catch(() => {});
-    });
-  }, { threshold: 0.6 }).observe(video);
+  const play = () => { const playing = video.play(); if (playing && playing.catch) playing.catch(() => {}); };
+  if (video.paused) play();
 })();
 
 // Cierra el menú de idiomas al tocar afuera o con Escape.
