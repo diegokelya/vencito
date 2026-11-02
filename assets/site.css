@@ -221,3 +221,9 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 .lang-list a { padding: 8px 12px; border-radius: 8px; white-space: nowrap; }
 .lang-list a[aria-current] { color: var(--accent); }
 .lang-list a:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+
+/* Tiendas: App Store y Google Play (próximamente) */
+.stores { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin: 0 0 14px; }
+.store-soon { position: relative; opacity: 0.55; }
+.store-soon img { height: 62px; margin: -7px 0; }
+.soon-tag { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-6deg); padding: 3px 12px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 0.8rem; letter-spacing: 0.02em; white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
