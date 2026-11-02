@@ -187,7 +187,7 @@
   }
   function productsView() {
     const vis = visible(), total = vis.length, exp = vis.filter(p => bucketOf(p) === 'expired').length, soon = vis.filter(p => bucketOf(p) === 'soon').length;
-    return `<div class="row"><h1 class="grow brand"><img src="icons/icon-192.png" alt="" width="36" height="36">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">${ico('chart-column')}</button></div>
+    return `<div class="row"><h1 class="grow brand"><img src="icons/icon-192.png" alt="" width="36" height="36">Vencito</h1><button class="btn" data-act="stats" aria-label="${esc(t('Estadísticas'))}">${ico('chart-column')}</button><button class="btn" data-act="tab" data-id="settings" aria-label="${esc(t('Ajustes'))}">${ico('settings')}</button></div>
       <div class="tiles"><div class="tile green"><b>${total}</b><span>${esc(t('Total'))}</span></div><div class="tile red"><b>${exp}</b><span>${esc(t('Vencidos'))}</span></div><div class="tile orange"><b>${soon}</b><span>${esc(t('Por vencer'))}</span></div></div>
       ${installHtml()}
       <div class="quick two main"><button class="btn primary" data-act="add"><b>${ico('plus')}</b>${esc(t('Agregar producto'))}</button><label class="btn" for="imp2" style="cursor:pointer"><b>${ico('download')}</b>${esc(t('Importar desde iPhone'))}<input type="file" id="imp2" accept="application/json,.json" class="sr"></label></div>
@@ -195,7 +195,6 @@
       <input class="search" id="q" type="search" placeholder="${esc(t('Buscar producto, categoría, lugar…'))}" value="${esc(ui.q)}" autocomplete="off">
       ${homeChips()}${catChips()}${locChips()}
       <div id="list">${listHtml()}</div>
-      <button class="btn block" style="margin:12px 0;text-align:left" data-act="week">${ico('calendar')} <b>${esc(t('Plan de la semana'))}</b><br><span class="small muted">${esc(weekCardSubtitle())}</span></button>
       <button class="fab" data-act="add" aria-label="${esc(t('Agregar producto'))}">+</button>`;
   }
   function installHtml() {
@@ -204,12 +203,25 @@
     if (/iphone|ipad/i.test(navigator.userAgent)) return `<div class="install">${esc(t('Para instalarla: Compartir → Agregar a pantalla de inicio.'))}</div>`;
     return '';
   }
+  // Foto de carga rápida para un ítem de la lista cuyo nombre coincide con un producto del catálogo.
+  function shopPhoto(name) {
+    const id = quickPhotoId(name || '');
+    return id ? `<img class="sphoto" src="quick-photos/${encodeURIComponent(id)}.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : '';
+  }
+  // Productos frecuentes: los de carga rápida con foto que todavía no están pendientes en la lista.
+  function shopFrequent() {
+    const q = ui.quick; if (!q || !q.length) return '';
+    const l = lang(), listed = new Set(S.shopping.filter(i => !i.done).map(i => fold(i.name)));
+    const tiles = q.filter(x => !listed.has(fold(x[4][l] || x[4].es))).map(x => { const n = x[4][l] || x[4].es; return `<button type="button" class="stile" data-act="shop-quick" data-id="${esc(x[0])}"><img src="quick-photos/${encodeURIComponent(x[0])}.webp" alt="" loading="lazy" decoding="async" onerror="this.parentNode.remove()"><span>${esc(n)}</span></button>`; }).join('');
+    return tiles ? `<h2>${esc(t('Productos frecuentes'))}</h2><div class="sstrip">${tiles}</div>` : '';
+  }
   function shoppingView() {
     const open = S.shopping.filter(i => !i.done), done = S.shopping.filter(i => i.done);
-    const row = i => `<div class="item ${i.done ? 'done' : ''}"><button class="check ${i.done ? 'on' : ''}" data-act="tick" data-id="${esc(i.id)}" aria-label="${esc(i.name)}">${i.done ? ico('check') : ''}</button><span class="grow"><span class="t">${esc(i.name)}</span>${i.note ? `<br><span class="s">${esc(i.note)}</span>` : ''}</span><button class="btn" data-act="untick" data-id="${esc(i.id)}" aria-label="${esc(t('Eliminar'))}">${ico('x')}</button></div>`;
+    const row = i => `<div class="item ${i.done ? 'done' : ''}"><button class="check ${i.done ? 'on' : ''}" data-act="tick" data-id="${esc(i.id)}" aria-label="${esc(i.name)}">${i.done ? ico('check') : ''}</button>${shopPhoto(i.name)}<span class="grow"><span class="t">${esc(i.name)}</span>${i.note ? `<br><span class="s">${esc(i.note)}</span>` : ''}</span><button class="btn" data-act="untick" data-id="${esc(i.id)}" aria-label="${esc(t('Eliminar'))}">${ico('x')}</button></div>`;
     return `<div class="row"><h1 class="grow">${esc(t('Lista de compras'))}</h1><button class="btn" data-act="share-list">${esc(t('Compartir'))}</button></div>
       <div class="shopgrid"><div class="shopcol">
       <form class="row" data-form="shop-add"><input class="search grow" id="shopname" placeholder="${esc(t('Agregar a la lista'))}" autocomplete="off"><button class="btn primary" type="submit">+</button></form>
+      ${shopFrequent()}
       ${open.length ? `<div class="group">${open.map(row).join('')}</div>` : `<div class="empty">${esc(t('Nada pendiente'))}</div>`}
       </div><div class="shopcol">
       ${done.length ? `<div class="row"><h2 class="grow">${esc(t('Comprados'))}</h2><button class="link" style="width:auto" data-act="clear-done">${esc(t('Quitar comprados'))}</button></div><div class="group">${done.map(row).join('')}</div>` : ''}
@@ -443,7 +455,7 @@
       `<button class="link" data-act="week-pick" data-id="${esc(sel)}">${ico('plus')} ${esc(t('Agregar receta'))}</button></div>`;
     const body = `<button class="btn" style="margin:6px 0" data-act="week-rebuild">${ico('sparkles')} ${esc(t('Sugerir la semana'))}</button>` + (!items.length ? `<div class="empty">${esc(t('Cargá productos para armar el plan de la semana.'))}</div>` : '') + cal + day +
       (miss.length ? `<button class="btn block" data-act="week-add" ${ui.weekAdded ? 'disabled' : ''}>${ico(ui.weekAdded ? 'check' : 'shopping-cart')} ${esc(ui.weekAdded ? t('Agregado a la lista de compras') : t('Agregar a la lista lo que falta de la semana'))}</button>` : '') + `<p class="small muted">${esc(t('Cada día usa primero lo que vence antes. Es una sugerencia: podés cambiar cualquier receta.'))}</p>`;
-    return page(t('Plan de la semana'), body, 'narrow');
+    return page(t('Plan de comidas'), body, 'narrow');
   }
   /* «Agregar al plan» desde la receta: se elige el día en un calendario del navegador. */
   function planDaySheet() {
@@ -465,7 +477,7 @@
       <div class="seg">${[['mine', 'Con lo que tenés'], ['all', 'Todas'], ['saved', 'Guardadas']].map(([k, n]) => `<button class="${ui.rmode === k ? 'on' : ''}" aria-pressed="${ui.rmode === k}" data-act="rmode" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>
       ${ui.rmode === 'all' ? `<input class="search" id="rq" type="search" placeholder="${esc(t('Buscar receta…'))}" value="${esc(ui.rq)}" autocomplete="off">` : ''}
       ${ui.rmode === 'saved' ? '' : `<div class="chips">${[['', 'Todas'], ['breakfast', 'Desayuno y merienda'], ['main', 'Almuerzo y cena']].map(([k, n]) => `<button class="chip ${ui.rmeal === k ? 'on' : ''}" aria-pressed="${ui.rmeal === k}" data-act="rmeal" data-id="${k}">${esc(t(n))}</button>`).join('')}</div>`}
-      <button class="btn block" style="margin:6px 0" data-act="week">${ico('calendar')} ${esc(t('Plan de la semana'))}</button>
+      <button class="btn block" style="margin:6px 0" data-act="week">${ico('calendar')} ${esc(t('Plan de comidas'))}</button>
       <details class="rfilters" ${ui.rfopen ? 'open' : ''}><summary class="btn block">${esc(t('Filtros'))}${ui.rdoable || ui.rorigin || ui.rdiet ? ' · ' + esc(t('activos')) : ''}</summary>
       ${ui.rmode === 'all' ? `<div class="chips"><button class="chip ${ui.rdoable === 1 ? 'on' : ''}" aria-pressed="${ui.rdoable === 1}" data-act="rdoable" data-v="1">${esc(t('Solo las que puedo hacer'))}</button><button class="chip ${ui.rdoable === 2 ? 'on' : ''}" aria-pressed="${ui.rdoable === 2}" data-act="rdoable" data-v="2">${esc(t('Faltan hasta 2'))}</button>${[['', null], ...originsOf((ui.catalog || []).filter(dietOk).filter(mealOk))].map(([o, n]) => o === '' && n === null ? `<button class="chip ${!ui.rorigin ? 'on' : ''}" aria-pressed="${!ui.rorigin}" data-act="rorigin" data-id="">${esc(t('Todas'))}</button>` : `<button class="chip ${ui.rorigin === o ? 'on' : ''}" aria-pressed="${ui.rorigin === o}" data-act="rorigin" data-id="${esc(o)}">${o ? flagOf(o) : ''}${n}</button>`).join('')}</div>` : ''}
       <div class="chips">${DIETS.map(([k, n]) => `<button class="chip ${ui.rdiet === k ? 'on' : ''}" aria-pressed="${ui.rdiet === k}" data-act="rdiet" data-id="${k}">${esc(t(n))}</button>`).join('')}</div></details>`;
@@ -705,11 +717,12 @@
   function render() {
     document.documentElement.lang = lang();
     const prevActive = document.activeElement;
-    const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['settings', 'settings', 'Ajustes']];
+    const tabs = [['products', 'package', 'Productos'], ['recipes', 'chef-hat', '¿Qué cocino hoy?'], ['shopping', 'shopping-cart', 'Compras'], ['plan', 'calendar', 'Plan']];
+    const planOpen = !!(ui.sheet && ['week', 'wpick', 'wday'].includes(ui.sheet.type));
     const isPage = !!(ui.sheet && PAGE_TYPES.has(ui.sheet.type)); sheetAsPage = isPage;
     const tabView = () => ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
     const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'week' ? weekSheet() : sh.type === 'wpick' ? weekPickSheet() : sh.type === 'wday' ? planDaySheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
-    const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => `<button class="${ui.tab === k ? 'on' : ''}" data-act="tab" data-id="${k}" ${ui.tab === k ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`).join('')}</div></nav>`;
+    const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => { const on = k === 'plan' ? planOpen : ui.tab === k && !planOpen; return `<button class="${on ? 'on' : ''}" data-act="tab" data-id="${k}" ${on ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`; }).join('')}</div></nav>`;
     const wasPage = !!ui.inPage; if (isPage && !wasPage) ui.pageBack = window.scrollY;       // para volver al mismo lugar de la lista
     const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
     appEl.innerHTML = (isPage ? shHtml : tabView() + shHtml) + tb + (ui.welcome != null ? welcomeHtml() : '');
@@ -750,7 +763,9 @@
     const act = el.dataset.act, id = el.dataset.id;
     if (act === 'bg') { if (e.target === el) closeSheet(); return; }
     switch (act) {
-      case 'tab': ui.tab = id; ui.sheet = null; if (id === 'recipes') { ensureRecipes(); ensureComposer(); } render(); break;
+      case 'tab': if (id === 'plan') { if (ui.catalog) { weekLoad(); ui.sheet = { type: 'week' }; render(); } else { ui.weekPending = true; ensureRecipes(); } break; }
+        ui.tab = id; ui.sheet = null; if (id === 'recipes') { ensureRecipes(); ensureComposer(); } render(); break;
+      case 'shop-quick': { const x = (ui.quick || []).find(y => y[0] === id); if (x) { addToShopping(x[4][lang()] || x[4].es); render(); } break; }
       case 'open': ui.sheet = { type: 'product', id }; render(); break;
       case 'add': ui.sheet = { type: 'form', id: null }; render(); break;
       case 'edit': ui.sheet = { type: 'form', id }; render(); break;
