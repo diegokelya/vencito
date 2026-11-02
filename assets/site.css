@@ -236,3 +236,8 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 /* Los tres beneficios juntos en la portada */
 .benefits { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .benefits li { padding: 6px 14px; border-radius: 999px; background: var(--surface); box-shadow: 0 0 0 1px var(--line); font-weight: 700; font-size: 0.95rem; }
+
+/* Funciones secundarias plegadas */
+.more-features { margin-top: clamp(24px, 3vw, 40px); }
+.more-features summary { cursor: pointer; display: inline-block; padding: 10px 20px; border-radius: 999px; box-shadow: 0 0 0 1px var(--line); font-weight: 700; }
+.more-features[open] summary { margin-bottom: clamp(24px, 3vw, 40px); }
