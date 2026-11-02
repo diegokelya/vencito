@@ -232,3 +232,7 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 .hero-video { display: grid; gap: 10px; min-width: 0; justify-items: center; }
 .hero-video .note { text-align: center; margin: 0; }
 .hero-video .reel { width: min(100%, 440px, calc(88vh * 9 / 16)); }
+
+/* Los tres beneficios juntos en la portada */
+.benefits { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.benefits li { padding: 6px 14px; border-radius: 999px; background: var(--surface); box-shadow: 0 0 0 1px var(--line); font-weight: 700; font-size: 0.95rem; }
