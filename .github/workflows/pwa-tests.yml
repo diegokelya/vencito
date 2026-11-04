@@ -1,10 +1,10 @@
-name: Pruebas de la PWA
+name: Pruebas del sitio
 on:
   pull_request:
-    paths: ['app/**', 'assets/site.js', 'tests/**', 'package.json']
+    paths: ['assets/site.js', 'tests/**', 'package.json']
   push:
     branches: [main]
-    paths: ['app/**', 'assets/site.js', 'tests/**', 'package.json']
+    paths: ['assets/site.js', 'tests/**', 'package.json']
 jobs:
   test:
     runs-on: ubuntu-latest
