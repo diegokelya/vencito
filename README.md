@@ -42,7 +42,7 @@ sitemap.xml       Páginas del sitio con sus versiones por idioma
 
 GitHub Pages sirve la rama `main` desde la raíz (*Settings → Pages → Deploy from a branch → main / (root)*). Cada push a `main` actualiza el sitio en uno o dos minutos. No hay build: es HTML, CSS y JS plano.
 
-Las tipografías (Familjen Grotesk, Onest y Doto, licencia OFL) están en `assets/fonts/`: el sitio no hace pedidos a terceros. La PWA trae también Tesseract.js (OCR), ZXing y PDF.js (Apache-2.0, ver `app/vendor/PDFJS-LICENSE.txt`), todo en `app/vendor/`.
+Las tipografías (Familjen Grotesk, Onest y Doto, licencia OFL) están en `assets/fonts/`: las seis páginas principales cargan Google Tag Manager (`GTM-K9DC45S9`) para gestionar las etiquetas de medición. El bloque no se carga en la PWA (`/app/`). La PWA trae también Tesseract.js (OCR), ZXing y PDF.js (Apache-2.0, ver `app/vendor/PDFJS-LICENSE.txt`), todo en `app/vendor/`.
 
 Para ver el sitio localmente: `python3 -m http.server` y abrir http://localhost:8000.
 
