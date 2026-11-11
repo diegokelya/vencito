@@ -5,3 +5,20 @@
 @media(max-width:700px){.header{height:auto;min-height:116px;padding-block:15px;gap:16px;display:grid;grid-template-columns:1fr auto}.header .brand{grid-column:1;grid-row:1}.header .button{grid-column:2;grid-row:1}.header nav{display:flex;grid-column:1/-1;grid-row:2;justify-content:space-between;gap:12px;font-size:10px;max-width:100%;flex-wrap:wrap}.header nav a,.header nav summary{padding-block:5px}.lang-list{top:28px}.hero{padding-top:35px}.hero h1,html[lang=fr] .hero h1,html[lang=de] .hero h1{font-size:39px;line-height:1.12}.hero .appstore img{width:145px;height:49px}.trust{font-size:9px}.showcase{grid-template-columns:1fr;gap:23px;padding-block:45px}.showcase>div:first-child p:not(.eyebrow){font-size:14px}.video-frame{width:225px}.video-note{grid-column:1}.legacy{padding-block:43px}.legacy h2{font-size:29px;letter-spacing:-1.1px}.legacy .section-head .lead{font-size:14px}.legacy .steps{display:grid;grid-template-columns:1fr;gap:22px}.legacy .steps li{padding-top:0;padding-left:48px}.legacy .steps li h3{font-size:16px}.legacy .steps li p{margin:0;font-size:12px}.legacy .gallery{gap:18px}.legacy figure{flex-basis:210px}.legacy .ipad-row{margin-top:25px}.legacy .device.ipad{border-width:3px;border-radius:12px}.legacy .features{grid-template-columns:1fr;gap:23px}.legacy .feature{padding-top:16px}.legacy .feature h3{font-size:16px}.legacy .feature p{font-size:12px}.legacy .more-features,.catalog-more{padding-inline:17px;border-radius:12px}.legacy .demo{grid-template-columns:1fr;gap:16px}.legacy .label-card{padding:20px}.legacy .label-card input{font-size:13px}.legacy .result{padding:24px}.legacy .result .date{font-size:23px}.legacy .catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.legacy .catalog-card>div{padding:10px}.legacy .catalog-card h3{font-size:11px}.legacy .privacy-grid{grid-template-columns:1fr;gap:25px}.legacy .privacy-grid p{font-size:12px}.legacy .faq summary{font-size:14px;padding:20px 0}.legacy .faq p{font-size:12px}.footer-links{gap:12px 17px;font-size:10px}footer>a:last-child{width:auto}}
 /* Mismo archivo de ícono que la aplicación. */
 .brand img{height:41px;border-radius:10px;object-position:center}footer .brand img{height:30px;border-radius:7px}.mini-brand img{width:20px;height:20px;object-fit:contain}@media(max-width:700px){.brand img{width:34px;height:34px}}
+/* Móvil: el teléfono de la portada asoma antes y entra completo en la primera pantalla. */
+@media(max-width:700px){
+.header{min-height:0;padding-block:10px;gap:8px}
+.header nav{display:none}
+.hero{padding-top:20px;min-height:0}
+.hero .eyebrow{margin-bottom:12px}
+.hero h1,html[lang=fr] .hero h1,html[lang=de] .hero h1{font-size:34px;line-height:1.1}
+.lead{margin:14px auto 18px;font-size:15px}
+.trust{margin-top:12px}
+.hero-art{height:372px;margin-top:16px}
+.phone{width:176px;height:356px;left:12%;border-width:5px;border-radius:30px}
+.island{left:54px;width:54px;height:15px}
+.hero-mascot{width:200px}
+.phone-tip,.phone-content .product:nth-of-type(6){display:none}
+}
+/* Android: la descarga todavía no existe; el botón lo dice en vez de llevar al App Store. */
+.button[aria-disabled=true]{background:transparent;color:var(--muted);border-color:var(--line);pointer-events:none;transform:none}
