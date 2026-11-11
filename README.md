@@ -7,6 +7,7 @@
 *Vencito is an iPhone, iPad and Android app that reads the expiration date from a photo of the package and reminds you before it expires. Everything runs on-device: no accounts, no servers of its own, no ads. There is also a web version (PWA) at https://vencito.app/app/.*
 
 - 🌐 Sitio · Website: **https://vencito.app/**
+- 🐿️ Instagram: [@vencito.app](https://www.instagram.com/vencito.app/)
 - 🔒 [Política de privacidad · Privacy policy](https://vencito.app/privacy.html)
 - 🛟 [Soporte · Support](https://vencito.app/support.html) · [Issues](https://github.com/diegokelya/vencito/issues)
 
