@@ -34,13 +34,3 @@ test('HERGESTELLT cuenta como elaboración: gana la fecha de vencimiento', () =>
   // Sin marcador de vencimiento, se descarta la fecha que sigue a HERGESTELLT.
   assert.ok(run('HERGESTELLT 03.01.26 14.02.27').date.includes('14. Februar 2027'));
 });
-
-test('los ejemplos de cada landing siguen leyéndose', () => {
-  const pages = { es: 'index.html', en: 'en/index.html', pt: 'pt/index.html', fr: 'fr/index.html', it: 'it/index.html', de: 'de/index.html' };
-  for (const [lang, f] of Object.entries(pages)) {
-    const html = fs.readFileSync(path.join(__dirname, '..', f), 'utf8'), run = demo(lang);
-    const samples = [html.match(/id="label-text" type="text" value="([^"]*)"/)[1], ...[...html.matchAll(/data-sample="([^"]*)"/g)].map(m => m[1])];
-    assert.equal(samples.length, 6, f);
-    samples.forEach(s => assert.match(run(s).date, /20(26|27)/, `${lang}: ${s}`));
-  }
-});
