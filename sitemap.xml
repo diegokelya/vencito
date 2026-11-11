@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://vencito.app/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/"/>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://vencito.app/en/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/"/>
@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://vencito.app/pt/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/"/>
@@ -35,7 +35,7 @@
   </url>
   <url>
     <loc>https://vencito.app/fr/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/"/>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://vencito.app/it/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/"/>
@@ -57,7 +57,7 @@
   </url>
   <url>
     <loc>https://vencito.app/de/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vencito.app/pt/"/>
@@ -68,10 +68,10 @@
   </url>
   <url>
     <loc>https://vencito.app/privacy.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://vencito.app/support.html</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
 </urlset>
