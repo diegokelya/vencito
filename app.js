@@ -10,17 +10,15 @@ function updateStatus(){const n=lists[current].length-selected[current].size;doc
 function renderList(){const container=document.querySelector('#shopping-items');container.replaceChildren();lists[current].forEach(([name,amount],i)=>{const label=document.createElement('label'),input=document.createElement('input'),b=document.createElement('b'),span=document.createElement('span');input.type='checkbox';input.checked=selected[current].has(i);b.textContent=name;span.textContent=amount;input.addEventListener('change',()=>{input.checked?selected[current].add(i):selected[current].delete(i);updateStatus();});label.append(input,b,span);container.append(label);});updateStatus();}
 document.querySelectorAll('[data-day]').forEach(button=>button.addEventListener('click',()=>{current=Number(button.dataset.day);document.querySelectorAll('[data-day]').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});renderList();}));renderList();
 
-/* Botones de descarga según el dispositivo: en Android no hay ficha todavía, así que se avisa en vez de enviar al App Store. */
+/* Botones de descarga según el dispositivo: en Android el botón del encabezado lleva a Google Play en vez de al App Store. */
 (function () {
   try {
     if (!/android/i.test(navigator.userAgent)) return;
-    var soon = document.querySelector('.soon strong');
-    var label = 'Android · ' + (soon ? soon.textContent.trim() : '…');
+    var play = document.querySelector('a.playstore');
+    if (!play) return;
     document.querySelectorAll('a.button[href*="apps.apple.com"]').forEach(function (a) {
-      a.setAttribute('aria-disabled', 'true');
-      a.setAttribute('tabindex', '-1');
-      a.removeAttribute('href');
-      a.textContent = label;
+      a.setAttribute('href', play.getAttribute('href'));
+      a.textContent = 'Google Play';
     });
   } catch (e) {}
 })();
