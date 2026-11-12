@@ -46,3 +46,5 @@
 /* DARK-END */
 .steps li{list-style:none}.step-shot{margin:0 auto 14px;max-width:110px}.step-shot img{display:block;width:100%;height:auto}
 @media(max-width:700px){.step-shot{margin:0 0 10px;max-width:90px}}
+
+.playstore{display:flex;gap:11px;align-items:center;border-radius:10px;padding:10px 17px;min-height:53px;background:#000;color:#fff;border:1px solid #a6a6a6;text-decoration:none}.playstore small{display:block;font-size:10px;opacity:.85}.playstore strong{font-size:16px;letter-spacing:0}.playstore:hover{filter:brightness(1.2)}.playstore .play{font-size:22px}@media(max-width:700px){.playstore{padding:8px 13px;gap:8px}.playstore strong{font-size:14px}}.stores .playstore{padding-block:0}
