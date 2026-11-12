@@ -1,6 +1,6 @@
 # Vencito
 
-<img src="assets/img/icon.svg" alt="Ícono de Vencito" width="96" align="right">
+<img src="assets/app-icon.png" alt="Ícono de Vencito" width="96" align="right">
 
 **Vencito** es una app para iPhone, iPad y Android que lee la fecha de vencimiento de una foto del envase y te avisa antes de que se venza. Todo se procesa en el dispositivo: sin cuentas, sin servidores propios, sin publicidad. También hay una versión web (PWA) en https://vencito.app/app/.
 
