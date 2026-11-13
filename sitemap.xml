@@ -77,9 +77,43 @@
   <url>
     <loc>https://vencito.app/blog/</loc>
     <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://vencito.app/en/blog/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/"/>
   </url>
   <url>
     <loc>https://vencito.app/blog/como-leer-la-fecha-de-vencimiento/</loc>
     <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-leer-la-fecha-de-vencimiento/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-read-the-expiration-date/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-leer-la-fecha-de-vencimiento/"/>
+  </url>
+  <url>
+    <loc>https://vencito.app/en/blog/how-to-read-the-expiration-date/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-leer-la-fecha-de-vencimiento/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-read-the-expiration-date/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-leer-la-fecha-de-vencimiento/"/>
+  </url>
+  <url>
+    <loc>https://vencito.app/blog/como-organizar-la-alacena/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-organizar-la-alacena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-organize-the-pantry/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-organizar-la-alacena/"/>
+  </url>
+  <url>
+    <loc>https://vencito.app/en/blog/how-to-organize-the-pantry/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-organizar-la-alacena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-organize-the-pantry/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-organizar-la-alacena/"/>
   </url>
 </urlset>
