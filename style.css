@@ -48,11 +48,11 @@
 @media(max-width:700px){.step-shot{margin:0 0 10px;max-width:90px}}
 
 /* Badge oficial de Google Play, misma altura que el del App Store. */
-.playstore{padding:0;background:transparent;border-radius:9px}
-.playstore img{width:auto;height:53px;object-fit:contain}
+.playstore{display:flex;align-items:center;padding:0;background:transparent;border-radius:9px}
+.playstore img{width:auto;height:52px;object-fit:contain}
 .playstore:hover{background:transparent;filter:brightness(1.15)}
 .stores .playstore{min-height:53px;padding-block:0}
-@media(max-width:700px){.hero .playstore img{height:49px;width:auto}}
+@media(max-width:700px){.hero .playstore img{height:48px;width:auto}}
 
 /* Blog: misma identidad que la portada, en una columna de lectura. */
 .blog{padding-block:52px 28px}
@@ -94,7 +94,7 @@
   .blog .lead{margin:0 0 4px;max-width:none;font-size:16px}
   .date-samples li{grid-template-columns:1fr;gap:6px}
   .blog .appstore img{width:145px;height:49px}
-  .blog .playstore img{height:49px;width:auto}
+  .blog .playstore img{height:48px;width:auto}
   .blog-page .header nav{display:flex;justify-content:flex-start;gap:18px;font-size:13px}
   .post-list a{padding:16px}
   .post-list h2{font-size:20px}
