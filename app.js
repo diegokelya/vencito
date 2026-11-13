@@ -10,15 +10,21 @@ function updateStatus(){const n=lists[current].length-selected[current].size;doc
 function renderList(){const container=document.querySelector('#shopping-items');container.replaceChildren();lists[current].forEach(([name,amount],i)=>{const label=document.createElement('label'),input=document.createElement('input'),b=document.createElement('b'),span=document.createElement('span');input.type='checkbox';input.checked=selected[current].has(i);b.textContent=name;span.textContent=amount;input.addEventListener('change',()=>{input.checked?selected[current].add(i):selected[current].delete(i);updateStatus();});label.append(input,b,span);container.append(label);});updateStatus();}
 document.querySelectorAll('[data-day]').forEach(button=>button.addEventListener('click',()=>{current=Number(button.dataset.day);document.querySelectorAll('[data-day]').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});renderList();}));renderList();
 
-/* Botones de descarga según el dispositivo: en Android el botón del encabezado lleva a Google Play en vez de al App Store. */
+/* En Android, los botones de texto van a Google Play en vez del App Store. */
 (function () {
   try {
     if (!/android/i.test(navigator.userAgent)) return;
-    var play = document.querySelector('a.playstore');
-    if (!play) return;
-    document.querySelectorAll('a.button[href*="apps.apple.com"]').forEach(function (a) {
-      a.setAttribute('href', play.getAttribute('href'));
-      a.textContent = 'Google Play';
+    var playLink = document.querySelector('a.playstore');
+    var play = (playLink && playLink.getAttribute('href')) || 'https://play.google.com/store/apps/details?id=com.diegokelya.vencito';
+    document.querySelectorAll('a.button[href*="apps.apple.com"], a.text-link[href*="apps.apple.com"]').forEach(function (a) {
+      a.href = play;
+      a.textContent = a.textContent
+        .replace(/on the App Store/i, 'on Google Play')
+        .replace(/\bim App Store\b/i, 'bei Google Play')
+        .replace(/sur l['’]App Store/i, 'sur Google Play')
+        .replace(/na App Store/i, 'no Google Play')
+        .replace(/dall['’]App Store/i, 'su Google Play')
+        .replace(/App Store/i, 'Google Play');
     });
   } catch (e) {}
 })();

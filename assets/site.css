@@ -222,7 +222,7 @@ section { padding-block: clamp(48px, 7vw, 96px); }
 .lang-list a[aria-current] { color: var(--accent); }
 .lang-list a:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
 
-/* Tiendas: App Store y Google Play (próximamente) */
+/* Tiendas: App Store y Google Play */
 .stores { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin: 0 0 14px; }
 .store-soon { position: relative; }
 .store-soon img { height: 62px; margin: -7px 0; opacity: 0.55; }
