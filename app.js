@@ -20,14 +20,11 @@ document.querySelectorAll('[data-day]').forEach(button=>button.addEventListener(
       a.href = play;
       a.textContent = a.textContent
         .replace(/on the App Store/i, 'on Google Play')
-        .replace(/im App Store/i, 'bei Google Play')
+        .replace(/\bim App Store\b/i, 'bei Google Play')
         .replace(/sur l['’]App Store/i, 'sur Google Play')
         .replace(/na App Store/i, 'no Google Play')
         .replace(/dall['’]App Store/i, 'su Google Play')
         .replace(/App Store/i, 'Google Play');
-    });
-  } catch (e) {}
-})();
     });
   } catch (e) {}
 })();
