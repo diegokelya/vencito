@@ -46,3 +46,10 @@
 /* DARK-END */
 .steps li{list-style:none}.step-shot{margin:0 auto 14px;max-width:110px}.step-shot img{display:block;width:100%;height:auto}
 @media(max-width:700px){.step-shot{margin:0 0 10px;max-width:90px}}
+
+/* Badge oficial de Google Play, misma altura que el del App Store. */
+.playstore{padding:0;background:transparent;border-radius:9px}
+.playstore img{width:auto;height:53px;object-fit:contain}
+.playstore:hover{background:transparent;filter:brightness(1.15)}
+.stores .playstore{min-height:53px;padding-block:0}
+@media(max-width:700px){.hero .playstore img{height:49px;width:auto}}
