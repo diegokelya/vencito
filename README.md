@@ -8,6 +8,7 @@
 
 - 🌐 Sitio · Website: **https://vencito.app/**
 - 🐿️ Instagram: [@vencito.app](https://www.instagram.com/vencito.app/)
+- 🎵 TikTok: [@vencito.app](https://www.tiktok.com/@vencito.app)
 - 🔒 [Política de privacidad · Privacy policy](https://vencito.app/privacy.html)
 - 🛟 [Soporte · Support](https://vencito.app/support.html) · [Issues](https://github.com/diegokelya/vencito/issues)
 
