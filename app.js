@@ -14,16 +14,20 @@ document.querySelectorAll('[data-day]').forEach(button=>button.addEventListener(
 (function () {
   try {
     if (!/android/i.test(navigator.userAgent)) return;
-    var play = 'https://play.google.com/store/apps/details?id=com.diegokelya.vencito';
+    var playLink = document.querySelector('a.playstore');
+    var play = (playLink && playLink.getAttribute('href')) || 'https://play.google.com/store/apps/details?id=com.diegokelya.vencito';
     document.querySelectorAll('a.button[href*="apps.apple.com"], a.text-link[href*="apps.apple.com"]').forEach(function (a) {
       a.href = play;
       a.textContent = a.textContent
         .replace(/on the App Store/i, 'on Google Play')
-        .replace(/\bim App Store\b/i, 'bei Google Play')
+        .replace(/im App Store/i, 'bei Google Play')
         .replace(/sur l['’]App Store/i, 'sur Google Play')
         .replace(/na App Store/i, 'no Google Play')
         .replace(/dall['’]App Store/i, 'su Google Play')
         .replace(/App Store/i, 'Google Play');
+    });
+  } catch (e) {}
+})();
     });
   } catch (e) {}
 })();
