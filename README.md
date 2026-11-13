@@ -2,9 +2,9 @@
 
 <img src="assets/app-icon.png" alt="Ícono de Vencito" width="96" align="right">
 
-**Vencito** es una app para iPhone, iPad y Android que lee la fecha de vencimiento de una foto del envase y te avisa antes de que se venza. Todo se procesa en el dispositivo: sin cuentas, sin servidores propios, sin publicidad. También hay una versión web (PWA) en https://vencito.app/app/.
+**Vencito** es una app para iPhone, iPad y Android que lee la fecha de vencimiento de una foto del envase y te avisa antes de que se venza. Todo se procesa en el dispositivo: sin cuentas, sin servidores propios, sin publicidad.
 
-*Vencito is an iPhone, iPad and Android app that reads the expiration date from a photo of the package and reminds you before it expires. Everything runs on-device: no accounts, no servers of its own, no ads. There is also a web version (PWA) at https://vencito.app/app/.*
+*Vencito is an iPhone, iPad and Android app that reads the expiration date from a photo of the package and reminds you before it expires. Everything runs on-device: no accounts, no servers of its own, no ads.*
 
 - 🌐 Sitio · Website: **https://vencito.app/**
 - 🐿️ Instagram: [@vencito.app](https://www.instagram.com/vencito.app/)
@@ -25,9 +25,8 @@ it/ de/           Sitio en italiano y alemán · Italian, German
 privacy.html      Política de privacidad en los 6 idiomas — URL para App Store Connect y Play Console
 support.html      Soporte en los 6 idiomas — URL para App Store Connect y Play Console
 404.html          Página de error
-app/              Vencito en el navegador (PWA): sin cuentas, funciona sin conexión
 assets/           Estilos, script del demo, tipografías, ícono, capturas y videos
-tests/            Pruebas de la PWA y del demo (node --test tests/)
+tests/            Pruebas del demo (node --test tests/)
 robots.txt        Para buscadores, con el enlace al sitemap
 sitemap.xml       Páginas del sitio con sus versiones por idioma
 ```
@@ -44,7 +43,7 @@ sitemap.xml       Páginas del sitio con sus versiones por idioma
 
 GitHub Pages sirve la rama `main` desde la raíz (*Settings → Pages → Deploy from a branch → main / (root)*). Cada push a `main` actualiza el sitio en uno o dos minutos. No hay build: es HTML, CSS y JS plano.
 
-Las tipografías (Familjen Grotesk, Onest y Doto, licencia OFL) están en `assets/fonts/`: las seis páginas principales cargan Google Tag Manager (`GTM-K9DC45S9`) para gestionar las etiquetas de medición. El bloque no se carga en la PWA (`/app/`). La PWA trae también Tesseract.js (OCR), ZXing y PDF.js (Apache-2.0, ver `app/vendor/PDFJS-LICENSE.txt`), todo en `app/vendor/`.
+Las tipografías (Familjen Grotesk, Onest y Doto, licencia OFL) están en `assets/fonts/`: las seis páginas principales cargan Google Tag Manager (`GTM-K9DC45S9`) para gestionar las etiquetas de medición.
 
 Para ver el sitio localmente: `python3 -m http.server` y abrir http://localhost:8000.
 
