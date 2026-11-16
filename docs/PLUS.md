@@ -5,7 +5,7 @@ Estado: contenido preparado para revisión. No activa compras, cuentas ni suscri
 ## Decisiones reflejadas
 
 - Plus está en preparación para iPhone y Android.
-- Se prevé ofrecer **1 mes de prueba gratis** al lanzamiento.
+- Se prevé ofrecer **1 mes de prueba gratis de Vencito Plus** al lanzamiento.
 - Las funciones gratuitas actuales continúan disponibles.
 - Las casas compartidas requerirán una cuenta y sincronización con el servicio; el uso local seguirá sin cuenta.
 - Los precios, la elegibilidad de la prueba y las condiciones definitivas siguen pendientes.
