@@ -38,3 +38,7 @@ La portada y el ejemplo del plan usan tortilla de patatas, chana masala y souvla
 - Verificar compras y permisos de Plus en las aplicaciones.
 - Actualizar la política de privacidad definitiva y revisar los textos de cuentas y sincronización.
 - Revisar este adelanto y autorizar expresamente su publicación.
+
+## Página propia de Plus
+
+Se agregan `/plus/`, `/en/plus/`, `/pt/plus/`, `/fr/plus/`, `/it/plus/` y `/de/plus/`, con la presentación y preguntas frecuentes del adelanto. La navegación, el pie y la sección de la portada apuntan a la página del idioma actual. Las páginas nuevas llevan `noindex,nofollow` hasta confirmar la oferta; no se añaden al sitemap público.
