@@ -116,4 +116,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-organize-the-pantry/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-organizar-la-alacena/"/>
   </url>
+  <url>
+    <loc>https://vencito.app/blog/como-cargar-productos-en-vencito/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-cargar-productos-en-vencito/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-add-products-in-vencito/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-cargar-productos-en-vencito/"/>
+  </url>
+  <url>
+    <loc>https://vencito.app/en/blog/how-to-add-products-in-vencito/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-cargar-productos-en-vencito/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-add-products-in-vencito/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-cargar-productos-en-vencito/"/>
+  </url>
 </urlset>

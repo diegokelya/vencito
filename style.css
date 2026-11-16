@@ -99,3 +99,4 @@
   .post-list a{padding:16px}
   .post-list h2{font-size:20px}
 }
+.blog-shots{display:flex;gap:16px;justify-content:center;margin:24px 0;flex-wrap:wrap}.blog-shots figure{margin:0;flex:0 1 220px}.blog-shots img{display:block;width:100%;height:auto;border-radius:22px;border:1px solid var(--line)}.blog-shots figcaption{margin-top:8px;font-size:13px;line-height:1.4;text-align:center;opacity:.75}
