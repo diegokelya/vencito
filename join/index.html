@@ -10,6 +10,7 @@
   @media (prefers-color-scheme: dark) { :root { --bg:#141a17; --fg:#eef3f0; --muted:#9fb0a8; --card:#1e2723; } }
   body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--fg); font:16px/1.5 -apple-system,system-ui,sans-serif; }
   main { width:min(92vw,420px); background:var(--card); border-radius:20px; padding:28px 24px; text-align:center; box-shadow:0 6px 30px rgba(0,0,0,.08); }
+  .mascot { display:block; margin:-6px auto 6px; height:auto; }
   h1 { font-size:22px; margin:0 0 6px; }
   p { color:var(--muted); margin:0 0 18px; }
   .code { font:600 28px ui-monospace,Menlo,monospace; letter-spacing:.08em; padding:12px; border-radius:12px; background:color-mix(in srgb,var(--accent) 12%,transparent); margin-bottom:18px; }
@@ -19,13 +20,31 @@
 </head>
 <body>
 <main>
-  <h1>You've been invited to a home on Vencito</h1>
-  <p>Open this link on an iPhone with Vencito installed and you'll go straight in. If you don't have the app yet, install it and tap the link again.</p>
+  <img class="mascot" src="/assets/ardilla-saludo.webp" alt="" width="140" height="140">
+  <h1 id="title">You've been invited to a home on Vencito</h1>
+  <p id="lead">Open this link on an iPhone with Vencito installed and you'll go straight in. If you don't have the app yet, install it and tap the link again.</p>
   <div class="code" id="code">········</div>
   <a class="btn" id="open" href="#">Open in Vencito</a>
-  <a class="alt" href="https://apps.apple.com/app/id6818290015">Download Vencito on the App Store</a>
+  <a class="alt" id="store" href="https://apps.apple.com/app/id6818290015">Download Vencito on the App Store</a>
 </main>
 <script>
+  // Textos en el idioma del navegador (igual que el sitio: es, en, pt, fr, it, de); si no está, inglés.
+  var TEXT = {
+    en: ["Join a home on Vencito", "You've been invited to a home on Vencito", "Open this link on an iPhone with Vencito installed and you'll go straight in. If you don't have the app yet, install it and tap the link again.", "Open in Vencito", "Download Vencito on the App Store"],
+    es: ["Unite a una casa en Vencito", "Te invitaron a una casa en Vencito", "Abrí este enlace en un iPhone con Vencito instalada y vas a entrar directo. Si todavía no la tenés, instalala y volvé a tocar el enlace.", "Abrir en Vencito", "Descargar Vencito en el App Store"],
+    pt: ["Entre em uma casa no Vencito", "Você foi convidado para uma casa no Vencito", "Abra este link em um iPhone com o Vencito instalado e você entra direto. Se ainda não tem o app, instale e toque no link de novo.", "Abrir no Vencito", "Baixar o Vencito na App Store"],
+    fr: ["Rejoindre une maison sur Vencito", "Vous êtes invité dans une maison sur Vencito", "Ouvrez ce lien sur un iPhone où Vencito est installé et vous y entrerez directement. Si vous n'avez pas encore l'app, installez-la et touchez à nouveau le lien.", "Ouvrir dans Vencito", "Télécharger Vencito sur l'App Store"],
+    it: ["Unisciti a una casa su Vencito", "Sei stato invitato in una casa su Vencito", "Apri questo link su un iPhone con Vencito installato e entrerai direttamente. Se non hai ancora l'app, installala e tocca di nuovo il link.", "Apri in Vencito", "Scarica Vencito sull'App Store"],
+    de: ["Einem Zuhause in Vencito beitreten", "Du wurdest in ein Zuhause in Vencito eingeladen", "Öffne diesen Link auf einem iPhone mit Vencito und du bist sofort drin. Hast du die App noch nicht, installiere sie und tippe den Link erneut an.", "In Vencito öffnen", "Vencito im App Store laden"]
+  };
+  var lang = (navigator.language || "en").slice(0, 2).toLowerCase();
+  var tx = TEXT[lang] || TEXT.en;
+  document.documentElement.lang = TEXT[lang] ? lang : "en";
+  document.title = tx[0];
+  document.getElementById("title").textContent = tx[1];
+  document.getElementById("lead").textContent = tx[2];
+  document.getElementById("open").textContent = tx[3];
+  document.getElementById("store").textContent = tx[4];
   // El código llega en ?c=<código> (lo agrega el 404) o como último tramo de /join/<código>.
   var code = (new URLSearchParams(location.search).get("c") || location.pathname.split("/").filter(Boolean).pop() || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
   if (code && code !== "JOIN") {
