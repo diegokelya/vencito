@@ -9,6 +9,13 @@
 <meta name="robots" content="noindex">
 <link rel="preload" href="/assets/fonts/familjen-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css?v=20261102">
+<script>
+  // /unirse/<código> no existe como archivo: se manda a la página de invitación con el código.
+  (function () {
+    var m = location.pathname.match(/^\/unirse\/([A-Za-z0-9]{4,16})\/?$/);
+    if (m) location.replace("/unirse/?c=" + m[1]);
+  })();
+</script>
 </head>
 <body>
 <main class="doc">
