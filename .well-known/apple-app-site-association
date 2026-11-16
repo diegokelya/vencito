@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": ["9364JL43Q9.com.diegokelya.vencimientos"],
-        "components": [{ "/": "/unirse/*", "comment": "Invitaciones a una casa compartida" }]
+        "components": [{ "/": "/join/*", "comment": "Invitaciones a una casa compartida" }]
       }
     ]
   }

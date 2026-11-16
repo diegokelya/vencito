@@ -26,11 +26,11 @@
   <a class="alt" href="https://apps.apple.com/app/id6818290015">Download Vencito on the App Store</a>
 </main>
 <script>
-  // El código llega en ?c=<código> (lo agrega el 404) o como último tramo de /unirse/<código>.
+  // El código llega en ?c=<código> (lo agrega el 404) o como último tramo de /join/<código>.
   var code = (new URLSearchParams(location.search).get("c") || location.pathname.split("/").filter(Boolean).pop() || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
-  if (code && code !== "UNIRSE") {
+  if (code && code !== "JOIN") {
     document.getElementById("code").textContent = code;
-    document.getElementById("open").href = "vencimientos://unirse/" + code;
+    document.getElementById("open").href = "vencimientos://join/" + code;
   }
 </script>
 </body>
