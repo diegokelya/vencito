@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Join a home on Vencito</title>
+<style>
+  :root { color-scheme: light dark; --bg:#fbfaf7; --fg:#1d2a24; --muted:#5d6b64; --accent:#2f9e72; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141a17; --fg:#eef3f0; --muted:#9fb0a8; --card:#1e2723; } }
+  body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--fg); font:16px/1.5 -apple-system,system-ui,sans-serif; }
+  main { width:min(92vw,420px); background:var(--card); border-radius:20px; padding:28px 24px; text-align:center; box-shadow:0 6px 30px rgba(0,0,0,.08); }
+  h1 { font-size:22px; margin:0 0 6px; }
+  p { color:var(--muted); margin:0 0 18px; }
+  .code { font:600 28px ui-monospace,Menlo,monospace; letter-spacing:.08em; padding:12px; border-radius:12px; background:color-mix(in srgb,var(--accent) 12%,transparent); margin-bottom:18px; }
+  a.btn { display:block; padding:14px; border-radius:14px; background:var(--accent); color:#fff; font-weight:600; text-decoration:none; margin-bottom:10px; }
+  a.alt { color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>You've been invited to a home on Vencito</h1>
+  <p>Open this link on an iPhone with Vencito installed and you'll go straight in. If you don't have the app yet, install it and tap the link again.</p>
+  <div class="code" id="code">········</div>
+  <a class="btn" id="open" href="#">Open in Vencito</a>
+  <a class="alt" href="https://apps.apple.com/app/id6818290015">Download Vencito on the App Store</a>
+</main>
+<script>
+  // El código llega en ?c=<código> (lo agrega el 404) o como último tramo de /join/<código>.
+  var code = (new URLSearchParams(location.search).get("c") || location.pathname.split("/").filter(Boolean).pop() || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+  if (code && code !== "JOIN") {
+    document.getElementById("code").textContent = code;
+    document.getElementById("open").href = "vencimientos://join/" + code;
+  }
+</script>
+</body>
+</html>
