@@ -106,3 +106,5 @@
 #recipe-dialog{max-height:90dvh;overflow-y:auto}#dialog-recipe-detail{padding:0 24px 24px;text-align:left}#dialog-recipe-detail h3{margin:20px 0 10px;font-size:18px}#dialog-recipe-detail li{margin-bottom:8px;line-height:1.55}#dialog-recipe-detail ul,#dialog-recipe-detail ol{padding-left:22px}
 
 .dialog-content #dialog-recipe-detail{padding:0 0 16px}
+
+.plus-mascot{width:144px;height:144px;object-fit:contain;margin:0 auto 20px}.plus-trial{text-align:center}
