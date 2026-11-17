@@ -229,7 +229,7 @@
   }
   /* ---------- uso sin conexión ---------- */
   const OFFLINE = 'vencito-offline';   // aparte de la caché de la app: sobrevive a las versiones nuevas
-  const offlineData = () => ['data/recipe-numbers.json', 'data/recipe-diets.json', 'data/recipes-tr-' + lang() + '.json', ...SRC.map(x => 'data/recipes-' + x + '.json')];
+  const offlineData = () => ['data/recipe-numbers.json', 'data/recipe-diets.json', 'data/recipe-nutrition.json', 'data/food-safety.json', 'data/recipes-tr-' + lang() + '.json', ...SRC.map(x => 'data/recipes-' + x + '.json')];
   async function offlineStatus() {
     const el = document.getElementById('offstat'); if (!el || !window.caches) return;
     try {
@@ -277,7 +277,7 @@
       <p class="small muted">${esc(t('Tus datos se guardan solo en este navegador: no hay cuentas ni servidores. Si borrás los datos del sitio, se pierden: exportá un archivo de vez en cuando.'))}</p>
       <h2>${esc(t('Acerca de'))}</h2><div class="group"><div class="item" data-act="egg"><span class="grow">${esc(t('Versión'))}</span><span class="muted">${APP_VERSION}</span></div><p class="small muted" style="padding:10px 14px;margin:0">Precios Claros – Base SEPA, Secretaría de Comercio, Ministerio de Economía (CC BY 4.0). USDA FoodData Central (dominio público). Open Food Facts (ODbL). Íconos: Lucide (ISC).</p><button class="link" data-act="wl-show">${esc(t('Ver la introducción'))}</button><a class="link" style="display:block;text-decoration:none" href="../">vencito.app</a></div>`;
   }
-  const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten']];
+  const DIETS = [['', 'Cualquier dieta'], ['vegetarian', 'Vegetariana'], ['vegan', 'Vegana'], ['dairyFree', 'Sin lácteos'], ['glutenFree', 'Sin gluten'], ['highProtein', 'Alta en proteína'], ['light', 'Liviana'], ['highFiber', 'Con fibra']];
   function matchRecipe(r) {
     const names = visible().map(p => ({ n: fold(p.name), d: daysOf(p) }));
     let have = 0, expiring = 0, main = 0;
@@ -345,7 +345,21 @@
   function ensureQuickData() { if (!ui.quickP) ui.quickP = fetch('data/quick.json').then(r => r.json()).then(j => { ui.quick = j; if (ui.tab === 'recipes') refreshRecipes(); else if (ui.tab === 'products' && !ui.sheet) render(); }).catch(() => { ui.quick = []; }); return ui.quickP; }
   const refreshRecipes = () => { const e = document.getElementById('rlist'); if (e && ui.tab === 'recipes' && !ui.sheet) e.innerHTML = ui.catalog === null ? `<div class="empty">${esc(t('Cargando…'))}</div>` : recipeCards(); };
   /* etiquetas de dieta de la receta (orientativas, como en la app): la vegana ya implica vegetariana */
-  const DIET_BADGES = [['vegetarian', 'Vegetariana', 'carrot'], ['vegan', 'Vegana', 'leaf'], ['dairyFree', 'Sin lácteos', 'milk'], ['glutenFree', 'Sin gluten', 'wheat']];
+  const DIET_BADGES = [['vegetarian', 'Vegetariana', 'carrot'], ['vegan', 'Vegana', 'leaf'], ['dairyFree', 'Sin lácteos', 'milk'], ['glutenFree', 'Sin gluten', 'wheat'], ['highProtein', 'Alta en proteína', 'zap'], ['light', 'Liviana', 'leaf'], ['highFiber', 'Con fibra', 'apple']];
+  /* Nutrición aproximada por porción (recipe-nutrition.json) e información de conservación (food-safety.json), igual que en la app. */
+  const nutOf = r => (r && !r.composed && ui.nutr && ui.nutr[r.id]) || null;
+  const fst = k => { const x = ui.fs && ui.fs.texts; return (x && ((x[lang()] || {})[k] || (x.es || {})[k])) || ''; };
+  const kcalBadge = r => { const n = nutOf(r); return n ? `<span class="badge kcal">${ico('flame')} ~${n.k} kcal</span>` : ''; };
+  function nutritionCard(r) {
+    const n = nutOf(r); if (!n) return '';
+    const m = [[t('Proteína'), n.p, n.p * 4, '#3b82f6'], [t('Carbos'), n.c, n.c * 4, '#f59e0b'], [t('Grasa'), n.f, n.f * 9, '#ec4899']], tot = Math.max(1, m.reduce((a, x) => a + x[2], 0));
+    return `<div class="ncard" role="img" aria-label="${esc(t('~%lld kcal por porción · proteína %lld g · carbos %lld g · grasa %lld g', n.k, n.p, n.c, n.f))}"><div class="nk"><b>${n.k}</b><span>${esc(t('kcal por porción'))}</span></div>${m.map(x => `<div class="nm"><b>${x[1]} g</b><i style="--w:${Math.round(100 * x[2] / tot)}%;--c:${x[3]}"></i><span>${esc(x[0])}</span></div>`).join('')}</div>`;
+  }
+  function safetyBox(food) {
+    if (!ui.fs || !food) return '';
+    return `<div class="group safety"><div class="item" style="display:block"><b>${esc(fst('title'))}</b><p class="small" style="margin:6px 0 2px"><b>${esc(fst('storage'))}</b></p><p class="small muted" style="margin:0">${esc(fst(food === 'recipe' ? 'recipeStorage' : 'productStorage'))}</p>${ui.fs.sources && ui.fs.sources.storage ? `<a class="rlink small" href="${esc(ui.fs.sources.storage)}" target="_blank" rel="noopener">FoodSafety.gov</a>` : ''}</div></div>`;
+  }
+  const isFoodCat = c => { const k = catKey(c); return !!k && !['limpieza', 'medicamentos', 'perfumeria', 'otros'].includes(k); };
   function dietBadges(r, small) {
     if (!r || r.composed) return ''; const tags = new Set((ui.diets || {})[r.id] || []); if (tags.has('vegan')) tags.delete('vegetarian');
     const b = DIET_BADGES.filter(x => tags.has(x[0])); if (!b.length) return '';
@@ -356,7 +370,7 @@
   const flagEmoji = o => (o && /^[A-Z]{2}$/.test(o) ? String.fromCodePoint(...[...o].map(c => 127397 + c.charCodeAt(0))) + ' ' : '');
   const flagOf = o => (o && /^[A-Z]{2}$/.test(o) ? `<img class="flag" src="../assets/flags/${o.toLowerCase()}.svg" alt="" width="20" height="15" loading="lazy" decoding="async"> ` : '');
   function recipeCard(m) { const r = m.r; return `<button class="card recipe" style="display:block;width:100%;text-align:left;border:0;margin:8px 0" data-act="recipe" data-id="${esc(r.id)}"><div class="rcard">${r.composed ? composedThumb(r) : photo(r.id, 'thumb')}<div class="grow"><div class="t">${flagOf(r.origin)}${esc(r.title)}${m.expiring ? ' ' + ico('flame', 'o') : ''}</div>
-        <div class="s muted small clamp">${esc(r.summary || '')}</div>${dietBadges(r, true)}<div class="small" style="margin-top:6px">${m.all ? '' : `<span class="good">${esc(t('Tenés %lld de %lld ingredientes', m.have, m.total))}</span> · `}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</div></div></div></button>`; }
+        <div class="s muted small clamp">${esc(r.summary || '')}</div>${dietBadges(r, true)}<div class="small" style="margin-top:6px">${nutOf(r) ? `<span class="kc">~${nutOf(r).k} kcal</span> · ` : ''}${m.all ? '' : `<span class="good">${esc(t('Tenés %lld de %lld ingredientes', m.have, m.total))}</span> · `}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</div></div></div></button>`; }
   function recipeCards() {
     const list = recipeList(), comp = ui.rmode === 'mine' && !ui.rdiet ? compHtml() : '';
     if (ui.rmode === 'saved' && !list.length) return `<div class="empty"><b>${esc(t('Recetas guardadas'))}</b>${esc(t('Todavía no guardaste ninguna receta.'))}</div>`;
@@ -505,6 +519,7 @@
       ${catKey(p.category) ? `<div class="item"><span class="grow muted">${esc(t('Categoría'))}</span><span>${esc(catLabel(catKey(p.category)))}</span></div>` : ''}
       ${p.location ? `<div class="item"><span class="grow muted">${esc(t('Ubicación'))}</span><span>${esc(placeLabel(p.location))}</span></div>` : ''}
       ${p.notes ? `<div class="item"><span class="grow muted">${esc(t('Notas'))}</span><span>${esc(p.notes)}</span></div>` : ''}</div>
+      ${b !== 'none' && isFoodCat(p.category) && ui.fs ? `<p class="small muted" style="margin:4px 4px 8px">${esc(fst('dateNote'))}</p>` : ''}${isFoodCat(p.category) ? safetyBox('product') : ''}
       <div class="group"><button class="link" data-act="consume" data-id="${esc(id)}">${ico('circle-check')} ${esc(p.quantity > 1 ? t('Usé una unidad') : t('Marcar como consumido'))}</button>
       <button class="link" data-act="discard" data-id="${esc(id)}">${ico('trash-2')} ${esc(t('Tirar'))}</button>
       ${p.openedAt ? `<button class="link" data-act="unopen" data-id="${esc(id)}">${ico('rotate-ccw')} ${esc(t('Quitar la fecha de apertura'))}</button>` : ''}
@@ -696,7 +711,7 @@
         <button class="link" data-act="ck-mode" data-id="list">${esc(t('Volver a la receta'))}</button></div></div>`, 'cookfs');
     }
     const m = matchRecipe(r), saved = isSaved(r);
-    return page(r.title, `<div class="rdesk"><div class="rcol">${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>${dietBadges(r)}
+    return page(r.title, `<div class="rdesk"><div class="rcol">${r.composed ? '' : photo(r.id, 'hero')}<p class="muted">${esc(r.summary || '')}</p><p class="small">${flagOf(r.origin)}${r.minutes ? esc(t('%lld min', r.minutes)) : ''}</p>${dietBadges(r)}${nutritionCard(r)}
       ${r.servings ? `<div class="f row" style="padding:6px 0"><span class="grow">${ico('users')} <span id="ckserv">${esc(t('%lld porciones', c.servings))}</span></span><span class="stepper"><button type="button" data-act="ck-serv" data-id="-1">−</button><button type="button" data-act="ck-serv" data-id="1">+</button></span></div>` : ''}
       ${r.side ? `<p class="small">${ico('leaf')} ${esc(r.side)}</p>` : ''}
       ${recipeLink(r) ? `<p class="small">${ico('link')} <a class="rlink" href="${esc(recipeLink(r))}" target="_blank" rel="noopener">${esc(recipeLink(r).replace('https://', ''))}</a></p>` : ''}
@@ -704,7 +719,7 @@
       <div class="rcol"><h2>${esc(t('Ingredientes'))}</h2><div class="group" id="cking">${cookIngHtml(r)}</div>
       ${m.ing.some(x => !x.have && !x.staple) ? `<button class="btn block" style="margin-top:8px" data-act="ck-missing">${ico('shopping-cart')} ${esc(t('Agregar lo que falta a la lista'))}</button>` : ''}</div>
       <div class="rcol"><h2>${esc(t('Preparación'))}</h2><div class="group" id="ckstp">${cookStepsHtml(r)}</div>${r.tip ? `<p class="muted small">${ico('lightbulb')} ${esc(r.tip)}</p>` : ''}
-      <p class="small muted">${esc(t('La pantalla queda encendida mientras cocinás.'))} ${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p></div></div>`);
+      ${safetyBox('recipe')}<p class="small muted">${esc(t('La pantalla queda encendida mientras cocinás.'))} ${esc(t('Revisá siempre el estado de los alimentos antes de cocinar.'))}</p></div></div>`);
   }
   function cookAct(act, id, el) {
     const r = ui.cook && recipeById(ui.cook.id); if (!r) return; const c = ui.cook;
@@ -1005,7 +1020,8 @@
     if (!ui.nums) { ui.nums = {}; fetch('data/recipe-numbers.json').then(r => r.json()).then(m => { ui.nums = m; if (ui.sheet && ui.sheet.type === 'recipe') render(); }).catch(() => {}); }
     const l = lang(); if (ui.catLang === l && ui.catalog) return; ui.catalog = null; ui.catLang = l;
     const get = f => fetch('data/' + f + '.json').then(r => { if (!r.ok) throw new Error(f); return r.json(); });
-    Promise.all([Promise.all(SRC.map(x => get('recipes-' + x).catch(() => []))), get('recipes-tr-' + l).catch(() => ({})), get('recipe-diets').catch(() => ({}))]).then(([files, tr, diets]) => {
+    Promise.all([Promise.all(SRC.map(x => get('recipes-' + x).catch(() => []))), get('recipes-tr-' + l).catch(() => ({})), get('recipe-diets').catch(() => ({})), get('recipe-nutrition').catch(() => ({})), get('food-safety').catch(() => null)]).then(([files, tr, diets0, nutr, fs]) => {
+      const diets = {}; Object.keys(diets0 || {}).forEach(k => { diets[k] = (diets0[k] || []).slice(); }); Object.keys(nutr || {}).forEach(k => { diets[k] = (diets[k] || []).concat(nutr[k].t || []); }); ui.nutr = nutr || {}; ui.fs = fs;
       const seen = new Set(), all = [];
       files.forEach((arr, i) => (Array.isArray(arr) ? arr : []).forEach(r => {
         if (!r || seen.has(r.id)) return; seen.add(r.id);

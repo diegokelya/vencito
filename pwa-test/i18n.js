@@ -1,6 +1,14 @@
 /* Textos de Vencito (clave = texto en español). Generado: no editar a mano. */
 window.I18N = {
  "en": {
+ "Proteína": "Protein",
+ "Carbos": "Carbs",
+ "Grasa": "Fat",
+ "kcal por porción": "kcal per serving",
+ "Alta en proteína": "High protein",
+ "Liviana": "Light",
+ "Con fibra": "High fiber",
+ "~%lld kcal por porción · proteína %lld g · carbos %lld g · grasa %lld g": "~%lld kcal per serving · protein %lld g · carbs %lld g · fat %lld g",
  "Cuenta": "Account",
  "Iniciar sesión": "Sign in",
  "Cerrar sesión": "Sign out",
@@ -298,6 +306,14 @@ window.I18N = {
   "Volver": "Back"
  },
  "pt": {
+ "Proteína": "Proteína",
+ "Carbos": "Carbos",
+ "Grasa": "Gordura",
+ "kcal por porción": "kcal por porção",
+ "Alta en proteína": "Rica em proteína",
+ "Liviana": "Leve",
+ "Con fibra": "Com fibras",
+ "~%lld kcal por porción · proteína %lld g · carbos %lld g · grasa %lld g": "~%lld kcal por porção · proteína %lld g · carbos %lld g · gordura %lld g",
  "Cuenta": "Conta",
  "Iniciar sesión": "Entrar",
  "Cerrar sesión": "Sair",
@@ -595,6 +611,14 @@ window.I18N = {
   "Volver": "Voltar"
  },
  "fr": {
+ "Proteína": "Protéines",
+ "Carbos": "Glucides",
+ "Grasa": "Lipides",
+ "kcal por porción": "kcal par portion",
+ "Alta en proteína": "Riche en protéines",
+ "Liviana": "Légère",
+ "Con fibra": "Riche en fibres",
+ "~%lld kcal por porción · proteína %lld g · carbos %lld g · grasa %lld g": "~%lld kcal par portion · protéines %lld g · glucides %lld g · lipides %lld g",
  "Cuenta": "Compte",
  "Iniciar sesión": "Se connecter",
  "Cerrar sesión": "Se déconnecter",
@@ -892,6 +916,14 @@ window.I18N = {
   "Volver": "Retour"
  },
  "it": {
+ "Proteína": "Proteine",
+ "Carbos": "Carbo",
+ "Grasa": "Grassi",
+ "kcal por porción": "kcal a porzione",
+ "Alta en proteína": "Ricca di proteine",
+ "Liviana": "Leggera",
+ "Con fibra": "Ricca di fibre",
+ "~%lld kcal por porción · proteína %lld g · carbos %lld g · grasa %lld g": "~%lld kcal a porzione · proteine %lld g · carbo %lld g · grassi %lld g",
  "Cuenta": "Account",
  "Iniciar sesión": "Accedi",
  "Cerrar sesión": "Esci",
@@ -1189,6 +1221,14 @@ window.I18N = {
   "Volver": "Indietro"
  },
  "de": {
+ "Proteína": "Eiweiß",
+ "Carbos": "Kohlenh.",
+ "Grasa": "Fett",
+ "kcal por porción": "kcal pro Portion",
+ "Alta en proteína": "Proteinreich",
+ "Liviana": "Leicht",
+ "Con fibra": "Ballaststoffreich",
+ "~%lld kcal por porción · proteína %lld g · carbos %lld g · grasa %lld g": "~%lld kcal pro Portion · Eiweiß %lld g · Kohlenh. %lld g · Fett %lld g",
  "Cuenta": "Konto",
  "Iniciar sesión": "Anmelden",
  "Cerrar sesión": "Abmelden",
