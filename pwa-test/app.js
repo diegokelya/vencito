@@ -262,6 +262,7 @@
       <h2>${esc(t('Lista de compras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sumar a la lista al terminar un producto'))}</span><input type="checkbox" data-act="autoshop" style="width:auto" ${S.autoShop ? 'checked' : ''}></label></div>
       <h2>${esc(t('Unidades de las recetas'))}</h2><div class="group"><label class="f"><span>${esc(t('Sistema de unidades'))}</span><select data-act="units">${[['auto', 'Automático'], ['metric', 'Métrico (g, ml)'], ['imperial', 'Imperial (oz, lb)']].map(([k, n]) => `<option value="${k}" ${S.units === k ? 'selected' : ''}>${esc(t(n))}</option>`).join('')}</select></label></div>
       <h2>${esc(t('Casas'))}</h2><div class="group"><button class="link" data-act="homes">${ico('house')} ${esc(t('Administrar casas'))}${S.homes.length ? ' (' + S.homes.length + ')' : ''}</button></div>
+      ${window.VAuth && VAuth.enabled() ? `<h2>${esc(t('Cuenta'))}</h2><div class="group"><button class="link" data-act="account">${ico('users')} ${esc(VAuth.signedIn() ? VAuth.email() : t('Iniciar sesión'))}</button></div>` : ''}
       <h2>${esc(t('Sin conexión'))}</h2><div class="group"><button class="link" data-act="offline-save">${ico('download')} ${esc(t('Guardar recetas para usar sin conexión'))}</button></div><p class="small muted" id="offstat" aria-live="polite"></p>
       <h2>${esc(t('Código de barras'))}</h2><div class="group"><label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Buscar el producto por código de barras'))}</span><input type="checkbox" data-act="lookup" style="width:auto" ${S.lookup ? 'checked' : ''}></label>
         <label class="f row"><span class="grow" style="font-size:16px;color:inherit">${esc(t('Sonido al escanear'))}</span><input type="checkbox" data-act="sound" style="width:auto" ${S.sound !== false ? 'checked' : ''}></label></div>
@@ -488,8 +489,8 @@
   /* La receta y «Cocinar» ocupan la pantalla (con un botón para volver) en vez de abrirse en una ventana flotante. */
   const page = (title, body, cls = '') => `<div class="rpage ${cls}"><div class="bar"><button class="btn" data-act="close">‹ ${esc(t('Volver'))}</button><h2 class="grow">${esc(title)}</h2></div>${body}</div>`;
   /* Pantallas que ocupan todo (con «Volver»); las confirmaciones chicas siguen siendo ventanas. */
-  const PAGE_TYPES = new Set(['week', 'wpick', 'wday', 'product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe']);
-  const NARROW_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'receipt']);
+  const PAGE_TYPES = new Set(['week', 'wpick', 'wday', 'product', 'form', 'stats', 'hist', 'homes', 'dups', 'quick', 'receipt', 'recipe', 'account']);
+  const NARROW_TYPES = new Set(['product', 'form', 'stats', 'hist', 'homes', 'dups', 'receipt', 'account']);
   let sheetAsPage = false;
   const sheet = (title, body, close = true, cls = '') => sheetAsPage ? page(title, body, (cls + (ui.sheet && NARROW_TYPES.has(ui.sheet.type) ? ' narrow' : '')).trim()) : `<div class="sheet-bg" data-act="bg"><div class="sheet ${cls}" role="dialog" aria-modal="true"><div class="bar"><h3>${esc(title)}</h3>${close ? `<button class="btn" data-act="close">${esc(t('Cerrar'))}</button>` : ''}</div>${body}</div></div>`;
   function productSheet(id) {
@@ -595,6 +596,26 @@
     return sheet(t('Casas'), `<div class="group">${hs.length ? hs.map(row).join('') : `<div class="item"><span class="grow"><span class="t">${esc(t('Mi casa'))}</span><br><span class="s">${esc(t('%lld productos', S.products.length))}</span></span></div>`}</div>
       <p class="small muted">${esc(t('Cada casa tiene sus productos. En la lista elegís qué casa ver.'))}</p>
       <div class="row"><input class="search grow" id="newhome" placeholder="${esc(t('Nombre (ej. Casa de la playa)'))}" maxlength="60" autocomplete="off"><button class="btn primary" data-act="home-add">${esc(t('Agregar casa'))}</button></div>${hs.length ? '' : `<p class="small muted">${esc(t('Tus productos actuales quedan en «%@».', t('Mi casa')))}</p>`}`);
+  }
+  function accountSheet() {
+    if (VAuth.signedIn()) return sheet(t('Cuenta'), `<div class="group"><div class="item"><span class="grow"><span class="t">${esc(VAuth.email())}</span></span></div></div>
+      <p class="small muted">${esc(t('Por ahora la cuenta solo identifica tu sesión: tus datos siguen guardados solo en este navegador.'))}</p>
+      <div class="group"><button class="link danger" data-act="acc-out">${esc(t('Cerrar sesión'))}</button></div>`);
+    return sheet(t('Iniciar sesión'), `<form data-act="acc-form"><div class="group"><label class="f"><span>${esc(t('Correo'))}</span><input type="email" id="accmail" autocomplete="email" value="${esc(ui.accMail || '')}" required></label>
+      <label class="f"><span>${esc(t('Contraseña'))}</span><input type="password" id="accpass" autocomplete="current-password" minlength="6" required></label></div>
+      <p class="small" id="accmsg" role="alert" aria-live="polite">${esc(ui.accMsg || '')}</p>
+      <div class="row"><button type="submit" class="btn primary grow" data-act="acc-in">${esc(t('Entrar'))}</button><button type="button" class="btn grow" data-act="acc-up">${esc(t('Crear cuenta'))}</button></div></form>
+      <p class="small muted">${esc(t('La cuenta es opcional: Vencito funciona igual sin ella.'))}</p>`);
+  }
+  async function accountSubmit(create) {
+    const m = document.getElementById('accmail'), p = document.getElementById('accpass'); if (m) ui.accMail = m.value;
+    if (!m || !p || !m.value.trim() || p.value.length < 6) { ui.accMsg = t('Ingresá un correo y una contraseña de al menos 6 caracteres.'); render(); return; }
+    try {
+      const ok = await VAuth.signInWithEmail(m.value, p.value, create);
+      ui.accMsg = ok ? '' : t('Te enviamos un correo: confirmalo y después iniciá sesión.');
+      if (ok) ui.sheet = { type: 'account' };
+    } catch (e) { ui.accMsg = e.message || t('No se pudo iniciar sesión'); }
+    render();
   }
   function histSheet() {
     const kind = ui.hist, from = startOf(ui.period, new Date()), key = kind === 'consumed' ? 'consumedAt' : 'discardedAt';
@@ -721,7 +742,7 @@
     const planOpen = !!(ui.sheet && ['week', 'wpick', 'wday'].includes(ui.sheet.type));
     const isPage = !!(ui.sheet && PAGE_TYPES.has(ui.sheet.type)); sheetAsPage = isPage;
     const tabView = () => ui.tab === 'products' ? productsView() : ui.tab === 'recipes' ? recipesView() : ui.tab === 'shopping' ? shoppingView() : settingsView();
-    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'week' ? weekSheet() : sh.type === 'wpick' ? weekPickSheet() : sh.type === 'wday' ? planDaySheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
+    const sh = ui.sheet, shHtml = !sh ? '' : sh.type === 'product' ? productSheet(sh.id) : sh.type === 'form' ? formSheet(sh.id) : sh.type === 'stats' ? statsSheet() : sh.type === 'week' ? weekSheet() : sh.type === 'wpick' ? weekPickSheet() : sh.type === 'wday' ? planDaySheet() : sh.type === 'recipe' ? recipeSheet(String(sh.id)) : sh.type === 'remove' ? removeSheet(sh.id) : sh.type === 'hist' ? histSheet() : sh.type === 'homes' ? homesSheet() : sh.type === 'account' ? accountSheet() : sh.type === 'dups' ? dupsSheet() : sh.type === 'homedel' ? confirmSheet(t('¿Eliminar esta casa?'), t('Sus productos no se borran: pasan a otra casa.'), [{ act: 'home-del-yes', id: sh.id, text: t('Eliminar y pasar sus productos a otra casa'), danger: true }]) : sh.type === 'quick' ? quickSheet() : sh.type === 'hist-clear' ? confirmSheet(t('¿Borrar todo el historial de consumidos?'), t('No se puede deshacer.'), [{ act: 'clear-hist-yes', text: t('Borrar historial'), danger: true }]) : sh.type === 'receipt' ? receiptSheet() : sh.type === 'wipe' ? confirmSheet(t('Borrar todos los productos'), t('No se puede deshacer.'), [{ act: 'wipe-yes', text: t('Borrar todo'), danger: true }]) : '';
     const tb = `<nav class="tabs" aria-label="Vencito"><div>${tabs.map(([k, ic, n]) => { const on = k === 'plan' ? planOpen : ui.tab === k && !planOpen; return `<button class="${on ? 'on' : ''}" data-act="tab" data-id="${k}" ${on ? 'aria-current="page"' : ''}><b aria-hidden="true">${ico(ic)}</b>${esc(k === 'recipes' ? t('Recetas') : t(n))}</button>`; }).join('')}</div></nav>`;
     const wasPage = !!ui.inPage; if (isPage && !wasPage) ui.pageBack = window.scrollY;       // para volver al mismo lugar de la lista
     const appEl = document.getElementById('app'); appEl.className = 'tab-' + ui.tab;
@@ -791,6 +812,10 @@
       case 'dup-all': { let n = 0; dupGroups().forEach(g => { n += mergeGroup(g.map(x => x.id)); }); save(); render(); toast(t('%lld productos fusionados', n), false, true); break; }
       case 'homef': S.home = id; save(); render(); break;
       case 'homes': ui.sheet = { type: 'homes' }; render(); break;
+      case 'account': ui.accMsg = ''; ui.sheet = { type: 'account' }; render(); break;
+      case 'acc-in': e.preventDefault(); accountSubmit(false); break;
+      case 'acc-up': accountSubmit(true); break;
+      case 'acc-out': VAuth.signOut(); ui.sheet = null; render(); break;
       case 'home-add': { const i = document.getElementById('newhome'); if (i && i.value.trim()) { addHome(i.value); render(); } break; }
       case 'home-del': ui.sheet = { type: 'homedel', id }; render(); break;
       case 'home-del-yes': deleteHome(id); ui.sheet = { type: 'homes' }; render(); break;
