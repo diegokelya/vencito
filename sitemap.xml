@@ -130,4 +130,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-add-products-in-vencito/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-cargar-productos-en-vencito/"/>
   </url>
+  <url>
+    <loc>https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-use-leftovers-in-your-fridge/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/"/>
+  </url>
+  <url>
+    <loc>https://vencito.app/en/blog/how-to-use-leftovers-in-your-fridge/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vencito.app/en/blog/how-to-use-leftovers-in-your-fridge/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/"/>
+  </url>
 </urlset>

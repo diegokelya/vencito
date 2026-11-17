@@ -102,10 +102,15 @@ test('la nota de la alacena ordena lo que ya compraste y cierra con las tiendas'
   assert.match(cta, /Gratis · Sin publicidad · Sin cuentas/);
 
   const indexJson = JSON.parse(index.match(/<script type="application\/ld\+json">\n([\s\S]*?)\n<\/script>/)[1]);
-  assert.equal(indexJson.blogPost[0].headline, title);
-  assert.equal(indexJson.blogPost[0].url, 'https://vencito.app/blog/como-organizar-la-alacena/');
-  assert.equal(indexJson.blogPost[1].headline, 'Cómo leer la fecha de vencimiento');
+  assert.equal(indexJson.blogPost[0].headline, 'Cómo aprovechar lo que sobra en la heladera');
+  assert.equal(indexJson.blogPost[0].url, 'https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/');
+  assert.equal(indexJson.blogPost[1].headline, 'Cómo cargar productos en Vencito');
+  assert.equal(indexJson.blogPost[1].url, 'https://vencito.app/blog/como-cargar-productos-en-vencito/');
+  assert.equal(indexJson.blogPost[2].headline, title);
+  assert.equal(indexJson.blogPost[2].url, 'https://vencito.app/blog/como-organizar-la-alacena/');
+  assert.equal(indexJson.blogPost[3].headline, 'Cómo leer la fecha de vencimiento');
   const list = index.slice(index.indexOf('class="post-list"'));
+  assert.ok(list.indexOf('/blog/como-aprovechar-lo-que-sobra-en-la-heladera/') < list.indexOf('/blog/como-cargar-productos-en-vencito/'));
   assert.ok(list.indexOf('/blog/como-organizar-la-alacena/') < list.indexOf('/blog/como-leer-la-fecha-de-vencimiento/'));
 });
 
@@ -119,6 +124,8 @@ test('el blog en inglés traduce las dos notas y enlaza solo español e inglés'
     ['https://vencito.app/blog/', 'https://vencito.app/en/blog/'],
     ['https://vencito.app/blog/como-leer-la-fecha-de-vencimiento/', 'https://vencito.app/en/blog/how-to-read-the-expiration-date/'],
     ['https://vencito.app/blog/como-organizar-la-alacena/', 'https://vencito.app/en/blog/how-to-organize-the-pantry/'],
+    ['https://vencito.app/blog/como-cargar-productos-en-vencito/', 'https://vencito.app/en/blog/how-to-add-products-in-vencito/'],
+    ['https://vencito.app/blog/como-aprovechar-lo-que-sobra-en-la-heladera/', 'https://vencito.app/en/blog/how-to-use-leftovers-in-your-fridge/'],
   ];
 
   for (const html of [index, dates, pantry]) {
@@ -149,9 +156,12 @@ test('el blog en inglés traduce las dos notas y enlaza solo español e inglés'
 
   const indexJson = JSON.parse(index.match(/<script type="application\/ld\+json">\n([\s\S]*?)\n<\/script>/)[1]);
   assert.equal(indexJson.inLanguage, 'en');
-  assert.equal(indexJson.blogPost[0].url, 'https://vencito.app/en/blog/how-to-organize-the-pantry/');
-  assert.equal(indexJson.blogPost[1].url, 'https://vencito.app/en/blog/how-to-read-the-expiration-date/');
+  assert.equal(indexJson.blogPost[0].url, 'https://vencito.app/en/blog/how-to-use-leftovers-in-your-fridge/');
+  assert.equal(indexJson.blogPost[1].url, 'https://vencito.app/en/blog/how-to-add-products-in-vencito/');
+  assert.equal(indexJson.blogPost[2].url, 'https://vencito.app/en/blog/how-to-organize-the-pantry/');
+  assert.equal(indexJson.blogPost[3].url, 'https://vencito.app/en/blog/how-to-read-the-expiration-date/');
   const list = index.slice(index.indexOf('class="post-list"'));
+  assert.ok(list.indexOf('/en/blog/how-to-use-leftovers-in-your-fridge/') < list.indexOf('/en/blog/how-to-add-products-in-vencito/'));
   assert.ok(list.indexOf('/en/blog/how-to-organize-the-pantry/') < list.indexOf('/en/blog/how-to-read-the-expiration-date/'));
 });
 
