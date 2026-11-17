@@ -284,3 +284,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .stile { flex: none; width: 72px; background: none; border: 0; padding: 0; display: grid; gap: 4px; justify-items: center; color: var(--primary); font-size: 12px; }
 .stile img { width: 72px; height: 72px; border-radius: 14px; object-fit: cover; background: var(--card2); }
 .stile span { max-width: 72px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.badge.kcal { background: color-mix(in srgb, #f59e0b 20%, transparent); color: #b45309; }
+.kc { font-weight: 600; }
+.ncard { display: flex; align-items: center; gap: 12px; padding: 12px; margin: 8px 0; border-radius: 14px; background: color-mix(in srgb, currentColor 7%, transparent); }
+.ncard .nk { display: flex; flex-direction: column; align-items: center; min-width: 84px; padding-right: 12px; border-right: 1px solid color-mix(in srgb, currentColor 18%, transparent); }
+.ncard .nk b { font-size: 30px; line-height: 1.1; }
+.ncard .nk span, .ncard .nm span { font-size: 11px; opacity: .7; text-align: center; }
+.ncard .nm { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 14px; }
+.ncard .nm i { display: block; width: 100%; height: 5px; border-radius: 9px; background: linear-gradient(to right, var(--c) var(--w), color-mix(in srgb, var(--c) 25%, transparent) var(--w)); }
+.safety { margin: 10px 0; }

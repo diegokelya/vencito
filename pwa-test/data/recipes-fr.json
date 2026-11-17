@@ -62,6 +62,7 @@
     "tip": "Ajoutez un œuf au plat dessus pour en faire un croque-madame.",
     "meals": [
       "breakfast",
+      "snack",
       "main"
     ]
   },
@@ -139,7 +140,7 @@
     "title": "Quiche lorraine",
     "summary": "La classique, avec lardons et œufs.",
     "minutes": 50,
-    "servings": 2,
+    "servings": 3,
     "side": "Salade verte",
     "ingredients": [
       {
@@ -909,7 +910,7 @@
     "title": "Lentilles aux saucisses",
     "summary": "Plat complet et économique.",
     "minutes": 45,
-    "servings": 2,
+    "servings": 3,
     "side": "",
     "ingredients": [
       {
@@ -983,7 +984,7 @@
     "title": "Quiche aux légumes",
     "summary": "Végétarienne et facile.",
     "minutes": 50,
-    "servings": 2,
+    "servings": 3,
     "side": "",
     "ingredients": [
       {
@@ -1333,7 +1334,7 @@
     "title": "Gratin de pâtes",
     "summary": "Pour finir les restes de pâtes.",
     "minutes": 35,
-    "servings": 2,
+    "servings": 3,
     "side": "",
     "ingredients": [
       {
@@ -1646,6 +1647,8 @@
           "thym",
           "origan",
           "herbes de provence",
+          "herbes",
+          "herbs",
           "basilic"
         ],
         "amount": "1 cuillère à café",
@@ -1820,7 +1823,7 @@
     "title": "Tartiflette simplifiée",
     "summary": "Pommes de terre, lardons et fromage fondu.",
     "minutes": 50,
-    "servings": 2,
+    "servings": 4,
     "side": "Salade verte",
     "ingredients": [
       {
@@ -2222,7 +2225,7 @@
     "title": "Pâtes aux champignons et à la crème",
     "summary": "Un plat crémeux en 20 minutes.",
     "minutes": 20,
-    "servings": 2,
+    "servings": 3,
     "side": "",
     "ingredients": [
       {
@@ -2378,6 +2381,7 @@
     "origin": "FR",
     "meals": [
       "breakfast",
+      "snack",
       "main"
     ]
   },
@@ -2586,7 +2590,8 @@
     "tip": "Laissez reposer la pâte 30 minutes pour des crêpes fines et sans grumeaux.",
     "origin": "FR",
     "meals": [
-      "breakfast"
+      "snack",
+      "dessert"
     ]
   },
   {
@@ -2709,7 +2714,10 @@
       "Faites cuire 35 minutes à four moyen jusqu'à ce que ce soit doré et ferme."
     ],
     "tip": "Utilisez un plat beurré et servez tiède pour plus de onctuosité.",
-    "origin": "FR"
+    "origin": "FR",
+    "meals": [
+      "dessert"
+    ]
   },
   {
     "id": "fr-soupe-aux-poireaux",
@@ -2935,7 +2943,10 @@
       "Versez dans un moule beurré et cuisez 35 minutes."
     ],
     "tip": "Utilisez le pot de yaourt vide pour mesurer tous les ingrédients.",
-    "origin": "FR"
+    "origin": "FR",
+    "meals": [
+      "dessert"
+    ]
   },
   {
     "id": "fr-gratin-de-poireaux-au-jambon",
@@ -3805,6 +3816,9 @@
       "Enfournez 35 minutes à 190 °C, laissez tiédir 5 minutes et retournez sur un plat."
     ],
     "tip": "Retournez la tarte tiède, sinon le caramel durcit et colle.",
-    "origin": "FR"
+    "origin": "FR",
+    "meals": [
+      "dessert"
+    ]
   }
 ]

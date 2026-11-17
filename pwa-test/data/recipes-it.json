@@ -169,7 +169,7 @@
     "title": "Spaghetti alla carbonara",
     "summary": "Uova, guanciale e formaggio, senza panna.",
     "minutes": 25,
-    "servings": 2,
+    "servings": 3,
     "side": "",
     "ingredients": [
       {
@@ -1558,7 +1558,7 @@
     "title": "Pasta al forno",
     "summary": "Il piatto della domenica.",
     "minutes": 45,
-    "servings": 2,
+    "servings": 4,
     "side": "",
     "ingredients": [
       {
@@ -2765,7 +2765,7 @@
     "tip": "Fai riposare la frolla 30 minuti in frigo perché non si ritiri in cottura.",
     "origin": "IT",
     "meals": [
-      "breakfast"
+      "snack"
     ]
   },
   {
@@ -2836,7 +2836,8 @@
     "tip": "Lascia raffreddare la crema prima di farcire perché la pasta non si inumidisca.",
     "origin": "IT",
     "meals": [
-      "breakfast"
+      "snack",
+      "dessert"
     ]
   },
   {
@@ -3333,7 +3334,10 @@
       "Fai riposare in frigo 4 ore e cospargi di cacao."
     ],
     "tip": "Non inzuppare troppo i savoiardi o si sfaldano.",
-    "origin": "IT"
+    "origin": "IT",
+    "meals": [
+      "dessert"
+    ]
   },
   {
     "id": "it-panna-cotta",
@@ -3391,7 +3395,10 @@
       "Versa negli stampini e fai rapprendere in frigo 4 ore."
     ],
     "tip": "Non far bollire la panna o perde cremosità.",
-    "origin": "IT"
+    "origin": "IT",
+    "meals": [
+      "dessert"
+    ]
   },
   {
     "id": "it-penne-alla-vodka",

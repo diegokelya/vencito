@@ -5,7 +5,7 @@
     "title": "Spaghetti mit Hackfleischsoße",
     "summary": "Der Klassiker für alle.",
     "minutes": 35,
-    "servings": 2,
+    "servings": 3,
     "side": "Salat",
     "ingredients": [
       {
@@ -341,7 +341,7 @@
     "title": "Käsespätzle",
     "summary": "Spätzle mit Käse und Röstzwiebeln.",
     "minutes": 30,
-    "servings": 2,
+    "servings": 4,
     "side": "Salat",
     "ingredients": [
       {
@@ -555,7 +555,7 @@
     "title": "Nudelauflauf mit Schinken",
     "summary": "Aus dem Ofen, mit viel Käse.",
     "minutes": 40,
-    "servings": 2,
+    "servings": 4,
     "side": "",
     "ingredients": [
       {
@@ -2557,7 +2557,7 @@
     ],
     "tip": "Mit Puderzucker bestäuben und mit Apfelmus oder Kompott servieren.",
     "meals": [
-      "breakfast"
+      "snack"
     ]
   },
   {
@@ -2617,7 +2617,7 @@
     ],
     "tip": "Mit Kirschen, Apfelmus oder Beeren servieren.",
     "meals": [
-      "breakfast"
+      "snack"
     ]
   },
   {
@@ -2926,7 +2926,8 @@
     "tip": "Den Teig so dünn wie möglich ausziehen: man soll den Tisch hindurch sehen.",
     "origin": "DE",
     "meals": [
-      "breakfast"
+      "snack",
+      "dessert"
     ]
   },
   {
@@ -3623,7 +3624,10 @@
       "Mit Zimtzucker und Butter servieren."
     ],
     "tip": "Ständig rühren, damit nichts anbrennt.",
-    "origin": "DE"
+    "origin": "DE",
+    "meals": [
+      "dessert"
+    ]
   },
   {
     "id": "de-rote-bete-salat",
@@ -3875,6 +3879,9 @@
       "Von beiden Seiten goldbraun backen und mit Zimt und Zucker bestreuen."
     ],
     "tip": "Den Teig 10 Minuten ruhen lassen, dann wird der Pfannkuchen fluffiger.",
-    "origin": "DE"
+    "origin": "DE",
+    "meals": [
+      "dessert"
+    ]
   }
 ]
