@@ -1255,6 +1255,8 @@
   "summary": "Arroz y carne horneados dentro de los morrones.",
   "side": "",
   "tip": "Pasalos 3 minutos por agua hirviendo si te gustan bien blandos.",
+  "makeAhead": "Podés dejar los morrones rellenos y armados en la fuente, tapados en la heladera, hasta 1 día antes; hornealos recién al momento de comer (sumá unos minutos si salen muy fríos).",
+  "serveAlt": "Convertí el relleno en tacos, o acompañá los morrones con arroz.",
   "ingredients": [
    {
     "name": "Morrón",
@@ -12939,6 +12941,91 @@
    "Batí la crema con la vainilla a punto blando.",
    "Rompé los merengues en trozos.",
    "Mezclá todo suavemente y serví enseguida."
+  ]
+ },
+ "us-beef-fajitas": {
+  "title": "Fajitas de carne",
+  "summary": "Tiras de bife marinado con morrones y cebolla, bien chisporroteantes.",
+  "side": "Arroz y porotos",
+  "tip": "Cortá el bife a contrapelo para que quede tierno.",
+  "ingredients": [
+   {
+    "name": "Bife",
+    "amount": "400 g"
+   },
+   {
+    "name": "Morrón",
+    "amount": "2"
+   },
+   {
+    "name": "Cebolla",
+    "amount": "1"
+   },
+   {
+    "name": "Lima",
+    "amount": "1"
+   },
+   {
+    "name": "Tortillas",
+    "amount": "6"
+   },
+   {
+    "name": "Condimento para fajitas",
+    "amount": "1 cucharada"
+   },
+   {
+    "name": "Sal",
+    "amount": "al gusto"
+   },
+   {
+    "name": "Aceite",
+    "amount": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Mezclá el jugo de lima, 1 cucharada de aceite, el condimento y sal, y marinná el bife 15 minutos.",
+   "Cortá el bife a contrapelo, y los morrones y la cebolla en tiras finas.",
+   "Sellá el bife en una sartén muy caliente 2 a 3 minutos por lado, dejalo reposar y cortalo fino.",
+   "Cociná los morrones y la cebolla en la misma sartén 5 minutos, volvé a poner el bife y calentá todo junto.",
+   "Calentá las tortillas y rellenalas."
+  ]
+ },
+ "us-buffalo-wings": {
+  "title": "Alitas Buffalo",
+  "summary": "Alitas de pollo crocantes al horno bañadas en salsa picante con manteca.",
+  "side": "Palitos de apio y aderezo de queso azul",
+  "tip": "Alitas bien secas y un poco de polvo de hornear dan piel crocante sin freír.",
+  "ingredients": [
+   {
+    "name": "Alitas de pollo",
+    "amount": "1 kg"
+   },
+   {
+    "name": "Salsa picante",
+    "amount": "1/3 taza"
+   },
+   {
+    "name": "Manteca",
+    "amount": "3 cucharadas"
+   },
+   {
+    "name": "Apio",
+    "amount": "2 tallos"
+   },
+   {
+    "name": "Polvo de hornear",
+    "amount": "1 cucharadita"
+   },
+   {
+    "name": "Sal",
+    "amount": "al gusto"
+   }
+  ],
+  "steps": [
+   "Secá muy bien las alitas y mezclalas con el polvo de hornear y sal.",
+   "Horneá sobre una rejilla a 220 °C durante 45 minutos, dándolas vuelta a la mitad, hasta que estén crocantes y doradas.",
+   "Derretí la manteca y mezclala con la salsa picante.",
+   "Bañá las alitas calientes en la salsa y serví con palitos de apio."
   ]
  }
 }
