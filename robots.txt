@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /pwa-test/
 
 Sitemap: https://vencito.app/sitemap.xml
