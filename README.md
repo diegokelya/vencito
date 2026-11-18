@@ -12,42 +12,15 @@
 - 🔒 [Política de privacidad · Privacy policy](https://vencito.app/privacy.html)
 - 🛟 [Soporte · Support](https://vencito.app/support.html) · [Issues](https://github.com/diegokelya/vencito/issues)
 
-## Qué hay en este repo · What's in this repo
+## Reportar un problema · Report a bug
 
-Este es el repositorio **público** de Vencito: el sitio del producto (GitHub Pages), la política de privacidad, la página de soporte y el canal de reportes. El código de la app es privado.
+- 🐞 [Reportar un problema · Report a bug](https://github.com/diegokelya/vencito/issues/new?template=problema.yml)
+- 💡 [Proponer una idea · Suggest an idea](https://github.com/diegokelya/vencito/issues/new?template=idea.yml)
+- 🛟 [Soporte · Support](https://vencito.app/support.html)
 
-*This is Vencito's **public** repository: the product website (GitHub Pages), privacy policy, support page and issue tracker. The app's source code is private.*
+Este repositorio es público y aloja el sitio del producto (vencito.app), la política de privacidad, la página de soporte y el canal de reportes. El código de la app es privado.
 
-```
-index.html        Sitio en español · Spanish landing page
-en/ pt/ fr/       Sitio en inglés, portugués (Brasil) y francés · English, Portuguese (Brazil), French
-it/ de/           Sitio en italiano y alemán · Italian, German
-privacy.html      Política de privacidad en los 6 idiomas — URL para App Store Connect y Play Console
-support.html      Soporte en los 6 idiomas — URL para App Store Connect y Play Console
-404.html          Página de error
-assets/           Estilos, script del demo, tipografías, ícono, capturas y videos
-tests/            Pruebas del demo (node --test tests/)
-robots.txt        Para buscadores, con el enlace al sitemap
-sitemap.xml       Páginas del sitio con sus versiones por idioma
-```
-
-## URLs para App Store Connect
-
-| Campo | URL |
-|---|---|
-| Support URL | `https://vencito.app/support.html` |
-| Marketing URL | `https://vencito.app/` |
-| Privacy Policy URL | `https://vencito.app/privacy.html` |
-
-## Publicar cambios · Publishing
-
-GitHub Pages sirve la rama `main` desde la raíz (*Settings → Pages → Deploy from a branch → main / (root)*). Cada push a `main` actualiza el sitio en uno o dos minutos. No hay build: es HTML, CSS y JS plano.
-
-Las tipografías (Familjen Grotesk, Onest y Doto, licencia OFL) están en `assets/fonts/`: las seis páginas principales cargan Google Tag Manager (`GTM-K9DC45S9`) para gestionar las etiquetas de medición.
-
-Para ver el sitio localmente: `python3 -m http.server` y abrir http://localhost:8000.
-
-Pruebas: `npm test` (sin dependencias; corre `node --test tests/`). También corren en GitHub Actions en cada PR que toca `app/`, `assets/site.js` o `tests/`.
+*This public repository hosts the product website (vencito.app), the privacy policy, the support page and the issue tracker. The app's source code is private.*
 
 ## Licencia · License
 
