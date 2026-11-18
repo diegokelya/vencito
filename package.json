@@ -1,6 +1,0 @@
-{
-  "name": "vencito-web",
-  "private": true,
-  "description": "Sitio de Vencito (estático). Las pruebas no tienen dependencias: node --test tests/",
-  "scripts": { "test": "node --test tests/" }
-}

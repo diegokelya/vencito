@@ -18,10 +18,10 @@
 - 💡 [Proponer una idea · Suggest an idea](https://github.com/diegokelya/vencito/issues/new?template=idea.yml)
 - 🛟 [Soporte · Support](https://vencito.app/support.html)
 
-Este repositorio es público y aloja el sitio del producto (vencito.app), la política de privacidad, la página de soporte y el canal de reportes. El código de la app es privado.
+Este repositorio es público y funciona como canal de reportes (issues) y soporte. El sitio (vencito.app) se publica desde otro repositorio y el código de la app es privado.
 
-*This public repository hosts the product website (vencito.app), the privacy policy, the support page and the issue tracker. The app's source code is private.*
+*This public repository is the issue tracker and support channel. The website (vencito.app) is published from another repository and the app's source code is private.*
 
 ## Licencia · License
 
-Contenido y código del sitio bajo licencia MIT. "Vencito" y el ícono son marcas del autor.
+Contenido bajo licencia MIT. "Vencito" y el ícono son marcas del autor.
